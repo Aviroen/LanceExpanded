@@ -1,0 +1,1452 @@
+{
+    //// ***配 置***////
+
+    "config.section.Content.name": "内容",
+    "config.section.Content.description": "修改mod中的活跃内容。请确保这些设置正确配置！",
+
+    "config.Override Generic Dialogue.name": "覆盖通用对话",
+    "config.Override Generic Dialogue.description": "覆盖通用的通用对话。仍然会改变某些对话，例如Welwick的预测和其他类似有趣的对话。如果你不打算和兰斯约会，请禁用此选项。",
+
+    "config.Use Beach Sprites": "使用海滩图像",
+    "config.Use Beach Sprites.description": "切换游戏是否调用海滩图像。如果你没有海滩图像并且使用的是自定义图像集，请将其设置为false。",
+
+    "config.Earring Colour": "耳环颜色",
+    "config.Earring Colour.description": "更改兰斯事件中赠送的耳环颜色。请选取最适合你的颜色。要在游戏中佩戴耳环，请安装时尚感包。",
+    "config.Earring Colour.values.gold": "金色",
+    "config.Earring Colour.values.purple": "紫色",
+
+    "config.Darker Plot Events(Y4)": "较黑暗的剧情事件（第4年）",
+    "config.Darker Plot Events(Y4).description": "启用显示兰斯创伤反应的较暗剧情事件。如果你想要更轻松的体验，我建议关闭此选项。注意：包含明显的自我毁灭倾向和模糊的自杀倾向暗示。可能会触发不适场景。（农民会被短暂绑架并被迫对事件保持沉默。）在这些事件中间切换关闭将阻止事件继续进行，你可以先试试看是否适合你。",
+
+    "config.Sprite": "Sprite",
+    "config.Sprite.description": "This toggles the Overworld Sprite.",
+    "config.Sprite.values.Use included": "使用包含的",
+    "config.Sprite.values.Use custom": "使用自定义",
+
+    "config.Portrait": "Portrait",
+    "config.Portrait.description": "This toggles the Portraits, if you toggle this off, you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
+    "config.Portrait.values.Use included": "使用包含的",
+    "config.Portrait.values.Use custom": "使用自定义",
+
+    "config.Spicier Content": "Spicier Content",
+    "config.Spicier Content.description": "You are warned that Pepper X is [Aviroen] letting the muzzle off my writer who is a thirsty dog. Carolina Reaper is more explicit than Habanero, Habanero is akin to RRRR's 'wine event' spice. Bell Pepper is rated-E for everyone.",
+    "config.Spicier Content.values.Bell Pepper": "Bell Pepper",
+    "config.Spicier Content.values.Habanero": "Habanero",
+    "config.Spicier Content.values.Carolina Reaper": "Carolina Reaper",
+    "config.Spicier Content.values.Pepper X": "Pepper X",
+
+    "config.HeartEvents": "HeartEvents",
+    "config.HeartEvents.description": "Resets ALL of my mod's heart events, default 'pause', toggle and save to activate.",
+    "config.HeartEvents.values.LanceExpanded": "LanceExpanded",
+    "config.HeartEvents.values.pause": "pause",
+
+    "config.LanceNewRoom": "LanceNewRoom",
+    "config.LanceNewRoom.description": "Changed Lance's room to be less morbid and actually useful for him lorewise.",
+    "config.LanceNewRoom.values.true": "true",
+    "config.LanceNewRoom.values.false": "false",
+
+    "config.Custom Wedding": "Custom Wedding",
+    "config.Custom Wedding.description": "Changes and mutes the original wedding event, adds Camilla in, moves it to Fable Reef. Specific to Lance. Turn this off if you're not marrying Lance.",
+    "config.Custom Wedding.values.true": "true",
+    "config.Custom Wedding.false": "false",
+
+    "config.Aviroen Magnus": "Aviroen Magnus",
+    "config.Aviroen Magnus.description": "Integrating just the basic clothes from my mod that followed Eskbl's art style for Magnus. Default Off.",
+    "config.Aviroen Magnus.values.true": "true",
+    "config.Aviroen Magnus.false": "false",
+
+    "config.Day 1 Toggle": "Day 1 Toggle",
+    "config.Day 1 Toggle.description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early.",
+    "config.Day 1 Toggle.values.true": "true",
+    "config.Day 1 Toggle.false": "false",
+
+    ////Misc stuff
+    "Friend": "朋友",
+    "Colleague": "同事",
+    "LancePortrait": "兰斯的肖像",
+    "Name.Lance": "兰斯",
+
+
+    /////////dialogue.json
+
+    //特殊对话
+    //"danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.danceRejectionCharacterDialogue_0": "啊，我...非常抱歉，我还不太习惯这个村庄，也不记得怎么跳舞了。$8",
+    "Lance.danceRejectionCharacterDialogue_1": "也许下次吧，我还在适应这里的环境。$8",
+    "Lance.danceRejectionCharacterDialogue_2": "也许你可以问问别人...? 我真的不觉得我是一个合适的舞伴。$8",
+    "Lance.danceRejectionCharacterDialogue_3": "抱歉，我不太懂舞步。$8",
+    "Lance.danceRejectionCharacterDialogue_4": "也许下次吧，这次我不太想跳舞。$8",
+    "Lance.danceRejectionCharacterDialogue_5": "抱歉，我不行，我有点累了。$8",
+
+    //"MovieInvitation": "{{i18n:Lance.MovieInvitationCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MovieInvitationCharacterDialogue_0": "啊，看电影？我很乐意。$14",
+
+    //"breakUp": "{{i18n:Lance.CharacterDialogue_breakup{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.CharacterDialogue_breakup0": "...我以为我们会享受彼此的陪伴，但看来我错了。$80#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_breakup1": "我不会说我理解，因为我真的不明白。$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_breakup2": "这对我来说比任何冒险都更打击，抱歉...我需要一些时间。$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_breakup3": "看来我看错你了，我想马格努斯是对的...$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_breakup4": "我不会为自己是谁而道歉，我了解自己。$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_breakup5": "...又一次短暂的感情，我猜...$81#$e#%兰斯无视你。",
+
+    //"divorced": "{{i18n:Lance.CharacterDialogue_divorce{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.CharacterDialogue_divorce0": "...我真的以为我们会永远在一起...$83#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_divorce1": "我不太确定还能做些什么来挽回，如果问题在于我...$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_divorce2": "我感觉...我们对未来的承诺是个谎言，我需要一些时间独处。$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_divorce3": "我真的以为你是我的真命天女，看来我错了，马格努斯又是对的...$81#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_divorce4": "我想我一时半会无法从这样的打击中恢复，我需要一些时间。$80#$e#%兰斯无视你。",
+    "Lance.CharacterDialogue_divorce5": "看来'永恒'对你来说太可怕了...你本可以在事情到这一步之前告诉我...$83#$e#%兰斯无视你。",
+
+    //"dumped_Guys": "{{i18n:Lance.CharacterDialogue.dumped}}",
+    "Lance.CharacterDialogue.dumped": "看到平凡的人被权力迷惑真是有趣。让我感到惊讶，我以为你会有所不同。$82#$e#%兰斯无视你。",
+
+    //"secondChance_Guys": "{{i18n:"Lance.CharacterDialogue.secondchance}}",
+    "Lance.CharacterDialogue.secondchance": "如果这真的是...你想要的...我愿意给它一个第二次机会。$82",
+
+    //"highlandsDwarf": "{{i18n:"Lance.CharacterDialogue_hDwarf{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.CharacterDialogue_hDwarf": "看到来自不同地区的矮人发明的东西真的很有趣。$8",
+    "Lance.CharacterDialogue_hDwarf1": "",
+    "Lance.CharacterDialogue_hDwarf2": "",
+    "Lance.CharacterDialogue_hDwarf3": "",
+    "Lance.CharacterDialogue_hDwarf4": "",
+    "Lance.CharacterDialogue_hDwarf5": "",
+
+    //"Resort": "{{i18n:"Lance.ResortCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.ResortCharacterDialogue_0": "终于是度假的时间了。$8",
+    "Lance.ResortCharacterDialogue_1": "不用担心火山，矮人们决定给我一天假期。$8",
+    "Lance.ResortCharacterDialogue_2": "我一直在等待能够休息的机会。$8",
+    "Lance.ResortCharacterDialogue_3": "你有兴趣享受阳光吗？别忘了防晒霜。$8",
+    "Lance.ResortCharacterDialogue_4": "公会不担心我的休息日，看来我的辛勤工作得到了回报。$8",
+    "Lance.ResortCharacterDialogue_5": "有兴趣喝点什么吗？这些饮品相当美味。$8",
+
+    //"Resort_Bar": "{{i18n:"Lance.Resort_BarCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_BarCharacterDialogue_0": "啊，我真爱皮纳科拉达！$15",
+    "Lance.Resort_BarCharacterDialogue_1": "喝醉了？有可能！$15",
+    "Lance.Resort_BarCharacterDialogue_2": "我很久没有放松了，这感觉真不错。$10",
+    "Lance.Resort_BarCharacterDialogue_3": "嗯...温暖的沙子踩在脚下，手中拿着饮料，这感觉真好。${{e11}",
+    "Lance.Resort_BarCharacterDialogue_4": "我不可能喝醉了 *打嗝* ...$15#$b#好吧，也许我有点醉了。$99",
+    "Lance.Resort_BarCharacterDialogue_5": "我没有你想的那么醉...$14",
+
+    //"Resort_Chair": "{{i18n:"Lance.Resort_ChairCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_ChairCharacterDialogue_0": "今天公会的事务不关我的事，我终于可以放松一下了。$8",
+    "Lance.Resort_ChairCharacterDialogue_1": "",
+    "Lance.Resort_ChairCharacterDialogue_2": "",
+    "Lance.Resort_ChairCharacterDialogue_3": "",
+    "Lance.Resort_ChairCharacterDialogue_4": "",
+    "Lance.Resort_ChairCharacterDialogue_5": "",
+
+    //"Resort_Dance": "{{i18n:"Lance.Resort_DanceCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_DanceCharacterDialogue_0": "晒太阳是我最喜欢做的事情之一。这会让我像慵懒的大猫吗？$8",
+    "Lance.Resort_DanceCharacterDialogue_1": "",
+    "Lance.Resort_DanceCharacterDialogue_2": "",
+    "Lance.Resort_DanceCharacterDialogue_3": "",
+    "Lance.Resort_DanceCharacterDialogue_4": "",
+    "Lance.Resort_DanceCharacterDialogue_5": "",
+
+    //"Resort_Entering": "{{i18n:"Lance.Resort_EnteringCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_EnteringCharacterDialogue_0": "我迫不及待地想好好享受一下！$15",
+    "Lance.Resort_EnteringCharacterDialogue_1": "",
+    "Lance.Resort_EnteringCharacterDialogue_2": "",
+    "Lance.Resort_EnteringCharacterDialogue_3": "",
+    "Lance.Resort_EnteringCharacterDialogue_4": "",
+    "Lance.Resort_EnteringCharacterDialogue_5": "",
+
+    //"Resort_Leaving": "{{i18n:"Lance.Resort_LeavingCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_LeavingCharacterDialogue_0": "真遗憾...但工作.....在召唤我了。$65",
+    "Lance.Resort_LeavingCharacterDialogue_1": "",
+    "Lance.Resort_LeavingCharacterDialogue_2": "",
+    "Lance.Resort_LeavingCharacterDialogue_3": "",
+    "Lance.Resort_LeavingCharacterDialogue_4": "",
+    "Lance.Resort_LeavingCharacterDialogue_5": "",
+
+    //"Resort_Shore": "{{i18n:"Lance.Resort_ShoreCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_ShoreCharacterDialogue_0": "小心不要被贝壳割伤，它们很锋利。$8",
+    "Lance.Resort_ShoreCharacterDialogue_1": "我喜欢听海浪拍打沙滩的声音，令人平静。$8",
+    "Lance.Resort_ShoreCharacterDialogue_2": "贻贝在篝火上烤制非常美味，如果你碰到一些，我可以为你烤。$8",
+    "Lance.Resort_ShoreCharacterDialogue_3": "%兰斯在吃椰子。#$b#!!!$18#$b#不好意思，我忍不住了。$8",
+    "Lance.Resort_ShoreCharacterDialogue_4": "如果你仔细听，你能听到世界的声音。$8",
+    "Lance.Resort_ShoreCharacterDialogue_5": "有时只是放松一下，感受脚下的沙子，也是很不错的。$8",
+
+    //"Resort_Towel": "{{i18n:"Lance.Resort_TowelCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_TowelCharacterDialogue_0": "%兰斯在打呼噜。",
+    "Lance.Resort_TowelCharacterDialogue_1": "",
+    "Lance.Resort_TowelCharacterDialogue_2": "",
+    "Lance.Resort_TowelCharacterDialogue_3": "",
+    "Lance.Resort_TowelCharacterDialogue_4": "",
+    "Lance.Resort_TowelCharacterDialogue_5": "",
+
+    //"Resort_Umbrella": "{{i18n:"Lance.Resort_UmbrellaCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_UmbrellaCharacterDialogue_0": "%兰斯正在通过魔法通讯。",
+    "Lance.Resort_UmbrellaCharacterDialogue_1": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_2": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_3": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_4": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_5": "",
+
+    //"Resort_Wander": "{{i18n:"Lance.Resort_WanderCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_WanderCharacterDialogue_0": "我想知道如果时间足够，我能在岛上找到什么东西。$99",
+    "Lance.Resort_WanderCharacterDialogue_1": "嗯，我在考虑是否应该扩大我的屏障。$9",
+    "Lance.Resort_WanderCharacterDialogue_2": "看来我有些漫步的心情，好久没有这样了。$8",
+    "Lance.Resort_WanderCharacterDialogue_3": "也许我会找到一些新鲜的贻贝，晚点享用。$1",
+    "Lance.Resort_WanderCharacterDialogue_4": "哦，你对我的贻贝发现感兴趣吗？给你。$15[719]",
+    "Lance.Resort_WanderCharacterDialogue_5": "海滩总是让我想要来一杯冰凉的饮料。$8",
+
+    //"GreenRain": "{{i18n:"Lance.GreenRain{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.GreenRain0": "...村民们躲在酒馆里？$15#$b#平凡的人总是被最随机的事情吓到。$8",
+    "Lance.GreenRain1": "绿色的雨一点也不危险，它实际上是对土地的恩惠。$8",
+    "Lance.GreenRain2": "我想我会装一些桶，稍后送给马格努斯，他总是让我做这些体力活。$8",
+    "Lance.GreenRain3": "我不太喜欢在这段时间来的蕨菜，但至少马格努斯会喜欢它们。$8",
+    "Lance.GreenRain4": "下雨天总是让我想找一本好书，喝点热饮，然后躲起来一段时间。$8",
+    "Lance.GreenRain5": "不用担心我，我可能会四处走走，为马格努斯收集一些雨水样本。$8",
+
+    //"GreenRainFinished": "{{i18n:"Lance.GreenRainFinished{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.GreenRainFinished0": "...它来得快，去得也快。$8",
+    "Lance.GreenRainFinished1": "我送给马格努斯的桶收获颇丰，他给了我们在利刃之首购买药水七折的优惠。$8",
+    "Lance.GreenRainFinished2": "我很享受，读书是我一个小小的爱好。$9",
+    "Lance.GreenRainFinished3": "你在雨中找到什么有用的东西了吗？$14",
+    "Lance.GreenRainFinished4": "雨水可能是无法预测的，特别是这种绿色的雨。$8",
+    "Lance.GreenRainFinished5": "我可能会更多地研究从马格努斯那里学到的药水酿造，我只是...得带点咖啡去。$8",
+
+
+    "wearEarrings": "{{i18n:WearEarring.{{Random:{{Range: 0, 5}}}}}}",
+
+    ////////////gift dialogue
+    "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "{{i18n:Lance.GiftAgedBlueMoonWine}}",
+    "AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
+    "AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
+    "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
+    "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////其他婚姻
+
+    //"MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriedWizardCharacterDialogue_0": "恭喜你，虽然马格努斯有些古怪，但至少他有颗善良的心。$8",
+    "Lance.MarriedWizardCharacterDialogue_1": "",
+    "Lance.MarriedWizardCharacterDialogue_2": "",
+    "Lance.MarriedWizardCharacterDialogue_3": "",
+    "Lance.MarriedWizardCharacterDialogue_4": "",
+    "Lance.MarriedWizardCharacterDialogue_5": "",
+
+    //"RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.RoommatesKrobusCharacterDialogue_0": "暗影人！真是有趣，我希望有一天能和他们见面，讨论讨论他们的事情。$8",
+    "Lance.RoommatesKrobusCharacterDialogue_1": "",
+    "Lance.RoommatesKrobusCharacterDialogue_2": "",
+    "Lance.RoommatesKrobusCharacterDialogue_3": "",
+    "Lance.RoommatesKrobusCharacterDialogue_4": "",
+    "Lance.RoommatesKrobusCharacterDialogue_5": "",
+
+    ////每日对话
+    //"Mon": "{{i18n:Mon.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Mon.Lance.CharacterDialogue_0": "我确实想念姜岛的阳光，这里的土地在呼唤...$3",
+    "Mon.Lance.CharacterDialogue_1": "卡米拉周一会请求我的帮助，说是想去烦一烦马格。$8",
+    "Mon.Lance.CharacterDialogue_2": "元素战争的余波仍然在这里蔓延，真是遗憾。$3",
+    "Mon.Lance.CharacterDialogue_3": "当你去荒原时，不论如何准备都不算多，请小心。$3",
+    "Mon.Lance.CharacterDialogue_4": "我通常在这里确保屏障没有问题。$2",
+    "Mon.Lance.CharacterDialogue_5": "卡米拉真的很喜欢压榨我的劳动力。$8",
+
+    //"Tue": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Tue.Lance.CharacterDialogue_0": "马龙给我讲述了他和妻子的冒险故事。$8",
+    "Tue.Lance.CharacterDialogue_1": "一旦吉尔对你感兴趣，他就不会再隐瞒自己。$8",
+    "Tue.Lance.CharacterDialogue_2": "利刃之首时不时接受清理矿山的委托，这是稳定的收入。$8",
+    "Tue.Lance.CharacterDialogue_3": "也许今天我会轻松一下，马龙没有给我什么任务。$8",
+    "Tue.Lance.CharacterDialogue_4": "你好 @，你想加入我和马龙讨论怪物二分法的话题吗？$8",
+    "Tue.Lance.CharacterDialogue_5": "对魔法剑术感兴趣吗？$8#$b#魔法剑术有点难以驾驭，我不介意教你一些技巧。$9",
+
+    //"Wed": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Wed.Lance.CharacterDialogue_0": "又是新的一天……嗯，我现在对金钱的概念已经很模糊了。$8",
+    "Wed.Lance.CharacterDialogue_1": "马龙真的能说个不停，但我想那是因为他从我年轻时就认识我了。$8",
+    "Wed.Lance.CharacterDialogue_2": "我在想这周卡米拉会不会烦我一些琐碎的任务，我根本就不怎么期待。$9",
+    "Wed.Lance.CharacterDialogue_3": "如果你打算探险矿山，请务必小心，准备充足总比准备不足好。$8",
+    "Wed.Lance.CharacterDialogue_4": "如果你有兴趣了解利刃之首的运作，随时可以来找我。$8",
+    "Wed.Lance.CharacterDialogue_5": "乔琳在问你下次什么时候来，我会回去告诉她的。$8",
+
+    //"Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Thu.Lance.CharacterDialogue_0": "想去火山探险吗？$8",
+    "Thu.Lance.CharacterDialogue_1": "小心这里的怪物，它们比鹈鹕矿洞的怪物更强。$8",
+    "Thu.Lance.CharacterDialogue_2": "如果你打算进入火山，你可能需要这个。$8[279]",
+    "Thu.Lance.CharacterDialogue_3": "记得时不时休息一下，勉强工作是最痛苦的事情。$8",
+    "Thu.Lance.CharacterDialogue_4": "如果你想聊天，我会在这附近，这里光跟鹦鹉说话挺无聊的。$8",
+    "Thu.Lance.CharacterDialogue_5": "我觉得雷欧对我很好奇。$8#$b#至少我觉得是这样，他有时会像爬树一样挂在我身上。$9",
+
+    //"Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Fri.Lance.CharacterDialogue_0": "那艘沉船在那里已经有一段时间了，我主要得照看-火山，因为当时它还活跃。$8",
+    "Fri.Lance.CharacterDialogue_1": "雷欧是个好孩子，尽管他觉得我的头发是糖果做的。$8",
+    "Fri.Lance.CharacterDialogue_2": "鹦鹉们有时会为我的辛勤劳动带来一些水果，我很感激它们的努力。$9",
+    "Fri.Lance.CharacterDialogue_3": "我不知道什么时候能得到下一个休息日...${e3}}",
+    "Fri.Lance.CharacterDialogue_4": "抱歉？$99#$b#我猜我刚才打盹了一会儿。$8",
+    "Fri.Lance.CharacterDialogue_5": "只是来消遣我的吗？$13",
+
+    //"Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Sat.Lance.CharacterDialogue_0": "屏障完好无损，我只是想稍作休息...$8#$e#%兰斯正在打瞌睡。",
+    "Sat.Lance.CharacterDialogue_1": "我很高兴这里的季节变化不大，否则我会被岛上的气候变化折磨....$8",
+    "Sat.Lance.CharacterDialogue_2": "这里的冬天是最糟糕的季节之一，我无法忍受不用什么包裹住全身。$8",
+    "Sat.Lance.CharacterDialogue_3": "如果你打算出去冒险，请务必小心，最近这里的怪物非常....亢奋。$3",
+    "Sat.Lance.CharacterDialogue_4": "对高地的隐士感兴趣吗？$8",
+    "Sat.Lance.CharacterDialogue_5": "我在想马格努斯是否愿意接受这些种子...$2",
+
+    //"Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Sun.Lance.CharacterDialogue_0": "我不太理解'周末'的概念。$8",
+    "Sun.Lance.CharacterDialogue_1": "有时候我会在那些暴躁的怪物身上发泄一下...这确实能平复情绪。$8",
+    "Sun.Lance.CharacterDialogue_2": "宝石鱼真是有趣，它们的颜色和色调都非常漂亮。$12",
+    "Sun.Lance.CharacterDialogue_3": "我在想今晚应该做点热乎的东西吃...$2#$e#%兰斯在考虑晚餐。",
+    "Sun.Lance.CharacterDialogue_4": "我确实担心有时候自己没有融入山谷，但我想你每次拜访我的时候，我做得还不错。$8",
+    "Sun.Lance.CharacterDialogue_5": "...宝石鱼真的能做成一顿美餐吗...?$3#$e#%兰斯正在思考...晚餐...？",
+
+
+    //"Mon1": "{{i18n:Mon1.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Mon8": "{{i18n:Mon8.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Mon15": "{{i18n:Mon15.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Mon22": "{{i18n:Mon22.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue2": "{{i18n:Tue2.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue9": "{{i18n:Tue9.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue16": "{{i18n:Tue16.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue23": "{{i18n:Tue23.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed3": "{{i18n:Wed3.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed10": "{{i18n:Wed10.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed17": "{{i18n:Wed17.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed24": "{{i18n:Wed24.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu4": "{{i18n:Thu4.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu11": "{{i18n:Thu11.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu18": "{{i18n:Thu18.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu25": "{{i18n:Thu25.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri5": "{{i18n:Fri5.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri12": "{{i18n:Fri12.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri19": "{{i18n:Fri19.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri26": "{{i18n:Fri26.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat6": "{{i18n:Sat6.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat13": "{{i18n:Sat13.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat20": "{{i18n:Sat20.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat27": "{{i18n:Sat27.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun7": "{{i18n:Sun7.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun14": "{{i18n:Sun14.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun21": "{{i18n:Sun21.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun28": "{{i18n:Sun28.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+    ////////////////////////////////////////////////////////////////////////////////////marriagedialogue.json
+
+    //"spring_Lance": "{{i18n:Lance.MarriageDialogue_Spring{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue_Spring0": "春天来了！$15#$b#我喜欢一切都感觉或者说闻起来都很新鲜的样子。$99",
+    "Lance.MarriageDialogue_Spring1": "虽然我在种植作物方面可能派不上什么用场，但如果你需要我在农场上帮忙，尽管开口，我的爱。$8",
+    "Lance.MarriageDialogue_Spring2": "冬天的寒冷终于过去了，现在感觉可以呼吸了，没有寒意了。$8",
+    "Lance.MarriageDialogue_Spring3": "我应该去检查一下我存放在高地的酒，它们现在应该已经好了。$15",
+    "Lance.MarriageDialogue_Spring4": "我对怪物的研究从未停止过，但春天总让工作感觉轻松一些。$8",
+    "Lance.MarriageDialogue_Spring5": "我在考虑在樱花树下小憩一下，你愿意陪我吗，我的爱？$13",
+
+    //特定日子
+    "Lance.MarriageDialogue.016": "我能感受到山谷充满了生机。春天到了...$9#$e#没有冬天，春天就不会被人那么珍惜。$13",
+    "Lance.MarriageDialogue.017": "我相信今天是复活节庆典。$14#$e#这是一个与山谷居民交谈的好机会。$15",
+    "Lance.MarriageDialogue.018": "我已经准备好参加花舞仪式了，我很乐意牵着你的手跳舞，我的宝贝。$13",
+
+    //"summer_Lance": "{{i18n:Lance.MarriageDialogue_Summer{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue_Summer0": "夏天是我魔力最强的时候，可以说这是火焰的季节，我也一样热情似火！$8",
+    "Lance.MarriageDialogue_Summer1": "夏天的炎热是个无声的杀手，小心不要让自己疲惫不堪。$3",
+    "Lance.MarriageDialogue_Summer2": "想要来点冰冰凉凉的东西吗，我的爱？我从冰箱里拿出来的。$8[233]",
+    "Lance.MarriageDialogue_Summer3": "我在度假时偶然发现了这些，只是想和你分享，我的爱。$8[265]",
+    "Lance.MarriageDialogue_Summer4": "记得保持水分，我的爱，我可不想把你传送到哈维那里。$8",
+    "Lance.MarriageDialogue_Summer5": "辣的食物总能帮助打败夏天的酷热。$8#$b#这听起来不合理？$14#$b#我猜你得试试我的拌冷面。$8",
+
+    //特定日子
+    "Lance.MarriageDialogue.020": "夏天刚开始对农民来说是个沉重的负担。$16#$b#拿着这个，我的爱。这会帮助你保持精力[349]。$12#$e#今天小心点，我的爱。$7",
+    "Lance.MarriageDialogue.021": "我为集体宴会准备了一道特别的菜肴，是用一个古老的家族食谱做的。$1",
+    "Lance.MarriageDialogue.022": "不要忘记今晚在海滩上的聚会，我的爱。$4",
+
+    //"fall_Lance": "{{i18n:Lance.MarriageDialogue_Fall{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue_Fall0": "秋天总是带来一种清爽的感觉。一杯好茶听起来不错。$12",
+    "Lance.MarriageDialogue_Fall1": "请暂时不要用节日音乐轰炸我，我还有一个季节可以享受。$14",
+    "Lance.MarriageDialogue_Fall2": "你对万灵节感到兴奋吗？$14#$b#听说索菲亚为我准备了一些东西...$12",
+    "Lance.MarriageDialogue_Fall3": "一杯好喝的印度奶茶听起来不错，如果你需要我的帮助，尽管告诉我，我的爱。$13",
+    "Lance.MarriageDialogue_Fall4": "今天想要依偎在一起，把工作放在一边吗？$8#$b#我开玩笑的，但我们总可以在忙完一天后找时间。$13",
+    "Lance.MarriageDialogue_Fall5": "马格努斯虽然不表现出来，但他确实喜欢每年布置万灵节的迷宫。$8#$b#我想他只是喜欢给人留下“哇！一个强大的法师！”这样的印象。$9",
+
+    //特定日子
+    "Lance.MarriageDialogue.024": "你也感觉到了吗？树木都进入了深度睡眠。$12#$e#微风轻轻吹落树叶。$8",
+    "Lance.MarriageDialogue.025": "我想吃一碗烤南瓜...$14#$e#*轻笑* 也许是秋天对我的影响。$8",
+    "Lance.MarriageDialogue.026": "这一年你辛苦了，我的爱。$15#$b#我期待你获得的成果可以配得上你的成就。$12",
+
+    //万灵节
+    //"fall_27": "{{i18n:Lance.MarriageDialogue.spirit.{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue.spirit.0": "召唤迷宫需要大量的法力。$6#$e#我需要喝一瓶特殊的药水来获得那种力量，但.....只能维持片刻。$5",
+    "Lance.MarriageDialogue.spirit.1": "这身衣服？$42#$b#索菲亚...说它很适合我...$65#$b#看起来奇怪吗？$66#$e#没有？它适合我？$42#$e#我接受你的夸奖。$15#$e#嗯？好吃？$42#$e#再热情点？$31#$e#好吃！$15#$e#怎么样？$65#$e#谢谢你的赞美，我的爱。$8",
+
+    //"winter_Lance": "{{i18n:Lance.MarriageDialogue_Winter{{Random:{{Range: 0, 15}},{{Hotspring}}_9}}}}",
+    "Lance.MarriageDialogue_Winter0": "寒冷来了。$3#$b#我不会拒绝待在室内，只是和你一起在壁炉前取取暖，我的爱。$13",
+    "Lance.MarriageDialogue_Winter1": "每年的这个时候总让我感到不安，怪物并不会真的进入“冬眠”，湖泊也很危险。$3",
+    "Lance.MarriageDialogue_Winter2": "有时候我会偷偷溜到祝尼魔森林，那里总是温暖的，他们似乎很喜欢看我的魔法。$8",
+    "Lance.MarriageDialogue_Winter3": "如果有机会，我们可以去澡堂取暖。$97",
+    "Lance.MarriageDialogue_Winter4": "我总是喜欢看到你脸上的寒冷表情，脸颊微红让你显得更加可人了。$13",
+    "Lance.MarriageDialogue_Winter5": "%兰斯正在玩火。#$e#啊，不好意思，我的爱，我只是觉得有点冷，想暖和一下。$42#$e#你想依偎吗？$43#$b#我永远不会拒绝你啦。$41",
+
+    //特定日子
+    "Lance.MarriageDialogue.029": "昨晚山谷被雪覆盖了。$14",
+    "Lance.MarriageDialogue.030": "魔法是最有效的钓鱼方式。这就是我的做法。$15",
+    "Lance.MarriageDialogue.031": "我想知道今年夜市的商贩会有什么商品？$14",
+    "Lance.MarriageDialogue.032": "我为你准备了一个特别的计划...$10",
+    "Lance.MarriageDialogue.033": "我在城堡村为你换来了这个。这是一颗“银河之魂”。[896]$15#$e#它会让你更强大。$7#$e#啊，我用什么换的？那是...一个秘密。$10",
+
+
+    //patio
+    //"patio_Lance": "{{i18n:LancepatioMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancepatioMarriageDialogue_0": "这些怪兽作物长势良好。$12",
+    "LancepatioMarriageDialogue_1": "%*兰斯正在哼唱*#$b#我一直都是个无可救药的浪漫主义者~$8#$b#总是被情侣包围着。$9#$b#我想这应该是一种特殊信号~$8",
+    "LancepatioMarriageDialogue_2": "哦，别介意我，我只是欣赏风景。$13#$e#什么风景？嗯哼~当然是你了。$7",
+    "LancepatioMarriageDialogue_3": "%兰斯自言自语地唱着。#$e#你可以背对着光。$37#$e#你甚至比我的太阳，我的星星更耀眼。$35#$e#你是完美的主角，整个世界都在你那双忧郁的眼睛里。$28#$e#我的救赎，我美丽的灵魂，我不相信你是个骗子。$37#$e#当我们的黑暗重叠时，让我把这一切都带走。$41#$e#我心中的主宰~$44#$e#我心中的主宰，我心中的主宰。$8你永远是美丽的~$35",
+    "LancepatioMarriageDialogue_4": "%兰斯自言自语地唱着。#$e#从没想过我会这么努力。$8从没想过我会这么沉迷。$13从没想过事情会变得如此复杂。$9我不应该对此毫不在意。$7我完全没有任何关系。$8从没想过我会这么在意。$7我，这个一天比一天愚蠢的人，我该怎么办，我该怎么办~$8",
+    "LancepatioMarriageDialogue_5": "我的歌声？$14#$b#我...我听说和植物对话有助于它们生长...$99#$b#我的歌声太扰人了吗？$14#$b#没有？我唱得不错？$99#$b#谢谢你，我的爱，我想我会继续我的努力。$15",
+
+    //indoors
+    //"indoor_Lance": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceindoorMarriageDialogue_0": "嗯。今晚该做什么饭呢...$3#$e#我又想吃点辣的东西了。$2#$e#我会用牛奶把它弄得温和些，我保证。$8#$e#看吧？我没有做得太辣。$8[218]",
+    "LanceindoorMarriageDialogue_1": "你好，我能不能推荐你尝尝我最新的作品？$8[215]#$e#我保证，这次用了更甜的辣椒。$9",
+    "LanceindoorMarriageDialogue_2": "我在考虑去烦一下马格努斯。$3#$b#今天对我来说有点慢节奏，我的爱。$8#$e#我需要点东西来点燃这一天，不是吗？$99#$e#也许你会喜欢我随手做的什么东西。$8[225]",
+    "LanceindoorMarriageDialogue_3": "%兰斯自言自语地唱着。#$e#不确定的声音在深处编织。$8#$e#平衡你的感受，循环流通。$9#$e#在螺旋之外，你可以伸出援手。$8#$e#继续前进，继续前进。$9#$e#追求成为比任何人都强的愿望，即使命运落入阴影，夜晚的漆黑底部。$8在这无尽的迷宫深处~$9",
+    "LanceindoorMarriageDialogue_4": "马格努斯批评了我前几天的恶作剧。$64#$e#我的头发可能有点乱。$65#$e#他向我脸上扔了一瓶药水。$8#$e#我回扔了一个火球。$62#$e#有时候我忍不住在他面前像个小孩。$8",
+    "LanceindoorMarriageDialogue_5": "卡米拉绝对全是坏心眼。$8#$e#她说我应该多对马格开玩笑，这显然会让他一段时间不再打电话给她。$9#$e#虽然我不反对向我的导师们展示他们生活中更美好的部分，但他们也太.....吓人了。$8",
+
+    //rainy day
+    //"rainy_Lance": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancerainyMarriageDialogue_0": "今天你愿意享受一个懒散的日子吗？$14#$e#我只是想蜷缩起来读本书。$8#$e#你可以随时加入我，我总是喜欢你陪陪我。$9",
+    "LancerainyMarriageDialogue_1": "有没有什么办法可以说服你今天和我待在室内？$13#$e#我们可以找点事情做。$4",
+    "LancerainyMarriageDialogue_2": "这...雨...让我...好...困...$8#$e#%兰斯正在打瞌睡。",
+    "LancerainyMarriageDialogue_3": "轻柔的雨声让我很容易入睡。$8#$e#这让我想起我年轻时的宁静日子。$9",
+    "LancerainyMarriageDialogue_4": "如果你愿意陪我，我可以从壁橱里拿出毯子，我们可以一起裹着读读书。$8",
+    "LancerainyMarriageDialogue_5": "我相信如果你不介意陪我，我们可以在室内找到一些事情做。$13",
+
+    //rainy night
+    //"Rainy_Night_Lance": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceRainy_NightMarriageDialogue_0": "啊，我的爱，你浑身都湿透了。$3#$b#来，我用魔法帮你把头发弄干。$8",
+    "LanceRainy_NightMarriageDialogue_1": "我已经为你准备好了一个热水澡，暖和一下，我的爱。$3#$b#有时候我希望你能在这些雨夜里陪我久一点。$8",
+    "LanceRainy_NightMarriageDialogue_2": "我猜你遇到坏天气了，你湿透了。$3#$b#来吧，我准备好了热水澡，看来你需要放松一下。$13",
+    "LanceRainy_NightMarriageDialogue_3": "跑完差事回来了吗？$14#$b#过来，我用魔法帮你暖暖身子，弄干头发。$8",
+    "LanceRainy_NightMarriageDialogue_4": "想喝杯茶吗，我的爱？$14#$b#外面天气很糟糕，来。$8[614]",
+    "LanceRainy_NightMarriageDialogue_5": "我在想你什么时候会回来。$8#$b#让我把你弄干净，准备好过夜。$9",
+
+    //indoor night
+    //"Indoor_Night_Lance": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceIndoor_NightMarriageDialogue_0": "我已经准备好放松一下了，公会似乎觉得我没别的事情可做。$8",
+    "LanceIndoor_NightMarriageDialogue_1": "我确实喜欢回家与你的陪伴和温暖，我的爱。$8#$b#我们今晚就在彼此的陪伴中放松吧？$13",
+    "LanceIndoor_NightMarriageDialogue_2": "我还有一些最后的事情要处理，应该很快就好，我的爱。$8#$e#%兰斯正在处理文件。#$e#搞定了...今晚我应该没事了。$9#$b#抱歉让你等了，我的爱。$13#$b#我们一起放松吧。$8",
+    "LanceIndoor_NightMarriageDialogue_3": "今天有什么好消息吗？$10#$b#感谢上帝，我度过了平静的一天，除非你认为被公会纠缠算忙碌的一天。$8",
+    "LanceIndoor_NightMarriageDialogue_4": "我们该早点睡了吗？$13#$b#我们可以提前结束一天，除非你有更有趣的事情在心上。$97",
+    "LanceIndoor_NightMarriageDialogue_5": "辛苦一天后能享受和我$husband^wife^爱人的舒适，还有什么能比这更好的呢？$8#$e#我只想整天抱着你，但我们都知道这样工作不会完成。$9",
+
+    //leave for work
+    //"funLeave_Lance": "{{i18n:LancefunLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancefunLeaveMarriageDialogue_0": "啊！美丽的$先生^小姐^爱人，这个可怜的骑士必须离开去工作了！$64#$e#我是不是太夸张了？$8#$e#我只是在工作时想念你。$9#$e#是的...是的...我现在就走，晚点见，我的爱。$8",
+    "LancefunLeaveMarriageDialogue_1": "公会需要我的注意。$8#$e#虽然我希望他们进一步减少我的工作巡逻，但我们确实人手不足。$9#$e#今晚见，我的爱。$8",
+    "LancefunLeaveMarriageDialogue_2": "希望乔琳今天不要取笑我。$8#$e#虽然我喜欢她的调侃，但我真的厌倦了被称为'被爱情束缚的男人'。$9",
+    "LancefunLeaveMarriageDialogue_3": "我不太喜欢离开你去处理公会的事务。$37#$e#有时我希望他们不要把我看得那么高，这样我就可以偷懒了。$36#$e#",
+    "LancefunLeaveMarriageDialogue_4": "%我问兰斯关于学徒的事情。#$e#嗯？马格努斯对你负有责任。$14#$b#我有点不同，我可以帮助你的魔法进步。#{{e8}}#$b#我们的角色类似，但也不同。$9#$b#更像是他是我们两个的守护者，而不是你唯一的魔法老师。$1#$b#根据公会的规定，我没有足够的经验带自己的学徒。$8#$b#不过我想，如果有更多时间离开你，只会让你更想念我，不是吗？$15",
+    "LancefunLeaveMarriageDialogue_5": "%我问兰斯关于魔法课的事情。#$e#哦？你终于开始注意马格努斯的课了？$8#$b#我开玩笑，有什么难题吗？$33#$e#嗯，电路和经脉？我猜如果你不习惯这些术语，会有点难以理解。$8#$b#你可以把电路想象成叶子的脉络，它们帮助水和营养等物质的循环。$2#$b#经脉就像人体的神经系统。把它们结合起来有点奇怪，但这就是我们这些有魔法天赋的人。$8#$b#当两者都得到适当的训练和压力时，你可以在马格努斯、卡米拉和我身上看到它的成果。$12#$b#虽然马格努斯的课有时很无聊，但他是在帮助你'魔法血管系统'的发展，这样你就能有能力施展魔法。$3#$b#我不是一个治疗师，所以在这方面我帮不了你。$8#$b#我能给你的是实际的课程，以及帮助你提升魔法'神经系统'的能力。$9#$b#它们不同，而马格努斯更像是'打开'你的血管系统，我则是'加压'你的神经系统。$4#$e#我什么时候有时间做这种事？$14#$b#嗯...你是个喜欢多休息的人。$99#$e#你伤害了我！你认为你的丈夫是个二流的法师吗？$3#$b#我开玩笑，但我确实有足够的耐力和意识，在可能的时候加压你的经脉。$13",
+
+    //ignored jobleave
+    //"jobLeave_Lance": "{{i18n:LancejobLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+    //return from work
+    //"funReturn_Lance": "{{i18n:LancefunReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancefunReturnMarriageDialogue_0": "我终于回家了！$8#$b#我只想泡个澡然后蜷缩在一起，可以吗？$10",
+    "LancefunReturnMarriageDialogue_1": "今天过得很平淡，我满脑子都是想念你的事，我的爱。$8#$b#很高兴回到家，享受你的温暖。$10",
+    "LancefunReturnMarriageDialogue_2": "%*兰斯自言自语地唱着*#$e#给我强硬的爱~$13#$e#推我，掐我直到我昏过去~$9#$e#把我关起来，把钥匙扔掉~$8",
+    "LancefunReturnMarriageDialogue_3": "%*兰斯自言自语地唱着*#$e#我想感受那种冲动~$9#$e#我想尝尝那种压迫感$11#$e#我想让你兴奋起来$13#$e#我想让你躺下~$13#$e#我想把你牵走~$7#$e#我想让你成为我的~$69",
+    "LancefunReturnMarriageDialogue_4": "",
+    "LancefunReturnMarriageDialogue_5": "",
+
+    //ignored jobreturn
+    //"jobReturn_Lance": "{{i18n:LancejobReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+    //outdoor dialogue
+    //"Outdoor_Lance": "{{i18n:LanceOutdoorMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceOutdoorMarriageDialogue_0": "哦，开始你的一天之前！$14[232]#$b#我想你会想要点小吃。$8",
+    "LanceOutdoorMarriageDialogue_1": "在你离开之前，我的爱，我给你准备了早餐。$8[201]#$b#我有足够的时间在你醒来之前准备好它。$10",
+    "LanceOutdoorMarriageDialogue_2": "如果你需要帮忙处理非作物相关的杂务，别犹豫开口。$8#$b#要吃早餐吗？这次简单点。$9[211]",
+    "LanceOutdoorMarriageDialogue_3": "如果你打算出去，我有东西给你。$10[240]#$b#我尝试了你的食谱，希望和你做的一样？$8",
+    "LanceOutdoorMarriageDialogue_4": "如果你今天不介意吃点辣的，我有点特别的东西。$8[226]#$b#我只是想要一个“一口就让人清醒的食物”，可以这么说。$9",
+    "LanceOutdoorMarriageDialogue_5": "如果你饿了，请告诉我，今天我没有公会事务要处理。$8#$e#午餐？当然，如果你不太忙，我本来打算和你一起吃午餐。$8[218]#$e#%兰斯和我一起度过了愉快的时光！",
+
+    //spouseroom specific
+    //"spouseRoom_Lance": "{{i18n:LancespouseRoomMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancespouseRoomMarriageDialogue_0": "我因为在实地工作的成就获得了怪物雕像的奖励。$13#$e#*轻笑* 我的某些同事相信它们是被冰封的怪物...$8",
+    "LancespouseRoomMarriageDialogue_1": "你觉得这套衣服怎么样？$65#$e#嗯？哦，这是我参加那些无聊的公会活动的礼服。$64#$e#它还适合我吗？$71",
+    "LancespouseRoomMarriageDialogue_2": "你不会相信卡米拉听到消息后对我说了什么！$15#$b#她叫你'处男杀手'！$65#$b#你不用担心，我的爱，除非你嫉妒了？$68",
+    "LancespouseRoomMarriageDialogue_3": "你养马是不是运动量很大？$56#$e#为什么这么问？$70#$e#没什么，没什么原因。$65",
+    "LancespouseRoomMarriageDialogue_4": "卡米拉来过了吗？$64#$e#没什么...没什么...好吧，她说她给我留下了一份'结婚礼物'。$76#$e#如果你发现什么可疑的东西，请告诉我。$77",
+    "LancespouseRoomMarriageDialogue_5": "%*兰斯立刻合上了一本书*#$e#我的爱！$65#$b#我能帮你什么吗？$66#$e#那是什么书？$70#$b#没什么，别为这操心，你美丽的头脑不必为此烦恼！$8",
+
+    //one kid
+    //"OneKid_Lance": "{{i18n:LanceOneKidMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+    "LanceOneKidMarriageDialogue_0": "我对%kid1的成长非常兴奋，他们的经脉正在逐渐成形。$14#$b#希望马格努斯不要因为又有一个小恶魔出现而感到烦恼。$15",
+    "LanceOneKidMarriageDialogue_1": "马格努斯告诉我，他不期待%kid1学会魔法的那天。$8#$b#他说什么他的头发还没从我把他当成地瓜人的闹剧中恢复过来。$15#$e#别这么看我，我喜欢烤红薯。$99",
+    "LanceOneKidMarriageDialogue_2": "即使%kid1不愿意加入公会，我们仍然会在他们成长的每一步支持他们。$13#$b#我相信我们，也相信你的爱也会传达给他们。$4",
+    "LanceOneKidMarriageDialogue_3": "当我们的孩子足够大时，我们应该一起环游世界。$99",
+    "LanceOneKidMarriageDialogue_4": "我会永远无条件地爱我们的孩子。$8#$e#他们会在这些年里成长和改变，我们会陪伴他们每一步。$97",
+
+    //two kids
+    //"TwoKids_Lance": "{{i18n:LanceTwoKidsMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+    "LanceTwoKidsMarriageDialogue_0": "哦..哦不..$14#$e#%兰斯看起来有些分心。#$e#啊！我的爱...$84#$e#%我问出了什么问题。#$e#嗯...%kid1和%kid2已经和我小时候一样是小恶魔了。$92#$b#而且我的新药水供应被洗劫一空。我真是...$94#$e#我感到很骄傲...$88#$e#抱歉，我的爱，这让我想起了我第一次见到马格努斯的回忆。$99#$b#我记得我把他的整个大锅都倒了，因为闻起来像是能吃的。$8#$b#叫我怀旧，但看到我们的孩子身上有我的影子，终于让我觉得我是个“父亲”。$97",
+    "LanceTwoKidsMarriageDialogue_1": "孩子们很喜欢节日，不是吗？$8#$b#我从来没有在一个地方呆足够久来享受节日，但我很高兴我们现在在一起。$9",
+    "LanceTwoKidsMarriageDialogue_2": "我想%kid1和%kid2真的把马格努斯当成祖父了...$3#$b#我该怎么告诉他们他并不是真的...嗯...$2#$e#%兰斯在安静地沉思。#$e#也许我应该请马格努斯做他们的祖父...?$14#$e#他会反对吗...?$3#$e#卡米拉一定会大发雷霆...$8",
+    "LanceTwoKidsMarriageDialogue_3": "我相信我们的孩子会继承我们俩的优点。$8",
+    "LanceTwoKidsMarriageDialogue_4": "我很庆幸 %kid1 和 %kid2 相处融洽。$8",
+
+    //良好关系
+    //"good_Lance": "{{i18n:LancegoodMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancegoodMarriageDialogue_0": "我的爱，又一次用他们的存在恩赐了我，每天能够沐浴在你的能量中都是美好的一天。$8#$e#我是不是有点夸张了？$14#$e#我只是回忆起我的冒险日子，觉得这些，这一切才是真正的幸福。$13",
+    "LancegoodMarriageDialogue_1": "%兰斯正在摆弄魔法。#$e#啊，我的爱！$14#$e#我在做什么？$99#$e#我只是...在欣赏你给我的美人鱼吊坠...$97#$e#我依然觉得这一切不真实，我猜我对你追求我的方式感到惊叹。$8#$e#不可避免的？$14#$e#我的调情？？$99#$e#我猜，我...我...其实没办法阻止这种不可捉摸的向你靠近的吸引力。$97",
+    "LancegoodMarriageDialogue_2": "%*我看到兰斯在镜子前做鬼脸*#$e#嗯？$70#$b#我在考虑锻炼锻炼我的技巧。$67#$e#什么技巧？$68#$e#你很快就会知道的。$65",
+    "LancegoodMarriageDialogue_3": "%*兰斯自言自语地抱怨*#$e#我需要新的裤子。$76#$e#我是不是该少吃蛋白质？$77#$e#但我讨厌为买菜多跑几趟。$76#$e#%兰斯继续自言自语地争论着。",
+    "LancegoodMarriageDialogue_4": "%*兰斯自言自语地唱着*#$e#我们这么年轻，男孩，我们无所畏惧~$8#$e#宝贝抱着我，因为我喜欢你的律动~$9",
+    "LancegoodMarriageDialogue_5": "但如果我在那里加一个传送门，那就太明显了。$76#$e#但这样我就不需要在姜岛巡逻时耗费那么多能量了...$64#$e#嗯，我需要问问卡米拉。$76#$e#%兰斯正在沉思些什么。",
+    "LancegoodMarriageDialogue_6": "嗯。嗯。嗯嗯嗯。$9#$e#%兰斯在哼唱某首流行歌曲。#$e#嗯！嗯嗯，这不是甜美吗，我想是的~$8#$e$%我好像知道这首歌...",
+    "LancegoodMarriageDialogue_7": "%*兰斯在摆弄魔法*#$e#但它和烟花一起看起来肯定很壮观，不是吗？$65#$e#庆祝活动必须有烟花...！$64#$e#%兰斯在考虑些什么。",
+
+    //中立关系
+    //"neut_Lance": "{{i18n:LanceneutMarriageDialogue_{{Random:{{Range: 0, 1}}}}}}",
+    "LanceneutMarriageDialogue_0": "我不喜欢看电视或用现代装置分散注意力。$3#$e#不过我喜欢在电影院看电影。$8#$b#在黑暗的房间里一起待在属于我们自己的世界里，有种亲密感。$97",
+    "LanceneutMarriageDialogue_1": "你祖父的神龛闻起来有魔法的气息。$3#$e#我想这是不是你有魔法天赋的原因。$8",
+    "LanceneutMarriageDialogue_2": "酒馆老板非常温暖和热情。在享受美食和饮品时让人感到宾至如归。$8#$b#我能理解为什么他的生意如此成功。$1#$e#我最近在试着更多地进城。$8",
+    "LanceneutMarriageDialogue_3": "我很快就需要去拜访一下我的公会。我快用完魔力药剂了。$3",
+    "LanceneutMarriageDialogue_4": "你有没有想过我们未来会搬到哪里？$14#$e#也许我们会买一个私人岛屿，在那里度过余生...$8",
+    "LanceneutMarriageDialogue_5": "酒馆有一批优质的季节性啤酒，比我去过的大多数酒馆的都好。$8",
+    "LanceneutMarriageDialogue_6": "如果你无聊了，我相信马格努斯不会介意借你书看的。$8#$e#不过你得小心处理它们。$9",
+    "LanceneutMarriageDialogue_7": "马格努斯研究古老的水果，而我研究怪物作物...$8#$e#在某种奇怪的方式上，我们的工作有点相似。$9",
+
+    //糟糕关系
+    //"bad_Lance": "{{i18n:LancebadMarriageDialogue_{{Random:{{Range: 0, 1}}}}}}",
+    "LancebadMarriageDialogue_0": "有时我觉得自己在你眼中像个幽灵...$3",
+    "LancebadMarriageDialogue_1": "*叹气* 我在一次魔法实验中毁坏了昂贵的稀有金属。$25#$e#真是可怕的浪费...$20",
+    "LancebadMarriageDialogue_2": "我们俩都经常不在家，我很少见到你...${{27}}#$e#我知道我们都很忙，但我们还是需要找时间在一起。$25",
+    "LancebadMarriageDialogue_3": "我能做得更好吗？我能做得更好吗？唉...$27",
+    "LancebadMarriageDialogue_4": "现在不要打扰我，@。$25",
+    "LancebadMarriageDialogue_5": "你有没有觉得我们进展得太快了？...$27",
+    "LancebadMarriageDialogue_6": "...$27#$e#%兰斯在无视你。",
+    "LancebadMarriageDialogue_7": "我以为我们彼此承诺过，如果情况变糟，我们会谈谈...$27",
+
+    //室内白天
+    //"Indoor_Day_Lance": "{{i18n:LanceIndoor_DayMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceIndoor_DayMarriageDialogue_0": "%*兰斯像是在和某人说话，一边翻找着文件。*#$e#卡米拉，是的，是的，但你和莱斯特谈过我的文件吗？$81#$e#好吧，是的，我知道他恨我，但他还是得做他的工作，不是吗！$82#$e#那又怎么关我的事？$80#$e#如果他只是想找个去海滩度假的借口，他可以直接说啊！$78",
+    "LanceIndoor_DayMarriageDialogue_1": "%*兰斯自言自语地哼着*#$e#%我隐约听到他在说歌词。#$e#美丽......轻松......来......停......破坏......我的......生活......$9#$e#握住...我的手..当...我们...跳舞...在...刀刃...的...边缘...$8#$e#%他继续哼唱。",
+    "LanceIndoor_DayMarriageDialogue_2": "%*兰斯自言自语地哼着*#$e#说你喜欢我的眼睛。$65#$e#而且你喜欢让我翻白眼。$67#$e#我会诚实。$8#$e#看着你让我想到废话~$9",
+    "LanceIndoor_DayMarriageDialogue_3": "%*兰斯自言自语地唱着*#$e#如果有另一个宇宙，请发出声音~$64#$e#这一定是天堂的样子~$9#$e#生活在土星上更好~$63#$e#必须打破这个模式，漂浮走远~$8",
+    "LanceIndoor_DayMarriageDialogue_4": "%*兰斯自言自语地唱着*#$e#我愿意让世界燃烧~$8#$e#只为了听到你喊我的名字~$9#$e#我会让所有人知道你是我的~$65#$e#现在只是时间问题~$8#$e#为了你让世界燃烧~$64",
+
+    //农场屋杂乱
+    //"SpouseFarmhouseClutter_Lance": "{{i18n:LanceSpouseFarmhouseClutterMarriageDialogue_{{Random:{{Range: 0, 2}}}}}}",
+    "LanceSpouseFarmhouseClutterMarriageDialogue_0": "如果你需要帮助打扫，请告诉我...$64",
+
+    //配偶嫉妒送礼
+    //"SpouseGiftJealous_Lance": "{{i18n:LanceSpouseGiftJealousMarriageDialogue_{{Random:{{Range: 0, 2}}}}}}",
+    "LanceSpouseGiftJealousMarriageDialogue_0": "有什么我应该知道的事情吗...?$79",
+
+    //屋内有怪物
+    //"Spouse_MonstersInHouse_Lance": "{{i18n:LanceSpouse_MonstersInHouseMarriageDialogue_{{Random:{{Range: 0, 2}}}}}}",
+    "LanceSpouse_MonstersInHouseMarriageDialogue_0": "怪物？！$22#$e#小心点！$21",
+
+    //星露谷礼物
+    //"SpouseStardrop_Lance": "{{i18n:LanceSpouseStardropMarriageDialogue_0}}",
+    "LanceSpouseStardropMarriageDialogue_0": "我其实没有用它，我在盖多兰交易时偶然得到了它。$8#$e#希望它对你有用，我的爱。$13",
+
+    //沙漠节日
+    //"DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}",
+    "DesertFestival_Lance_marriage0": "你喜欢这个节日吗？如果找到任何稀有的文物，告诉我。$8#$e#那个仙人掌商人...我从哪里认识他。但从哪里呢？...$3",
+    "DesertFestival_Lance_marriage1": "如果你想买什么东西，告诉我，我已经为家里准备了资金，以防你需要。$8",
+    "DesertFestival_Lance_marriage2": "哦，在我忘记之前！$99[CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg]#$e#我不需要它，但在为马龙工作时它们会偶然出现在我面前。$8",
+
+    //来自CS文件的字符串
+    "NPC.cs.3962": "...!! 我接受，谢谢你。$14#$e#我不知道你也有同样的感觉。$99/...!! 我接受，谢谢你。$14#$e#我不知道你也有同样的感觉。$99",
+    "NPC.cs.3963": "...你想更认真吗？我也有同样的感觉。$14#$e#我有点紧张。你不紧张吗？$99",
+    "NPC.cs.3965": "你刚刚订婚了！你在想什么？$23",
+    "NPC.cs.3966": "什么？你刚刚向别人求婚了吗？你疯了吗！$25",
+    "NPC.cs.3967": "嗯，你已经结婚了吗？$26",
+    "NPC.cs.3968": "你已经结婚了，你这个怪人！$20",
+    "NPC.cs.3969": "{0}现在不想和你结婚。",
+    "NPC.cs.3970": "你真奇怪。$23",
+    "NPC.cs.3971": "嘿。真是个笑话。$26",
+    "NPC.cs.3972": "哦！！ ... $14 #$b#@... 对不起，不行。我现在不能和你结婚。$3",
+    "NPC.cs.3973": "！！ 呃...对不起，我对你没有那种感觉...$6",
+    "NPC.cs.3974": "听着。我已经告诉你不行了！别烦我了。$23",
+    "NPC.cs.3975": "你已经问过我了。你到底哪里不明白'不行'？！$22",
+    "NPC.cs.3980": "...!!! $99#$b#我接受！！ $15#$b#...$14#$b#我会安排一切。我们将在3天后举行仪式，好吗？$15",
+    "NPC.cs.3981": "你今天已经给{0}送过礼物了。",
+    "NPC.cs.3985": "所以...我听说你今天偷偷送了{0}礼物...$23#$e#我需要对你保持警惕吗？$25#$e#...$26",
+    "NPC.cs.3987": "你已经给{0}本周送了{1}个礼物！够了。",
+    "Lance.Propose": "...!!!$14#$b#@...!$6#$b#你真的想和我结婚吗？$15#$b#如果这是真的——某种程度上，不可思议的是真的——那么好！毫无疑问的，好的！！$99#$b#我会安排一切。给我三天时间，我的爱。$10",
+
+    //兰斯 订婚
+    "Engagement.Lance.1.1": "我已经把邀请函寄给了所有我能想到的人...你写好了你的邀请名单吗？",
+    "Engagement.Lance.1.2": "我迫不及待地想知道我们的未来会怎样...",
+
+    //婚礼
+    "Wedding.MCall.01": "当@第一次来到鹈鹕镇时，没有人知道他是否能融入我们的社区...#$b#但从今天起，@将和我们一样成为这个镇的一部分！$h#$b#今天是%day季的%season日，我非常荣幸能为@和兰斯缔结婚姻的纽带。",
+    "Wedding.FCall.01": "当@第一次来到鹈鹕镇时，没有人知道她是否能融入我们的社区...#$b#但从今天起，@将和我们一样成为这个镇的一部分！$h#$b#今天是{0}季的{1}日，我非常荣幸能为@和兰斯缔结婚姻的纽带。",
+    "Wedding.01": "好吧，让我们直接开始吧！$h",
+    "Wedding.02": "既然你们有意缔结婚姻，就握住你们的右手，并在卡米拉和我面前宣布你们的心意。$h",
+    "Wedding.03": "@，兰斯，请跟我重复。@，你是否愿意接受兰斯作为你的合法丈夫，无论是在顺境还是逆境中，无论是在健康还是疾病中。$9#$b#爱他、珍惜他，直到死亡将你们分开——你愿意吗？呜哇*$10",
+    "Wedding.04": "咳！是的，好吧，*咳*。直到死亡将你们分开？$5",
+    "Wedding.05": "我愿意，兰斯，接受你作为我的丈夫。我承诺无论是在顺境还是逆境中，无论是在健康还是疾病中，忠实于你，爱你，珍惜你，直到死亡将我们分开。",
+    "Wedding.MCall.02": "我愿意，@，接受你作为我的丈夫。我承诺无论是在顺境还是逆境中，无论是在健康还是疾病中，忠实于你，爱你，珍惜你，直到死亡将我们分开。$66",
+    "Wedding.FCall.02": "我愿意，@，接受你作为我的妻子。我承诺无论是在顺境还是逆境中，无论是在健康还是疾病中，忠实于你，爱你，珍惜你，直到死亡将我们分开。$66",
+    "Wedding.07": "@... 兰斯... #$b# 作为鹈鹕镇的市长和地区婚姻印章的持有者，我现在宣布你们为合法夫夫！$h^兰斯... @... #$b# 作为鹈鹕镇的市长和地区婚姻印章的持有者，我现在宣布你们为合法夫妻！$h",
+    "Wedding.08": "你们可以亲吻对方了。",
+    "Wedding.09": "从现在起，生活将会有所不同...",
+    "Wedding.10": "...但未来充满光明！",
+
+
+    ///婚礼后派对
+    "Afterparty.01": "@... 我只想说...$9#$b#谢谢你选择了兰斯。$10",
+    "Afterparty.02": "卡米拉忍不住哭了起来...",
+    "Afterparty.03": "兰斯...$2#$b#我从他小时候就照顾他。${{e0}}#$b#我想已经至少有两百年了吧...?$9#$b#就在马格努斯把他从战场上救下来，还是个流鼻涕的小鬼的时候。$10#$b#他一直是个流浪者，曾经告诉马格努斯和我，他觉得自己不属于任何地方。$9",
+    "Afterparty.04": "当他告诉马格努斯和我他要和你结婚时...我们都很震惊。$9#$b#我们从没想到这个小恶魔会安定下来。$2#$b#但我想是你改变了他的想法！$6",
+    "Afterparty.05": "卡米拉握住了我的手。",
+    "Afterparty.06": "派对的其他人不会来我们这里。$2#$b#你可以在我的肩膀上尽情哭泣。$4",
+    "Afterparty.07": "当卡米拉说出这些话时，我的内心涌起了一股情感...",
+    "Afterparty.08": "我们都尽力了，你知道吗？$2#$b#我们知道你的父母不能来参加，但我们至少发了上千张你们的照片给他们！$9",
+    "Afterparty.09": "当我抓住她的长袍时，内心深处开始震颤。#我开始激动地哭泣。",
+    "Afterparty.10": "好了，好了，@。$2#$b#我知道... 我知道...$2",
+    "Afterparty.11": "卡米拉握着我的后脑勺，我无力地哭泣着。",
+    "Afterparty.12": "我们都曾感到孤独，我们是个重组的家庭，你知道吗？$9#$b#但现在我们都在这里，一起。$10",
+    "Afterparty.13": "当她抱着我的头时，我们在彼此的安慰中哭泣。",
+    "Afterparty.14": "*抽泣*$9#$b#你是兰斯家族的一部分，因此你也是我们家族的一部分。$6#$b#我迫不及待想知道你们两个将会加入到怎样的冒险中！$10",
+    "Afterparty.15": "一个新的家庭... 一个光明的未来... 我无所求了。",
+
+    ////礼物相关
+    "Gifts.Lance.Loved": "这对我很有用。非常感谢你。",
+    "Gifts.Lance.Liked": "啊，这是一个了不起的礼物。谢谢你。",
+    "Gifts.Lance.Disliked": "我想我可以用这个来练习魔法...",
+    "Gifts.Lance.Hated": "恐怕这不太适合我。",
+    "Gifts.Lance.Neutral": "也许我会找到方法来利用它。",
+    "Base.GiftReactionCategory_-7": "哦？是来丰富我已经相当广泛的美食口味吗？$8#$b#我开玩笑的，谢谢你。$13",
+
+    //约会
+    "Dating.Lance.Loved": "这对我很有用。非常感谢你。",
+    "Dating.Lance.Liked": "啊，这是一个了不起的礼物。谢谢你。",
+    "Dating.Lance.Disliked": "我想我可以用这个来练习魔法...",
+    "Dating.Lance.Hated": "恐怕这不太适合我。",
+    "Dating.Lance.Neutral": "也许我会找到方法来利用它。",
+    "Dating.GiftReactionCategory_-7": "我本来在考虑吃点新东西，收到食物的感觉真的很好。$8#$b#谢谢你，我的胃也感谢你。$15",
+
+    //已婚
+    "Married.Lance.Loved": "这对我很有用。非常感谢你。",
+    "Married.Lance.Liked": "啊，这是一个了不起的礼物。谢谢你。",
+    "Married.Lance.Disliked": "我想我可以用这个来练习魔法...",
+    "Married.Lance.Hated": "恐怕这不太适合我。",
+    "Married.Lance.Neutral": "也许我会找到方法来利用它。",
+    "Married.GiftReactionPreserved_Any": "你的手工艺品总是非常受欢迎的礼物，我的爱。$8#$b#我只是希望你不介意有时和利刃之首分享。$9",
+    "Married.GiftReactionCategory_-7": "我确实很喜欢你的家常菜，我的爱。$13#$b#它们给我漫长的工作日带来了安慰。$10",
+
+    ///////礼物对话
+    "Lance.GiftAgedBlueMoonWine": "这是优质的陈年酒...你说来自'蓝月亮葡萄园'？谢谢你！$99",
+    "Lance.Gift907": "啊，我开始感到饿了。$14#$b#谢谢你的热带咖喱！$99",
+    "Lance.Gift218": "这是...这是椰汁汤吗？$14#$b#我已经很久没有喝了，谢谢你的用心。$11#$b#它让我想起了家乡。$13",
+    "Lance.GiftGemfish": "我的天，它身上冒出了几十颗宝石！真是一个迷人的水中生物。$99",
+    "Lance.GiftTorpedoTrout": "看来你保护了寓言礁免受鱼雷鳟鱼的侵害！我很乐意接受这个。$8",
+    "Lance.GiftVoidShardpre": "你描述的那个掉落了虚空碎片的怪物听起来真是个强大的对手...$20#$b#而且核心散发出的能量难以理解...我会看看我能做些什么。谢谢你。$23",
+    "Lance.GiftStardropTea": "啊，这是一个意外的惊喜。我的味蕾现在将开始一次美妙的旅程！$15",
+    "Lance.GiftBDPos": "啊，又收到一份庆祝我们绕恒星一圈的礼物？真是太感谢了！$99",
+    "Lance.GiftBDNeg": "这是为我的生日准备的礼物吗？恐怕我不能接受这个。我希望你能理解。$8",
+
+
+
+
+    // 已婚礼物对话
+    "Married.GiftReaction_Dwarf_Scroll_I": "啊，你从矿井里发现了一个卷轴吗？$14#$b#我听说这些卷轴到处都是。$15#$b#嗯？你想让我帮忙翻译吗？别担心，我对矮人语很精通。$8",
+    "Married.GiftReaction_Dwarf_Scroll_II": "哦，准备好第二节课了吗？$15#$b#你还记得我们上次的课程吗？$14#$b#不记得了？$8#$b#那我该拿你怎么办呢？$9",
+    "Married.GiftReaction_Dwarf_Scroll_III": "第三次了，你还没记住第一课。$8#$b#我想你只是想听我说矮人语吧。$9#$b#我可以用任何语言对你耳语甜言蜜语，你只需开开口。$13",
+    "Married.GiftReaction_Dwarf_Scroll_IV": "第四卷是最有魅力的，对吗？$13#$b#你确定你不是因为发现了好几个才扔给我的吗？$8#$b#我不介意，我确实喜欢在闲暇时阅读这些。谢谢你，我的爱。$9",
+    "Married.GiftReaction_Ancient_Doll": "那是什么？$3#$b#我不觉得这很安全，我的爱，让我帮你处理掉它吧。$2#$e#%兰斯把玩偶烧了...",
+    "Married.GiftReaction_Elvish_Jewelry": "哦，真漂亮，我确实喜欢精灵的设计在阳光下闪闪发光的样子。$13#$b#这是给我的吗？$14#$b#你确定？$2#$b#那我得问问矮人们能不能给我做点什么回礼。谢谢你，我的爱。$13",
+    "Married.GiftReaction_Dinosaur_Egg": "一个蛋... 不... 这不太对。$14#$e#一颗恐龙蛋？$99#$b#我没想到矿井里的怪物还能繁殖...$14#$b#太有趣了！谢谢你，我的爱，我一定会启动一个新的研究项目！$99",
+    "Married.GiftReaction_Ancient_Sword": "我已经有不少剑的收藏了，我的爱。$8#$b#不过我还是会接受的。$13#$b#我猜马龙会对我的另一个“魔法剑”项目感到满意。$8",
+    "Married.GiftReaction_Ancient_Seed": "...虽然我知道这非常稀有和重要，但我感觉你好像在取笑我。$3#$b#马格努斯不是更好的接受者吗？$9#$b#哦，你想让我用它作为与马格努斯对话的借口？$99#$b#那我就不拒绝了...$8",
+    "Married.GiftReaction_Dwarvish_Helm": "%兰斯笑了起来。#$e#我的爱，你不能仅仅因为戴上矮人的头盔就能说矮人语！$15#$b#这是给我的吗？$14#$b#...我不太清楚我为什么需要这个，不过我想作为送给高地矮人的礼物也不错。$8#$b#谢谢你，我的爱，我一定会告诉他们这是你送的。$9",
+    "Married.GiftReaction_Dwarf_Gadget": "哦，一个翻译器！$99#$b#这是最新版本的，看到矮人的工作真是太有趣了。$8#$b#你想什么时候去拜访他们多聊聊吗？$13",
+    "Married.GiftReaction_Golden_Mask": "我知道你对魔法很感兴趣，我的爱，但这不是可以随便玩的东西。$20#$b#如果你不介意，我会把它交给马格努斯处理。$21#$e#%兰斯正在通过通讯魔法和马格努斯交谈。#$e#嗯，是的，我的意思是@把它告诉了我。$23#$e#我没做什么值得审查的事！$25#$e#听着，我晚点会把这个带给你，马格。这不是什么大问题。$26",
+    "Married.GiftReaction_Golden_Relic": "这至少比你上次给我的'金色'物件要不那么危险。$8#$b#我不用为这个麻烦马格努斯了。$9#$e#它有什么用？嗯...$3#$b#这个，我不太确定，我的爱，如果你真的好奇，你可以找马格努斯问问。$8",
+    "Married.GiftReaction_Wild_Horseradish": "啊，那是什么，'假的山葵'？$8#$b#我开玩笑，但说真的，我会偶尔享用新鲜的野山葵，特别是当你愿意把它和寿司一起带来时。$9",
+    "Married.GiftReaction_Daffodil": "水仙花茶很清爽，不是吗？$8#$b#我看你这个季节过得不错。$9#$b#谢谢你的小心意，我的爱。$8",
+    "Married.GiftReaction_Leek": "哦？我们今晚要做些亚洲风味的菜吗？$99#$b#你知道我喜欢任何来自东方的东西。$9",
+    "Married.GiftReaction_Dandelion": "蒲公英被认为是杂草，但我真的很喜欢把它们干燥后泡在美酒中。$8#$b#也许这只是我作为冒险者的本性，总是在荒野中寻找享受自己的方法。$9#$b#感谢你的心意，我的爱。$8",
+    "Married.GiftReaction_Parsnip": "我喜欢你的午餐，这是不是在暗示今晚想让我做饭？$99#$b#我不介意做饭，只要你说一声，我们就吃你喜欢的任何东西。$8",
+    "Married.GiftReaction_Cave_Carrot": "虽然粗糙，但洞穴萝卜营养丰富，特别是当你在地下困了很久的时候。$9#$b#我记得有一次在矿井迷路了一个多星期，马格努斯一直在唠叨我。$8",
+    "Married.GiftReaction_Coconut": "椰子是夏天最好的东西，不是吗？$13#$b#除非这是你想让我做我'著名'的泰式咖喱。$99#$e#别担心，我的爱，你可以随意加辣。$8",
+    "Married.GiftReaction_Cactus_Fruit": "我记得曾在沙漠中迷失了几天。$8#$b#马格努斯不太高兴我回来后皮肤像新生的蜥蜴一样。$9#$b#我不建议从这些中取水，我的爱，大多数都有毒。$8#$b#不过，根据你带来的品种，我没有问题做一杯龙舌兰果饮料来解渴。$13",
+    "Married.GiftReaction_Sap": "啊...你是担心我去高地的旅行吗？$14#$b#我保证，我的魔法充满了能量。$8",
+    "Married.GiftReaction_Large_Egg": "今天想吃点蛋类菜肴吗，我的爱？$8#$b#我们今天要吃什么？$9#$b#蛋包饭？$1#$b#泡菜炒蛋？$10#$b#或者今晚来些卤蛋做配菜？$8",
+    "Married.GiftReaction_Egg": "哦？今天要轻松点吗？$10#$b#你想尝尝我的特别菜'麻药鸡蛋'吗？$8",
+    "Married.GiftReaction_Hay": "干草，是给马吃的。$2#$b#我开玩笑的，但我不太明白你为什么给我这种东西，除非你要骑着我绕着院子跑...?$13",
+    "Married.GiftReaction_Egg": "哦？今天要轻松点吗？$10#$b#你想尝尝我的特别菜'麻药鸡蛋'吗？$8",
+    "Married.GiftReaction_Large_Egg": "今天想吃点蛋类菜肴吗，我的爱？$8#$b#我们今天要吃什么？$9#$b#蛋包饭？$1#$b#泡菜炒蛋？$10#$b#或者今晚来些卤蛋做配菜？$8",
+    "Married.GiftReaction_Milk": "今天是牛奶？$14#$b#我们要去一起泡牛奶浴吗？$99",
+    "Married.GiftReaction_Large_Milk": "你是在暗示今晚想喝奶油炖菜吗？$13#$b#如果你不介意我用掉一些蔬菜，我很乐意做。$8",
+    "Married.GiftReaction_Green_Bean": "我不太喜欢青豆...$3#$b#我知道这对我来说有点幼稚。$2#$e#只是...它的质地。$17#$b#简直令人讨厌。$18",
+    "Married.GiftReaction_Cauliflower": "我对花椰菜没有挑剔，无论是西兰花还是花椰菜。$8#$b#我确实有点偏好每顿饭都吃它们，我同意。$9",
+    "Married.GiftReaction_Potato": "嗯？你今晚不知道做什么菜吗？$14#$b#今晚的奶酪土豆听起来不错，不是吗？$13",
+    "Married.GiftReaction_Sugar": "这是傻瓜的甜品，是吗？$8#$b#我尽量少用它，但旧习难改。$9",
+    "Married.GiftReaction_Wheat_Flour": "嗯？今晚想吃点意大利面？$12#$b#我们想吃什么呢，我的爱？$13#$b#不过小麦粉主要用于泰国菜，所以我猜你今晚想吃泰式炒粉？$8",
+    "Married.GiftReaction_Oil": "今晚想吃炒菜吗？$12#$b#也许一些炒饭？$5",
+    "Married.GiftReaction_Garlic": "你知道我喜欢在所有东西里加蒜。$8#$b#如果那意味着饭后必须刷牙，我很抱歉，但这是值得的，不是吗？$9",
+    "Married.GiftReaction_Kale": "我不能说我喜欢甘蓝菜...$3#$b#我其实根本不喜欢吃这个，似乎总是让我肚子不适。$9",
+    "Married.GiftReaction_Tea_Sapling": "哦？今天有点想做茶艺吗？$13#$b#不过如果你想让我穿正式的服装，你也得一起穿。$8",
+    "Married.GiftReaction_Rhubarb": "你竟然能用这些东西做馅饼，真是太神奇了。$8#$b#无论如何，我感谢你的努力。$9",
+    "Married.GiftReaction_Melon": "想尝尝我的特别菜'低温甜瓜'吗？$8#$b#它让人感觉危险地美味，你知道吗？$9",
+    "Married.GiftReaction_Tomato": "又一个...我不太喜欢的食物...$3#$b#再次强调，质地对我来说很重要，而番茄绝对是那种让我不爽的东西之一。$8#$b#我知道，我知道，很幼稚。我控制不住。$9#$b#不，我不打算和德米特里厄斯争论番茄的具体分类。$8",
+    "Married.GiftReaction_Morel": "哦！今晚想吃蘑菇菜吗？$99#$b#我真的很喜欢这些和几乎任何东西一起吃的味道。$8",
+    "Married.GiftReaction_Blueberry": "嗯？！$14#$b#%我把蓝莓塞进了兰斯的脸上。#$b#!!!#{{e14}}#$b#虽然我确实喜欢所有的水果*咳*，但至少提前给我个说一声，我的爱。$99",
+    "Married.GiftReaction_Fiddlehead_Fern": "蕨菜？$2#$b#老实说，自从我和马格努斯一起生活以来，我就再也没吃过蕨菜...嗯，它们并不是特别好吃...$8",
+    "Married.GiftReaction_Hot_Pepper": "今天想吃点辣的，我的爱？$13#$b#我猜你是想让今晚的晚餐更辣一些。$8",
+    "Married.GiftReaction_Wheat": "你得原谅我做的粗糙的法式面包，我只知道几种食谱，但我会尽力而为。$8",
+    "Married.GiftReaction_Radish": "哦？今天想吃萝卜泡菜吗？$8#$b#它不会发酵，除非你想让我用魔法处理。$9",
+    "Married.GiftReaction_Red_Cabbage": "老实说，我很难喜欢卷心菜，除非它里面有肉，我知道你对这不太感兴趣。$8",
+    "Married.GiftReaction_Starfruit": "甜如蜜，软如棉，还有什么来着？$8#$b#哦，对了，充满希望？$9#$b#我觉得杨桃作为仪式许愿品的旧传说非常有趣。$8",
+    "Married.GiftReaction_Corn": "我们今天在做手工艺品吗？$14#$b#不是？$2#$b#哦！你是想让我再想想今天做什么吗？$15#$b#也许一些玉米粽子。$8",
+    "Married.GiftReaction_Unmilled_Rice": "要我把这个扔进磨坊吗，我的爱？$13#$b#我猜是因为你想今晚吃米饭。$8",
+    "Married.GiftReaction_Eggplant": "茄子和鸡蛋确实很搭，不是吗？$8#$b#我们今晚来点作为配菜吧？$9",
+    "Married.GiftReaction_Artichoke": "我确实喜欢吃海鲜饭，如果你抓到好的虾，请告诉我。$15",
+    "Married.GiftReaction_Pumpkin": "今晚吃南瓜浓汤，我的爱？$13#$b#或者你想要我著名的酿南瓜？$8",
+    "Married.GiftReaction_Bok_Choy": "我确实喜欢把海鲜和小白菜一起煮，请告诉我如果你不想要它像我平时做的那样辣。$8",
+    "Married.GiftReaction_Yam": "我一直分不清红薯和山药的区别...$3#$b#...它们的颜色不同？$14#$b#...我明白了...我一直把它们交替使用，谢谢你的信息，我的爱。$8",
+    "Married.GiftReaction_Chanterelle": "嗯... 甜... 辣... 也许今天就做个pad prik king吧？$8#$b#...那是什么？哦，对不起，这是泰式炒饭风格。我希望你期待今晚的晚餐。$9",
+    "Married.GiftReaction_Cranberries": "老实说，我只在酒里喝到过蔓越莓。$8#$b#这算是我以前冒险的习惯吧，寒冷夜晚里暖身的东西。$9",
+    "Married.GiftReaction_Holly": "你想用这些来装饰房子吗？$14#$b#...这不是槲寄生？$3#$b#哦！是为了给我旅行用的药物？$15#$b#谢谢你，我的爱，你总是为我着想。$13",
+    "Married.GiftReaction_Beet": "今晚想吃点色彩缤纷的菜吗？$8#$b#我会尽力而为，但我对甜菜不太熟悉。$9",
+    "Married.GiftReaction_Stone": "你是担心高地的危险区域吗？$8#$b#我向你保证，我的魔法火把和周围的屏障足以阻止那些怪物，不过谢谢你，我可能会在某个时候用到它。$9",
+    "Married.GiftReaction_Salmonberry": "这是季节的第一次收获，对吗？$8#$b#感谢你和我分享你的战利品，我的爱。$9",
+    "Married.GiftReaction_Amaranth": "...你是在告诉我需要减肥吗？$2#$b#不是？$99#$b#抗炎？$14#$b#哦，我向你保证，我在旅行时没问题，我的爱。$15#$b#不过我很感激你的心意，也许我会把这些传给马格努斯，因为他比我更擅长药剂。$8",
+    "Married.GiftReaction_Pale_Ale": "今晚想过个温暖的夜晚吗，我的爱？$13#$b#我们可以一直在壁炉前享受彼此的陪伴。$8",
+    "Married.GiftReaction_Hops": "我确实喜欢干一点的酒，不太喜欢那些会让我长'胡子'的啤酒。$8",
+    "Married.GiftReaction_Void_Egg": "...我希望你只是从科罗布斯那里买的这个，马格努斯曾警告过我他的前妻偶尔会逃跑，要小心。$20#$b#虽然我不担心她会影响我们在农场上的生活，但仍需小心，我的爱。$8",
+    "Married.GiftReaction_Mayonnaise": "我希望你这次记得不要加柠檬。$8#$b#我不太喜欢西式蛋黄酱的酸甜味。$9",
+    "Married.GiftReaction_Duck_Mayonnaise": "更咸一点的蛋黄酱？$14#$b#给我的吗？$99#$b#谢谢你，我的爱，你知道我喜欢你的三明治配上咸味的酱汁而不是甜的。$8",
+    "Married.GiftReaction_Void_Mayonnaise": "有趣，非常有趣。$3#$b#虽然我很好奇这是什么味道，但我觉得它可能在...不，我肯定会被卡米拉责备如果我把它用在马格努斯身上。$3#$b#我会把它留着以后用，谢谢你，我的爱。$13",
+    "Married.GiftReaction_Copper_Bar": "一块铜锭？$14#$b#你对我的魔法剑收藏感兴趣吗？$99#$b#虽然铜不被认为是最通用的材料，但它在保持热量方面还是很有用的。$8#$b#我想这只对我这种通常操控火焰的人有用。$9",
+    "Married.GiftReaction_Iron_Bar": "铁的用途比其他矿石多得多，我一定会带这个给马龙，看看我们能不能打造一把新魔法剑。$8#$b#谢谢你，我的爱。$9",
+    "Married.GiftReaction_Gold_Bar": "你想让我为你打造一个饰品吗？$14#$b#虽然我不擅长种植作物，但火焰工作是我的强项。$99#$b#我一定会为你想出点什么的。$8",
+    "Married.GiftReaction_Iridium_Bar": "铱？！$100#$b#你确定自己用不到它吗，我的爱？$14#$b#...做魔法剑用吗...?$3#$b#嗯...有趣，我确实可以用它做几把刀。$2#$b#谢谢你，我的爱，我会问问马龙有没有什么好主意。$8",
+    "Married.GiftReaction_Refined_Quartz": "精炼石英？$14#$b#你对魔法神器的使用感兴趣吗？$8#$b#我们可以私下上课，没有马格努斯的监视。$13",
+    "Married.GiftReaction_Honey": "哦，一个不错的糖替代品！$15#$b#如果你愿意，我会在今晚的晚餐中好好利用它，我的爱。$13",
+    "Married.GiftReaction_Pickles": "你对泡菜的制作过程感兴趣吗？$14#$b#这是一个相当漫长而凌乱的过程。$8#$b#我们可以在不忙的时候试试。$9",
+    "Married.GiftReaction_Beer": "浓烈的啤酒是我最不喜欢的，但我总是愿意和你一起享受它的温暖，我的爱。$8#$b#不过你得小心，如果让我喝太醉。$11",
+    "Married.GiftReaction_Wine": "我不喜欢单独喝酒，但我确实喜欢它们在食物中的味道。$8",
+    "Married.GiftReaction_Juice": "今晚不喝酒精饮料？我会尽量让它与今晚的菜肴相得益彰。$8",
+    "Married.GiftReaction_Basic_Fertilizer": "...我会把这看作你给我的建议，但你知道我在农活方面有多么无能。$3#$b#不过，我会为你留着这个，直到你需要它。$2#$e#我猜你现在需要它？$13[368]",
+    "Married.GiftReaction_Quality_Fertilizer": "...现在我知道你在开玩笑了。$8#$b#这是你告诉我你可以教我农活，而我教你魔法的方式吗？$9#$e#你知道我用不到它，所以我会还给你。$8[369]",
+    "Married.GiftReaction_Basic_Retaining_Soil": "我知道我擅长火焰魔法，但这不意味着我会烧掉整个农场，我的爱。$8#$b#我只是和农活不太合拍。$9",
+    "Married.GiftReaction_Quality_Retaining_Soil": "...我向你保证，我不会烧掉农场的，我的爱。$3",
+    "Married.GiftReaction_Clam": "蛤非常多用途，我确实喜欢蛤蜊浓汤。$8",
+    "Married.GiftReaction_Golden_Pumpkin": "给我的吗？你确定不想用它来做其他项目吗？$14#$b#我会试着把它卖给出价最高的人，谢谢你，我的爱。$8",
+    "Married.GiftReaction_Poppy": "这是罂粟吗？你知道曾是东方最常见的毒品。$8#$b#很遗憾它们被视为恶物.....啊，原来是虞美人，太好了，我喜欢虞美人籽松糕！$9",
+    "Married.GiftReaction_Spice_Berry": "很遗憾我们没有磨坊来处理这些香味浆果，你知道我喜欢种类繁多的香料。$8",
+    "Married.GiftReaction_Sea_Urchin": "哦？海胆是我最喜欢的寿司之一，如果你今晚想吃它，我会想出其他的菜肴搭配，我的爱。$8",
+    "Married.GiftReaction_Grape": "我知道葡萄对婴儿来说有窒息危险，但我仍然想用某种方式使用它的味道...$3#$b#也许等他们长大点再喝果汁。$8",
+    "Married.GiftReaction_Spring_Onion": "我得说，幸好你不讨厌洋葱或大蒜，否则我做的菜就麻烦大了。$8",
+    "Married.GiftReaction_Strawberry": "从商店买来的草莓总是好坏参半，但你种的总是味道最好的。$13#$b#我想知道这是因为农场，还是因为你的技能。$4",
+    "Married.GiftReaction_Sweet_Pea": "它们闻起来很香，不是吗？$8#$b#我得找个花瓶，把这些放进去，确保农舍更加舒适。$9",
+    "Married.GiftReaction_Common_Mushroom": "炒蘑菇通常是我的首选配菜，我想这是和马格努斯一起待太久的工作习惯。$8",
+    "Married.GiftReaction_Wild_Plum": "如果你感兴趣，我还记得做梅酒的配方，这些梅子看起来适合酿制深色酒。$8",
+    "Married.GiftReaction_Hazelnut": "嗯...榛子，我不太擅长做甜点，所以你得在这方面帮我，我的爱。$8",
+    "Married.GiftReaction_Blackberry": "热黑莓酒在冬夜里总是很不错，不是吗？$8#$b#愿意和我一起在火炉前享受这个吗？$9",
+    "Married.GiftReaction_Winter_Root": "我总是不确定'冬根'到底是什么。$3#$b#马格努斯说它们是一种红薯，但我持怀疑态度...$2",
+    "Married.GiftReaction_Crystal_Fruit": "漂亮，不是吗？我猜它们类似于其他季节性浆果，但它们在冬天生长的坚韧性让它们特别。$8",
+    "Married.GiftReaction_Snow_Yam": "啊，更多的山药？你想直接在火上烤这些吗？$14#$b#我不介意，如果你想和我一起享受小吃。$9#$e#来吧，我的爱，我已经烤好了。$8[208]",
+    "Married.GiftReaction_Sweet_Gem_Berry": "这...那是什么？$14#$b#宝石甜梅？$3#$b#稀有种子？$2#$b#哦！来自我的种子袋！$14#$b#我看到你成功地培育了它。$8#$b#我对它没有实际用途，公会只是想知道马格努斯当时的情况，并认为我会求他施舍种子。$9#$b#我会把这个还给你，你会比我更好地利用它，我的爱。$8[417]",
+    "Married.GiftReaction_Rice": "啊，老朋友，我摆脱不了对米饭的渴望。$8#$b#我希望你不介意我每顿饭都要吃米饭的习惯。$9#$b#谢谢你想着我，我的爱。$8",
+
+    // 怀孕期间的礼物反应
+    "Preg.GiftReaction_Void_Essence": "...希望你已经储备了一些精华，@。#$b#...因为如果你现在怀孕了还特意去矿洞探险只是为了给我送礼物，我会非常生气的。#$b#啊，你有储备？#$b#...我相信你，我的爱。",
+    "Preg.GiftReaction_Void_Soul": "...这是什么...#$b#...你去过盖多兰吗？#$b#...我能问一下原因吗？#$b#...我不想对你生气，我的爱，但在怀孕期间，你冒险穿越盖多兰的理由是什么？#$b#我...我需要冷静一下。#$b#%...兰斯不愿看我。",
+    "Preg.GiftReaction_Void_Shard": "......#$b#...我...#$b#...............#$b#...请给我一点时间。#$b#%兰斯不愿看我... 我想我这次真的让他很不高兴....#$e#原谅我。我还没准备好和你说话。#$e#...我真的不明白为什么你 insist 在怀孕期间让自己处于不必要的危险之中。#$b#你有没有考虑过如果在充满怪物的绯红荒原中发生意外会有什么后果？#$b#@，我深爱着你。#$b#你是我世界的光，是我天空中的唯一明星。#$b#请，我求你了。#$b#不要让自己处于更多不必要的危险之中。#$b#我无法承受同时失去你和我们孩子的想法。#$b#请不要再这样做了。",
+    "Preg.GiftReaction_Red_Plate": "啊！这道菜，红之盛宴据说可以减少恶心，是不是！？#$b#为什么你要给我这个，我的爱？你不更需要它吗？#$b#啊！等一下，请让我尝一尝！#$b#我会趁机了解它的味道和成分，这样我就可以为你随时召唤它！",
+    "Preg.GiftReaction_Rice_Pudding": "啊！这是用米做的吗？#$b#我读过米饭和其他易消化的淀粉类食物是对${{those with child^expecting mothers}}理想的食物。#$b#你确定不想自己吃吗？#$b#...如果你坚持。",
+    "Preg.GiftReaction_Banana_Pudding": "香蕉布丁？#$b#你确定不该你吃吗？#$b#我的研究表明，香蕉是一种理想的清淡食物，有助于在这个微妙的时期确保你摄取足够的营养。#$b#啊...我们分着吃怎么样？#$b#这将是一个不错的妥协，不是吗？",
+    "Preg.GiftReaction_Ginger_Ale": "嗯？你要把这个给我？#$b#你确定它对你没有更大的用处，我的爱？#$b#我的研究表明，姜和碳酸饮料都有抑制恶心的作用。#$b#...啊，如果你坚持，但如果你需要，不要犹豫要回来。",
+    "GiftReaction_Salmon_Dinner": "嗯？鲑鱼？#$b#啊！这蛋白质含量相当高，不是吗？#$b#你不该自己吃吗？#$b#...如果你坚持，我的爱。",
+    "Preg.GiftReactionCategory_-7": "嗯？给我的？你确定吗，我的爱？#$b#请不要觉得在这种微妙的情况下还要为我做饭是你的义务。#$b#如果有的话，应该是我为你做饭！#$b#虽然我的烹饪可能只是简单的碳化食物。",
+    "Preg.GiftReaction_Blue_Moon_Wine": "嗯？葡萄酒？#$b#你不觉得现在庆祝还为时过早吗，我的爱？#$b#我会保留这个，直到我们抱着孩子，你完全康复。#$b#...‘自己享受’？#$b#我一个人喝酒有什么乐趣可言？",
+    "Preg.GiftReaction_Radiation": "啊！！#$b#%兰斯打了个响指，我手中的东西还没反应过来就消失了....#$b#@！你在想什么！？#$b#你怎么能在怀孕期间考虑处理这种危险的材料？！#$b#....我....！#$b#.....对不起，我需要冷静一下。#$e#%兰斯这次真的很生气....",
+    "Preg.GiftReaction_Magic_Rock_Candy": "啊....谢谢你，我的爱，但你应该自己享用。#$b#毕竟是你在怀我们的孩子！即使它只是一种独特的糖果，它所提供的魔法益处也不容小觑。#$e#啊...如果你坚持。#$b#请不要犹豫，如果你改变主意告诉我。",
+    "Preg.GiftReaction_Void_Eel": "...我希望你不是为了给我准备餐食而特意去危险的地方钓鱼，我的爱。#$b#虽然我有时会尝试新菜肴，但我不希望你在脆弱的状态下受到任何伤害...#$b#请好好照顾自己，我的爱。钓鱼可以等。",
+    "Preg.GiftReaction_Ghostfish": "....我希望你不是怀孕期间进矿洞只是为了给我带来一条新奇的鱼，我的爱。#$b#如果是这样，我会非常不高兴....",
+    "Preg.GiftReaction_Lava_Eel": "....我希望你不是在怀孕期间进入矿洞处或接近活火山，只是为了给我带来一条新奇的鱼，我的爱。#$b#如果是这样，我会非常不高兴....",
+    "Preg.GiftReaction_Undeadfish": "....！#$b#在怀孕期间做的所有鲁莽事情中，你居然选择在那么糟糕的地方钓鱼！？#$e#....坦白说，我不确定现在我说什么你能听得进去，@。#$b#...只求你小心。#$b#为了你自己，也为了我们的未出生的孩子....",
+    "Preg.GiftReaction_Gemfish": "...是否有必要穿越充满怪物的山脉，只是为了收集一个有趣的标本给我，我的爱？#$b#我不想限制你的自由，但有时我非常担心你的鲁莽行为....",
+    "Preg.GiftReaction_Warp_Totem:_Farm": "啊，一个归家的图腾。#$b#你确定我应该是那个使用它的人吗？毕竟你怀孕了。#$e#坦白说，我能克制住自己不把你埋在一堆这种东西下面已经是个极大的自制力考验了。",
+
+    // 兰斯节日对话
+    "eggfestival.lance.1": "你试过水果饮料吗？据说这是格斯家传的食谱。$14#$e#那个紫发女孩眼中有种决心。$3#$b#她有些特别。我无法确切说出是什么...$6",
+    "flowerdance.lance.1": "也许在舞蹈仪式结束后，我会和马格努斯一起去悬崖边。$8",
+    "luau.lance.1": "今天本来应该下雨的。幸运的是，我有材料做了一个太阳图腾。$12#$e#也许有一天我会教你怎么做。它们需要火山晶石。$8",
+    "moonlight.lance.1": "我对月亮水母（你们称之为‘月光水母’）非常熟悉。$14#$b#它们在姜岛是常见但受欢迎的景象。$8#$e#魔法学者认为它们曾经是魔法生物。$9",
+    "fair.lance.1": "*咔嚓* 这些汉堡...！$14#$e#我已经吃了五个了。$15",
+    "spirit.lance.1": "*轻笑* 炫耀...$8#$e#马格努斯拥有巨大的力量。$9",
+    "spirit.lance.2": "我们今年捕获了很多怪物。$1#$e#这是一个向普通人展示世界危险的好机会。$4",
+    "ice.lance.1": "我不能说自己擅长用钓竿。$14#$b#你真的很有天赋。$15",
+    "winterstar.lance.1": "冬日星之树真是壮观...$14",
+
+    // 兰斯在床上的对话
+    "LanceinBed1": "你是今天我醒来看到的第一个人。啊....我今天别无所求了。$10",
+    "LanceinBed2": "*打哈欠* 再睡五分钟...$11",
+    "LanceinBed3": "早安。虽然有点挤，但我们把身体凑在一起就不是问题了。$13",
+    "LanceinBed4": "你睡得好吗？我很快就回农舍。$8",
+
+    // 兰斯的特别任务
+    "Lance.SpecialOrderName": "怪物作物",
+    "Lance.SpecialOrderText": "培养从高地怪物那里获得的作物种子，以帮助兰斯进行研究。",
+    "Lance.SpecialOrderSpring": "交付春季怪物作物给兰斯。",
+    "Lance.SpecialOrderSummer": "交付夏季怪物作物给兰斯。",
+    "Lance.SpecialOrderFall": "交付秋季怪物作物给兰斯。",
+    "Lance.SpecialOrderWinter": "交付冬季怪物作物给兰斯。",
+
+    // 常见对话
+    "Lance.Eplise": "...",
+    "Lance.Ahem": "*清嗓子*",
+    "Lance.AhName": "啊，@。",
+    "Lance.NameI": "@，我...",
+    "Lance.Chuckle": "*轻笑*",
+
+    // 威尔威克评论
+    "Welwick.Base": "啊，是的...我的水晶球中闪现着你的未来，年轻人。我预见到了你的到来...主要是因为兰斯兴奋地告诉了我...",
+    "Welwick.Money": "你没有足够的钱支付我的费用...真遗憾...也许可以试着问问兰斯...？",
+    "Welwick.Prediction.1": "哦...一片黑暗，我看到你和一个英俊的男人。他非常渴望保护你，也许甚至有点过于渴望...我看到的是魔法的闪光吗？",
+    "Welwick.Prediction.2": "啊...水晶球变暗了。这就是我能为你做的一切了，年轻人。我相信兰斯会急切地想听到结果。",
+    "Welwick.Prediction.3": "现在我看到你和兰斯在森林深处。哦，我的天，你们看起来非常高兴地一起度过了一段非常私密的时光。",
+    "Welwick.Prediction.4": "现在我看到你和兰斯在沙滩上。那是乔琳吗？如果你们碰面了，代我向她问好。",
+    "Welwick.Prediction.5": "哦...一片黑暗，我看到你和一个英俊的男人。哦，他真是急于取悦你，不是吗？等等，居然在一个洞穴里！",
+    "Welwick.Prediction.6": "哦...一片黑暗，我看到你和一个英俊的男人。嗯？在战场上调情？真是丑闻！",
+    "Welwick.Prediction.7": "现在我看到你和{0}在广阔的寓言礁上俯瞰。哦，你们看起来很高兴地一起度过了一段非常私密的时光。",
+    "Welwick.Prediction.8": "现在我看到你和{0}在等待火车的到来。他看起来很认真...但并不是不开心。一定有重要的事情正在发生。",
+    "Welwick.End": "我已经为你读过运势了...去做点别的事吧。...顺便说一句，很期待晚餐。",
+
+
+
+    ////杂项字符串
+    "BouquetReject.1": "还不是时候。",
+    "BouquetReject.2": "{0} 还没有准备好接受这个。",
+
+    ////婴儿相关字符串
+    "NewBaby.Question": "{0}... 你怎么看，我们要个孩子怎么样？",
+    "NewAdopt.Question": "{0}... 你怎么看，我们领养一个孩子怎么样？",
+    "AdoptMessage.Player": "夜间，我们收到了公会的通知，我们的孩子将在早晨到来！",
+    "BirthMessage.Player": "我内心感到一阵悸动。难道是宝宝要出生了？",
+    "BabyNaming.Male": "如果是男孩，我们应该给他取什么名字？",
+    "BabyNaming.Female": "如果是女孩，我们应该给她取什么名字？",
+
+    ////事件字符串
+    "Lance.Egg2": "不，我不会去找彩蛋的。$8#$e#我会忍不住去争夺它们。$15",
+    "Lance.Flower2": "我很久以前学过跳舞...$14#$e#嗯，反正只上过一节课。$8",
+    "Lance.Luau2": "我希望州长的旅程没有遇到什么麻烦。$3#$e#通常，他们会雇佣雇佣兵提前清理道路。$4",
+    "Lance.Jellyfish2": "你知道吗，海洋深处可能有我们无法想象的怪物。$2#$e#这是一个很有趣的想象。$4#$e#是的，是的，我也在享受这些水母。$8",
+    "Lance.Fair2": "我期待看到你在展览中的表现。$14#$e#你总是能用你农场生产的东西让我惊叹不已。$99",
+    "Lance.Halloween2": "在这个节日期间，怪物有没有成功逃脱过？嗯...$3#$e#这是一个可以问问马格努斯的问题。$8",
+    "Lance.Ice2": "每年这个时候天气变冷，总让我想出发去更温暖的地方。$8#$e#这就是当冒险者的好处。$7",
+    "Lance.Christmas2": "我觉得这个节日里镇上的精神最强烈。$13#$e#这是一种只有小镇才能产生的友爱，每个人都关心彼此。$12",
+
+    ////地图字符串
+    "SpouseRoom.1": "兰斯的室内花坛。有时他会让我帮忙确保没有植物枯死...",
+    "SpouseRoom.2": "我想知道这个季节会长出什么？",
+    "SpouseRoom.3": "这里没有种怪物作物，这些只是魔法种子。",
+    "SpouseRoom.4": "备用梯子，以备修理农舍时使用。",
+    "SpouseRoom.5": "一个地窖的门。兰斯说等他找到钥匙后会给我。",
+    "SpouseRoom.6": "一个桶...? 当我看进去时，我闻到了类似火药的气味。",
+    "SpouseRoom.7": "兰斯肯定不缺吃的，但他总是抱怨想吃我做的家常菜。",
+    "SpouseRoom.8": "马格努斯给兰斯提供魔力药剂之类的，我猜这是兰斯储存这些东西的地方。",
+    "SpouseRoom.9": "他说这是一个‘应急计划’，如果他想让我和他一起吃饭，我没有问题。",
+
+
+    //// 信件内容
+    "Mail.1Heart": "你好 @,^^我再次想感谢你帮助我那些种子。最终公会决定把任务交给马格努斯来处理。^别告诉他，我有点不高兴。^随意保留这些农产品和战利品吧。^它们在你手中肯定比在我手中好。^^真挚的,^兰斯 (: [#]公会管理",
+    "Mail.2Heart": "@!,^^你带来的那些怪物作物让我的研究获得了更多的资金！^^如果你有什么需要，请随时告诉我。^^真挚的,^兰斯 [#]兰斯的感激",
+    "Mail.3Heart": "@,^^希望这封信能让你心情愉快，矮人向你致意，还开了一家新店！^^随时欢迎你光临。^^真挚的,^兰斯 [#]高地安全",
+    "Mail.3Heart.handle": "@!^^我和矮人聊了聊你的辉煌战绩，我很佩服你！^^他们对你赞不绝口！^^告诉我你什么时候过来，我们可以一起聊聊。^^真挚的,^兰斯 [#]高地安全",
+    "Mail.3Heart.offer": "@,^^虽然我觉得你的勇气令人鼓舞，但我认为这次探险对你来说太危险了。^^如果我表现得有点自大，请原谅我，我只是关心大家的安全。^^真挚的,^兰斯 [#]高地安全",
+    "Mail.4Heart": "@,^^我写这封信是想告诉你有许多魔法物品可以找到。^^如果你对此有兴趣，请不要犹豫问我。^^真挚的,^兰斯 [#]学徒的问题",
+    "Mail.5Heart": "@!^^别太在意卡米拉。^^她对我来说也很棘手。^^如果你不喜欢，我会尽量让她少调情。^^真挚的,^兰斯 [#]导师，卡米拉",
+    "Mail.6Heart": "@...^^我为那天的行为道歉...^^希望你能原谅我态度的转变。^^真挚的,^兰斯 [#]兰斯的道歉",
+    "Mail.7Heart": "@!^^马龙向你致意，当你抓到我们像老朋友一样聊天时。^^我在你的陪伴中找到了乐趣，想告诉你这一点。^^真挚的,^兰斯 [#]冒险者的信条",
+    "Mail.8Heart": "亲爱的 @,^^利刃之首的每个人都很喜欢你，如果你需要雇佣兵护送，随时问我！^^真挚的,^兰斯 [#]利刃之首",
+    "Mail.9Heart": "亲爱的 @,^^如果我表现得过于强势，请原谅我，我看着兰斯长大，他一直很轻率。^^如果那个男人能找到一个安定下来的伴侣，那么我们在利刃之首也很乐意接受。^^如有需要，不要犹豫联系我们。^^真挚的,^乔琳 [#]乔琳的关心",
+    "Mail.10Heart": "@!^^记得！来利刃之首找我！^^传送点就在你的岛上农舍附近，或者你可以问马格！^^真挚的,^兰斯 [#]邀请",
+    "Mail.10Heart.pt1": "亲爱的 @,^^希望你看到了利刃之首是如何运作的。^^（还有我，真的）^^我本想显得专业一些，但我很享受你的陪伴！^^真挚的,^兰斯 [#]工作日",
+    "Mail.10Heart.pt2": "亲爱的 @,^^我真的很享受我们在一起的夜晚...^^希望能继续享受你的陪伴。^^真爱,^兰斯 [#]安慰",
+    "Mail.11Heart": "我的爱，@^^我...对那天吓到你感到非常抱歉...^^我真的不想让你那么害怕。^^我只是在失去一个战友的那一刻感到情绪激动，行动之前没有说什么...^^如果有任何办法能让你原谅我，请告诉我...^^只属于你的,^兰斯 [#]元素战争",
+    "Mail.12Heart": "我的爱，@^^非常感谢你介绍我认识科罗布斯！^^他们对自己族群有着广泛的了解，这真的会帮助我向公会提交申请！^^希望能继续这个努力，看到它结出硕果。^^真爱,^兰斯 [#]暗影人",
+    "Mail.13Heart": "我的爱，@^^很快我就会得到一个与我的灵魂共鸣的神器，来完成我们的灵魂契约。^^我期待与你共享的未来。^^预计这个神器会在下个季节结束前完成。^^真爱,^兰斯 [#]礼物",
+    "Mail.14Heart": "无论健康与否^^不顾其他^^去爱和珍惜^^直到死亡将我们分开^^我希望最后一部分不会吓到你，但这确实是我们之间的纽带。^^这个灵魂契约让我在专注时能感受到你的每一个动作。^^如果你能磨练自己的魔法，你也能感受到我在哪里。^^这是我生命中最大的祝福，我仍然惊叹于与你在一起的事实，@。^^希望我们能在追逐生命的日落中继续这种幸福的日子。^^你的灵魂伴侣,^兰斯 [#]纽带",
+    "Mail.Preg1": "问候 @,^^我们注意到你和我们的一位现役战斗法师迎来了一个孩子。我们期待你们早日融入我们的社会。^^真挚的,^费恩吉尔共和国分部 魔法部 [letterbg 2]",
+    "Mail.Preg1.Title": "魔法部的祝贺",
+    "Mail.Preg2": "问候 @,^^我们注意到你和兰斯再次迎来了一个孩子。我们真诚地祝贺你们生活中如此重要的里程碑。我们期待你和你的孩子们有朝一日能加入我们的队伍。^^真挚的,^费恩吉尔共和国分部 魔法部 [letterbg 2]",
+    "Mail.Preg2.Title": "魔法部的再次祝贺",
+    "Mail.Adopt1": "问候 @,^^我们收到了你的收养申请，考虑到兰斯在魔法部的服务历史，我们决定尽量加快这个过程。我们期待你们早日加入我们的队伍。^^真挚的,^费恩吉尔共和国分部 魔法部 [letterbg 2]",
+    "Mail.Adopt1.Title": "魔法部已收到申请",
+    "Mail.Adopt2": "问候 @,^^我们收到了你的第二次收养申请，鉴于第一次安置成功，我们决定再次加快你的请求并将其置于优先处理列表。我们期待你和你的孩子们有朝一日能加入我们的队伍。^^真挚的,^费恩吉尔共和国分部 魔法部 [letterbg 2]",
+    "Mail.Adopt2.Title": "魔法部已收到申请 2",
+    "Mail.Anniversary1": "我亲爱的 @,^^你是否惊讶于我能坐下写一些像马格努斯的讲课那样冗长的东西？^我是在几天前注意到你在日历上标注了这个特定的日期时写下的。^我无法想象和别人一起生活，你的言行举止让你的一切都是如此独特。^从你叫我的名字的方式，到你对待镇民的态度，我不知道没有你我会在哪里。^当我坐在这里，凝视着你熟睡的身体时，我为我们这一年来的相处感到惊叹。 ^^我爱你，我的 thii-lak。^-兰斯。[letterbg 1]",
+    "Mail.Anniversary1.Title": "结婚周年快乐",
+
+    "Mail.Quest": "亲爱的 @,^^有时间的话，你能研究一下高地怪物掉落的种子吗？^^公会对这些种子能长出什么感到好奇，但我在种植上实在是毫无天赋。^^我会好好奖励你的。^^真挚的,^兰斯. %item quest 252653004_crops FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Slime_Berry true %%[#]兰斯的怪物作物",
+    "Mail.Gift.Dating": "[letterbg 1]",
+    "Mail.Gift.Dating.Title": "兰斯的礼物",
+
+
+
+    ////事件
+    ////X心事件
+    ////兰斯 0 心 火山
+    "Lance.0Heart.01": "深沉的笑声在火山的边缘回荡。#一个高大的红发男子站在一个看似熔炉的东西前。",
+    "Lance.0Heart.02": "我的天...已经很久没有人敢登上这座科尔杜尔火山的顶端了！#{{e1}}#$b#我以为接下来的几个世纪里，只有我和矮人会在这里。$9#$b#科尔杜尔火山从来不以好客著称。$13",
+    "Lance.0Heart.03": "不过我离题了。我有种预感，我们俩之后会有更深的羁绊。$5",
+    "Lance.0Heart.04": "下次再见...#火山突然震动了一下。#你感觉身体因为暴露在高温中而紧张。#你应该很快离开。",
+
+    ////兰斯 0 心 农场
+    "Lance.0Heart.05": "早上好，甜心。我说过我们会有更多羁绊的。$5",
+    "Lance.0Heart.06": "我听说过好几个同事都说你的农场非常壮观。$8#$b#他们的描述根本无法形容这里的美丽。这个地方真是令人惊叹。$13#$b#几乎和它的主人一样迷人。$11",
+    "Lance.0Heart.07": "我要告诉你，我很少和陌生人开玩笑，但我这次有点失控了。$8#$b#我从你的公会管理员吉尔那里得知，马龙正在寻找一位战斗法师合作。$4#$b#在审查了相关任务、任务和...景色之后...$13#$b#我决定接受。$5",
+    "Lance.0Heart.08": "我必须承认，在我们在科尔杜尔山的火山口相遇之后，你引起了我的兴趣。$13#$b#我想更了解你，但我经常旅行，所以我们不如直接进入正题吧？$10#$b#这是我的日程表。$15",
+    "Lance.0Heart.09": "随时来找我，当你感到无聊的时候。$5#$b#可惜，我得告辞了。再见了，甜心。$1",
+    "Lance.0Heart.10": "啊！$14#$b#我差点忘了。马龙会在我待在山谷的日子里照顾我。$15#$b#不必觉得有义务自己招待我，除非你真的想这么做。$13#$b#我又开玩笑了。再见了，甜心。$5",
+    "Lance.0Heart.11": "别陌生，我相信你会用到我的日程表的。$8",
+
+    ////兰斯 1 心
+    "Lance.1Heart.01": "啊，甜心。我没想到你今天会来。$1",
+    "Lance.1Heart.02": "看到我满身泥土一定很有趣吧？$3",
+    "Lance.1Heart.03": "你似乎正好撞见我在努力让这些怪物作物生长...$25#$b#为什么公会会把这个任务交给这个时代最伟大的战斗法师，而不是那个塔里的老人，他一直在种植作物——我永远无法理解。$26#$b#我有很多更好的事情可以做。$25",
+    "Lance.1Heart.04": "兰斯踢了踢泥土，皱着眉头咕哝着。#他叹了口气。",
+    "Lance.1Heart.05": "一道光芒闪过他的脸庞。",
+    "Lance.1Heart.06": "等等，你每个季节都成功种植了各种作物。${{e38}}#$b#你觉得你的园艺天赋能帮我种植这些植物吗？$42",
+    "Lance.1Heart.07": "我点了点头，接过兰斯手中的羊皮纸，上面有指示。",
+    "Lance.1Heart.08": "你愿意？$15#$b#哦，太好了....${{e38}}#$b#我真的需要这些作物进行研究，而我有更...紧迫的事情需要关注，比挖地更重要。$9",
+    "Lance.1Heart.09": "给我一秒钟，让我拿一些没有受损的完好的种子。$32",
+    "Lance.1Heart.10": "兰斯把手在裤子上拍了拍。",
+    "Lance.1Heart.11": "[347 499]不急，但至少这减轻了我的负担！$15#$b#再次感谢，甜心，如果你需要什么，随时联系我。$41",
+
+
+    //// 兰斯 2 心 高地介绍、兰斯的感激、兰斯的奖励
+    "Lance2heart1.01": "准备好了吗？这将是一段漫长的旅程。",
+    "Lance2heart1.02": "好了。登船时小心脚下。$0",
+    "Lance2heart1.03": "我们到了。@，你还好吗？$0",
+    "Lance2heart1.04": "兰斯的哨站就在这楼梯上面。",
+    "Lance2heart1.05": "...$14",
+    "Lance2heart1.06": "朋友们，欢迎来到我的哨站。经过长途跋涉，你们一定很累了。$4",
+    "Lance2heart1.07": "虽然一路上没什么特别的事情发生，但在我看来，这反倒是件好事。$0",
+    "Lance2heart1.08": "*笑* 当然。$8",
+    "Lance2heart1.09": "请进。我准备了一些点心。我们有很多事情要讨论。$4",
+    "Lance2heart1.10": "我的哨站可能很小，但我保证它足以应对高地的生存挑战。$5#$b#魔法火焰起到了一种驱赶怪物的作用。这些都是我自己创造的。$4",
+    "Lance2heart1.11": "我在这里进行研究，是受公会的命令。$4#$b#这些栖息在这片区域的怪物有一些特别之处...$6#$b#虽然不常见，但有些怪物拥有一些奇特的种子，充满了异常的奥术属性。$10",
+    "Lance2heart1.12": "嗯，种子？是作物种子吗？@ 在这方面是个专家。$0",
+    "Lance2heart1.13": "啊，是的，@ 已经帮助我完成了我之前和公会的约定。$10",
+    "Lance2heart1.14": "兰斯与我和马龙分享了他的发现。他请求我们猎杀高地的怪物以获得他们的奇怪作物种子，并尝试种植它们。",
+    "Lance2heart1.15": "不知不觉间，时间飞逝... 现在该回家了。我好奇在高地还有什么等着我。",
+    "Lance2heart1.16": "我很少使用我的船来巡逻。我很高兴它现在有了另一个用途。#$e#嗯，恐怕我不能承诺帮助兰斯的研究。我在山谷里有自己的责任。#$b#不过，我相信这个任务对你来说再合适不过了，@。",
+
+    "Lance2heart2.01": "欢迎回来，@。$10",
+    "Lance2heart2.02": "感谢你在我的研究上提供的帮助。不幸的是，我自己没能成功种植这些怪物作物。$3#$b#根据我的观察，有四种种子，每种都能生长一种季节性怪物作物。$4#$b#*笑* 你的种植技能正好适合这个任务。$5",
+    "Lance2heart2.03": "怪物虽然不会在我的魔法火焰周围筑巢，但它们仍然可以追着你越过这些火焰。$4#$b#如果你必须撤退，可以在哨站里躲避任何追击者。$5",
+    "Lance2heart2.04": "我已经给你的农舍地址寄了一箱生命药剂。它应该会在明天送到。$1#$b#它们会在你的冒险中有所帮助。祝你好运，@。$5",
+    "Lance2heart2.05": "你可以在我的哨站休息，@。我很乐意招待你。$8#$e#抱歉这里的状态。我的城堡村的家要好得多。$5",
+
+    ////// 高地第二部分
+    "Lance.2Heart.01": "很高兴你能来。$1#$b#希望我之前的解释足够清楚。$5#$b#来吧，上来和我一起。$7",
+    "Lance.2Heart.02": "这片茂密的森林里到处都是怪物。$8#$b#我希望你能加入我，来做个小介绍？$9",
+    "Lance.2Heart.03": "兰斯施展了一个快速的咒语。",
+    "Lance.2Heart.04": "咻!$21#$b#一定不要离我太远。$41",
+    "Lance.2Heart.05": "兰斯准备了另一个咒语，森林开始安静下来。",
+    "Lance.2Heart.06": "好吧，白天的时间宝贵，我们开始我们的探索吧。$8",
+    "Lance.2Heart.07": "兰斯在低声念咒。",
+    "Lance.2Heart.08": "抱歉。$42#$b#通过自言自语的咒语有助于清除用过的魔法。$41#$b#怪物们感觉比以往更强大。$31#$b#我需要问问卡米拉和马格努斯现在的情况。$30",
+    "Lance.2Heart.09": "兰斯叹了口气。",
+    "Lance.2Heart.10": "荒野石魔可以从阴影中生成。你最好注意它们的危险性。它们唯一的好处是有时会掉落怪兽茎种子。$29#$b#史莱姆...嗯...它们会掉落普通的史莱姆种子。$8#$b#极其弹跳的蘑菇会掉落真菌种子。$35#$b#你最糟糕的对手是...暗影人，他们在这个区域很常见，但他们会迅速逃走，留下虚空种子。$31#$b#我还没有问马格努斯虚空种子究竟是什么，但如果你能成功种出什么，我一定会去问他。$30",
+    "Lance.2Heart.11": "很奇怪...不是吗？所有这些怪物居然会掉落种子。$30#$b#仿佛世界在告诉我们它想自我治愈。$31#$b#我真希望有一天能看到一个痊愈的世界。$28",
+    "Lance.2Heart.12": "被一些偷听者打断了，我甚至都没来得及告诉你宝石鱼的事情！$49",
+    "Lance.2Heart.13": "不过这就是我们该离开的信号了！$28",
+    "Lance.2Heart.14": "请原谅我的无礼。$33",
+    "Lance.2Heart.15": "我非常享受带你参观的时光。别陌生，我会在附近见到你。$32",
+
+    "Lance.2Heart.01.a.1": "啊，甜心。我很高兴在你开始一天的行程前赶上了你。#$b#我已经从一次夜间突袭中收集了一些怪物作物。不过，如果你能提供的话，我会非常感激。$8#$b#公会似乎正在准备一种防御武器，如果你有兴趣，我会在准备好后告诉你。$9",
+    "Lance.2Heart.01.b.1": "啊，甜心...*喘气* 我很高兴赶上了你。$22#$b#公会终于寄来了防御武器，但不幸的是，他们把它留在了我的上锁箱子里。*喘气*$16#$b#我的箱子可不轻！$15#$b#如果你不介意，愿意和我一起去取吗？$13",
+    "Lance.2Heart.01.response.q": "你会和兰斯一起去吗？",
+    "Lance.2Heart.01.response.y": "当然。",
+    "Lance.2Heart.01.response.n": "对不起，不行。", //为什么你对他这么冷淡
+    "Lance.2Heart.01.b.2": "啊？$14#$b#那我就不打扰你了。$15#$b#[499] 希望你不介意我的唐突。祝你有美好的一天。$14",
+    "Lance.2Heart.01.yes.1": "抓住我的手，我会传送我们过去。$13",
+    "Lance.2Heart.01.yes.2": "进来吧，我去地窖拿它们。$1",
+    "Lance.2Heart.01.yes.3": "钻石魔杖擅长击退敌人，如果你遇到麻烦，最好使用这个然后传送出去。$8#$b#我自己不需要它，因为我有魔法可以传送，但在危急时刻，最好小心点。$9",
+    "Lance.2Heart.01.yes.4": "如果你在这里遇到危险，我总是会留意的。$13#$b#在外面小心，甜心。$5",
+
+
+
+    //// 兰斯 3 心 高地困境
+    "Lance.3Heart.01": "啊，甜心！$1#$b#很高兴见到你，我刚收到马龙的消息，说高地洞穴发出了SOS求救信号。$3",
+    "Lance.3Heart.02": "这些洞穴非常危险，所以我正在准备潜入看看情况。$2",
+
+    // 选择对话
+    "Lance.3Heart.03.q": "深入矿洞？#我已经处理好了！#我可以去看看？#我可以和你一起去吗？",
+
+    // 已处理
+    "Lance.3Heart.03.h.1": "什么？$14#$b#你已经处理好情况了？$16#$b#让我吃惊的是，我低估了你的能力，甜心！$15#$b#是谁发出的SOS信号？$16",
+    "Lance.3Heart.03.h.2": "我告诉兰斯，一个矮人被锁在笼子里。#钥匙是由一个看似变异的恐龙掉落的。",
+    "Lance.3Heart.03.h.3": "霸王雷克斯？！$20#$e#你独自对抗它？！$16#$b#虽然我之前说低估了你的能力，但这仍然是一个危险的举动。$23#$b#你应该知道生命是多么宝贵。$26#$e#不管怎么说...#$b#我很高兴你平安无事。$13",
+
+    // 提出独自行动
+    "Lance.3Heart.03.od.1": "啊？你想自己去冒险？$14#$b#虽然我通常不会阻止别人成长，但马龙告诉我这个任务被评为“极度危险”。恐怕这次我得亲自处理。$20",
+    "Lance.3Heart.03.od.2": "我告诉兰斯关于我自己的成就。",
+    "Lance.3Heart.03.od.3": "虽然你的成就在人类面前显得非凡，但对于我们冒险者公会的上层来说，这简直是小菜一碟。$25#$b#我为此道歉，如果这听起来有些粗鲁，但许多人因自大和疏忽而失去生命。$23#$b#如果你不介意，我需要赶紧出发了。$27",
+
+    // 提出一起去
+    "Lance.3Heart.03.tg.1": "你想一起去？$16#$b#我从不拒绝好伙伴的陪伴。$13#$b#让我准备一些物资。$12",
+    "Lance.3Heart.03.tg.2": "兰斯翻找物资，然后转身对我说。",
+    "Lance.3Heart.03.tg.3": "好了，一切准备就绪，我们出发吧？$13",
+    "Lance.3Heart.03.tg.4": "那是...一个被关在笼子里的矮人？$14#$b#是谁把你弄成这样的？$22",
+    "Lance.3Heart.03.tg.5": "我不知道，我被打晕了，然后就发现自己在这里了。",
+    "Lance.3Heart.03.tg.6": "考虑到这个区域的状况，以及我没有感受到任何魔力，看来这个锁并没有什么特别的。$20",
+    "Lance.3Heart.03.tg.7": "兰斯念了一段咒语，变出一串钥匙。#锁掉在地上。",
+    "Lance.3Heart.03.tg.8": "很好，现在我们离开这里吧。$12",
+    "Lance.3Heart.03.tg.9": "兰斯将我们三人传送回冒险者公会，向马龙解释情况。",
+    "Lance.3Heart.03.tg.10": "马龙会处理接下来的事情，谢谢你陪我一起来，甜心。我需要向其他公会通报矮人的情况，因为这是一个新发现。$12#$b#希望这没什么大问题...我祈祷这就是结束了。$23",
+
+    //// 兰斯 4 心 文物和导师
+    "Lance.4Heart.01": "天气真好，不是吗？$13",
+    "Lance.4Heart.02": "对于一个如此细心的人来说，你还真是容易被吓到。$1#$b#不过谨慎并不是一件坏事。$5#$b#我一直想和你谈谈你的成就。$4",
+    "Lance.4Heart.03": "几十年来姜岛一直是我巡逻的主要区域，直到你出现之前，时间似乎是都没怎么流动的。$2#$b#从与鸟类交流并与它们讨价还价，到建造度假村，还带有一个完整的酒吧！$8#$b#在我漫游的几个世纪中，你无疑是最让我好奇的。$13",
+    "Lance.4Heart.04": "可以说，我有一些问题想问你。你熟悉魔法文物吗，甜心？$16",
+    "Lance.4Heart.05": "真的？考虑到你在山谷中的成就，我本以为你至少会有几件藏起来的。$14#$b# 很多文物来自盖多兰，如果你有机会去那里，你最好装备得齐全。$13#$b# 如果你真的去那里看看，替我向我的导师卡米拉问好。$5#$b# 我其实不被允许离开我的巡逻区域太远。$3#$b# 但除此之外，我给你介绍一下文物的概念如何？$1#$b# 这件叫做“闪亮遗物”。${{e0}}",
+    "Lance.4Heart.06": "你可以用它跟随我上悬崖。集中注意力在你想去的地方，并紧握文物。$4",
+    "Lance.4Heart.07": "文物有各种形状和大小，我的剑就像你手中的那个文物一样。$8",
+    "Lance.4Heart.08": "我的耳环是一个更长的故事，留到下次再说吧。$5",
+    "Lance.4Heart.09": "太棒了！你真是才貌双全！$12#$b# 你真的让我感到惊讶，你能够掌握这些魔法概念，尽管你在世俗生活中根深蒂固。$10",
+    "Lance.4Heart.10": "现在，享受你的劳动成果吧，这里的景色非常壮观。$13",
+    "Lance.4Heart.11": "这真是让人从心底感受到这里的美丽。",
+    "Lance.4Heart.12": "起初，我不想接受这个巡逻任务，因为这里的高温。$3#$b# 一段时间后我习惯了，但我猜这也反映在我的皮肤上。$9#$b# 你应该看看城堡村，那里感觉像是沙子在流血。$3",
+    "Lance.4Heart.13": "卡米拉是我最终接受的原因，她说这种经历会让我成长。$1#$b#我现在开始明白她说的是对的。$5#$b#但这些历史只能在一群朋友之间分享，而不是和一个住在山里的隐士。$7#$b# 我们还是回到海岸边吧。$4",
+    "Lance.4Heart.14": "好吧，“闪亮遗物”是我想用来测试你的。$5#$b#你使用它时的表现简直就像是马格努斯的学生一样。这真是令人好奇，如果你不介意，我得把它收回了。$7",
+    "Lance.4Heart.15": "我把“闪亮遗物”还给了兰斯。",
+    "Lance.4Heart.16": "见到卡米拉时，尽量不要被她的玩笑捉弄。我相信她一看到你的潜力，就会非常棘手。祝你有美好的一天，甜心。$5",
+
+
+    //// 兰斯 5 心 卡米拉的出现
+    "Lance.5Heart.01": "啊，甜心，没想到你这个时间来看我。$10", // ah player about to head out
+    "Lance.5Heart.02": "我告诉兰斯我见过卡米拉。", // talk about meeting camilla
+    "Lance.5Heart.03": "是吗？小精灵们，嗯？森林小精灵确实非常有趣。$14#$b#她像我警告的一样古怪吗？$9", // how was she/just as eccentric as i warned
+    "Lance.5Heart.04": "她的确是！你“爱调情”的性格是受她影响吗？", // reasons why i'm flirty?
+    "Lance.5Heart.05": "*哈哈哈*", // lance laughs
+    "Lance.5Heart.06": "可能吧！$15#$b#她虽然不愿承认，但她确实像对待自己的孩子一样对待我！$8#$b#不过，这个故事以后再说，我现在得去工作了。回头见，甜心。$5", // possibly, she is like a mother figure to me, but that is a story for another day, being called to work
+
+    //// 兰斯 6 心 元素战争的回忆
+    "Lance.6Heart.01": "尼基...艾弗里...保罗...$27#$b#！...$25#$b#...$23#$b#...@...$95",
+    "Lance.6Heart.02": "兰斯似乎陷入了恍惚。我叫了他一声。",
+    "Lance.6Heart.03": "我吗？不，我只是有点小伤，你应该——$94#$b#...$93",
+    "Lance.6Heart.04": "我再次叫了他一声。",
+    "Lance.6Heart.05": "@...? 我怎么——$96#$b#...$94#$b#啊... @..$85",
+    "Lance.6Heart.06": "看来兰斯终于意识到自己在哪儿了。#你还好吗？",
+    "Lance.6Heart.07": "是的，我...我很抱歉，看起来我刚刚陷入了对元素战争的回忆中。$93#$b#可以的话，我能和你一起休息一下吗？$96",
+    "Lance.6Heart.08.response.q": "你让兰斯留下吗？",
+    "Lance.6Heart.08.response.y": "当然。",
+    "Lance.6Heart.08.response.n": "抱歉，不行。",
+    "Lance.6Heart.07.yes.1": "谢谢你，@。$92",
+    "Lance.6Heart.07.yes.2": "兰斯擦了擦脸，重重地叹了口气。",
+    "Lance.6Heart.07.yes.3": "我猜你听说过元素战争？$88",
+    "Lance.6Heart.07.yes.4": "你点头告诉兰斯，你在学校学到的历史是你所知道的全部。",
+    "Lance.6Heart.07.yes.5": "啊。$72#$b#我理解这种感觉，如果我没有亲身经历，我可能也会忘记这些细节。$64",
+    "Lance.6Heart.07.yes.6": "兰斯叹了口气。",
+    "Lance.6Heart.07.yes.7": "很多人不会告诉你，但这都是由于世界动荡而产生的裂痕引起的。$81#$b#那是一个在我之前的时代，但许多修行者沉迷于他们的力量。$80#$b#我相信马格努斯可以告诉你更多，他是前线的一名正式法师。$64#$b#我没有立即参战，我猜我晚了几百个世纪。$65#$b#一些人说我幸运，他们说像我这样的年轻人应该庆幸只赶上了战争的尾声。$64#$b#真是有趣...真的。我是幸运的，但我在能够形成认知之前就失去了所有亲人。$89#$b#抱歉。这可能不是你早晨第一件想听到的事情。$93#$b#感谢你今天给我时间。谢谢你倾听我的心声。$96",
+    "Lance.6Heart.08": "啊...$100#$b#我为打扰你而道歉。$88",
+    "Lance.6Heart.09": "兰斯传送走了...#这真的是正确的做法吗...？",
+    "Lance.6Heart.10": "我为之前的事道歉...但我只是需要一点独处的时间...$89",
+
+
+    //// 兰斯 7 心 冒险者的信条
+    "Lance.7Heart.01": "马龙，肯定没有你说的那么糟吧！", // surely you jest marlon
+    "Lance.7Heart.02": "啊，你好，@，我和马龙正在聊过去的事情。$16", // oh hello @ talking w marlon about old times
+    "Lance.7Heart.03": "是啊，孩子，你觉得兰斯现在很糟吗？你应该看看当初马格努斯第一次把他带到这里的时候。$h", // think lance is bad now he was worse -marlon
+    "Lance.7Heart.04": "我真是个活力十足的小炮仗，对吧？$15#$b#不过别说我了，你来这儿有什么事，@？$13", // a firecracker through and through, no? *laughs* what brings you here @?
+    "Lance.7Heart.05.q": "你来这儿做什么？#随便逛逛。#我完成了吉尔的任务！#我在准备下次下矿的补给！", // just wandering/gil quest/resupply
+    "Lance.7Heart.06": "啊，我太了解那种想要四处游荡的感觉了。$1#$b#不过，有时候我也希望有个地方可以安定下来。$5", // i understand wandering
+    "Lance.7Heart.07": "啊哈！马龙，这可是个名副其实的成就猎人！$99#$b#我等不及看你在排名上赶上我了，是吧？$15", // oh-ho a bonafide achievement hunter
+    "Lance.7Heart.08": "保持补给充足是件好事，你永远不知道在外面会遇到什么危险。$7", // always good to ensure you're topped off
+    "Lance.7Heart.09": "不过，不论如何，虽然我享受了这次的谈话，但姜岛的沙子可不会自己数着玩。$4#$b#我得走了，再见，马龙，再见，@。$5", // sand grains aren't going to count themselves and been feeling lacking in vitamin d
+
+    "Lance8hearts.01": "我已经完成了对怪物作物的研究，现在准备向我的公会利刃之首汇报。$1#$b#我希望你能和我一起去，因为这次任务的成功是因为你。没有你，我做不到这些。$8",
+    "Lance8hearts.02": "*笑* 跟我来。$5",
+    "Lance8hearts.03": "我们的岛位于宝石海的中心，距离太远，无法用普通的交通工具到达。",
+    "Lance8hearts.04": "我先走。$1",
+    "Lance8hearts.05": "你得承认，这比传统的旅行方式快多了。$8#$b#来吧，我带你去见公会的成员。$12",
+    "Lance8hearts.06": "大家！兰斯回来了！$5",
+    "Lance8hearts.07": "嘿！",
+    "Lance8hearts.08": "欢迎回来！",
+    "Lance8hearts.09": "你带来的这位是谁？$0",
+    "Lance8hearts.10": "这是@，他们是我能完成任务的原因。$15#$b#事实证明我自己不怎么擅长种地！$10",
+    "Lance8hearts.11": "哈哈！",
+    "Lance8hearts.12": "嘿...",
+    "Lance8hearts.13": "很高兴见到你，@。我是乔琳，利刃之首的领袖。$4#$b#兰斯的朋友就是我的朋友。$5",
+    "Lance8hearts.14": "嗯，兰斯。你身上散发出的奇特魔法能量可不难察觉。$0#$b#我们都在期待着。$5",
+    "Lance8hearts.15": "*笑* 当然...$5",
+    "Lance8hearts.16": "给我留点空间。$1",
+    "Lance8hearts.17": "什么……",
+    "Lance8hearts.18": "哇哦！",
+    "Lance8hearts.19": "我可以摸一下吗！？",
+    "Lance8hearts.20": "看吧...来自高地的怪物作物！$12",
+    "Lance8hearts.21": "真是令人着迷！",
+    "Lance8hearts.22": "嗯...",
+    "Lance8hearts.23": "令人印象深刻！",
+    "Lance8hearts.24": "见到兰斯来自的公会成员真是不可思议。但现在是时候回家了。也许我很快还能再来访问？",
+    "Lance8hearts.25": "我的导师和公会领袖对我的表现非常满意。谢谢你，@。$8#$e#这些怪物作物将有助于我们了解荒野石魔、史莱姆、真菌精灵和暗影人...$4#$e#高地的工作还没有结束！我们才刚刚开始。$15",
+    "Lance8hearts2.01": "你感受到兰斯在门口。",
+    "Lance8hearts2.02": "你好，@。请在方便的时候在你的姜岛农场见我。$1",
+    "Lance8hearts2.03": "我在你岛上的房产附近有一个秘密的树林...$5",
+    "LanceWizardRune.01": "兰斯告诉我你已经见过利刃之首的成员了。#$b#我在次元之门中为你开放了传送门。",
+    "LanceWizardRune.02": "千万别碰其他传送门，它们相当...不稳定。",
+
+
+    //// Lance 9 心 乔琳的担忧
+    "Lance.9Heart.01": "啊，我正找你呢。",
+    "Lance.9Heart.02": "作为利刃之首的领袖，兰斯第一时间告诉我你们两人在一起的消息。#$b#虽然我对我的成员谈恋爱没有异议，但每次他们进入平民领域时，我都会给他们一些警告。#$b#自童年时代起，兰斯就一直是我的朋友，我对他有着像对哥哥一样的感情。#$b#他从未背叛过我的信任，总是心系公会的荣誉和骄傲。#$b#我认为你们的关系是个好事，但希望你不要辜负这份信任。",
+    "Lance.9Heart.03": "许多人都寻求像兰斯这样独特的人，虽然他表面上什么也没说，但我能看出，他就像是一艘从未靠过岸的船。#$b#请照顾好他，@。",
+
+    //// Lance 10 心 怪物的安慰
+    "Lance10hearts1.01": "早上好。我今天有事要去公会，想知道你是否愿意陪我去。$0#$b#你可以体验一下在利刃之首的一天是怎样的……$5",
+    "Lance10hearts1.02": "你可以使用马格努斯的传送大厅，或者我在姜岛的秘密森林。$1#$b#我在你岛上的农舍后面的悬崖上开辟了一条通道。$0",
+    "Lance10hearts1.03": "明天我们在寓言礁见。$1",
+    "Lance10hearts2.01": "啊，你来了！$1",
+    "Lance10hearts2.02": "今天岛上有一群鱼雷鳟鱼。也许我们能看到它们。$15",
+    "Lance10hearts2.03": "我们先从巡逻寓言礁开始吧。$7",
+    "Lance10hearts2.04": "这是我们制作魔力药剂的方法！",
+    "Lance10hearts2.05": "嘿！",
+    "Lance10hearts2.06": "我听说过你！",
+    "Lance10hearts2.07": "真是场火！",
+    "Lance10hearts2.08": "*打哈欠* 真是忙碌的一天……$16",
+    "Lance10hearts2.09": "呃，这里的床是单人床。$14#$b#虽然挤一点，但应该还是能睡的。$13",
+    "Lance10hearts2.10": "兰斯作为冒险者和法师的经历在他的体型上体现得淋漓尽致。",
+    "Lance10hearts2.10.y": "我不介意你紧紧抱着我。",
+    "Lance10hearts2.10.n": "我要走了，这次很愉快。",
+    "Lance10hearts2.11": "*笑* 如果你愿意。祝你一路平安。$13#$b#你随时都欢迎来这里。$5",
+    "Lance10hearts2.12": "啊，@。我想为在客房里我的急躁行为道歉。那不会再发生了。$1#$e#你给公会留下了很好的印象。$5",
+    "Lance10hearts2.13": "我想我们可以试试。$14",
+    "Lance10hearts2.14": "*笑* 看来我们俩都能挤下，但确实很挤。${{e38}}",
+    "Lance10hearts2.15": "@... 我...$29",
+    "Lance10hearts2.16": "那是我永远不会忘记的夜晚……${{e38}}",
+    "Lance10hearts3.01": "*笑* 你迟到了……$5",
+    "Lance10hearts3.02": "我们改天再试一次吧，选个阳光明媚的日子？$7#$b#早点来。$4",
+    "Lance10hearts3.03": "我一直期待着和你一起在寓言礁度过这一天。$8",
+
+    //// Lance 11 心 战争回忆
+    "Lance.11Hearts.pre": "@！我刚刚收到通知，说兰斯在城堡村被困住了，我们必须尽快赶去！",
+    "Lance.11Hearts.00": "我能听到远处传来的魔法轰鸣声和金属碰撞声。",
+    "Lance.11Hearts.01": "@！$100#$b#你在这里做什么？！快退后！这里不安全！$50",
+    "Lance.11Hearts.02": "兰斯向后退直到他站在我面前。",
+    "Lance.11Hearts.03": "兰斯气喘吁吁地看着我。",
+    "Lance.11Hearts.04": "已经击倒三个了……$50#$b#但还有更多……请小心，亲爱的！$52",
+    "Lance.11Hearts.05": "兰斯似乎无法喘过气来。",
+    "Lance.11Hearts.06": "当他看向我时，他的眼睛睁大了，看起来很生气。",
+    "Lance.11Hearts.07": "@...$100",
+    "Lance.11Hearts.08": "兰斯抬起手臂，准备朝我的方向施放一个法术。#我低下头。",
+    "Lance.11Hearts.08.5": "……",
+    "Lance.11Hearts.09": "……我看到你看着我的样子……$85#$b#你知道我永远不会伤害你，@……$92#$b#对吗？$94",
+    "Lance.11Hearts.10": "当我看到鬼魂在你身后偷偷靠近时，我的心几乎停止了……$93#$b#在我这一生中，我从未感到如此害怕。$92#$b#这让我想起了战争的许多回忆。$96",
+    "Lance.11Hearts.11": "我的噩梦已经非常糟糕，所以今晚也不会例外。我几乎每晚都会有战争的闪回梦。$84#$b#我学会了最好等到太阳升起，我可以沐浴在温暖的阳光中再睡觉。$88#$b#我对失去已经很熟悉。看到你视为家人的人在敌人的手中丧生，没有人能为此做好准备，时间也不会让事情变得更容易。$92#$b#对不起，让你看起来好像我会伤害你……$93#$b#我只是无法想象如果失去了我的另一半灵魂，我会怎么办……$96",
+    "Lance.11Hearts.12": "你看到他的表情发生了变化，仿佛他突然有所领悟。",
+    "Lance.11Hearts.13": "我必须走了……$77#$b#我有事要去魔法部处理……$81",
+    "Lance.11Hearts.14": "兰斯匆匆离开了……#我确实感到害怕，但我想知道他最后一刻是怎么了……？",
+
+
+    //// Lance 12 心 暗影人，见科罗布斯
+    "Lance12hearts1.01": "法力的激增让兰斯脊柱发凉。",
+    "Lance12hearts1.02": "@！$99#$b#我没想到你这么早就回来了。$13",
+    "Lance12hearts1.03": "！！?#兰斯意识到了引发法力激增的原因。#你的回程魔杖终于恢复到静止状态。",
+    "Lance12hearts1.04": "那是……回程魔杖吗？$14",
+    "Lance12hearts1.05": "一个‘友好’的暗影人！$99#$b#你……你不是在开玩笑吧？$3",
+    "Lance12hearts1.06": "你在下水道里交了个叫‘科罗布斯’的暗影人朋友？$3#$b#马龙知道吗？$6#$b#他知道？$14#$b#我感觉我总是最后一个知道这些事情的。$81#$b#对不起，亲爱的，这不是针对你，只是马龙和吉尔一直把我当小孩看待，我已经习惯了他们的调侃。$13",
+    "Lance12hearts1.07": "如果你不介意的话，我能见见科罗布斯吗？$14#$b#什么时候都可以。$7",
+    "Lance12hearts1.08": "如果我看起来有些……怀疑，请原谅。$6#$b#在前线战斗了一个世纪，确实会改变你的看法。$2#$b#今晚我们至少可以好好享受彼此的陪伴。$13",
+    // 12 心 第二部分
+    "Lance12hearts2.01": "就在这里？$14",
+    "Lance12hearts2.02": "*嗅嗅* 哦，你一定是@的伴侣！你闻起来和他们一样。",
+    "Lance12hearts2.03": "你的感官很敏锐。$3#$b#很高兴认识你。我叫兰斯。$12",
+    "Lance12hearts2.04": "我是科罗布斯，一个出售奇特和有趣商品的商人。",
+    "Lance12hearts2.05": "我必须说，我一开始并不完全相信@说的。$3#$b#在我的经历中遇到过很多暗影人，但从未遇到过像你这么友好的。$12",
+    "Lance12hearts2.06": "对不起，你遇到过不好的暗影人……#$b#我向你保证，我跟他们不一样。",
+    "Lance12hearts2.07": "我在战争中见过各种奇怪的事物。$1#$b#你绝对是个异类。$4#$b#请原谅我的紧张，我已经做好了心理准备，但身体却不听使唤。$3",
+    "Lance12hearts2.08": "不过我得说……$3#$b#你是我见过的最小的暗影人之一。$14",
+    "Lance12hearts2.09": "哦，是的！我能吃到很多多汁的苍蝇！#$b#而且人类在外面的奇怪箱子里留下了很多美味的食物。",
+    "Lance12hearts2.10": "这可不是你这样的暗影人的正餐。$3#$b#让我给你弄点东西吃。$1",
+    "Lance12hearts2.11": "他看起来人挺好。",
+    "Lance12hearts2.12": "我有个东西要给你。$7",
+    "Lance12hearts2.13": "……",
+    "Lance12hearts2.14": "我想感谢你陪我一起，@。$8#$b#我知道我一开始的表现令人质疑，你也担心你朋友的安全。$9#$b#我深感抱歉，起初显得有些戒备。$7#$b#不过，我说科罗布斯身材矮小是真的。$6#$b#我不认为下水道和人类的垃圾对他们来说是良好的能量补充。$3#$b#科罗布斯允许我每月10号和24号在黑暗掩护下来拜访。$12#$b#我认为这是一个好机会，可以让我为魔法部准备好提前退休的文件。$13#$b#一箭三雕！$15#$b#我们将进一步了解暗影人，也许还能够想办法解放山谷。$10#$b#再次感谢你，@，我们回去的路上可以牵着手吗？$13",
+
+    //// Lance 13 心 灵魂契约之伤，卡米拉的教导，兰斯的教导，兰斯的礼物
+    "Lance.13Heart.01": "@！$49#$b#我刚刚感觉到矿洞深处传来了一阵震动，我正准备去查看。$48",
+    "Lance.13Heart.02": "我向兰斯解释我帮助科罗布斯进行了一个净化所有暗影人的仪式。",
+    "Lance.13Heart.03": "一个……仪式？$31#$b#但那阵震动感觉太奇怪了，不像是这种事情引起的。$54",
+    "Lance.13Heart.04": "我详细描述了进行仪式所需的所有部分。",
+    "Lance.13Heart.05": "……真是令人着迷！$42#$b#抱歉，让我冷静一下。$9",
+    "Lance.13Heart.06": "兰斯深吸了一口气，我看见他的魔力渐渐平息。",
+    "Lance.13Heart.07": "我可以和你一起去见科罗布斯吗？$16#$b#我想亲自看看暗影人，但我有预感他们可能不太欢迎我一个人去。$3",
+    "Lance.13Heart.08": "我同意了，我们开始步行前往下水道。",
+    "Lance.13Heart.09": "@！兰斯！很高兴见到你！$h",
+    "Lance.13Heart.10": "科罗布斯！@和我来是因为@告诉我你们和暗影人进行了一个仪式。$12#$b#如果你不介意，能不能也告诉我发生了什么？$4",
+    "Lance.13Heart.11": "兰斯和科罗布斯谈论了仪式的细节，如何净化暗影人的诅咒，使他们不再具有攻击性。",
+    "Lance.13Heart.12": "天色已晚……",
+    "Lance.13Heart.13": "我们可以在其他日子讨论更多细节，科罗布斯，你给了我很多要研究的东西，我担心@已经快要睡着了。$10",
+    "Lance.13Heart.14": "我们回家吧，亲爱的？$13",
+    // 第二部分
+    "Lance.13Heart.15": "@！兰斯在哪？！$3#$b#我真不敢相信他会试图隐瞒这种事情！$7",
+    "Lance.13Heart.16": "啊~ @~ 在你离开之前——$8#$b#！！！$14",
+    "Lance.13Heart.17": "你有很多事情需要解释！$3#$b#你怎么能在没有咨询@的情况下就向魔法部申请灵魂契约注册？！$7",
+    "Lance.13Heart.18": "我正准备和@谈这件事……$6#$b#卡米拉，你是怎么知道的？$3",
+    "Lance.13Heart.19": "当然，作为你的监护人，魔法部打电话‘祝贺’我这个成功的孩子！$7",
+    "Lance.13Heart.20": "对不起，我根本没想到要先和@商量，我只是被山谷的变化震惊了……$64",
+    "Lance.13Heart.21": "我本来想在你的日子里插一脚……$37#$b#卡米拉已经破坏了大部分惊喜，但这确实是真的。$36#$b#我今天想和你谈一谈灵魂契约仪式的事情。$37#$b#马格努斯比我解释得更好，你愿意听我说吗？$36",
+    "Lance.13Heart.22": "我伸出手握住了兰斯的手。",
+    "Lance.13Heart.23": "谢谢你，亲爱的。$40#$b#卡米拉？我们一起去好吗？$36",
+    "Lance.13Heart.24": "……这不意味着你就可以免责。$3",
+    "Lance.13Heart.25": "*笑*",
+    "Lance.13Heart.26": "我明白了，‘母亲’。$37",
+    // 第三部分
+    "Lance.13Heart.27": "拉斯，我们来寻求指导！",
+    "Lance.13Heart.28": "……卡米拉？为什么你要这么大声说话……",
+    "Lance.13Heart.29": "啊，兰斯！……@？……卡米拉？$5#$b#这是什么情况？$4",
+    "Lance.13Heart.30": "我们的兰斯没有征求自己的另一半同意，就决定了这么重大的事情，比如灵魂契约！$7#$b#但我想你已经知道了，因为你是上级。$3",
+    "Lance.13Heart.31": "*咳咳*",
+    "Lance.13Heart.32": "嗯，是的，兰斯想保持秘密，想给@一个惊喜。$3",
+    "Lance.13Heart.33": "拉斯，这不是能保密的事！$7",
+    "Lance.13Heart.34": "既然我们都在这里，马格努斯，你能向@解释一下灵魂契约是什么吗……$37#$b#我把自己弄得很糟糕……$36",
+    "Lance.13Heart.35": "啊……我明白了……这事确实疏忽了，因为这是个大工程，我以为@会毫无疑问地同意……$5#$b#*咳咳* 我会简单明了，灵魂契约就是将你的魔力与他人交融，与所选的另一半共享你的生命。#$b#既然你们已经决定结婚，兰斯向我提出了这个提议，因为你，@，现在也具备了魔力。",
+    "Lance.13Heart.36": "*笑*#$b#是的，事实上，你在山谷的成就引起了命运线的震动。#$b#从成功建立你的魔法传送阵，到破除暗影人的诅咒，说你没有感受到自己的魔力是羞耻的。#$b#自从来到鹈鹕镇后，你一直深深地与魔法交织在一起。",
+    "Lance.13Heart.37": "由于你们俩的魔力都很强大，灵魂契约应该不会像我们最初担心的那样影响兰斯的寿命。#$b#至于他是否需要用自己的寿命来支持你，还未可知。#$b#但兰斯想和你建立这个灵魂契约，因为这代表了他对你的深厚感情。",
+    "Lance.13Heart.38": "啊！马格！我——$42#$b#这么快就把我抛到车下……$37#$b#马格努斯说得对，了解了暗影人发生的事情后，我想和你永远在一起。$36#$b#我真的爱你，@，我想以更亲密的方式与你在一起。$43#$b#这个灵魂契约会让我们建立一种联系，无论你受伤、迷路还是生病。$37#$b#这显然是双向的，但我对自己的能力很有信心。$9#$b#进一步的研究表明，我们还能够互相补充魔力，无论是否需要。$37#$b#我知道我经常很忙，但我仍然希望帮助你做农活。$43#$b#那么，你怎么看，@？$36",
+    "Lance.13Heart.39": "我思考了很久。#兰斯的忠诚和爱在他所做的每一个动作中都得到了体现。#我点头同意了。",
+    "Lance.13Heart.40": "！！！$42#$b#你……$44#$b#我一度有些担心……$8#$b#我爱你，@。$43#$b#好吧，你也听到@说的了，马格！$15#$b#灵魂契约行动开始！${{e38}}",
+    "Lance.13Heart.41": "兰斯非常兴奋，我也能感受到他的兴奋。#另一个改变生活的事件……我迫不及待了！",
+    "Lance.13Heart.42": "准备工作正在进行中，我得与魔法部多商量，找个铁匠帮忙，还有其他的事情——哦，我等不及了，@！$15",
+    // 第四部分
+    "Lance.13Heart.43": "@！在你开始一天之前，我有一个令人激动的消息！$15",
+    "Lance.13Heart.44": "仪式的第一部分已经完成，我想今天开始流程，我们一起去仪式地点吗？$10",
+    "Lance.13Heart.45": "我把手放在兰斯手中，他准备施展传送法术。",
+    "Lance.13Heart.46": "仪式圈就在海滩的边缘，我们去吧？$32",
+    "Lance.13Heart.47": "第一部分是我的誓言。$43#$b#我对你的承诺。$8",
+    "Lance.13Heart.48": "这些誓言有点尴尬……$37#$b#短暂的软弱换来与你共度的一生，@。$36",
+    "Lance.13Heart.49": "兰斯似乎在准备自己，深吸了一口气。",
+    "Lance.13Heart.50": "我，兰斯洛特，以我的信条、我的骄傲、我的原则和我的生命之血发誓建立这个契约。$9#$b#我将我的名字与我的魔法、我的灵魂、我的生命联系在一起。$36#$b#我把我的名字交给@，我的灵魂伴侣，我的爱。$41#$b#我请求周围的魔力之灵祝福这个誓言。$8",
+    "Lance.13Heart.51": "如果你能帮我把另一个耳环戴上。$41",
+    "Lance.13Heart.52": "我把金色和绿松石的耳环戴在他的右耳上。",
+    "Lance.13Heart.53": "……如此，我的誓言已成。$41",
+    "Lance.13Heart.54": "我能感受到从兰斯身上传来的魔力波动。",
+    "Lance.13Heart.55": "最后的部分还没准备好，但我会告诉你什么时候准备好。$8#$b#……你身上的魔力波动让我……想要和你在一起。$64#$b#我们……回家吧？$69",
+    "Lance.13Heart.56": "我握住兰斯的手，他把我们传送回家。",
+    "Lance.13Heart.57": "我的誓言让我对你的存在格外敏感。$67#$b#请，让你的丈夫享受一会儿。$8",
+    // 辣度：哈瓦那辣椒
+    "Lance.13Heart.habanero.1": "你的肌肤让我的每一个细胞都像着火一样。$41#$b#我等不及想要尝尝了。$43",
+    "Lance.13Heart.habanero.2": "我和兰斯一起沉醉在我们的爱意中，真是一个神奇的夜晚！",
+    // 辣度：卡罗莱纳死神
+    "Lance.13Heart.carolina.1": "我迫不及待地想要把你整个吞下，@。$41#$b#你看我的眼神让我想把你完全吞下。$43#$b#也许先来舔一舔？$45",
+    "Lance.13Heart.carolina.2": "兰斯开始舔舐着我，像是着了魔，我尖叫着叫他的名字。",
+    "Lance.13Heart.carolina.3": "更多。$43#$b#尖叫我的名字，直到你的声音嘶哑。$41",
+    "Lance.13Heart.carolina.4": "当我抓住他的头发拉他过来吻我时，我能感觉到他的手指在挑逗我最深的地方。",
+    "Lance.13Heart.carolina.5": "！！$42#$b#我最好不要松懈工作。$43",
+    "Lance.13Heart.carolina.6": "当他轻抚我的身体时，我能感觉到他正准备进入我的身体。",
+    "Lance.13Heart.carolina.7": "这可能会……和我们之前的体验非常不同。$43#$b#别害怕，我就在这里。$39",
+    "Lance.13Heart.carolina.8": "！！#当他进入时，感觉像电流穿过了我的整个身体。我尖叫起来。#“兰斯！”",
+    "Lance.13Heart.carolina.9": "*笑*$9#$b#怎么了，@？$43",
+    "Lance.13Heart.carolina.10": "我无法控制自己，不停地喊着他的名字。#感觉时间仿佛过去了好几个小时，我们做了好几轮。#最后，兰斯在我额头上轻吻。",
+    "Lance.13Heart.carolina.11": "@，我的爱，我的灵魂，我的火焰。$41#$b#我能感受到你通过这个誓言对我的爱意，我也迫不及待想要让你感受到我的爱。$35",
+    "Lance.13Heart.carolina.12": "兰斯，我爱你胜过一切。",
+    "Lance.13Heart.carolina.13": "*笑*$9#$b#我知道。$41",
+    "Lance.13Heart.carolina.14": "我们在余韵中入睡，真是一个美妙的夜晚！",
+
+    //SPICY BREAKS PEPPER X
+    "Lance.13Heart.pepper.1": "",
+
+
+    //// Lance 14 心灵契约：无论健康或疾病，抛弃所有其他人，爱与珍惜，直到死亡将我们分开
+    "Lance.14Hearts.chuckle": "*轻笑*",
+    "Lance.14Hearts.01": "我的爱！$99#$b#仪式准备好了！$15",
+    "Lance.14Hearts.02": "如果今晚你能陪我，我将在晚上六点在山顶等你。$97",
+    "Lance.14Hearts.03": "记住！山顶！六点整！$15",
+    "Lance.14Hearts.Pt2.01": "鹈鹕镇充满了魔法。$8#$b#显现在你的魔法传送阵里。$41#$b#马格努斯的精细手工中。$8#$b#葱郁的绿意里。$41",
+    "Lance.14Hearts.Pt2.02": "当我们最终完成我们的灵魂契约时，我感到怀旧和渴望。$8#$b#能够拥有像你这样的人。$14#$b#在我身边……$8#$b#接受灵魂契约，与像我这样的人一起看到永恒的边缘……？$9#$b#真是奇怪。$41",
+    "Lance.14Hearts.Pt2.03": "我从未想过会向任何人提供‘永恒’。$8#$b#有过不少逢场作戏，但从没有人真正了解‘我’是谁。$9",
+    "Lance.14Hearts.Pt2.04": "我感激你的爱与关怀。$8#$b#我打算在你感到无法继续时回报这种感觉。$41",
+    "Lance.14Hearts.Pt2.05": "我已经启动了仪式，真正的封印在你的魔法传送阵内。$40#$b#我需要在整个小镇收集魔力来进行这件事情。$41#$b#我们走吧？$43",
+    "Lance.14Hearts.Pt2.06": "*我握住了兰斯的手。*",
+    // 第三部分
+    "Lance.14Hearts.Pt3.01": "*我们在墓碑前停下脚步，表示敬意。*",
+    "Lance.14Hearts.Pt3.02": "你知道……$37#$b#有时我会想，在其他时间线中，我会不会像他们一样……一个短暂的梦想，在我生命的尽头之前就熄灭了。$36",
+    "Lance.14Hearts.Pt3.03": "我知道……我知道……$9#$b#我的阴郁幽默并不适合出现在我们这个灵魂契约之旅上……$37#$b#我想知道他们中的一些人是否嫉妒我……？$36#$b#我的其他‘自己’我是说……$37#$b#当他们窥视到我的力量时，他们会不会羡慕我的世界？$36#$b#他们会不会……试图加入我？$37",
+    "Lance.14Hearts.Pt3.04": "这特别适用于我使用的魔法，它与马格努斯的魔法相似。$37#$b#当我们……逝去时……$36#$b#我们时间线中的灵魂会选择消失或加入其他时间线。$37#$b#这就是为什么……$36",
+    "Lance.14Hearts.Pt3.05": "*叹气*",
+    "Lance.14Hearts.Pt3.06": "这就是为什么有些修行者会伤害自己。$37",
+    "Lance.14Hearts.Pt3.07": "抱歉，我并不是想让我们的旅程蒙上阴影。$36",
+    "Lance.14Hearts.Pt3.08": "*我握住了兰斯的手。*#他们的经历会影响你吗？",
+    "Lance.14Hearts.Pt3.09": "幸好不会。$8#$b#就像获得一个新的脑细胞一样？$44#$b#这有意义吗？$8#$b#像一个无声的后座司机。$9",
+    "Lance.14Hearts.Pt3.10": "但是，不再谈论这些阴郁的话题，我们继续前行吧。$36",
+    "Lance.14Hearts.Pt3.11": "我们走吧？$41",
+    // 第四部分
+    "Lance.14Hearts.Pt4.01": "当我感受到魔力达到顶峰时，唯一让我感到温暖的是你。$41#$b#奇怪，不是吗？$8#$b#整个山谷充满了魔法，但感觉非常……冷。$9#$b#希望这能说明什么的。$37",
+    "Lance.14Hearts.Pt4.02": "魔力会产生自己的温度吗？",
+    "Lance.14Hearts.Pt4.03": "不，我只是……$9#$b#我想我很奇怪。$8#$b#马格努斯总是说我对魔力太敏感。$37",
+    "Lance.14Hearts.Pt4.04": "这是什么意思？",
+    "Lance.14Hearts.Pt4.05": "嗯……$36#$b#我怎么向从未感受过热的人描述触摸火焰的感觉？$34#$b#你不能简单地说‘燃烧’，因为他们不会理解这意味着什么，对吗？$8#$b#就像没有共同体验的人无法理解它一样。$9#$b#你可以把它想象成一个热感器。$35#$b#你可以通过屏幕看到最热的部分，但如果你无法‘理解’热，它就不太有意义。$34#$b#魔力就像看到这些被一切推动的颜色反射。$8",
+    "Lance.14Hearts.Pt4.06": "这种感觉会让人不知所措吗？",
+    "Lance.14Hearts.Pt4.07": "嗯，我不会说它让人不知所措，但话又说回来，我是天生的。$8#$b#就像天生失明的人，其他感官会因为失去一个感官而增强。$9#$b#但这更像是我的其他感官都变得迟钝了。$8#$b#这种在我体内涌动的魔力只有在你在我身边时才能平息。$41",
+    "Lance.14Hearts.Pt4.08": "要不我……让你冷静下来？#这……说出来真让人害羞！",
+    "Lance.14Hearts.Pt4.09": "我？害羞！$99#$b#是谁在马格努斯的讲座上撞到桌子上？$15#$b#我要提醒你，我已经和他打交道有一百年了！$99",
+    "Lance.14Hearts.Pt4.10": "我们笑了一会儿。",
+    "Lance.14Hearts.Pt4.11": "你……$8#$b#*叹气*$9#$b#你真的让我意识到我们在一起的每一刻，我对你的爱有多深。$41",
+    "Lance.14Hearts.Pt4.12": "这没什么好害羞的……$97#$b#看到你脸红的样子也让我心跳加速……$8#$b#真的……@，你让我在一起的每一刻都感觉像在天堂。$97",
+    "Lance.14Hearts.Pt4.13": "你真是无可救药！！",
+    "Lance.14Hearts.Pt4.14": "哦？你不是吗？$99#$b#我要再提醒你一次，是谁杀死了一大群怪物，帮助马龙修理他的船，结果看到这个‘无可救药’的家伙被藏在山里的前哨站？！$97#$b#你有资格说话！$99",
+    "Lance.14Hearts.Pt4.15": "*在兰斯面前，我感到自己像个孩子。*#*一种温暖的安慰。*",
+    "Lance.14Hearts.Pt4.16": "*我靠近他，感受他的温暖，沉浸在这种我们将灵魂相连的安慰中。*",
+    "Lance.14Hearts.Pt4.17": "哦？你想现在被好好宠爱宠爱吗？$41#$b#在这样激动人心又尴尬的声明之后，你就这么紧紧贴贴着我吗？$32",
+    "Lance.14Hearts.Pt4.18": "*我打了兰斯一拳。*",
+    "Lance.14Hearts.Pt4.19": "啊！$42#$b#我该庆幸你不是一个魔法天才吗？！$15#$b#那一拳里带着魔法你这小恶魔！$97",
+    "Lance.14Hearts.Pt4.20": "我想我对你无可救药。#你让我着迷。",
+    "Lance.14Hearts.Pt4.21": "啊……$99#$b#我……$42#$b#你真是在玩火。$43#$b#我们甚至还没完成仪式的一半。${{e38}}",
+    "Lance.14Hearts.Pt4.22": "*我笑着靠近他，准备亲吻他。*",
+    "Lance.14Hearts.Pt4.23": "……啊$39#$b#真是危险，惊艳，令人心醉。$43#$b#但我需要赶紧完成这个仪式，不是吗？$97",
+
+    //pt5 because i'm dumb and didn't separate anything out "Lance.14Hearts.Pt5.01": "",
+    "Lance.14Hearts.Pt5.01": "好了，我们到了。$8#$b#这是最后一段路程。$41#$b#让你的魔力最为密集的地方。$9",
+    "Lance.14Hearts.Pt5.02": "你还好吗？",
+    "Lance.14Hearts.Pt5.03": "我很好……$33#$b#不过感觉像是被压了几百磅重。$9",
+    "Lance.14Hearts.Pt5.04": "你能坐下来陪我吗？$36#$b#我现在真的站不住了。$8",
+    "Lance.14Hearts.Pt5.05": "*我立刻跪在兰斯面前。*",
+    "Lance.14Hearts.Pt5.06": "啊……${{e38}}#$b#依然如此美丽，即使在魔法的光辉中，你也光芒四射。$43",
+    "Lance.14Hearts.Pt5.07": "*兰斯慢慢地深呼吸。*",
+    "Lance.14Hearts.Pt5.08": "你可能不太喜欢这个，但这就是那个尴尬的誓言。$8#$b#我需要你跟我重复。$43",
+    "Lance.14Hearts.Pt5.09": "*我点头握住他的手。*",
+    "Lance.14Hearts.Pt5.10": "准备好了吗？$43",
+    "Lance.14Hearts.Pt5.11": "我以我的信条、我的骄傲、我的原则和我的生命发誓，缔结这一契约。$9",
+    "Lance.14Hearts.Pt5.12": "我以我的信条、我的骄傲、我的原则和我的生命发誓，缔结这一契约。",
+    "Lance.14Hearts.Pt5.13": "我将我的名字绑定于我的魔法、我的灵魂、我的生命。$9",
+    "Lance.14Hearts.Pt5.14": "我将我的名字绑定于我的魔法、我的灵魂、我的生命。",
+    "Lance.14Hearts.Pt5.15": "我将我的名字给予兰斯，我的灵魂伴侣，我的爱。$41",
+    "Lance.14Hearts.Pt5.16": "我将我的名字给予兰斯，我的灵魂伴侣，我的爱。",
+
+    "Lance.14Hearts.Pt5.17": "...!!$99#$b#我请求周围的魔力之灵祝福这一誓言。$8",
+    "Lance.14Hearts.Pt5.18": "我请求周围的魔力之灵祝福这一誓言。",
+    "Lance.14Hearts.Pt5.19": "现在，请原谅我。$8",
+    "Lance.14Hearts.Pt5.20": "*兰斯拿出一对耳环，把它们戴到我的耳朵上。*#*刺痛了一下，但立刻被魔法温暖了。*",
+    "Lance.14Hearts.Pt5.21": "它们看起来……$42#$b#很美……$42#$b#在你身上……$97",
+    "Lance.14Hearts.Pt5.22": "*我感受到仪式完成时魔力的颤抖。*",
+    "Lance.14Hearts.Pt5.23": "哈啊……$8#$b#感受到那股冲击了吗？$43#$b#那是你的魔力与我的交融。$97#$b#我觉得我撑不了多久了。$8",
+    "Lance.14Hearts.Pt5.24": "*我抱住兰斯。*",
+    "Lance.14Hearts.Pt5.25": "谢谢你，我的爱，我会把我们传送回家。$97",
+    "Lance.14Hearts.Pt5.26": "*兰斯把我们传送到家门口。*#*我们走进屋子，迎接夜晚。*",
+    //bell pepper end
+    ///SPICYTIME "Lance.14Hearts.pepper.1": "",
+    "Lance.14Hearts.pepper.1": "我不想再克制了，我的意思是你让我欲火焚身。$97",
+    "Lance.14Hearts.pepper.2": "我再也不想控制自己了。$97",
+    "Lance.14Hearts.pepper.3": "兰斯……",
+    "Lance.14Hearts.pepper.4": "是的，我的爱人？$8",
+    "Lance.14Hearts.pepper.5": "*就在他说完这话时，他用魔法触碰了我的肌肤。*#啊！这不公平！",
+    "Lance.14Hearts.pepper.6": "*轻笑*$8#$b#你对我何时公平过？$97#$b#过来，我会满足我放荡的爱意。$43",
+
+    //closer
+    "Lance.14Hearts.spicecloser.1": "*我们享受到了凌晨，这个灵魂契约确实让我感觉不同。*#我很高兴你在我身边。",
+    "Lance.14Hearts.spicecloser.2": "*轻笑*$8#$b#我感觉自己是世界上最幸福的人。$97#$b#我爱你，@。$102",
+    "Lance.14Hearts.spicecloser.3": "我也爱你，兰斯！",
+    //habanero break
+    "Lance.14Hearts.pepper.7": "*兰斯把我抱到床上，同时脱掉我的衣服，把我轻轻放在床上。*",
+    "Lance.14Hearts.pepper.8": "我不得不说，我看你从来不会厌倦。$97",
+    "Lance.14Hearts.pepper.9": "！！！#*兰斯开始亲吻我的肌肤，仿佛在崇拜我。*#*他的魔法让我头晕目眩。*",
+    "Lance.14Hearts.pepper.10": "你……$97#$b#真是……$41#$b#令人上瘾……$97",
+    "Lance.14Hearts.pepper.11": "*他每说一个字就猛烈抽插我一次，我疯狂喊出他的名字。*#兰斯……",
+    "Lance.14Hearts.pepper.12": "是的……我的……爱人……？$97",
+    "Lance.14Hearts.pepper.13": "*我们气喘吁吁地互相享受，达到高潮。*",
+    //carolina break
+    "Lance.14Hearts.pepper.14": "哦，我还没玩够呢。$97",
+    "Lance.14Hearts.pepper.15": "！！！#*当我试图躲开时，兰斯抓住了我的双腿。*",
+    "Lance.14Hearts.pepper.16": "我们还有整晚的时间，我美丽的灵魂伴侣。$97",
+    "Lance.14Hearts.pepper.17": "*他吻着我的腿，把它们举到他的肩膀上。*",
+    "Lance.14Hearts.pepper.18": "你能跟上吗？$97",
+    "Lance.14Hearts.pepper.19": "*我用我的大腿夹住他的头。*#我不知道，你能吗？",
+    "Lance.14Hearts.pepper.20": "你会后悔这么做的。$41",
+
+
+    //////// qi event??????????
+    "Qievent.1": "", //found you
+    "Qievent.1": "", //i hear the sound of a warp, my consciousness is fading # lance......
+    "Qievent.1": "", //it's dark
+    "Qievent.1": "", //my arms are bound
+    "Qievent.1": "", //chair rattling
+
+
+    //// 戴耳环后
+    "WearEarring.01": "你的魔力确实精进了许多。$97#$b#戴着这些耳环让我即使在这一刻也渴望着你。$8#$b#请怜悯你可怜的丈夫吧。$97", // addMailReceived wearEarrings
+
+    /////////////////////////////////////////////////////////////////////////
+
+    //// 玩家死亡责骂
+    "LanceRelationship.Deathq": "#....你生气了吗？ #...抱歉... #....谢谢你救了我.... #这种事不会再发生了。",
+    "LanceRelationship.Death1": "我...无法阻止你鲁莽行事..$81#$b#",
+    "LanceRelationship.Death2": "真",
+    "LanceRelationship.Death3": "不敢",
+    "LanceRelationship.Death4": "相信",
+    "LanceRelationship.Death5": "这",
+    "LanceRelationship.Death6": "不",
+    "LanceRelationship.Death7": "是",
+    "LanceRelationship.Death8": "黄油",
+    "LanceRelationship.Death9": "而",
+    "LanceRelationship.Death10": "是",
+    "LanceRelationship.Death11": "人造黄油",
+    "LanceRelationship.Death12": "哇哦",
+    "Lance_PassOut": "我把这封测试信留给你，我的爱人。",
+
+}

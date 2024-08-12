@@ -1,0 +1,1533 @@
+{
+
+    //// ***C O N F I G***////
+
+    "config.section.Content.name": "Content",
+    "config.section.Content.description": "Alters the content active in the mod. Please make sure these are configured properly!",
+
+    "config.Override Generic Dialogue.name": "Override Generic Dialogue",
+    "config.Override Generic Dialogue.description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and other similar fun dialogue. Please disable this if you aren't planning to date the Lance. ",
+
+    "config.JojaBad.name": "JojaBad",
+    "config.JojaBad.values.true": "true",
+    "config.JojaBad.values.false": "false",
+    "config.JojaBad.description": "Toggles whether or not you want to have lore based around the SVE Joja or not, default lore on, means he'll be unromanceable if you go Joja.",
+
+    "config.Portrait": "Portrait",
+    "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
+    "config.Portrait.values.Aviroen Style": "Aviroen Style",
+    "config.Portrait.values.Use Custom": "Use Custom",
+    "config.Portrait.description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
+
+    "config.Use Beach Sprites": "Use Beach Sprites",
+    "config.Use Beach Sprites.values.true": "true",
+    "config.Use Beach Sprites.values.false": "false",
+    "config.Use Beach Sprites.description": "Toggles on and off whether or not the game calls a beach sprite. Please change this to false if you do not have beach sprites and are using a custom sprite set.",
+
+    "config.Earring Colour": "Earring Colour",
+    "config.Earring Colour.description": "Changes the colour of Lance' eventual earring gift in the event. Please pick which suit you better. To actually wear them in game, please install the Fashion sense pack.",
+    "config.Earring Colour.values.turquoise": "turqoise",
+    "config.Earring Colour.values.red": "red",
+
+    "config.Darker Plot Events(Y4)": "Darker Plot Events(Y4)",
+    "config.Darker Plot Events(Y4).description": "Enables the somewhat darker string of critical plot events where Lance' trauma response is on full display. If you would prefer a more light-hearted experience I suggest you turn this off. TW: Overt self-destructive tendencies and vague suicidal tendency implications. Potentially may possess triggering scenarios. (The farmer is briefly kidnapped and sealed into silence about the event.) Toggling this off in the middle of said events will stop them from continuing so you may test it out to see if it's for you.",
+
+    "config.Spicier Content": "Spicier Content",
+    "config.Spicier Content.description": "You are warned that Pepper X is [Aviroen] letting the muzzle off my writer who is a thirsty dog. Carolina Reaper is more explicit than Habanero, Habanero is akin to RRRR's 'wine event' spice. Bell Pepper is rated-E for everyone.",
+    "config.Spicier Content.values.Bell Pepper": "Bell Pepper",
+    "config.Spicier Content.values.Habanero": "Habanero",
+    "config.Spicier Content.values.Carolina Reaper": "Carolina Reaper",
+    "config.Spicier Content.values.Pepper X": "Pepper X",
+
+    "config.HeartEvents": "HeartEvents",
+    "config.HeartEvents.description": "Resets ALL of my mod's heart events, default 'pause', toggle and save to activate.",
+    "config.HeartEvents.values.LanceExpanded": "LanceExpanded",
+    "config.HeartEvents.values.pause": "pause",
+
+    "config.LanceNewRoom": "LanceNewRoom",
+    "config.LanceNewRoom.description": "Changed Lance's room to be less morbid and actually useful for him lorewise.",
+    "config.LanceNewRoom.values.true": "true",
+    "config.LanceNewRoom.values.false": "false",
+
+    "config.Custom Wedding": "Custom Wedding",
+    "config.Custom Wedding.description": "Changes and mutes the original wedding event, adds Camilla in, moves it to Fable Reef. Specific to Lance. Turn this off if you're not marrying Lance.",
+    "config.Custom Wedding.values.true": "true",
+    "config.Custom Wedding.values.false": "false",
+
+    "config.Day 1 Toggle": "Day 1 Toggle",
+    "config.Day 1 Toggle.description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early.",
+    "config.Day 1 Toggle.values.true": "true",
+    "config.Day 1 Toggle.values.false": "false",
+
+
+    ////Misc stuff
+    "Friend": "Friend",
+    "Colleague": "Colleague",
+    "LancePortrait": "Lance's Portrait",
+    "Name.Lance": "Lance",
+
+    ////Items
+    "Lance.MonsterHunting": "Lance's Spare Khanjar",
+    "Lance.MonsterHunting.Description": "Lance gave me his spare Khanjar for when I want to join him on his monster hunting missions.",
+    "Lance.GDiary": "Grandpa's Diary",
+    "Lance.GDiary.Description": "A diary containing Grandpa's misadventures in the valley.",
+    "Lance.camping": "A Weird Frying Pan",
+    "Lance.camping.Description": "A crudely hammered frying pan made by hand. Lance needs to work more with Clint...",
+    "Lance.mishaps": "A Strange Potion",
+    "Lance.mishaps.Description": "Lance's experimental potion that made Magnus nauseous.",
+    "Lance.rope": "Red Cotton Rope",
+    "Lance.rope.Description": "Beautifully dyed, expertly woven, red cotton rope. I can ask Lance whenever I want to use this.",
+    "Lance.shenanigans": "An Even Stranger Potion",
+    "Lance.shenanigans.Description": "A potion made with some of the most strangest ingredients, useful for Lance's experiments.",
+    "Lance.Razor": "Lance's Razor",
+    "Lance.Razor.Description": "A regular razor, I should let Lance know if I want him to shave his beard off.",
+
+    /////////dialogue.json
+
+    //Special Dialogue
+    //"danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.danceRejectionCharacterDialogue_0": "Ah I'm... terribly sorry, I'm not quite used to the village and I don't remember how to dance.$8",
+    "Lance.danceRejectionCharacterDialogue_1": "Maybe next time, I'm still getting used to my bearings here in the valley.$8",
+    "Lance.danceRejectionCharacterDialogue_2": "Maybe you could ask someone else...? I hardly believe I'm a fitting partner.$8",
+    "Lance.danceRejectionCharacterDialogue_3": "Apologies, I don't quite understand the steps.$8",
+    "Lance.danceRejectionCharacterDialogue_4": "Maybe next time, I'm not quite interested in dancing this time.$8",
+    "Lance.danceRejectionCharacterDialogue_5": "Sorry, you'll have to count me out, I'm a little worse for wear.$8",
+
+    //"MovieInvitation": "{{i18n:Lance.MovieInvitationCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MovieInvitationCharacterDialogue_0": "Ah, a movie? I would love to.$14",
+
+    //"breakUp": "{{i18n:Lance.CharacterDialogue_breakup{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.CharacterDialogue_breakup0": "...I thought that we would bask in each other's presence, but I guess I was wrong.$80#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_breakup1": "I'm not going to say I understand, because I truly don't.$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_breakup2": "This is... a stronger blow to me than any adventure I've been on, sorry... I'll need some time.$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_breakup3": "I guess I was wrong about you, I guess Magnus was right after all...$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_breakup4": "I'm not going to apologize for who I am as a person, I understand who I am.$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_breakup5": "...Another fling, I guess...$81#$e#%Lance is ignoring you.",
+
+    //"divorced": "{{i18n:Lance.CharacterDialogue_divorce{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.CharacterDialogue_divorce0": "...I truly thought that we would bask in eternity with each other...$83#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_divorce1": "I'm not quite sure what else I could've done to fix this, if it was even me...$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_divorce2": "I feel... lied to about our future together, I need some time alone.$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_divorce3": "I truly thought you were the one for me, I guess I was wrong and Magnus was right... again...$81#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_divorce4": "I don't think I can recover from a blow like this for awhile, I need time to myself.$80#$e#%Lance is ignoring you.",
+    "Lance.CharacterDialogue_divorce5": "I guess 'eternity' was too scary for you... you could've told me before it came to this...$83#$e#%Lance is ignoring you.",
+
+    //"dumped_Guys": "{{i18n:Lance.CharacterDialogue.dumped}}",
+    "Lance.CharacterDialogue.dumped": "It truly is fascinating to see the mundane get overwhelmed by a power trip. Call me surprised, I thought you'd be different.$82#$e#%Lance is ignoring you.",
+
+    //"secondChance_Guys": "{{i18n:"Lance.CharacterDialogue.secondchance}}",
+    "Lance.CharacterDialogue.secondchance": "If it is truly... what you want... I'm willing to give it a second chance.$82",
+
+    //"highlandsDwarf": "{{i18n:"Lance.CharacterDialogue_hDwarf{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.CharacterDialogue_hDwarf": "It truly is fascinating to see what the dwarves from different regions come up with.$8",
+    "Lance.CharacterDialogue_hDwarf1": "",
+    "Lance.CharacterDialogue_hDwarf2": "",
+    "Lance.CharacterDialogue_hDwarf3": "",
+    "Lance.CharacterDialogue_hDwarf4": "",
+    "Lance.CharacterDialogue_hDwarf5": "",
+
+    //"Resort": "{{i18n:"Lance.ResortCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.ResortCharacterDialogue_0": "It's finally time for a vacation.$8",
+    "Lance.ResortCharacterDialogue_1": "No need to worry about the volcano, the dwarves have decided to give me a day off.$8",
+    "Lance.ResortCharacterDialogue_2": "I've been waiting for a chance to be able to rest.$8",
+    "Lance.ResortCharacterDialogue_3": "Are you interested in basking in the sunlight? Don't forget the sunscreen.$8",
+    "Lance.ResortCharacterDialogue_4": "The Ministry isn't concerned about my day off, I guess my hard work has paid off.$8",
+    "Lance.ResortCharacterDialogue_5": "Interested in a beverage? They're quite divine.$8",
+
+    //"Resort_Bar": "{{i18n:"Lance.Resort_BarCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_BarCharacterDialogue_0": "Ah I do love a good pina colada!$15",
+    "Lance.Resort_BarCharacterDialogue_1": "Drunk? Possibly!$15",
+    "Lance.Resort_BarCharacterDialogue_2": "I haven't been able to let loose in so long, it's quite nice.$10",
+    "Lance.Resort_BarCharacterDialogue_3": "Hmmm... warm sand between your toes and a drink in hand, it's quite nice.${{e11}",
+    "Lance.Resort_BarCharacterDialogue_4": "I couldn't possibly be *hic* ...$15#$b#Okay maybe I'm a little drunk.$99",
+    "Lance.Resort_BarCharacterDialogue_5": "I'm not as think as you drunk I am...$14",
+
+    //"Resort_Chair": "{{i18n:"Lance.Resort_ChairCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_ChairCharacterDialogue_0": "Ministry affairs are not my concern today, I'm finally relaxing.$8",
+    "Lance.Resort_ChairCharacterDialogue_1": "",
+    "Lance.Resort_ChairCharacterDialogue_2": "",
+    "Lance.Resort_ChairCharacterDialogue_3": "",
+    "Lance.Resort_ChairCharacterDialogue_4": "",
+    "Lance.Resort_ChairCharacterDialogue_5": "",
+
+    //"Resort_Dance": "{{i18n:"Lance.Resort_DanceCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_DanceCharacterDialogue_0": "To bask in the warm sun is one of my favorite things to do. Does that make me a feline?$8",
+    "Lance.Resort_DanceCharacterDialogue_1": "",
+    "Lance.Resort_DanceCharacterDialogue_2": "",
+    "Lance.Resort_DanceCharacterDialogue_3": "",
+    "Lance.Resort_DanceCharacterDialogue_4": "",
+    "Lance.Resort_DanceCharacterDialogue_5": "",
+
+    //"Resort_Entering": "{{i18n:"Lance.Resort_EnteringCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_EnteringCharacterDialogue_0": "I can't wait to enjoy myself!$15",
+    "Lance.Resort_EnteringCharacterDialogue_1": "",
+    "Lance.Resort_EnteringCharacterDialogue_2": "",
+    "Lance.Resort_EnteringCharacterDialogue_3": "",
+    "Lance.Resort_EnteringCharacterDialogue_4": "",
+    "Lance.Resort_EnteringCharacterDialogue_5": "",
+
+    //"Resort_Leaving": "{{i18n:"Lance.Resort_LeavingCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_LeavingCharacterDialogue_0": "It's a shame... but work calls.$65",
+    "Lance.Resort_LeavingCharacterDialogue_1": "",
+    "Lance.Resort_LeavingCharacterDialogue_2": "",
+    "Lance.Resort_LeavingCharacterDialogue_3": "",
+    "Lance.Resort_LeavingCharacterDialogue_4": "",
+    "Lance.Resort_LeavingCharacterDialogue_5": "",
+
+    //"Resort_Shore": "{{i18n:"Lance.Resort_ShoreCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_ShoreCharacterDialogue_0": "Be careful not to cut yourself on seashells, they're quite sharp.$8",
+    "Lance.Resort_ShoreCharacterDialogue_1": "I do love the sound of waves crashing against the beach, it's calming.$8",
+    "Lance.Resort_ShoreCharacterDialogue_2": "Mussels are incredibly delicious over an open fire, if you happen upon some I wouldn't mind roasting them for you.$8",
+    "Lance.Resort_ShoreCharacterDialogue_3": "%Lance is eating a coconut.#$b#!!!$18#$b#Pardon me, I can't resist.$8",
+    "Lance.Resort_ShoreCharacterDialogue_4": "If you listen closely, you can hear the sounds of the world.$8",
+    "Lance.Resort_ShoreCharacterDialogue_5": "It's nice to just relax and feel the sand between your toes every now and then.$8",
+
+    //"Resort_Towel": "{{i18n:"Lance.Resort_TowelCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_TowelCharacterDialogue_0": "%Lance is snoring.",
+    "Lance.Resort_TowelCharacterDialogue_1": "",
+    "Lance.Resort_TowelCharacterDialogue_2": "",
+    "Lance.Resort_TowelCharacterDialogue_3": "",
+    "Lance.Resort_TowelCharacterDialogue_4": "",
+    "Lance.Resort_TowelCharacterDialogue_5": "",
+
+    //"Resort_Umbrella": "{{i18n:"Lance.Resort_UmbrellaCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_UmbrellaCharacterDialogue_0": "%Lance is talking through communication magic.",
+    "Lance.Resort_UmbrellaCharacterDialogue_1": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_2": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_3": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_4": "",
+    "Lance.Resort_UmbrellaCharacterDialogue_5": "",
+
+    //"Resort_Wander": "{{i18n:"Lance.Resort_WanderCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.Resort_WanderCharacterDialogue_0": "I wonder what other things are around the island now that I have time to look.$99",
+    "Lance.Resort_WanderCharacterDialogue_1": "Hmm, I wonder if I should extend my barrier.$9",
+    "Lance.Resort_WanderCharacterDialogue_2": "I guess I'm in a wandering mood, it has been awhile.$8",
+    "Lance.Resort_WanderCharacterDialogue_3": "Maybe I'll find some fresh mussels to enjoy myself later.$1",
+    "Lance.Resort_WanderCharacterDialogue_4": "Oh, were you interested in my mussel findings? Here.$15[719]",
+    "Lance.Resort_WanderCharacterDialogue_5": "Something about the beach makes me want a cold beverage.$8",
+
+    //"GreenRain": "{{i18n:"Lance.GreenRain{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.GreenRain0": "...The villagers are hiding in the saloon?$15#$b#The mundane are scared of the most random things.$8",
+    "Lance.GreenRain1": "Green rain isn't harmful at all, it's actually a boon to the lands.$8",
+    "Lance.GreenRain2": "I think I'll fill some casks to bring to Magnus later, he always bothers me for these physical tasks.$8",
+    "Lance.GreenRain3": "I don't quite enjoy the fiddleheads that come during this time, but at least Magnus will like them.$8",
+    "Lance.GreenRain4": "Rain in general makes me want to find an established book, some warm beverage, and to hide away for awhile.$8",
+    "Lance.GreenRain5": "Don't worry about me, I'll probably be roaming to gather some rain samples for Magnus.$8",
+
+    //"GreenRainFinished": "{{i18n:"Lance.GreenRainFinished{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.GreenRainFinished0": "...And as quickly as it came, it is gone.$8",
+    "Lance.GreenRainFinished1": "My casks to Magnus proved fruitful, he offered First Slash a hefty seventy percent off our potion purchases.$8",
+    "Lance.GreenRainFinished2": "I quite enjoyed myself, reading books is a smaller hobby of mine.$9",
+    "Lance.GreenRainFinished3": "Did you find anything useful during the rains?$14",
+    "Lance.GreenRainFinished4": "Rains can be unpredictable, moreso when the green rain comes.$8",
+    "Lance.GreenRainFinished5": "I might look into potion brewing from Magnus some more, I just... have to bring some coffee with me.$8",
+
+    "wearEarrings": "{{i18n:WearEarring.{{Random:{{Range: 0, 5}}}}}}",
+
+    ////////////gift dialogue
+    "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "{{i18n:Lance.GiftAgedBlueMoonWine}}",
+    "AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
+    "AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
+    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
+    "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
+    "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////other marriage
+
+    //"MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriedWizardCharacterDialogue_0": "Congratulations, Magnus is quite estranged, but at least he has heart.$8",
+    "Lance.MarriedWizardCharacterDialogue_1": "",
+    "Lance.MarriedWizardCharacterDialogue_2": "",
+    "Lance.MarriedWizardCharacterDialogue_3": "",
+    "Lance.MarriedWizardCharacterDialogue_4": "",
+    "Lance.MarriedWizardCharacterDialogue_5": "",
+
+    //"RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.RoommatesKrobusCharacterDialogue_0": "A shadowperson! How intriguing, I do hope to meet them and talk about such matters someday.$8",
+    "Lance.RoommatesKrobusCharacterDialogue_1": "",
+    "Lance.RoommatesKrobusCharacterDialogue_2": "",
+    "Lance.RoommatesKrobusCharacterDialogue_3": "",
+    "Lance.RoommatesKrobusCharacterDialogue_4": "",
+    "Lance.RoommatesKrobusCharacterDialogue_5": "",
+
+    ////daily dialogue
+    //"Mon": "{{i18n:Mon.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Mon.Lance.CharacterDialogue_0": "I do miss the sun of Ginger Island, the land screams here...$3",
+    "Mon.Lance.CharacterDialogue_1": "Camilla requested my aid on Mondays, something about wanting to bother Mag.$8",
+    "Mon.Lance.CharacterDialogue_2": "The afteraffects of the Elemental Wars still bleeds here, it's a shame, really.$3",
+    "Mon.Lance.CharacterDialogue_3": "There isn't a such thing as overpacking when it comes to the wastes, do be careful.$3",
+    "Mon.Lance.CharacterDialogue_4": "I'm usually here to make sure nothing goes wrong with the barriers.$2",
+    "Mon.Lance.CharacterDialogue_5": "Camilla really does like to work me to the bone.$8",
+
+    //"Tue": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Tue.Lance.CharacterDialogue_0": "Marlon was telling me stories of his adventuring days with his wife.$8",
+    "Tue.Lance.CharacterDialogue_1": "Once Gil finds an interest in you, he won't hold himself back.$8",
+    "Tue.Lance.CharacterDialogue_2": "First Slash takes commissions to clear out the mines every now and then, it's steady income.$8",
+    "Tue.Lance.CharacterDialogue_3": "Maybe I'll take a more relaxing day today, Marlon has nothing for me.$8",
+    "Tue.Lance.CharacterDialogue_4": "Hello @, did you want to join in the conversation of monster dichotomy with Marlon and me?$8",
+    "Tue.Lance.CharacterDialogue_5": "Interested in magic swords?$8#$b#There's a bit of a finicky beast, I wouldn't mind teaching you sometime.$9",
+
+    //"Wed": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Wed.Lance.CharacterDialogue_0": "Another day another... well I'm quite unsure of monetary values nowadays.$8",
+    "Wed.Lance.CharacterDialogue_1": "Marlon can really talk my ear off, but I guess that's because he's known me since my younger days.$8",
+    "Wed.Lance.CharacterDialogue_2": "I wonder if Camilla will bother me with another menial task this week, I don't look forward to it.$9",
+    "Wed.Lance.CharacterDialogue_3": "Do be careful if you plan to explore the mines, being overprepared is better than underprepared.$8",
+    "Wed.Lance.CharacterDialogue_4": "If you're ever interested in how the First Slash works, feel free to stop by sometime.$8",
+    "Wed.Lance.CharacterDialogue_5": "Jolyne is asking for the next time that you'll come by, I'll have to let her know when I go back.$8",
+
+    //"Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Thu.Lance.CharacterDialogue_0": "Care for an adventure into the volcano?$8",
+    "Thu.Lance.CharacterDialogue_1": "Be careful of the monsters around here, they're tougher than the Pelican Mines after all.$8",
+    "Thu.Lance.CharacterDialogue_2": "If you're venturing into the volcano you'll probably need this.$8[279]",
+    "Thu.Lance.CharacterDialogue_3": "Be sure to take breaks every now and then, it is the most painful thing to try and work through burnout.$8",
+    "Thu.Lance.CharacterDialogue_4": "I'll be around if you want to chatter, it gets quite boring just talking to parrots.$8",
+    "Thu.Lance.CharacterDialogue_5": "Leo is intrigued by me, I would say.$8#$b#At least I think he is, he likes to hang off my clothes every now and then like I'm a tree.$9",
+
+    //"Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Fri.Lance.CharacterDialogue_0": "The shipwreck has been there for quite a while, I mostly tended to the volcano since it was active at the time.$8",
+    "Fri.Lance.CharacterDialogue_1": "Leo is a good kid, even if he thinks that my hair is made out of candy.$8",
+    "Fri.Lance.CharacterDialogue_2": "The parrots sometimes bring me random fruits for my labour, I appreciate their hard work.$9",
+    "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...${e3}}",
+    "Fri.Lance.CharacterDialogue_4": "Pardon?$99#$b#I guess I must've dozed off for a second.$8",
+    "Fri.Lance.CharacterDialogue_5": "Just here to entertain me?$13",
+
+    //"Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Sat.Lance.CharacterDialogue_0": "The barrier is intact, I'm just taking a rest for a mo...ment...$8#$e#%Lance is dozing off.",
+    "Sat.Lance.CharacterDialogue_1": "I'm glad that the seasons aren't too drastic out here, I would be shellshocked from the islands.$8",
+    "Sat.Lance.CharacterDialogue_2": "Winter here is one of the worst seasons, I can't really live without covering up every inch of my body.$8",
+    "Sat.Lance.CharacterDialogue_3": "Do be careful if you plan to venture out, the monsters here have been highly agitated as of late.$3",
+    "Sat.Lance.CharacterDialogue_4": "Interested in the recluse in the Highlands?$8",
+    "Sat.Lance.CharacterDialogue_5": "I wonder if Magnus would be willing to take these seeds from me...$2",
+
+    //"Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "Sun.Lance.CharacterDialogue_0": "I don't really understand the concept of the 'weekend' I guess.$8",
+    "Sun.Lance.CharacterDialogue_1": "Sometimes I let off some steam on the more volatile monsters... it does calm the nerves.$8",
+    "Sun.Lance.CharacterDialogue_2": "Gemfish are certainly interesting, their colours and hues are quite beautiful.$12",
+    "Sun.Lance.CharacterDialogue_3": "I wonder if I should cook something warm tonight...$2#$e#%Lance is contemplating dinner.",
+    "Sun.Lance.CharacterDialogue_4": "I do worry that sometimes I haven't integrated myself into the valley, but I guess upon your visits I'm doing just fine.$8",
+    "Sun.Lance.CharacterDialogue_5": "...Would gemfish even be a decent meal...?$3#$e#%Lance is contemplating... dinner...?",
+
+    //"Mon1": "{{i18n:Mon1.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Mon8": "{{i18n:Mon8.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Mon15": "{{i18n:Mon15.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Mon22": "{{i18n:Mon22.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue2": "{{i18n:Tue2.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue9": "{{i18n:Tue9.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue16": "{{i18n:Tue16.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Tue23": "{{i18n:Tue23.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed3": "{{i18n:Wed3.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed10": "{{i18n:Wed10.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed17": "{{i18n:Wed17.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Wed24": "{{i18n:Wed24.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu4": "{{i18n:Thu4.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu11": "{{i18n:Thu11.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu18": "{{i18n:Thu18.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Thu25": "{{i18n:Thu25.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri5": "{{i18n:Fri5.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri12": "{{i18n:Fri12.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri19": "{{i18n:Fri19.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Fri26": "{{i18n:Fri26.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat6": "{{i18n:Sat6.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat13": "{{i18n:Sat13.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat20": "{{i18n:Sat20.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sat27": "{{i18n:Sat27.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun7": "{{i18n:Sun7.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun14": "{{i18n:Sun14.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun21": "{{i18n:Sun21.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+
+    //"Sun28": "{{i18n:Sun28.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+    ////////////////////////////////////////////////////////////////////////////////////marriagedialogue.json
+
+    //"spring_Lance": "{{i18n:Lance.MarriageDialogue_Spring{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue_Spring0": "Spring!$15#$b#I do love how everything feels and smells fresh.$99",
+    "Lance.MarriageDialogue_Spring1": "As useless as I may feel with crops, do not hesitate to ask me to help with anything else around the farm, my love.$8",
+    "Lance.MarriageDialogue_Spring2": "The fresh flush from the cold winter is finally here, I feel like I can breathe without the chill.$8",
+    "Lance.MarriageDialogue_Spring3": "I should check on the wines I've stowed away in the Highlands, they should be ready by now.$15",
+    "Lance.MarriageDialogue_Spring4": "My research on monsters never really ceases, but something about spring makes it a lighter load.$8",
+    "Lance.MarriageDialogue_Spring5": "I'm contemplating a nap under the cherry tree, care to join me, my love?$13",
+
+    //specific days
+    "Lance.MarriageDialogue.016": "I can feel the valley teeming with life. Spring has arrived...$9#$e#Without winter, spring wouldn't be as appreciated.$13",
+    "Lance.MarriageDialogue.017": "I believe the Egg Festival is today.$14#$e#This will be a good opportunity for me to strike up a conversation with the valley residents.$15",
+    "Lance.MarriageDialogue.018": "I've prepared for the flower dance ceremony and will gladly take your hand in dance, my darling.$13",
+
+    //"summer_Lance": "{{i18n:Lance.MarriageDialogue_Summer{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue_Summer0": "Summer is where my magic hits its peak, call it the fire, but that's just how I am.$8",
+    "Lance.MarriageDialogue_Summer1": "The heat of summer is a silent killer, do be wary to not work yourself to exhaustion.$3",
+    "Lance.MarriageDialogue_Summer2": "Care for something cold, my love? I dug these out of the fridge.$8[233]",
+    "Lance.MarriageDialogue_Summer3": "I happened upon these when visiting the resort, I just wanted to share with you, my love.$8[265]",
+    "Lance.MarriageDialogue_Summer4": "Do be mindful to keep yourself hydrated, my love, I wouldn't want to have to warp you straight to Harvey.$8",
+    "Lance.MarriageDialogue_Summer5": "Spicy food always helps beat the summer heat.$8#$b#That doesn't make sense?$14#$b#I guess you'll have to try my bibim guksu.$8",
+
+    //specific days
+    "Lance.MarriageDialogue.020": "The beginning of summer takes a heavy toll on a farmer.$16#$b#Take this, my my love. It'll help keep your stamina up[349].$12#$e#Stay safe today, my love.$7",
+    "Lance.MarriageDialogue.021": "I've prepared a special dish using an old family recipe for the potluck.$1",
+    "Lance.MarriageDialogue.022": "Don't forget about the gathering on the beach tonight, my love.$4",
+
+    //"fall_Lance": "{{i18n:Lance.MarriageDialogue_Fall{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue_Fall0": "Autumn always brings about a crisp feeling. A nice cup of tea sounds good.$12",
+    "Lance.MarriageDialogue_Fall1": "Please do not barrage me with the holiday music just yet, I still have a season left to enjoy myself.$14",
+    "Lance.MarriageDialogue_Fall2": "Are you excited for Spirit's Eve?$14#$b#Apparently Sophia has something for me...$12",
+    "Lance.MarriageDialogue_Fall3": "A nice cup of chai tea sounds great, let me know if you need my help with anything, my love.$13",
+    "Lance.MarriageDialogue_Fall4": "Care to snuggle up for the day and put aside our work?$8#$b#I jest, but we can always make time after the busy day.$13",
+    "Lance.MarriageDialogue_Fall5": "Magnus doesn't show it, but he does enjoy setting up the Spirit's Eve maze every year.$8#$b#I guess he just likes to be remembered as a powerful wizard.$9",
+
+    //specific days
+    "Lance.MarriageDialogue.024": "Do you feel it too? The trees have all entered a great slumber.$12#$e#The smallest breeze showers us with leaves.$8",
+    "Lance.MarriageDialogue.025": "I'm craving a bowl of roasted butternut squash...$14#$e#*chuckle* Perhaps it's Autumn taking its effect on me.$8",
+    "Lance.MarriageDialogue.026": "You've worked hard this year, my love.$15#$b#I'm looking forward to your grange display showcasing your accomplishments.$12",
+
+    //spirit festival
+    //"fall_27": "{{i18n:Lance.MarriageDialogue.spirit.{{Random:{{Range: 0, 5}}}}}}",
+    "Lance.MarriageDialogue.spirit.0": "Summoning a maze requires an immense amount of mana.$6#$e#I'd need to drink a special potion to achieve that power, but only for a brief moment.$5",
+    "Lance.MarriageDialogue.spirit.1": "This outfit?$42#$b#Sophia... said it suited me...$65#$b#Does it look strange?$66#$e#No? It suits me?$42#$e#I'll take your compliments at face value.$15#$e#Hmm?? U-umai?$42#$e#With more enthusiasm?$31#$e#Umai!$15#$e#How was that?$65#$e#Thank you for the compliments, my love.$8",
+
+    //"winter_Lance": "{{i18n:Lance.MarriageDialogue_Winter{{Random:{{Range: 0, 15}},{{Hotspring}}_9}}}}",
+    "Lance.MarriageDialogue_Winter0": "The chill has come.$3#$b#I wouldn't say no to staying indoors and just finding comfort in front of the fireplace with you, my love.$13",
+    "Lance.MarriageDialogue_Winter1": "This time of the year always makes me antsy, monsters don't really go into 'hibernation' and lakes are dangerous.$3",
+    "Lance.MarriageDialogue_Winter2": "Sometimes I sneak away to the Junimo Woods, it's always temperate there, and they seem to enjoy watching my magic.$8",
+    "Lance.MarriageDialogue_Winter3": "If we get the chance, we could always visit the bathhouse to warm ourselves up.$97",
+    "Lance.MarriageDialogue_Winter4": "I always love the look on your face when the cold sets in, the soft flush of your cheeks make you feel more alive.$13",
+    "Lance.MarriageDialogue_Winter5": "%Lance is currently playing with fire.#$e#Ah pardon me, my love, I was just getting a little too chilly and figured I could warm myself up.$42#$e#You want to snuggle?$43#$b#I'll never say no to that.$41",
+
+    //specific days
+    "Lance.MarriageDialogue.029": "The valley was blanketed in snow last night.$14",
+    "Lance.MarriageDialogue.030": "Magic is the most effective way to fish. That's how I do it.$15",
+    "Lance.MarriageDialogue.031": "I wonder what merchandise the Night Market vendors will have this year?$14",
+    "Lance.MarriageDialogue.032": "I have something special planned for you tomorrow...$10",
+    "Lance.MarriageDialogue.033": "I traded for this in Castle Village just for you. It's a 'Galaxy Soul'.[896]$15#$e#It'll make you stronger.$7#$e#Ah, what did I trade? That's... a secret.$10",
+
+    //patio
+    //"patio_Lance": "{{i18n:LancepatioMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancepatioMarriageDialogue_0": "The monster crops are in good health.$12",
+    "LancepatioMarriageDialogue_1": "%*Lance is humming*#$b#A hopeless romantic all my life~$8#$b#Surrounded by couples all the time.$9#$b#I guess I should take it as a sign~$8",
+    "LancepatioMarriageDialogue_2": "Oh don't mind me, I'm admiring the view.$13#$e#What view? Well, you, of course.$7",
+    "LancepatioMarriageDialogue_3": "%Lance is singing to himself.#$e#You can turn away from the light.$37#$e#You even outburn my sun, my star.$35#$e#You're the perfect subject with the whole world in your sad eyes.$28#$e#My saviour, my beautiful soul, I don't believe you're a liar.$37#$e#When our darknesses overlap, let me take it all away.$41#$e#Ruler of my heart~$44#$e#Ruler of my heart, ruler of my heart.$8You are forever beautiful~$35",
+    "LancepatioMarriageDialogue_4": "%Lance is singing to himself.#$e#Never thought I'd try this hard.$8Never thought I'd be hooked this much.$13Never thought it would get this much worse.$9I shouldn't give a flying damn about it.$7I have absolutely nothing to do with it.$8Never thought I'd care this much about it.$7Me, the one who is getting dumber by the day, what should I do, what should I do~$8",
+    "LancepatioMarriageDialogue_5": "My singing?$14#$b#I... I heard somewhere that conversing with plants help them grow...$99#$b#Was my singing too distracting?$14#$b#No? I sing well?$99#$b#Thank you, my love, I guess I'll continue my endeavors.$15",
+
+    //indoors
+    //"indoor_Lance": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceindoorMarriageDialogue_0": "Hmm. What should I cook tonight...$3#$e#I'm feeling something spicy, again.$2#$e#I'll simmer it down with milk, I promise.$8#$e#See? I didn't make it too spicy.$8[218]",
+    "LanceindoorMarriageDialogue_1": "Well hello, might I interest you in my latest concoction?$8[215]#$e#I assure you, I used sweeter peppers this time.$9",
+    "LanceindoorMarriageDialogue_2": "I'm contemplating bothering Magnus.$3#$b#Today is feeling like a slow day for me, my love.$8#$e#I need something to spice up the day, don't I?$99#$e#Maybe you'll get a kick out of something I whipped up on the fly.$8[225]",
+    "LanceindoorMarriageDialogue_3": "%Lance is singing to himself.#$e#Uncertain voices are weaving deep inside.$8#$e#Compensate your feelings, circulate.$9#$e#Beyond the spiral you can reach for a helping hand.$8#$e#Just keep moving forward, moving forward.$9#$e#Pursuing the wish to be stronger than anyone, even if your destiny fails into the shadows, the pitch-black bottom of the night.$8Deep inside this endless maze~$9",
+    "LanceindoorMarriageDialogue_4": "Magnus chastized me for my prank the other day.$64#$e#My hair might be a little out of place.$65#$e#He threw a potion at my face.$8#$e#I threw a fireball back.$62#$e#Sometimes I can't help myself but act like a child in front of him.$8",
+    "LanceindoorMarriageDialogue_5": "Camilla is definitely a bad influence on me.$8#$e#She said that I should play more pranks on Mag, apparently it made him stop calling her for a little while.$9#$e#While I'm not adverse to showing my mentors the better parts of life, they are terrifying.$8",
+
+    //rainy day
+    //"rainy_Lance": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancerainyMarriageDialogue_0": "Would you be interested in a lazy day, today?$14#$e#I just felt like curling up and reading a book, is all.$8#$e#You're welcome to join me, I always enjoy your company.$9",
+    "LancerainyMarriageDialogue_1": "Is there any way I could pursuade you to stay with me indoors today?$13#$e#We could find something to do.$4",
+    "LancerainyMarriageDialogue_2": "The... rain... makes... me... sleep..y...$8#$e#%Lance is dozing off.",
+    "LancerainyMarriageDialogue_3": "The light pitter patter of rainfall makes me fall asleep easily.$8#$e#It reminds me of the calmer days of my youth.$9",
+    "LancerainyMarriageDialogue_4": "If you're interested in keeping me company, I can fish out the blankets from the closet and we can read together.$8",
+    "LancerainyMarriageDialogue_5": "I'm sure we can find something to do inside if you don't mind keeping me company.$13",
+
+    //rainy night
+    //"Rainy_Night_Lance": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceRainy_NightMarriageDialogue_0": "Ah, my love, you're soaking wet.$3#$b#Come, I'll dry your hair with some magic.$8",
+    "LanceRainy_NightMarriageDialogue_1": "I've drawn a bath for you to warm yourself up, my love.$3#$b#Sometimes I wish you would keep me company for longer on these rainy nights.$8",
+    "LanceRainy_NightMarriageDialogue_2": "I assume the weather is quite bad, considering you're soaked through.$3#$b#Come, I have a bath ready and it seems like you're in the mood for some pampering.$13",
+    "LanceRainy_NightMarriageDialogue_3": "Back from your errands?$14#$b#Come here, I'll warm you up and dry your hair with some magic.$8",
+    "LanceRainy_NightMarriageDialogue_4": "Would you like some tea, my love?$14#$b#It is quite dreadful outside, here.$8[614]",
+    "LanceRainy_NightMarriageDialogue_5": "I was wondering when you'd come back home.$8#$b#Let's get you dried off and settle in for the night.$9",
+
+    //indoor night
+    //"Indoor_Night_Lance": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceIndoor_NightMarriageDialogue_0": "I'm quite ready to wind down, the Ministry seems to think that I have nothing better to do.$8",
+    "LanceIndoor_NightMarriageDialogue_1": "I do enjoy coming home to your company and warmth, my love.$8#$b#Shall we wind down for the night in each other's company?$13",
+    "LanceIndoor_NightMarriageDialogue_2": "I have a few last minute things to attend to, it should only be a moment, my love.$8#$e#%Lance is shuffling paperwork.#$e#And with that... I should be done for the rest of the night.$9#$b#I apologize for keeping you waiting, my love.$13#$b#Let's wind down together.$8",
+    "LanceIndoor_NightMarriageDialogue_3": "Any good tidings today?$10#$b#I've thankfully had an uneventful day, unless you consider the Ministry dogging me a busy day.$8",
+    "LanceIndoor_NightMarriageDialogue_4": "Shall we head to bed soon?$13#$b#We can just call it an early night unless you had more interesting things in mind.$97",
+    "LanceIndoor_NightMarriageDialogue_5": "A long day to enjoy the comfort of my $husband^wife^love$, what else could a man ask for?$8#$e#All I wish to do is to hold you throughout the day, but we know work wouldn't get done.$9",
+
+    //leave for work
+    //"funLeave_Lance": "{{i18n:LancefunLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancefunLeaveMarriageDialogue_0": "Alas! Fair $sir^maiden^love$, this poor knave must toil away!$64#$e#Am I being overdramatic?$8#$e#I just miss you throughout my work day.$9#$e#Yes... yes... I'm heading out now, I'll see you later, my love.$8",
+    "LancefunLeaveMarriageDialogue_1": "The Ministry becons my attention.$8#$e#As much as I want them to cut my working patrols even further, we're quite short staffed.$9#$e#I will see you tonight, my love.$8",
+    "LancefunLeaveMarriageDialogue_2": "I pray that Jolyne doesn't poke fun at me today.$8#$e#As much as I enjoy her banter, I am quite tired of being called 'the man tied down'.$9",
+    "LancefunLeaveMarriageDialogue_3": "I don't quite enjoy leaving you to deal with Ministry business.$37#$e#Sometimes I wish they didn't put me in such high regard so that I could fool away my time.$36#$e#",
+    "LancefunLeaveMarriageDialogue_4": "%I ask Lance about apprentices.#$e#Hmm? Well Magnus was given responsibility over you.$14#$b#I'm a little bit different in that I can aid your magic progress.#{{e8}}#$b#Our roles are similar, but also different.$9#$b#It's more or less that he's the guardian of both of us rather than your sole magic teacher.$1#$b#I don't quite have enough experience under my belt according to the Ministry to have my own apprentice.$8#$b#Although I'm pretty sure something that would take even more time away from you would just make you miss me more, no?$15",
+    "LancefunLeaveMarriageDialogue_5": "%I ask Lance about magic lessons.#$e#Oh? Are you finally paying attention to Magnus' lessons now?$8#$b#I jest, was there something that you had a hard time with?$33#$e#Hmm, circuits and meridians? I guess if you're not inherently used to the terms, it's kind of hard to conceptualize.$8#$b#You can think of circuits as the veins of a leaf, they aid in circulating water, nutrients, et cetera.$2#$b#Meridians are like the nervous system of the human body. It's strange to combine the two, but that's how we are as magically inclined beings.$8#$b#When both are trained and stressed properly, you can see the fruits of it in Magnus, Camilla, and me.$12#$b#While Magnus' lessons are boring at times, he is aiding your 'magical vascular system' so to speak, so that you can have the capacity to cast magic.$3#$b#I'm not a healer, so I would be of aid to you there.$8#$b#The best I can give you is practical lessons, as well as helping your magical 'nervous system' capacity.$9#$b#They are different, and while Magnus is more akin to 'opening' your vascular system, I am 'stressing' your nervous system.$4#$e#When do I find the time to do such a thing?$14#$b#Well... you are one to take many breaks.$99#$e#You wound me! You believe your husband to be a second rate mage?$3#$b#I jest, but I do have enough stamina and awareness to stress your meridians when possible.$13",
+
+    //ignored jobleave
+    //"jobLeave_Lance": "{{i18n:LancejobLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+    //return from work
+    //"funReturn_Lance": "{{i18n:LancefunReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancefunReturnMarriageDialogue_0": "I'm finally back home!$8#$b#I just want to curl up after a bath and snuggle, is that okay?$10",
+    "LancefunReturnMarriageDialogue_1": "My day was uneventful so I was left with thoughts of missing you, my love.$8#$b#I'm glad to be back home and in your comfort.$10",
+    "LancefunReturnMarriageDialogue_2": "%*Lance is singing to himself*#$e#Give me tough love~$13#$e#Push me and choke me 'till I pass out~$9#$e#Lock me up and throw away the key~$8",
+    "LancefunReturnMarriageDialogue_3": "%*Lance is singing to himself*#$e#I wanna feel the rush~$9#$e#I wanna taste the crush$11#$e#I wanna get you goin'$13#$e#I wanna lay you down~$13#$e#I wanna string you out~$7#$e#I wanna make you mine~$69",
+    "LancefunReturnMarriageDialogue_4": "",
+    "LancefunReturnMarriageDialogue_5": "",
+
+    //ignored jobreturn
+    //"jobReturn_Lance": "{{i18n:LancejobReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+    //outdoor dialogue
+    //"Outdoor_Lance": "{{i18n:LanceOutdoorMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceOutdoorMarriageDialogue_0": "Oh, before you go about your day!$14[232]#$b#I figured you'd want a snack.$8",
+    "LanceOutdoorMarriageDialogue_1": "Before you leave, my love, I have breakfast for you.$8[201]#$b#I had plenty of time to whip it up before you woke.$10",
+    "LanceOutdoorMarriageDialogue_2": "If you ever need help with the non-crop related chores, don't hesitate to ask.$8#$b#Would you like breakfast? It's simple this time.$9[211]",
+    "LanceOutdoorMarriageDialogue_3": "If you're planning on heading out, I have something for you.$10[240]#$b#I attempted your recipe, hopefully it's similar?$8",
+    "LanceOutdoorMarriageDialogue_4": "If you don't mind something spicy today, I have something special.$8[226]#$b#I just really wanted a 'wake up call', so to speak.$9",
+    "LanceOutdoorMarriageDialogue_5": "Do let me know if you're feeling peckish, I don't have Ministry affairs to tend to today.$8#$e#Lunch? Sure, I had planned on having lunch with you if you weren't too busy.$8[218]#$e#%Lance and I had a nice time together!",
+
+    //spouseroom specific
+    //"spouseRoom_Lance": "{{i18n:LancespouseRoomMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancespouseRoomMarriageDialogue_0": "I was awarded monster statues for my achievements in the field.$13#$e#*chuckle* Some colleagues of mine believe they're monsters in stasis...$8",
+    "LancespouseRoomMarriageDialogue_1": "What do you think about this suit?$65#$e# Huh? Oh, it's my ceremonial uniform for those fuddy Ministry events.$64#$e# Does it still look good on me?$71",
+    "LancespouseRoomMarriageDialogue_2": "You wouldn't believe what Camilla said to me when I gave her the news!$15#$b# She called you a virgin killer!$65#$b# You don't have to worry about that, my love, unless you got jealous?$68",
+    "LancespouseRoomMarriageDialogue_3": "You get a lot of exercise having a horse around, right?$56#$e# Why do I ask?$70#$e# No reason, no reason at all.$65",
+    "LancespouseRoomMarriageDialogue_4": "Has Camilla stopped by?$64#$e# Nothing... nothing... okay, well she said she left behind a 'Wedding present' for me.$76#$e# Let me know if you find anything suspicious.$77",
+    "LancespouseRoomMarriageDialogue_5": "%*Lance shuts a book immediately*#$e#My love!$65#$b#How can I help you?${{e66}#$e#What kind of book was that?$70#$b#It's nothing, don't worry your beautiful head about it!$8",
+
+    //one kid
+    //"OneKid_Lance": "{{i18n:LanceOneKidMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+    "LanceOneKidMarriageDialogue_0": "I'm really excited about %kid1 and how their meridians are coming along.$14#$b#Hopefully Magnus isn't too bothered about another hellion on the loose.$15",
+    "LanceOneKidMarriageDialogue_1": "Magnus tells me he doesn't look forward to when %kid1 can learn magic.$8#$b#Something about how his hair still hasn't recovered from my escapades of thinking he was a sweet potato in human form.$15#$e#Don't look at me like that, I love roasted sweet potatoes.$99",
+    "LanceOneKidMarriageDialogue_2": "Even if %kid1 doesn't wish to join the Ministry, we'll still be there every step of the way for them.$13#$b#I believe in us, and surely your love will be conveyed to them as well.$4",
+    "LanceOneKidMarriageDialogue_3": "When our child is old enough, we should travel the world together.$99",
+    "LanceOneKidMarriageDialogue_4": "I'll always wholeheartedly and unconditionally love our beautiful children.$8#$e#They will grow and change over the years and we will be with them at every step of the way.$97",
+
+    //two kids
+    //"TwoKids_Lance": "{{i18n:LanceTwoKidsMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+    "LanceTwoKidsMarriageDialogue_0": "Oh.. oh no..$14#$e#%Lance seems distracted.#$e#Ah! My love...$84#$e#%I ask what's wrong.#$e#Well... %kid1 and %kid2 are already being the little hellions I remember that I was as a child.$92#$b#And my new supply of potions was ransacked. I'm so...$94#$e#I'm so proud...$88#$e#I apologize, my love, it's bringing back memories of when I first met Magnus.$99#$b#I remember pouring out his entire cauldron justb ecause it smelled edible.$8#$b#Call me sentimental, but seeing myself in our children finally made me feel like I'm a 'father'.$97",
+    "LanceTwoKidsMarriageDialogue_1": "The children love the festivals, don't they?$8#$b#I've never been in one place long enough to enjoy the festivities, but I'm happy that we're together now.$9",
+    "LanceTwoKidsMarriageDialogue_2": "I think %kid1 and %kid2 really think of Magnus as a grandfather...$3#$b#How do I tell them that he's not really... hmmm..$2#$e#%Lance is in quiet contemplation.#$e#Maybe I should just ask Magnus to be their grandfather...?$14#$e#Would he be opposed...?$3#$e#Camilla will definitely throw a fit...$8",
+    "LanceTwoKidsMarriageDialogue_3": "I have faith our children will adopt the best parts of both of us.$8",
+    "LanceTwoKidsMarriageDialogue_4": "I'm thankful %kid1 and %kid2 get along well.$8",
+
+    //good relationship
+    //"good_Lance": "{{i18n:LancegoodMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LancegoodMarriageDialogue_0": "My love, once again graces me with their presence, another day that I get to bask in your energy is another good day.$8#$e#Am I being overdramatic?$14#$e#I just find myself reminiscing over my adventuring days and thinking that this, this is surely bliss.$13",
+    "LancegoodMarriageDialogue_1": "%Lance is fiddling with magic.#$e#Ah, my love!$14#$e#What was I doing?$99#$e#I was just... admiring the mermaid pendant you gave me...$97#$e#I still don't quite feel like this is real, and I guess I'm in awe of how you pursued me.$8#$e#Inevitable?$14#$e#My flirting??$99#$e#I--I... there wasn't really a way for me to stop this intangible pull to you, I guess.$97",
+    "LancegoodMarriageDialogue_2": "%*I catch Lance making faces at the mirror*#$e#Huh?$70#$b#I was thinking of my techniques.$67#$e#What techniques?$68#$e#You'll find out soon enough.$65",
+    "LancegoodMarriageDialogue_3": "%*Lance is grumbling to himself*#$e#I need new slacks.$76#$e#Should I cut down on the protein?$77#$e#But then I hate multiple trips for grocery bags.$76#$e#%Lance continues to argue with himself.",
+    "LancegoodMarriageDialogue_4": "%*Lance is singing to himself*#$e#We're so young boy, we ain't got nothin' to lose~$8#$e#Baby hold me cause I like the way you groove~$9",
+    "LancegoodMarriageDialogue_5": "But if I attach a warp there it would be noticable.$76#$e#But then I wouldn't need to use so much energy for Ginger Island patrol...$64#$e#Hmmm, I'll need to ask Camilla.$76#$e#%Lance is brooding to himself about something.",
+    "LancegoodMarriageDialogue_6": "Hmm. Mhm. Hhmmhm.$9#$e#%Lance is humming some pop song.#$e#Hmmh! Mhhm, isn't that sweet, I guess so~$8#$e$%I think I know this song...",
+    "LancegoodMarriageDialogue_7": "%*Lance is fiddling with magic*#$e#But it would definitely look spectacular with fireworks, no?$65#$e#A celebration must have fireworks...!$64#$e#%Lance is contemplating something.",
+
+    //neutral relationship
+    //"neut_Lance": "{{i18n:LanceneutMarriageDialogue_{{Random:{{Range: 0, 1}}}}}}",
+    "LanceneutMarriageDialogue_0": "I'm not fond of watching TV or distracting myself with modern contraptions.$3#$e#I do however enjoy watching movies at the cinema.$8#$b#There's something intimate of being together in a dark room in our own world.$97",
+    "LanceneutMarriageDialogue_1": "Your Grandpa's shrine smells like magic.$3#$e#I wonder if that's the reason why you're so magically inclined.$8",
+    "LanceneutMarriageDialogue_2": "The saloon owner is so warm and welcoming. It makes one feel at home while enjoying good food and drink.$8#$b#I can see why his business is as successful as it is.$1#$e#I've been trying to go into town more lately.$8",
+    "LanceneutMarriageDialogue_3": "I need to visit my guild soon. I'm running low on mana elixirs.$3",
+    "LanceneutMarriageDialogue_4": "Do you ever wonder where we'll move to in the future?$14#$e#Maybe we'll purchase our own private island and live out our days there...$8",
+    "LanceneutMarriageDialogue_5": "The saloon has a fine seasonal selection of draft beer. Better than most taverns I've been to.$8",
+    "LanceneutMarriageDialogue_6": "If you're ever bored, I'm sure Magnus will have no problems lending out books to you.$8#$e#Given, you'll have to be careful of handling them.$9",
+    "LanceneutMarriageDialogue_7": "Magnus studies ancient fruit and I study monster crops...$8#$e#In a strange way, our work is somewhat similar.$9",
+
+    //bad relationship
+    //"bad_Lance": "{{i18n:LancebadMarriageDialogue_{{Random:{{Range: 0, 1}}}}}}",
+    "LancebadMarriageDialogue_0": "Sometimes I feel like I'm a ghost to you...$3",
+    "LancebadMarriageDialogue_1": "*sigh* I destroyed expensive rare metals during a magical experiment.$25#$e#Such a terrible waste...$20",
+    "LancebadMarriageDialogue_2": "We're both out of the house so often, I rarely see you...${{27}}#$e#I know we both live busy lives, but we still need to find time with each other.$25",
+    "LancebadMarriageDialogue_3": "Could I be better? Can I do better? Ugh...$27",
+    "LancebadMarriageDialogue_4": "Not now, @.$25",
+    "LancebadMarriageDialogue_5": "Do you ever get the feeling we rushed into this too quickly?...$27",
+    "LancebadMarriageDialogue_6": "...$27#$e#%Lance is ignoring you.",
+    "LancebadMarriageDialogue_7": "I thought we promised each other we would talk things out if it got bad...$27",
+
+    //indoorday
+    //"Indoor_Day_Lance": "{{i18n:LanceIndoor_DayMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+    "LanceIndoor_DayMarriageDialogue_0": "%*Lance is shuffling papers around as he sounds like he's talking to someone.*#$e#Cam, yeah, yeah, but did you talk to Lester about my paperwork?$81#$e#Well yes I know he hates my guts but he still has to do his work now doesn't he!$82#$e#And how is that my problem?$80#$e#If he just wanted an excuse to go to the beach for a vacation he could've just said so!$78",
+    "LanceIndoor_DayMarriageDialogue_1": "%*Lance is humming to himself*#$e#%I can faintly hear him say some lyrics.#$e#Pretty......ease....ome....on....ver...nd.....uin.....my.....ife.....$9#$e#ake...my...and..as...we...ance...on...the...dge...of...a...knife...$8#$e#%He goes back to humming.",
+    "LanceIndoor_DayMarriageDialogue_2": "%*Lance is humming to himself*#$e#Say you like my eyes.$65#$e#And you like to make them roll.$67#$e#I'll be honest.$8#$e#Lookin' at you got me thinkin' nonsense~$9",
+    "LanceIndoor_DayMarriageDialogue_3": "%*Lance is singing to himself*#$e#If there's another universe, please make some noise~$64#$e#This must be what heaven's like~$9#$e#Life's better on Saturn~$63#$e#Got to break this pattern, of floating a-way~$8",
+    "LanceIndoor_DayMarriageDialogue_4": "%*Lance is singing to himself*#$e#I'd let the world burn~$8#$e#Just to hear you call out my name~$9#$e#I let everybody know that you're mine~$65#$e#Now it's just a matter of time~$8#$e#Let the world burn for you~$64",
+
+    //farmer house cluttered
+    //"SpouseFarmhouseClutter_Lance": "{{i18n:LanceSpouseFarmhouseClutterMarriageDialogue_{{Random:{{Range: 0, 2}}}}}}",
+    "LanceSpouseFarmhouseClutterMarriageDialogue_0": "Please, just, ask me to clean up if you need help...$64",
+
+    //spouse jealousy of gifting
+    //"SpouseGiftJealous_Lance": "{{i18n:LanceSpouseGiftJealousMarriageDialogue_{{Random:{{Range: 0, 2}}}}}}",
+    "LanceSpouseGiftJealousMarriageDialogue_0": "Is there something I should be aware of...?$79",
+
+    //monsters inside house
+    //"Spouse_MonstersInHouse_Lance": "{{i18n:LanceSpouse_MonstersInHouseMarriageDialogue_{{Random:{{Range: 0, 2}}}}}}",
+    "LanceSpouse_MonstersInHouseMarriageDialogue_0": "A monster?!$22#$e#Be careful!$21",
+
+    //stardrop gift
+    //"SpouseStardrop_Lance": "{{i18n:LanceSpouseStardropMarriageDialogue_0}}",
+    "LanceSpouseStardropMarriageDialogue_0": "I actually don't have a use for it, I happened upon it while trading in Galdora.$8#$e#I hope that it is of use to you, my love.$13",
+
+    //desert festival
+    //"DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}",
+    "DesertFestival_Lance_marriage0": "Are you enjoying the festival? Tell me if you find any rare artifacts.$8#$e#The cactus man... I recognize him from somewhere. But from where?...$3",
+    "DesertFestival_Lance_marriage1": "Do let me know if you wish to purchase anything, I have set aside funds for the household should you need it.$8",
+    "DesertFestival_Lance_marriage2": "Oh, before I forget!$99[CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg]#$e#I have no need for it, but they happen upon me when I'm working for Marlon.$8",
+
+    //stringsfromcsfiles
+
+    //Lance ENGAGEMENT
+    "Engagement.Lance.1.1": "I've sent out invitations to everyone I could think of... did you finish your list?",
+    "Engagement.Lance.1.2": "I can't wait to see what the future holds for us...",
+
+
+    //WEDDING
+    "Wedding.MCall.01": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day %day of %season, to unite @ and Lance in the bonds of marriage.",
+    "Wedding.FCall.01": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Lance in the bonds of marriage.",
+    "Wedding.01": "Well, let's get right to it!$h",
+    "Wedding.02": "Since it is your intention to enter binding matrimony, join your right hands, and declare your consent before Camilla and myself.$h",
+    "Wedding.03": "@, Lance, repeat after me. Do you, @, take Lance do be your lawfully wedded husband, i-in good times and in bad, in s-sickness and in health.$9#$b# To love and to c-cherish, til death d-do you-- do- you- w*WAH*$10",
+    "Wedding.04": "Ahem! Yes, well, *Ahem*. Until death do you part?$5",
+    "Wedding.05": "I, take you, Lance, to be my husband. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to cherish you, until death do us part.",
+    "Wedding.MCall.02": "I, Lance, take you, @, to be my husband. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to cherish you, until death do us part.$66",
+    "Wedding.FCall.02": "I, Lance, take you, @, to be my wife. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to cherish you, until death do us part.$66",
+    "Wedding.07": "@... Lance... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and... well, husband!$h^Lance... @... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+    "Wedding.08": "You may kiss.",
+    "Wedding.09": "Life is going to be different from now on...",
+    "Wedding.10": "...But the future looks bright!",
+
+    ///wedding afterparty "Afterparty.04": "",
+    "Afterparty.01": "@... I just wanted to say...$9#$b#Thank you for choosing Lance.$10",
+    "Afterparty.02": "Camilla is uncontrollably crying...",
+    "Afterparty.03": "Lance...$2#$b#I've taken care of him since he was a child.${{e0}}#$b#I think it's been at least two hundred years now...?$9#$b#Right after Magnus plucked him off the battlefield as a snot-nosed brat.$10#$b#He's always been a wanderer, used to tell Magnus and I that he didn't feel like he belonged anywhere.$9",
+    "Afterparty.04": "When he came to Magnus and I about marrying you... we were shocked.$9#$b#We didn't think the little hellion would ever settle down.$2#$b#But I guess you changed his mind!$6",
+    "Afterparty.05": "Camilla held my hands in hers.",
+    "Afterparty.06": "We're isolated from the rest of the party.$2#$b#You're free to cry on my shoulder.$4",
+    "Afterparty.07": "When Camilla said those words, something welled up inside of me...",
+    "Afterparty.08": "We all tried our best, you know?$2#$b#We understand that your parent couldn't make it, but we've sent them at least a thousand photos of you two!$9",
+    "Afterparty.09": "Something started to shake my core as I grabbed hold of her robes.#I feverishly started crying.",
+    "Afterparty.10": "There, there, @.$2#$b#I know... I know...$2",
+    "Afterparty.11": "Camilla held the back of my head as I sobbed uncontrollably.",
+    "Afterparty.12": "We all get loneliness, we're a found family, y'know?$9#$b#But now we're all here, together.$10",
+    "Afterparty.13": "As she held my head, we both cried in each other's comfort.",
+    "Afterparty.14": "*Sniffle*$9#$b#You're a part of Lance's family, therefore you're a part of our family.$6#$b#I can't wait to know of all of the adventures you two get into trouble for!$10",
+    "Afterparty.15": "A found family... A future that looks bright... I couldn't ask for more.",
+
+
+
+    //// G I F T R E L A T E D
+
+    "Gifts.Lance.Loved": "This will serve me well. You have my gratitude.",
+    "Gifts.Lance.Liked": "Ah, what a remarkable gift. Thank you.",
+    "Gifts.Lance.Disliked": "I suppose I could practice my magic on this...",
+    "Gifts.Lance.Hated": "I'm afraid this doesn't suit me.",
+    "Gifts.Lance.Neutral": "Perhaps I'll find a way to make use of this.",
+    "Base.GiftReactionCategory_-7": "Oh? Come to expand my already extensive culinary palate?$8#$b#I jest, thank you for this.$13",
+
+    //dating
+    "Dating.Lance.Loved": "This will serve me well. You have my gratitude.",
+    "Dating.Lance.Liked": "Ah, what a remarkable gift. Thank you.",
+    "Dating.Lance.Disliked": "I suppose I could practice my magic on this...",
+    "Dating.Lance.Hated": "I'm afraid this doesn't suit me.",
+    "Dating.Lance.Neutral": "Perhaps I'll find a way to make use of this.",
+    "Dating.GiftReactionCategory_-7": "I was contemplating breaking open some rations, it's a very nice feeling to be brought food.${{e8}#$b#Thank you, my stomach also thanks you.$15",
+
+    //married
+    "Married.Lance.Loved": "This will serve me well. You have my gratitude.",
+    "Married.Lance.Liked": "Ah, what a remarkable gift. Thank you.",
+    "Married.Lance.Disliked": "I suppose I could practice my magic on this...",
+    "Married.Lance.Hated": "I'm afraid this doesn't suit me.",
+    "Married.Lance.Neutral": "Perhaps I'll find a way to make use of this.",
+    "Married.GiftReactionPreserved_Any": "Your artisan crafts are always a welcome gift, my love.$8#$b#I just hope you don't mind me sharing with the First Slash sometimes.$9",
+    "Married.GiftReactionCategory_-7": "I do love your home cooked meals, my love.$13#$b#They bring about a comfort to my long work days.$10",
+
+    //////////gift dialogue
+    "Lance.GiftAgedBlueMoonWine": "This is fine aged wine... from 'Blue Moon Vineyard' you say? Thank you!$99",
+    "Lance.Gift907": "Ah, I was starting to feel famished.$14#$b#Thank you for the tropical curry!$99",
+    "Lance.Gift218": "Is.. is that Tom Kha?$14#$b#I haven't had it in a long time, thank you for your efforts.$11#$b#It reminds me of home.$13",
+    "Lance.GiftGemfish": "My, there must be a couple dozen gems protruding from it! What a fascinating aquatic dweller.$99",
+    "Lance.GiftTorpedoTrout": "Keeping Fable Reef safe from Torpedo Trout I see! I'll gladly take this.$8",
+    "Lance.GiftVoidShardpre": "The monster you describe that dropped this Void Shard when felled sounds like quite the formidable adversary...$20#$b#And the energy emitting from the core is beyond comprehension... I'll see what I can do. Thank you.$23",
+    "Lance.GiftStardropTea": "Ah, this is an unexpected delight. My taste buds will now embark on a marvelous journey!$15",
+    "Lance.GiftBDPos": "Ah, a gift for yet another rotation around our star? I appreciate this!$99",
+    "Lance.GiftBDNeg": "A gift for my birthday? I'm afraid I can't except this. I hope you understand.$8",
+
+
+
+    //married gift dialogue
+    "Married.GiftReaction_Dwarf_Scroll_I": "Ah, have you happened upon a scroll from the mines?$14#$b#I hear they're scattered around everywhere.$15#$b#Hmm? Would you like help translating it? Don't worry, I'm well versed in dwarvish.$8",
+    "Married.GiftReaction_Dwarf_Scroll_II": "Oh, ready for round two?$15#$b#Do you remember anything from our last session?$14#$b#No?$8#$b#What am I to do with you?$9",
+    "Married.GiftReaction_Dwarf_Scroll_III": "Round three, yet you didn't remember the first lesson.$8#$b#I think you're just excited about listening to me speak dwarvish.$9#$b#I can whisper sweet nothings to you in most languages, you need but ask.$13",
+    "Married.GiftReaction_Dwarf_Scroll_IV": "Fourth time's the charm, huh?$13#$b#Are you sure you're not just throwing these at me because you've found multiples?$8#$b#I will not argue, I do enjoy reading over them in my spare time, thank you, my love.$9",
+    "Married.GiftReaction_Ancient_Doll": "What... is that?$3#$b#I don't think that's quite safe, my love, let me dispose of it for you.$2#$e#%Lance burned the doll...",
+    "Married.GiftReaction_Elvish_Jewelry": "Oh lovely, I do enjoy how the elvish designs glisten in the sunlight.$13#$b#It's for me?$14#$b#Are you sure?$2#$b#I'll have to ask the dwarves if they can fashion anything for me in return, then. Thank you my love.$13",
+    "Married.GiftReaction_Dinosaur_Egg": "An egg... no... That's not quite right.$14#$e#A dinosaur egg??$99#$b#I didn't think those monsters in the mines could still reproduce..$14#$b#Fascinating! Thank you my love, I'll be sure to start up a new research project!$99",
+    "Married.GiftReaction_Ancient_Sword": "My collection of swords is quite expansive already, my love.$8#$b#I will accept, nonetheless.$13#$b#I assume Marlon will be pleased with another one of my 'magic sword' projects.$8",
+    "Married.GiftReaction_Ancient_Seed": "...While I understand that this is quite rare and important, I feel as if you're poking fun at me.$3#$b#Would Magnus not have been a better recipient of this?$9#$b#Oh, you wanted me to use it as a tactic to talk to Magnus?$99#$b#I will not decline then...$8",
+    "Married.GiftReaction_Dwarvish_Helm": "%Lance is giggling.#$e#My love, you cannot speak dwarvish just because you wear one of their helmets!$15#$b#It's for me?$14#$b#...I'm not quite sure why I would need one of these, but I suppose a passing gift to the Highlands dwarves wouldn't hurt.$8#$b#Thank you, my love, I'll be sure to tell them it was from you.$9",
+    "Married.GiftReaction_Dwarf_Gadget": "Oh a translator!$99#$b#These are the most recent version of it, it's quite fascinating to see the dwarves at work.$8#$b#Would you like to take a trip some time to speak to them some more?$13",
+    "Married.GiftReaction_Golden_Mask": "I know that you're enthusiastic about magic, my love, but that is not something to be toyed with.$20#$b#If you don't mind, I will take it to Magnus to have it handled.$21#$e#%Lance is talking to Magnus through communication magic.#$e#Well yes, I mean @ brought it to my attention.$23#$e#I have not done anything worth scrutiny!$25#$e#Listen, I'll bring this to you later, Mag. It's not too serious.$26",
+    "Married.GiftReaction_Golden_Relic": "This one is at least a little less volatile than the last 'golden' object you brought me.$8#$b#I will not have to bother Magnus with this one.$9#$e#What does it do? Hmmm...$3#$b#That, I'm not quite sure of, my love, if you're truly curious, you can ask Magnus sometime.$8",
+    "Married.GiftReaction_Wild_Horseradish": "Ah what is it, the 'false wasabi'?$8#$b#I kid, but really, I would enjoy fresh wasabi every now and then, especially when you're so willing to bring me sushi dishes.$9",
+    "Married.GiftReaction_Daffodil": "Daffodil tea is quite refreshing, no?$8#$b#I see that you're having good tidings this season.$9#$b#I appreciate your small gestures, my love.$8",
+    "Married.GiftReaction_Leek": "Oh? Are we going to have something Asian-themed tonight?$99#$b#You know I do love anything from the East.$9",
+    "Married.GiftReaction_Dandelion": "Dandelions are considered weeds, but I truly do enjoy when they're dried and immersed in a good mead.$8#$b#Maybe that's just the adventurer in me, trying to find ways to enjoy myself among the wilderness.$9#$b#I appreciate your sentiments, my love.$8",
+    "Married.GiftReaction_Parsnip": "I do love your lunches, is this you trying to tell me you would like me to cook tonight?$99#$b#I don't have any qualms about cooking, just say the word and we'll have whatever you'd like.$8",
+    "Married.GiftReaction_Cave_Carrot": "While obtuse, cave carrots are quite rich in nutrients, especially when you're stuck underground for so long.$9#$b#I recall Magnus nagging at me after I got lost in a mineshaft for oever a week.$8",
+    "Married.GiftReaction_Coconut": "Coconuts are the best thing for summertime, are they not?$13#$b#Unless this is you telling me that you want me to cook my 'famous' Thai curry.$99#$e#Don't worry, my love, you can spice it however you wish.$8",
+    "Married.GiftReaction_Cactus_Fruit": "I recall being lost in the desert for several days.$8#$b#Magnus was not all too pleased with me coming back with my skin looking like a fresh lizard.$9#$b#I do not suggest drinking from these, my love, most of them have poisonous properties.$8#$b#Depending on the variety you've brought, though, I have no problem making licuado de nopal as a refreshment.$13",
+    "Married.GiftReaction_Sap": "Ah... were you concerned about my trips out to the Highlands?$14#$b#I assure you, my magic is quite rife with energy.$8",
+    "Married.GiftReaction_Large_Egg": "In the mood for some egg dishes today, my love?$8#$b#What will we have today?$9#$b#Omelete rice?$1#$b#Kimchi and eggs?$10#$b#Maybe just some marinated eggs as a side dish tonight?$8",
+    "Married.GiftReaction_Egg": "Oh? Lighter eggs today?$10#$b#Did you want to try my special mayak gyeran?$8",
+    "Married.GiftReaction_Hay": "Hay, is for horses.$2#$b#I kid, but I do not know why you would give me something like this, unless you're telling me you're going to ride your horse around the yard...?$13",
+    "Married.GiftReaction_Milk": "Milk today?$14#$b#Are we headed to the bathhouse?$99",
+    "Married.GiftReaction_Large_Milk": "Are you telling me you'd like a cream stew today?$13#$b#If you don't mind me taking up the vegetables, I will happily oblige.$8",
+    "Married.GiftReaction_Green_Bean": "I'm not quite a fan of green beans...$3#$b#I know that's childish for someone like me.$2#$e#It's just... the texture of it.$17#$b#Absolutely vile.$18",
+    "Married.GiftReaction_Cauliflower": "I'm not picky when it comes to floretes, whether it be broccoli or cauliflower.$8#$b#I am a bit of a fanatic about eating them with every meal, I agree.$9",
+    "Married.GiftReaction_Potato": "Hmm? Are you at a loss for what to cook tonight?$14#$b#Potatoes au gratin sounds quite nice tonight, doesn't it?$13",
+    "Married.GiftReaction_Sugar": "The fool's treat, is it?$8#$b#I try not to use too much of this in my recipes, but old habits die hard.$9",
+    "Married.GiftReaction_Wheat_Flour": "Hmmm? In the mood for some pasta tonight?$12#$b#What'll it be, my love?$13#$b#Although wheat flour is mainly used for Thai, so I assume you're wanting Pad Thai tonight?$8",
+    "Married.GiftReaction_Oil": "In the mood for some stir fry tonight?$12#$b#Maybe some fried rice?$5",
+    "Married.GiftReaction_Garlic": "You do know I love putting garlic into everything.$8#$b#I apologize if that means we must brush our teeth after the meal, but it's just worth it isn't it?$9",
+    "Married.GiftReaction_Kale": "I can't say I'm a fan of kale...$3#$b#Never quite sits with my stomach, it seems.$9",
+    "Married.GiftReaction_Tea_Sapling": "Oh? Interested in a bit of a tea ceremony today, are you?$13#$b#Although if you want me to dress ceremoniously, you'd have to follow suit.$8",
+    "Married.GiftReaction_Rhubarb": "It's quite fascinating how you manage to make pies out of such things like these.$8#$b#I appreciate all of your efforts nonetheless.$9",
+    "Married.GiftReaction_Melon": "Interested in my special sous vide melon recipe?$8#$b#It makes it dangerously delicious, you know?$9",
+    "Married.GiftReaction_Tomato": "Another ...produce... that I don't quite enjoy.$3#$b#Again, textures are everything to me and tomatoes are definitely one of those things that grates my nerves.$8#$b#I know, I know, childish. I can't help it.$9#$b#And no, I refuse to argue with Demetrius on the specifics of what a tomato actually is.$8",
+    "Married.GiftReaction_Morel": "Oh! In the mood for a mushroom dish tonight?$99#$b#I do love how these taste with almost anything.$8",
+    "Married.GiftReaction_Blueberry": "MMh?!$14#$b#%I shoved blueberries in Lance's face.#$b#!!!#{{e14}}#$b#While I do love all fruit *cough* you could at least give me a warning beforehand, my love.$99",
+    "Married.GiftReaction_Fiddlehead_Fern": "Fiddleheads?$2#$b#I'll be honest, I haven't eaten fiddleheads since my adoptive days with Magnus... and well, they weren't all too great...$8",
+    "Married.GiftReaction_Hot_Pepper": "In the mood for some spice today, my love?$13#$b#I'm going to assume you want tonight's dinner to be extra spicy today with this.$8",
+    "Married.GiftReaction_Wheat": "You'll have to excuse my poor focaccia, I only know a few recipes, but I will give it my best.$8",
+    "Married.GiftReaction_Radish": "Oooh? Would you like some radish kimchi today?$8#$b#It won't be fermented, unless you want me to use some magic on it.$9",
+    "Married.GiftReaction_Red_Cabbage": "I'll be honest, I can't really enjoy cabbage unless it has meat in it, and I know you're not keen on that.$8",
+    "Married.GiftReaction_Starfruit": "Sweet as honey, soft as cotton, and what was the last one?$8#$b#Ah, right, hopelessly hopeful?$9#$b#I do find the old tales of starfruits to be used as ceremonial wish offerings to be quite interesting.$8",
+    "Married.GiftReaction_Corn": "Are we making an artisan good today?$14#$b#No?$2#$b#Ah! Did you want me to think of something again today?$15#$b#Maybe some tamales then.",
+    "Married.GiftReaction_Unmilled_Rice": "Shall I throw this into the mill for you, my love?$13#$b#I assume it's because you'd want a rice dish tonight.$8",
+    "Married.GiftReaction_Eggplant": "Eggplants and eggs do go well together, don't they?$8#$b#Shall we have some as a side dish tonight?${{e9}",
+    "Married.GiftReaction_Artichoke": "I do love a good paella, let me know if you catch any good shrimp to go along with it.$15",
+    "Married.GiftReaction_Pumpkin": "Pumpkin potage tonight, my love?$13#$b#Or would you want my famous stuffed pumpkin?$8",
+    "Married.GiftReaction_Bok_Choy": "I do love just throwing seafood into a pot with some bok choy, let me know if you don't want it as spicy as I usually make it.$8",
+    "Married.GiftReaction_Yam": "I could never tell the difference between sweet potatoes and yams...$3#$b#...They're different in color?$14#$b#....I see... I've always used them interchangeably, thank you for the information, my love.$8",
+    "Married.GiftReaction_Chanterelle": "Hmm.. sweet.. peppery.. maybe just a prad prik king today?$8#$b#...What's that? Ah, right, apologies, it's a style of fried rice, my love. I hope you look forward to tonight's dinner.$9",
+    "Married.GiftReaction_Cranberries": "I'll be honest, I only really have cranberries with alcohol.$8#$b#Call it an old adventuring habit of mine, something to warm the body on a cold night.$9",
+    "Married.GiftReaction_Holly": "Would you like to do some decorating around the house with these?$14#$b#...They're not mistletoe?$3#$b#Oh! To make medicines for my trips?$15#$b#Thank you my love, for always thinking of me.$13",
+    "Married.GiftReaction_Beet": "In the mood for a colorful dish tonight?$8#$b#I will try my best, but I'm not well versed in beets.$9",
+    "Married.GiftReaction_Stone": "Are you concerned about the Highlands being in such a dangerous area?$8#$b#I assure you, my magic torches and surrounding barrier is enough to keep those monsters at bay, I thank you though, I'll probably have some use for it at some point.$9",
+    "Married.GiftReaction_Salmonberry": "The first flush of the season, was it?$8#$b#I thank you for sharing your spoils with me, my love.$9",
+    "Married.GiftReaction_Amaranth": "...Are you telling me that I need to lose weight?$2#$b#No?$99#$b#Anti-inflammatory?$14#$b#Oh I assure you, I'm fine on my trips, my love.$15#$b#I appreciate the sentiment though, maybe I'll pass these onto Magnus since he delves more into potions than I do.$8",
+    "Married.GiftReaction_Pale_Ale": "In the mood for a warmer evening tonight, my love?$13#$b#We can always enjoy ourselves in front of the fireplace and bask in each other's company.$8",
+    "Married.GiftReaction_Hops": "I do have a fondness for dryer alcohol, not really one to be interested in the ales that give me a 'mustache', so to speak.$8",
+    "Married.GiftReaction_Void_Egg": "...I pray you simply purchased this from Krobus, Magnus has warned me of his ex-wife's random escapes and to be on the lookout.$20#$b#Although I'm unconcerned about her affecting us on the farm, it is still something to be wary about, my love.$8",
+    "Married.GiftReaction_Mayonnaise": "I do hope you remembered to not use lemons in it this time.$8#$b#I'm not too fond of the sweet and sour taste of western mayonnaise.$9",
+    "Married.GiftReaction_Duck_Mayonnaise": "A more, savoury mayonnaise?$14#$b#For me?$99#$b#Thank you, my love, you do know that I enjoy your sandwiches with a savoury sauce rather than the sweetened ones.$8",
+    "Married.GiftReaction_Void_Mayonnaise": "Interesting, very interesting.$3#$b#While I'm curious how this tastes, I think this would prove more useful as a ...no I'll surely be chastised by Camilla were I to use it on Magnus.$3#$b#I will stow this away for a rainy day, thank you my love.$13",
+    "Married.GiftReaction_Copper_Bar": "A copper bar?$14#$b#Are you interested in my magic sword collection?$99#$b#While copper may not be seen as one of the most versatile, it is still quite useful in holding in heat.$8#$b#I guess it's only good for people like me, who usually harness flame.$9",
+    "Married.GiftReaction_Iron_Bar": "Iron is definitely something that has more versatility than the other ores, I'll be sure to bring this to Marlon to see if we can fashion a new magic sword.$8#$b#Thank you, my love.$9",
+    "Married.GiftReaction_Gold_Bar": "Would you like me to fashion an accessory for you?$14#$b#While I may not be good with crops, flamework is my forte.$99#$b#I'll be sure to figure out something for you.$8",
+    "Married.GiftReaction_Iridium_Bar": "Iridium?!$100#$b#Are you sure you won't have a use for it, my love?$14#$b#...For a magic sword...?$3#$b#Yes... curious, I could definitely make a few more knives out of something like this.$2#$b#Thank you, my love, I'll be sure to ask Marlon if he has any ideas.$8",
+    "Married.GiftReaction_Refined_Quartz": "A refined quartz?$14#$b#Are you interested in how magic artifacts are used?$8#$b#We can have a lesson to ourselves without Magnus' prying eyes.$13",
+    "Married.GiftReaction_Honey": "Oh a decent sugar alternative!$15#$b#I will put this to good use in tonight's dinner if you so wished, my love.$13",
+    "Married.GiftReaction_Pickles": "Are you interested in how kimchi is made?$14#$b#It's quite a lengthy and messy process.$8#$b#We can always give it a go when we're not too busy.$9",
+    "Married.GiftReaction_Beer": "Heady beers are my least favorite, but I'll always take the chance to bask in its warmth with you, my love.$8#$b#Although you must be careful if you get me too drunk.$11",
+    "Married.GiftReaction_Wine": "I'm not fond of drinking wines on their own, but I do like their flavours in food.$8",
+    "Married.GiftReaction_Juice": "A non alcoholic drink tonight? I will try to pair this well with the dishes tonight.$8",
+    "Married.GiftReaction_Basic_Fertilizer": "...I will take this as a sign that you are attempting to give me advice, but you know how inept I am at farmwork.$3#$b#I will hold onto this until you need it, however.$2#$e#I assume you're in need of it now?$13[368]",
+    "Married.GiftReaction_Quality_Fertilizer": "...Now I know that you're just messing with me.$8#$b#Is this your attempt of telling me that you can teach me farming while I teach you magic?$9#$e#You know I have no need for it, so I will hand it back.$8[369]",
+    "Married.GiftReaction_Basic_Retaining_Soil": "I understand that I am versed in fire magic, but it does not mean that I will singe the entire farm, my love.$8#$b#I just don't bode well with farmwork.$9",
+    "Married.GiftReaction_Quality_Retaining_Soil": "...I assure you, I will not burn down the farm, my love.$3",
+    "Married.GiftReaction_Clam": "Clams are very versatile, and I do enjoy a good clam chowder.$8",
+    "Married.GiftReaction_Golden_Pumpkin": "For me? Are you sure you do not wish to use it for some other project?$14#$b#I will try to make good use of this for trading purposes, thank you my love.$8",
+    "Married.GiftReaction_Poppy": "Poppies were the most common form of drugs in the east.$8#$b#It's a shame that they're seen as vile even though I do love poppy seed muffins.$9",
+    "Married.GiftReaction_Spice_Berry": "It's a shame that we don't have a mill for these spice berries, I do enjoy my wide variety of spices, as you know.$8",
+    "Married.GiftReaction_Sea_Urchin": "Oh? Urchins are one of my favorite types of sushi if you were so inclined for them tonight, I'll be sure to think of other dishes alongside it tonight, my love.$8",
+    "Married.GiftReaction_Grape": "I do know of the choking hazards of grapes for infants, I'd still like to implement the flavour in some way...$3#$b#Maybe just juices until they're of age.$8",
+    "Married.GiftReaction_Spring_Onion": "I'd have to say, it's a good thing you're not adverse to onions or garlic, we would be in a world of trouble with my cooking if you were.$8",
+    "Married.GiftReaction_Strawberry": "It's always a tossup whether strawberries are good when it comes from the store, but yours always tend to have the best flavour.$13#$b#I wonder if that's because of the farm, or that's just your skills.$4",
+    "Married.GiftReaction_Sweet_Pea": "They're a lovely smell, aren't they?$8#$b#I'll have to find a vase to put these in to ensure the farmhouse is kept to a comfortable degree.$9",
+    "Married.GiftReaction_Common_Mushroom": "Sauteed mushrooms are usually my go-to for side dishes, I guess you can call it a work habit from being around Magnus for so long.$8",
+    "Married.GiftReaction_Wild_Plum": "I still remember the recipe for some maesil ju if you're interested, these plums look good for a darker brew.$8",
+    "Married.GiftReaction_Hazelnut": "Hmmm... hazelnuts, I'm not too good with making deserts, so you would have to help me on that front, my love.$8",
+    "Married.GiftReaction_Blackberry": "Mulled blackberry wine is always nice on a winter's night, isn't it?$8#$b#Care to join me in front of a fire and enjoy this together?$9",
+    "Married.GiftReaction_Winter_Root": "I'm always unsure of what exactly a 'winter root' is.$3#$b#Magnus says they're a type of sweet potato but I'm skeptical...$2",
+    "Married.GiftReaction_Crystal_Fruit": "Beautiful, aren't they? I guess they're akin to other seasonal berries, but something about the ferocity of growing in winter makes them special.$8",
+    "Married.GiftReaction_Snow_Yam": "Ah, more yams? Would you want to just roast these over an open fire?$14#$b#I have no qualms if you'd like to enjoy a snack with me.$9#$e#Here, my love, I've toasted it.$8[208]",
+    "Married.GiftReaction_Sweet_Gem_Berry": "A... what is that?$14#$b#A sweet gem berry?$3#$b#Rare seed?$2#$b#Oh! From my seed pouch!$14#$b#I see you've managed to properly flourish it.$8#$b#I have no actual use for it, the Ministry simply wanted to know how Magnus was doing at the time and thought that I would beg for his mercy about seeds.$9#$b#I will give this back to you, you have a much better use for it than I will, my love.$8[417]",
+    "Married.GiftReaction_Rice": "Ah tried and true, I cannot escape my heritage.$8#$b#I hope you don't mind my incessant need to have rice with all of my meals.$9#$b#Thank you for thinking of me, my love.$8",
+
+    //Reactions while pregnant
+    "Preg.GiftReaction_Void_Essence": "...I hope you have a supply of essences stored away, @.#$b#...Because I will be rather angry if you decided to delve into the mines in your current condition simply to present me with a gift.#$b#Ah, you do?#$b#...I suppose I will take your word for it, my love.",
+    "Preg.GiftReaction_Void_Soul": "...This is...#$b#...Have you been to Galdora?#$b#...May I ask why?#$b#...I do not wish to get angry at you, my love, but for what possible reason did you risk travelling through Galdora while with child?#$b#I...I think I need a moment to calm down.#$b#%...Lance refuses to meet my eyes...",
+    "Preg.GiftReaction_Void_Shard": "......#$b#...I...#$b#...............#$b#...Please, give me a moment.#$b#%Lance is refusing to meet my eyes... I think I really upset him this time....#$e#Forgive me. I am not yet ready to speak with you.#$e#...I simply do not understand why it is you insist on placing yourself in unnecessary danger while you are carrying our child.#$b#Did you not consider the consequences of what would occur if something were to happen to you in the middle of a void-infested wasteland filled with monsters?#$b#@, I love you dearly.#$b#You are the light of my world, the sole star in my sky.#$b#Please, I beg of you.#$b#Do not place yourself in more danger than you must.#$b#I do not think I could mentally cope with the thought of losing you and our little one in one fell swoop.#$b#Please. Do not do this again.",
+    "Preg.GiftReaction_Red_Plate": "Ah! This the dish, red plate that is said to reduce nausea is it not!?#$b#Why are you giving it to me, my love? Do you not need it more?#$b#Ah! Wait, please allow me to eat it!#$b#I shall take this opportunity to learn of its taste and composition so I may conjure for you!",
+    "Preg.GiftReaction_Rice_Pudding": "Ah! This is made of rice is it not?#$b#I read that rice and other easy-to-digest starches were ideal for ${{those with child^expecting mothers}}.#$b#Are you certain you wouldn't like to have it instead?#$b#...If you insist.",
+    "Preg.GiftReaction_Banana_Pudding": "A banana pudding?#$b#Are you certain you should not be eating this instead?#$b#My research indicated banana was an ideal bland food that would assist in making sure you are getting enough nutrients during this delicate period.#$b#Ah... how about we split in instead?#$b#That would be a good compromise, no?",
+    "Preg.GiftReaction_Ginger_Ale": "Hmm? You are giving this to me?#$b#Are you certain it would not serve you better, my love?#$b#My research suggested that both ginger and carbonated drinks have a nausea suppressing factor.#$b#...Ah, if you insist, but do not hesitate to ask for it back if you are in need of it.",
+    "GiftReaction_Salmon_Dinner": "Hmm? Salmon?#$b#Ah! That is rather high in protein, is it not?#$b#Should you not be having it instead of me?#$b#...If you insist, my heart.",
+    "Preg.GiftReactionCategory_-7": "Hmm? For me? Are you certain, my love?#$b#Please do not feel obligated to make food for me while you are in a tender position.#$b#If anything, I should be the one cooking for you!#$b#Assuming my cooking didn't merely produce charcoal at least.",
+    "Preg.GiftReaction_Blue_Moon_Wine": "Hmm? Wine?#$b#Do you not think it's a little premature for celebrations, my love?#$b#I shall hold on to this until we have the child in our arms and you have made an adequate recovery.#$b#...'Enjoy it myself'?#$b#What enjoyment could I possibly gain from drinking an alcoholic beverage alone?",
+    "Preg.GiftReaction_Radiation": "Ah!!#$b#%Lance snaps his fingers, the thing in my hands disappearing before I can even register what happened....#$b#@! What were you thinking!?#$b#How could you possibly even consider handling such hazardous materials while with our child?!#$b#....I....!#$b#.....Forgive me, I need a moment to calm down.#$e#%Lance seems really upset this time....",
+    "Preg.GiftReaction_Magic_Rock_Candy": "Ah.... Thank you, my heart, but you should have it instead.#$b#You are the one carrying our child after all! Even if it is simply a unique confection, the magical benefits it provides are nothing to scuff at.#$e#Ah... if you insist.#$b#Please do not hesitate to tell me if you change your mind.",
+    "Preg.GiftReaction_Void_Eel": "...I hope you are not making trips where I think you are going merely to catch some fish for my meals, my heart.#$b#I try not to think much of it when it arrives on my dinner plate as it sometimes does, but I would not want anything to befall you with the vulnerable state you are in...#$b#Please take care of yourself, my love. Fishing can wait.",
+    "Preg.GiftReaction_Ghostfish": "....I hope you are not going into the mines while with child simply to provide me with a novel fish, my heart.#$b#I would be very unhappy with you if that was the case....",
+    "Preg.GiftReaction_Lava_Eel": "....I hope you are not going deep into the mines or anywhere near an active volcano while with child simply to provide me with a novel fish, my heart.#$b#I would be very unhappy with you if that was the case....",
+    "Preg.GiftReaction_Undeadfish": "....!#$b#Of all the reckless things to do while with child, you choose to *fish* in the *badlands*!?#$e#....Frankly, I am not sure anything I could say would get through to you at this point, @.#$b#...Just, please. Be careful.#$b#If not for your own sake, then the sake of our unborn child....",
+    "Preg.GiftReaction_Gemfish": "...Is it truly necessary to traverse into a monster-filled mountain simply to collect an interesting specimen for me, my heart?#$b#I do not wish to limit your freedom, but sometimes I am very concerned with your reckless behaviour....",
+    "Preg.GiftReaction_Warp_Totem:_Farm": "Ah, a homing totem. #$b#Are you certain that I should be the one to take this? After all, you are the one with child.#$e#Frankly, it has been a great exercise in self-control that I have not already buried you under a mountain of these things.",
+    //Dating gifts
+    "FarmerGift_DatingTotem": "Ah, hello, @. #$b#I was hoping to see you today.#$b#I accidentally produced an excess of totems while fulfilling an order.#$b#Please take one. I'm sure it will assist you in your explorations of the valley.[681 688 689 690]",
+    "FarmerGift_DatingGem": "It is good to see you, @.#$b#I recently received a shipment of products from the local mine and I thought I would share a small token with you.[84 80 82 536 535 537 749]#$b#Do not worry, I have plenty reserved for my personal projects.",
+    "FarmerGift_DatingPotion": "Ah, it is good to see you, @.#$b#I hope you have been staying safe during your explorations of the valley.#$b#Here, please take this.[773]#$b#It is not much, but I found myself brewing it while pondering how to better ensure your safety.#$b#I generally frown upon relying too much on potions and the sort, but they are useful in dire situations.#$b#Please stay safe, my love.",
+    "FarmerGift_DatingSeeds": "Welcome, @. I am glad to see you.#$b#I recently received a difficult-to-acquire seed you may be interested in considering your profession.#$b#Here, please take it. I'm sure it'll be of use to you.[499 486 347 485 433 489 476 745 478 494 833 FlashShifter.StardewValleyExpandedCP_Shrub_Seed FlashShifter.StardewValleyExpandedCP_Ancient_Ferns_Seed]",
+    "FarmerGift_DatingSeeds2": "Welcome, @. I am glad to see you.#$b#I recently received a difficult-to-acquire seed you may be interested in considering your profession.#$b#Here, please take it. I'm sure it'll be of use to you.[499 486 347 433 FlashShifter.StardewValleyExpandedCP_Shrub_Seed FlashShifter.StardewValleyExpandedCP_Ancient_Ferns_Seed]",
+    //Conversation Starters (randomized)
+    "FarmerGift_Starter.1": "Ah! @! Perfect timing, my love. ",
+    "FarmerGift_Starter.2": "Oh! Hello, beloved. I was hoping you'd visit. ",
+    "FarmerGift_Starter.3": "Ah, it is wonderful for you to visit the tower, my love!",
+    "FarmerGift_Starter.4": "My heart, it is good to see you!",
+    "FarmerGift_Starter.5": "Welcome to the tower, my love. I was just thinking of you.",
+    "FarmerGift_Starter.6": "Wonderful timing, my heart. I was just thinking of seeing you.",
+
+    "FarmerGift_Starter.Preg.InTower.1": "Ah! @!#$b#Did something happen!? Are you in need of assistance?#$b#...You merely were in the mood to visit?#$b#In that case, I am relieved.",
+    "FarmerGift_Starter.Preg.InTower.2": "@! I did not expect you to come to the tower!#$b#Is something the matter?#$b# 'No'?#$b#Then it is good to see you, my heart.",
+
+    "FarmerGift_Starter.Preg.NoTower.1": "@, how do you feel? Alright, I hope?#$b#Ah, that is good to hear.",
+    "FarmerGift_Starter.Preg.NoTower.2": "My heart, how did you sleep last night? You were tossing and turning more than usual.#$b#...I see. Please inform me if there is anything more I can do to provide you comfort.#$b#...For now...",
+
+    "FarmerGift_Question": "Will you please hold out your hands for a moment?",
+    "FarmerGift_Question.Preg": "Come, hold out your hands for me. I have a small small gift for you.",
+    "FarmerGift_Answer": "*Hold out my hands.*",
+
+
+
+    //LANCE FESTIVAL
+    "eggfestival.lance.1": "Have you tried the fruit punch? It's apparently a family recipe from Gus.$14#$e#That purple haired girl has determination in her eyes.$3#$b#There's something about her. I can't quite put my nose on it...$6",
+    "flowerdance.lance.1": "Perhaps I'll join Magnus on the cliffside after the dancing ceremony.$8",
+    "luau.lance.1": "It was supposed to rain today. Luckily, I had the crafting materials to make a sun totem.$12#$e#Perhaps I'll teach you how to make one some day. They require cinder shards.$8",
+    "moonlight.lance.1": "I'm quite familiar with the lunaloo, or as you call them, 'moonlight jellies'.$14#$b#They are a common, but welcome sight at Ginger Island.$8#$e#Magic Scholars believe they used to be magical creatures.$9",
+    "fair.lance.1": "*crunch* These burgers...!$14#$e#I've already eaten five.$15",
+    "spirit.lance.1": "*chuckle* Show off...$8#$e#Magnus possesses great power.$9",
+    "spirit.lance.2": "We captured a lot of monsters this year.$1#$e#This is a good opportunity to show ordinary people some dangers of the world.$4",
+    "ice.lance.1": "I can't say I'm skilled in using a fishing pole.$14#$b#You're very talented.$15",
+    "winterstar.lance.1": "The Winter Star tree is quite the sight to behold...$14",
+    //LANCE STRINGS FROM CONTENT.JSON
+    "LanceinBed1": "You're the first thing I get to see today. I couldn't ask for anything else.$10",
+    "LanceinBed2": "*yawn* Five more minutes...$11",
+    "LanceinBed3": "Good morning. It was a little cramped, but we made it work.$13",
+    "LanceinBed4": "Did you sleep well? I'm heading back to the farmhouse soon.$8",
+    "Lance.SpecialOrderName": "Monster Crops",
+    "Lance.SpecialOrderText": "Cultivate crop seeds obtained by monsters in the highlands to aid Lance his research.",
+    "Lance.SpecialOrderSpring": "Deliver a spring monster crop to Lance.",
+    "Lance.SpecialOrderSummer": "Deliver a summer monster crop to Lance.",
+    "Lance.SpecialOrderFall": "Deliver a fall monster crop to Lance.",
+    "Lance.SpecialOrderWinter": "Deliver a winter monster crop to Lance.",
+
+    ////Common DIALOGUE
+    "Lance.Eplise": "...",
+    "Lance.Ahem": "*Ahem*",
+    "Lance.AhName": "Ah, @.",
+    "Lance.NameI": "@, I...",
+    "Lance.Chuckle": "*Chuckles*",
+    "Lance.Sigh": "*Sigh*",
+
+
+
+    ////Welwick comments
+    "Welwick.Base": "Ah, yes... my crystal ball is swirling with visions of your future, young one. I foresaw of your arrival ...Mostly from Lance excitedly telling me...",
+    "Welwick.Money": "You don't have enough money to pay my fee... What a shame... Maybe try asking Lance...?",
+    "Welwick.Prediction.1": "Ooo... It's dark, and I see you and a certain dashing man. He is very desperate to protect you, maybe even a little too desperate... Is that a flash of magic I see?",
+    "Welwick.Prediction.2": "Ah... the crystal ball has gone dim. That's all I can do for you, young one. I'm sure Lance will be eager to hear of the results.",
+    "Welwick.Prediction.3": "Now I see you and Lance deep in the forest. Oh my, you seem happy to spend some very private time together.",
+    "Welwick.Prediction.4": "Now I see you and Lance against the sands of a beach. Is that Jolyne? If you do come across paths, tell her I said hello.",
+    "Welwick.Prediction.5": "Ooo... It's dark, and I see you and a certain dashing man. Oh my, he is very eager to please, isn't he? In a cave of all things!",
+    "Welwick.Prediction.6": "Ooo... It's dark, and I see you and a certain dashing man. Hmmm? Flirting on the battlefield? How scandalous!",
+    "Welwick.Prediction.7": "Now I see you and {0} overlooking vast a coral reef. Oh my, you seem happy to spend some very private time together.",
+    "Welwick.Prediction.8": "Now I see you and {0} waiting for the arrival of a train. He looks serious... but not unhappy. Something important must be happening.",
+    "Welwick.End": "I've already read your fortune...Go do something else. ...Looking forward to dinner, by the way...",
+
+
+    ////Misc Strings
+    "BouquetReject.1": "Not yet.",
+    "BouquetReject.2": "{0} isn't ready to accept that.",
+
+
+    ////Baby strings
+    "NewBaby.Question": "{0}... What would you say to trying for a child with me..?",
+    "NewAdopt.Question": "{0}... What would you say to adopting a child with me?",
+    "AdoptMessage.Player": "During the night, we got notice from the Ministry that our child will arrive in the morning!",
+    "BirthMessage.Player": "Something in me stirs. Could it be that baby is about to be born soon?",
+    "BabyNaming.Male": "If it's a boy, what should we name him?",
+    "BabyNaming.Female": "If it's a girl, what should we name her?",
+
+    //Event Strings
+    "Lance.Egg2": "No, I will not be hunting for eggs.$8#$e#I would be too tempted to fight for them.$15",
+    "Lance.Flower2": "I did study dancing, long ago...$14#$e#Well, I took one class, anyway.$8",
+    "Lance.Luau2": "I hope the Governor's journey here wasn't troubled by anything.$3#$e#Usually, they hire mercenaries to clear out the path ahead of time.$4",
+    "Lance.Jellyfish2": "You know, it's likely there are monsters with powers we can't even fathom far below the sea's surface.$2#$e#It's an intriguing thing to imagine.$4#$e#Yes, yes, I'm enjoying the jellies, too.$8",
+    "Lance.Fair2": "I look forward to seeing what you have to offer in your grange display.$14#$e#You never fail to amaze me with the things you produce on your farm.$99",
+    "Lance.Halloween2": "Have the monsters ever managed to escape during this festival? Hmm..$3#$e#That's a question for Magnus.$8",
+    "Lance.Ice2": "The weather turning at this time of year makes me want to set off on a journey to somewhere warmer.$8#$e#The perks of being an adventurer.$7",
+    "Lance.Christmas2": "The spirit of this town feels strongest at this festival, I think.$13#$e#It's the kind of camaraderie that only a small town can produce, where everyone cares for each other.$12",
+
+    ////Map Strings
+    "SpouseRoom.1": "Lance's indoor flowerbed. Sometimes he asks for my assistance to ensure nothing dies...",
+    "SpouseRoom.2": "I wonder what will grow this season?",
+    "SpouseRoom.3": "None of the monster crops are planted here, these are just magic seeds.",
+    "SpouseRoom.4": "A spare ladder for whenever repairs on the farmhouse needs to be done.",
+    "SpouseRoom.5": "A cellar door. Lance said he'll give me the key when he manages to find it.",
+    "SpouseRoom.6": "A barrel...? As I look inside, I can smell what I believe is gunpowder.",
+    "SpouseRoom.7": "Lance never goes without rations, he always whines for my home cooking though.",
+    "SpouseRoom.8": "Magnus supplies Lance with mana elixirs and the likes, I guess this is where Lance has been storing it all.",
+    "SpouseRoom.9": "A 'contingency plan' he says, if he wants me to eat with him while he works, I have no problem with it.",
+
+
+    //// M A I L
+    "Mail.1Heart": "Hello @,^^I wanted to thank you again for helping me with those seeds. The Ministry decided that they were going to pass the baton off onto Magnus after all.^Don't tell him I'm a little irritated.^Feel free to keep the produce and the spoils for yourself.^They're definitely better off in your hands than mine.^^Sincerely,^Lance (: [#]Ministry Management",
+    "Mail.2Heart": "@!,^^Those monster crops you've brought me have give my research more funding!^^If you're ever in need of anything, do let me know.^^Sincerely,^Lance [#]Lance's Appreciation",
+    "Mail.3Heart": "@,^^I hope this letter finds you well, the Dwarf sends their regards, with a new shop open to boot!^^Feel free to stop by anytime.^^Sincerely,^Lance [#]Highlands Secured",
+    "Mail.3Heart.handle": "@!^^I've talked with the Dwarf about your triumphs and call me impressed!^^They've sung your praises left and right!^^Do let me know when you stop by, we can all chat together.^^Sincerely,^Lance [#]Highlands Secured",
+    "Mail.3Heart.offer": "@,^^While I do find your courage inspiring, I feel this excursion would have been too dangerous for you.^^I apologize if that seems boastful, but I care about everyone's safety.^^Sincerely,^Lance [#]Highlands Secured",
+    "Mail.4Heart": "@,^^I write this letter to let you know there are many bounds of magical items to be found.^^If you're ever curious about more, don't hesitate to ask me.^^Sincerely,^Lance [#]A Protégé's Problems",
+    "Mail.5Heart": "@!^^Don't be too bothered about Camilla.^^She's a handful even to me.^^I'll try to ask her to be less flirtatious if you dislike it.^^Sincerely,^Lance [#]Mentor, Camilla",
+    "Mail.6Heart": "@...^^I apologize for my behaviour that day...^^I hope you can forgive me for my change in demeanor.^^Sincerely,^Lance [#]Lance's Apology",
+    "Mail.7Heart": "@!^^Marlon sends his regards when you caught us talking like old folk.^^I've found enjoyment in your presence and wanted to let you know that.^^Sincerely,^Lance [#]The Adventurer's Creed",
+    "Mail.8Heart": "Dear @,^^Everyone at First Slash enjoyed having you, if you're ever in need of a mercenary entourage, feel free to ask!^^Sincerely,^Lance [#]First Slash",
+    "Mail.9Heart": "Dear @,^^I apologize if I came off as overbearing, but I have watched Lance as I grew up and he was quite flippant.^^If that man can find someone to settle down with, then we at First Slash are happy to indulge.^^Do not hesitate to ask for our services.^^Sincerely,^Jolyne [#]Jolyne's Concerns",
+    "Mail.10Heart": "@!^^Remember! Come visit me at First Slash!^^The warp is near your Island Farmhouse or you can ask Mag!^^Sincerely,^Lance [#]An Invitation",
+    "Mail.10Heart.pt1": "Dear @,^^I hope you got to see how First Slash works.^^(And myself, really)^^I guess I wanted to look professional, but I enjoyed your company!^^Sincerely,^Lance [#]A Workday",
+    "Mail.10Heart.pt2": "Dear @,^^I sincerely enjoyed our night together...^^I hope to continue these small comforts of your presence.^^With love,^Lance [#]Creature Comforts",
+    "Mail.11Heart": "My love, @^^I... cannot apologize enough for scaring you the other day...^^I truly did not mean to give you such a fright.^^I just felt in the moment of losing a comrade and I acted before saying anything...^^If there's anything I can do for you to forgive me, please let me know...^^Only yours,^Lance [#]The Elemental Wars",
+    "Mail.12Heart": "My love, @^^I cannot thank you enough for introducing me to Krobus!^^They have such a diverse knowledge of their people, it's really going to aid me in my petition to the Ministry!^^I hope to continue this endeavor and see it bear fruit.^^With love,^Lance [#]Shadowpeople",
+    "Mail.13Heart": "My love, @^^Soon I will have the artifact that compliments my own to complete our soul bond.^^I look forward to this future with you.^^You can expect the artifact to be done before the end of the next season.^^With love,^Lance [#]A Gift",
+    "Mail.14Heart": "In Sickness And In Health^^Forsaking All Others^^To Love And To Cherish^^Until Death Do Us Part^^I hope the last part doesn't give you a fright, but it is truly how the bond between us is.^^This soul bond lets me feel your every movement if I focused hard enough.^^You can also feel where I am if you were to hone your magic.^^This is truly the greatest blessing of my life, and I am still in awe that it is with you, @.^^I hope we continue our days in this bliss as we chase the sunsets of our lives.^^Your soulmate,^Lance [#]A Bond",
+
+    ////E V E N T S
+    ////HEART EVENTS
+    ////Lance 0 Heart Volcano
+    "Lance.0Heart.01": "A deep laughter echoes against the edges of the volcano. #A tall, fiery haired man stands in front of what looks to be a forge.",
+    "Lance.0Heart.02": "My my... it's been quite a while since anyone's braved the top of Caldera!#{{e1}}#$b#I thought it'd just be me and the dwarves for the next few centuries.$9#$b#Kohldur wasn't known for its hospitality.$13",
+    "Lance.0Heart.03": "But I digress. I have a feeling you and I will become very well acquainted.$5",
+    "Lance.0Heart.04": "See you next time... #The volcano suddenly shudders. #Your body feels tense from being exposed to the heat. #You should probably leave soon.",
+    ////Lance 0 heart farm
+    "Lance.0Heart.05": "Good morning, sweetheart. I told you we would be well acquainted. $5",
+    "Lance.0Heart.06": "I've heard from several colleagues that your farm is just spectacular.$8#$b#Their description barely did it justice. This place is breathtaking.$13#$b#Almost as breathtaking as its owner.$11",
+    "Lance.0heart.07": "I'll have you know, I barely jest with strangers, but I've gotten ahead of myself.$8#$b#I received word from your guild administrator, Gil, that Marlon was looking to contract with a combat mage.$4#$b#After reviewing the relevant tasks, missions, and the... views...$13#$b#I decided to accept.$5",
+    "Lance.0heart.08": "And I must admit, after we met at Mount Kohldur's caldera, you piqued my interest.$13#$b#I'd like to get to know you better, but I travel quite often, so let's dispense the pleasantries why don't we?$10#$b#Here's my schedule.$15",
+    "Lance.0heart.09": "Feel free to come find me whenever you're bored.$5#$b#I, sadly, must bid you adieu. Farewell, sweetheart. $1",
+    "Lance.0heart.010": "Ah!$14#$b# I almost forgot. Marlon will be keeping me for the days that I'm here in the Valley.$15#$b#Don't feel inclined to house me yourself, unless you actually wanted to.$13#$b#I jest again. I'll see you around, sweetheart.$5",
+    "Lance.0heart.011": "Don't be a stranger, I'm sure you'll have use for my schedule if you ever need me.$8",
+
+    ////Lance 1 Heart
+    "Lance.1Heart.01": "Ah, sweetheart. I didn't think you'd be stopping by today.$1",
+    "Lance.1Heart.02": "Must be a sight to see me covered in dirt huh?$3",
+    "Lance.1Heart.03": "You seemed to have walked in on me struggling to get these monster crops to grow...$25#$b#Why the Ministry assigned this task to this era's greatest combat wizard, when the old man in the tower grows crops all the time-- I'll never understand. $26#$b#I have much better ways I could be spending my time.$25",
+    "Lance.1Heart.04": "Lance kicks the dirt and grumbles with his brows furrowed. #He sighs.",
+    "Lance.1Heart.05": "A glint shimmers across his face.",
+    "Lance.1Heart.06": "Wait, you've had success growing all sorts of crops every season.${{e38}}#$b# Do you think that green thumb of yours would be able to help me grow these plants?$42",
+    "Lance.1Heart.07": "I nod as I take the parchment paper with instructions from Lance's hands.",
+    "Lance.1Heart.08": "You will?$15#$b# Oh good....${{e38}}#$b#I really need these crops for research purposes and I have more... pressing matters that need my attention more than tilling dirt.$9",
+    "Lance.1Heart.09": "Give me a second, let me grab some unbruised and unblemished seeds.$32",
+    "Lance.1Heart.10": "Lance dusts off his hands on his pants.",
+    "Lance.1Heart.11": "[347 499]No rush, but at least it's a load off of my shoulders! $15#$b#Thanks again, sweetheart, if you ever need anything feel free to reach out. $41",
+
+    ////Lance 2 Heart highlands introduction, lance's appreciation, lance's reward
+    "Lance2heart1.01": "Are you prepared? It'll be a long trip.",
+    "Lance2heart1.02": "All right. Watch your footing when climbing onto the boat.$0",
+    "Lance2heart1.03": "We've arrived. How are you holding up, @?$0",
+    "Lance2heart1.04": "Lance's outpost is just up these stairs.",
+    "Lance2heart1.05": "...$14",
+    "Lance2heart1.06": "Hello, friends. Welcome to my outpost. You must be exhausted after the long journey.$4",
+    "Lance2heart1.07": "It was uneventful, but that's a good thing in my book.$0",
+    "Lance2heart1.08": "*chuckle* Of course.$8",
+    "Lance2heart1.09": "Please, come inside. I've prepared refreshments. There is much to discuss.$4",
+    "Lance2heart1.10": "My outpost may be small, but I assure you it packs the necessary punch for surviving the highlands.$5#$b#The magical flames act as a form of monster repellent. I created them myself.$4",
+    "Lance2heart1.11": "I'm conducting research out here, on behalf of the Ministry's orders.$4#$b#There's something special about the monsters that inhabit this region...$6#$b#Although uncommon, some possess peculiar seeds ripe with abnormal arcane properties.$10",
+    "Lance2heart1.12": "Hmm. Seeds you say? As in crop seeds? @ is an expert in that department.$0",
+    "Lance2heart1.13": "Ah, yes, @ has already helped me with a previous engagement I had with the Ministry.$10",
+    "Lance2heart1.14": "Lance shared his findings with Marlon and I. He asked us to hunt highland monsters to obtain their strange crop seeds and to try cultivating them.",
+    "Lance2heart1.15": "Before I knew it, hours had passed by... It's now time to head back home. I wonder what's in store for me at the highlands?",
+    "Lance2heart1.16": "I seldom use my boat for patrolling. I'm glad there's now another use for her.#$e#Hmm. I'm afraid I can't commit to helping Lance's research. I have my own responsibilities in the valley.#$b#I believe a quest of this stature is up your alley though, @.",
+    "Lance2heart2.01": "Welcome back, @.$$10",
+    "Lance2heart2.02": "Thank you for assisting in my research. I've unfortunately had no luck growing the monster crops myself.$3#$b#From my observations, there's four types of seeds, each capable of growing a seasonal monster crop.$4#$b#*chuckle* Your cultivation skills are perfect for this quest.$5",
+    "Lance2heart2.03": "Monsters won't nest around my magical fires, but they can still chase you past them.$4#$b#If you must retreat, seek shelter in the outpost to shake off any aggressors.$$5",
+    "Lance2heart2.04": "I mailed a crate of life elixirs to your farmhouse address. It should arrive within the next day.$$1#$b#They will aid in your adventures here. Best of luck, @.$5",
+    "Lance2heart2.05": "You're welcome to rest at my outpost, @. The pleasure is all mine.$$8#$e#Apologies for the state of it. My home in Castle Village is in far better condition.$$5",
+    ///////highlands pt2
+    "Lance.2Heart.01": "Glad you could make it.$1#$b#I hope my previous explanation was sufficient enough.$5#$b#Come on up and join me.$7",
+    "Lance.2Heart.02": "This dense forest is filled to the brim with monsters.$8#$b#I was hoping you would join me for a little introduction?$9",
+    "Lance.2Heart.03": "Lance casts a quick spell.",
+    "Lance.2Heart.04": "Sul!$21#$b#Be sure not to stray too far from me.$41",
+    "Lance.2Heart.05": "Lance prepares another spell and the forest begins to quiet down.",
+    "Lance.2Heart.06": "Well, daylight's a wastin', let's go on our little excursion.$8",
+    "Lance.2Heart.07": "Lance is quietly chanting to himself.",
+    "Lance.2Heart.08": "Sorry about that.$42#$b#It helps to clear used magic by chanting mantras to myself.$41#$b#The monsters are feeling stronger than ever.$31#$b#I need to ask Camilla and Magnus about the state of affairs.$30",
+    "Lance.2Heart.09": "Lance sighs.",
+    "Lance.2Heart.10": "Wilderness golems can spawn from the shadows. You'd best be aware of how dangerous they are. The only benefits they have is that they sometimes drop stalk seeds.$29#$b#Slimes... well... They drop your stock standard slime seeds. $8#$b#The extremely bouncy mushrooms drop fungus seeds. $35#$b#Your worst adversary however... Shadowpeople are quite prevalent in the area, but they scuttle away, leaving behind void seeds. $31#$b#I haven't asked Magnus yet on what exactly void seeds are, but I'll be sure to do so if you ever manage to grow whatever comes of it.$30",
+    "Lance.2Heart.11": "Strange... Isn't it? All these types of monsters dropping seeds of all things.$30#$b# As if the world is trying to tell the rest of us that it wants to heal itself. $31#$b#I do hope that someday I'll be able to see a healed realm.$28",
+    "Lance.2Heart.12": "Interrupted by some eavesdroppers, I didn't even get to tell you about the Gemfish!$49",
+    "Lance.2Heart.13": "But that's our cue to leave!$28",
+    "Lance.2Heart.14": "Pardon my manners.$33",
+    "Lance.2Heart.15": "Well I definitely had fun showing you around. Don't be a stranger and I'll see you around.$32",
+    "Lance.2Heart.01.a.1": "Ah, sweetheart. I'm glad I could catch you before you started your day.#$b#I've been able to gather some of the monster crops from a nightly raid. However, I will always appreciate any that you can spare.$8#$b#The Ministry is apparently preparing a weapon for defense if you were interested, I'll let you know when it's ready.$9",
+    "Lance.2Heart.01.b.1": "Ah, sweetheart...*Huff* *Huff* I'm glad I caught you.$22#$b#The Ministry has finally shipped the defense weapon, but unfortunately they left it to my locked chest. *Huff* $16#$b#And my chest isn't exactly light!$15#$b# If you don't mind, would you like to go with me to pick it up?$13",
+    "Lance.2Heart.01.response.q": "Do you go with Lance?",
+    "Lance.2Heart.01.response.y": "Of course.",
+    "Lance.2Heart.01.response.n": "Sorry, no.", //why are you so mean to him
+    "Lance.2Heart.01.b.2": "Ah?$14#$b#I'm sorry to bother you then.$15#$b#[499] Here, if you don't mind my quick thinking. Have a good day.$14",
+    "Lance.2Heart.01.yes.1": "Take my hand, I'll warp us there.$13",
+    "Lance.2Heart.01.yes.2": "Come on in, let me just grab them from the cellar.$1",
+    "Lance.2Heart.01.yes.3": "The Diamond Wand is powerful for knocking back enemies, if you ever find yourself in trouble it's best to use this and warp out.$8#$b#I have no need for it since I have magic to warp myself, but in a moment of weakness, it's best to be careful.$9",
+    "Lance.2Heart.01.yes.4": "If you ever find yourself in danger here, I'm always on the lookout.$13#$b#Be safe out there, sweetheart.$5",
+
+
+    ////Lance 3 Heart highlands predicament
+    "Lance.3Heart.01": "Ah, sweetheart!$1#$b# It's good to see you, I've received word from Marlon that an SOS has been sent out for the Highlands Caves.$3", //received sos
+    "Lance.3Heart.02": "The caves are highly dangerous so I'm currently preparing to dive in to see what's there.$2", //highly dangerous
+    //switch
+    "Lance.3Heart.03.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?", //already handled //offer to do it //offer to go with
+
+    //handled
+    "Lance.3Heart.03.h.1": "Pardon?$14#$b# You've already handled the situation?$16#$b# Call me surprised. I guess I underestimated your prowess, sweetheart!$15#$b# Who was asking for the SOS?$16", //wow!
+    "Lance.3Heart.03.h.2": "I tell Lance that it was a dwarf locked in a cage.#The key was dropped by what seemed like a mutant dinosaur.",
+    "Lance.3Heart.03.h.3": "The Bully Rex?!$20#$e# You fought it alone?!$16#$b# While I did say earlier that I underestimated your prowess, it is still a dangerous endeavor.$23#$b# You of all people should know just how precious life is.$26#$e# Nonetheless...#$b# I am glad you're safe and sound.$13",
+
+    //offer solo
+    "Lance.3Heart.03.od.1": "Ah? You wish to brave the wilderness yourself?$14#$b# While I usually never try to hinder someone from growth, Marlon told me that this mission was rated 'highly dangerous'. I'm afraid that I'll have to handle this one myself.$20", //good luck
+    "Lance.3Heart.03.od.2": "I tell Lance about my own accomplishments.",
+    "Lance.3Heart.03.od.3": "While your accomplishments are staggering in the face of the mundane, for those of us in the upper ranks of the Adventurer's Guild, it seems like childsplay.$25#$b# I apologize if that comes off as rude, but many lose their lives in the face of overconfidence and negligence.$23#$b# If you do not mind, I need to be on my way.$27",
+
+    //offer together
+    "Lance.3Heart.03.tg.1": "You wanted to tag along?$16#$b# I'll never say no to good company.$13#$b#Let me just get some supplies.$12", //let me get ready
+    "Lance.3Heart.03.tg.2": "Lance dug through his supplies before turning back to me.",
+    "Lance.3Heart.03.tg.3": "Alright that's all settled, shall we get a move on?$13",
+    "Lance.3Heart.03.tg.4": "Is that... a dwarf in a cage?$14#$b#Who did this to you?$22",
+    "Lance.3Heart.03.tg.5": "I don't know, I was knocked out and found myself here.",
+    "Lance.3Heart.03.tg.6": "Considering the state of this area and the fact that I don't feel any magic, it seems as if this lock isn't anything special.$20",
+    "Lance.3Heart.03.tg.7": "Lance conjures up a set of keys from a chant.#The lock clatters to the ground.",
+    "Lance.3Heart.03.tg.8": "Good, now let's get out of here.$12",
+    "Lance.3Heart.03.tg.9": "Lance warps the three of us back to the Adventurer's Guild to explain to Marlon.",
+    "Lance.3Heart.03.tg.10": "Marlon will handle the rest, thank you for coming along, sweetheart. I'll need to send word to other guilds about the dwarves since it is a new development.$12#$b# Hopefully it's nothing too extreme... I pray this is the end of it.$23",
+
+
+    ////Lance 4 Heart artifacts and mentors
+    "Lance.4Heart.01": "Lovely day, isn't it?$13",
+    "Lance.4Heart.02": "For someone of your attentiveness, you sure do scare easily.$1#$b# Although being cautious isn't to be taken for granted.$5#$b#I've been meaning to talk to you about your accomplishments.$4",
+    "Lance.4Heart.03": "Ginger Island has been my main patrol for a good few decades and it seemed like time was at a standstill until you came around.$2#$b# From communicating with birds and bartering with them, to building the resort, with a full bar no less!$8#$b#In the few centuries that I've wandered, you are by far the most mysterious.$13",
+    "Lance.4Heart.04": "Suffice to say, I have come bearing some questions. Are you familiar with magic relics, sweetheart?$16",
+    "Lance.4Heart.05": "Really? Considering your accolades in the valley I would've expected that you had at least a few stowed away.$14#$b# A lot of artifacts come from Galdora, if you ever happen to come across the place, you'd be best to be suited to the teeth.$13#$b# If you ever do see it for yourself, say hello to my mentor, Camilla, for me.$5#$b# I'm not exactly allowed to stray too far from my patrol.$3#$b# But beyond that, how about I give you a taste of what relics are?$1#$b# Here, this one is called a 'Blink Relic'.${{e0}}",
+    "Lance.4Heart.06": "You can use that to follow me up the cliff. Focus on where you want to go and grip the relic tight.$4",
+    "Lance.4Heart.07": "Relics can come in all shapes and sizes, my blade functions the same way as that relic in your hands.$8",
+    "Lance.4Heart.08": "My earring is a longer story for another day.$5",
+    "Lance.4Heart.09": "Beautiful! Brains to match the face I'd say!$12#$b# You really do astound me with your ability to grasp magical concepts even though you're so deeply rooted in the mundane.$10",
+    "Lance.4Heart.10": "Now, enjoy the fruits of your labor, the view up here is spectacular.$13",
+    "Lance.4Heart.11": "It really does settle into your bones how beautiful this place is.",
+    "Lance.4Heart.12": "At first, I didn't want to take on this patrol because of its proclivity to the heat.$3#$b# After awhile I've gotten used to it, but I guess that shows on my skin. $9#$b# You should see Castle Village though, it feels as if the sand itself is bleeding.$3",
+    "Lance.4Heart.13": "Camilla was the reason why I accepted in the end, she said that this experience will grow me as a person.$1#$b#I'm starting to see that she was right.$5#$b#But that's history that's to be brought about amongst a swathe of friends, not some shut in who lives in the mountains.$7#$b# Let's go back down to the shore.$4",
+    "Lance.4Heart.14": "Well, the Blink Relic was something I wanted to use to test you.$5#$b#You handled it as if you were a student under Magnus. It's quite curious, really, if you don't mind I'll take it back.$7",
+    "Lance.4Heart.15": "The 'Blink Relic' was given back to Lance.",
+    "Lance.4Heart.16": "When you see Camilla, try not to fall prey to her jokes. I'm sure that she'll be a handful as soon as she sees your potential. Have a good day, sweetheart.$5",
+
+    ////Lance 5 Heart camilla's appearance
+    "Lance.5Heart.01": "Ah, sweetheart, I didn't expect you to visit me at this time.$10", //ah player about to head out
+    "Lance.5Heart.02": "I tell Lance that I met Camilla.", //talk about meeting camilla
+    "Lance.5Heart.03": "Have you? Junimos, huh? Forest Sprites are definitely extremely fascinating.$14#$b#Was she just as eccentric as I warned?$9", //how was she/just as eccentric as i warned
+    "Lance.5Heart.04": "She definitely was! Is she the reason why you're so 'flirty'?", //reasons why i'm flirty?
+    "Lance.5Heart.05": "*hahaha*", //lance laughs
+    "Lance.5Heart.06": "Possibly!$15#$b#She hates to say it, but she definitely treated me as if I was her own child!$8#$b# That is a longer story for another day, however, I am being called upon for work. I'll see you later, sweetheart.$5", //possibly, she is like a mother figure to me, but that is a story for another day, being called to work 
+
+
+    ////Lance 6 Heart elemental war recollection
+    "Lance.6Heart.01": "Nikki... Avery... Paul... $27#$b#!...$25#$b#...$23#$b#...@...$95",
+    "Lance.6Heart.02": "Lance seems like he's in a trance. #I call out to him.",
+    "Lance.6Heart.03": "Me? No, I only have a small injury it's you who should--$94#$b#...$93",
+    "Lance.6Heart.04": "I call out to him again.",
+    "Lance.6Heart.05": "@...? How am I--$96#$b#...$94#$b#Ah.. @.. $85",
+    "Lance.6Heart.06": "It looks like Lance has finally realized where he is. #Are you alright?",
+    "Lance.6Heart.07": "Yes, I... I apologize, it seems like I was in a trance from remembering what it was like during the Elemental Wars..$93#$b#Would it be alright if I could take a rest with you?$96",
+    "Lance.6Heart.08.response.q": "Do you let Lance stay?",
+    "Lance.6Heart.08.response.y": "Of course.",
+    "Lance.6Heart.08.response.n": "Sorry, no.",
+    "Lance.6Heart.07.yes.1": "Thank you, @.$92",
+    "Lance.6Heart.07.yes.2": "Lance wipes his face off before sighing heavily.",
+    "Lance.6Heart.07.yes.3": "I assume that you've heard of the Elemental War?$88",
+    "Lance.6Heart.07.yes.4": "You nod and tell Lance that your brushes with history from school is the maximum that you know of.",
+    "Lance.6Heart.07.yes.5": "Ah.$72#$b#I understand that sentiment, I would have forgotten the nuances if I wasn't immersed in it.$64",
+    "Lance.6Heart.07.yes.6": "Lance sighs.",
+    "Lance.6Heart.07.yes.7": "Most would not tell you, but it was due to fissures from the world shuddering.$81#$b#It was an era before my time, but a lot of practitioners were immersed in how powerful they were.$80#$b#I'm sure Magnus could tell you more about it, he was a full fledged mage on the front lines.$64#$b#I didn't join the war immediately, I was a few hundred centuries late to the party I guess.$65#$b#Some from the Ministry call me lucky, they say a young gun like me should be thankful I only caught the cusp of the end.$64#$b#It's funny... really. I'm lucky, but I've lost all my relatives before I could even form a cognitive thought.$89#$b#I apologize. This is probably not a topic that you wanted to hear first thing in the morning.$93#$b#I appreciate the time you've given me today. Thank you for humoring me.$96",
+    "Lance.6Heart.08": "Ah...$100#$b# I apologize for bothering you then.$88",
+    "Lance.6Heart.09": "Lance warps away...#Was that really the correct thing to do...?",
+    "Lance.6Heart.10": "I apologize for earlier... but I just need some time alone...$89",
+
+    ////Lance 7 Heart an adventurer's creed
+    "Lance.7Heart.01": "Surely it wasn't that bad, Marlon!", //surely you jest marlon
+    "Lance.7Heart.02": "Ah, hello @, Marlon and I were talking about old times.$16", //oh hello @ talking w marlon about old times
+    "Lance.7Heart.03": "Yeah, kid, you think Lance is bad now? You should've seen him when Magnus first brought him around these parts.$h", //think lance is bad now he was worse -marlon
+    "Lance.7Heart.04": "I was truly a wild firecracker, huh?$15#$b#But enough about me, what brings you around, @?$13", //a firecracker through and through, no? *laughs* what brings you here @?
+    "Lance.7Heart.05.q": "Why are you here?#Just wandering around.#I have a quest from Gil finished!#I'm resupplying before another mine delve!", //just wandering/gil quest/resupply
+    "Lance.7Heart.06": "Ah I know all too well about the feeling of wanting to wander.$1#$b#Though, sometimes I wish I had someplace to plant my feet more permanently.$5", //i understand wandering
+    "Lance.7Heart.07": "Aha! A bonafide achievement hunter, Marlon!$99#$b# I can't wait to see you soar through the ranks to catch up to me, huh?$15", //oh-ho a bonafide achievement hunter
+    "Lance.7Heart.08": "It's great to keep yourself well supplied, you never know what kind of dangers you'd experience out there.$7", //always good to ensure you're topped off
+    "Lance.7Heart.09": "But nonetheless, while I enjoyed this company, the sands on Ginger Island will not count themselves.$4#$b# I must be on my way, goodbye Marlon, goodbye @.$5", //sand grains aren't going to count themselves and been feeling lacking in vitamin d
+
+    "Lance8hearts.01": "I've finished researching the monster crops and I'm ready to report back to my guild, The First Slash.$1#$b#I would like you to come with me since you're responsible for my mission's success. I couldn't have done this without you.$8",
+    "Lance8hearts.02": "*chuckle* Follow me.$5",
+    "Lance8hearts.03": "Our island is in the center of the Gem Sea, too far to reach without warp runes.",
+    "Lance8hearts.04": "I'll go first.$1",
+    "Lance8hearts.05": "You have to admit, it's much faster than conventional travel.$8#$b#Come. I'll introduce you to the guild.$12",
+    "Lance8hearts.06": "Everyone! Lance is back!$5",
+    "Lance8hearts.07": "Hey!",
+    "Lance8hearts.08": "Welcome back!",
+    "Lance8hearts.09": "And who is this you've brought to the guild hall?$0",
+    "Lance8hearts.10": "This is @, and they're the reason I was able to complete my mission.$15#$b#It turns out I'm not much of a farmer myself!$10",
+    "Lance8hearts.11": "Haha!",
+    "Lance8hearts.12": "Heh...",
+    "Lance8hearts.13": "Good to meet you, @. Name is Jolyne, leader of The First Slash.$4#$b#A friend of Lance is a friend of mine.$5",
+    "Lance8hearts.14": "Well, Lance. It's not difficult to sense the strange arcane energies emitting from you.$0#$b#We're all waiting in anticipation.$5",
+    "Lance8hearts.15": "*chuckle* Of course...$5",
+    "Lance8hearts.16": "Make some room for me.$1",
+    "Lance8hearts.17": "What the...,",
+    "Lance8hearts.18": "Whoa!",
+    "Lance8hearts.19": "Can I touch it!?",
+    "Lance8hearts.20": "Behold... Monster crops from the Highlands!$12",
+    "Lance8hearts.21": "Fascinating!",
+    "Lance8hearts.22": "Hmm...",
+    "Lance8hearts.23": "Impressive!",
+    "Lance8hearts.24": "It was incredible meeting the guild Lance hails from. But now it's time to return home. Maybe I can visit again soon?",
+    "Lance8hearts.25": "My master and guild leader are pleased with my performance. Thank you, @.$8#$e#These monster crops will help advance our understanding of wilderness golems, slimes, mushroom spirits, and the shadow people...$4#$e#There's still work to be done at the Highlands! We're just getting started.$15",
+    "Lance8hearts2.01": "You sense Lance is at the front door.",
+    "Lance8hearts2.02": "Hello, @. Meet me at your farmland on Ginger Island at your earliest convenience.$1",
+    "Lance8hearts2.03": "I have a secret grove near your island property...$5",
+    "LanceWizardRune.01": "Lance has told me you've met the members of the First Slash.#$b#My warp is open to you in my Nexus.",
+    "LanceWizardRune.02": "Be sure not to touch any of the other warps, they're quite... unstable.",
+
+    ////Lance 9 Heart Base jolyne's concerns
+    "Lance.9Heart.01": "Ah I was looking for you.",
+    "Lance.9Heart.02": "As First Slash's leader, Lance immediately came to me as an announcement of the two of you being in a relationship.#$b#While I have no qualms of my clan being in a relationship, I always give them the speech to warn them when they venture out into civilian territory. #$b#As Lance has been my friend since my childhood, I have a fondness for him akin to an older brother. #$b# He has never betrayed my trust, and has always kept the clan's integrity and pride in mind.#$b# I see the relationship between the two of you as a boon, but I hope you do not betray that trust.",
+    "Lance.9Heart.03": "Many seek the 'uniqueness' of someone like Lance, and while he does not outwardly say anything, I can tell that it is like watching a ship out at sea without ever stopping to port. #$b# Please, @, do take care of him.",
+
+    ////Lance 10 Heart creature comforts
+    "Lance10hearts1.01": "Good morning. I have business at my guild today and I was wondering if you'd accompany me.$0#$b#You can experience what a day at The First Slash is like...$5",
+    "Lance10hearts1.02": "You can use Magnus' warp hall, or my secret grove on Ginger Island.$1#$b#I cleared a path to it behind your island farmhouse atop the cliff.$0",
+    "Lance10hearts1.03": "I'll see you at Fable Reef tomorrow.$1",
+    "Lance10hearts2.01": "Ah, you're here!$1",
+    "Lance10hearts2.02": "There's a school of torpedo trouts at the island today. Maybe we'll see them.$15",
+    "Lance10hearts2.03": "Why don't we start by patrolling Fable Reef.$7",
+    "Lance10hearts2.04": "This is how we make mana elixirs!",
+    "Lance10hearts2.05": "Hey!",
+    "Lance10hearts2.06": "I've heard about you!",
+    "Lance10hearts2.07": "Now that's a fire!",
+    "Lance10hearts2.08": "*yawn* What a day...$16",
+    "Lance10hearts2.09": "Err. The bed here is a single.$14#$b#It would be a tight squeeze, but it would probably work.$13",
+    "Lance10hearts2.10": "Lance's experience as an adventurer and a mage shows in his physique.",
+    "Lance10hearts2.10.y": "I wouldn't mind a tight embrace.",
+    "Lance10hearts2.10.n": "I'm going to head out. This was fun.",
+    "Lance10hearts2.11": "*chuckle* If you wish. Safe travels.$13#$b#You're always welcome here.$5",
+    "Lance10hearts2.12": "Ah, @. I wanted to apologize for my hasty behavior in the guest room. That won't happen again.$1#$e#You left a good impression with the guild.$5",
+    "Lance10hearts2.13": "I suppose we could try.$14",
+    "Lance10hearts2.14": "*chuckle* Seems there is enough room for the both of us, but hardly.${{e38}}",
+    "Lance10hearts2.15": "@... I...$29",
+    "Lance10hearts2.16": "That was a night I'll always remember...${{e38}}",
+    "Lance10hearts3.01": "*chuckle* You're late...$5",
+    "Lance10hearts3.02": "How about we try again on another sunny day?$7#$b#Arrive here bright and early.$4",
+    "Lance10hearts3.03": "I was looking forward to spending the day with you at Fable Reef.$8",
+
+    ////lance 11 heart war recollections
+    "Lance.11Hearts.pre": "@! I've just gotten notice that Lance is being overwhelmed at Castle Village, we must go quickly!",
+    "Lance.11Hearts.00": "I can hear magic whirring in the distance alongside the clanking of metal.",
+    "Lance.11Hearts.01": "@!$100#$b#What are you doing here?! Stay back! It's not safe here!$50",
+    "Lance.11Hearts.02": "Lance backpedalled until he was in front of me.",
+    "Lance.11Hearts.03": "Lance is breathing heavily as he looks at me.",
+    "Lance.11Hearts.04": "Took out three...$50#$b#But there are still more... Please stay safe beloved!$52",
+    "Lance.11Hearts.05": "Lance seems like he can't catch his breath.",
+    "Lance.11Hearts.06": "As he looks over at me, his eyes widen and he looks angry.",
+    "Lance.11Hearts.07": "@...$100",
+    "Lance.11Hearts.08": "Lance raises an arm and readies a spell in my direction. #I ducked.",
+    "Lance.11Hearts.08.5": "...",
+    "Lance.11Hearts.09": "...I saw how you looked at me...$85#$b#You know I'd never do anything to hurt you @...$92#$b#Right?$94",
+    "Lance.11Hearts.10": "My heart nearly stopped when I saw the ghost sneaking up behind you...$93#$b#I have never felt that terrified in all my years of existence.$92#$b#This brings back so many memories of the war.$96",
+    "Lance.11Hearts.11": "My nightmares have already been really bad so tonight will be no different. I have flashback dreams of the war almost nightly.$84#$b#I have learned it best to wait until the sun is up and I can bask in its warm to sleep.$88#$b#I'm well acquainted with loss. Seeing people you considered family perish at the hands of your enemy is nothing anyone could prepare you for, and time doesnt make it any easier.$92#$b#I'm sorry it looked like I might hurt you...$93#$b#I just dont know what I'd do if I lost the other half of my soul...$96",
+    "Lance.11Hearts.12": "You see something in his expression change almost like he had an epiphany",
+    "Lance.11Hearts.13": "I must go...$77#$b#I have something I need to do at the Ministry...$81",
+    "Lance.11Hearts.14": "Lance left in a hurry...#I was definitely scared, but I wonder what came over him at the last minute...?",
+
+    ////Lance 12 Heart shadowperson, meeting krobus
+    "Lance12hearts1.01": "The surge of mana sends a chill through Lance's spine.",
+    "Lance12hearts1.02": "@!$99#$b#I didn't realize you'd be home so early.$13",
+    "Lance12hearts1.03": "!!?#Lance realizes what sent the surge of mana.#Your return scepter finally whirrs back down to it's stasis state.",
+    "Lance12hearts1.04": "Is... Is that a return scepter?$14",
+    "Lance12hearts1.05": "A 'friendly'!$99#$b#You're... You're not kidding, are you?$3",
+    "Lance12hearts1.06": "You befriended a shadow person in the sewers named 'Krobus'?$3#$b#Does Marlon know?$6#$b#He does?$14#$b#I feel like I'm always the last one to know anything.$81#$b#Sorry, honey, it's not about you, Marlon and Gil have just been treating me like a child for so long that I'm used to their quips.$13",
+    "Lance12hearts1.07": "If you don't mind, could I meet Krobus?$14#$b#Any time is good for me.$7",
+    "Lance12hearts1.08": "I'm sorry if I seem... skeptical.$6#$b# A good century on the front lines of war will definitely skew your perception on things.$2#$b# We can at least enjoy each other for tonight.$13",
+    //12 pt2
+    "Lance12hearts2.01": "In here?$14",
+    "Lance12hearts2.02": "*sniff* *sniff* Oh, you must be @'s life partner! You smell awful like them.",
+    "Lance12hearts2.03": "Your senses are sharp.$3#$b#It's a pleasure and honor to make your acquaintance. My name is Lance.$12",
+    "Lance12hearts2.04": "I'm Krobus, a merchant of unusual and intriguing goods.",
+    "Lance12hearts2.05": "I must say, I didn't fully believe @ when they spoke of you.$3#$b#I've encountered many shadow people throughout my time but none as welcoming such as yourself.$12",
+    "Lance12hearts2.06": "I'm sorry you've had bad run-ins with my kind...#$b#I assure you I'm nothing like them.",
+    "Lance12hearts2.07": "I've come across a vast amount of oddies in my time at war.$1#$b# You are by far the outlier.$4#$b# Pardon my jitteriness, I mentally preppared myself, but my body definitely doesn't want to listen.$3",
+    "Lance12hearts2.08": "But I have to say...$3#$b# You are one of the smallest I've come across so far.$14",
+    "Lance12hearts2.09": "Oh, yes! I get to feast on so many juicy flies!#$b#And humans leave treasure troves of tasty food in strange bins outside.",
+    "Lance12hearts2.10": "That's no meal for a shadow person of your stature.$3#$b#Let me get something for you.$1",
+    "Lance12hearts2.11": "He seems nice.",
+    "Lance12hearts2.12": "I have something for you.$7",
+    "Lance12hearts2.13": "...",
+    "Lance12hearts2.14": "I wanted to thank you for indulging me, @.$8#$b# I know my initial behaviour was questionable and you were worried for the security of your friend.$9#$b# I do deeply apologize for coming off as on guard at the beginning.$7#$b# I was telling the truth about Krobus' lack of height for their stature, however.$6#$b# I don't believe the sewers and human trash is a good supplement of energy for someone like them.$3#$b# Krobus allowed me to visit on the 10th and the 24th of every month under guise of darkness.$12#$b# I believe this will be a good chance for me to have ample evidence for the Ministry to rush my retirement paperwork.$13#$b# It's like, three birds with one stone!$15#$b# We'll learn more about the shadow people, maybe we'll also be closer to healing the valley.$10#$b# Thank you again, @, could we hold hands on the way home?$13",
+
+    ////lance 13 heart elemental war scars, camilla's tutelage, Lance' tutelage, lance's gift
+    "Lance.13Heart.01": "@!$49#$b#I just felt a shudder from deep within the mines, I was preparing myself to go.$48",
+    "Lance.13Heart.02": "I explain to Lance that I helped Krobus with a ritual to cleanse all of the Shadowpeople.",
+    "Lance.13Heart.03": "A... ritual?$31#$b#But that shutter felt far too strange for something like that.$54",
+    "Lance.13Heart.04": "I go into further detail of all the necessary parts used to conduct the ritual.",
+    "Lance.13Heart.05": "...Fascinating!$42#$b#Apologies, let me calm myself.$9",
+    "Lance.13Heart.06": "Lance breathes deeply to himself as I see his magic slowly calm itself.",
+    //"Lance.13Heart.06": "",
+    "Lance.13Heart.07": "Could I go with you to visit Krobus?$16#$b#I would like to see the Shadowpeople myself, but I have a feeling they might not take well to me alone.$3",
+    "Lance.13Heart.08": "I agree and we begin the walk to the sewers.",
+    "Lance.13Heart.09": "@! Lance! So nice of you to visit me!$h",
+    "Lance.13Heart.10": "Krobus! @ and I came by because @ told me about the ritual you had with the Shadowpeople.$12#$b#If you don't mind, could you also tell me what happened?$4",
+    "Lance.13Heart.11": "Lance and Krobus talked about the intricacies of the ritual, how it cleansed the Shadowpeople of the curse, and that the Shadowpeople are no longer aggressive.",
+    "Lance.13Heart.12": "It's getting late...",
+    "Lance.13Heart.13": "We can talk the further intricacies on other days, Krobus, you've given me much to study and I fear that @ is starting to fall asleep.$10",
+    "Lance.13Heart.14": "Shall we head home, my love?$13",
+    //pt 2
+    "Lance.13Heart.15": "@! Where is Lance?!$3#$b$I can't believe he would try to hide something like this!$7",
+    "Lance.13Heart.16": "Ah~ @~ Before you leave for the day--$8#$b#!!!$14",
+    "Lance.13Heart.17": "You have a lot of explaining to do!$3#$b#How could you ask the Ministry for a soul bonding registration without even consulting @?!$7",
+    "Lance.13Heart.18": "I was just about to talk to @ about it... $6#$b#How did you find out, Camilla?$3",
+    "Lance.13Heart.19": "Well OF COURSE as your guardian, the Ministry called me to 'CONGRATULATE' me on my successful child!$7",
+    "Lance.13Heart.20": "I'm sorry, I didn't even think of consulting with @ first, I was just so enraptured by the shock of the changes in the valley...$64",
+    "Lance.13Heart.21": "I had wanted to interrupt your day...$37#$b#Camilla spoiled most of the surprise, but it is true.$36#$b#I wanted to bring it up with you today about a soul bonding ritual.$37#$b#Magnus can explain it better than I could, will you hear me out?$36",
+    "Lance.13Heart.22": "I outstretched my hand and took hold of Lance's.",
+    "Lance.13Heart.23": "Thank you, my love.$40#$b#Camilla? Shall we all go together?$36",
+    "Lance.13Heart.24": "...This does not absolve you.$3",
+    "Lance.13Heart.25": "*Chuckles*",
+    "Lance.13Heart.26": "I understand, 'Mother'.$37",
+    //pt3 RRRR NOT INSTALLED
+    "Lance.13Heart.27": "RAZZY WE'RE HERE FOR GUIDANCE!",
+    "Lance.13Heart.28": "...Camilla? Why are you raising your voice...",
+    "Lance.13Heart.29": "Ah, Lance! ...@? ...Camilla?$5#$b#What's all this ruckus for?$4",
+    "Lance.13Heart.30": "Our Lancey didn't make it an important part of consulting with his own significant other about something as life-changing as a soul bond!$7#$b#But I assume you already knew that since you're a higher chair.$3",
+    "Lance.13Heart.31": "*Ahem*",
+    "Lance.13Heart.32": "Well, yes, Lance wanted to keep it a secret, something to surprise @.$3",
+    "Lance.13Heart.33": "This is not something you keep secret, Razzy!$7",
+    "Lance.13Heart.34": "Well now that we're all here, Magnus, can you give @ an explanation of a soul bond...$37#$b#I've put myself in quite a predicament...$36",
+    "Lance.13Heart.35": "Ah... I see... It has slipped both of our minds since it was quite an endeavor and I had assumed @ would agree without a doubt...$5#$b#*Ahem* I'll be precise, a soul bond is to intertwine your magic with another's, to share your lifespan with one whom you choose.#$b#Since you've both decided to marry, Lance had come to me with this proposition since you, @, are now magically inclined.",
+    "Lance.13Heart.36": "*Chuckles*#$b#Yes, well, your accolades in the valley have sent shockwaves through the fate lines.#$b#From the successful creation of your Nexus, to the cursebroken Shadowpeople, to say that you do not feel your own magic intensity is a shame.#$b#You have been densely intertwined with magic since coming to Pelican Town.",
+    "Lance.13Heart.37": "Since you're both so magically dense, a soul bond shouldn't affect Lance's lifespan as we initially thought.#$b#It is questionable whether or not he will actually have to use up his lifespan to supply yours.#$b#But Lance wanted to have this soul bond with you because that is the depth of his affections for you.",
+    "Lance.13Heart.38": "Ah! Mag! I--$42#$b#To so quickly throw me under the bus...$37#$b#Magnus is correct, after learning of what happened to the Shadowpeople, I felt a want to be bonded with you for the eternity given to us.$36#$b#I truly love you, @, and I wanted to be there for you in more ways than before.$43#$b#This soul bond would let me share a connection with you, whether you were to be injured, lost, or sick.$37#$b#There is the obvious two way street, but I am confident in my own abilities.$9#$b#Further research shows that we would also be able to supplement each other with mana, whether we need to or not.$37#$b#I know that I'm busy more often than not, but I still wish to aid you in your farmwork.$43#$b#So what do you say, @?$36",
+    "Lance.13Heart.39": "I thought about it for some time.#Lance's loyalty and love shows through every action he does.#I nod my head in agreement.",
+    "Lance.13Heart.40": "!!!$42#$b#Y-you...$44#$b#I was sort of worried for a moment...$8#$b#I love you, @.$43#$b#Well you've heard @, Mag!$15#$b#Operation: Soul Bond is a go!${{e38}}",
+    "Lance.13Heart.41": "Lance is extremely excited and I feel his excitement through my own heart beats. #Another new life-changing event... I can't wait!",
+    "Lance.13Heart.42": "Preparations are underway, I have to consult more with the Ministry, get some aid from a blacksmith, and other things--oh I can't wait, @!$15",
+    //pt4
+    "Lance.13Heart.43": "@! Before you start your day, I have some exciting news!$15",
+    "Lance.13Heart.44": "The first half of the ritual is done, I wanted to start the process today, shall we go to the ritual place together?$10",
+    "Lance.13Heart.45": "I placed my hand in Lance's as he readied a warp spell.",
+    "Lance.13Heart.46": "The ritual circle is over on the edge of the beach, shall we?$32",
+    "Lance.13Heart.47": "The first half is my vow.$43#$b#My pledge to you.$8",
+    "Lance.13Heart.48": "The verses are kind of embarrassing...$37#$b#A moment of weakness is worth the lifetime I can spend with you, @.$36",
+    "Lance.13Heart.49": "Lance seems to breathe out his anxieties as he readies himself.",
+    "Lance.13Heart.50": "I, Lancelot, vow upon my creed, my pride, my principles, and my lifeblood to bring about this bond.$9#$b#I bind my name to my magic, my soul, my life.$36#$b#I give my name to @, my soulmate, my love.$41#$b#I ask the spirits around to bless this vow.$8",
+    "Lance.13Heart.51": "If you could do the honors of placing my other earring on.$41",
+    "Lance.13Heart.52": "I pierced the gold and turquoise earring into his right ear.",
+    "Lance.13Heart.53": "...With that, my vow is sealed.$41",
+    "Lance.13Heart.54": "I can feel a wave of magic coming off of Lance.",
+    "Lance.13Heart.55": "The final part isn't ready yet, but I'll let you know when.$8#$b#...The surge of magic coming from you is making me... want to be with you.$64#$b#Shall we... head home?$69",
+    "Lance.13Heart.56": "As I took Lance's hand, he warped us back home.",
+    "Lance.13Heart.57": "My vow has made me acutely aware of everything that you are.$67#$b#Please, indulge your husband for a little while.$8",
+    //SPICY BREAKS HABANERO
+    "Lance.13Heart.habanero.1": "Your skin makes every part of my body feel like it's on fire.$41#$b#I can't wait for a taste.$43",
+    "Lance.13Heart.habanero.2": "Lance and I indulged in our love together, what a magical night!",
+    //SPICY BREAKS CAROLINA REAPER
+    "Lance.13Heart.carolina.1": "I can't wait to sink my teeth deep into you, @.$41#$b#The way that you're looking at me makes me want to devour you whole.$43#$b#Maybe a lick?$45",
+    "Lance.13Heart.carolina.2": "Lance starts to lick like he's possessed, I scream out his name.",
+    "Lance.13Heart.carolina.3": "More.$43#$b#Scream my name until your voice runs hoarse.$41",
+    "Lance.13Heart.carolina.4": "I can feel his fingers tickling my deepest parts as I grab his hair and pull him in for a kiss.",
+    "Lance.13Heart.carolina.5": "!!$42#$b#I best not let up on my work.$43",
+    "Lance.13Heart.carolina.6": "As he caresses my body, I can feel him lining himself up to enter me.",
+    "Lance.13Heart.carolina.7": "This might be... extremely different from our previous ministrations.$43#$b#Don't be afraid, I'm right here.$39",
+    "Lance.13Heart.carolina.8": "!!!#Right as he enters it feels like shockwaves rushing through my entire body.#I scream out.#\"Lance!\"",
+    "Lance.13Heart.carolina.9": "*Chuckles*$9#$b#Yes, @?$43",
+    "Lance.13Heart.carolina.10": "I can't help myself as I scream his name over and over again.#It feels like hours pass as we go for several rounds.#Lance places a kiss on my forehead at the end.",
+    "Lance.13Heart.carolina.11": "@, my love, my soul, my fire.$41#$b#I can feel how much you love me through this vow, and I can't wait to show you how it feels to love you back.$35",
+    "Lance.13Heart.carolina.12": "I love you more than anyone, Lance.",
+    "Lance.13Heart.carolina.13": "*Chuckles*$9#$b#I know.$41",
+    "Lance.13Heart.carolina.14": "We fall asleep in the afterglow, what a night!",
+    //SPICY BREAKS PEPPER X
+    "Lance.13Heart.pepper.1": "",
+
+
+    ////Lance 14 Heart a soul bonding, in sickness and in health, forsaking all others, to love and to cherish, until death do us part ////////////////////////////need to fix typos
+    //"Lance.14Hearts.01": "",
+    "Lance.14Hearts.chuckle": "*Chuckles*",
+    "Lance.14Hearts.01": "My love!$99#$b#The ritual is ready!$15",
+    "Lance.14Hearts.02": "If I could have you for the rest of the night, I'll meet you at the summit at 6PM.$97",
+    "Lance.14Hearts.03": "Remember! The Summit! 6PM sharp! $15",
+    "Lance.14Hearts.Pt2.01": "Pelican Town is filled with magic.$8#$b#Evident in your Nexus.$41#$b#Magnus' careful hands.$8#$b#The lush greenery.$41",
+    "Lance.14Hearts.Pt2.02": "As we finalize our soul bond, I'm left with nostalgia and wanting.$8#$b#To be able to have someone like you.$14#$b#By my side...$8#$b#Accepting a soul bond to see the edge of eternity with someone like me...?$9#$b#It's quite strange.$41",
+    "Lance.14Hearts.Pt2.03": "I never thought I would offer an 'eternity' to anyone.$8#$b#Plenty of flings, but no one ever bothered to see who 'I' am.$9",
+    "Lance.14Hearts.Pt2.04": "I appreciate your love and care.$8#$b#I intend to reciprocate that feeling for the times that you feel like you cannot go on.$41",
+    "Lance.14Hearts.Pt2.05": "I have started the ritual, the actual seal is inside of your Nexus.$40#$b#I needed to gather magic throughout the town for something like this.$41#$b#Shall we?$43",
+    "Lance.14Hearts.Pt2.06": "*I took Lance's hand.*",
+    //pt3
+    "Lance.14Hearts.Pt3.01": "*We took a quick stop to honor the graves.*",
+    "Lance.14Hearts.Pt3.02": "Y'know...$37#$b#Sometimes I wonder in other timelines if I'm just like one of them... A short lived dream, snuffed out before my time.$36",
+    "Lance.14Hearts.Pt3.03": "I know... I know...$9#$b#My morbid humour isn't something to be marvelled at while we're going down this path to be bonded through our souls...$37#$b#I wonder if some of them are jealous of me...?$36#$b#My other 'selves' I mean...$37#$b#When they peer into my power, will they feel envious of my world?$36#$b#Would they... attempt to join me?$37",
+    "Lance.14Hearts.Pt3.04": "It's something particularly special to the magic that I use, it's parallel to Magnus' magic.$37#$b#When we... perish...$36#$b#Our soul in that timeline chooses to either fizzle out or join with a different time.$37#$b#It's the reason why...$36",
+    "Lance.14Hearts.Pt3.05": "*Sigh*",
+    "Lance.14Hearts.Pt3.06": "It's the reason why several practioners harm themselves.$37",
+    "Lance.14Hearts.Pt3.07": "I apologize, I did not mean to put a damper on our journey.$36",
+    "Lance.14Hearts.Pt3.08": "*I grabbed Lance's hand.*#Do their experiences affect you?",
+    "Lance.14Hearts.Pt3.09": "Thankfully, no.$8#$b#It's kind of like getting a new braincell?$44#$b#Does that even make sense?$8#$b#Like a silent backseat driver.$9",
+    "Lance.14Hearts.Pt3.10": "But enough of the morbid talk, we continue our journey.$36",
+    "Lance.14Hearts.Pt3.11": "Shall we?$41",
+    //pt4
+    "Lance.14Hearts.Pt4.01": "As I feel the rush of mana reaching it's peak, the only thing I can feel the warmth from is you.$41#$b#Strange, isn't it?$8#$b#This entire valley is filled to the brim with magic but it feels extremely... cold.$9#$b#If that makes any sense.$37",
+    "Lance.14Hearts.Pt4.02": "Does mana exude it's own temperature?",
+    "Lance.14Hearts.Pt4.03": "No I'm just...$9#$b#I guess I'm strange.$8#$b#Magnus always told me that I was too finely-tuned to mana.$37",
+    "Lance.14Hearts.Pt4.04": "What do you mean by that?",
+    "Lance.14Hearts.Pt4.05": "Hmmm...$36#$b#How can I describe the feeling of touching a fire to someone who has never known heat?$34#$b#You can't exactly call it 'burning' because they wouldn't understand what that meant, right?$8#$b#Like how someone without synesthesia cannot comprehend it.$9#$b#You can kind of imagine it like a heat-sensor.$35#$b#You can tell the hottest parts of something by looking at a screen, but if you cannot 'comprehend' heat, it doesn't quite make sense.$34#$b#Mana is like seeing those reflections of color being pushed around by everything.$8",
+    "Lance.14Hearts.Pt4.06": "Is that sensation overwhelming?",
+    "Lance.14Hearts.Pt4.07": "Hmm, I wouldn't call it 'overwhelming', but then again, I was born with it.$8#$b#Like being born blind, your other senses are heightened because of a loss of one.$9#$b#Except it's more like all of my other senses are dulled.$8#$b#This surging mana within me is only quelled by your presence.$41",
+    "Lance.14Hearts.Pt4.08": "I... calm you?#That's... embarrassing to say out loud!",
+    "Lance.14Hearts.Pt4.09": "Me? Embarrassing!$99#$b#Who was it that slammed their head on the desk during Magnus' lecture the other day?$15#$b#Might I remind you, I've had to deal with him for a good century!$99",
+    "Lance.14Hearts.Pt4.10": "We laughed together for awhile.",
+    "Lance.14Hearts.Pt4.11": "You...$8#$b#*Sigh*$9#$b#You really make me realize every moment we're together just how deeply I've fallen for you.$41",
+    "Lance.14Hearts.Pt4.12": "It's nothing to be embarrassed about...$97#$b#Seeing you so flushed is making me react too...$8#$b#Really... @, you make every waking moment spent together feel like bliss.$97",
+    "Lance.14Hearts.Pt4.13": "You're incorrigable!!",
+    "Lance.14Hearts.Pt4.14": "Oh? And you aren't?$99#$b#Might I remind you once again who it was that slayed swarms of monsters, aided Marlon in fixing his boat, all to see this 'incorrigable' fellow stowed away in an outpost in the mountains?!$97#$b#You're one to speak!$99",
+    "Lance.14Hearts.Pt4.15": "*I felt like a little kid in Lance's presence.*#*A warm comfort.*",
+    "Lance.14Hearts.Pt4.16": "*I leaned in closer to feel his warmth and bask in the comfort that this man will be soul bounded to me.*",
+    "Lance.14Hearts.Pt4.17": "Oh? Do you wish to be spoiled now?$41#$b#After such a rousing and embarrassing statement, it's got you clinging to me?$32",
+    "Lance.14Hearts.Pt4.18": "*I struck Lance's arm.*",
+    "Lance.14Hearts.Pt4.19": "AH!$42#$b#Should I be happy that you're not a magic prodigy?!$15#$b#That hit had magic in it you little hellion!$97",
+    "Lance.14Hearts.Pt4.20": "I guess I can't help myself with you.#You're intoxicating.",
+    "Lance.14Hearts.Pt4.21": "Ah..$99#$b#I..$42#$b#You're teetering a dangerous line.$43#$b#We're not even halfway done with the ritual.${{e38}}",
+    "Lance.14Hearts.Pt4.22": "*I giggle as I lean in closer and reach for a kiss.*",
+    "Lance.14Hearts.Pt4.23": "...Ah$39#$b#Truly, amazingly, beautifully dangerous.$43#$b#I'll need to rush this ritual, won't I?$97",
+    //pt5 because i'm dumb and didn't separate anything out "Lance.14Hearts.Pt5.01": "",
+    "Lance.14Hearts.Pt5.01": "Well, here we are.$8#$b#The final leg of the race.$41#$b#The place where your mana is the most densely suffused.$9",
+    "Lance.14Hearts.Pt5.02": "Are you alright?",
+    "Lance.14Hearts.Pt5.03": "I'm quite fine...$33#$b#It does feel like I'm being weighed down by several hundred pounds though.$9",
+    "Lance.14Hearts.Pt5.04": "Will you, sit with me?$36#$b#I don't think I can bear standing up right now.$8",
+    "Lance.14Hearts.Pt5.05": "*I immediately knelt down in front of Lance.*",
+    "Lance.14Hearts.Pt5.06": "Ah...${{e38}}#$b#As beautiful as ever, even against the haze of magic you outshine it's glow.$43",
+    "Lance.14Hearts.Pt5.07": "*Lance breathes in and out slowly.*",
+    "Lance.14Hearts.Pt5.08": "You're not going to quite enjoy this, but it's the embarrassing vow.$8#$b#I'm going to need you to repeat after me.$43",
+    "Lance.14Hearts.Pt5.09": "*I nod as I hold his hand.*",
+    "Lance.14Hearts.Pt5.10": "Ready?$43",
+    "Lance.14Hearts.Pt5.11": "I vow upon my creed, my pride, my principles, and my lifeblood to bring about this bond.$9",
+    "Lance.14Hearts.Pt5.12": "I vow upon my creed, my pride, my principles, and my lifeblood to bring about this bond.",
+    "Lance.14Hearts.Pt5.13": "I bind my name to my magic, my soul, my life.$9",
+    "Lance.14Hearts.Pt5.14": "I bind my name to my magic, my soul, my life.",
+    "Lance.14Hearts.Pt5.15": "I give my name to Lance, my soulmate, my love.$41",
+    "Lance.14Hearts.Pt5.16": "I give my name to Lance, my soulmate, my heart.",
+    "Lance.14Hearts.Pt5.17": "...!!$99#$b#I ask the spirits around to bless this vow.$8",
+    "Lance.14Hearts.Pt5.18": "I ask the spirits around to bless this vow.",
+    "Lance.14Hearts.Pt5.19": "Now, if you'll pardon me.$8",
+    "Lance.14Hearts.Pt5.20": "*Lance pulls out a pair of earrings and he pierces my ears.*#*It stings slightly, but it is immediately warmed up by magic.",
+    "Lance.14Hearts.Pt5.21": "They look...$42#$b#Beautiful...$42#$b#On you...$97",
+    "Lance.14Hearts.Pt5.22": "*I feel a shudder of magic as the ritual is completed.*",
+    "Lance.14Hearts.Pt5.23": "Haah.. $8#$b#Feel that rush?$43#$b#It's your magic intertwining with mine.$97#$b#I don't think I can hold out for much longer.$8",
+    "Lance.14Hearts.Pt5.24": "*I grab Lance.*",
+    "Lance.14Hearts.Pt5.25": "Thank you, my love, I will warp us back home.$97",
+    "Lance.14Hearts.Pt5.26": "*Lance warps us to the front door.*#*We head in for the night.*",
+    //bell pepper end
+    ///SPICYTIME "Lance.14Hearts.pepper.1": "",
+    "Lance.14Hearts.pepper.1": "By not holding out, I meant that you're intoxicating me.$97",
+    "Lance.14Hearts.pepper.2": "I cannot hold myself back any longer.$97",
+    "Lance.14Hearts.pepper.3": "Lance...",
+    "Lance.14Hearts.pepper.4": "Yes, my love?$8",
+    "Lance.14Hearts.pepper.5": "*Right as he says that, he touches my skin with magic.*#Ah! That's not fair!",
+    "Lance.14Hearts.pepper.6": "*Chuckles*$8#$b#Are you ever fair to me?$97#$b#Come here, I'll indulge my wanton love.$43",
+
+    //closer
+    "Lance.14Hearts.spicecloser.1": "*We indulged into the early hours of the morning, this soul bond definitely makes me feel different.*#I'm glad you're here with me.",
+    "Lance.14Hearts.spicecloser.2": "*Chuckles*$8#$b#I feel like I'm the happiest man in the world.$97#$b#I love you, @.$102",
+    "Lance.14Hearts.spicecloser.3": "I love you too, Lance!",
+    //habanero break
+    "Lance.14Hearts.pepper.7": "*I was lifted up into Lance's lap while he walked to our bed.*#*He skillfully stripped me as he placed me gingerly on the bed.*",
+    "Lance.14Hearts.pepper.8": "I have to say, I never tire of looking at you.$97",
+    "Lance.14Hearts.pepper.9": "!!!#*Lance begins kissing my skin like he's worshipping me.*#*It makes my head swim as he drowns me in magic.*",
+    "Lance.14Hearts.pepper.10": "You...$97#$b#Are...$41#$b#Addicting...$97",
+    "Lance.14Hearts.pepper.11": "*Between each word he thrusts as I scream out his name.*#Lance...",
+    "Lance.14Hearts.pepper.12": "Yes... my... love...?$97",
+    "Lance.14Hearts.pepper.13": "*Our breathing is ragged as we indulge in each other and come to a crescendo.*",
+    //carolina break
+    "Lance.14Hearts.pepper.14": "Oh I'm not done with you yet.$97",
+    "Lance.14Hearts.pepper.15": "!!!#*Lance grabbed my legs as I was attempting to shuffle away.*",
+    "Lance.14Hearts.pepper.16": "We've got a whole night ahead of us, my beautiful soulmate.$97",
+    "Lance.14Hearts.pepper.17": "*He kissed my legs as he raised them to rest on his shoulders.*",
+    "Lance.14Hearts.pepper.18": "Can you keep up?$97",
+    "Lance.14Hearts.pepper.19": "*I squeezed his head inbetween my legs.*#I don't know, can you?",
+    "Lance.14Hearts.pepper.20": "You'll regret doing that.$41",
+
+
+    //////// qi event??????????
+    "Qievent.1": "", //found you
+    "Qievent.2": "", //i hear the sound of a warp, my consciousness is fading # lance......
+    "Qievent.3": "", //it's dark
+    "Qievent.4": "", //my arms are bound
+    "Qievent.5": "", //chair rattling
+
+
+    ////Post BDay Wear Earrings
+    "WearEarring.01": "Your magic has definitely refined itself.$97#$b#Wearing those makes me want you even at this moment.$8#$b#Please have mercy on your husband.$97", //addMailReceived wearEarrings
+
+    ////PLAYER DEATH SCOLDING
+    "LanceRelationship.Deathq": "Lance looks visibly distraught...#....Are you angry? #...Sorry... #....Thanks for saving me.... #It won't happen again.",
+    "LanceRelationship.Death1": "I'm...$81#$b#I'm not angry.$64#$b#Uncomfortable, worried, anxious, a few other words that escape me right now... That is how I feel.$77",
+    "LanceRelationship.Death2": "For now, I'll accept your apology.$64#$b#I just wish you would take better care of yourself.$77",
+    "LanceRelationship.Death3": "Of course... of course... What kind of mage would I be if I couldn't even protect the one I love...?$64",
+    "LanceRelationship.Death4": "It's not about it 'not happening again' since I know you're an adventurer...$81#$b#I just hope you'll take better care of yourself.$77",
+    "LanceRelationship.Death5": "When you collapsed, I felt my soul shake and it scared me.$64#$b#I thought... I thought something extremely horrible had happened to you.$81#$b#I panicked and caused trouble for Magnus since I was working with him on something.$83#$b#I can only imagine hearing him lecture me for this later, considering I warped without a word.$81#$b#Just rest for now, you're not in any condition to move around.$83",
+    "LanceRelationship.Death6": "As I closed my eyes, I could hear Lance going back to paperwork on his desk as he lets out sighs.#I should really be more careful...",
+    "Lance.Passout.ConversationTopic": "You're up already?$82#$b#Be sure to at least be more prepared for the future.$83#$b#Here, I always have some spare potions.[773]$64#$b#And take this, at least in a pinch I know that you'll be able to make it home.[688]$64#$b#I... I love you, @, and I just want to make sure that we can spend as much time together as possible.$77",
+    "Lance_PassOut": "I leave this letter in our mailbox to remind you to take care of yourself in your adventures, my love. Please make sure to stay safe out there.",
+
+
+    //////////////////////////////////////////////////////////////////////
+    //DATES
+
+    //pelican mines
+    "Pelican.intro": "doot doot",
+    "Pelican.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Pelican.yes": "nyoot nyoot",
+    "Pelican.no": "oh no",
+    "Pelican.intro1": "doot doot",
+    "Pelican.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Pelican.yes1": "nyoot nyoot",
+    "Pelican.no1": "oh no",
+    "Pelican.intro2": "doot doot",
+    "Pelican.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Pelican.yes2": "nyoot nyoot",
+    "Pelican.no2": "oh no",
+    //camping
+    "Camping.intro": "doot doot",
+    "Camping.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Camping.yes": "nyoot nyoot",
+    "Camping.no": "oh no",
+    "Camping.intro1": "doot doot",
+    "Camping.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Camping.yes1": "nyoot nyoot",
+    "Camping.no1": "oh no",
+    "Camping.intro2": "doot doot",
+    "Camping.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Camping.yes2": "nyoot nyoot",
+    "Camping.no2": "oh no",
+    //potion mishaps
+    "Mishaps.intro": "doot doot",
+    "Mishaps.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Mishaps.yes": "nyoot nyoot",
+    "Mishaps.no": "oh no",
+    "Mishaps.intro1": "doot doot",
+    "Mishaps.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Mishaps.yes1": "nyoot nyoot",
+    "Mishaps.no1": "oh no",
+    "Mishaps.intro2": "doot doot",
+    "Mishaps.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Mishaps.yes2": "nyoot nyoot",
+    "Mishaps.no2": "oh no",
+    //grandpa's rememberance
+    "GrandpaR.intro": "doot doot",
+    "GrandpaR.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "GrandpaR.yes": "nyoot nyoot",
+    "GrandpaR.no": "oh no",
+    "GrandpaR.intro1": "doot doot",
+    "GrandpaR.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "GrandpaR.yes1": "nyoot nyoot",
+    "GrandpaR.no1": "oh no",
+    "GrandpaR.intro2": "doot doot",
+    "GrandpaR.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "GrandpaR.yes2": "nyoot nyoot",
+    "GrandpaR.no2": "oh no",
+    //shenanigans
+    "Shenanigans.intro": "doot doot",
+    "Shenanigans.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Shenanigans.yes": "nyoot nyoot",
+    "Shenanigans.no": "oh no",
+    "Shenanigans.intro1": "doot doot",
+    "Shenanigans.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Shenanigans.yes1": "nyoot nyoot",
+    "Shenanigans.no1": "oh no",
+    "Shenanigans.intro2": "doot doot",
+    "Shenanigans.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Shenanigans.yes2": "nyoot nyoot",
+    "Shenanigans.no2": "oh no",
+    //hair raising tension
+    "Rope.intro": "doot doot",
+    "Rope.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Rope.yes": "nyoot nyoot",
+    "Rope.no": "oh no",
+    "Rope.intro1": "doot doot",
+    "Rope.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Rope.yes1": "nyoot nyoot",
+    "Rope.no1": "oh no",
+    "Rope.intro2": "doot doot",
+    "Rope.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Rope.yes2": "nyoot nyoot",
+    "Rope.no2": "oh no",
+    //spore seed
+    "Hensbane.intro": "doot doot",
+    "Hensbane.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Hensbane.yes": "nyoot nyoot",
+    "Hensbane.no": "oh no",
+    "Hensbane.intro1": "doot doot",
+    "Hensbane.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Hensbane.yes1": "nyoot nyoot",
+    "Hensbane.no1": "oh no",
+    "Hensbane.intro2": "doot doot",
+    "Hensbane.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Hensbane.yes2": "nyoot nyoot",
+    "Hensbane.no2": "oh no"
+}

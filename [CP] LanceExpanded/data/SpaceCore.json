@@ -1,0 +1,213 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Khanjar": {
+                    "Name": "Lance's Spare Khanjar",
+                    "DisplayName": "{{i18n:Lance.MonsterHunting}}",
+                    "Description": "{{i18n:Lance.MonsterHunting.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\Khanjar",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Book": {
+                    "Name": "Grandpa's Diary",
+                    "DisplayName": "{{i18n:Lance.GDiary}}",
+                    "Description": "{{i18n:Lance.GDiary.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\Book",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_blue",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_camping": {
+                    "Name": "A Weird Frying Pan",
+                    "DisplayName": "{{i18n:Lance.camping}}",
+                    "Description": "{{i18n:Lance.camping.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\camping",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_black",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_mishaps": {
+                    "Name": "A Strange Potion",
+                    "DisplayName": "{{i18n:Lance.mishaps}}",
+                    "Description": "{{i18n:Lance.mishaps.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\mishaps",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Rope": {
+                    "Name": "Red Cotton Rope",
+                    "DisplayName": "{{i18n:Lance.rope}}",
+                    "Description": "{{i18n:Lance.rope.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\Rope",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_shenanigans": {
+                    "Name": "An Even Stranger Potion",
+                    "DisplayName": "{{i18n:Lance.shenanigans}}",
+                    "Description": "{{i18n:Lance.shenanigans.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\shenanigans",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_green",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Razor": {
+                    "Name": "Lance's Razor",
+                    "DisplayName": "{{i18n:Lance.Razor}}",
+                    "Description": "{{i18n:Lance.Razor.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\Razor",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_black",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Book, Mods/{{ModId}}/Khanjar, Mods/{{ModId}}/camping, Mods/{{ModId}}/mishaps, Mods/{{ModId}}/Rope, Mods/{{ModId}}/shenanigans, Mods/{{ModId}}/razor",
+            "FromFile": "assets/Misc/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Lance's Spare Khanjar": "337 1 388 1//{{ModId}}_Khanjar/false/none/{{i18n:Lance.MonsterHunting}}",
+                "Grandpa's Diary": "428 1 771 20//{{ModId}}_Book/false/none/{{i18n:Lance.GDiary}}",
+                "A Weird Frying Pan": "335 5//{{ModId}}_camping/false/none/{{i18n:Lance.camping}}",
+                "A Strange Potion": "432 1 537 1 685 1 725 1 766 1 Moss 1//{{ModId}}_mishaps/false/none/{{i18n:Lance.mishaps}}",
+                "Red Cotton Rope": "440 5 685 10//{{ModId}}_Rope/false/none/{{i18n:Lance.rope}}",
+                "An Even Stranger Potion": "724 1 749 1 768 1 834 1 909 1 MysticSyrup 1//{{ModId}}_shenanigans/false/none/{{i18n:Lance.shenanigans}}",
+                "Lance's Razor": "335 5//{{ModId}}_Razor/false/none/{{i18n:Lance.Razor}}"
+            }
+        }
+        /*
+    So just `$action spacechase0.SpaceCore_PlayEvent myeventid` in your dialogue (though where you put it I don't know, I haven't done it before)
+    */
+    ]
+}

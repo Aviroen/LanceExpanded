@@ -1,0 +1,380 @@
+{
+    "Changes": [
+        ///loading assets into scene
+        { //Load Crab2
+            "LogName": "Date: Load Attendees",
+            "Action": "Load",
+            "Target": "Characters/FirstSlashATTEND",
+            "FromFile": "assets/Characters/FirstSlashATTEND.png",
+        },
+
+        { //well here we go female spotted
+            "LogName": "New Beach Cutscene",
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+            "When": {
+                "PlayerGender": "Female",
+            },
+            "TargetField": [
+                "EventScript",
+            ],
+
+            "Entries": {
+                "default": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.FCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried",
+            },
+        },
+        { //well here we go male spotted
+            "LogName": "New Beach Cutscene",
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+            "When": {
+                "PlayerGender": "Male",
+            },
+            "TargetField": [
+                "EventScript",
+            ],
+
+            "Entries": {
+                "default": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.MCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried",
+            },
+        },
+
+        //////////just married event
+        {
+            "LogName": "Just Married: Camilla's Comfort",
+            "Action": "EditData",
+            "Target": "Data/Events/temp",
+            "Entries": {
+                "LE.JustMarried": "pause 900/globalFadeToClear/playmusic sweet/warp farmer 19 35/facedirection farmer 3/warp Lance 24 39/facedirection Lance 1/warp Camilla 19 34/facedirection Camilla 3/warp Alesia 25 39/facedirection Alesia 3/warp MarlonFay 25 40/facedirection MarlonFay 3/viewport player clamp true/pause 300/emote Camilla 40/pause 200/shake Lance 100/emote Lance 32/emote MarlonFay 28/emote Alesia 12/pause 300/shake Camilla 100/speak Camilla \"{{i18n:Afterparty.01}}\"/jump farmer 6/faceDirection farmer 0/pause 500/shake Camilla 5500/pause 300/message \"{{i18n:Afterparty.02}}\"/pause 500/faceDirection Camilla 2/pause 300/speak Camilla \"{{i18n:Afterparty.03}}\"/shake Camilla 5500/pause 300/speak Camilla \"{{i18n:Afterparty.04}}\"/positionOffset Camilla 0 1 true/positionOffset Camilla 0 1 true/message \"{{i18n:Afterparty.05}}\"/pause 500/speak Camilla \"{{i18n:Afterparty.06}}\"/startJittering/message \"{{i18n:Afterparty.07}}\"/shake Camilla 5500/pause 500/speak Camilla \"{{i18n:Afterparty.08}}\"/pause 300/pause 300/message \"{{i18n:Afterparty.09}}\"/pause 300/shake Camilla 5500/speak Camilla \"{{i18n:Afterparty.10}}\"/pause 500/message \"{{i18n:Afterparty.11}}\"/pause 300/speak Camilla \"{{i18n:Afterparty.12}}\"/shake Camilla 5500/message \"{{i18n:Afterparty.13}}\"/pause 300/speak Camilla \"{{i18n:Afterparty.14}}\"/pause 500/shake Camilla 5500/message \"{{i18n:Afterparty.15}}\"/stopJittering/end",
+            },
+        },
+
+        {
+            "LogName": "Beach Attendees",
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+            "TargetField": [
+                "Attendees",
+            ],
+            "Entries": {
+                "Camilla": {
+                    "Id": "Camilla",
+                    "Condition": null,
+                    "Setup": "Camilla 44 57 0",
+                    "Celebration": "faceDirection Camilla 1 true/faceDirection Camilla 2 true/faceDirection Camilla 3 true/faceDirection Camilla 0 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Andy": {
+                    "Id": "Andy",
+                    "Condition": null,
+                    "Setup": "Andy 36 48 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Claire": {
+                    "Id": "Claire",
+                    "Condition": null,
+                    "Setup": "Claire 49 45 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Martin": {
+                    "Id": "Martin",
+                    "Condition": null,
+                    "Setup": "Martin 38 45 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "MarlonFay": {
+                    "Id": "MarlonFay",
+                    "Condition": null,
+                    "Setup": "MarlonFay 51 42 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Alesia": {
+                    "Id": "Alesia",
+                    "Condition": null,
+                    "Setup": "Alesia 53 42 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Jolyne": {
+                    "Id": "Jolyne",
+                    "Condition": null,
+                    "Setup": "Jolyne 46 53 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Krobus": {
+                    "Id": "Krobus",
+                    "Condition": null,
+                    "Setup": "Krobus 54 41 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Leo": {
+                    "Id": "Leo",
+                    "Condition": null,
+                    "Setup": "Leo 55 41 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Wizard": {
+                    "Id": "Wizard",
+                    "Condition": null,
+                    "Setup": "Wizard 47 53 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Olivia": {
+                    "Id": "Olivia",
+                    "Condition": null,
+                    "Setup": "Olivia 56 38 1",
+                    "Celebration": "faceDirection Olivia 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Victor": {
+                    "Id": "Victor",
+                    "Condition": null,
+                    "Setup": "Victor 56 37 1",
+                    "Celebration": "faceDirection Victor 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Willy": {
+                    "Id": "Willy",
+                    "Condition": null,
+                    "Setup": "Willy 36 39 2",
+                    "Celebration": "faceDirection Willy 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Sophia": {
+                    "Id": "Sophia",
+                    "Condition": null,
+                    "Setup": "Sophia 34 46 2",
+                    "Celebration": "faceDirection Sophia 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Scarlett": {
+                    "Id": "Scarlett",
+                    "Condition": null,
+                    "Setup": "Scarlett 35 46 2",
+                    "Celebration": "faceDirection Scarlett 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Susan": {
+                    "Id": "Susan",
+                    "Condition": null,
+                    "Setup": "Susan 34 45 2",
+                    "Celebration": "faceDirection Susan 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Marnie": {
+                    "Id": "Marnie",
+                    "Condition": null,
+                    "Setup": "Marnie 40 56 1",
+                    "Celebration": "temporaryAnimatedSprite LooseSprites\\Cursors 558 1425 20 26 400 3 99999 26 64 false false 65 0 1 0 0 0 ping_pong/warp Marnie -2000 -2000",
+                    "IgnoreUnlockConditions": false
+                },
+                "Caroline": {
+                    "Id": "Caroline",
+                    "Condition": null,
+                    "Setup": "Caroline 40 50 2",
+                    "Celebration": "faceDirection Caroline 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Pierre": {
+                    "Id": "Pierre",
+                    "Condition": null,
+                    "Setup": "Pierre 39 50 2",
+                    "Celebration": "faceDirection Pierre 3 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Gus": {
+                    "Id": "Gus",
+                    "Condition": null,
+                    "Setup": "Gus 32 50 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Clint": {
+                    "Id": "Clint",
+                    "Condition": null,
+                    "Setup": "Clint 37 48 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "George": {
+                    "Id": "George",
+                    "Condition": null,
+                    "Setup": "George 36 50 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Evelyn": {
+                    "Id": "Evelyn",
+                    "Condition": null,
+                    "Setup": "Evelyn 37 50 2",
+                    "Celebration": "faceDirection Evelyn 3 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Pam": {
+                    "Id": "Pam",
+                    "Condition": null,
+                    "Setup": "Pam 40 49 2",
+                    "Celebration": "faceDirection Pam 1 true",
+                    "IgnoreUnlockConditions": false
+                },
+                "Jodi": {
+                    "Id": "Jodi",
+                    "Condition": null,
+                    "Setup": "Jodi 39 49 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Linus": {
+                    "Id": "Linus",
+                    "Condition": null,
+                    "Setup": "Linus 34 39 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Robin": {
+                    "Id": "Robin",
+                    "Condition": null,
+                    "Setup": "Robin 48 44 2",
+                    "Celebration": "animate Robin false true 500 20 21 20 22",
+                    "IgnoreUnlockConditions": false
+                },
+                "Demetrius": {
+                    "Id": "Demetrius",
+                    "Condition": null,
+                    "Setup": "Demetrius 47 44 2",
+                    "Celebration": "animate Demetrius false true 500 24 25 24 26",
+                    "IgnoreUnlockConditions": false
+                },
+                "Vincent": {
+                    "Id": "Vincent",
+                    "Condition": null,
+                    "Setup": "Vincent 42 51 1",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Jas": {
+                    "Id": "Jas",
+                    "Condition": null,
+                    "Setup": "Jas 45 51 3",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Sam": {
+                    "Id": "Sam",
+                    "Condition": null,
+                    "Setup": "Sam 33 50 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Sebastian": {
+                    "Id": "Sebastian",
+                    "Condition": null,
+                    "Setup": "Sebastian 38 46 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Alex": {
+                    "Id": "Alex",
+                    "Condition": null,
+                    "Setup": "Alex 38 50 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Harvey": {
+                    "Id": "Harvey",
+                    "Condition": null,
+                    "Setup": "Harvey 37 41 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Elliott": {
+                    "Id": "Elliott",
+                    "Condition": null,
+                    "Setup": "Elliott 39 42 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Haley": {
+                    "Id": "Haley",
+                    "Condition": null,
+                    "Setup": "Haley 36 49 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Penny": {
+                    "Id": "Penny",
+                    "Condition": null,
+                    "Setup": "Penny 41 49 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Maru": {
+                    "Id": "Maru",
+                    "Condition": null,
+                    "Setup": "Maru 24 68 0",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Leah": {
+                    "Id": "Leah",
+                    "Condition": null,
+                    "Setup": "Leah 38 42 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Abigail": {
+                    "Id": "Abigail",
+                    "Condition": null,
+                    "Setup": "Abigail 41 50 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Emily": {
+                    "Id": "Emily",
+                    "Condition": null,
+                    "Setup": "Emily 37 49 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Shane": {
+                    "Id": "Shane",
+                    "Condition": null,
+                    "Setup": "Shane 39 45 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Kent": {
+                    "Id": "Kent",
+                    "Condition": null,
+                    "Setup": "Kent 38 49 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Dwarf": {
+                    "Id": "Dwarf",
+                    "Condition": "PLAYER_HAS_MET Target Dwarf",
+                    "Setup": "Dwarf 38 48 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                },
+                "Sandy": {
+                    "Id": "Sandy",
+                    "Condition": "PLAYER_HAS_MET Target Sandy",
+                    "Setup": "Sandy 38 47 2",
+                    "Celebration": null,
+                    "IgnoreUnlockConditions": false
+                }
+            },
+        },
+
+
+    ]
+}

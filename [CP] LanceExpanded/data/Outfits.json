@@ -1,0 +1,340 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Lance's Outfits",
+            "Action": "Load",
+            "Priority": "High",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Winter_Indoor, Portraits/Lance_Flower, Portraits/Lance_Spirit, Portraits/Lance_Beach, Portraits/Lance_Wedding, Portraits/Lance_Xmas, Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterOut, Portraits/LanceVWinterIn, Portraits/LanceVLuau, Portraits/LanceVFlower, Portraits/LanceVSpirit, Portraits/LanceVBeach, Portraits/LanceVWedding, Portraits/LanceVXMas, Characters/Lance_Spring, Characters/Lance_Summer, Characters/Lance_Fall, Characters/Lance_Winter, Characters/Lance_Winter_Outdoor, Characters/Lance_Winter_Indoor, Characters/Lance_Luau, Characters/Lance_Flower, Characters/Lance_Spirit, Characters/Lance_Beach, Characters/Lance_Xmas, Characters/LanceVSpring, Characters/LanceVSummer, Characters/LanceVFall, Characters/LanceVWinterOut, Characters/LanceVWinterIn, Characters/LanceVLuau, Characters/LanceVFlower, Characters/LanceVSpirit, Characters/LanceVBeach, Characters/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Custom Other Npcs",
+            "Action": "Load",
+            "Priority": "High",
+            "When": { "Custom Wedding": true },
+            "Target": "Portraits/Camilla, Portraits/Wizard",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Lance's Scar",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "When": { "HasFlag": "{{ModId}}_Scarred" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFwloer, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceScar.png"
+        },
+        {
+            "LogName": "Lance's Beard",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "When": { "HasFlag": "{{ModId}}_Beard" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFwloer, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceBeard.png"
+        },
+        {
+            "LogName": "Lance's Earrings",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "When": { "HasFlag": "{{ModId}}_wearEarrings" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFwloer, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceEarring.png"
+        },
+        {
+            "LogName": "Lance Appearance Data",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Lance", "Appearance" ],
+            "Entries": {
+
+                //Regular Outfits
+                "{{ModId}}.LanceSpring": {
+                    "Id": "{{ModId}}.LanceSpring",
+                    "Condition": "SEASON Spring, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Spring",
+                    "Sprite": "Characters/Lance_Spring",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceSummer": {
+                    "Id": "{{ModId}}.LanceSummer",
+                    "Condition": "SEASON Summer, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Summer",
+                    "Sprite": "Characters/Lance_Summer",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceFall": {
+                    "Id": "{{ModId}}.LanceFall",
+                    "Condition": "SEASON Fall, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Fall",
+                    "Sprite": "Characters/Lance_Fall",
+                    "Precedence": -120
+                },
+                "{{ModId}}.LanceWinterIndoor": {
+                    "Id": "{{ModId}}.LanceWinterIndoor",
+                    "Condition": "SEASON Winter, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Winter_Indoor",
+                    "Sprite": "Characters/Lance_Winter_Indoor",
+                    "Outdoors": false,
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceWinterOutdoor": {
+                    "Id": "{{ModId}}.LanceWinterOutdoor",
+                    "Condition": "SEASON Winter, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Winter_Outdoor",
+                    "Sprite": "Characters/Lance_Winter_Outdoor",
+                    "Indoors": false,
+                    "Precedence": -120
+                },
+
+                //festivals
+                "{{ModId}}.LanceSpirit": {
+                    "Id": "{{ModId}}.LanceSpirit",
+                    "Condition": "IS_EVENT festival_fall27, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Spirit",
+                    "Sprite": "Characters/Lance_Spirit",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceFlower": {
+                    "Id": "{{ModId}}.LanceFlower",
+                    "Condition": "IS_EVENT festival_spring24, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Flower",
+                    "Sprite": "Characters/Lance_Flower",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceLuau": {
+                    "Id": "{{ModId}}.LanceLuau",
+                    "Condition": "IS_EVENT festival_summer11, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Luau",
+                    "Sprite": "Characters/Lance_Luau",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceXmas": {
+                    "Id": "{{ModId}}.LanceXmas",
+                    "Condition": "IS_EVENT festival_winter25, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Xmas",
+                    "Sprite": "Characters/Lance_Xmas",
+                    "Precedence": -1000
+                },
+                "{{ModId}}.LanceWedding": {
+                    "Id": "{{ModId}}.LanceWedding",
+                    "Condition": "IS_EVENT wedding, {{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Wedding",
+                    "Sprite": "Characters/Lance_Wedding",
+                    "Precedence": -1000
+                },
+                //beach
+                "{{ModId}}.LanceBeach": {
+                    "Id": "{{ModId}}.LanceBeach",
+                    "Condition": "{{Portrait |contains=Aviroen Style}}",
+                    "Portrait": "Portraits/Lance_Beach",
+                    "Sprite": "Characters/Lance_Beach",
+                    "IsIslandAttire": true,
+                    "Precedence": -10000
+                },
+                // vanilla compliant
+                //Regular Outfits
+                "{{ModId}}.LanceVSpring": {
+                    "Id": "{{ModId}}.LanceVSpring",
+                    "Condition": "SEASON Spring, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVSpring",
+                    "Sprite": "Characters/LanceVSpring",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceVSummer": {
+                    "Id": "{{ModId}}.LanceVSummer",
+                    "Condition": "SEASON Summer, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVSummer",
+                    "Sprite": "Characters/LanceVSummer",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceVFall": {
+                    "Id": "{{ModId}}.LanceVFall",
+                    "Condition": "SEASON Fall, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVFall",
+                    "Sprite": "Characters/LanceVFall",
+                    "Precedence": -120
+                },
+                "{{ModId}}.LanceVWinterIndoor": {
+                    "Id": "{{ModId}}.LanceVWinterIndoor",
+                    "Condition": "SEASON Winter, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVWinterIn",
+                    "Sprite": "Characters/LanceVWinterIn",
+                    "Outdoors": false,
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceVWinterOutdoor": {
+                    "Id": "{{ModId}}.LanceVWinterOutdoor",
+                    "Condition": "SEASON Winter, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVWinterOut",
+                    "Sprite": "Characters/LanceVWinterOut",
+                    "Indoors": false,
+                    "Precedence": -120
+                },
+
+                //festivals
+                "{{ModId}}.LanceVSpirit": {
+                    "Id": "{{ModId}}.LanceVSpirit",
+                    "Condition": "IS_EVENT festival_fall27, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVSpirit",
+                    "Sprite": "Characters/LanceVSpirit",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceVFlower": {
+                    "Id": "{{ModId}}.LanceVFlower",
+                    "Condition": "IS_EVENT festival_spring24, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVFlower",
+                    "Sprite": "Characters/LanceVFlower",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceVLuau": {
+                    "Id": "{{ModId}}.LanceVLuau",
+                    "Condition": "IS_EVENT festival_summer11, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVLuau",
+                    "Sprite": "Characters/LanceVLuau",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceVXmas": {
+                    "Id": "{{ModId}}.LanceVXmas",
+                    "Condition": "IS_EVENT festival_winter25, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVXMas",
+                    "Sprite": "Characters/LanceVXMas",
+                    "Precedence": -1000
+                },
+                "{{ModId}}.LanceVWedding": {
+                    "Id": "{{ModId}}.LanceVWedding",
+                    "Condition": "IS_EVENT wedding, {{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVWedding",
+                    "Sprite": "Characters/LanceVWedding",
+                    "Precedence": -1000
+                },
+                //beach
+                "{{ModId}}.LanceVBeach": {
+                    "Id": "{{ModId}}.LanceVBeach",
+                    "Condition": "{{Portrait |contains=Vanilla Compliant}}",
+                    "Portrait": "Portraits/LanceVBeach",
+                    "Sprite": "Characters/LanceVBeach",
+                    "IsIslandAttire": true,
+                    "Precedence": -10000
+                }
+            }
+        },
+        /*
+                //sprites
+                "{{ModId}}.LanceSpriteSpring": {
+                    "Id": "{{ModId}}.LanceSpriteSpring",
+                    "Condition": "SEASON spring, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Spring",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceSpriteSummer": {
+                    "Id": "{{ModId}}.LanceSpriteSummer",
+                    "Condition": "SEASON Summer, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Summer",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceSpriteFall": {
+                    "Id": "{{ModId}}.LanceSpriteFall",
+                    "Condition": "SEASON Fall, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Fall",
+                    "Precedence": -120
+                },
+                "{{ModId}}.LanceSpriteWinterIndoor": {
+                    "Id": "{{ModId}}.LanceSpriteWinterIndoor",
+                    "Condition": "SEASON Winter, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Winter_Indoor",
+                    "Outdoors": false,
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceSpriteWinterOutdoor": {
+                    "Id": "{{ModId}}.LanceSpriteWinterOutdoor",
+                    "Condition": "SEASON Winter, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Winter_Outdoor",
+                    "Indoors": false,
+                    "Precedence": -120
+                },
+
+                //festivals
+                "{{ModId}}.LanceSpriteSpirit": {
+                    "Id": "{{ModId}}.LanceSpriteSpirit",
+                    "Condition": "IS_EVENT festival_fall27, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Spirit",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceSpriteFlower": {
+                    "Id": "{{ModId}}.LanceSpriteFlower",
+                    "Condition": "IS_EVENT festival_spring24, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Flower",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceSpriteLuau": {
+                    "Id": "{{ModId}}.LanceSpriteLuau",
+                    "Condition": "IS_EVENT festival_summer11, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Luau",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceSpriteXmas": {
+                    "Id": "{{ModId}}.LanceSpriteXmas",
+                    "Condition": "IS_EVENT festival_winter25, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Xmas",
+                    "Precedence": -1000
+                },
+                "{{ModId}}.LanceSpriteWedding": {
+                    "Id": "{{ModId}}.LanceSpriteWedding",
+                    "Condition": "IS_EVENT wedding, {{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Wedding",
+                    "Precedence": -1000
+                },
+                //beach
+                "{{ModId}}.LanceSpriteBeach": {
+                    "Id": "{{ModId}}.LanceSpriteBeach",
+                    "Condition": "{{Sprite |contains=Use Included}}",
+                    "Sprite": "Characters/Lance_Beach",
+                    "IsIslandAttire": true,
+                    "Precedence": -10000
+                }
+            }
+        },
+
+        */
+        {
+            "LogName": "Lance - Spouse Picture",
+            "Action": "EditImage",
+            "Priority": "Late",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/SVE_Portraits",
+            "FromFile": "assets/Characters/Lance_PortraitItem.png",
+            "FromArea": {
+                "X": 7,
+                "Y": 7,
+                "Width": 18,
+                "Height": 18
+            },
+            "ToArea": {
+                "X": 167,
+                "Y": 7,
+                "Width": 18,
+                "Height": 18
+            },
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "Portrait": "Aviroen Style"
+            }
+        }
+    ]
+}
