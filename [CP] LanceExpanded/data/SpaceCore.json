@@ -191,7 +191,7 @@
         {
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Book, Mods/{{ModId}}/Khanjar, Mods/{{ModId}}/camping, Mods/{{ModId}}/mishaps, Mods/{{ModId}}/Rope, Mods/{{ModId}}/shenanigans, Mods/{{ModId}}/razor",
-            "FromFile": "assets/Misc/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/Misc/{{TargetWithoutPath}}{{Alt}}.png"
         },
         {
             "Action": "EditData",

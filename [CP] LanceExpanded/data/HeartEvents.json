@@ -381,7 +381,7 @@
             },
     */
             "Entries": {
-                "LanceQi/Season Winter/!FestivalDay/u 5 6 7 8 9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28/y 4/t 600 1500/O Lance/w sunny": "continue/32 32/farmer 32 32 0 MrQi -1000 -1000 0/viewport move 0 -1 25500/move farmer 0 -10 0/waitForAllStationary/playSound doorOpen/pause 300/beginSimultaneousCommand/playsound wand/warp MrQi 33 22/facedirection MrQi 3/pause 300/jump farmer 8/waitForAllStationary/faceDirection farmer 1/startJittering/pause 300/playSound killAnimal/stopJittering/endSimultaneousCommand/pause 200/viewport -10000 -10000/playSound distantTrain/pause 300//addMailReceived {{ModId}}_Beard/addMailReceived {{ModId}}_Scarred/changeToTemporaryMap qievent false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LEQiPost"
+                "LanceQi/Season Winter/!FestivalDay/u 5 6 7 8 9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28/y 4/t 600 1500/O Lance/w sunny": "junimoKart_ghostMusic/32 32/farmer 32 32 0 MrQi -1000 -1000 0/viewport move 0 -1 6500/move farmer 0 -10 0/waitForAllStationary/playSound doorOpen/pause 300/beginSimultaneousCommand/playsound wand/warp MrQi 33 22/facedirection MrQi 3/pause 300/jump farmer 8/waitForAllStationary/faceDirection farmer 1/startJittering/pause 300/playSound killAnimal/stopJittering/endSimultaneousCommand/pause 200/viewport -10000 -10000/pause 1300/changeToTemporaryMap qievent false/bgColor 0 0 0/ambientLight 0 0 0/faceDirection MrQi 0/faceDirection farmer 0/warp farmer 7 6/warp MrQi 7 4/switchEvent LEQiPost"
             }
         },
         {
@@ -389,7 +389,7 @@
             "Action": "EditData",
             "Target": "Data/Events/temp",
             "Entries": {
-                "LEQiPost": "playMusic junimoKart_ghostMusic/pause 500/end"
+                "LEQiPost": "pause 300/globalFadeToClear .007 true/viewport 7 12/waitForAllStationary/textAboveHead MrQi \"{{i18n:Lance.Chuckle}}\"/pause 1500/waitForAllStationary/speak MrQi \"{{i18n:Qievent.1}}\"/pause 300/message \"{{i18n:Qievent.2}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3}}\"/pause 300/message \"{{i18n:Qievent.4}}\"/pause 300/screenshake 2 5/startJittering/pause 300/faceDirection MrQi 2/pause 300/speak MrQi \"{{i18n:Qievent.5}}\"/end"
             }
         }
     ]

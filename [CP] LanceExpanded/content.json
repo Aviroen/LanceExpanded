@@ -69,6 +69,12 @@
             "Default": "false",
             "Section": "Content",
             "Description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early."
+        },
+        "Aviroen Magnus": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Section": "Content",
+            "Description": "Changes Rasmodius' appearance to be in my style."
         }
     },
     "DynamicTokens": [

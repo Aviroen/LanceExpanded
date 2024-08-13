@@ -11,8 +11,24 @@
             "LogName": "Load Custom Other Npcs",
             "Action": "Load",
             "Priority": "High",
-            "When": { "Custom Wedding": true },
-            "Target": "Portraits/Camilla, Portraits/Wizard",
+            "When": { "Darker Plot Events(Y4)": true },
+            "Target": "Portraits/Camilla",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Custom Other Npcs",
+            "Action": "Load",
+            "Priority": "High",
+            "When": { "Darker Plot Events(Y4)": true },
+            "Target": "Portraits/MrQi",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Custom Other Npcs",
+            "Action": "Load",
+            "Priority": "High",
+            "When": { "Aviroen Magnus": true },
+            "Target": "Portraits/Wizard, Characters/Wizard",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
         {
@@ -20,7 +36,7 @@
             "Action": "EditImage",
             "PatchMode": "Overlay",
             "When": { "HasFlag": "{{ModId}}_Scarred" },
-            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFwloer, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceScar.png"
         },
         {
@@ -28,7 +44,7 @@
             "Action": "EditImage",
             "PatchMode": "Overlay",
             "When": { "HasFlag": "{{ModId}}_Beard" },
-            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFwloer, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceBeard.png"
         },
         {
@@ -36,8 +52,16 @@
             "Action": "EditImage",
             "PatchMode": "Overlay",
             "When": { "HasFlag": "{{ModId}}_wearEarrings" },
-            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFwloer, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceEarring.png"
+        },
+        {
+            "LogName": "Blood Overlay",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "When": { "HasFlag": "{{ModId}}_Blood" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceBlood.png"
         },
         {
             "LogName": "Lance Appearance Data",

@@ -6,8 +6,8 @@
             "Target": "data/Events/FarmHouse",
             "Entries": {
                 "LELanceRazor/O Lance/y 1000/": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 1/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes(break)switchEvent Razor.no",
-                "Razor.yes": "end",
-                "Razor.no": "/addMailReceived Beard/end"
+                "Razor.yes": "/addMailReceived {{ModId}}_Beard false/end",
+                "Razor.no": "/addMailReceived {{ModId}}_Beard/end"
             }
         },
         {
@@ -16,7 +16,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDatePelican/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/quickQuestion {{i18n:Pelican.q}}(break)switchEvent Pelican.yes(break)switchEvent Pelican.no",
-                "Pelican.yes": "/addMailReceived PelicanOnce/end",
+                "Pelican.yes": "/addMailReceived {{ModId}}_PelicanOnce/end",
                 "Pelican.no": "end"
             }
         },
@@ -24,10 +24,10 @@
             "LogName": "Monster Hunting Pelican Mines",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=PelicanOnce": true },
+            "When": { "HasFlag |contains={{ModId}}_PelicanOnce": true },
             "Entries": {
                 "LEDatePelican/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro1}}\"/quickQuestion {{i18n:Pelican.q1}}(break)switchEvent Pelican.yes1(break)switchEvent Pelican.no1",
-                "Pelican.yes1": "/addMailReceived PelicanTwice/end",
+                "Pelican.yes1": "/addMailReceived {{ModId}}_PelicanTwice/end",
                 "Pelican.no1": "end"
             }
         },
@@ -35,7 +35,7 @@
             "LogName": "Monster Hunting Pelican Mines",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=PelicanTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_PelicanTwice": true },
             "Entries": {
                 "LEDatePelican/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro2}}\"/quickQuestion {{i18n:Pelican.q2}}(break)switchEvent Pelican.yes2(break)switchEvent Pelican.no2",
                 "Pelican.yes2": "end",
@@ -49,7 +49,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDateCamping/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Camping.intro}}\"/quickQuestion {{i18n:Camping.q}}(break)switchEvent Camping.yes(break)switchEvent Camping.no",
-                "Camping.yes": "/addMailReceived CampingOnce/end",
+                "Camping.yes": "/addMailReceived {{ModId}}_CampingOnce/end",
                 "Camping.no": "end"
             }
         },
@@ -57,10 +57,10 @@
             "LogName": "Secret Forest",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=CampingOnce": true },
+            "When": { "HasFlag |contains={{ModId}}_CampingOnce": true },
             "Entries": {
                 "LEDateCamping/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Camping.intro1}}\"/quickQuestion {{i18n:Camping.q1}}(break)switchEvent Camping.yes1(break)switchEvent Camping.no1",
-                "Camping.yes1": "/addMailReceived CampingTwice/end",
+                "Camping.yes1": "/addMailReceived {{ModId}}_CampingTwice/end",
                 "Camping.no1": "end"
             }
         },
@@ -68,7 +68,7 @@
             "LogName": "Secret Forest",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=CampingTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_CampingTwice": true },
             "Entries": {
                 "LEDateCamping/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Camping.intro2}}\"/quickQuestion {{i18n:Camping.q2}}(break)switchEvent Camping.yes2(break)switchEvent Camping.no2",
                 "Camping.yes2": "end",
@@ -82,7 +82,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDateMishaps/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Mishaps.intro}}\"/quickQuestion {{i18n:Mishaps.q}}(break)switchEvent Mishaps.yes(break)switchEvent Mishaps.no",
-                "Mishaps.yes": "/addMailReceived MishapsOnce/end",
+                "Mishaps.yes": "/addMailReceived {{ModId}}_MishapsOnce/end",
                 "Mishaps.no": "end"
             }
         },
@@ -90,10 +90,10 @@
             "LogName": "Potion Mishaps",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=MishapsOnce": true },
+            "When": { "HasFlag |contains={{ModId}}_MishapsOnce": true },
             "Entries": {
                 "LEDateMishaps/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Mishaps.intro1}}\"/quickQuestion {{i18n:Mishaps.q1}}(break)switchEvent Mishaps.yes1(break)switchEvent Mishaps.no1",
-                "Mishaps.yes1": "/addMailReceived MishapsTwice/end",
+                "Mishaps.yes1": "/addMailReceived {{ModId}}_MishapsTwice/end",
                 "Mishaps.no1": "end"
             }
         },
@@ -101,7 +101,7 @@
             "LogName": "Potion Mishaps",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=MishapsTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_MishapsTwice": true },
             "Entries": {
                 "LEDateMishaps/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Mishaps.intro2}}\"/quickQuestion {{i18n:Mishaps.q2}}(break)switchEvent Mishaps.yes2(break)switchEvent Mishaps.no2",
                 "Mishaps.yes2": "end",
@@ -115,7 +115,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDateShenanigans/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Shenanigans.intro}}\"/quickQuestion {{i18n:Shenanigans.q}}(break)switchEvent Shenanigans.yes(break)switchEvent Shenanigans.no",
-                "Shenanigans.yes": "/addMailReceived ShenanigansOnce/end",
+                "Shenanigans.yes": "/addMailReceived {{ModId}}_ShenanigansOnce/end",
                 "Shenanigans.no": "end"
             }
         },
@@ -123,10 +123,10 @@
             "LogName": "Potion Shenanigans",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=ShenanigansOnce": true },
+            "When": { "HasFlag |contains={{ModId}}_ShenanigansOnce": true },
             "Entries": {
                 "LEDateShenanigans/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Shenanigans.intro1}}\"/quickQuestion {{i18n:Shenanigans.q1}}(break)switchEvent Shenanigans.yes1(break)switchEvent Shenanigans.no1",
-                "Shenanigans.yes1": "/addMailReceived ShenanigansTwice/end",
+                "Shenanigans.yes1": "/addMailReceived {{ModId}}_ShenanigansTwice/end",
                 "Shenanigans.no1": "end"
             }
         },
@@ -134,7 +134,7 @@
             "LogName": "Potion Shenanigans",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=ShenanigansTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_ShenanigansTwice": true },
             "Entries": {
                 "LEDateShenanigans/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Shenanigans.intro2}}\"/quickQuestion {{i18n:Shenanigans.q2}}(break)switchEvent Shenanigans.yes2(break)switchEvent Shenanigans.no2",
                 "Shenanigans.yes2": "end",
@@ -148,7 +148,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDateRope/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Rope.intro}}\"/quickQuestion {{i18n:Rope.q}}(break)switchEvent Rope.yes(break)switchEvent Rope.no",
-                "Rope.yes": "/addMailReceived RopeOnce/end",
+                "Rope.yes": "/addMailReceived {{ModId}}_RopeOnce/end",
                 "Rope.no": "end"
             }
         },
@@ -156,10 +156,10 @@
             "LogName": "Hair Raising Tension",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=RopeOnce": true },
+            "When": { "HasFlag |contains={{ModId}}_RopeOnce": true },
             "Entries": {
                 "LEDateRope/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Rope.intro1}}\"/quickQuestion {{i18n:Rope.q1}}(break)switchEvent Rope.yes1(break)switchEvent Rope.no1",
-                "Rope.yes1": "/addMailReceived RopeTwice/end",
+                "Rope.yes1": "/addMailReceived {{ModId}}_RopeTwice/end",
                 "Rope.no1": "end"
             }
         },
@@ -167,7 +167,7 @@
             "LogName": "Hair Raising Tension",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=RopeTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_RopeTwice": true },
             "Entries": {
                 "LEDateRope/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Rope.intro2}}\"/quickQuestion {{i18n:Rope.q2}}(break)switchEvent Rope.yes2(break)switchEvent Rope.no2",
                 "Rope.yes2": "end",
@@ -181,7 +181,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDateGrandpaR/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:GrandpaR.intro}}\"/quickQuestion {{i18n:GrandpaR.q}}(break)switchEvent GrandpaR.yes(break)switchEvent GrandpaR.no",
-                "GrandpaR.yes": "/addMailReceived GrandpaROnce/end",
+                "GrandpaR.yes": "/addMailReceived {{ModId}}_GrandpaROnce/end",
                 "GrandpaR.no": "end"
             }
         },
@@ -189,10 +189,10 @@
             "LogName": "Grandpa's Rememberance",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=GrandpaROnce": true },
+            "When": { "HasFlag |contains={{ModId}}_GrandpaROnce": true },
             "Entries": {
                 "LEDateGrandpaR/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:GrandpaR.intro1}}\"/quickQuestion {{i18n:GrandpaR.q1}}(break)switchEvent GrandpaR.yes1(break)switchEvent GrandpaR.no1",
-                "GrandpaR.yes1": "/addMailReceived GrandpaRTwice/end",
+                "GrandpaR.yes1": "/addMailReceived {{ModId}}_GrandpaRTwice/end",
                 "GrandpaR.no1": "end"
             }
         },
@@ -200,7 +200,7 @@
             "LogName": "Grandpa's Rememberance",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=GrandpaRTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_GrandpaRTwice": true },
             "Entries": {
                 "LEDateGrandpaR/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:GrandpaR.intro2}}\"/quickQuestion {{i18n:GrandpaR.q2}}(break)switchEvent GrandpaR.yes2(break)switchEvent GrandpaR.no2",
                 "GrandpaR.yes2": "end",
@@ -214,7 +214,7 @@
             "Target": "data/Events/Farm",
             "Entries": {
                 "LEDateHensbane/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Hensbane.intro}}\"/quickQuestion {{i18n:Hensbane.q}}(break)switchEvent Hensbane.yes(break)switchEvent Hensbane.no",
-                "Hensbane.yes": "/addMailReceived HensbaneOnce/end",
+                "Hensbane.yes": "/addMailReceived {{ModId}}_HensbaneOnce/end",
                 "Hensbane.no": "end"
             }
         },
@@ -222,10 +222,10 @@
             "LogName": "Hensbane Spore",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=HensbaneOnce": true },
+            "When": { "HasFlag |contains={{ModId}}_HensbaneOnce": true },
             "Entries": {
                 "LEDateHensbane/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Hensbane.intro1}}\"/quickQuestion {{i18n:Hensbane.q1}}(break)switchEvent Hensbane.yes1(break)switchEvent Hensbane.no1",
-                "Hensbane.yes1": "/addMailReceived HensbaneTwice/end",
+                "Hensbane.yes1": "/addMailReceived {{ModId}}_HensbaneTwice/end",
                 "Hensbane.no1": "end"
             }
         },
@@ -233,7 +233,7 @@
             "LogName": "Hensbane Spore",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains=HensbaneTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_HensbaneTwice": true },
             "Entries": {
                 "LEDateHensbane/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Hensbane.intro2}}\"/quickQuestion {{i18n:Hensbane.q2}}(break)switchEvent Hensbane.yes2(break)switchEvent Hensbane.no2",
                 "Hensbane.yes2": "end",
