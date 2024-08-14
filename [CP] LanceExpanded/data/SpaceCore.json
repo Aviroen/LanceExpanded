@@ -191,7 +191,7 @@
         {
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Book, Mods/{{ModId}}/Khanjar, Mods/{{ModId}}/camping, Mods/{{ModId}}/mishaps, Mods/{{ModId}}/Rope, Mods/{{ModId}}/shenanigans, Mods/{{ModId}}/razor",
-            "FromFile": "assets/Misc/{{TargetWithoutPath}}{{Alt}}.png"
+            "FromFile": "assets/Misc/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "EditData",
@@ -205,8 +205,24 @@
                 "An Even Stranger Potion": "724 1 749 1 768 1 834 1 909 1 MysticSyrup 1//{{ModId}}_shenanigans/false/none/{{i18n:Lance.shenanigans}}",
                 "Lance's Razor": "335 5//{{ModId}}_Razor/false/none/{{i18n:Lance.Razor}}"
             }
+        },
+        {
+            "LogName": "Spacecore Triggers",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TriggerActionExtensionData",
+            "Entries": {
+                "{{ModId}}_QiEventHud1": {
+                    "Id": "{{ModId}}_QiEventHud1",
+                    "Trigger": "Manual",
+                    "Condition": "PLAYER_HAS_FLAG Current {{ModId}}_Qievent.147.1",
+                    "Times": [ 1800 ],
+                    "Actions": [
+                        "spacechase0.SpaceCore_ShowHudMessage {{i18n:Qievent.147.2}}"
+                    ]
+                }
+            }
         }
-        /*
+            /*
     So just `$action spacechase0.SpaceCore_PlayEvent myeventid` in your dialogue (though where you put it I don't know, I haven't done it before)
     */
     ]

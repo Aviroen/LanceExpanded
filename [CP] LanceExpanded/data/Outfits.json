@@ -35,14 +35,25 @@
             "LogName": "Lance's Scar",
             "Action": "EditImage",
             "PatchMode": "Overlay",
+            "Update": "OnLocationChange",
             "When": { "HasFlag": "{{ModId}}_Scarred" },
             "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceScar.png"
         },
         {
+            "LogName": "Lance's Fresh Scar",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Update": "OnLocationChange",
+            "When": { "HasFlag": "{{ModId}}_FreshScar" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceFreshScar.png"
+        },
+        {
             "LogName": "Lance's Beard",
             "Action": "EditImage",
             "PatchMode": "Overlay",
+            "Update": "OnLocationChange",
             "When": { "HasFlag": "{{ModId}}_Beard" },
             "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceBeard.png"
@@ -56,9 +67,31 @@
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceEarring.png"
         },
         {
+            "LogName": "Steri Overlay",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Priority": "Default + 2",
+            "Update": "OnLocationChange",
+            "When": { "HasFlag": "{{ModId}}_Steri" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceSteri.png"
+        },
+        {
+            "LogName": "Eyepatch Overlay",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Priority": "Late",
+            "Update": "OnLocationChange",
+            "When": { "HasFlag": "{{ModId}}_Eyepatch" },
+            "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
+            "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceEyepatch.png"
+        },
+        {
             "LogName": "Blood Overlay",
             "Action": "EditImage",
             "PatchMode": "Overlay",
+            "Priority": "Late",
+            "Update": "OnLocationChange",
             "When": { "HasFlag": "{{ModId}}_Blood" },
             "Target": "Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterIn, Portraits/LanceVWinterOut, Portraits/LanceVBeach, Portraits/LanceVFlower, Portraits/LanceVLuau, Portraits/LanceVSpirit, Portraits/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/LanceBlood.png"
