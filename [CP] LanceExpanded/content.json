@@ -229,32 +229,9 @@
             "FromFile": "assets/Characters/PlayerEarringAlt.png"
         },
         {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Fields": {
-                "Lance": {
-                    "IsDarkSkinned": true,
-                    "UnlockConditions": null
-                }
-            }
-        },
-        {
             "LogName": "Lance Edits",
             "Action": "EditData",
-            "Target": "data/Characters/Lance",
-            "When": {
-                "Day 1 Toggle": false
-            },
-            "Fields": {
-                "Lance": {
-                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT ANY 6951319"
-                }
-            }
-        },
-        {
-            "LogName": "Lance Edits",
-            "Action": "EditData",
-            "Target": "data/Characters/Lance",
+            "Target": "data/Characters",
             "When": {
                 "Day 1 Toggle": true
             },
@@ -267,7 +244,7 @@
         {
             "LogName": "Joja Bad",
             "Action": "EditData",
-            "Target": "data/Characters/Lance",
+            "Target": "data/Characters",
             "When": {
                 "HasFlag": "jojaMember",
                 "JojaBad": true

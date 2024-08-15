@@ -392,7 +392,7 @@
             "Entries": {
                 "LEQiAdventurer": "pause 300/viewport 32 32/viewport move 0 -1 6500/move farmer 0 -10 0/waitForAllStationary/playSound doorOpen/pause 300/beginSimultaneousCommand/playsound wand/warp MrQi 33 22/pause 300/jump farmer 8/waitForAllStationary/faceDirection farmer 1/startJittering/pause 300/playSound killAnimal/stopJittering/endSimultaneousCommand/pause 200/viewport -10000 -10000/pause 1300/changeToTemporaryMap qievent false/bgColor 0 0 0/ambientLight 0 0 0/faceDirection MrQi 0/faceDirection farmer 0/warp farmer 7 6/warp MrQi 7 4/switchEvent LEQiPost",
 
-                "LEQiPost": "pause 300/globalFadeToClear .007 true/viewport 7 12/waitForAllStationary/textAboveHead MrQi \"{{i18n:Lance.Chuckle}}\"/pause 1500/waitForAllStationary/speak MrQi \"{{i18n:Qievent.1}}\"/pause 300/message \"{{i18n:Qievent.2}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3}}\"/pause 300/message \"{{i18n:Qievent.4}}\"/pause 300/screenshake 2 5/startJittering/faceDirection MrQi 1/pause 300/faceDirection MrQi 2/pause 300/speak MrQi \"{{i18n:Qievent.5}}\"/end"
+                "LEQiPost": "pause 300/globalFadeToClear .007 true/viewport 7 12/waitForAllStationary/textAboveHead MrQi \"{{i18n:Lance.Chuckle}}\"/pause 1500/waitForAllStationary/speak MrQi \"{{i18n:Qievent.1}}\"/pause 300/message \"{{i18n:Qievent.2}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3.1}}\"/pause 300/screenshake 2 5/startJittering/faceDirection MrQi 1/pause 300/faceDirection MrQi 2/pause 300/speak MrQi \"{{i18n:Qievent.5}}\"/end"
             }
         }
     ]
