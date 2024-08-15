@@ -89,6 +89,16 @@
                         "MarkEventSeen Current 1925179 true"
                     ]
                 }
+/* change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
+    "{{ModId}}_SVEQiEvents": {
+                    "Id": "{{ModId}}_SVEQiEvents",
+                    "Trigger": "Manual",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 1925178, {{Darker Plot Events(Y4) |contains=true}}",
+                    "Actions": [
+                        "MarkEventSeen Current 1925179 true"
+                    ]
+                }
+    */
             }
         }
     ]

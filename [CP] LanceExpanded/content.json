@@ -298,13 +298,13 @@
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Maps/qievent",
-            "FromFile": "Assets/Maps/qievent.tmx"
+            "Target": "Maps/Qiroom",
+            "FromFile": "Assets/Maps/Qiroom.tmx"
         },
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "data/events/qievent",
+            "Target": "data/events/Qiroom",
             "FromFile": "data/Blank.json"
         },
         { //load my furniture

@@ -382,7 +382,7 @@
             },
             */
             "Entries": {
-                "LanceQi/Season Winter/!FestivalDay/y 4/t 600 1500/O Lance/w sunny": "junimoKart_ghostMusic/-10000 -1000/farmer -100 -100 2 Lance -1000 -1000 2 MrQi -10000 -10000 3 Wizard -10000 -10000 0 Camilla -10000 -10000 0 Harvey -10000 -10000 0 Maru -10000 -10000 0/warp farmer -100 -100/warp MrQi -1000 -1000/warp Lance -1000 -1000/warp Wizard -1000 -1000/warp Camilla -1000 -1000/warp Harvey -1000 -1000/warp Maru -1000 -1000/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/move farmer 20 0 1/globalFade/waitForAllStationary/changeToTemporaryMap custom_AdventurerSummit false/bgColor 0 0 0/ambientLight 0 0 0/warp farmer 32 32/faceDirection MrQi 3/switchEvent LEQiAdventurer"
+                "LanceQi/Season Winter/!FestivalDay/y 4/t 600 1500/O Lance/w sunny": "junimoKart_ghostMusic/-10000 -1000/farmer -100 -100 2 Lance -1000 -1000 2 MrQi -10000 -10000 3 Wizard -10000 -10000 0 Camilla -10000 -10000 0 Harvey -10000 -10000 0 Maru -10000 -10000 0/warp farmer -100 -100/warp MrQi -1000 -1000/warp Lance -1000 -1000/warp Wizard -1000 -1000/warp Camilla -1000 -1000/warp Harvey -1000 -1000/warp Maru -1000 -1000/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/move farmer 20 0 1/waitForAllStationary/changeToTemporaryMap custom_AdventurerSummit false/bgColor 0 0 0/ambientLight 0 0 0/warp farmer 32 32/faceDirection MrQi 3/switchEvent LEQiAdventurer"
             }
         },
         {
@@ -390,9 +390,9 @@
             "Action": "EditData",
             "Target": "Data/Events/temp",
             "Entries": {
-                "LEQiAdventurer": "pause 300/viewport 32 32/viewport move 0 -1 6500/move farmer 0 -10 0/waitForAllStationary/playSound doorOpen/pause 300/beginSimultaneousCommand/playsound wand/warp MrQi 33 22/pause 300/jump farmer 8/waitForAllStationary/faceDirection farmer 1/startJittering/pause 300/playSound killAnimal/stopJittering/endSimultaneousCommand/pause 200/viewport -10000 -10000/pause 1300/changeToTemporaryMap qievent false/bgColor 0 0 0/ambientLight 0 0 0/faceDirection MrQi 0/faceDirection farmer 0/warp farmer 7 6/warp MrQi 7 4/switchEvent LEQiPost",
+                "LEQiAdventurer": "pause 300/viewport 32 32/viewport move 0 -1 6500/move farmer 0 -10 0/waitForAllStationary/playSound doorOpen/pause 300/beginSimultaneousCommand/playsound wand/warp MrQi 33 22/pause 300/jump farmer 8/waitForAllStationary/faceDirection farmer 1/startJittering/pause 300/playSound killAnimal/stopJittering/endSimultaneousCommand/pause 200/viewport -10000 -10000/pause 1300/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/faceDirection MrQi 0/faceDirection farmer 0/warp farmer 12 10/warp MrQi 12 4/switchEvent LEQiPost",
 
-                "LEQiPost": "pause 300/globalFadeToClear .007 true/viewport 7 12/waitForAllStationary/textAboveHead MrQi \"{{i18n:Lance.Chuckle}}\"/pause 1500/waitForAllStationary/speak MrQi \"{{i18n:Qievent.1}}\"/pause 300/message \"{{i18n:Qievent.2}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3.1}}\"/pause 300/screenshake 2 5/startJittering/faceDirection MrQi 1/pause 300/faceDirection MrQi 2/pause 300/speak MrQi \"{{i18n:Qievent.5}}\"/end"
+                "LEQiPost": "pause 300/globalFadeToClear .007 true/viewport 12 3/waitForAllStationary/textAboveHead MrQi \"{{i18n:Lance.Chuckle}}\"/pause 1500/waitForAllStationary/speak MrQi \"{{i18n:Qievent.1}}\"/pause 300/message \"{{i18n:Qievent.2}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3}}\"/pause 300/speak MrQi \"{{i18n:Qievent.3.1}}\"/pause 300/screenshake 2 5/startJittering/faceDirection MrQi 1/pause 300/faceDirection MrQi 2/pause 300/speak MrQi \"{{i18n:Qievent.5}}\"/end"
             }
         }
     ]
