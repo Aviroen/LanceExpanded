@@ -20,7 +20,7 @@
             },
             "Target": "Characters/Dialogue/Lance",
             "Entries": {
-                "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_(O)StardropTea}}",
                 "AcceptGift_(O)96": "{{i18n:Married.GiftReaction_Dwarf_Scroll_I}}",
                 "AcceptGift_(O)97": "{{i18n:Married.GiftReaction_Dwarf_Scroll_II}}",
                 "AcceptGift_(O)98": "{{i18n:Married.GiftReaction_Dwarf_Scroll_III}}",

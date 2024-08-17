@@ -4,7 +4,7 @@
             "LogName": "Load Lance's Outfits",
             "Action": "Load",
             "Priority": "High",
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Winter_Indoor, Portraits/Lance_Flower, Portraits/Lance_Spirit, Portraits/Lance_Beach, Portraits/Lance_Wedding, Portraits/Lance_Xmas, Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterOut, Portraits/LanceVWinterIn, Portraits/LanceVLuau, Portraits/LanceVFlower, Portraits/LanceVSpirit, Portraits/LanceVBeach, Portraits/LanceVWedding, Portraits/LanceVXMas, Characters/Lance_Spring, Characters/Lance_Summer, Characters/Lance_Fall, Characters/Lance_Winter, Characters/Lance_Winter_Outdoor, Characters/Lance_Winter_Indoor, Characters/Lance_Luau, Characters/Lance_Flower, Characters/Lance_Spirit, Characters/Lance_Beach, Characters/Lance_Xmas, Characters/LanceVSpring, Characters/LanceVSummer, Characters/LanceVFall, Characters/LanceVWinterOut, Characters/LanceVWinterIn, Characters/LanceVLuau, Characters/LanceVFlower, Characters/LanceVSpirit, Characters/LanceVBeach, Characters/LanceVXMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Winter_Indoor, Portraits/Lance_Flower, Portraits/Lance_Spirit, Portraits/Lance_Beach, Portraits/Lance_Wedding, Portraits/Lance_Xmas, Portraits/LanceVSpring, Portraits/LanceVSummer, Portraits/LanceVFall, Portraits/LanceVWinterOut, Portraits/LanceVWinterIn, Portraits/LanceVLuau, Portraits/LanceVFlower, Portraits/LanceVSpirit, Portraits/LanceVBeach, Portraits/LanceVWedding, Portraits/LanceVXMas, Portraits/LanceLou_Spring, Portraits/LanceLou_Summer, Portraits/LanceLou_Fall, Portraits/LanceLou_WinterOut, Portraits/LanceLou_WinterIn, Portraits/LanceLou_Luau, Portraits/LanceLou_Flower, Portraits/LanceLou_Spirit, Portraits/LanceLou_Beach, Portraits/LanceLou_Wedding, Portraits/LanceLou_XMas, Characters/Lance_Spring, Characters/Lance_Summer, Characters/Lance_Fall, Characters/Lance_Winter, Characters/Lance_Winter_Outdoor, Characters/Lance_Winter_Indoor, Characters/Lance_Luau, Characters/Lance_Flower, Characters/Lance_Spirit, Characters/Lance_Beach, Characters/Lance_Xmas, Characters/LanceVSpring, Characters/LanceVSummer, Characters/LanceVFall, Characters/LanceVWinterOut, Characters/LanceVWinterIn, Characters/LanceVLuau, Characters/LanceVFlower, Characters/LanceVSpirit, Characters/LanceVBeach, Characters/LanceVXMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/{{TargetWithoutPath}}.png"
         },
         {
@@ -193,6 +193,7 @@
                     "IsIslandAttire": true,
                     "Precedence": -10000
                 },
+                /////////////////////////////////////////////////
                 // vanilla compliant
                 //Regular Outfits
                 "{{ModId}}.LanceVSpring": {
@@ -281,6 +282,97 @@
                     "Condition": "{{Portrait |contains=Vanilla Compliant}}",
                     "Portrait": "Portraits/LanceVBeach",
                     "Sprite": "Characters/LanceVBeach",
+                    "IsIslandAttire": true,
+                    "Precedence": -10000
+                },
+                /////////////////////////////////////////////////
+                //GoodnightLou Nyapu
+                "{{ModId}}.LanceLou_Spring": {
+                    "Id": "{{ModId}}.LanceLou_Spring",
+                    "Condition": "SEASON Spring, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Spring",
+                    "Sprite": "Characters/Lance_Spring",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceLou_Summer": {
+                    "Id": "{{ModId}}.LanceLou_Summer",
+                    "Condition": "SEASON Summer, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Summer",
+                    "Sprite": "Characters/Lance_Summer",
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceLou_Fall": {
+                    "Id": "{{ModId}}.LanceLou_Fall",
+                    "Condition": "SEASON Fall, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Fall",
+                    "Sprite": "Characters/Lance_Fall",
+                    "Precedence": -120
+                },
+                "{{ModId}}.LanceLou_WinterIndoor": {
+                    "Id": "{{ModId}}.LanceLou_WinterIndoor",
+                    "Condition": "SEASON Winter, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_WinterIn",
+                    "Sprite": "Characters/Lance_Winter_Indoor",
+                    "Outdoors": false,
+                    "Precedence": -120
+                },
+
+                "{{ModId}}.LanceLou_WinterOutdoor": {
+                    "Id": "{{ModId}}.LanceLou_WinterOutdoor",
+                    "Condition": "SEASON Winter, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_WinterOut",
+                    "Sprite": "Characters/Lance_Winter_Outdoor",
+                    "Indoors": false,
+                    "Precedence": -120
+                },
+
+                //festivals
+                "{{ModId}}.LanceLou_Spirit": {
+                    "Id": "{{ModId}}.LanceLou_Spirit",
+                    "Condition": "IS_EVENT festival_fall27, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Spirit",
+                    "Sprite": "Characters/Lance_Spirit",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceLou_Flower": {
+                    "Id": "{{ModId}}.LanceLou_Flower",
+                    "Condition": "IS_EVENT festival_spring24, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Flower",
+                    "Sprite": "Characters/Lance_Flower",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceLou_Luau": {
+                    "Id": "{{ModId}}.LanceLou_Luau",
+                    "Condition": "IS_EVENT festival_summer11, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Luau",
+                    "Sprite": "Characters/Lance_Luau",
+                    "Precedence": -1000
+                },
+
+                "{{ModId}}.LanceLou_Xmas": {
+                    "Id": "{{ModId}}.LanceLou_Xmas",
+                    "Condition": "IS_EVENT festival_winter25, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Xmas",
+                    "Sprite": "Characters/Lance_Xmas",
+                    "Precedence": -1000
+                },
+                "{{ModId}}.LanceLou_Wedding": {
+                    "Id": "{{ModId}}.LanceLou_Wedding",
+                    "Condition": "IS_EVENT wedding, {{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Wedding",
+                    "Sprite": "Characters/Lance_Wedding",
+                    "Precedence": -1000
+                },
+                //beach
+                "{{ModId}}.LanceLou_Beach": {
+                    "Id": "{{ModId}}.LanceLou_Beach",
+                    "Condition": "{{Portrait |contains=GoodnightLou (Nyapu)}}",
+                    "Portrait": "Portraits/LanceLou_Beach",
+                    "Sprite": "Characters/Lance_Beach",
                     "IsIslandAttire": true,
                     "Precedence": -10000
                 }

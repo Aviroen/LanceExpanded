@@ -16,6 +16,7 @@
     "config.Portrait": "Portrait",
     "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
     "config.Portrait.values.Aviroen Style": "Aviroen Style",
+    "config.Portrait.values.GoodnightLou (Nyapu)": "GoodnightLou (Nyapu)",
     "config.Portrait.values.Use Custom": "Use Custom",
     "config.Portrait.description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
 
@@ -229,19 +230,17 @@
     "Lance.GreenRainFinished4": "Rains can be unpredictable, moreso when the green rain comes.$8",
     "Lance.GreenRainFinished5": "I might look into potion brewing from Magnus some more, I just... have to bring some coffee with me.$8",
 
-    "wearEarrings": "{{i18n:WearEarring.{{Random:{{Range: 0, 5}}}}}}",
-
     ////////////gift dialogue
-    "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "{{i18n:Lance.GiftAgedBlueMoonWine}}",
-    "AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
-    "AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
-    "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
-    "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
+    "AcceptGift_(O)StardropTea": "Oh?$10#$b#Is this a tea embued with a Stardrop?$43#$b#Delicious! And it even feels like my magic has recharged.$8#$b#Thank you, my love.$43",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "Something from Sophia's?$10#$b#I'm not much of a wine drinker, but I do appreciate your care, thank you, my love.$43",
+    //"AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
+    //"AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
+    //"AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
+    //"AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
 
 
     //////////////////////////////////////////////////////////////////////////////////////////////other marriage
@@ -1419,25 +1418,27 @@
     "Lance.14Hearts.pepper.19": "*I squeezed his head inbetween my legs.*#I don't know, can you?",
     "Lance.14Hearts.pepper.20": "You'll regret doing that.$41",
 
+    //qi map strings
+    "Qiroom.1": "There is no escape.",
 
     //////// qi event??????????
     "Qievent.1": "The Stardew Valley Hero.$1", //qi
     "Qievent.2": "...?", //farmer
     "Qievent.3": "To have bested the Galdoran Wastes.$1", //qi
     "Qievent.3.1": "I thought my warning to you in the Skull Caverns would have sufficed, but I have underestimated your fate it seems.$0", //qi
-    "Qievent.3.2": "How is it, to know that only you can perceive me?$0#$b#Those mages and their paltry weavings mean little to me!$0", //qi
-    "Qievent.3.3": "Bah! What is that smell!? Last I checked on you, you were untainted, pure. You smell of the war fiend.$3", //qi
-    "Qievent.3.4": "A few days, perhaps, and you'll change your tune.", //qi
-    "Qievent.4": "My.. my arms are bound…#Struggle.#Try to get a hold of your surroundings.", //farmer
+    "Qievent.3.2": "How is it, to know that only you can perceive me?$0#$b#They have only seen my kind in history books, stories of legend.#$b#I am one of the first.$3#$b#And you, will be molded to be my successor.$2", //qi
+    "Qievent.3.3": "Bah! What is that smell!? Last I checked on you, you were untainted, *pure*. You smell of the war fiend.$3", //qi
+    "Qievent.3.4": "No matter.$3#$b#A few days of my restructuring and you’ll be fit to be my perfect successor.$2", //qi
+    "Qievent.4": "My..my arms are bound… #Struggle. #Try to get a hold of your surroundings.", //farmer
     "Qievent.4.1": "You are bound by rope and magic.",
     "Qievent.4.2": "It’s a pitch black room.",
     "Qievent.5": "You, you are the chosen one I've been looking for!$0", //qi
     "Qievent.6": "Chosen one?#What does he mean?#What's going on?", //farmer
-    "Qievent.7": "Oh my little mouse, we're secluded here, try as you might, there's no escaping. Now if you'll just hold still..$2", //qi
+    "Qievent.7": "Oh my little mouse, we're secluded here, try as you might, there's no escaping.#$b#Now if you'll just hold still..$2", //qi
     "Qievent.7.1": "What... is he?#Is he even human?#A mage?#A... god...?", //farmer
     "Qievent.7.2": "Whatever thoughts you have of me... they are unnecessary.$1#$b#I am as they would call it, a 'wizard', but none that you've seen.$0", //qi
     "Qievent.7.3": "That old tome that lives secluded in his tower abandoned the power of the endless void.$3#$b#Were he to truly embrace the planes he would have no concern.$2", //qi
-    "Qievent.8": "There's chills running down my back... Lance...!", //farmer
+    "Qievent.8": "There's chills running down my back...", //farmer
     "Qievent.8.1": "M...my leg feels like it's on fire...!", //farmer
     "Qievent.8.1.1": "'You...! You sold your soul to the void...!'", //farmer
     "Qievent.8.1.2": "Hah!$0#$b#Is that what the little fire hellion said this power was?!$0", //qi
@@ -1458,10 +1459,9 @@
     "Qievent.8.5": "I feel like I'm going to pass out...#Lance...#Magnus...#Camilla...#...Anyone...!", //farmer
     "Qievent.8.6": "Qi is... shaking...? #Why...?", //farmer
     "Qievent.9": "...!$3#$b#IMPOSSIBLE!!$3", //qi
-    "Qievent.9.1": "Lance can be seen from the monitor, it looks like he's in my nexus...?", //farmer
-    "Qievent.9.2": "I found you.", //lance
-    "Qievent.9.3": "NO!$3#$b#THE HELLION?! OF ALL PEOPLE?!$3", //qi
-    "Qievent.9.4": "The light is... blinding...!", //farmer
+    "Qievent.9.1": "I found you.$49", //lance
+    "Qievent.9.2": "NO!$3#$b#THE HELLION?! OF ALL PEOPLE?!$3", //qi
+    "Qievent.9.3": "The light is... blinding...!", //farmer
     "Qievent.10": "I feel my consciousness fading... #but the... #sound of a warp...?", //farmer
     "Qievent.10.1": "@!$50#$b#@!$50#$b#@!$50", //lance
     "Qievent.10.2": "My bindings... were cut loose...", //farmer
@@ -1477,7 +1477,7 @@
     "Qievent.15.4": "Even if I don't exist in those timelines, I exist in this one!$50#$b#I've finally found my place where I belong!$55", //lance
     "Qievent.15.5": "Lance and Qi are fighting with magic...#The pain from the brand and my broken leg...", //farmer
     //change event to add blood add fighting animations / addmailreceived {{ModId}}_Blood
-    "Qievent.16": "The... #sound... #of... #a... #warp...?", //farmer
+    "Qievent.16": "The... sound... of... a... warp...?", //farmer
     "Qievent.17": "MAG! I LEAVE @ TO YOU!$50", //lance
     "Qievent.18": "...Mag..? #Magnus? #'Wait, Lance, no...!'", //farmer
     "Qievent.18.1": "I'll be back, I promise.$43",
@@ -1521,6 +1521,7 @@
     "Qievent.38": "Good. Now, Camilla, let's return to my tower to progress with the ritual. We leave @ to you, Harvey.", //magnus
     "Qievent.39": "I'll keep you updated, Rasmodius.", //harvey
     "Qievent.40": "Lance...#I hope you're still okay...", //farmer
+    "Qievent.40.1": "You're good to walk around the town, @. Please do not overexert yourself, for all our sakes.",//harvey
     //end event
     //day ending next morning event
     "Qievent.41": "I must be losing my touch.", //qi
@@ -1574,16 +1575,14 @@
     "Qievent.58.11": "Our first night together.",
     //change first slash beach wedding
     "Qievent.58.12": "Our wedding.",
-    //change farmhouse
-    "Qievent.58.13": "Our first night as a married couple.",
-    //change galdora wastes
-    "Qievent.58.14": "The first time I saw him rattled thinking that he could harm me.",
+    //change castle village outpost
+    "Qievent.58.13": "The first time I saw him rattled thinking that he could harm me.",
     //change 13 heart
-    "Qievent.58.15": "His frantic search to bind us.",
+    "Qievent.58.14": "His frantic search to bind us.",
     //change 14 heart
-    "Qievent.58.16": "Our soul bond.",
+    "Qievent.58.15": "Our soul bond.",
     //change backwoods
-    "Qievent.58.17": "We're steadily approaching my nexus.",
+    "Qievent.58.16": "We're steadily approaching my nexus.",
     "Qievent.59": "...$43",
     "Qievent.60": "'How can I help you?'",
     //lance pats ground and sits in front of tree / farmer mimics
@@ -1648,6 +1647,7 @@
     "Qievent.116": "If you could see how your soul looks, you look as if you're being held together with string and hopes.$8", //lance
     "Qievent.117": "Close your eyes and feel the mana circulating between our meridians and consider that as training.$9", //lance
     "Qievent.117.1": "I finished helping circulate mana and left Lance to rest.",
+    "Qievent.117.2": "Ah, @. It'd be in your best interest to take a rest like Lance. We'll see you in the morning.", //harvey
     //end event
     //wait for lance? A day of recovery? Do we want it to be immediate upon the next triggered dialogue?
     "Qievent.118": "'Lance?'",
@@ -1832,6 +1832,7 @@
 
 
     ////Post BDay Wear Earrings
+    "wearEarrings": "Oh those look... absolutely stunning on you...$43",
     "WearEarring.01": "Your magic has definitely refined itself.$97#$b#Wearing those makes me want you even at this moment.$8#$b#Please have mercy on your husband.$97", //addMailReceived wearEarrings
 
     ////PLAYER DEATH SCOLDING

@@ -7,7 +7,21 @@
     "config.Override Generic Dialogue.name": "覆盖通用对话",
     "config.Override Generic Dialogue.description": "覆盖通用的通用对话。仍然会改变某些对话，例如Welwick的预测和其他类似有趣的对话。如果你不打算和兰斯约会，请禁用此选项。",
 
+    "config.JojaBad.name": "JojaBad",
+    "config.JojaBad.values.true": "true",
+    "config.JojaBad.values.false": "false",
+    "config.JojaBad.description": "Toggles whether or not you want to have lore based around the SVE Joja or not, default lore on, means he'll be unromanceable if you go Joja.",
+
+    "config.Portrait": "Portrait",
+    "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
+    "config.Portrait.values.Aviroen Style": "Aviroen Style",
+    "config.Portrait.values.GoodnightLou (Nyapu)": "GoodnightLou (Nyapu)",
+    "config.Portrait.values.Use custom": "使用自定义",
+    "config.Portrait.description": "This toggles the Portraits, if you toggle this off, you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
+
     "config.Use Beach Sprites": "使用海滩图像",
+    "config.Use Beach Sprites.values.true": "true",
+    "config.Use Beach Sprites.values.false": "false",
     "config.Use Beach Sprites.description": "切换游戏是否调用海滩图像。如果你没有海滩图像并且使用的是自定义图像集，请将其设置为false。",
 
     "config.Earring Colour": "耳环颜色",
@@ -16,17 +30,9 @@
     "config.Earring Colour.values.red": "Red",
 
     "config.Darker Plot Events(Y4)": "较黑暗的剧情事件（第4年）",
-    "config.Darker Plot Events(Y4).description": "启用显示兰斯创伤反应的较暗剧情事件。如果你想要更轻松的体验，我建议关闭此选项。注意：包含明显的自我毁灭倾向和模糊的自杀倾向暗示。可能会触发不适场景。（农民会被短暂绑架并被迫对事件保持沉默。）在这些事件中间切换关闭将阻止事件继续进行，你可以先试试看是否适合你。",
-
-    "config.Sprite": "Sprite",
-    "config.Sprite.description": "This toggles the Overworld Sprite.",
-    "config.Sprite.values.Use included": "使用包含的",
-    "config.Sprite.values.Use custom": "使用自定义",
-
-    "config.Portrait": "Portrait",
-    "config.Portrait.description": "This toggles the Portraits, if you toggle this off, you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
-    "config.Portrait.values.Use included": "使用包含的",
-    "config.Portrait.values.Use custom": "使用自定义",
+    "config.Darker Plot Events(Y4).values.true": "true",
+    "config.Darker Plot Events(Y4).values.false": "false",
+    "config.Darker Plot Events(Y4).description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety.",
 
     "config.Spicier Content": "Spicier Content",
     "config.Spicier Content.description": "You are warned that Pepper X is [Aviroen] letting the muzzle off my writer who is a thirsty dog. Carolina Reaper is more explicit than Habanero, Habanero is akin to RRRR's 'wine event' spice. Bell Pepper is rated-E for everyone.",
@@ -66,6 +72,21 @@
     "LancePortrait": "兰斯的肖像",
     "Name.Lance": "兰斯",
 
+    ////Items
+    "Lance.MonsterHunting": "Lance's Spare Khanjar",
+    "Lance.MonsterHunting.Description": "Lance gave me his spare Khanjar for when I want to join him on his monster hunting missions.",
+    "Lance.GDiary": "Grandpa's Diary",
+    "Lance.GDiary.Description": "A diary containing Grandpa's misadventures in the valley.",
+    "Lance.camping": "A Weird Frying Pan",
+    "Lance.camping.Description": "A crudely hammered frying pan made by hand. Lance needs to work more with Clint...",
+    "Lance.mishaps": "A Strange Potion",
+    "Lance.mishaps.Description": "Lance's experimental potion that made Magnus nauseous.",
+    "Lance.rope": "Red Cotton Rope",
+    "Lance.rope.Description": "Beautifully dyed, expertly woven, red cotton rope. I can ask Lance whenever I want to use this.",
+    "Lance.shenanigans": "An Even Stranger Potion",
+    "Lance.shenanigans.Description": "A potion made with some of the most strangest ingredients, useful for Lance's experiments.",
+    "Lance.Razor": "Lance's Razor",
+    "Lance.Razor.Description": "A regular razor, I should let Lance know if I want him to shave his beard off.",
 
     /////////dialogue.json
 
@@ -208,19 +229,17 @@
     "Lance.GreenRainFinished5": "我可能会更多地研究从马格努斯那里学到的药水酿造，我只是...得带点咖啡去。$8",
 
 
-    "wearEarrings": "{{i18n:WearEarring.{{Random:{{Range: 0, 5}}}}}}",
-
     ////////////gift dialogue
-    "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "{{i18n:Lance.GiftAgedBlueMoonWine}}",
-    "AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
-    "AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
-    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
-    "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
-    "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
+    "AcceptGift_(O)StardropTea": "Oh?$10#$b#Is this a tea embued with a Stardrop?$43#$b#Delicious! And it even feels like my magic has recharged.$8#$b#Thank you, my love.$43",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "Something from Sophia's?$10#$b#I'm not much of a wine drinker, but I do appreciate your care, thank you, my love.$43",
+    //"AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
+    //"AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
+    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
+    //"AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
+    //"AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
 
 
     //////////////////////////////////////////////////////////////////////////////////////////////其他婚姻
@@ -1418,33 +1437,117 @@
     "Lance.14Hearts.pepper.20": "你会后悔这么做的。$41",
 
 
-    //////// qi event??????????
-    "Qievent.1": "", //found you
-    "Qievent.1": "", //i hear the sound of a warp, my consciousness is fading # lance......
-    "Qievent.1": "", //it's dark
-    "Qievent.1": "", //my arms are bound
-    "Qievent.1": "", //chair rattling
 
 
-    //// 戴耳环后
-    "WearEarring.01": "你的魔力确实精进了许多。$97#$b#戴着这些耳环让我即使在这一刻也渴望着你。$8#$b#请怜悯你可怜的丈夫吧。$97", // addMailReceived wearEarrings
 
-    /////////////////////////////////////////////////////////////////////////
+    ////Post BDay Wear Earrings
+    "wearEarrings": "Oh those look... absolutely stunning on you...$43",
+    "WearEarring.01": "Your magic has definitely refined itself.$97#$b#Wearing those makes me want you even at this moment.$8#$b#Please have mercy on your husband.$97", //addMailReceived wearEarrings
 
-    //// 玩家死亡责骂
-    "LanceRelationship.Deathq": "#....你生气了吗？ #...抱歉... #....谢谢你救了我.... #这种事不会再发生了。",
-    "LanceRelationship.Death1": "我...无法阻止你鲁莽行事..$81#$b#",
-    "LanceRelationship.Death2": "真",
-    "LanceRelationship.Death3": "不敢",
-    "LanceRelationship.Death4": "相信",
-    "LanceRelationship.Death5": "这",
-    "LanceRelationship.Death6": "不",
-    "LanceRelationship.Death7": "是",
-    "LanceRelationship.Death8": "黄油",
-    "LanceRelationship.Death9": "而",
-    "LanceRelationship.Death10": "是",
-    "LanceRelationship.Death11": "人造黄油",
-    "LanceRelationship.Death12": "哇哦",
-    "Lance_PassOut": "我把这封测试信留给你，我的爱人。",
+    ////PLAYER DEATH SCOLDING
+    "LanceRelationship.Deathq": "Lance looks visibly distraught...#....Are you angry? #...Sorry... #....Thanks for saving me.... #It won't happen again.",
+    "LanceRelationship.Death1": "I'm...$81#$b#I'm not angry.$64#$b#Uncomfortable, worried, anxious, a few other words that escape me right now... That is how I feel.$77",
+    "LanceRelationship.Death2": "For now, I'll accept your apology.$64#$b#I just wish you would take better care of yourself.$77",
+    "LanceRelationship.Death3": "Of course... of course... What kind of mage would I be if I couldn't even protect the one I love...?$64",
+    "LanceRelationship.Death4": "It's not about it 'not happening again' since I know you're an adventurer...$81#$b#I just hope you'll take better care of yourself.$77",
+    "LanceRelationship.Death5": "When you collapsed, I felt my soul shake and it scared me.$64#$b#I thought... I thought something extremely horrible had happened to you.$81#$b#I panicked and caused trouble for Magnus since I was working with him on something.$83#$b#I can only imagine hearing him lecture me for this later, considering I warped without a word.$81#$b#Just rest for now, you're not in any condition to move around.$83",
+    "LanceRelationship.Death6": "As I closed my eyes, I could hear Lance going back to paperwork on his desk as he lets out sighs.#I should really be more careful...",
+    "Lance.Passout.ConversationTopic": "You're up already?$82#$b#Be sure to at least be more prepared for the future.$83#$b#Here, I always have some spare potions.[773]$64#$b#And take this, at least in a pinch I know that you'll be able to make it home.[688]$64#$b#I... I love you, @, and I just want to make sure that we can spend as much time together as possible.$77",
+    "Lance_PassOut": "I leave this letter in our mailbox to remind you to take care of yourself in your adventures, my love. Please make sure to stay safe out there.",
 
+
+    //////////////////////////////////////////////////////////////////////
+    //DATES
+    //do not bother to translate this yet
+    //pelican mines
+    "Pelican.intro": "doot doot",
+    "Pelican.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Pelican.yes": "nyoot nyoot",
+    "Pelican.no": "oh no",
+    "Pelican.intro1": "doot doot",
+    "Pelican.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Pelican.yes1": "nyoot nyoot",
+    "Pelican.no1": "oh no",
+    "Pelican.intro2": "doot doot",
+    "Pelican.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Pelican.yes2": "nyoot nyoot",
+    "Pelican.no2": "oh no",
+    //camping
+    "Camping.intro": "doot doot",
+    "Camping.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Camping.yes": "nyoot nyoot",
+    "Camping.no": "oh no",
+    "Camping.intro1": "doot doot",
+    "Camping.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Camping.yes1": "nyoot nyoot",
+    "Camping.no1": "oh no",
+    "Camping.intro2": "doot doot",
+    "Camping.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Camping.yes2": "nyoot nyoot",
+    "Camping.no2": "oh no",
+    //potion mishaps
+    "Mishaps.intro": "doot doot",
+    "Mishaps.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Mishaps.yes": "nyoot nyoot",
+    "Mishaps.no": "oh no",
+    "Mishaps.intro1": "doot doot",
+    "Mishaps.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Mishaps.yes1": "nyoot nyoot",
+    "Mishaps.no1": "oh no",
+    "Mishaps.intro2": "doot doot",
+    "Mishaps.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Mishaps.yes2": "nyoot nyoot",
+    "Mishaps.no2": "oh no",
+    //grandpa's rememberance
+    "GrandpaR.intro": "doot doot",
+    "GrandpaR.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "GrandpaR.yes": "nyoot nyoot",
+    "GrandpaR.no": "oh no",
+    "GrandpaR.intro1": "doot doot",
+    "GrandpaR.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "GrandpaR.yes1": "nyoot nyoot",
+    "GrandpaR.no1": "oh no",
+    "GrandpaR.intro2": "doot doot",
+    "GrandpaR.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "GrandpaR.yes2": "nyoot nyoot",
+    "GrandpaR.no2": "oh no",
+    //shenanigans
+    "Shenanigans.intro": "doot doot",
+    "Shenanigans.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Shenanigans.yes": "nyoot nyoot",
+    "Shenanigans.no": "oh no",
+    "Shenanigans.intro1": "doot doot",
+    "Shenanigans.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Shenanigans.yes1": "nyoot nyoot",
+    "Shenanigans.no1": "oh no",
+    "Shenanigans.intro2": "doot doot",
+    "Shenanigans.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Shenanigans.yes2": "nyoot nyoot",
+    "Shenanigans.no2": "oh no",
+    //hair raising tension
+    "Rope.intro": "doot doot",
+    "Rope.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Rope.yes": "nyoot nyoot",
+    "Rope.no": "oh no",
+    "Rope.intro1": "doot doot",
+    "Rope.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Rope.yes1": "nyoot nyoot",
+    "Rope.no1": "oh no",
+    "Rope.intro2": "doot doot",
+    "Rope.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Rope.yes2": "nyoot nyoot",
+    "Rope.no2": "oh no",
+    //spore seed
+    "Hensbane.intro": "doot doot",
+    "Hensbane.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Hensbane.yes": "nyoot nyoot",
+    "Hensbane.no": "oh no",
+    "Hensbane.intro1": "doot doot",
+    "Hensbane.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Hensbane.yes1": "nyoot nyoot",
+    "Hensbane.no1": "oh no",
+    "Hensbane.intro2": "doot doot",
+    "Hensbane.q2": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
+    "Hensbane.yes2": "nyoot nyoot",
+    "Hensbane.no2": "oh no"
 }

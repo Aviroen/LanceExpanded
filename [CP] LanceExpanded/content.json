@@ -15,7 +15,7 @@
             "Description": "Toggles whether or not you want to have lore based around the SVE Joja or not, default lore on, means he'll be unromanceable if you go Joja."
         },
         "Portrait": {
-            "AllowValues": "Vanilla Compliant, Aviroen Style, Use Custom",
+            "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), Use Custom",
             "Default": "Vanilla Compliant",
             "Section": "Appearance",
             "Description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned."
@@ -36,7 +36,7 @@
             "AllowValues": "true, false",
             "Default": "true",
             "Section": "Content",
-            "Description": "Enables the somewhat darker string of critical plot events where Lance' trauma response is on full display. If you would prefer a more light-hearted experience I suggest you turn this off. TW: Overt self-destructive  tendencies and vague suicidal tendency implications. Potentially may possess triggering scenarios. (The farmer is briefly kidnapped and sealed into silence about the event.) Toggling this off in the middle of said events will stop them from continuing so you may test it out to see if it's for you."
+            "Description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety."
         },
         "Spicier Content": {
             "AllowValues": "Bell Pepper, Habanero, Carolina Reaper, Pepper X",
