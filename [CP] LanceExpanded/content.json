@@ -34,7 +34,7 @@
         },
         "Darker Plot Events(Y4)": {
             "AllowValues": "true, false",
-            "Default": "true",
+            "Default": "false",
             "Section": "Content",
             "Description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety."
         },
@@ -156,18 +156,6 @@
                 "DayOfWeek": "Saturday"
             }
         },
-        //wedding token
-        {
-            "Name": "WeddingDay",
-            "Value": false
-        },
-        {
-            "Name": "WeddingDay",
-            "Value": true,
-            "When": {
-                "DayEvent": "wedding"
-            }
-        },
         //SPICE FACTOR
         {
             "Name": "Spice",
@@ -202,32 +190,6 @@
 
     ////////////////////////////////////////////////////////// START OF CHANGES
     "Changes": [
-
-        { //Load Sparkle sprite
-            "LogName": "Load EarringSparkle",
-            "Action": "Load",
-            "Target": "Characters/EarringSparkle",
-            "FromFile": "assets/Characters/EarringSparkle.png"
-        },
-
-        { //Load Player Earrings
-            "LogName": "Load PlayerEarring",
-            "Action": "Load",
-            "Target": "Characters/PlayerEarring",
-            "When": {
-                "Earring Colour": "turquoise"
-            },
-            "FromFile": "assets/Characters/PlayerEarring.png"
-        },
-        { //Load Player Earrings
-            "LogName": "Load PlayerEarring Alt",
-            "Action": "Load",
-            "Target": "Characters/PlayerEarring",
-            "When": {
-                "Earring Colour": "red"
-            },
-            "FromFile": "assets/Characters/PlayerEarringAlt.png"
-        },
         {
             "LogName": "Lance Edits",
             "Action": "EditData",

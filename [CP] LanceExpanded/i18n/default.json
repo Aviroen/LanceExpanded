@@ -81,6 +81,10 @@
     "Lance.GDiary.Description": "A diary containing Grandpa's misadventures in the valley.",
     "Lance.camping": "A Weird Frying Pan",
     "Lance.camping.Description": "A crudely hammered frying pan made by hand. Lance needs to work more with Clint...",
+    "Lance.camping1": "A Better Frying Pan",
+    "Lance.camping1.Description": "Lance sought out instruction from a prestigious blacksmith by the name of Pau. It looks much better.",
+    "Lance.camping2": "A Great Frying Pan",
+    "Lance.camping2.Description": "Further instruction from the prestigious blacksmith, Pau. Lance has really outdone himself this time.",
     "Lance.mishaps": "A Strange Potion",
     "Lance.mishaps.Description": "Lance's experimental potion that made Magnus nauseous.",
     "Lance.rope": "Red Cotton Rope",
@@ -1521,7 +1525,7 @@
     "Qievent.38": "Good. Now, Camilla, let's return to my tower to progress with the ritual. We leave @ to you, Harvey.", //magnus
     "Qievent.39": "I'll keep you updated, Rasmodius.", //harvey
     "Qievent.40": "Lance...#I hope you're still okay...", //farmer
-    "Qievent.40.1": "You're good to walk around the town, @. Please do not overexert yourself, for all our sakes.",//harvey
+    "Qievent.40.1": "You're good to walk around the town, @. Please do not overexert yourself, for all our sakes.", //harvey
     //end event
     //day ending next morning event
     "Qievent.41": "I must be losing my touch.", //qi
@@ -1849,12 +1853,20 @@
 
     //////////////////////////////////////////////////////////////////////
     //DATES
-
+    //shave that beard
+    "Razor.intro": "Oh, @. Harvey said that I'm finally free to go back to my... *Ahem* 'Facial Maintenance'.$4#$b#Though after so long, I contemplated if I should just keep my face this way.$11",
+    "Razor.q": "'What do you think, love?'#'I do love a clean shaven man...'#'Honestly... the beard looks good.'",
+    "Razor.yes": "A clean shaven man, huh?$11#$b#You'll have to remind me every now and then if it gets too bothersome.$8",
+    "NoBeard": "I definitely feel refreshed, thank you, my love.$8",
+    "Razor.no": "Oh?$10#$b#I see you enjoy a rugged man?$15#$b#I jest, but I'll keep the beard going if you're enjoying it, my love.$$17",
+    "Razor.intro1": "Oh, @! Sorry, has my beard gotten out of hand?$9#$b#Should I shave this time, or not?$11",
+    "Razor.yes1": "A clean shaven man, huh?$8#$b#You'll have to remind me if it gets too unweildy, work keeps my attention more as of late.$9#$b#I'll get right on going back to clean and sparkly.$11",
+    "Razor.no1": "Enjoying it to the fullest, are we?$8#$b#I jest, do let me know if you feel the need for change, though.$11",
     //pelican mines
-    "Pelican.intro": "doot doot",
-    "Pelican.q": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
-    "Pelican.yes": "nyoot nyoot",
-    "Pelican.no": "oh no",
+    "Pelican.intro": "Before you leave, my love!$8#$b#Marlon was asking me to scout the bottom of the mines because there have been some strange monster activities.$6#$b#If you're free, would you like to come along?$7",
+    "Pelican.q": "Do I join Lance in the mines?#Sure!#Sorry, not today.",
+    "Pelican.yes": "Oh, good! Well, if you're ready, shall we head out?$11",
+    "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later.[Aviroen.LanceExpanded_Khanjar]",
     "Pelican.intro1": "doot doot",
     "Pelican.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
     "Pelican.yes1": "nyoot nyoot",

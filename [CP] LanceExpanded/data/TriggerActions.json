@@ -27,7 +27,7 @@
                         "MarkEventSeen Current 65360193 false", //jolyne, first slash guest room
                         "MarkEventSeen Current 65360194 false", //10 heart intro
                         "MarkEventSeen Current 65360195 false", //10 heart main
-                        "MarkEventSeen Current 65360195_CuddleLance false", //cuddle opt
+                        "MarkEventSeen Current LEWorkday_cuddle false", //cuddle opt
                         "MarkEventSeen Current 65360196 false", //10 heart missed
                         "MarkEventSeen Current 65360197 false", //12 heart return scepter
                         "MarkEventSeen Current 65360198 false", //12 heart lancemeetskrobus flag req
@@ -41,7 +41,6 @@
                         "MarkEventSeen Current LECreed_wandering false",
                         "MarkEventSeen Current LECreed_gil false",
                         "MarkEventSeen Current LECreed_resupply false",
-                        "MarkEventSeen Current LEWorkday_cuddle false",
                         "MarkEventSeen Current LEBattleground false",
                         "MarkEventSeen Current LEShadowpeople false",
                         "MarkEventSeen Current LECamillaTutelage false",
@@ -87,6 +86,41 @@
                     "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 1925178, {{Darker Plot Events(Y4) |contains=true}}",
                     "Actions": [
                         "MarkEventSeen Current 1925179 true"
+                    ]
+                },
+                "{{ModId}}_QiLanceHealth": {
+                    "Id": "{{ModId}}_QiLanceHealth",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LanceQi",
+                    "Actions": [
+                        "IncrementStat Current DaysSinceQiEvent",
+                        "MarkActionApplied Current {{ModId}}_QiLanceHealth false"
+                    ]
+                },
+                "{{ModId}}_QiLanceHealthEyepatchRemover": {
+                    "Id": "{{ModId}}_QiLanceHealthEyepatchRemover",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current DaysSinceQiEvent 14 14",
+                    "Actions": [
+                        "RemoveMail Current {{ModId}}_Eyepatch all"
+                    ]
+                },
+                "{{ModId}}_QiLanceHealthSteriRemover": {
+                    "Id": "{{ModId}}_QiLanceHealthSteriRemover",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current DaysSinceQiEvent 28 28",
+                    "Actions": [
+                        "RemoveMail Current {{ModId}}_Steri all",
+                        "MarkActionApplied Current {{ModId}}_QiLanceHealth true"
+                    ]
+                },
+                "{{ModId}}_TheBeardCounter": {
+                    "Id": "{{ModId}}_TheBeardCounter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319, {{Query: ({{DaysPlayed}} % 28 = 0)}}",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Beard received",
+                        "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
                     ]
                 },
                 /* change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
