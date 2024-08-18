@@ -20,12 +20,6 @@
             "Section": "Appearance",
             "Description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned."
         },
-        "Use Beach Sprites": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            "Section": "Appearance",
-            "Description": "Toggles on and off whether or not the game calls a beach sprite. Please change this to false if you do not have beach sprites and are using a custom sprite set."
-        },
         "Earring Colour": {
             "AllowValues": "turquoise, red",
             "Default": "turquoise",
@@ -221,12 +215,14 @@
         //////// BEGIN THE INCLUDE WAVE
         {
             "Action": "Include",
-            "FromFile": "data/DeathInsurance.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/MarriageDialogue.json, data/Outfits.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
+            "FromFile": "data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/MarriageDialogue.json, data/Outfits.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
         },
+/*
         {
             "Action": "Include",
             "FromFile": "data/{{Spice}}/dates.json"
         },
+    */
         //////////////////////////////////////WEDDING CODE
         //custom wedding toggler
         {

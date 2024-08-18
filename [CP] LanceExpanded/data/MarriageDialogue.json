@@ -141,7 +141,8 @@
                 "Sat": "{{i18n:Lance.MarriageDialogue_sat{{Random:{{Range: 0, 5}}}}}}",
                 "{{ModId}}_WearEarrings": "{{i18n:wearEarrings}}",
                 "{{ModId}}_PostWearEarrings": "{{i18n:WearEarring.01}}",
-                "{{ModId}}_NoBeard": "{{i18n:NoBeard}}"
+                "{{ModId}}_NoBeard": "{{i18n:NoBeard}}",
+                "{{ModId}}_YesBeard": "{{i18n:YesBeard}}"
             }
         }
     ]

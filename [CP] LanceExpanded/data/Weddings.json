@@ -5,7 +5,7 @@
             "LogName": "Date: Load Attendees",
             "Action": "Load",
             "Target": "Characters/FirstSlashATTEND",
-            "FromFile": "assets/Characters/FirstSlashATTEND.png",
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
 
         { //well here we go female spotted

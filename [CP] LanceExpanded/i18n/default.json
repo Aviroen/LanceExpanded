@@ -1,7 +1,7 @@
 {
 
     //// ***C O N F I G***////
-
+    //CHANGED DIALOGUE
     "config.section.Content.name": "Content",
     "config.section.Content.description": "Alters the content active in the mod. Please make sure these are configured properly!",
 
@@ -19,11 +19,6 @@
     "config.Portrait.values.GoodnightLou (Nyapu)": "GoodnightLou (Nyapu)",
     "config.Portrait.values.Use Custom": "Use Custom",
     "config.Portrait.description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
-
-    "config.Use Beach Sprites": "Use Beach Sprites",
-    "config.Use Beach Sprites.values.true": "true",
-    "config.Use Beach Sprites.values.false": "false",
-    "config.Use Beach Sprites.description": "Toggles on and off whether or not the game calls a beach sprite. Please change this to false if you do not have beach sprites and are using a custom sprite set.",
 
     "config.Earring Colour": "Earring Colour",
     "config.Earring Colour.description": "Changes the colour of Lance' eventual earring gift in the event. Please pick which suit you better. To actually wear them in game, please install the Fashion sense pack.",
@@ -74,6 +69,7 @@
     "LancePortrait": "Lance's Portrait",
     "Name.Lance": "Lance",
 
+    //CHANGED DIALOGUE
     ////Items
     "Lance.MonsterHunting": "Lance's Spare Khanjar",
     "Lance.MonsterHunting.Description": "Lance gave me his spare Khanjar for when I want to join him on his monster hunting missions.",
@@ -1085,6 +1081,7 @@
     "Lance.4Heart.15": "The 'Blink Relic' was given back to Lance.",
     "Lance.4Heart.16": "When you see Camilla, try not to fall prey to her jokes. I'm sure that she'll be a handful as soon as she sees your potential. Have a good day, sweetheart.$5",
 
+    //CHANGED DIALOGUE
     ////Lance 5 Heart camilla's appearance
     "Lance.5Heart.01": "Ah, sweetheart, I didn't expect you to visit me at this time.$10", //ah player about to head out
     "Lance.5Heart.02": "I tell Lance that I met Camilla.", //talk about meeting camilla
@@ -1208,6 +1205,7 @@
     "Lance.11Hearts.13": "I must go...$77#$b#I have something I need to do at the Ministry...$81",
     "Lance.11Hearts.14": "Lance left in a hurry...#I was definitely scared, but I wonder what came over him at the last minute...?",
 
+    //CHANGED DIALOGUE
     ////Lance 12 Heart shadowperson, meeting krobus
     "Lance12hearts1.01": "The surge of mana sends a chill through Lance's spine.",
     "Lance12hearts1.02": "@!$99#$b#I didn't realize you'd be home so early.$13",
@@ -1422,6 +1420,7 @@
     "Lance.14Hearts.pepper.19": "*I squeezed his head inbetween my legs.*#I don't know, can you?",
     "Lance.14Hearts.pepper.20": "You'll regret doing that.$41",
 
+    //CHANGED DIALOGUE
     //qi map strings
     "Qiroom.1": "There is no escape.",
 
@@ -1834,7 +1833,7 @@
     "Qievent.196": "I still wonder what Qi even was.",
 
 
-
+    //CHANGED DIALOGUE
     ////Post BDay Wear Earrings
     "wearEarrings": "Oh those look... absolutely stunning on you...$43",
     "WearEarring.01": "Your magic has definitely refined itself.$97#$b#Wearing those makes me want you even at this moment.$8#$b#Please have mercy on your husband.$97", //addMailReceived wearEarrings
@@ -1850,7 +1849,7 @@
     "Lance.Passout.ConversationTopic": "You're up already?$82#$b#Be sure to at least be more prepared for the future.$83#$b#Here, I always have some spare potions.[773]$64#$b#And take this, at least in a pinch I know that you'll be able to make it home.[688]$64#$b#I... I love you, @, and I just want to make sure that we can spend as much time together as possible.$77",
     "Lance_PassOut": "I leave this letter in our mailbox to remind you to take care of yourself in your adventures, my love. Please make sure to stay safe out there.",
 
-
+    //CHANGED DIALOGUE
     //////////////////////////////////////////////////////////////////////
     //DATES
     //shave that beard
@@ -1858,6 +1857,8 @@
     "Razor.q": "'What do you think, love?'#'I do love a clean shaven man...'#'Honestly... the beard looks good.'",
     "Razor.yes": "A clean shaven man, huh?$11#$b#You'll have to remind me every now and then if it gets too bothersome.$8",
     "NoBeard": "I definitely feel refreshed, thank you, my love.$8",
+    "YesBeard": "I'll have to get used to the scratchiness.$11#$b#!!$42#$b#I can see you're really enjoying it, my love.$43",
+
     "Razor.no": "Oh?$10#$b#I see you enjoy a rugged man?$15#$b#I jest, but I'll keep the beard going if you're enjoying it, my love.$$17",
     "Razor.intro1": "Oh, @! Sorry, has my beard gotten out of hand?$9#$b#Should I shave this time, or not?$11",
     "Razor.yes1": "A clean shaven man, huh?$8#$b#You'll have to remind me if it gets too unweildy, work keeps my attention more as of late.$9#$b#I'll get right on going back to clean and sparkly.$11",
@@ -1866,7 +1867,19 @@
     "Pelican.intro": "Before you leave, my love!$8#$b#Marlon was asking me to scout the bottom of the mines because there have been some strange monster activities.$6#$b#If you're free, would you like to come along?$7",
     "Pelican.q": "Do I join Lance in the mines?#Sure!#Sorry, not today.",
     "Pelican.yes": "Oh, good! Well, if you're ready, shall we head out?$11",
-    "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later.[Aviroen.LanceExpanded_Khanjar]",
+    "Pelican.1": "We've finally made it, it doesn't look like anything's around though.$31",
+    "Pelican.2": "We can take this chance to take a breath.$43",
+    "Pelican.3": "'Do you regularly go to the bottom of the mines?'",
+    "Pelican.4": "You jest! I'm the one that deemed the mines explorable.$15",
+    "Pelican.5": "Care to sit?$43#$b#Upkeeping my magic is wearying, but it's better safe than sorry.$41",
+    "Pelican.6": "This would be a great time to ask...#Why do you and Magnus have such a hard time?#Why does Camilla treat you like her son?#Have you ever seen a shrine here?#What's Castle Village like?#",
+
+    "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [Aviroen.LanceExpanded_Khanjar]",
+
+    "PelicanYesAfter": "'Wait, Lance!'",
+    "PelicanYesAfter.1": "Oh? My khanjar?$11#$b#Did you want to go with me?",
+    "PelicanYesAfter.2": "Well then, no time like the present! Let's head out.$11",
+
     "Pelican.intro1": "doot doot",
     "Pelican.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
     "Pelican.yes1": "nyoot nyoot",

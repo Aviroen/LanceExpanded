@@ -3,7 +3,10 @@
         {
             "LogName": "To Shave Or Not To Shave",
             "Action": "EditData",
-            "When": { "Portraits": "Vanilla Compliant", "HasMail": "{{ModId}}_Beard" },
+            "When": {
+                "Portrait": "Vanilla Compliant",
+                "HasMail": "{{ModId}}_Beard"
+            },
             "Target": "data/Events/{{FarmHouse}}",
             "Entries": {
                 "LELanceRazor/O Lance/LanceQi": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 1/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes(break)switchEvent Razor.no",
@@ -14,7 +17,10 @@
         {
             "LogName": "To Shave Or Not To Shave That Is The Question",
             "Action": "EditData",
-            "When": { "Portraits": "Vanilla Compliant", "HasMail": "{{ModId}}_Beard" },
+            "When": {
+                "Portrait": "Vanilla Compliant",
+                "HasMail": "{{ModId}}_Beard"
+            },
             "Target": "data/Events/{{FarmHouse}}",
             "Entries": {
                 "LELanceRazor2/O Lance/": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 1/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro1}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes1(break)switchEvent Razor.no1",
@@ -26,10 +32,27 @@
             "LogName": "Monster Hunting Pelican Mines",
             "Action": "EditData",
             "Target": "data/Events/Farm",
+            //"When": {"HasSeenEvent": "LEDeathly"},
             "Entries": {
-                "LEDatePelican/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/quickQuestion {{i18n:Pelican.q}}(break)switchEvent Pelican.yes(break)switchEvent Pelican.no",
-                "Pelican.yes": "pause 300/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/addMailReceived {{ModId}}_PelicanOnce/end",
-                "Pelican.no": "end"
+                "LEDatePelican/O Lance/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/quickQuestion {{i18n:Pelican.q}}(break)switchEvent PelicanYesAfter (break)switchEvent Pelican.no",
+                "Pelican.no": "pause 300/speak Lance \"{{i18n:Pelican.no}}\"/addmailreceived {{ModId}}_PelicanNo1/end"
+            }
+        },
+        {
+            "LogName": "Monster Hunting Pelican Mines No But Returned",
+            "Action": "EditData",
+            "Target": "data/Events/Farm",
+            "When": { "HasFlag": "{{ModId}}_PelicanNo1" },
+            "Entries": {
+                "LEDatePelican/O Lance/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp Lance 64 15/pause 500/move Lance 0 2 2/playSound doorClose/warp farmer 64 15/pause 300/faceDirection Lance 1 true/pause 100/message \"{{i18n:PelicanYesAfter}}\"/faceDirection Lance 0/pause 300/emote farmer 32/pause 100/emote Lance 32/globalFade/viewport -1000 -1000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/viewport -1000 -1000/faceDirection farmer 0/faceDirection Lance 0/switchEvent PelicanYesAfter"
+            }
+        },
+        {
+            "LogName": "Monster Hunting Yes After",
+            "Action": "EditData",
+            "Target": "data/events/temp",
+            "Entries": {
+                "PelicanYesAfter": "pause 300/viewport -1000 -1000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/viewport -1000 -1000/faceDirection farmer 0/faceDirection Lance 0/playSound doorClose/warp Lance 6 386/positionOffset Lance 0 1/pause 100/positionOffset Lance 0 1/pause 100/positionOffset Lance 0 1/pause 100/positionOffset Lance 0 1/pause 100/faceDirection Lance 2/move Lance 6 0 3/playSound doorClose/warp farmer 6 386/positionOffset farmer 0 1/pause 100/positionOffset farmer 0 1/pause 100/positionOffset farmer 0 1/pause 100/positionOffset farmer 0 1/pause 100/faceDirection farmer 2/move farmer 5 0 1/end"
             }
         },
         {
@@ -39,7 +62,7 @@
             "When": { "HasFlag |contains={{ModId}}_PelicanOnce": true },
             "Entries": {
                 "LEDatePelican/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro1}}\"/quickQuestion {{i18n:Pelican.q1}}(break)switchEvent Pelican.yes1(break)switchEvent Pelican.no1",
-                "Pelican.yes1": "/addMailReceived {{ModId}}_PelicanTwice/end",
+                "Pelican.yes1": "end",
                 "Pelican.no1": "end"
             }
         },
@@ -47,7 +70,7 @@
             "LogName": "Monster Hunting Pelican Mines",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            "When": { "HasFlag |contains={{ModId}}_PelicanTwice": true },
+            "When": { "HasFlag |contains={{ModId}}_PelicanOnce": true },
             "Entries": {
                 "LEDatePelican/O Lance/y 1000/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro2}}\"/quickQuestion {{i18n:Pelican.q2}}(break)switchEvent Pelican.yes2(break)switchEvent Pelican.no2",
                 "Pelican.yes2": "end",

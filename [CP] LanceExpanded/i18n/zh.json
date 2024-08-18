@@ -19,11 +19,6 @@
     "config.Portrait.values.Use custom": "使用自定义",
     "config.Portrait.description": "This toggles the Portraits, if you toggle this off, you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
 
-    "config.Use Beach Sprites": "使用海滩图像",
-    "config.Use Beach Sprites.values.true": "true",
-    "config.Use Beach Sprites.values.false": "false",
-    "config.Use Beach Sprites.description": "切换游戏是否调用海滩图像。如果你没有海滩图像并且使用的是自定义图像集，请将其设置为false。",
-
     "config.Earring Colour": "耳环颜色",
     "config.Earring Colour.description": "更改兰斯事件中赠送的耳环颜色。请选取最适合你的颜色。要在游戏中佩戴耳环，请安装时尚感包。",
     "config.Earring Colour.values.turquoise": "Turquoise",

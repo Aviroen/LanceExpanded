@@ -55,26 +55,28 @@
 			}
 		},
 */
-        ///////////////////////////////// DEBUG THIS EVENT NEXT DUMBASS
-        { //Lance 5 heart EVENT - Camilla's Appearance
-            "LogName": "Heart Event - 5",
-            "Action": "EditData",
-            "Target": "data/events/Custom_AdventurerSummit",
-            "Entries": {
-                "LECamillaAppearance/e 7775926/f Lance 1250/": "continue/-10000 -1000/farmer -100 -100 2 Lance -1000 -1000 2 Camilla -10000 -10000 0 /skippable/warp farmer -100 -100/warp Lance -1000 -1000/warp Camilla -1000 -1000/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/move farmer 20 0 1/waitForAllStationary/end"
-            }
-        },
+
         { //Lance 7 heart EVENT - An Adventurer's Creed
             "LogName": "Heart Event - 7",
             "Action": "EditData",
             "Target": "data/events/AdventureGuild",
             "Entries": {
-                "LECreed/e 65360190/f Lance 1750/": "continue/-1000 -1000/farmer -100 -100 0 Lance -100 -100 0 MarlonFay 4 11 2/skippable/viewport 6 20 clamp/warp Lance 6 13/shake Lance 300/textAboveHead Lance \"{{i18n:Lance.7Heart.01}}\"/pause 500/playSound doorClose/warp farmer 6 19/speak Lance \"{{i18n:Lance.7Heart.02}}\"/pause 400/speak Marlon \"{{i18n:Lance.7Heart.03}}\"/pause 300/shake Lance 200/faceDirection Lance 2/speak Lance \"{{i18n:Lance.7Heart.04}}\"/quickQuestion {{i18n:Lance.7Heart.05.q}}(break)switchEvent LECreed_wandering(break)switchEvent LECreed_gil(break)switchEvent LECreed_resupply",
+                "LECreed/e 65360190/f Lance 1250/": "continue/-1000 -1000/farmer -100 -100 0 Lance -100 -100 0 MarlonFay 4 11 2/skippable/viewport 6 20 clamp/warp Lance 6 13/shake Lance 300/textAboveHead Lance \"{{i18n:Lance.7Heart.01}}\"/pause 500/playSound doorClose/warp farmer 6 19/speak Lance \"{{i18n:Lance.7Heart.02}}\"/pause 400/speak Marlon \"{{i18n:Lance.7Heart.03}}\"/pause 300/shake Lance 200/faceDirection Lance 2/speak Lance \"{{i18n:Lance.7Heart.04}}\"/quickQuestion {{i18n:Lance.7Heart.05.q}}(break)switchEvent LECreed_wandering(break)switchEvent LECreed_gil(break)switchEvent LECreed_resupply",
                 "LECreed_wandering": "pause 200/speak Lance \"{{i18n:Lance.7Heart.06}}\"/pause 300/speak Lance \"{{i18n:Lance.7Heart.09}}\"/end invisible Lance",
                 "LECreed_gil": "pause 200/speak Lance \"{{i18n:Lance.7Heart.07}}\"/pause 300/speak Lance \"{{i18n:Lance.7Heart.09}}\"/end invisible Lance",
                 "LECreed_resupply": "pause 200/speak Lance \"{{i18n:Lance.7Heart.08}}\"/pause 300/speak Lance \"{{i18n:Lance.7Heart.09}}\"/end invisible Lance"
             }
         },
+        ///////////////////////////////// CHANGE THIS EVENT, DUMBASS
+        { //Lance 5 heart EVENT - Camilla's Appearance
+            "LogName": "Heart Event - 5",
+            "Action": "EditData",
+            "Target": "data/events/Custom_AdventurerSummit",
+            "Entries": {
+                "LECamillaAppearance/e 7775926/f Lance 1750/": "end"
+            }
+        },
+
         { //Lance 9 heart EVENT - Jolyne's Concerns
             "LogName": "Heart Event - 9",
             "Action": "EditData",
@@ -105,73 +107,73 @@
             "LogName": "Fallen Adv Female",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerFemale",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen female
             "LogName": "Fallen Adv Female",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerFemale1",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen female
             "LogName": "Fallen Adv Female",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerFemale2",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen female
             "LogName": "Fallen Adv Female",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerFemale3",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen male
             "LogName": "Fallen Adv Male",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerMale",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen male
             "LogName": "Fallen Adv Male",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerMale1",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen male
             "LogName": "Fallen Adv Male",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerMale2",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load fallen male
             "LogName": "Fallen Adv Male",
             "Action": "Load",
             "Target": "Characters/FallenAdventurerMale3",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load lance magic
             "LogName": "Green Flame",
             "Action": "Load",
             "Target": "Characters/gFlame",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load lance magic
             "LogName": "Green Flame",
             "Action": "Load",
             "Target": "Characters/gFlame1",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load lance magic
             "LogName": "Green Flame",
             "Action": "Load",
             "Target": "Characters/gFlame2",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Load lance magic
             "LogName": "Green Flame",
             "Action": "Load",
             "Target": "Characters/gFlame3",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
         { //Lance 11 heart EVENT - War Recollections
             "LogName": "Heart Event - 11",
@@ -236,7 +238,7 @@
             "LogName": "Ritual Circle",
             "Action": "Load",
             "Target": "Characters/ritualcircle",
-            "FromFile": "assets/EventActors/{{Target}}.png"
+            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
         },
 
         { //Lance 13 pt 4 heart EVENT - Lance's Gift // help from marlon, clint, magnus, camilla, and alesia, lance created the defensive artifact for himself for first part of ritual // gets farmer to imbue magic into it as the farmer pierces his other ear // once ritual is done, lance tells farmer next part will come soon
