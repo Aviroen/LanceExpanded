@@ -122,13 +122,13 @@
                 "AcceptGift_(O)416": "{{i18n:Married.GiftReaction_Snow_Yam}}",
                 "AcceptGift_(O)417": "{{i18n:Married.GiftReaction_Sweet_Gem_Berry}}",
                 "AcceptGift_(O)423": "{{i18n:Married.GiftReaction_Rice}}",
-                "AcceptGift_(O)Aviroen.LanceExpanded_Khanjar": "$v LEDatePelican true false",
-                "AcceptGift_(O)Aviroen.LanceExpanded_Book": "$v LEDateGrandpa true false",
-                "AcceptGift_(O)Aviroen.LanceExpanded_camping": "$v LEDateCamping true false",
-                "AcceptGift_(O)Aviroen.LanceExpanded_mishaps": "$v LEDateMishaps true false",
-                "AcceptGift_(O)Aviroen.LanceExpanded_Rope": "$v LEDateRope true false",
-                "AcceptGift_(O)Aviroen.LanceExpanded_shenanigans": "$v LEDateShenanigans true false",
-                "AcceptGift_(O)Aviroen.LanceExpanded_Razor": "$v LELanceRazor true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_Khanjar": "$v {{Random:{{LEDatePelican}}}} true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_Book": "$v {{Random:{{LEDateGrandpa}}}} true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_camping": "$v {{Random:{{LEDateCamping}}}} true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_mishaps": "$v {{Random:{{LEDateMishaps}}}} true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_Rope": "$v {{Random:{{LEDateRope}}}} true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_shenanigans": "$v {{Random:{{LEDateShenanigans}}}} true false",
+                "AcceptGift_(O)Aviroen.LanceExpanded_Razor": "$v {{Random:{{LELanceRazor}}}} true false",
 
                 ///sve related
                 /*

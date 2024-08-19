@@ -8,8 +8,19 @@
             "Target": "Data/TriggerActions",
             "Entries": {
                 //Reset Lance Events
-                "{{ModId}}_SVEHHRemover": {
-                    "Id": "{{ModId}}_SVEHHRemover",
+                /*
+                "{{ModId}}_SVESilencer": {
+                    "Id": "{{ModId}}_SVESilencer",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319",
+                    "Actions": [
+                        "MarkEventSeen Current GET READY FOR SVE 1.15 true",
+                        "MarkActionApplied Current {{ModId}}_SVESilencer false"
+                    ]
+                },
+                */
+                "{{ModId}}_EventExodus": {
+                    "Id": "{{ModId}}_EventExodus",
                     "Trigger": "DayStarted",
                     "Condition": "{{HeartEvents |contains=LanceExpanded}}",
                     "Actions": [
@@ -117,7 +128,7 @@
                 "{{ModId}}_TheBeardCounter": {
                     "Id": "{{ModId}}_TheBeardCounter",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319, {{Query: ({{DaysPlayed}} % 28 = 0)}}",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319, {{Query: ({{DaysPlayed}} % 28 = 0)}}, {{Portrait |contains=Vanilla Compliant}}",
                     "Actions": [
                         "AddMail Current {{ModId}}_Beard received",
                         "MarkActionApplied Current {{ModId}}_TheBeardCounter false"

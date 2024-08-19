@@ -178,6 +178,144 @@
             "When": {
                 "Spicier Content": "Pepper X"
             }
+        },
+        /////////////////////////////DATE DYNAMIC TOKENS randomization between year 1 and year 2 and beyond maybe
+        {
+            "Name": "DatePelican",
+            "Value": "LEDatePelican"
+        },
+        {
+            "Name": "DatePelican",
+            "When": {
+                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+            },
+            "Value": "LEDatePelican2"
+        },
+        {
+            "Name": "DateGrandpa",
+            "Value": "LEDateGrandpa"
+        },
+        {
+            "Name": "DateGrandpa",
+            "When": {
+                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+            },
+            "Value": "LEDateGrandpa2"
+        },
+        {
+            "Name": "DateCamping",
+            "Value": "LEDateCamping"
+        },
+        {
+            "Name": "DateCamping",
+            "When": {
+                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+            },
+            "Value": "LEDateCamping2"
+        },
+        {
+            "Name": "DateMishaps",
+            "Value": "LEDateMishaps"
+        },
+        {
+            "Name": "DateMishaps",
+            "When": {
+                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+            },
+            "Value": "LEDateMishaps2"
+        },
+        {
+            "Name": "DateRope",
+            "Value": "LEDateRope"
+        },
+        {
+            "Name": "DateRope",
+            "When": {
+                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+            },
+            "Value": "LEDateRope2"
+        },
+        {
+            "Name": "DateShenanigans",
+            "Value": "LEDateShenanigans"
+        },
+        {
+            "Name": "DateShenanigans",
+            "When": {
+                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+            },
+            "Value": "LEDateShenanigans2"
+        },
+        //pelican mines switchcase hell
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PMagnus"
+            },
+            "Value": "Magnus"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PCamilla"
+            },
+            "Value": "Camilla"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PShrine"
+            },
+            "Value": "Shrine"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PCastle"
+            },
+            "Value": "Castle"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PLike"
+            },
+            "Value": "Like"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PWar"
+            },
+            "Value": "War"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PFirstSlash"
+            },
+            "Value": "FirstSlash"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PApprentice"
+            },
+            "Value": "Apprentice"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PAge"
+            },
+            "Value": "Age"
+        },
+        {
+            "Name": "PelicanMines",
+            "When": {
+                "HasFlag": "{{ModId}}_PFamily"
+            },
+            "Value": "Family"
         }
     ],
 
@@ -224,25 +362,6 @@
         },
     */
         //////////////////////////////////////WEDDING CODE
-        //custom wedding toggler
-        {
-            "Action": "Load",
-            "Target": "data/Weddings",
-            "FromFile": "data/Blank.json",
-            "Priority": "Low",
-            "When": {
-                "Relationship:Lance": "Engaged",
-                "Custom Wedding": true
-            }
-        },
-        {
-            "Action": "Include",
-            "FromFile": "data/Weddings.json",
-            "When": {
-                "Relationship:Lance": "Engaged",
-                "Custom Wedding": true
-            }
-        },
         //spouse room edit
         {
             "Action": "Load",

@@ -1083,12 +1083,15 @@
 
     //CHANGED DIALOGUE
     ////Lance 5 Heart camilla's appearance
-    "Lance.5Heart.01": "Ah, sweetheart, I didn't expect you to visit me at this time.$10", //ah player about to head out
-    "Lance.5Heart.02": "I tell Lance that I met Camilla.", //talk about meeting camilla
-    "Lance.5Heart.03": "Have you? Junimos, huh? Forest Sprites are definitely extremely fascinating.$14#$b#Was she just as eccentric as I warned?$9", //how was she/just as eccentric as i warned
-    "Lance.5Heart.04": "She definitely was! Is she the reason why you're so 'flirty'?", //reasons why i'm flirty?
-    "Lance.5Heart.05": "*hahaha*", //lance laughs
-    "Lance.5Heart.06": "Possibly!$15#$b#She hates to say it, but she definitely treated me as if I was her own child!$8#$b# That is a longer story for another day, however, I am being called upon for work. I'll see you later, sweetheart.$5", //possibly, she is like a mother figure to me, but that is a story for another day, being called to work 
+    "Lance.5Heart.01": "You BRAT!$7",
+    "Lance.5Heart.02": "Why didn't you tell me you were taking up Marlon's mercenary contract here?!$7",
+    "Lance.5Heart.03": "Camilla!$100#$b#I--I meant to tell you...$98",
+    "Lance.5Heart.04": "And WHEN exactly was that gonna be?!$3#$b#If it weren't for Marlon asking for more supplies because you're here, I would've never known!$7",
+    "Lance.5Heart.05": "Even Razzy knew before me!$2#$b#Is it because there's someone you're interested in?$1",
+    "Lance.5Heart.06": "Ah!$100#$b#N-No.. No one in particular...$98",
+    "Lance.5Heart.07": "AH HAH!$6",
+    "Lance.5Heart.08": "So who is it?!",
+    "Lance.5Heart.09": "Huh?",
 
 
     ////Lance 6 Heart elemental war recollection
@@ -1860,7 +1863,7 @@
     "YesBeard": "I'll have to get used to the scratchiness.$11#$b#!!$42#$b#I can see you're really enjoying it, my love.$43",
 
     "Razor.no": "Oh?$10#$b#I see you enjoy a rugged man?$15#$b#I jest, but I'll keep the beard going if you're enjoying it, my love.$$17",
-    "Razor.intro1": "Oh, @! Sorry, has my beard gotten out of hand?$9#$b#Should I shave this time, or not?$11",
+    "Razor.intro1": "Oh, @! Sorry, has my beard gotten out of hand?$9#$b#Should I shave it, or not?$11",
     "Razor.yes1": "A clean shaven man, huh?$8#$b#You'll have to remind me if it gets too unweildy, work keeps my attention more as of late.$9#$b#I'll get right on going back to clean and sparkly.$11",
     "Razor.no1": "Enjoying it to the fullest, are we?$8#$b#I jest, do let me know if you feel the need for change, though.$11",
     //pelican mines
@@ -1872,8 +1875,9 @@
     "Pelican.3": "'Do you regularly go to the bottom of the mines?'",
     "Pelican.4": "You jest! I'm the one that deemed the mines explorable.$15",
     "Pelican.5": "Care to sit?$43#$b#Upkeeping my magic is wearying, but it's better safe than sorry.$41",
-    "Pelican.6": "This would be a great time to ask...#Why do you and Magnus have such a hard time?#Why does Camilla treat you like her son?#Have you ever seen a shrine here?#What's Castle Village like?#",
+    "Pelican.6": "This would be a great time to ask...#Why do you and Magnus have such a hard time?#Why does Camilla treat you like her son?#Have you ever seen a shrine here?#What's Castle Village like?#What made you like me?#What was the Elemental War like?#What made you join the First Slash?#Are you not allowed to take on an apprentice of your own?#How old are you... really?#What was your family like?#",
 
+    "Pelican.repeated": "Do you really wish to hear the story again?#Yes.#No.",
     "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [Aviroen.LanceExpanded_Khanjar]",
 
     "PelicanYesAfter": "'Wait, Lance!'",

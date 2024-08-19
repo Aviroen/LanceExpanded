@@ -1,7 +1,17 @@
 {
     "Changes": [
         ///loading assets into scene
-        { //Load Crab2
+        {
+            "Action": "Load",
+            "Target": "data/Weddings",
+            "FromFile": "data/Blank.json",
+            "Priority": "Low",
+            "When": {
+                "Relationship:Lance": "Engaged",
+                "Custom Wedding": true
+            }
+        },
+        { //Load Attendees
             "LogName": "Date: Load Attendees",
             "Action": "Load",
             "Target": "Characters/FirstSlashATTEND",
@@ -13,30 +23,30 @@
             "Action": "EditData",
             "Target": "Data/Weddings",
             "When": {
-                "PlayerGender": "Female",
+                "PlayerGender": "Female"
             },
             "TargetField": [
-                "EventScript",
+                "EventScript"
             ],
 
             "Entries": {
-                "default": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.FCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried",
-            },
+                "Lance": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.FCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried"
+            }
         },
         { //well here we go male spotted
             "LogName": "New Beach Cutscene",
             "Action": "EditData",
             "Target": "Data/Weddings",
             "When": {
-                "PlayerGender": "Male",
+                "PlayerGender": "Male"
             },
             "TargetField": [
-                "EventScript",
+                "EventScript"
             ],
 
             "Entries": {
-                "default": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.MCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried",
-            },
+                "Lance": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.MCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried"
+            }
         },
 
         //////////just married event
@@ -45,16 +55,17 @@
             "Action": "EditData",
             "Target": "Data/Events/temp",
             "Entries": {
-                "LE.JustMarried": "pause 900/globalFadeToClear/playmusic sweet/warp farmer 19 35/facedirection farmer 3/warp Lance 24 39/facedirection Lance 1/warp Camilla 19 34/facedirection Camilla 3/warp Alesia 25 39/facedirection Alesia 3/warp MarlonFay 25 40/facedirection MarlonFay 3/viewport player clamp true/pause 300/emote Camilla 40/pause 200/shake Lance 100/emote Lance 32/emote MarlonFay 28/emote Alesia 12/pause 300/shake Camilla 100/speak Camilla \"{{i18n:Afterparty.01}}\"/jump farmer 6/faceDirection farmer 0/pause 500/shake Camilla 5500/pause 300/message \"{{i18n:Afterparty.02}}\"/pause 500/faceDirection Camilla 2/pause 300/speak Camilla \"{{i18n:Afterparty.03}}\"/shake Camilla 5500/pause 300/speak Camilla \"{{i18n:Afterparty.04}}\"/positionOffset Camilla 0 1 true/positionOffset Camilla 0 1 true/message \"{{i18n:Afterparty.05}}\"/pause 500/speak Camilla \"{{i18n:Afterparty.06}}\"/startJittering/message \"{{i18n:Afterparty.07}}\"/shake Camilla 5500/pause 500/speak Camilla \"{{i18n:Afterparty.08}}\"/pause 300/pause 300/message \"{{i18n:Afterparty.09}}\"/pause 300/shake Camilla 5500/speak Camilla \"{{i18n:Afterparty.10}}\"/pause 500/message \"{{i18n:Afterparty.11}}\"/pause 300/speak Camilla \"{{i18n:Afterparty.12}}\"/shake Camilla 5500/message \"{{i18n:Afterparty.13}}\"/pause 300/speak Camilla \"{{i18n:Afterparty.14}}\"/pause 500/shake Camilla 5500/message \"{{i18n:Afterparty.15}}\"/stopJittering/end",
-            },
+                "LE.JustMarried": "pause 900/globalFadeToClear/playmusic sweet/warp farmer 19 35/facedirection farmer 3/warp Lance 24 39/facedirection Lance 1/warp Camilla 19 34/facedirection Camilla 3/warp Alesia 25 39/facedirection Alesia 3/warp MarlonFay 25 40/facedirection MarlonFay 3/viewport player clamp true/pause 300/emote Camilla 40/pause 200/shake Lance 100/emote Lance 32/emote MarlonFay 28/emote Alesia 12/pause 300/shake Camilla 100/speak Camilla \"{{i18n:Afterparty.01}}\"/jump farmer 6/faceDirection farmer 0/pause 500/shake Camilla 5500/pause 300/message \"{{i18n:Afterparty.02}}\"/pause 500/faceDirection Camilla 2/pause 300/speak Camilla \"{{i18n:Afterparty.03}}\"/shake Camilla 5500/pause 300/speak Camilla \"{{i18n:Afterparty.04}}\"/positionOffset Camilla 0 1 true/positionOffset Camilla 0 1 true/message \"{{i18n:Afterparty.05}}\"/pause 500/speak Camilla \"{{i18n:Afterparty.06}}\"/startJittering/message \"{{i18n:Afterparty.07}}\"/shake Camilla 5500/pause 500/speak Camilla \"{{i18n:Afterparty.08}}\"/pause 300/pause 300/message \"{{i18n:Afterparty.09}}\"/pause 300/shake Camilla 5500/speak Camilla \"{{i18n:Afterparty.10}}\"/pause 500/message \"{{i18n:Afterparty.11}}\"/pause 300/speak Camilla \"{{i18n:Afterparty.12}}\"/shake Camilla 5500/message \"{{i18n:Afterparty.13}}\"/pause 300/speak Camilla \"{{i18n:Afterparty.14}}\"/pause 500/shake Camilla 5500/message \"{{i18n:Afterparty.15}}\"/stopJittering/end"
+            }
         },
 
         {
             "LogName": "Beach Attendees",
             "Action": "EditData",
             "Target": "Data/Weddings",
+            "When": { "Relationship:Lance": "Engaged" },
             "TargetField": [
-                "Attendees",
+                "Attendees"
             ],
             "Entries": {
                 "Camilla": {
@@ -372,8 +383,8 @@
                     "Celebration": null,
                     "IgnoreUnlockConditions": false
                 }
-            },
-        },
+            }
+        }
 
 
     ]
