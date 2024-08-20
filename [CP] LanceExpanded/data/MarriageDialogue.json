@@ -138,11 +138,7 @@
                 "Wed": "{{i18n:Lance.MarriageDialogue_wed{{Random:{{Range: 0, 5}}}}}}",
                 "Thu": "{{i18n:Lance.MarriageDialogue_thu{{Random:{{Range: 0, 5}}}}}}",
                 "Fri": "{{i18n:Lance.MarriageDialogue_fri{{Random:{{Range: 0, 5}}}}}}",
-                "Sat": "{{i18n:Lance.MarriageDialogue_sat{{Random:{{Range: 0, 5}}}}}}",
-                "{{ModId}}_WearEarrings": "{{i18n:wearEarrings}}",
-                "{{ModId}}_PostWearEarrings": "{{i18n:WearEarring.01}}",
-                "{{ModId}}_NoBeard": "{{i18n:NoBeard}}",
-                "{{ModId}}_YesBeard": "{{i18n:YesBeard}}"
+                "Sat": "{{i18n:Lance.MarriageDialogue_sat{{Random:{{Range: 0, 5}}}}}}"
             }
         }
     ]

@@ -11,8 +11,8 @@
             "Target": "data/Events/{{FarmHouse}}",
             "Entries": {
                 "LELanceRazor/O Lance/e LanceQi/": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 3/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes(break)switchEvent Razor.no",
-                "Razor.yes": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.yes}}\"/addMailReceived {{ModId}}_Beard false/addConversationTopic {{ModId}}_NoBeard 1/end",
-                "Razor.no": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.no}}\"/addConversationTopic {{ModId}}_YesBeard 1/end"
+                "Razor.yes": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.yes}}\"/addMailReceived {{ModId}}_Beard false/addMailReceived {{ModId}}_NoBeard/end",
+                "Razor.no": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.no}}\"/addMailReceived {{ModId}}_YesBeard 1/end"
             }
         },
         {
@@ -25,8 +25,8 @@
             "Target": "data/Events/{{FarmHouse}}",
             "Entries": {
                 "LELanceRazor2/O Lance/": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 3/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro1}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes1(break)switchEvent Razor.no1",
-                "Razor.yes1": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.yes1}}\"/addMailReceived {{ModId}}_Beard false/addConversationTopic {{ModId}}_NoBeard 1/end",
-                "Razor.no1": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.no1}}\"/addConversationTopic {{ModId}}_YesBeard 1/end"
+                "Razor.yes1": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.yes1}}\"/addMailReceived {{ModId}}_Beard false/addMailReceived {{ModId}}_NoBeard/end",
+                "Razor.no1": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.no1}}\"/addMailReceived {{ModId}}_YesBeard/end"
             }
         },
         ///////////////////////////////////////////////////////////////PELICAN MINES

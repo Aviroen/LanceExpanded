@@ -133,7 +133,7 @@
                         "AddMail Current {{ModId}}_Beard received",
                         "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
                     ]
-                },
+                }
                 /* change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
     "{{ModId}}_SVEQiEvents": {
                     "Id": "{{ModId}}_SVEQiEvents",
@@ -144,22 +144,6 @@
                     ]
                 }
     */
-                "{{ModId}}_EarringConversation": {
-                    "Id": "{{ModId}}_EarringConversation",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received",
-                    "Actions": [
-                        "AddConversationTopic WearEarrings 1"
-                    ]
-                },
-                "{{ModId}}_EarringConversation2": {
-                    "Id": "{{ModId}}_EarringConversation2",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried}} > 1",
-                    "Actions": [
-                        "AddConversationTopic PostWearEarrings 1"
-                    ]
-                }
             }
         }
     ]

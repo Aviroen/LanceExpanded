@@ -986,54 +986,6 @@
     "Lance.1Heart.10": "Lance dusts off his hands on his pants.",
     "Lance.1Heart.11": "[347 499]No rush, but at least it's a load off of my shoulders! $15#$b#Thanks again, sweetheart, if you ever need anything feel free to reach out. $41",
 
-    ////Lance 2 Heart highlands introduction, lance's appreciation, lance's reward
-    "Lance2heart1.01": "Are you prepared? It'll be a long trip.",
-    "Lance2heart1.02": "All right. Watch your footing when climbing onto the boat.$0",
-    "Lance2heart1.03": "We've arrived. How are you holding up, @?$0",
-    "Lance2heart1.04": "Lance's outpost is just up these stairs.",
-    "Lance2heart1.05": "...$14",
-    "Lance2heart1.06": "Hello, friends. Welcome to my outpost. You must be exhausted after the long journey.$4",
-    "Lance2heart1.07": "It was uneventful, but that's a good thing in my book.$0",
-    "Lance2heart1.08": "*chuckle* Of course.$8",
-    "Lance2heart1.09": "Please, come inside. I've prepared refreshments. There is much to discuss.$4",
-    "Lance2heart1.10": "My outpost may be small, but I assure you it packs the necessary punch for surviving the highlands.$5#$b#The magical flames act as a form of monster repellent. I created them myself.$4",
-    "Lance2heart1.11": "I'm conducting research out here, on behalf of the Ministry's orders.$4#$b#There's something special about the monsters that inhabit this region...$6#$b#Although uncommon, some possess peculiar seeds ripe with abnormal arcane properties.$10",
-    "Lance2heart1.12": "Hmm. Seeds you say? As in crop seeds? @ is an expert in that department.$0",
-    "Lance2heart1.13": "Ah, yes, @ has already helped me with a previous engagement I had with the Ministry.$10",
-    "Lance2heart1.14": "Lance shared his findings with Marlon and I. He asked us to hunt highland monsters to obtain their strange crop seeds and to try cultivating them.",
-    "Lance2heart1.15": "Before I knew it, hours had passed by... It's now time to head back home. I wonder what's in store for me at the highlands?",
-    "Lance2heart1.16": "I seldom use my boat for patrolling. I'm glad there's now another use for her.#$e#Hmm. I'm afraid I can't commit to helping Lance's research. I have my own responsibilities in the valley.#$b#I believe a quest of this stature is up your alley though, @.",
-    "Lance2heart2.01": "Welcome back, @.$$10",
-    "Lance2heart2.02": "Thank you for assisting in my research. I've unfortunately had no luck growing the monster crops myself.$3#$b#From my observations, there's four types of seeds, each capable of growing a seasonal monster crop.$4#$b#*chuckle* Your cultivation skills are perfect for this quest.$5",
-    "Lance2heart2.03": "Monsters won't nest around my magical fires, but they can still chase you past them.$4#$b#If you must retreat, seek shelter in the outpost to shake off any aggressors.$$5",
-    "Lance2heart2.04": "I mailed a crate of life elixirs to your farmhouse address. It should arrive within the next day.$$1#$b#They will aid in your adventures here. Best of luck, @.$5",
-    "Lance2heart2.05": "You're welcome to rest at my outpost, @. The pleasure is all mine.$$8#$e#Apologies for the state of it. My home in Castle Village is in far better condition.$$5",
-    ///////highlands pt2
-    "Lance.2Heart.01": "Glad you could make it.$1#$b#I hope my previous explanation was sufficient enough.$5#$b#Come on up and join me.$7",
-    "Lance.2Heart.02": "This dense forest is filled to the brim with monsters.$8#$b#I was hoping you would join me for a little introduction?$9",
-    "Lance.2Heart.03": "Lance casts a quick spell.",
-    "Lance.2Heart.04": "Sul!$21#$b#Be sure not to stray too far from me.$41",
-    "Lance.2Heart.05": "Lance prepares another spell and the forest begins to quiet down.",
-    "Lance.2Heart.06": "Well, daylight's a wastin', let's go on our little excursion.$8",
-    "Lance.2Heart.07": "Lance is quietly chanting to himself.",
-    "Lance.2Heart.08": "Sorry about that.$42#$b#It helps to clear used magic by chanting mantras to myself.$41#$b#The monsters are feeling stronger than ever.$31#$b#I need to ask Camilla and Magnus about the state of affairs.$30",
-    "Lance.2Heart.09": "Lance sighs.",
-    "Lance.2Heart.10": "Wilderness golems can spawn from the shadows. You'd best be aware of how dangerous they are. The only benefits they have is that they sometimes drop stalk seeds.$29#$b#Slimes... well... They drop your stock standard slime seeds. $8#$b#The extremely bouncy mushrooms drop fungus seeds. $35#$b#Your worst adversary however... Shadowpeople are quite prevalent in the area, but they scuttle away, leaving behind void seeds. $31#$b#I haven't asked Magnus yet on what exactly void seeds are, but I'll be sure to do so if you ever manage to grow whatever comes of it.$30",
-    "Lance.2Heart.11": "Strange... Isn't it? All these types of monsters dropping seeds of all things.$30#$b# As if the world is trying to tell the rest of us that it wants to heal itself. $31#$b#I do hope that someday I'll be able to see a healed realm.$28",
-    "Lance.2Heart.12": "Interrupted by some eavesdroppers, I didn't even get to tell you about the Gemfish!$49",
-    "Lance.2Heart.13": "But that's our cue to leave!$28",
-    "Lance.2Heart.14": "Pardon my manners.$33",
-    "Lance.2Heart.15": "Well I definitely had fun showing you around. Don't be a stranger and I'll see you around.$32",
-    "Lance.2Heart.01.a.1": "Ah, sweetheart. I'm glad I could catch you before you started your day.#$b#I've been able to gather some of the monster crops from a nightly raid. However, I will always appreciate any that you can spare.$8#$b#The Ministry is apparently preparing a weapon for defense if you were interested, I'll let you know when it's ready.$9",
-    "Lance.2Heart.01.b.1": "Ah, sweetheart...*Huff* *Huff* I'm glad I caught you.$22#$b#The Ministry has finally shipped the defense weapon, but unfortunately they left it to my locked chest. *Huff* $16#$b#And my chest isn't exactly light!$15#$b# If you don't mind, would you like to go with me to pick it up?$13",
-    "Lance.2Heart.01.response.q": "Do you go with Lance?",
-    "Lance.2Heart.01.response.y": "Of course.",
-    "Lance.2Heart.01.response.n": "Sorry, no.", //why are you so mean to him
-    "Lance.2Heart.01.b.2": "Ah?$14#$b#I'm sorry to bother you then.$15#$b#[499] Here, if you don't mind my quick thinking. Have a good day.$14",
-    "Lance.2Heart.01.yes.1": "Take my hand, I'll warp us there.$13",
-    "Lance.2Heart.01.yes.2": "Come on in, let me just grab them from the cellar.$1",
-    "Lance.2Heart.01.yes.3": "The Diamond Wand is powerful for knocking back enemies, if you ever find yourself in trouble it's best to use this and warp out.$8#$b#I have no need for it since I have magic to warp myself, but in a moment of weakness, it's best to be careful.$9",
-    "Lance.2Heart.01.yes.4": "If you ever find yourself in danger here, I'm always on the lookout.$13#$b#Be safe out there, sweetheart.$5",
 
 
     ////Lance 3 Heart highlands predicament
@@ -1063,7 +1015,6 @@
     "Lance.3Heart.03.tg.8": "Good, now let's get out of here.$12",
     "Lance.3Heart.03.tg.9": "Lance warps the three of us back to the Adventurer's Guild to explain to Marlon.",
     "Lance.3Heart.03.tg.10": "Marlon will handle the rest, thank you for coming along, sweetheart. I'll need to send word to other guilds about the dwarves since it is a new development.$12#$b# Hopefully it's nothing too extreme... I pray this is the end of it.$23",
-
 
     ////Lance 4 Heart artifacts and mentors
     "Lance.4Heart.01": "Lovely day, isn't it?$13",

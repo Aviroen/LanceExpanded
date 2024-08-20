@@ -8,7 +8,10 @@
                     "Id": "{{ModId}}_RightInTheKisser",
                     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
                     "Condition": "ITEM_ID Target \"Lance\"",
-                    "Action": "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}} true"
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" true",
+                        "MarkActionApplied Current {{ModId}}_RightInTheKisser false"
+                    ]
                 },
 
                 "{{ModId}}_BeardYes": {
@@ -16,7 +19,8 @@
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
                     "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_YesBeard",
                     "Actions": [
-                        "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:YesBeard}} true",
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:YesBeard}}\" true",
+                        "RemoveMail Current {{ModId}}_BeardYes all",
                         "MarkActionApplied Current {{ModId}}_BeardYes false"
                     ]
                 },
@@ -25,7 +29,8 @@
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
                     "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_NoBeard",
                     "Actions": [
-                        "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:NoBeard}} true",
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:NoBeard}}\" true",
+                        "RemoveMail Current {{ModId}}_BeardNo all",
                         "MarkActionApplied Current {{ModId}}_BeardNo false"
                     ]
                 },
@@ -37,7 +42,10 @@
                     "Action": "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:CropHelp}} true"
                 },
                 a LocationChanged trigger with a GSQ that checks if the special order is active and an action that adds dialogue to Lance will make it work unless the player starts the special order from the same location as Lance on the same day
-*/
+
+
+                HASMOD CONDITIONS: CHECK FOR RRRR/RR
+                */
 
                 "{{ModId}}_WipeCheck": {
                     "Id": "{{ModId}}_WipeCheck",
@@ -45,6 +53,22 @@
                     "Condition": "ITEM_ID Target \"Lance\", Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/RelationshipChanged/WasMemoryWiped true",
                     "Actions": [
                         "AddMail Current {{ModId}}_LanceWiped received"
+                    ]
+                },
+                "{{ModId}}_EarringConversation": {
+                    "Id": "{{ModId}}_EarringConversation",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:wearEarrings}}\" true"
+                    ]
+                },
+                "{{ModId}}_EarringConversation2": {
+                    "Id": "{{ModId}}_EarringConversation2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried}} > 1",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:WearEarring.01}}\" true"
                     ]
                 }
             }
