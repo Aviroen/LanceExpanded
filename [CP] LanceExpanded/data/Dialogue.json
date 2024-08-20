@@ -44,6 +44,9 @@
                 "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
                 "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
 
+                "Reject_458": "{{i18n:Lance.BouquetReject}}",
+                "Reject_460": "{{i18n:Lance.PendantReject}}",
+
                 ////////////other marriage
                 "MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_0}}",
                 "RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_0}}",
@@ -55,7 +58,7 @@
                 "Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
                 "Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
                 "Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+                "Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}"
                 /*
 		"Mon1": "{{i18n:Mon1.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
 		"Mon8": "{{i18n:Mon8.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",

@@ -1090,14 +1090,16 @@
     "Lance.4Heart.15": "我把闪亮遗物还给了兰斯。",
     "Lance.4Heart.16": "见到卡米拉时，尽量不要被她的玩笑捉弄。我相信她一看到你的潜力，就会非常棘手。祝你有美好的一天，甜心。$5",
 
-
-    //// 兰斯 5 心 卡米拉的出现
-    "Lance.5Heart.01": "啊，甜心，没想到你这个时间来看我。$10", // ah player about to head out
-    "Lance.5Heart.02": "我告诉兰斯我见过卡米拉。", // talk about meeting camilla
-    "Lance.5Heart.03": "是吗？小精灵们，嗯？森林小精灵确实非常有趣。$14#$b#她像我警告的一样古怪吗？$9", // how was she/just as eccentric as i warned
-    "Lance.5Heart.04": "她的确是！你爱调情的性格是受她影响吗？", // reasons why i'm flirty?
-    "Lance.5Heart.05": "*哈哈哈*", // lance laughs
-    "Lance.5Heart.06": "可能吧！$15#$b#她虽然不愿承认，但她确实像对待自己的孩子一样对待我！$8#$b#不过，这个故事以后再说，我现在得去工作了。回头见，甜心。$5", // possibly, she is like a mother figure to me, but that is a story for another day, being called to work
+    //// 兰斯 7 心 冒险者的信条
+    "Lance.5Heart.01": "马龙，肯定没有你说的那么糟吧！", // surely you jest marlon
+    "Lance.5Heart.02": "啊，你好，@，我和马龙正在聊过去的事情。$16", // oh hello @ talking w marlon about old times
+    "Lance.5Heart.03": "是啊，孩子，你觉得兰斯现在很糟吗？你应该看看当初马格努斯第一次把他带到这里的时候。$h", // think lance is bad now he was worse -marlon
+    "Lance.5Heart.04": "我真是个活力十足的小炮仗，对吧？$15#$b#不过别说我了，你来这儿有什么事，@？$13", // a firecracker through and through, no? *laughs* what brings you here @?
+    "Lance.5Heart.05.q": "你来这儿做什么？#随便逛逛。#我完成了吉尔的任务！#我在准备下次下矿的补给！", // just wandering/gil quest/resupply
+    "Lance.5Heart.06": "啊，我太了解那种想要四处游荡的感觉了。$1#$b#不过，有时候我也希望有个地方可以安定下来。$5", // i understand wandering
+    "Lance.5Heart.07": "啊哈！马龙，这可是个名副其实的成就猎人！$99#$b#我等不及看你在排名上赶上我了，是吧？$15", // oh-ho a bonafide achievement hunter
+    "Lance.5Heart.08": "保持补给充足是件好事，你永远不知道在外面会遇到什么危险。$7", // always good to ensure you're topped off
+    "Lance.5Heart.09": "不过，不论如何，虽然我享受了这次的谈话，但姜岛的沙子可不会自己数着玩。$4#$b#我得走了，再见，马龙，再见，@。$5", // sand grains aren't going to count themselves and been feeling lacking in vitamin d
 
     //// 兰斯 6 心 元素战争的回忆
     "Lance.6Heart.01": "尼基...艾弗里...保罗...$27#$b#！...$25#$b#...$23#$b#...@...$95",
@@ -1121,17 +1123,57 @@
     "Lance.6Heart.09": "兰斯传送走了...#这真的是正确的做法吗...？",
     "Lance.6Heart.10": "我为之前的事道歉...但我只是需要一点独处的时间...$89",
 
-
-    //// 兰斯 7 心 冒险者的信条
-    "Lance.7Heart.01": "马龙，肯定没有你说的那么糟吧！", // surely you jest marlon
-    "Lance.7Heart.02": "啊，你好，@，我和马龙正在聊过去的事情。$16", // oh hello @ talking w marlon about old times
-    "Lance.7Heart.03": "是啊，孩子，你觉得兰斯现在很糟吗？你应该看看当初马格努斯第一次把他带到这里的时候。$h", // think lance is bad now he was worse -marlon
-    "Lance.7Heart.04": "我真是个活力十足的小炮仗，对吧？$15#$b#不过别说我了，你来这儿有什么事，@？$13", // a firecracker through and through, no? *laughs* what brings you here @?
-    "Lance.7Heart.05.q": "你来这儿做什么？#随便逛逛。#我完成了吉尔的任务！#我在准备下次下矿的补给！", // just wandering/gil quest/resupply
-    "Lance.7Heart.06": "啊，我太了解那种想要四处游荡的感觉了。$1#$b#不过，有时候我也希望有个地方可以安定下来。$5", // i understand wandering
-    "Lance.7Heart.07": "啊哈！马龙，这可是个名副其实的成就猎人！$99#$b#我等不及看你在排名上赶上我了，是吧？$15", // oh-ho a bonafide achievement hunter
-    "Lance.7Heart.08": "保持补给充足是件好事，你永远不知道在外面会遇到什么危险。$7", // always good to ensure you're topped off
-    "Lance.7Heart.09": "不过，不论如何，虽然我享受了这次的谈话，但姜岛的沙子可不会自己数着玩。$4#$b#我得走了，再见，马龙，再见，@。$5", // sand grains aren't going to count themselves and been feeling lacking in vitamin d
+    //CHANGED DIALOGUE
+    ////Lance 7 Heart camilla's appearance
+    "Lance.7Heart.01": "You BRAT!$7",
+    "Lance.7Heart.02": "Why didn't you tell me you were taking up Marlon's mercenary contract here?!$7",
+    "Lance.7Heart.03": "Camilla!$100#$b#I--I meant to tell you...$98",
+    "Lance.7Heart.04": "And WHEN exactly was that gonna be?!$3#$b#If it weren't for Marlon asking for more supplies because you're here, I would've never known!$7",
+    "Lance.7Heart.05": "Even Razzy knew before me!$2#$b#Is the food better here?$1",
+    "Lance.7Heart.06": "Well yes but-",
+    "Lance.7Heart.07": "Monsters?",
+    "Lance.7Heart.08": "No they're tame-",
+    "Lance.7Heart.09": "Razzy?",
+    "Lance.7Heart.10": "Why would I care about the old man-",
+    "Lance.7Heart.11": "Oh but you love our crotchety old man!",
+    "Lance.7Heart.12": "New research?",
+    "Lance.7Heart.13": "Yes, but no-",
+    "Lance.7Heart.14": "DO YOU HAVE A CRUSH ON SOMEONE?!",
+    "Lance.7Heart.15": "OH!", //x 3
+    "Lance.7Heart.16": "SPRING HAS FINALLY SPRUNG FOR MY BOY!!",
+    "Lance.7Heart.17": "OH I'M SO HAPPY!",
+    "Lance.7Heart.18": "When's the wedding?!$6",
+    "Lance.7Heart.19": "I haven't-",
+    "Lance.7Heart.20": "I want grandchildren!$6",
+    "Lance.7Heart.21": "I haven't even-",
+    "Lance.7Heart.22": "TWO of them!$6",
+    "Lance.7Heart.23": "I HAVEN'T EVEN ASKED THEM OUT YET!!",
+    "Lance.7Heart.24": "You?$7",
+    "Lance.7Heart.25": "The Sweet-Talker?",
+    "Lance.7Heart.26": "The Heartbreaker?",
+    "Lance.7Heart.27": "The Lone Wolf?",
+    "Lance.7Heart.28": "YOU HAVEN'T ASKED THEM OUT YET??",
+    "Lance.7Heart.29": "Is it because they're trying hard to get?$7#$b#Are they not into men??$2#$b#Are you not TRYING??$7",
+    "Lance.7Heart.30": "Cam--Look, I've only really been in the valley for a short time, and they've been here for quite a while apparently--$64#$b#There's so many other potential dates in the valley and I just--$3",
+    "Lance.7Heart.31": "I HAVE NEVER HEARD YOU SPEAK LIKE THIS!",
+    "Lance.7Heart.32": "WHO IS THIS BOY?",
+    "Lance.7Heart.33": "WHERE HAS MY LANCEY GONE?",
+    "Lance.7Heart.34": "SOMEONE HAS STOLEN MY SON!",
+    "Lance.7Heart.35": "MARLON--",
+    "Lance.7Heart.36": "CAM PLEASE!",
+    "Lance.7Heart.37": "So who is it?$1",
+    "Lance.7Heart.38": "W-well you remember the Old Lad yeah?$97",
+    "Lance.7Heart.39": "The lil brat that used to ask me out on dates?$6#$b#I miss him.$2",
+    "Lance.7Heart.40": "Yeah, me too--But their grandchild took over his farm.$11",
+    "Lance.7Heart.41": "A grandchild?!$6#$b#And you have a crush on them?!$1#$b#Oh that little brat would be rubbing it in your face!$6#$b#You used to bicker like children!$6",
+    "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that the little brat tried so hard for...$2",
+    "Lance.7Heart.43": "Sort of? They still have a mundane lifespan though.$8",
+    "Lance.7Heart.44": "Oh you changed the subject!$7#$b#When are you going to ask them out??$6",
+    "Lance.7Heart.45": "Ah, I--I don't know...$72",
+    "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...I'll bring it up.$15",
+    "Lance.7Heart.47": "So what's got you so excited?$6",
+    "Lance.7Heart.48": "They just remind me of the good old days with that little brat you so lovingly call him.$8",
+    "Lance.7Heart.49": "I should slip out quietly...#It was sweet to hear Lance knew my grandpa.#Grandpa, you sure did have grand adventures here!",
 
     "Lance8hearts.01": "我已经完成了对怪物作物的研究，现在准备向我的公会利刃之首汇报。$1#$b#我希望你能和我一起去，因为这次任务的成功是因为你。没有你，我做不到这些。$8",
     "Lance8hearts.02": "*笑* 跟我来。$5",

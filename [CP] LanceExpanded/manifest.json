@@ -1,7 +1,7 @@
 {
     "Name": "Lance Expanded",
     "Author": "Aviroen",
-    "Version": "1.6.18",
+    "Version": "1.6.19",
     "Description": "RRRR inspired for expanded romance for Lance.",
     "UniqueID": "Aviroen.LanceExpanded",
     "UpdateKeys": [ "Nexus:25265" ],
@@ -9,45 +9,29 @@
         {
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",
             "IsRequired": true
-     },
-        {
-            "UniqueID": "aedenthorn.CustomFixedDialogue",
-            "IsRequired": false
-     },
-        {
-            "UniqueID": "datamancer.CustomFixedDialogue",
-            "IsRequired": false
-     },
+        },
         {
             "UniqueID": "spacechase0.SpaceCore",
             "IsRequired": true
-     },
+        },
         {
             "UniqueID": "TheMightyAmondee.CustomTokens",
             "IsRequired": true
-     },
-        {
-            "UniqueID": "PurrplingCat.CustomGiftDialogue",
-            "IsRequired": false
-     },
-        {
-            "UniqueID": "gizzymo.canonfriendlyexpansion",
-            "IsRequired": false
-     },
-        {
-            "UniqueID": "Omegasis.HappyBirthday",
-            "IsRequired": false
-     },
+        },
         {
             "UniqueID": "Poltergeister.SeasonalCuteCharacters",
             "IsRequired": false
-     },
+        },
         {
             "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
             "IsRequired": false
-     }
+        },
+        {
+            "UniqueID": "Spiderbuttons.BETAS",
+            "IsRequired": true
+        }
     ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
- }
+    }
 }

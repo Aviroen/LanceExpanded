@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_RightInTheKisser": {
+                    "Id": "{{ModId}}_RightInTheKisser",
+                    "Trigger": "Spiderbuttons.BETAS_NpcKissed",
+                    "Condition": "ITEM_ID Target \"Lance\"",
+                    "Action": "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}} true"
+                },
+
+                "{{ModId}}_BeardYes": {
+                    "Id": "{{ModId}}_BeardYes",
+                    "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_YesBeard",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:YesBeard}} true",
+                        "MarkActionApplied Current {{ModId}}_BeardYes false"
+                    ]
+                },
+                "{{ModId}}_BeardNo": {
+                    "Id": "{{ModId}}_BeardNo",
+                    "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_NoBeard",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:NoBeard}} true",
+                        "MarkActionApplied Current {{ModId}}_BeardNo false"
+                    ]
+                },
+                /*
+                "{{ModId}}_ThatStupidMonsterCropQuest": {
+                    "Id": "{{ModId}}_ThatStupidMonsterCropQuest",
+                    "Trigger": "Spiderbuttons.BETAS_LetterRead",
+                    "Condition": "ITEM_ID Target \"[Lance_Name]\", Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/LetterRead/WasQuestOrSpecialOrder true, PLAYER_COMBAT_LEVEL Current 1 5",
+                    "Action": "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:CropHelp}} true"
+                },
+                a LocationChanged trigger with a GSQ that checks if the special order is active and an action that adds dialogue to Lance will make it work unless the player starts the special order from the same location as Lance on the same day
+*/
+
+                "{{ModId}}_WipeCheck": {
+                    "Id": "{{ModId}}_WipeCheck",
+                    "Trigger": "Spiderbuttons.BETAS_RelationshipChanged",
+                    "Condition": "ITEM_ID Target \"Lance\", Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/RelationshipChanged/WasMemoryWiped true",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LanceWiped received"
+                    ]
+                }
+            }
+        }
+    ]
+}

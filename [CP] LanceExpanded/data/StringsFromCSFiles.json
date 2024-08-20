@@ -19,18 +19,6 @@
                 "Event.cs.1694": "{{i18n:Welwick.End}}"
             }
         },
-        { //Wedding Dialogue - (used to be No UCR) "HasMod |contains=misscoriel.UCRFix": false
-            "Action": "EditData",
-            "Target": "Strings/StringsFromCSFiles",
-            "Priority": "Late",
-            "When": {
-                "Override Generic Dialogue": "true",
-                "Relationship:Lance": "Dating"
-            },
-            "Entries": {
-                "NPC.cs.3980": "{{i18n:Lance.Propose}}"
-            }
-        },
         //Welwick predictions fourth year and beyond
         {
             "Action": "EditData",

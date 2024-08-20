@@ -316,7 +316,37 @@
                 "HasFlag": "{{ModId}}_PFamily"
             },
             "Value": "Family"
+        },
+        //8 heart dynamic tokens, just know if you pick THAT ONE LINE, YOU'RE A JACKASS.
+        {
+            "Name": "8HeartChoice",
+            "When": {
+                "HasFlag": "{{ModId}}_8HeartOKAY"
+            },
+            "Value": "OKAY"
+        },
+        {
+            "Name": "8HeartChoice",
+            "When": {
+                "HasFlag": "{{ModId}}_8HeartPEOPLE"
+            },
+            "Value": "PEOPLE"
+        },
+        {
+            "Name": "8HeartChoice",
+            "When": {
+                "HasFlag": "{{ModId}}_8HeartDOCTOR"
+            },
+            "Value": "DOCTOR"
+        },
+        {
+            "Name": "8HeartChoice",
+            "When": {
+                "HasFlag": "{{ModId}}_8HeartJACKASS"
+            },
+            "Value": "JACKASS"
         }
+
     ],
 
 
@@ -353,7 +383,7 @@
         //////// BEGIN THE INCLUDE WAVE
         {
             "Action": "Include",
-            "FromFile": "data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/MarriageDialogue.json, data/Outfits.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
+            "FromFile": "data/BETAS.json, data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/MarriageDialogue.json, data/Outfits.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
         },
 /*
         {
@@ -361,7 +391,6 @@
             "FromFile": "data/{{Spice}}/dates.json"
         },
     */
-        //////////////////////////////////////WEDDING CODE
         //spouse room edit
         {
             "Action": "Load",

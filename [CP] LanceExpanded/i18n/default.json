@@ -92,6 +92,8 @@
 
     /////////dialogue.json
 
+    //CHANGED DIALOGUE
+
     //Special Dialogue
     //"danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
     "Lance.danceRejectionCharacterDialogue_0": "Ah I'm... terribly sorry, I'm not quite used to the village and I don't remember how to dance.$8",
@@ -1081,18 +1083,16 @@
     "Lance.4Heart.15": "The 'Blink Relic' was given back to Lance.",
     "Lance.4Heart.16": "When you see Camilla, try not to fall prey to her jokes. I'm sure that she'll be a handful as soon as she sees your potential. Have a good day, sweetheart.$5",
 
-    //CHANGED DIALOGUE
-    ////Lance 5 Heart camilla's appearance
-    "Lance.5Heart.01": "You BRAT!$7",
-    "Lance.5Heart.02": "Why didn't you tell me you were taking up Marlon's mercenary contract here?!$7",
-    "Lance.5Heart.03": "Camilla!$100#$b#I--I meant to tell you...$98",
-    "Lance.5Heart.04": "And WHEN exactly was that gonna be?!$3#$b#If it weren't for Marlon asking for more supplies because you're here, I would've never known!$7",
-    "Lance.5Heart.05": "Even Razzy knew before me!$2#$b#Is it because there's someone you're interested in?$1",
-    "Lance.5Heart.06": "Ah!$100#$b#N-No.. No one in particular...$98",
-    "Lance.5Heart.07": "AH HAH!$6",
-    "Lance.5Heart.08": "So who is it?!",
-    "Lance.5Heart.09": "Huh?",
-
+    //lance 5 heart NEW PLACEMENT ADVENTURER'S CREED
+    "Lance.5Heart.01": "Surely it wasn't that bad, Marlon!", //surely you jest marlon
+    "Lance.5Heart.02": "Ah, hello @, Marlon and I were talking about old times.$16", //oh hello @ talking w marlon about old times
+    "Lance.5Heart.03": "Yeah, kid, you think Lance is bad now? You should've seen him when Magnus first brought him around these parts.$h", //think lance is bad now he was worse -marlon
+    "Lance.5Heart.04": "I was truly a wild firecracker, huh?$15#$b#But enough about me, what brings you around, @?$13", //a firecracker through and through, no? *laughs* what brings you here @?
+    "Lance.5Heart.05.q": "Why are you here?#Just wandering around.#I have a quest from Gil finished!#I'm resupplying before another mine delve!", //just wandering/gil quest/resupply
+    "Lance.5Heart.06": "Ah I know all too well about the feeling of wanting to wander.$1#$b#Though, sometimes I wish I had someplace to plant my feet more permanently.$5", //i understand wandering
+    "Lance.5Heart.07": "Aha! A bonafide achievement hunter, Marlon!$99#$b# I can't wait to see you soar through the ranks to catch up to me, huh?$15", //oh-ho a bonafide achievement hunter
+    "Lance.5Heart.08": "It's great to keep yourself well supplied, you never know what kind of dangers you'd experience out there.$7", //always good to ensure you're topped off
+    "Lance.5Heart.09": "But nonetheless, while I enjoyed this company, the sands on Ginger Island will not count themselves.$4#$b# I must be on my way, goodbye Marlon, goodbye @.$5", //sand grains aren't going to count themselves and been feeling lacking in vitamin d
 
     ////Lance 6 Heart elemental war recollection
     "Lance.6Heart.01": "Nikki... Avery... Paul... $27#$b#!...$25#$b#...$23#$b#...@...$95",
@@ -1116,45 +1116,135 @@
     "Lance.6Heart.09": "Lance warps away...#Was that really the correct thing to do...?",
     "Lance.6Heart.10": "I apologize for earlier... but I just need some time alone...$89",
 
-    ////Lance 7 Heart an adventurer's creed
-    "Lance.7Heart.01": "Surely it wasn't that bad, Marlon!", //surely you jest marlon
-    "Lance.7Heart.02": "Ah, hello @, Marlon and I were talking about old times.$16", //oh hello @ talking w marlon about old times
-    "Lance.7Heart.03": "Yeah, kid, you think Lance is bad now? You should've seen him when Magnus first brought him around these parts.$h", //think lance is bad now he was worse -marlon
-    "Lance.7Heart.04": "I was truly a wild firecracker, huh?$15#$b#But enough about me, what brings you around, @?$13", //a firecracker through and through, no? *laughs* what brings you here @?
-    "Lance.7Heart.05.q": "Why are you here?#Just wandering around.#I have a quest from Gil finished!#I'm resupplying before another mine delve!", //just wandering/gil quest/resupply
-    "Lance.7Heart.06": "Ah I know all too well about the feeling of wanting to wander.$1#$b#Though, sometimes I wish I had someplace to plant my feet more permanently.$5", //i understand wandering
-    "Lance.7Heart.07": "Aha! A bonafide achievement hunter, Marlon!$99#$b# I can't wait to see you soar through the ranks to catch up to me, huh?$15", //oh-ho a bonafide achievement hunter
-    "Lance.7Heart.08": "It's great to keep yourself well supplied, you never know what kind of dangers you'd experience out there.$7", //always good to ensure you're topped off
-    "Lance.7Heart.09": "But nonetheless, while I enjoyed this company, the sands on Ginger Island will not count themselves.$4#$b# I must be on my way, goodbye Marlon, goodbye @.$5", //sand grains aren't going to count themselves and been feeling lacking in vitamin d
+    //CHANGED DIALOGUE
+    ////Lance 7 Heart camilla's appearance
+    "Lance.7Heart.01": "You BRAT!$7",
+    "Lance.7Heart.02": "Why didn't you tell me you were taking up Marlon's mercenary contract here?!$7",
+    "Lance.7Heart.03": "Camilla!$100#$b#I--I meant to tell you...$98",
+    "Lance.7Heart.04": "And WHEN exactly was that gonna be?!$3#$b#If it weren't for Marlon asking for more supplies because you're here, I would've never known!$7",
+    "Lance.7Heart.05": "Even Razzy knew before me!$2#$b#Is the food better here?$1",
+    "Lance.7Heart.06": "Well yes but-",
+    "Lance.7Heart.07": "Monsters?",
+    "Lance.7Heart.08": "No they're tame-",
+    "Lance.7Heart.09": "Razzy?",
+    "Lance.7Heart.10": "Why would I care about the old man-",
+    "Lance.7Heart.11": "Oh but you love our crotchety old man!",
+    "Lance.7Heart.12": "New research?",
+    "Lance.7Heart.13": "Yes, but no-",
+    "Lance.7Heart.14": "DO YOU HAVE A CRUSH ON SOMEONE?!",
+    "Lance.7Heart.15": "OH!", //x 3
+    "Lance.7Heart.16": "SPRING HAS FINALLY SPRUNG FOR MY BOY!!",
+    "Lance.7Heart.17": "OH I'M SO HAPPY!",
+    "Lance.7Heart.18": "When's the wedding?!$6",
+    "Lance.7Heart.19": "I haven't-",
+    "Lance.7Heart.20": "I want grandchildren!$6",
+    "Lance.7Heart.21": "I haven't even-",
+    "Lance.7Heart.22": "TWO of them!$6",
+    "Lance.7Heart.23": "I HAVEN'T EVEN ASKED THEM OUT YET!!",
+    "Lance.7Heart.24": "You?$7",
+    "Lance.7Heart.25": "The Sweet-Talker?",
+    "Lance.7Heart.26": "The Heartbreaker?",
+    "Lance.7Heart.27": "The Lone Wolf?",
+    "Lance.7Heart.28": "YOU HAVEN'T ASKED THEM OUT YET??",
+    "Lance.7Heart.29": "Is it because they're trying hard to get?$7#$b#Are they not into men??$2#$b#Are you not TRYING??$7",
+    "Lance.7Heart.30": "Cam--Look, I've only really been in the valley for a short time, and they've been here for quite a while apparently--$64#$b#There's so many other potential dates in the valley and I just--$3",
+    "Lance.7Heart.31": "I HAVE NEVER HEARD YOU SPEAK LIKE THIS!",
+    "Lance.7Heart.32": "WHO IS THIS BOY?",
+    "Lance.7Heart.33": "WHERE HAS MY LANCEY GONE?",
+    "Lance.7Heart.34": "SOMEONE HAS STOLEN MY SON!",
+    "Lance.7Heart.35": "MARLON--",
+    "Lance.7Heart.36": "CAM PLEASE!",
+    "Lance.7Heart.37": "So who is it?$1",
+    "Lance.7Heart.38": "W-well you remember the Old Lad yeah?$97",
+    "Lance.7Heart.39": "The lil brat that used to ask me out on dates?$6#$b#I miss him.$2",
+    "Lance.7Heart.40": "Yeah, me too--But their grandchild took over his farm.$11",
+    "Lance.7Heart.41": "A grandchild?!$6#$b#And you have a crush on them?!$1#$b#Oh that little brat would be rubbing it in your face!$6#$b#You used to bicker like children!$6",
+    "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that the little brat tried so hard for...$2",
+    "Lance.7Heart.43": "Sort of? They still have a mundane lifespan though.$8",
+    "Lance.7Heart.44": "Oh you changed the subject!$7#$b#When are you going to ask them out??$6",
+    "Lance.7Heart.45": "Ah, I--I don't know...$72",
+    "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...I'll bring it up.$15",
+    "Lance.7Heart.47": "So what's got you so excited?$6",
+    "Lance.7Heart.48": "They just remind me of the good old days with that little brat you so lovingly call him.$8",
+    "Lance.7Heart.49": "I should slip out quietly...#It was sweet to hear Lance knew my grandpa.#Grandpa, you sure did have grand adventures here!",
 
-    "Lance8hearts.01": "I've finished researching the monster crops and I'm ready to report back to my guild, The First Slash.$1#$b#I would like you to come with me since you're responsible for my mission's success. I couldn't have done this without you.$8",
-    "Lance8hearts.02": "*chuckle* Follow me.$5",
-    "Lance8hearts.03": "Our island is in the center of the Gem Sea, too far to reach without warp runes.",
-    "Lance8hearts.04": "I'll go first.$1",
-    "Lance8hearts.05": "You have to admit, it's much faster than conventional travel.$8#$b#Come. I'll introduce you to the guild.$12",
-    "Lance8hearts.06": "Everyone! Lance is back!$5",
-    "Lance8hearts.07": "Hey!",
-    "Lance8hearts.08": "Welcome back!",
-    "Lance8hearts.09": "And who is this you've brought to the guild hall?$0",
-    "Lance8hearts.10": "This is @, and they're the reason I was able to complete my mission.$15#$b#It turns out I'm not much of a farmer myself!$10",
-    "Lance8hearts.11": "Haha!",
-    "Lance8hearts.12": "Heh...",
-    "Lance8hearts.13": "Good to meet you, @. Name is Jolyne, leader of The First Slash.$4#$b#A friend of Lance is a friend of mine.$5",
-    "Lance8hearts.14": "Well, Lance. It's not difficult to sense the strange arcane energies emitting from you.$0#$b#We're all waiting in anticipation.$5",
-    "Lance8hearts.15": "*chuckle* Of course...$5",
-    "Lance8hearts.16": "Make some room for me.$1",
-    "Lance8hearts.17": "What the...,",
-    "Lance8hearts.18": "Whoa!",
-    "Lance8hearts.19": "Can I touch it!?",
-    "Lance8hearts.20": "Behold... Monster crops from the Highlands!$12",
-    "Lance8hearts.21": "Fascinating!",
-    "Lance8hearts.22": "Hmm...",
-    "Lance8hearts.23": "Impressive!",
-    "Lance8hearts.24": "It was incredible meeting the guild Lance hails from. But now it's time to return home. Maybe I can visit again soon?",
-    "Lance8hearts.25": "My master and guild leader are pleased with my performance. Thank you, @.$8#$e#These monster crops will help advance our understanding of wilderness golems, slimes, mushroom spirits, and the shadow people...$4#$e#There's still work to be done at the Highlands! We're just getting started.$15",
-    "Lance8hearts2.01": "You sense Lance is at the front door.",
-    "Lance8hearts2.02": "Hello, @. Meet me at your farmland on Ginger Island at your earliest convenience.$1",
-    "Lance8hearts2.03": "I have a secret grove near your island property...$5",
+    //CHANGED DIALOGUE
+    //8 HEART, FORGOTTEN FRIENDS
+    "Lance.8Heart.01": "'Lance?'",
+    "Lance.8Heart.02": "I miss you, you bratty bastard.$93",
+    "Lance.8Heart.03": "Where is he going?",
+    "Lance.8Heart.04": "Paul, I told you rations aren't--$15#$b#...$83",
+    "Lance.8Heart.05": "If only I were stronger then...$81",
+    "Lance.8Heart.06": "I swear Nikki if I have to tell you the magic recipe one more time I'll--$8#$b#I'll...$83",
+    "Lance.8Heart.07": "I properly saw off your widower, I fulfilled my promise, Nikki.$81",
+    "Lance.8Heart.08": "Well, Luis, Avery told me that she wanted to ask YOU out on a--$15#$b#A da..date...$83",
+    "Lance.8Heart.09": "You'd be proud of them, your children are alive and well...$83",
+    "Lance.8Heart.10": "Mary, I swear to Yoba if I find another raunchy novel about me and July I'll--$8#$b#I'll...$83",
+    "Lance.8Heart.11": "They're doing well, you know?$83#$b#'The Tales of the Combat Mage'.$8#$b#If only you... if only you were here to see the vigil.$83", //An enemy broke into the healers tent and in a valiant effort Mary tried to protect the wounded with the minimal offense magics the Frontliners taught her, but was bested
+    "Lance.8Heart.11.1": "I have no need for the 'Nuances of Magicology', Perigee!$15#$b#What use would I have for such a--$83",
+    "Lance.8Heart.11.2": "I still have them, you know?$83#$b#Your books are being held safe within my chambers at home.$8#$b#And I kept our promise, Perigee, I burned that 'special book' you told me to.$9", //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
+    "Lance.8Heart.12": "Lance has finally stopped.",
+    "Lance.8Heart.13": "Was this war even NECESSARY?$77#$b#What purpose did it even SERVE!$78",
+    "Lance.8Heart.14": "All of those lights!$78#$b#Extinguised because of greed!$81",
+    "Lance.8Heart.15": "What was I...$81#$b#What was I even fighting for?$83",
+    "Lance.8Heart.16": "TELL ME!", //textabovehead
+    "Lance.8Heart.17": "The bloodshed, the misery, the vigils, all of the eulogies of empty graves!$78",
+    "Lance.8Heart.18": "FOR WHAT?!", //textabovehead
+    "Lance.8Heart.19": "A few shiny baubles on a coat, a pat on the back that I did well, that those who fought alongside me fought bravely?!$78",
+    "Lance.8Heart.20": "Mother...?$89#$b#Mother, don't leave me on this battlefield!$91#$b#I swear I'll do better!$91",
+    "Lance.8Heart.21": "Please don't abandon me here!$95#$b#I'm... scared!$85",
+    "Lance.8Heart.22": "Lance is shaking.#'Lance! It's me!'#'Lance, you're in Pelican Town.'#'Lance?'",
+    "Lance.8Heart.23": "Oh, you bratty bastard you didn't have to come out to see me all the way out here--$15",
+    "Lance.8Heart.24": "'Lance?'",
+    "Lance.8Heart.25": "No, you're not... you're not--$83",
+    "Lance.8Heart.26": "Yes, you're @, the dead cannot be... the dead cannot be brought back.$83",
+    "Lance.8Heart.27": "Lance is silent.#'Are you okay?'#'Who were those people you were talking about?'#'You should see a doctor.'#'You're acting like a psycho.'",
+    //beginging switches
+    //okay switch
+    "Lance.8Heart.OKAY.1": "Yeah of course I'm fine you bratty bas--$15#$b#No I'm... @?$83",
+    "Lance.8Heart.OKAY.2": "Where am I?$81",
+    "Lance.8Heart.OKAY.3": "I tell him when I started following him.",
+    "Lance.8Heart.OKAY.4": "Your farm, the town, and now here?$83#$b#I see...$81",
+    "Lance.8Heart.OKAY.5": "I--I did not mean to cause such a fuss, you've caught me at a very... unopportune moment.$71",
+    "Lance.8Heart.OKAY.6": "What should I say?#'You don't have to put up a front.'#'I was worried about you.'#'I like seeing all sides of you.'",
+
+    "Lance.8Heart.OKAY.FRONT": "A--A front?$71#$b#Have the cracks in my mask finally shown through?$8#$b#Are you disillusioned by me now?$71",
+    "Lance.8Heart.OKAY.WORRIED": "You?$70#$b#I--I've made you worry about me?$71#$b#I've broken my mask it seems...$8#$b#Are you disillusioned by me now?$71",
+    "Lance.8Heart.OKAY.SIDES": "A-all sides of--!$70#$b#Ahah!$15",
+    "Lance.8Heart.OKAY.SIDES.1": "I guess I haven't disillusioned you by these 'sides' of mine, yeah?$71",
+
+    "Lance.8Heart.OKAY.7": "Ah I... I see.$71#$b#I guess I've lived for quite a long time with this mask on my face.$8#$b#If you don't mind, could I rest on your shoulder for a moment?$9",
+    "Lance.8Heart.OKAY.8": "I miss them, my comrades from the war, they were the most rambunctious lot.$8",
+    "Lance.8Heart.OKAY.9": "Maybe someday I'll tell you all about them and our escapades.$71",
+    "Lance.8Heart.OKAY.10": "But as it is right now, we're both soaked through, come, I'll warp you back home you bra--$71#$b#...$83#$b#Sorry, @, @, I'll warp you back home.$71",
+    "Lance.8Heart.OKAY.11": "Thank you, for chasing after me, for talking with me, for... for being you.$71#$b#I'll see you around, @.$71",
+
+    //people switch
+    "Lance.8Heart.PEOPLE.1": "Huh?$70#$b#What names were I saying?$70",
+    "Lance.8Heart.PEOPLE.2": "Those were my comrades when I first joined the Elemental War.$8#$b#Rambunctious bunch, the lot of them.$71#$b#All of us too young to be in a war, but me especially, since I think I was barely a teenager.$8",
+    "Lance.8Heart.PEOPLE.3": "I miss them, dearly, fondly.$9#$b#Sometimes the memories flood in like I'm brought back to that same battlefield.$58#$b#Most of the time I hear them, their boistrous calls for me.$9#$b#Some barely had a child of their own, using me as a placeholder for the life they dreamed of.$58",
+    "Lance.8Heart.PEOPLE.4": "Most times... I just remember their deaths.$83#$b#Brave. Each and every one of them. To a fault, even.$81#$b#Each one...$77",
+    "Lance.8Heart.PEOPLE.5": "Each one in their own right gave up their life to save mine or another's.$83#$b#...$81",
+    "Lance.8Heart.PEOPLE.6": "Sometimes the thoughts of persevering through strength loses to my doubts of surviving those who could not.$83",
+    "Lance.8Heart.PEOPLE.7": "'Even should you lose all that is dear to you.'$83#$b#'Even should it cost you your life.'$81#$b#'You bear the burden and fight on.'$80#$b#'Kicking and screaming until your last breath is spent...'$81",
+    "Lance.8Heart.PEOPLE.8": "A parting gift, from my best friend, to me.$65#$b#...$64",
+    "Lance.8Heart.PEOPLE.9": "His words have become my mantra.$83#$b#Sometimes it feels as burdensome as a curse.$81#$b#But he...$64#$b#He was a good man.$65",
+    "Lance.8Heart.PEOPLE.10": "Ah...!$70#$b#...#83#$b#'The rains have ceased, and we have been braced with another beautiful day.'$37#$b#...'But you are not here to see it.'...$86",
+    "Lance.8Heart.PEOPLE.11": "I--I apologize.$93#$b#We're both completely soaked through.$65#$b#But truly...it's the breaking of sun between the rain that really shakes my bravado.$64",
+    "Lance.8Heart.PEOPLE.12": "If you don't mind, could I have your hand? I'll warp you back to your farm.$65",
+    "Lance.8Heart.PEOPLE.13": "...Thank you, @.$64#$b#For chasing after me, for letting me reminisce in times long passed...$65#$b#For being you.$67#$b#I'll see you around, @.$71",
+
+    //doctor, tenatively no idea how to write this one
+    "Lance.8Heart.DOCTOR.1": "",
+
+    //'psycho' - read:jackass, you are a jackass for picking this one
+    "Lance.8Heart.JACKASS.1": "A psy--!$78#$b#Hah...$81",
+    "Lance.8Heart.JACKASS.2": "HAHAHAH!",
+    "Lance.8Heart.JACKASS.3": "Ahah...$97#$b#...$83",
+    "Lance.8Heart.JACKASS.4": "...$81",
+    "Lance.8Heart.JACKASS.5": "Have a good one, @.$55",
+    "Lance.8Heart.JACKASS.6": "...Maybe I shouldn't have said that...#Lance immediately left...",
+
     "LanceWizardRune.01": "Lance has told me you've met the members of the First Slash.#$b#My warp is open to you in my Nexus.",
     "LanceWizardRune.02": "Be sure not to touch any of the other warps, they're quite... unstable.",
 
@@ -1867,6 +1957,8 @@
     "Razor.yes1": "A clean shaven man, huh?$8#$b#You'll have to remind me if it gets too unweildy, work keeps my attention more as of late.$9#$b#I'll get right on going back to clean and sparkly.$11",
     "Razor.no1": "Enjoying it to the fullest, are we?$8#$b#I jest, do let me know if you feel the need for change, though.$11",
     //pelican mines
+    //Perigee was famously stubborn and durable. She didn't fight on the front lines, but rather defended those towards the back. Also loved to sleep, loved to eat. Her epithet was "The Bear of Belgara", though her friends jokingly called her "Mama Bear". Her favored weapon was a shillelagh, which she could use to clobber enemies or cast spells.
+    //"Funnily enough Mary never had a taste for violence, but she certainly had the stomach for seeing it. She was often the first name on everyone's lips when healing was needed due to her vast knowledge of various natural and synthetic remedies. Though very focused when it came to her work, outside of the medical tent Mary found joy in relaxing under trees and was often found asleep under them with her journal. She had a quarterstaff on her at almost all times that would focus her healing magic, and was known to give rambunctious soldiers quite the bump on the head should they get out of line."
     "Pelican.intro": "Before you leave, my love!$8#$b#Marlon was asking me to scout the bottom of the mines because there have been some strange monster activities.$6#$b#If you're free, would you like to come along?$7",
     "Pelican.q": "Do I join Lance in the mines?#Sure!#Sorry, not today.",
     "Pelican.yes": "Oh, good! Well, if you're ready, shall we head out?$11",
