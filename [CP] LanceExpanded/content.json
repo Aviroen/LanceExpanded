@@ -383,7 +383,7 @@
         //////// BEGIN THE INCLUDE WAVE
         {
             "Action": "Include",
-            "FromFile": "data/BETAS.json, data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/MarriageDialogue.json, data/Outfits.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
+            "FromFile": "data/BETAS.json, data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/Items.json, data/MarriageDialogue.json, data/Outfits.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
         },
 /*
         {

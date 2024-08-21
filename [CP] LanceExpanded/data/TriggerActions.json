@@ -7,21 +7,9 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                //Reset Lance Events
-                /*
-                "{{ModId}}_SVESilencer": {
-                    "Id": "{{ModId}}_SVESilencer",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319",
-                    "Actions": [
-                        "MarkEventSeen Current GET READY FOR SVE 1.15 true",
-                        "MarkActionApplied Current {{ModId}}_SVESilencer false"
-                    ]
-                },
-                */
                 "{{ModId}}_EventExodus": {
                     "Id": "{{ModId}}_EventExodus",
-                    "Trigger": "DayStarted",
+                    "Trigger": "LocationChanged",
                     "Condition": "{{HeartEvents |contains=LanceExpanded}}",
                     "Actions": [
                         "MarkEventSeen Current 6951319 false", //caldera
@@ -30,18 +18,8 @@
                         "MarkEventSeen Current 65360186 false", //2 heart highlands pt2
                         "MarkEventSeen Current 65360187 false", //2 heart fake trigger
                         "MarkEventSeen Current 65360188 false", //2 heart pt4
-                        "MarkEventSeen Current 6951320 false", //4 heart
-                        "MarkEventSeen Current 65360190 false", //6 heart
-                        "MarkEventSeen Current 65360191 false", //8 heart
-                        "MarkEventSeen Current 65360135 false", //8 heart alt farm
-                        "MarkEventSeen Current 65360192 false", //wizard warp 65360191 req
-                        "MarkEventSeen Current 65360193 false", //jolyne, first slash guest room
-                        "MarkEventSeen Current 65360194 false", //10 heart intro
-                        "MarkEventSeen Current 65360195 false", //10 heart main
-                        "MarkEventSeen Current LEWorkday_cuddle false", //cuddle opt
-                        "MarkEventSeen Current 65360196 false", //10 heart missed
-                        "MarkEventSeen Current 65360197 false", //12 heart return scepter
-                        "MarkEventSeen Current 65360198 false", //12 heart lancemeetskrobus flag req
+                        "MarkEventSeen Current 65360191 false", //8 heart CHANGED INTO 4 HEART
+                        "MarkEventSeen Current 65360135 false", //8 heart alt farm CHANGED INTO 4 HEART
                         "MarkEventSeen Current LEPredicament false",
                         "MarkEventSeen Current LEHighlandsPredicament false",
                         "MarkEventSeen Current LEHighlandsPredicament_handle false",
@@ -62,13 +40,31 @@
                         "MarkEventSeen Current LEForsakingAllOthers false",
                         "MarkEventSeen Current LEToLovenCherish false",
                         "MarkEventSeen Current LEUntilDeath false",
+                        "MarkActionApplied Current {{ModId}}_EventExodus false"
+                    ]
+                },
+                "{{ModId}}_SVESilencer": {
+                    "Id": "{{ModId}}_SVESilencer",
+                    "Trigger": "LocationChanged",
+                    "Condition": null,
+                    "Actions": [
+                        "MarkEventSeen Current 6951320 true", //4 heart
+                        "MarkEventSeen Current 65360190 true", //6 heart
+                        "MarkEventSeen Current 65360192 true", //wizard warp 65360191 req
+                        "MarkEventSeen Current 65360193 true", //jolyne, first slash guest room
+                        "MarkEventSeen Current 65360194 true", //10 heart intro
+                        "MarkEventSeen Current 65360195 true", //10 heart main
+                        "MarkEventSeen Current LEWorkday_cuddle true", //cuddle opt
+                        "MarkEventSeen Current 65360196 true", //10 heart missed
+                        "MarkEventSeen Current 65360197 true", //12 heart return scepter
+                        "MarkEventSeen Current 65360198 true", //12 heart lancemeetskrobus flag req
                         "MarkActionApplied Current {{ModId}}_SVEHHRemover false"
                     ]
                 },
 
                 "{{ModId}}_SVEHDwarf": {
                     "Id": "{{ModId}}_SVEHDwarf",
-                    "Trigger": "DayStarted",
+                    "Trigger": "LocationChanged",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current LEHighlandsPredicament_together",
                     "Actions": [
                         "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
@@ -79,7 +75,7 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current LEDeathly, PLAYER_NPC_RELATIONSHIP Current Lance Married",
                     "Actions": [
-                        "IncrementStat Current DaysMarriedToLance",
+                        "IncrementStat DaysMarriedToLance 1",
                         "MarkActionApplied Current {{ModId}}_AnniversaryDayAdder false"
                     ]
                 },
@@ -104,7 +100,7 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current LanceQi",
                     "Actions": [
-                        "IncrementStat Current DaysSinceQiEvent",
+                        "IncrementStat DaysSinceQiEvent 1",
                         "MarkActionApplied Current {{ModId}}_QiLanceHealth false"
                     ]
                 },
@@ -121,8 +117,7 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_STAT Current DaysSinceQiEvent 28 28",
                     "Actions": [
-                        "RemoveMail Current {{ModId}}_Steri all",
-                        "MarkActionApplied Current {{ModId}}_QiLanceHealth true"
+                        "RemoveMail Current {{ModId}}_Steri all"
                     ]
                 },
                 "{{ModId}}_TheBeardCounter": {
@@ -133,17 +128,45 @@
                         "AddMail Current {{ModId}}_Beard received",
                         "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
                     ]
-                }
-                /* change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
-    "{{ModId}}_SVEQiEvents": {
-                    "Id": "{{ModId}}_SVEQiEvents",
-                    "Trigger": "Manual",
-                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 1925178, {{Darker Plot Events(Y4) |contains=true}}",
+                },
+                "{{ModId}}_8HeartDaySpacerOKAY": {
+                    "Id": "{{ModId}}_8HeartDaySpacerOKAY",
+                    "Trigger": "DayEnding",
+                    "Condition": "ANY \"PLAYER_HAS_MAIL Current {{ModId}}_8HeartOKAY\" \"PLAYER_HAS_MAIL Current {{ModId}}_8HeartPEOPLE\" \"PLAYER_HAS_MAIL Current {{ModId}}_8HeartDOCTOR\"",
                     "Actions": [
-                        "MarkEventSeen Current 1925179 true"
+                        "IncrementStat DaysSince8HeartOKAY 1",
+                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerOKAY false"
+                    ]
+                },
+                "{{ModId}}_8HeartDaySpacerOKAYSTOP": {
+                    "Id": "{{ModId}}_8HeartDaySpacerOKAYSTOP",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current DaysSince8HeartOKAY 5 5",
+                    "Actions": [
+                        "RemoveMail Current {{ModId}}_8HeartOKAY all",
+                        "RemoveMail Current {{ModId}}_8HeartPEOPLE all",
+                        "RemoveMail Current {{ModId}}_8HeartDOCTOR all",
+                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerOKAY true"
+                    ]
+                },
+                "{{ModId}}_8HeartDaySpacerJACKASS": {
+                    "Id": "{{ModId}}_8HeartDaySpacerJACKASS",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LERealization, PLAYER_HAS_MAIL Current {{ModId}}_8HeartJACKASS",
+                    "Actions": [
+                        "IncrementStat DaysSince8HeartJACKASS 1",
+                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerJACKASS false"
+                    ]
+                },
+                "{{ModId}}_8HeartDaySpacerJACKASSSTOP": {
+                    "Id": "{{ModId}}_8HeartDaySpacerJACKASSSTOP",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current DaysSince8HeartJACKASS 15 15",
+                    "Actions": [
+                        "RemoveMail Current {{ModId}}_8HeartJACKASS all",
+                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerJACKASS true"
                     ]
                 }
-    */
             }
         }
     ]

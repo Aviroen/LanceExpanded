@@ -681,6 +681,10 @@
     "Afterparty.14": "*抽泣*$9#$b#你是兰斯家族的一部分，因此你也是我们家族的一部分。$6#$b#我迫不及待想知道你们两个将会加入到怎样的冒险中！$10",
     "Afterparty.15": "一个新的家庭... 一个光明的未来... 我无所求了。",
 
+    //CHANGED DIALOGUE
+    "BouquetReject": "Oh!$42#$b#This is...unexpected...$43#$b#I'm not sure I'm fully ready.$39#$b#I am honored, truly, and interested.$38#$b#I just need a tad more time. I hope you understand.$43",
+    "PendantReject": "A...mermaid pendant?$42#$b#Oh my darling, I will accept yours in time, but I have a special plan.$41Will you wait for me to carry that plan out?$43",
+
     ////礼物相关
     "Gifts.Lance.Loved": "这对我很有用。非常感谢你。",
     "Gifts.Lance.Liked": "啊，这是一个了不起的礼物。谢谢你。",
@@ -821,25 +825,6 @@
     "Married.GiftReaction_Sweet_Gem_Berry": "这...那是什么？$14#$b#宝石甜梅？$3#$b#稀有种子？$2#$b#哦！来自我的种子袋！$14#$b#我看到你成功地培育了它。$8#$b#我对它没有实际用途，公会只是想知道马格努斯当时的情况，并认为我会求他施舍种子。$9#$b#我会把这个还给你，你会比我更好地利用它，我的爱。$8[417]",
     "Married.GiftReaction_Rice": "啊，老朋友，我摆脱不了对米饭的渴望。$8#$b#我希望你不介意我每顿饭都要吃米饭的习惯。$9#$b#谢谢你想着我，我的爱。$8",
 
-    // 怀孕期间的礼物反应
-    "Preg.GiftReaction_Void_Essence": "...希望你已经储备了一些精华，@。#$b#...因为如果你现在怀孕了还特意去矿洞探险只是为了给我送礼物，我会非常生气的。#$b#啊，你有储备？#$b#...我相信你，我的爱。",
-    "Preg.GiftReaction_Void_Soul": "...这是什么...#$b#...你去过盖多兰吗？#$b#...我能问一下原因吗？#$b#...我不想对你生气，我的爱，但在怀孕期间，你冒险穿越盖多兰的理由是什么？#$b#我...我需要冷静一下。#$b#%...兰斯不愿看我。",
-    "Preg.GiftReaction_Void_Shard": "......#$b#...我...#$b#...............#$b#...请给我一点时间。#$b#%兰斯不愿看我... 我想我这次真的让他很不高兴....#$e#原谅我。我还没准备好和你说话。#$e#...我真的不明白为什么你 insist 在怀孕期间让自己处于不必要的危险之中。#$b#你有没有考虑过如果在充满怪物的绯红荒原中发生意外会有什么后果？#$b#@，我深爱着你。#$b#你是我世界的光，是我天空中的唯一明星。#$b#请，我求你了。#$b#不要让自己处于更多不必要的危险之中。#$b#我无法承受同时失去你和我们孩子的想法。#$b#请不要再这样做了。",
-    "Preg.GiftReaction_Red_Plate": "啊！这道菜，红之盛宴据说可以减少恶心，是不是！？#$b#为什么你要给我这个，我的爱？你不更需要它吗？#$b#啊！等一下，请让我尝一尝！#$b#我会趁机了解它的味道和成分，这样我就可以为你随时召唤它！",
-    "Preg.GiftReaction_Rice_Pudding": "啊！这是用米做的吗？#$b#我读过米饭和其他易消化的淀粉类食物是对${{those with child^expecting mothers}}理想的食物。#$b#你确定不想自己吃吗？#$b#...如果你坚持。",
-    "Preg.GiftReaction_Banana_Pudding": "香蕉布丁？#$b#你确定不该你吃吗？#$b#我的研究表明，香蕉是一种理想的清淡食物，有助于在这个微妙的时期确保你摄取足够的营养。#$b#啊...我们分着吃怎么样？#$b#这将是一个不错的妥协，不是吗？",
-    "Preg.GiftReaction_Ginger_Ale": "嗯？你要把这个给我？#$b#你确定它对你没有更大的用处，我的爱？#$b#我的研究表明，姜和碳酸饮料都有抑制恶心的作用。#$b#...啊，如果你坚持，但如果你需要，不要犹豫要回来。",
-    "GiftReaction_Salmon_Dinner": "嗯？鲑鱼？#$b#啊！这蛋白质含量相当高，不是吗？#$b#你不该自己吃吗？#$b#...如果你坚持，我的爱。",
-    "Preg.GiftReactionCategory_-7": "嗯？给我的？你确定吗，我的爱？#$b#请不要觉得在这种微妙的情况下还要为我做饭是你的义务。#$b#如果有的话，应该是我为你做饭！#$b#虽然我的烹饪可能只是简单的碳化食物。",
-    "Preg.GiftReaction_Blue_Moon_Wine": "嗯？葡萄酒？#$b#你不觉得现在庆祝还为时过早吗，我的爱？#$b#我会保留这个，直到我们抱着孩子，你完全康复。#$b#...‘自己享受’？#$b#我一个人喝酒有什么乐趣可言？",
-    "Preg.GiftReaction_Radiation": "啊！！#$b#%兰斯打了个响指，我手中的东西还没反应过来就消失了....#$b#@！你在想什么！？#$b#你怎么能在怀孕期间考虑处理这种危险的材料？！#$b#....我....！#$b#.....对不起，我需要冷静一下。#$e#%兰斯这次真的很生气....",
-    "Preg.GiftReaction_Magic_Rock_Candy": "啊....谢谢你，我的爱，但你应该自己享用。#$b#毕竟是你在怀我们的孩子！即使它只是一种独特的糖果，它所提供的魔法益处也不容小觑。#$e#啊...如果你坚持。#$b#请不要犹豫，如果你改变主意告诉我。",
-    "Preg.GiftReaction_Void_Eel": "...我希望你不是为了给我准备餐食而特意去危险的地方钓鱼，我的爱。#$b#虽然我有时会尝试新菜肴，但我不希望你在脆弱的状态下受到任何伤害...#$b#请好好照顾自己，我的爱。钓鱼可以等。",
-    "Preg.GiftReaction_Ghostfish": "....我希望你不是怀孕期间进矿洞只是为了给我带来一条新奇的鱼，我的爱。#$b#如果是这样，我会非常不高兴....",
-    "Preg.GiftReaction_Lava_Eel": "....我希望你不是在怀孕期间进入矿洞处或接近活火山，只是为了给我带来一条新奇的鱼，我的爱。#$b#如果是这样，我会非常不高兴....",
-    "Preg.GiftReaction_Undeadfish": "....！#$b#在怀孕期间做的所有鲁莽事情中，你居然选择在那么糟糕的地方钓鱼！？#$e#....坦白说，我不确定现在我说什么你能听得进去，@。#$b#...只求你小心。#$b#为了你自己，也为了我们的未出生的孩子....",
-    "Preg.GiftReaction_Gemfish": "...是否有必要穿越充满怪物的山脉，只是为了收集一个有趣的标本给我，我的爱？#$b#我不想限制你的自由，但有时我非常担心你的鲁莽行为....",
-    "Preg.GiftReaction_Warp_Totem:_Farm": "啊，一个归家的图腾。#$b#你确定我应该是那个使用它的人吗？毕竟你怀孕了。#$e#坦白说，我能克制住自己不把你埋在一堆这种东西下面已经是个极大的自制力考验了。",
 
     // 兰斯节日对话
     "eggfestival.lance.1": "你试过水果饮料吗？据说这是格斯家传的食谱。$14#$e#那个紫发女孩眼中有种决心。$3#$b#她有些特别。我无法确切说出是什么...$6",
@@ -858,20 +843,15 @@
     "LanceinBed3": "早安。虽然有点挤，但我们把身体凑在一起就不是问题了。$13",
     "LanceinBed4": "你睡得好吗？我很快就回农舍。$8",
 
-    // 兰斯的特别任务
-    "Lance.SpecialOrderName": "怪物作物",
-    "Lance.SpecialOrderText": "培养从高地怪物那里获得的作物种子，以帮助兰斯进行研究。",
-    "Lance.SpecialOrderSpring": "交付春季怪物作物给兰斯。",
-    "Lance.SpecialOrderSummer": "交付夏季怪物作物给兰斯。",
-    "Lance.SpecialOrderFall": "交付秋季怪物作物给兰斯。",
-    "Lance.SpecialOrderWinter": "交付冬季怪物作物给兰斯。",
-
+    //CHANGED DIALOGUE
     // 常见对话
     "Lance.Eplise": "...",
     "Lance.Ahem": "*清嗓子*",
     "Lance.AhName": "啊，@。",
     "Lance.NameI": "@，我...",
     "Lance.Chuckle": "*轻笑*",
+    "Lance.Sigh": "*Sigh*",
+    "Lance.Cough": "*Cough*",
 
     // 威尔威克评论
     "Welwick.Base": "啊，是的...我的水晶球中闪现着你的未来，年轻人。我预见到了你的到来...主要是因为兰斯兴奋地告诉了我...",
@@ -887,18 +867,6 @@
     "Welwick.End": "我已经为你读过运势了...去做点别的事吧。...顺便说一句，很期待晚餐。",
 
 
-
-    ////杂项字符串
-    "BouquetReject.1": "还不是时候。",
-    "BouquetReject.2": "{0} 还没有准备好接受这个。",
-
-    ////婴儿相关字符串
-    "NewBaby.Question": "{0}... 你怎么看，我们要个孩子怎么样？",
-    "NewAdopt.Question": "{0}... 你怎么看，我们领养一个孩子怎么样？",
-    "AdoptMessage.Player": "夜间，我们收到了公会的通知，我们的孩子将在早晨到来！",
-    "BirthMessage.Player": "我内心感到一阵悸动。难道是宝宝要出生了？",
-    "BabyNaming.Male": "如果是男孩，我们应该给他取什么名字？",
-    "BabyNaming.Female": "如果是女孩，我们应该给她取什么名字？",
 
     ////事件字符串
     "Lance.Egg2": "不，我不会去找彩蛋的。$8#$e#我会忍不住去争夺它们。$15",
@@ -989,60 +957,6 @@
     "Lance.1Heart.11": "[347 499]不急，但至少这减轻了我的负担！$15#$b#再次感谢，甜心，如果你需要什么，随时联系我。$41",
 
 
-    //// 兰斯 2 心 高地介绍、兰斯的感激、兰斯的奖励
-    "Lance2heart1.01": "准备好了吗？这将是一段漫长的旅程。",
-    "Lance2heart1.02": "好了。登船时小心脚下。$0",
-    "Lance2heart1.03": "我们到了。@，你还好吗？$0",
-    "Lance2heart1.04": "兰斯的哨站就在这楼梯上面。",
-    "Lance2heart1.05": "...$14",
-    "Lance2heart1.06": "朋友们，欢迎来到我的哨站。经过长途跋涉，你们一定很累了。$4",
-    "Lance2heart1.07": "虽然一路上没什么特别的事情发生，但在我看来，这反倒是件好事。$0",
-    "Lance2heart1.08": "*笑* 当然。$8",
-    "Lance2heart1.09": "请进。我准备了一些点心。我们有很多事情要讨论。$4",
-    "Lance2heart1.10": "我的哨站可能很小，但我保证它足以应对高地的生存挑战。$5#$b#魔法火焰起到了一种驱赶怪物的作用。这些都是我自己创造的。$4",
-    "Lance2heart1.11": "我在这里进行研究，是受公会的命令。$4#$b#这些栖息在这片区域的怪物有一些特别之处...$6#$b#虽然不常见，但有些怪物拥有一些奇特的种子，充满了异常的奥术属性。$10",
-    "Lance2heart1.12": "嗯，种子？是作物种子吗？@ 在这方面是个专家。$0",
-    "Lance2heart1.13": "啊，是的，@ 已经帮助我完成了我之前和公会的约定。$10",
-    "Lance2heart1.14": "兰斯与我和马龙分享了他的发现。他请求我们猎杀高地的怪物以获得他们的奇怪作物种子，并尝试种植它们。",
-    "Lance2heart1.15": "不知不觉间，时间飞逝... 现在该回家了。我好奇在高地还有什么等着我。",
-    "Lance2heart1.16": "我很少使用我的船来巡逻。我很高兴它现在有了另一个用途。#$e#嗯，恐怕我不能承诺帮助兰斯的研究。我在山谷里有自己的责任。#$b#不过，我相信这个任务对你来说再合适不过了，@。",
-
-    "Lance2heart2.01": "欢迎回来，@。$10",
-    "Lance2heart2.02": "感谢你在我的研究上提供的帮助。不幸的是，我自己没能成功种植这些怪物作物。$3#$b#根据我的观察，有四种种子，每种都能生长一种季节性怪物作物。$4#$b#*笑* 你的种植技能正好适合这个任务。$5",
-    "Lance2heart2.03": "怪物虽然不会在我的魔法火焰周围筑巢，但它们仍然可以追着你越过这些火焰。$4#$b#如果你必须撤退，可以在哨站里躲避任何追击者。$5",
-    "Lance2heart2.04": "我已经给你的农舍地址寄了一箱生命药剂。它应该会在明天送到。$1#$b#它们会在你的冒险中有所帮助。祝你好运，@。$5",
-    "Lance2heart2.05": "你可以在我的哨站休息，@。我很乐意招待你。$8#$e#抱歉这里的状态。我的城堡村的家要好得多。$5",
-
-    ////// 高地第二部分
-    "Lance.2Heart.01": "很高兴你能来。$1#$b#希望我之前的解释足够清楚。$5#$b#来吧，上来和我一起。$7",
-    "Lance.2Heart.02": "这片茂密的森林里到处都是怪物。$8#$b#我希望你能加入我，来做个小介绍？$9",
-    "Lance.2Heart.03": "兰斯施展了一个快速的咒语。",
-    "Lance.2Heart.04": "咻!$21#$b#一定不要离我太远。$41",
-    "Lance.2Heart.05": "兰斯准备了另一个咒语，森林开始安静下来。",
-    "Lance.2Heart.06": "好吧，白天的时间宝贵，我们开始我们的探索吧。$8",
-    "Lance.2Heart.07": "兰斯在低声念咒。",
-    "Lance.2Heart.08": "抱歉。$42#$b#通过自言自语的咒语有助于清除用过的魔法。$41#$b#怪物们感觉比以往更强大。$31#$b#我需要问问卡米拉和马格努斯现在的情况。$30",
-    "Lance.2Heart.09": "兰斯叹了口气。",
-    "Lance.2Heart.10": "荒野石魔可以从阴影中生成。你最好注意它们的危险性。它们唯一的好处是有时会掉落怪兽茎种子。$29#$b#史莱姆...嗯...它们会掉落普通的史莱姆种子。$8#$b#极其弹跳的蘑菇会掉落真菌种子。$35#$b#你最糟糕的对手是...暗影人，他们在这个区域很常见，但他们会迅速逃走，留下虚空种子。$31#$b#我还没有问马格努斯虚空种子究竟是什么，但如果你能成功种出什么，我一定会去问他。$30",
-    "Lance.2Heart.11": "很奇怪...不是吗？所有这些怪物居然会掉落种子。$30#$b#仿佛世界在告诉我们它想自我治愈。$31#$b#我真希望有一天能看到一个痊愈的世界。$28",
-    "Lance.2Heart.12": "被一些偷听者打断了，我甚至都没来得及告诉你宝石鱼的事情！$49",
-    "Lance.2Heart.13": "不过这就是我们该离开的信号了！$28",
-    "Lance.2Heart.14": "请原谅我的无礼。$33",
-    "Lance.2Heart.15": "我非常享受带你参观的时光。别陌生，我会在附近见到你。$32",
-
-    "Lance.2Heart.01.a.1": "啊，甜心。我很高兴在你开始一天的行程前赶上了你。#$b#我已经从一次夜间突袭中收集了一些怪物作物。不过，如果你能提供的话，我会非常感激。$8#$b#公会似乎正在准备一种防御武器，如果你有兴趣，我会在准备好后告诉你。$9",
-    "Lance.2Heart.01.b.1": "啊，甜心...*喘气* 我很高兴赶上了你。$22#$b#公会终于寄来了防御武器，但不幸的是，他们把它留在了我的上锁箱子里。*喘气*$16#$b#我的箱子可不轻！$15#$b#如果你不介意，愿意和我一起去取吗？$13",
-    "Lance.2Heart.01.response.q": "你会和兰斯一起去吗？",
-    "Lance.2Heart.01.response.y": "当然。",
-    "Lance.2Heart.01.response.n": "对不起，不行。", //为什么你对他这么冷淡
-    "Lance.2Heart.01.b.2": "啊？$14#$b#那我就不打扰你了。$15#$b#[499] 希望你不介意我的唐突。祝你有美好的一天。$14",
-    "Lance.2Heart.01.yes.1": "抓住我的手，我会传送我们过去。$13",
-    "Lance.2Heart.01.yes.2": "进来吧，我去地窖拿它们。$1",
-    "Lance.2Heart.01.yes.3": "钻石魔杖擅长击退敌人，如果你遇到麻烦，最好使用这个然后传送出去。$8#$b#我自己不需要它，因为我有魔法可以传送，但在危急时刻，最好小心点。$9",
-    "Lance.2Heart.01.yes.4": "如果你在这里遇到危险，我总是会留意的。$13#$b#在外面小心，甜心。$5",
-
-
-
     //// 兰斯 3 心 高地困境
     "Lance.3Heart.01": "啊，甜心！$1#$b#很高兴见到你，我刚收到马龙的消息，说高地洞穴发出了SOS求救信号。$3",
     "Lance.3Heart.02": "这些洞穴非常危险，所以我正在准备潜入看看情况。$2",
@@ -1073,22 +987,7 @@
     "Lance.3Heart.03.tg.10": "马龙会处理接下来的事情，谢谢你陪我一起来，甜心。我需要向其他公会通报矮人的情况，因为这是一个新发现。$12#$b#希望这没什么大问题...我祈祷这就是结束了。$23",
 
     //// 兰斯 4 心 文物和导师
-    "Lance.4Heart.01": "天气真好，不是吗？$13",
-    "Lance.4Heart.02": "对于一个如此细心的人来说，你还真是容易被吓到。$1#$b#不过谨慎并不是一件坏事。$5#$b#我一直想和你谈谈你的成就。$4",
-    "Lance.4Heart.03": "几十年来姜岛一直是我巡逻的主要区域，直到你出现之前，时间似乎是都没怎么流动的。$2#$b#从与鸟类交流并与它们讨价还价，到建造度假村，还带有一个完整的酒吧！$8#$b#在我漫游的几个世纪中，你无疑是最让我好奇的。$13",
-    "Lance.4Heart.04": "可以说，我有一些问题想问你。你熟悉魔法文物吗，甜心？$16",
-    "Lance.4Heart.05": "真的？考虑到你在山谷中的成就，我本以为你至少会有几件藏起来的。$14#$b# 很多文物来自盖多兰，如果你有机会去那里，你最好装备得齐全。$13#$b# 如果你真的去那里看看，替我向我的导师卡米拉问好。$5#$b# 我其实不被允许离开我的巡逻区域太远。$3#$b# 但除此之外，我给你介绍一下文物的概念如何？$1#$b# 这件叫做闪亮遗物。${{e0}}",
-    "Lance.4Heart.06": "你可以用它跟随我上悬崖。集中注意力在你想去的地方，并紧握文物。$4",
-    "Lance.4Heart.07": "文物有各种形状和大小，我的剑就像你手中的那个文物一样。$8",
-    "Lance.4Heart.08": "我的耳环是一个更长的故事，留到下次再说吧。$5",
-    "Lance.4Heart.09": "太棒了！你真是才貌双全！$12#$b# 你真的让我感到惊讶，你能够掌握这些魔法概念，尽管你在世俗生活中根深蒂固。$10",
-    "Lance.4Heart.10": "现在，享受你的劳动成果吧，这里的景色非常壮观。$13",
-    "Lance.4Heart.11": "这真是让人从心底感受到这里的美丽。",
-    "Lance.4Heart.12": "起初，我不想接受这个巡逻任务，因为这里的高温。$3#$b# 一段时间后我习惯了，但我猜这也反映在我的皮肤上。$9#$b# 你应该看看城堡村，那里感觉像是沙子在流血。$3",
-    "Lance.4Heart.13": "卡米拉是我最终接受的原因，她说这种经历会让我成长。$1#$b#我现在开始明白她说的是对的。$5#$b#但这些历史只能在一群朋友之间分享，而不是和一个住在山里的隐士。$7#$b# 我们还是回到海岸边吧。$4",
-    "Lance.4Heart.14": "好吧，闪亮遗物是我想用来测试你的。$5#$b#你使用它时的表现简直就像是马格努斯的学生一样。这真是令人好奇，如果你不介意，我得把它收回了。$7",
-    "Lance.4Heart.15": "我把闪亮遗物还给了兰斯。",
-    "Lance.4Heart.16": "见到卡米拉时，尽量不要被她的玩笑捉弄。我相信她一看到你的潜力，就会非常棘手。祝你有美好的一天，甜心。$5",
+    "Lance.4Heart.01": "",
 
     //// 兰斯 7 心 冒险者的信条
     "Lance.5Heart.01": "马龙，肯定没有你说的那么糟吧！", // surely you jest marlon
@@ -1102,26 +1001,7 @@
     "Lance.5Heart.09": "不过，不论如何，虽然我享受了这次的谈话，但姜岛的沙子可不会自己数着玩。$4#$b#我得走了，再见，马龙，再见，@。$5", // sand grains aren't going to count themselves and been feeling lacking in vitamin d
 
     //// 兰斯 6 心 元素战争的回忆
-    "Lance.6Heart.01": "尼基...艾弗里...保罗...$27#$b#！...$25#$b#...$23#$b#...@...$95",
-    "Lance.6Heart.02": "兰斯似乎陷入了恍惚。我叫了他一声。",
-    "Lance.6Heart.03": "我吗？不，我只是有点小伤，你应该——$94#$b#...$93",
-    "Lance.6Heart.04": "我再次叫了他一声。",
-    "Lance.6Heart.05": "@...? 我怎么——$96#$b#...$94#$b#啊... @..$85",
-    "Lance.6Heart.06": "看来兰斯终于意识到自己在哪儿了。#你还好吗？",
-    "Lance.6Heart.07": "是的，我...我很抱歉，看起来我刚刚陷入了对元素战争的回忆中。$93#$b#可以的话，我能和你一起休息一下吗？$96",
-    "Lance.6Heart.08.response.q": "你让兰斯留下吗？",
-    "Lance.6Heart.08.response.y": "当然。",
-    "Lance.6Heart.08.response.n": "抱歉，不行。",
-    "Lance.6Heart.07.yes.1": "谢谢你，@。$92",
-    "Lance.6Heart.07.yes.2": "兰斯擦了擦脸，重重地叹了口气。",
-    "Lance.6Heart.07.yes.3": "我猜你听说过元素战争？$88",
-    "Lance.6Heart.07.yes.4": "你点头告诉兰斯，你在学校学到的历史是你所知道的全部。",
-    "Lance.6Heart.07.yes.5": "啊。$72#$b#我理解这种感觉，如果我没有亲身经历，我可能也会忘记这些细节。$64",
-    "Lance.6Heart.07.yes.6": "兰斯叹了口气。",
-    "Lance.6Heart.07.yes.7": "很多人不会告诉你，但这都是由于世界动荡而产生的裂痕引起的。$81#$b#那是一个在我之前的时代，但许多修行者沉迷于他们的力量。$80#$b#我相信马格努斯可以告诉你更多，他是前线的一名正式法师。$64#$b#我没有立即参战，我猜我晚了几百个世纪。$65#$b#一些人说我幸运，他们说像我这样的年轻人应该庆幸只赶上了战争的尾声。$64#$b#真是有趣...真的。我是幸运的，但我在能够形成认知之前就失去了所有亲人。$89#$b#抱歉。这可能不是你早晨第一件想听到的事情。$93#$b#感谢你今天给我时间。谢谢你倾听我的心声。$96",
-    "Lance.6Heart.08": "啊...$100#$b#我为打扰你而道歉。$88",
-    "Lance.6Heart.09": "兰斯传送走了...#这真的是正确的做法吗...？",
-    "Lance.6Heart.10": "我为之前的事道歉...但我只是需要一点独处的时间...$89",
+    "Lance.6Heart.01": "",
 
     //CHANGED DIALOGUE
     ////Lance 7 Heart camilla's appearance
@@ -1175,68 +1055,95 @@
     "Lance.7Heart.48": "They just remind me of the good old days with that little brat you so lovingly call him.$8",
     "Lance.7Heart.49": "I should slip out quietly...#It was sweet to hear Lance knew my grandpa.#Grandpa, you sure did have grand adventures here!",
 
-    "Lance8hearts.01": "我已经完成了对怪物作物的研究，现在准备向我的公会利刃之首汇报。$1#$b#我希望你能和我一起去，因为这次任务的成功是因为你。没有你，我做不到这些。$8",
-    "Lance8hearts.02": "*笑* 跟我来。$5",
-    "Lance8hearts.03": "我们的岛位于宝石海的中心，距离太远，无法用普通的交通工具到达。",
-    "Lance8hearts.04": "我先走。$1",
-    "Lance8hearts.05": "你得承认，这比传统的旅行方式快多了。$8#$b#来吧，我带你去见公会的成员。$12",
-    "Lance8hearts.06": "大家！兰斯回来了！$5",
-    "Lance8hearts.07": "嘿！",
-    "Lance8hearts.08": "欢迎回来！",
-    "Lance8hearts.09": "你带来的这位是谁？$0",
-    "Lance8hearts.10": "这是@，他们是我能完成任务的原因。$15#$b#事实证明我自己不怎么擅长种地！$10",
-    "Lance8hearts.11": "哈哈！",
-    "Lance8hearts.12": "嘿...",
-    "Lance8hearts.13": "很高兴见到你，@。我是乔琳，利刃之首的领袖。$4#$b#兰斯的朋友就是我的朋友。$5",
-    "Lance8hearts.14": "嗯，兰斯。你身上散发出的奇特魔法能量可不难察觉。$0#$b#我们都在期待着。$5",
-    "Lance8hearts.15": "*笑* 当然...$5",
-    "Lance8hearts.16": "给我留点空间。$1",
-    "Lance8hearts.17": "什么……",
-    "Lance8hearts.18": "哇哦！",
-    "Lance8hearts.19": "我可以摸一下吗！？",
-    "Lance8hearts.20": "看吧...来自高地的怪物作物！$12",
-    "Lance8hearts.21": "真是令人着迷！",
-    "Lance8hearts.22": "嗯...",
-    "Lance8hearts.23": "令人印象深刻！",
-    "Lance8hearts.24": "见到兰斯来自的公会成员真是不可思议。但现在是时候回家了。也许我很快还能再来访问？",
-    "Lance8hearts.25": "我的导师和公会领袖对我的表现非常满意。谢谢你，@。$8#$e#这些怪物作物将有助于我们了解荒野石魔、史莱姆、真菌精灵和暗影人...$4#$e#高地的工作还没有结束！我们才刚刚开始。$15",
-    "Lance8hearts2.01": "你感受到兰斯在门口。",
-    "Lance8hearts2.02": "你好，@。请在方便的时候在你的姜岛农场见我。$1",
-    "Lance8hearts2.03": "我在你岛上的房产附近有一个秘密的树林...$5",
-    "LanceWizardRune.01": "兰斯告诉我你已经见过利刃之首的成员了。#$b#我在次元之门中为你开放了传送门。",
-    "LanceWizardRune.02": "千万别碰其他传送门，它们相当...不稳定。",
+    //CHANGED DIALOGUE
+    //8 HEART, FORGOTTEN FRIENDS
+    "Lance.8Heart.01": "'Lance?'",
+    "Lance.8Heart.02": "I miss you, you bratty bastard.$93",
+    "Lance.8Heart.03": "Where is he going?",
+    "Lance.8Heart.04": "Paul, I told you rations aren't--$15#$b#...$83",
+    "Lance.8Heart.05": "If only I were stronger then...$81",
+    "Lance.8Heart.06": "I swear Nikki if I have to tell you the magic recipe one more time I'll--$8#$b#I'll...$83",
+    "Lance.8Heart.07": "I properly saw off your widower, I fulfilled my promise, Nikki.$81",
+    "Lance.8Heart.08": "Well, Luis, Avery told me that she wanted to ask YOU out on a--$15#$b#A da..date...$83",
+    "Lance.8Heart.09": "You'd be proud of them, your children are alive and well...$83",
+    "Lance.8Heart.10": "Mary, I swear to Yoba if I find another raunchy novel about me and July I'll--$8#$b#I'll...$83",
+    "Lance.8Heart.11": "They're doing well, you know?$83#$b#'The Tales of the Combat Mage'.$8#$b#If only you... if only you were here to see the vigil.$83", //An enemy broke into the healers tent and in a valiant effort Mary tried to protect the wounded with the minimal offense magics the Frontliners taught her, but was bested
+    "Lance.8Heart.11.1": "I have no need for the 'Nuances of Magicology', Perigee!$15#$b#What use would I have for such a--$83",
+    "Lance.8Heart.11.2": "I still have them, you know?$83#$b#Your books are being held safe within my chambers at home.$8#$b#And I kept our promise, Perigee, I burned that 'special book' you told me to.$9", //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
+    "Lance.8Heart.12": "Lance has finally stopped.",
+    "Lance.8Heart.13": "Was this war even NECESSARY?$77#$b#What purpose did it even SERVE!$78",
+    "Lance.8Heart.14": "All of those lights!$78#$b#Extinguised because of greed!$81",
+    "Lance.8Heart.15": "What was I...$81#$b#What was I even fighting for?$83",
+    "Lance.8Heart.16": "TELL ME!", //textabovehead
+    "Lance.8Heart.17": "The bloodshed, the misery, the vigils, all of the eulogies of empty graves!$78",
+    "Lance.8Heart.18": "FOR WHAT?!", //textabovehead
+    "Lance.8Heart.19": "A few shiny baubles on a coat, a pat on the back that I did well, that those who fought alongside me fought bravely?!$78",
+    "Lance.8Heart.20": "Mother...?$89#$b#Mother, don't leave me on this battlefield!$91#$b#I swear I'll do better!$91",
+    "Lance.8Heart.21": "Please don't abandon me here!$95#$b#I'm... scared!$85",
+    "Lance.8Heart.22": "Lance is shaking.#'Lance! It's me!'#'Lance, you're in Pelican Town.'#'Lance?'",
+    "Lance.8Heart.23": "Oh, you bratty bastard you didn't have to come out to see me all the way out here--$15",
+    "Lance.8Heart.24": "'Lance?'",
+    "Lance.8Heart.25": "No, you're not... you're not--$83",
+    "Lance.8Heart.26": "Yes, you're @, the dead cannot be... the dead cannot be brought back.$83",
+    "Lance.8Heart.27": "Lance is silent.#'Are you okay?'#'Who were those people you were talking about?'#'Let's go see Harvey.'#'You're acting like a psycho.'",
+    //beginging switches
+    //okay switch
+    "Lance.8Heart.OKAY.1": "Yeah of course I'm fine you bratty bas--$15#$b#No I'm... @?$83",
+    "Lance.8Heart.OKAY.2": "Where am I?$81",
+    "Lance.8Heart.OKAY.3": "I tell him when I started following him.",
+    "Lance.8Heart.OKAY.4": "Your farm, the town, and now here?$83#$b#I see...$81",
+    "Lance.8Heart.OKAY.5": "I--I did not mean to cause such a fuss, you've caught me at a very... unopportune moment.$71",
+    "Lance.8Heart.OKAY.6": "What should I say?#'You don't have to put up a front.'#'I was worried about you.'#'I like seeing all sides of you.'",
+
+    "Lance.8Heart.OKAY.FRONT": "A--A front?$71#$b#Have the cracks in my mask finally shown through?$8#$b#Are you disillusioned by me now?$71",
+    "Lance.8Heart.OKAY.WORRIED": "You?$70#$b#I--I've made you worry about me?$71#$b#I've broken my mask it seems...$8#$b#Are you disillusioned by me now?$71",
+    "Lance.8Heart.OKAY.SIDES": "A-all sides of--!$70#$b#Ahah!$15",
+    "Lance.8Heart.OKAY.SIDES.1": "I guess I haven't disillusioned you by these 'sides' of mine, yeah?$71",
+
+    "Lance.8Heart.OKAY.7": "Ah I... I see.$71#$b#I guess I've lived for quite a long time with this mask on my face.$8#$b#If you don't mind, could I rest on your shoulder for a moment?$9",
+    "Lance.8Heart.OKAY.8": "I miss them, my comrades from the war, they were the most rambunctious lot.$8",
+    "Lance.8Heart.OKAY.9": "Maybe someday I'll tell you all about them and our escapades.$71",
+    "Lance.8Heart.OKAY.10": "But as it is right now, we're both soaked through, come, I'll warp you back home you bra--$71#$b#...$83#$b#Sorry, @, @, I'll warp you back home.$71",
+    "Lance.8Heart.OKAY.11": "Thank you, for chasing after me, for talking with me, for... for being you.$71#$b#I'll see you around, @.$71",
+
+    //people switch
+    "Lance.8Heart.PEOPLE.1": "Huh?$70#$b#What names were I saying?$70",
+    "Lance.8Heart.PEOPLE.2": "Those were my comrades when I first joined the Elemental War.$8#$b#Rambunctious bunch, the lot of them.$71#$b#All of us too young to be in a war, but me especially, since I think I was barely a teenager.$8",
+    "Lance.8Heart.PEOPLE.3": "I miss them, dearly, fondly.$9#$b#Sometimes the memories flood in like I'm brought back to that same battlefield.$58#$b#Most of the time I hear them, their boistrous calls for me.$9#$b#Some barely had a child of their own, using me as a placeholder for the life they dreamed of.$58",
+    "Lance.8Heart.PEOPLE.4": "Most times... I just remember their deaths.$83#$b#Brave. Each and every one of them. To a fault, even.$81#$b#Each one...$77",
+    "Lance.8Heart.PEOPLE.5": "Each one in their own right gave up their life to save mine or another's.$83#$b#...$81",
+    "Lance.8Heart.PEOPLE.6": "Sometimes the thoughts of persevering through strength loses to my doubts of surviving those who could not.$83",
+    "Lance.8Heart.PEOPLE.7": "'Even should you lose all that is dear to you.'$83#$b#'Even should it cost you your life.'$81#$b#'You bear the burden and fight on.'$80#$b#'Kicking and screaming until your last breath is spent...'$81",
+    "Lance.8Heart.PEOPLE.8": "A parting gift, from my best friend, to me.$65#$b#...$64",
+    "Lance.8Heart.PEOPLE.9": "His words have become my mantra.$83#$b#Sometimes it feels as burdensome as a curse.$81#$b#But he...$64#$b#He was a good man.$65",
+    "Lance.8Heart.PEOPLE.10": "Ah...!$70#$b#...#83#$b#'The rains have ceased, and we have been braced with another beautiful day.'$37#$b#...'But you are not here to see it.'...$86",
+    "Lance.8Heart.PEOPLE.11": "I--I apologize.$93#$b#We're both completely soaked through.$65#$b#But truly...it's the breaking of sun between the rain that really shakes my bravado.$64",
+    "Lance.8Heart.PEOPLE.12": "If you don't mind, could I have your hand? I'll warp you back to your farm.$65",
+    "Lance.8Heart.PEOPLE.13": "...Thank you, @.$64#$b#For chasing after me, for letting me reminisce in times long passed...$65#$b#For being you.$67#$b#I'll see you around, @.$71",
+
+    //doctor, tenatively no idea how to write this one
+    "Lance.8Heart.DOCTOR.1": "Harvey?$81#$b#I don't know a 'Harv-'$79#$b#...$83",
+    "Lance.8Heart.DOCTOR.2": "...$58#$b#...Right...$58#$b#",
+    "Lance.8Heart.DOCTOR.3": "Yes...$81#$b#If you don't mind, could you help me up @?$65",
+    "Lance.8Heart.DOCTOR.4": "Thank you, I think I can walk on my own.$58",
+    "Lance.8Heart.DOCTOR.5": "What should I say...#'Do you want me to go with you?'#'I hope you feel better.'",
+    "Lance.8Heart.DOCTOR.5.1": "No that's...$59#$b#That's quite alright, I'll be fine on my own now, thank you again.$9",
+    "Lance.8Heart.DOCTOR.5.2": "Thank you, I'll see you around, thank you, @.$58",
+
+    //'psycho' - read:jackass, you are a jackass for picking this one
+    "Lance.8Heart.JACKASS.1": "A psy--!$78#$b#Hah...$81",
+    "Lance.8Heart.JACKASS.2": "HAHAHAH!",
+    "Lance.8Heart.JACKASS.3": "Ahah...$97#$b#...$83",
+    "Lance.8Heart.JACKASS.4": "...$81",
+    "Lance.8Heart.JACKASS.5": "Have a good one, @.$55",
+    "Lance.8Heart.JACKASS.6": "...Maybe I shouldn't have said that...#Lance immediately left...",
 
 
     //// Lance 9 心 乔琳的担忧
-    "Lance.9Heart.01": "啊，我正找你呢。",
-    "Lance.9Heart.02": "作为利刃之首的领袖，兰斯第一时间告诉我你们两人在一起的消息。#$b#虽然我对我的成员谈恋爱没有异议，但每次他们进入平民领域时，我都会给他们一些警告。#$b#自童年时代起，兰斯就一直是我的朋友，我对他有着像对哥哥一样的感情。#$b#他从未背叛过我的信任，总是心系公会的荣誉和骄傲。#$b#我认为你们的关系是个好事，但希望你不要辜负这份信任。",
-    "Lance.9Heart.03": "许多人都寻求像兰斯这样独特的人，虽然他表面上什么也没说，但我能看出，他就像是一艘从未靠过岸的船。#$b#请照顾好他，@。",
+    "Lance.9Heart.01": "",
 
     //// Lance 10 心 怪物的安慰
-    "Lance10hearts1.01": "早上好。我今天有事要去公会，想知道你是否愿意陪我去。$0#$b#你可以体验一下在利刃之首的一天是怎样的……$5",
-    "Lance10hearts1.02": "你可以使用马格努斯的传送大厅，或者我在姜岛的秘密森林。$1#$b#我在你岛上的农舍后面的悬崖上开辟了一条通道。$0",
-    "Lance10hearts1.03": "明天我们在寓言礁见。$1",
-    "Lance10hearts2.01": "啊，你来了！$1",
-    "Lance10hearts2.02": "今天岛上有一群鱼雷鳟鱼。也许我们能看到它们。$15",
-    "Lance10hearts2.03": "我们先从巡逻寓言礁开始吧。$7",
-    "Lance10hearts2.04": "这是我们制作魔力药剂的方法！",
-    "Lance10hearts2.05": "嘿！",
-    "Lance10hearts2.06": "我听说过你！",
-    "Lance10hearts2.07": "真是场火！",
-    "Lance10hearts2.08": "*打哈欠* 真是忙碌的一天……$16",
-    "Lance10hearts2.09": "呃，这里的床是单人床。$14#$b#虽然挤一点，但应该还是能睡的。$13",
-    "Lance10hearts2.10": "兰斯作为冒险者和法师的经历在他的体型上体现得淋漓尽致。",
-    "Lance10hearts2.10.y": "我不介意你紧紧抱着我。",
-    "Lance10hearts2.10.n": "我要走了，这次很愉快。",
-    "Lance10hearts2.11": "*笑* 如果你愿意。祝你一路平安。$13#$b#你随时都欢迎来这里。$5",
-    "Lance10hearts2.12": "啊，@。我想为在客房里我的急躁行为道歉。那不会再发生了。$1#$e#你给公会留下了很好的印象。$5",
-    "Lance10hearts2.13": "我想我们可以试试。$14",
-    "Lance10hearts2.14": "*笑* 看来我们俩都能挤下，但确实很挤。${{e38}}",
-    "Lance10hearts2.15": "@... 我...$29",
-    "Lance10hearts2.16": "那是我永远不会忘记的夜晚……${{e38}}",
-    "Lance10hearts3.01": "*笑* 你迟到了……$5",
-    "Lance10hearts3.02": "我们改天再试一次吧，选个阳光明媚的日子？$7#$b#早点来。$4",
-    "Lance10hearts3.03": "我一直期待着和你一起在寓言礁度过这一天。$8",
+    "Lance10hearts1.01": "",
 
     //// Lance 11 心 战争回忆
     "Lance.11Hearts.pre": "@！我刚刚收到通知，说兰斯在城堡村被困住了，我们必须尽快赶去！",

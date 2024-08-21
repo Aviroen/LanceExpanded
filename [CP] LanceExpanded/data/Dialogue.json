@@ -10,6 +10,16 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lance",
+            "When": {
+                "Darker Plot Events(Y4)": true
+            },
+            "Entries": {
+                "{{ModId}}_8People": "{{i18n:Lance.8Heart.People.Convo_4}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lance",
             "Entries": {
                 //Special Dialogue
                 "danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
@@ -46,6 +56,11 @@
 
                 "Reject_458": "{{i18n:Lance.BouquetReject}}",
                 "Reject_460": "{{i18n:Lance.PendantReject}}",
+
+                "{{ModId}}_8Okay": "{{i18n:Lance.8Heart.Okay.Convo_{{Random:{{Range: 0, 4}}}}}}",
+                "{{ModId}}_8People": "{{i18n:Lance.8Heart.People.Convo_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_8Doctor": "{{i18n:Lance.8Heart.Doctor.Convo_{{Random:{{Range: 0, 4}}}}}}",
+                "{{ModId}}_8Jackass": "{{i18n:Lance.8Heart.Jackass.Convo_{{Random:{{Range: 0, 4}}}}}}",
 
                 ////////////other marriage
                 "MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_0}}",

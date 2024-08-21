@@ -70,6 +70,22 @@
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:WearEarring.01}}\" true"
                     ]
+                },
+                // change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
+                "{{ModId}}_LanceQiEvents": {
+                    "Id": "{{ModId}}_LanceQiEvents",
+                    "Trigger": "Spiderbuttons.BETAS_GiftGiven",
+                    "Condition": "ITEM_ID Target \"Lance\", ITEM_ID Target \"Aviroen.LanceExpanded_QiMomento\"",
+                    "Actions": [
+                        "MarkEventSeen Current LanceQi false",
+                        "MarkEventSeen Current LEQiAdventurer false",
+                        "MarkEventSeen Current LEQiPost false",
+                        "MarkEventSeen Current LEQiPost1 false",
+                        "MarkEventSeen Current LEQiPost2 false",
+                        "MarkEventSeen Current LEQiPost3 false",
+                        "MarkEventSeen Current LEQiPost4 false",
+                        "MarkActionApplied Current {{ModId}}_LanceQiEvents false"
+                    ]
                 }
             }
         }
