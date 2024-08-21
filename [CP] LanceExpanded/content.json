@@ -45,7 +45,12 @@
             "Section": "Content",
             "Description": "Resets ALL of my mod's heart events, default 'pause', toggle and save to activate."
         },
-
+        "Easy Savage Ring": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Section": "Content",
+            "Description": "Makes it so as soon as Krobus is at 10 hearts, you get an automatic completion of Gil's Savage Ring challenge."
+        },
         "LanceNewRoom": {
             "AllowValues": "true, false",
             "Default": "true",

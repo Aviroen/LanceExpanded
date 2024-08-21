@@ -132,7 +132,7 @@
             "Action": "EditData",
             "Target": "data/events/",
             "Entries": {
-                "": ""
+                "LEFinally": ""
             }
         },
 

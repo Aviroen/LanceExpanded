@@ -26,63 +26,59 @@
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
-                "{{ModId}}_ObjectExtention": {
-                    "Entries": {
-                        "{{ModId}}_Khanjar": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedKhanjar}}"
-                        },
-                        "{{ModId}}_Book": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedBook}}"
-                        },
-                        "{{ModId}}_Camping": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedCamping}}"
-                        },
-                        "{{ModId}}_Camping1": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedCamping1}}"
-                        },
-                        "{{ModId}}_Camping2": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedCamping2}}"
-                        },
-                        "{{ModId}}_Mishaps": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedMishaps}}"
-                        },
-                        "{{ModId}}_Shenanigans": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedShenanigans}}"
-                        },
-                        "{{ModId}}_Rope": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedRope}}"
-                        },
-                        "{{ModId}}_Razor": {
-                            "GiftableToNpcAllowList": [
-                                "Lance"
-                            ],
-                            "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedRazor}}"
-                        }
-                    }
+                "{{ModId}}_Khanjar": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedKhanjar}}"
+                },
+                "{{ModId}}_Book": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedBook}}"
+                },
+                "{{ModId}}_Camping": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedCamping}}"
+                },
+                "{{ModId}}_Camping1": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedCamping1}}"
+                },
+                "{{ModId}}_Camping2": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedCamping2}}"
+                },
+                "{{ModId}}_Mishaps": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedMishaps}}"
+                },
+                "{{ModId}}_Shenanigans": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedShenanigans}}"
+                },
+                "{{ModId}}_Rope": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedRope}}"
+                },
+                "{{ModId}}_Razor": {
+                    "GiftableToNpcAllowList": [
+                        "Lance"
+                    ],
+                    "GiftedToNotOnAllowListMessage": "{{i18n:NotAllowedRazor}}"
                 }
             }
         }
