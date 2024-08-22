@@ -70,23 +70,6 @@
                         "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
                     ]
                 },
-                "{{ModId}}_AnniversaryDayAdder": {
-                    "Id": "{{ModId}}_AnniversaryDayAdder",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LEDeathly, PLAYER_NPC_RELATIONSHIP Current Lance Married",
-                    "Actions": [
-                        "IncrementStat DaysMarriedToLance 1",
-                        "MarkActionApplied Current {{ModId}}_AnniversaryDayAdder false"
-                    ]
-                },
-                "{{ModId}}_AnniversaryDayStopper": {
-                    "Id": "{{ModId}}_AnniversaryDayStopper",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Divorced",
-                    "Actions": [
-                        "MarkActionApplied Current {{ModId}}_AnniversaryDayAdder true"
-                    ]
-                },
                 "{{ModId}}_SVEQiEvents": {
                     "Id": "{{ModId}}_SVEQiEvents",
                     "Trigger": "DayStarted",
@@ -160,15 +143,6 @@
                 },
                 "{{ModId}}_8HeartDaySpacerJACKASSSTOP": {
                     "Id": "{{ModId}}_8HeartDaySpacerJACKASSSTOP",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSince8HeartJACKASS 15 15",
-                    "Actions": [
-                        "RemoveMail Current {{ModId}}_8HeartJACKASS all",
-                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerJACKASS true"
-                    ]
-                },
-                "{{ModId}}_EzSavageRing": {
-                    "Id": "{{ModId}}_EzSavageRing",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_STAT Current DaysSince8HeartJACKASS 15 15",
                     "Actions": [
