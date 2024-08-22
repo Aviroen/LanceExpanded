@@ -323,30 +323,30 @@
         },
         //8 heart dynamic tokens, just know if you pick THAT ONE LINE, YOU'RE A JACKASS.
         {
-            "Name": "8HeartChoice",
+            "Name": "10HeartChoice",
             "When": {
-                "HasFlag": "{{ModId}}_8HeartOKAY"
+                "HasFlag": "{{ModId}}_10HeartOKAY"
             },
             "Value": "OKAY"
         },
         {
-            "Name": "8HeartChoice",
+            "Name": "10HeartChoice",
             "When": {
-                "HasFlag": "{{ModId}}_8HeartPEOPLE"
+                "HasFlag": "{{ModId}}_10HeartPEOPLE"
             },
             "Value": "PEOPLE"
         },
         {
-            "Name": "8HeartChoice",
+            "Name": "10HeartChoice",
             "When": {
-                "HasFlag": "{{ModId}}_8HeartDOCTOR"
+                "HasFlag": "{{ModId}}_10HeartDOCTOR"
             },
             "Value": "DOCTOR"
         },
         {
-            "Name": "8HeartChoice",
+            "Name": "10HeartChoice",
             "When": {
-                "HasFlag": "{{ModId}}_8HeartJACKASS"
+                "HasFlag": "{{ModId}}_10HeartJACKASS"
             },
             "Value": "JACKASS"
         }

@@ -112,42 +112,42 @@
                         "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
                     ]
                 },
-                "{{ModId}}_8HeartDaySpacerOKAY": {
-                    "Id": "{{ModId}}_8HeartDaySpacerOKAY",
+                "{{ModId}}_10HeartDaySpacerOKAY": {
+                    "Id": "{{ModId}}_10HeartDaySpacerOKAY",
                     "Trigger": "DayEnding",
-                    "Condition": "ANY \"PLAYER_HAS_MAIL Current {{ModId}}_8HeartOKAY\" \"PLAYER_HAS_MAIL Current {{ModId}}_8HeartPEOPLE\" \"PLAYER_HAS_MAIL Current {{ModId}}_8HeartDOCTOR\"",
+                    "Condition": "ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR\"",
                     "Actions": [
-                        "IncrementStat DaysSince8HeartOKAY 1",
-                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerOKAY false"
+                        "IncrementStat DaysSince10HeartOKAY 1",
+                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerOKAY false"
                     ]
                 },
-                "{{ModId}}_8HeartDaySpacerOKAYSTOP": {
-                    "Id": "{{ModId}}_8HeartDaySpacerOKAYSTOP",
+                "{{ModId}}_10HeartDaySpacerOKAYSTOP": {
+                    "Id": "{{ModId}}_10HeartDaySpacerOKAYSTOP",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSince8HeartOKAY 5 5",
+                    "Condition": "PLAYER_STAT Current DaysSince10HeartOKAY 5 5",
                     "Actions": [
-                        "RemoveMail Current {{ModId}}_8HeartOKAY all",
-                        "RemoveMail Current {{ModId}}_8HeartPEOPLE all",
-                        "RemoveMail Current {{ModId}}_8HeartDOCTOR all",
-                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerOKAY true"
+                        "RemoveMail Current {{ModId}}_10HeartOKAY all",
+                        "RemoveMail Current {{ModId}}_10HeartPEOPLE all",
+                        "RemoveMail Current {{ModId}}_10HeartDOCTOR all",
+                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerOKAY true"
                     ]
                 },
-                "{{ModId}}_8HeartDaySpacerJACKASS": {
-                    "Id": "{{ModId}}_8HeartDaySpacerJACKASS",
+                "{{ModId}}_10HeartDaySpacerJACKASS": {
+                    "Id": "{{ModId}}_10HeartDaySpacerJACKASS",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LERealization, PLAYER_HAS_MAIL Current {{ModId}}_8HeartJACKASS",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LERealization, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS",
                     "Actions": [
-                        "IncrementStat DaysSince8HeartJACKASS 1",
-                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerJACKASS false"
+                        "IncrementStat DaysSince10HeartJACKASS 1",
+                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerJACKASS false"
                     ]
                 },
-                "{{ModId}}_8HeartDaySpacerJACKASSSTOP": {
-                    "Id": "{{ModId}}_8HeartDaySpacerJACKASSSTOP",
+                "{{ModId}}_10HeartDaySpacerJACKASSSTOP": {
+                    "Id": "{{ModId}}_10HeartDaySpacerJACKASSSTOP",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSince8HeartJACKASS 15 15",
+                    "Condition": "PLAYER_STAT Current DaysSince10HeartJACKASS 15 15",
                     "Actions": [
-                        "RemoveMail Current {{ModId}}_8HeartJACKASS all",
-                        "MarkActionApplied Current {{ModId}}_8HeartDaySpacerJACKASS true"
+                        "RemoveMail Current {{ModId}}_10HeartJACKASS all",
+                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerJACKASS true"
                     ]
                 },
                 "{{ModId}}_EZSavage": {
