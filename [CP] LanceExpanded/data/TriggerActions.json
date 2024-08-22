@@ -149,6 +149,14 @@
                         "RemoveMail Current {{ModId}}_8HeartJACKASS all",
                         "MarkActionApplied Current {{ModId}}_8HeartDaySpacerJACKASS true"
                     ]
+                },
+                "{{ModId}}_EZSavage": {
+                    "Id": "{{ModId}}_EZSavage",
+                    "Trigger": "LocationChanged",
+                    "Condition": "{{Easy Savage Ring |contains=true}}",
+                    "Actions": [
+                        "AddMail Current Gil_Shadows received"
+                    ]
                 }
             }
         }

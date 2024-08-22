@@ -1262,32 +1262,21 @@
     ////Lance 10 Heart a frivolous affair
     "Lance.10Heart.1": "",
 
+
     //lance 10 heart pt2 will you finally recognize me
     "Lance.10Heart.pt2.1": "",
 
+
     ////lance 11 heart war recollections
-    "Lance.11Hearts.pre": "@! I've just gotten notice that Lance is being overwhelmed at Castle Village, we must go quickly!",
-    "Lance.11Hearts.00": "I can hear magic whirring in the distance alongside the clanking of metal.",
-    "Lance.11Hearts.01": "@!$100#$b#What are you doing here?! Stay back! It's not safe here!$50",
-    "Lance.11Hearts.02": "Lance backpedalled until he was in front of me.",
-    "Lance.11Hearts.03": "Lance is breathing heavily as he looks at me.",
-    "Lance.11Hearts.04": "Took out three...$50#$b#But there are still more... Please stay safe beloved!$52",
-    "Lance.11Hearts.05": "Lance seems like he can't catch his breath.",
-    "Lance.11Hearts.06": "As he looks over at me, his eyes widen and he looks angry.",
-    "Lance.11Hearts.07": "@...$100",
-    "Lance.11Hearts.08": "Lance raises an arm and readies a spell in my direction. #I ducked.",
-    "Lance.11Hearts.08.5": "...",
-    "Lance.11Hearts.09": "...I saw how you looked at me...$85#$b#You know I'd never do anything to hurt you @...$92#$b#Right?$94",
-    "Lance.11Hearts.10": "My heart nearly stopped when I saw the ghost sneaking up behind you...$93#$b#I have never felt that terrified in all my years of existence.$92#$b#This brings back so many memories of the war.$96",
-    "Lance.11Hearts.11": "My nightmares have already been really bad so tonight will be no different. I have flashback dreams of the war almost nightly.$84#$b#I have learned it best to wait until the sun is up and I can bask in its warm to sleep.$88#$b#I'm well acquainted with loss. Seeing people you considered family perish at the hands of your enemy is nothing anyone could prepare you for, and time doesnt make it any easier.$92#$b#I'm sorry it looked like I might hurt you...$93#$b#I just dont know what I'd do if I lost the other half of my soul...$96",
-    "Lance.11Hearts.12": "You see something in his expression change almost like he had an epiphany",
-    "Lance.11Hearts.13": "I must go...$77#$b#I have something I need to do at the Ministry...$81",
-    "Lance.11Hearts.14": "Lance left in a hurry...#I was definitely scared, but I wonder what came over him at the last minute...?",
+    "Lance.11Heart.1": "",
 
 
+    ////Lance 12 Heart the honeymoon phase [farmhouse]
+    "Lance.12Heart.1": "",
 
-    ////Lance 12 Heart shadowperson, meeting krobus
-    "Lance12hearts1.01": "",
+    //lance 12 heart pt2 my friends in the valley [town]
+    "Lance.12Heart.pt2.1": "",
+
 
     ////lance 13 heart elemental war scars, camilla's tutelage, Lance' tutelage, lance's gift
     "Lance.13Heart.01": "@!$49#$b#I just felt a shudder from deep within the mines, I was preparing myself to go.$48",

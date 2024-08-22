@@ -132,7 +132,8 @@
             "Action": "EditData",
             "Target": "data/events/",
             "Entries": {
-                "LEFinally": ""
+                "LEFinally": "",
+                "LEFinallyYes": "setEngaged Lance false {{WeddingDate}}"
             }
         },
 

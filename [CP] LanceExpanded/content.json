@@ -38,7 +38,12 @@
             "Section": "Content",
             "Description": "You are warned that Pepper X is [Aviroen] letting the muzzle off my writer who is a thirsty dog. Carolina Reaper is more explicit than Habanero, Habanero is akin to RRRR's 'wine event' spice. Bell Pepper is rated-E for everyone."
         },
-
+        "Easy Savage Ring": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Section": "Content",
+            "Description": "This might screw with perfection. Haven't debugged it, but it lets you purchase the Savage Ring from Gil. (This is a requirement for the 13 Heart event because you'll need the Krobus Ritual to be done.)"
+        },
         "HeartEvents": {
             "AllowValues": "LanceExpanded, pause",
             "Default": "pause",
