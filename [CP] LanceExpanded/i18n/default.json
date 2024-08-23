@@ -1075,13 +1075,13 @@
     "Lance.7Heart.39": "The lil brat that used to ask me out on dates?$6#$b#I miss him.$2",
     "Lance.7Heart.40": "Yeah, me too--But their grandchild took over his farm.$11",
     "Lance.7Heart.41": "A grandchild?!$6#$b#And you have a crush on them?!$1#$b#Oh that little brat would be rubbing it in your face!$6#$b#You used to bicker like children!$6",
-    "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that the little brat tried so hard for...$2",
+    "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that he tried so hard for...$2",
     "Lance.7Heart.43": "Sort of? They still have a mundane lifespan though.$8",
     "Lance.7Heart.44": "Oh you changed the subject!$7#$b#When are you going to ask them out??$6",
     "Lance.7Heart.45": "Ah, I--I don't know...$72",
     "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...I'll bring it up.$15",
     "Lance.7Heart.47": "So what's got you so excited?$6",
-    "Lance.7Heart.48": "They just remind me of the good old days with that little brat you so lovingly call him.$8",
+    "Lance.7Heart.48": "They just remind me of the good old days with that 'little brat' you so lovingly call him.$8",
     "Lance.7Heart.49": "I should slip out quietly...#It was sweet to hear Lance knew my grandpa.#Grandpa, you sure did have grand adventures here!",
 
 
@@ -1106,6 +1106,44 @@
     "Lance.8Heart.18": "I'd much rather hear Lance's adventure stories!$1", //vincent
     "Lance.8Heart.19": "But Lance is also a researcher, Vincent.$3", //jas
     "Lance.8Heart.20": "Yeah! The parrots love Lance!$1", //leo
+    //begin montage "Lance.8Heart.": "",
+    "Lance.8Heart.21": "But, but you won!$3#$b#...Right?$2", //vincent
+    "Lance.8Heart.22": "Well if you want to go by record and research, Jas, 'shelled' eggs were leathery and malleable.$1", //lance
+    "Lance.8Heart.23": "Leathery?$3#$b#Oh! Like a lizard's egg!$1", //jas
+    "Lance.8Heart.24": "Lizards are so cool!$1", //vincent
+    "Lance.8Heart.25": "There's those things in the lava at the volcano... are those lizards?$3", //leo
+    //more montage
+    "Lance.8Heart.26": "Well, children! We can make it your homework to ask two people what they think.$1#$b#The Chicken or The Egg?$0#$b#But we've still got plenty of sunlight for the playground!$1", //penny
+    "Lance.8Heart.27": "Okay Penny!", //textabovehead all kids
+    "Lance.8Heart.28": "Hey, Lance?$3", //vincent
+    "Lance.8Heart.29": "Laaance!!$0", //vincent
+    "Lance.8Heart.30": "Huh?$12#$b#Sorry Vincent, what's up bud?$1", //lance
+    "Lance.8Heart.31": "Are you going to stay in town with us forever?$3", //vincent
+    "Lance.8Heart.32": "Forever?$9#$b#That's quite a long time to think about, but y'know? Maybe.$7", //lance
+    "Lance.8Heart.33": "You'll be sure to tell me all of your adventures right?!$1", //vincent
+    "Lance.8Heart.34": "Of course!$15#$b#You'd better start running though, the others have already left.$7", //lance
+    "Lance.8Heart.35": "Oh! Oh no, wait up guys!", //textabovehead vincent
+    "Lance.8Heart.36": "...Forever, huh?$12", //lance
+    "Lance.8Heart.37": "Shall we?$13#$b#I'll walk you back to your farm.$8",
+    "Lance.8Heart.38": "...So my question to you, @, what came first?$12",
+    "Lance.8Heart.39": "These feelings that have nowhere to run but to escape my lips?$41",
+    "Lance.8Heart.40": "To tell you that I've realized I can no longer hide it?$43",
+    "Lance.8Heart.41": "That I've found you so endearing, charming, and utterly loveable?$43",
+    "Lance.8Heart.42": "Or did you garner feelings for me before I even realized it?$41",
+    "Lance.8Heart.43": "What should I say?#'I didn't know Jolyne owned romance novels for you to read.'#'Obviously my feelings for you.'#'You have feelings for me?'",
+    "Lance.8Heart.43.1": "Jolyne?$38#$b#You don't trust that I can't think these things for myself?$8#$b#I have to have a fallback for my rose-tinted words?$43",
+    "Lance.8Heart.43.2": "...I was being whimsical with my words but, you feel the same?$42",
+    "Lance.8Heart.43.3": "Why, yes!$8#$b#Must I repeat myself?$43#$b#Your charm? Your cute remarks? Your attentiveness to me and my intense work schedule?$43",
+    "Lance.8Heart.44": "...But this all comes down to my main question.$43",
+    "Lance.8Heart.45": "Would you be mine?$43",
+    "Lance.8Heart.46": "How do I respond?#'Yes!'#'Sorry, I don't feel the same.'",
+    "Lance.8Heart.46.1": "Oh--I...$37#$b#I understand. I hope we can at least still be friends?$36",
+    "Lance.8Heart.46.2": "Have a good night, @.$0",
+    "Lance.8Heart.47": "Oh!$42#$b#I was honestly a little afraid you didn't feel the same...$43",
+    "Lance.8Heart.48": "I guess I was able to win out for your affections in the end.$39",
+    "Lance.8Heart.49": "It's getting late, I don't want to be the reason your farm stops running.$43",
+    "Lance.8Heart.50": "I'll see you, @.$43",
+    "Lance.8Heart.51": "Goodnight.$39",
 
 
     ////Lance 9 Heart "i'll be loyal to you for the rest of YOUR life"
@@ -1272,9 +1310,13 @@
     "Lance.10Heart.pt2.10": "You are... incredibly special to me.$43",
     "Lance.10Heart.pt2.11": "Come, there's something I must show you.$43",
     "Lance.10Heart.pt2.11.1": "This... this doesn't come easy to someone like me.$30#$b#Mages are... quite long lived, I've already prepared myself mentally that I wish to spend the rest of your life with you.$31",
-    "Lance.10Heart.pt2.11.2": "After the days of contemplation after you showed care to me, I came up with this conclusion.$32",
+    "Lance.10Heart.pt2.11.2": "You are the most kind, caring and tenacious person I've met. In my mental preparation and contemplation of this moment, I just have one question for you.$32",
     "Lance.10Heart.pt2.11.3": "@, will you marry me?$43",
     "Lance.10Heart.pt2.12": "What should I say?#'Yes!'#'Sorry, I don't feel the same.'",
+    //the no answer ???
+    "Lance.10Heart.pt2.no": "I--I understand...$37#$b#We can still be friends though, right?$36",
+    "Lance.10Heart.pt2.no.1": "Unless the thought of me... bothers you?$37#$b#I guess I'll keep my distance.$36",
+    //switchback to yes
     "Lance.10Heart.pt2.13": "Oh!$42#$b#Oh I'm--I'm so happy you feel the same!$15",
     "Lance.10Heart.pt2.14": "Despite being an active combat mage, my heart has never felt so overwhelmed!$15",
     "Lance.10Heart.pt2.15": "I feel as if Mount Kohldur could erupt right now from my excitement!$43",
@@ -1282,19 +1324,17 @@
     "Lance.10Heart.pt2.17": "Maybe sometime we can visit your grandpa's shrine to tell him the good news?$43",
     "Lance.10Heart.pt2.18": "I cannot await the adventures we'll have together, @.$43",
     "Lance.10Heart.pt2.19": "Preparations!$42#$b#I have to begin the preparations!$43",
-    "Lance.10Heart.pt2.20.": "When do you want to hold the wedding, my love?$43",
-    "Lance.10Heart.pt2.21.": "How many days from now? (FESTIVALS WILL PUSH IT BACK A DAY)#'Tomorrow!'#'2 days from now!'#'3 days from now!'#'4 days from now!'#'5 days from now!'",
+    "Lance.10Heart.pt2.20": "When do you want to hold the wedding, my love?$43",
+    "Lance.10Heart.pt2.21": "How many days from now? (FESTIVALS WILL PUSH IT BACK A DAY)#'Tomorrow!'#'2 days from now!'#'3 days from now!'#'4 days from now!'#'5 days from now!'",
     "Lance.10Heart.pt2.22": "Excited, are we?$43#$b#Don't worry, I am too.$40#$b#Alright, we'll have the wedding then.$43",
     "Lance.10Heart.pt2.23": "As much excitement as it is, we must still tend to our duties, your hand?$43",
-    "Lance.10Heart.pt2.24": "Back at your farm...$32",
-    "Lance.10Heart.pt2.25": "I know that I said we have... duties to attend to, but would you cater to me for this one night?$43",
+    "Lance.10Heart.pt2.24": "Back at your farm...my love.$32",
+    "Lance.10Heart.pt2.25": "I know that I said we have... duties to attend to, but I don't know if I'm quite done celebrating yet. If you're up for it could I stay a bit longer?$43",
     "Lance.10Heart.pt2.26": "What should I say?#'Of course, come in.'#'Sorry, but let's wait til our actual wedding night.'",
-
-    //the no answer ???
-    "Lance.10Heart.pt2.no": "I--I understand...$37#$b#We can still be friends though, right?$36",
-    "Lance.10Heart.pt2.no.1": "Unless the thought of me... bothers you?$37#$b#I guess I'll keep my distance.$36",
-    //spicy breaks?
-
+    //saying no to spicy, bad dog
+    "Lance.10Heart.pt2.26.no": "Ah, I--$99#$b#I understand, my love.$43#$b#I will count the sands in my hourglass until we are to be wed.$43#$b#Goodnight, my love.$8",
+    //spicy breaks? "Lance.10Heart.pt2.bell.": "",
+    "Lance.10Heart.pt2.bell.1": "",
 
 
     ////lance 11 heart war recollections
