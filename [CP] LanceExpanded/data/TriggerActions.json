@@ -105,7 +105,7 @@
                 "{{ModId}}_TheBeardCounter": {
                     "Id": "{{ModId}}_TheBeardCounter",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319, {{Query: ({{DaysPlayed}} % {{Random:{{Range:24,28}}}} = 0)}}, {{Portrait |contains=Vanilla Compliant}}",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, {{Query: ({{DaysPlayed}} % {{Random:{{Range:24,28}}}} = 0)}}, {{Portrait |contains=Vanilla Compliant}}",
                     "Actions": [
                         "AddMail Current {{ModId}}_Beard received",
                         "MarkActionApplied Current {{ModId}}_TheBeardCounter false"

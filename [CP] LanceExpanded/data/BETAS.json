@@ -35,16 +35,9 @@
                     ]
                 },
                 /*
-                "{{ModId}}_ThatStupidMonsterCropQuest": {
-                    "Id": "{{ModId}}_ThatStupidMonsterCropQuest",
-                    "Trigger": "Spiderbuttons.BETAS_LetterRead",
-                    "Condition": "ITEM_ID Target \"[Lance_Name]\", Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/LetterRead/WasQuestOrSpecialOrder true, PLAYER_COMBAT_LEVEL Current 1 5",
-                    "Action": "Spiderbuttons.BETAS_SetNewDialogue Lance {{i18n:CropHelp}} true"
-                },
-                a LocationChanged trigger with a GSQ that checks if the special order is active and an action that adds dialogue to Lance will make it work unless the player starts the special order from the same location as Lance on the same day
-
-
-                HASMOD CONDITIONS: CHECK FOR RRRR/RR
+                this is my hidden list of what i need BETAS for:
+                read pepper-x chat for rei's message: https://discord.com/channels/342286434444640256/1253835431246827530/1276636249612091483
+                setnewdialogue on the condition that SPICE IS PEPPER-X, PLEASE FOR THE LOVE OF GOD DON'T FORGET THIS AMORE
                 */
 
                 "{{ModId}}_WipeCheck": {

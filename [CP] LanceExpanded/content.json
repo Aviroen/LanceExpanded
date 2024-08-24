@@ -33,10 +33,10 @@
             "Description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety."
         },
         "Spicier Content": {
-            "AllowValues": "Bell Pepper, Habanero, Carolina Reaper, Pepper X",
-            "Default": "Habanero",
+            "AllowValues": "Bell Pepper, Habanero, Pepper X",
+            "Default": "Bell Pepper",
             "Section": "Content",
-            "Description": "You are warned that Pepper X is [Aviroen] letting the muzzle off my writer who is a thirsty dog. Carolina Reaper is more explicit than Habanero, Habanero is akin to RRRR's 'wine event' spice. Bell Pepper is rated-E for everyone."
+            "Description": "Bell Pepper is rated-E for everyone. Habanero has IMPLICATIONS. Pepper-X is Rated-R."
         },
         "Easy Savage Ring": {
             "AllowValues": "true, false",
@@ -172,13 +172,6 @@
         {
             "Name": "Spice",
             "Value": "spicy",
-            "When": {
-                "Spicier Content": "Carolina Reaper"
-            }
-        },
-        {
-            "Name": "Spice",
-            "Value": "pain",
             "When": {
                 "Spicier Content": "Pepper X"
             }

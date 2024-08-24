@@ -309,7 +309,7 @@
     "Fri.Lance.CharacterDialogue_0": "The shipwreck has been there for quite a while, I mostly tended to the volcano since it was active at the time.$8",
     "Fri.Lance.CharacterDialogue_1": "Leo is a good kid, even if he thinks that my hair is made out of candy.$8",
     "Fri.Lance.CharacterDialogue_2": "The parrots sometimes bring me random fruits for my labour, I appreciate their hard work.$9",
-    "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...${e3}}",
+    "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...$e3",
     "Fri.Lance.CharacterDialogue_4": "Pardon?$99#$b#I guess I must've dozed off for a second.$8",
     "Fri.Lance.CharacterDialogue_5": "Just here to entertain me?$13",
 
@@ -1095,7 +1095,7 @@
     "Lance.8Heart.7": "Oh Jas, I think that's--$h", //penny
     "Lance.8Heart.8": "Wait, Jas, look!$1", //vincent
     "Lance.8Heart.9": "LOOK AT ALL THESE CHIMKINS!!", //textabovehead vincent
-    "Lance.8Heart.10": "...Vincent those are ducks...$3", //jas
+    "Lance.8Heart.10": "Vincent! You know those are ducks, silly!$3", //jas
     "Lance.8Heart.11": "That's not the point, Jas!$2", //vincent
     "Lance.8Heart.12": "...I don't get it...$3", //jas
     "Lance.8Heart.13": "...I liked listening to Jas, though.$2", //leo
@@ -1125,6 +1125,7 @@
     "Lance.8Heart.35": "Oh! Oh no, wait up guys!", //textabovehead vincent
     "Lance.8Heart.36": "...Forever, huh?$12", //lance
     "Lance.8Heart.37": "Shall we?$13#$b#I'll walk you back to your farm.$8",
+    //insert long gap of emote bubbles while walking, maybe some pauses in front of the fountain / talking in the middle of town and lance does a magic trick
     "Lance.8Heart.38": "...So my question to you, @, what came first?$12",
     "Lance.8Heart.39": "These feelings that have nowhere to run but to escape my lips?$41",
     "Lance.8Heart.40": "To tell you that I've realized I can no longer hide it?$43",
@@ -1333,9 +1334,16 @@
     "Lance.10Heart.pt2.26": "What should I say?#'Of course, come in.'#'Sorry, but let's wait til our actual wedding night.'",
     //saying no to spicy, bad dog
     "Lance.10Heart.pt2.26.no": "Ah, I--$99#$b#I understand, my love.$43#$b#I will count the sands in my hourglass until we are to be wed.$43#$b#Goodnight, my love.$8",
-    //spicy breaks? "Lance.10Heart.pt2.bell.": "",
-    "Lance.10Heart.pt2.bell.1": "",
+    //BEGIN THE SPICY BREAKS    "Lance.10Heart.pt2.pepper.": "",
+    //BELL PEPPER 
+    "Lance.10Heart.pt2.pepper.1": "",
 
+    //BREAK FOR HABANERO
+
+    //BREAK FOR PEPPER-X
+
+    //PEPPER CLOSER     "Lance.10Heart.pt2.spicecloser.": "", MAKE THIS THE PILLOWTALK
+    "Lance.10Heart.pt2.spicecloser.": "",
 
     ////lance 11 heart war recollections
     "Lance.11Heart.1": "",
@@ -1411,25 +1419,24 @@
     "Lance.13Heart.56": "As I took Lance's hand, he warped us back home.",
     "Lance.13Heart.57": "My vow has made me acutely aware of everything that you are.$67#$b#Please, indulge your husband for a little while.$8",
     //SPICY BREAKS HABANERO
-    "Lance.13Heart.habanero.1": "Your skin makes every part of my body feel like it's on fire.$41#$b#I can't wait for a taste.$43",
-    "Lance.13Heart.habanero.2": "Lance and I indulged in our love together, what a magical night!",
+    "Lance.13Heart.pepper.1": "Your skin makes every part of my body feel like it's on fire.$41#$b#I can't wait for a taste.$43",
+    "Lance.13Heart.pepper.2": "Lance and I indulged in our love together, what a magical night!",
     //SPICY BREAKS CAROLINA REAPER
-    "Lance.13Heart.carolina.1": "I can't wait to sink my teeth deep into you, @.$41#$b#The way that you're looking at me makes me want to devour you whole.$43#$b#Maybe a lick?$45",
-    "Lance.13Heart.carolina.2": "Lance starts to lick like he's possessed, I scream out his name.",
-    "Lance.13Heart.carolina.3": "More.$43#$b#Scream my name until your voice runs hoarse.$41",
-    "Lance.13Heart.carolina.4": "I can feel his fingers tickling my deepest parts as I grab his hair and pull him in for a kiss.",
-    "Lance.13Heart.carolina.5": "!!$42#$b#I best not let up on my work.$43",
-    "Lance.13Heart.carolina.6": "As he caresses my body, I can feel him lining himself up to enter me.",
-    "Lance.13Heart.carolina.7": "This might be... extremely different from our previous ministrations.$43#$b#Don't be afraid, I'm right here.$39",
-    "Lance.13Heart.carolina.8": "!!!#Right as he enters it feels like shockwaves rushing through my entire body.#I scream out.#\"Lance!\"",
-    "Lance.13Heart.carolina.9": "*Chuckles*$9#$b#Yes, @?$43",
-    "Lance.13Heart.carolina.10": "I can't help myself as I scream his name over and over again.#It feels like hours pass as we go for several rounds.#Lance places a kiss on my forehead at the end.",
-    "Lance.13Heart.carolina.11": "@, my love, my soul, my fire.$41#$b#I can feel how much you love me through this vow, and I can't wait to show you how it feels to love you back.$35",
-    "Lance.13Heart.carolina.12": "I love you more than anyone, Lance.",
-    "Lance.13Heart.carolina.13": "*Chuckles*$9#$b#I know.$41",
-    "Lance.13Heart.carolina.14": "We fall asleep in the afterglow, what a night!",
-    //SPICY BREAKS PEPPER X
-    "Lance.13Heart.pepper.1": "",
+
+    //"Lance.13Heart.pepper.": "I can't wait to sink my teeth deep into you, @.$41#$b#The way that you're looking at me makes me want to devour you whole.$43#$b#Maybe a lick?$45",
+    //"Lance.13Heart.pepper.": "Lance starts to lick like he's possessed, I scream out his name.",
+    //"Lance.13Heart.pepper.": "More.$43#$b#Scream my name until your voice runs hoarse.$41",
+    //"Lance.13Heart.pepper.": "I can feel his fingers tickling my deepest parts as I grab his hair and pull him in for a kiss.",
+    //"Lance.13Heart.pepper.": "!!$42#$b#I best not let up on my work.$43",
+    //"Lance.13Heart.pepper.": "As he caresses my body, I can feel him lining himself up to enter me.",
+    //"Lance.13Heart.pepper.": "This might be... extremely different from our previous ministrations.$43#$b#Don't be afraid, I'm right here.$39",
+    //"Lance.13Heart.pepper.": "!!!#Right as he enters it feels like shockwaves rushing through my entire body.#I scream out.#\"Lance!\"",
+    //"Lance.13Heart.pepper.": "*Chuckles*$9#$b#Yes, @?$43",
+    //"Lance.13Heart.pepper.": "I can't help myself as I scream his name over and over again.#It feels like hours pass as we go for several rounds.#Lance places a kiss on my forehead at the end.",
+    //"Lance.13Heart.pepper.": "@, my love, my soul, my fire.$41#$b#I can feel how much you love me through this vow, and I can't wait to show you how it feels to love you back.$35",
+    //"Lance.13Heart.pepper.": "I love you more than anyone, Lance.",
+    //"Lance.13Heart.pepper.": "*Chuckles*$9#$b#I know.$41",
+    //"Lance.13Heart.pepper.": "We fall asleep in the afterglow, what a night!",
 
 
     ////Lance 14 Heart a soul bonding, in sickness and in health, forsaking all others, to love and to cherish, until death do us part ////////////////////////////need to fix typos
