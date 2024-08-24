@@ -682,8 +682,18 @@
 
     //// G I F T R E L A T E D
     //CHANGED DIALOGUE
+    "AcceptBouquet": "I'm--!$99#$b#I'm glad you changed your mind!$97#$b#I was worried you really didn't feel the same about me...$43",
+    "BouquetRejectDivorced": "",
+    "BouquetRejectUndatable": "",
+    "BouquetRejectMultiplayer": "",
     "BouquetReject": "Oh!$42#$b#This is...unexpected...$43#$b#I'm not sure I'm fully ready.$39#$b#I am honored, truly, and interested.$38#$b#I just need a tad more time. I hope you understand.$43",
     "PendantReject": "A...mermaid pendant?$42#$b#Oh my darling, I will accept yours in time, but I have a special plan.$41Will you wait for me to carry that plan out?$43",
+    "PendantRejectMultiplayer": "",
+    "PendantRejectAlreadyMarried": "",
+    "PendantReject10HeartDupe": "",
+    "PendantRejectDivorced": "",
+    "PendantRejectUpgrade": "",
+
 
     "Gifts.Lance.Loved": "This will serve me well. You have my gratitude.",
     "Gifts.Lance.Liked": "Ah, what a remarkable gift. Thank you.",
@@ -1218,7 +1228,7 @@
     "Lance.10Heart.27": "Lance is silent.#'Are you okay?'#'Who were those people you were talking about?'#'Let's go see Harvey.'#'You're acting like a psycho.'",
     //beginging switches
     //okay switch
-    "Lance.10Heart.OKAY.1": "Yeah of course I'm fine you bratty bas--$15#$b#No I'm... @?$83",
+    "Lance.10Heart.OKAY.1": "Yeah of course I'm fine you old fuddy--$15#$b#No I'm... @?$83",
     "Lance.10Heart.OKAY.2": "Where am I?$81",
     "Lance.10Heart.OKAY.3": "I tell him when I started following him.",
     "Lance.10Heart.OKAY.4": "Your farm, the town, and now here?$83#$b#I see...$81",
@@ -1330,13 +1340,29 @@
     "Lance.10Heart.pt2.22": "Excited, are we?$43#$b#Don't worry, I am too.$40#$b#Alright, we'll have the wedding then.$43",
     "Lance.10Heart.pt2.23": "As much excitement as it is, we must still tend to our duties, your hand?$43",
     "Lance.10Heart.pt2.24": "Back at your farm...my love.$32",
-    "Lance.10Heart.pt2.25": "I know that I said we have... duties to attend to, but I don't know if I'm quite done celebrating yet. If you're up for it could I stay a bit longer?$43",
-    "Lance.10Heart.pt2.26": "What should I say?#'Of course, come in.'#'Sorry, but let's wait til our actual wedding night.'",
+    "Lance.10Heart.pt2.25": "What should I say?#'Would you like to stay for dinner?'#'Have a good night, Lance.'",
     //saying no to spicy, bad dog
-    "Lance.10Heart.pt2.26.no": "Ah, I--$99#$b#I understand, my love.$43#$b#I will count the sands in my hourglass until we are to be wed.$43#$b#Goodnight, my love.$8",
+    "Lance.10Heart.pt2.25.no": "Have a good night, my love.$43",
     //BEGIN THE SPICY BREAKS    "Lance.10Heart.pt2.pepper.": "",
-    //BELL PEPPER 
-    "Lance.10Heart.pt2.pepper.1": "",
+    "Lance.10Heart.pt2.pepper.1": "For being such an accomodating host, I shall offer my services for dinner.$5",
+    "Lance.10Heart.pt2.pepper.2": "Lance cooked up a good assortment of dishes.",
+    "Lance.10Heart.pt2.pepper.3": "'I didn't know you could cook.'",
+    "Lance.10Heart.pt2.pepper.4": "Well, you won't survive well on the battlefield without some semblance of how to handle a fire.$12",
+    "Lance.10Heart.pt2.pepper.5": "Now, unless you wish to sing some more of my praises, shall we?$$10",
+    "Lance.10Heart.pt2.pepper.6": "Dinner was really nice!",
+    //sitting in front of kitchen, animate lance moving a little to make it seem like he's doing dishes
+    "Lance.10Heart.pt2.pepper.7": "...Well, you remember that time with Penny and the kids?$8#$b#It really was fascinating how Penny has managed to tailor-make the lessons for each of them.",
+    //farmer scoots in for a kiss
+    "Lance.10Heart.pt2.pepper.8": "Yes?$11#$b#!!$14#$b#It would be in your best interest to not overexcite me while I'm doing dishes!$15",
+    //playful tug of war
+    //transition to farmhouse front door, lance's back to the camera, farmer at front door
+    "Lance.10Heart.pt2.pepper.9": "Well, the night has begun to tell me that I've overstayed my welcome.$8#$b#I wish you a good night, @.$13",
+    "Lance.10Heart.pt2.pepper.10": "Should I...?#'You could just... stay the night?'#'Don't go, I still have to give the chef my compliments...'#Tug at the end of his jacket. 'Can you stay with me just a little bit longer...?'#'Do you want to stay and talk for a bit longer?'#Goodnight! I'll see you soon!'",
+    //you said no, well that's okay too
+    "Lance.10Heart.pt2.pepper.close": "Good night, my love.$11",
+    //you said yeah, you're down to clown
+    "Lance.10Heart.pt2.pepper.11": "",
+    //BELL PEPPER END
 
     //BREAK FOR HABANERO
 
@@ -1982,7 +2008,6 @@
     "Razor.yes": "A clean shaven man, huh?$11#$b#You'll have to remind me every now and then if it gets too bothersome.$8",
     "NoBeard": "I definitely feel refreshed, thank you, my love.$8",
     "YesBeard": "I'll have to get used to the scratchiness.$11#$b#!!$42#$b#I can see you're really enjoying it, my love.$43",
-
     "Razor.no": "Oh?$10#$b#I see you enjoy a rugged man?$15#$b#I jest, but I'll keep the beard going if you're enjoying it, my love.$$17",
     "Razor.intro1": "Oh, @! Sorry, has my beard gotten out of hand?$9#$b#Should I shave it, or not?$11",
     "Razor.yes1": "A clean shaven man, huh?$8#$b#You'll have to remind me if it gets too unweildy, work keeps my attention more as of late.$9#$b#I'll get right on going back to clean and sparkly.$11",
@@ -1999,14 +2024,11 @@
     "Pelican.4": "You jest! I'm the one that deemed the mines explorable.$15",
     "Pelican.5": "Care to sit?$43#$b#Upkeeping my magic is wearying, but it's better safe than sorry.$41",
     "Pelican.6": "This would be a great time to ask...#Why do you and Magnus have such a hard time?#Why does Camilla treat you like her son?#Have you ever seen a shrine here?#What's Castle Village like?#What made you like me?#What was the Elemental War like?#What made you join the First Slash?#Are you not allowed to take on an apprentice of your own?#How old are you... really?#What was your family like?#",
-
     "Pelican.repeated": "Do you really wish to hear the story again?#Yes.#No.",
     "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [Aviroen.LanceExpanded_Khanjar]",
-
     "PelicanYesAfter": "'Wait, Lance!'",
     "PelicanYesAfter.1": "Oh? My khanjar?$11#$b#Did you want to go with me?",
     "PelicanYesAfter.2": "Well then, no time like the present! Let's head out.$11",
-
     "Pelican.intro1": "doot doot",
     "Pelican.q1": "Out in the deep mines?#I've already handled that!#I could go and check?#Do you mind if I go with you?",
     "Pelican.yes1": "nyoot nyoot",

@@ -7,9 +7,9 @@
                 "{{ModId}}_RightInTheKisser": {
                     "Id": "{{ModId}}_RightInTheKisser",
                     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-                    "Condition": "ITEM_ID Target \"Lance\"",
+                    "Condition": "ITEM_ID Target Lance, {{Spice |contains=spicy}}",
                     "Actions": [
-                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" true",
+                        "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:Lance.Kissed_{{Random:{{Range: 1, 28}}}}}}\" true",
                         "MarkActionApplied Current {{ModId}}_RightInTheKisser false"
                     ]
                 },
@@ -17,7 +17,7 @@
                 "{{ModId}}_BeardYes": {
                     "Id": "{{ModId}}_BeardYes",
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_YesBeard",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_YesBeard",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue Lance \"{{i18n:YesBeard}}\" true",
                         "RemoveMail Current {{ModId}}_BeardYes all",
@@ -38,12 +38,14 @@
                 this is my hidden list of what i need BETAS for:
                 read pepper-x chat for rei's message: https://discord.com/channels/342286434444640256/1253835431246827530/1276636249612091483
                 setnewdialogue on the condition that SPICE IS PEPPER-X, PLEASE FOR THE LOVE OF GOD DON'T FORGET THIS AMORE
+
+                BETAS changes to setnewdialogue and textabovehead commands in terms of syntax
                 */
 
                 "{{ModId}}_WipeCheck": {
                     "Id": "{{ModId}}_WipeCheck",
                     "Trigger": "Spiderbuttons.BETAS_RelationshipChanged",
-                    "Condition": "ITEM_ID Target \"Lance\", Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/RelationshipChanged/WasMemoryWiped true",
+                    "Condition": "ITEM_ID Target Lance, Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/RelationshipChanged/WasMemoryWiped true",
                     "Actions": [
                         "AddMail Current {{ModId}}_LanceWiped received"
                     ]
@@ -68,7 +70,7 @@
                 "{{ModId}}_LanceQiEvents": {
                     "Id": "{{ModId}}_LanceQiEvents",
                     "Trigger": "Spiderbuttons.BETAS_GiftGiven",
-                    "Condition": "ITEM_ID Target \"Lance\", ITEM_ID Target \"Aviroen.LanceExpanded_QiMomento\"",
+                    "Condition": "ITEM_ID Target Lance, ITEM_ID Target Aviroen.LanceExpanded_QiMomento",
                     "Actions": [
                         "MarkEventSeen Current LanceQi false",
                         "MarkEventSeen Current LEQiAdventurer false",

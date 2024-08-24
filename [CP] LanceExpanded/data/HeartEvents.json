@@ -82,14 +82,6 @@
                 "LECamillaAppearance/e LECreed/f Lance 1750/": "continue/32 26/Lance -1000 -1000 2 Camilla -1000 -1000 1 farmer -1000 -1000 0/skippable/pause 300/playSound doorClose/warp farmer -1000 -1000/warp Lance 32 22/move Lance 0 3 2/waitforallstationary/pause 100/playSound wand/warp Camilla 31 25/shake Camilla 450/jump Lance/emote Lance 16/pause 300/waitforallstationary/faceDirection Lance 3/pause 100/emote Camilla 12/waitforallstationary/pause 100/speak Camilla \"{{i18n:Lance.7Heart.01}}\"/positionOffset Camilla 1 0/positionOffset Lance 1 0/pause 300/speak Camilla \"{{i18n:Lance.7Heart.02}}\"/pause 300/emote Lance 16/pause 100/shake Lance 100/pause 100/speak Lance \"{{i18n:Lance.7Heart.03}}\"/pause 100/positionOffset Camilla 1 0/positionOffset Lance 1 0/pause 300/speak Camilla \"{{i18n:Lance.7Heart.04}}\"/pause 300/shake Camilla 300/pause 100/speak Camilla \"{{i18n:Lance.7Heart.05}}\"/end"
             }
         },
-        /*
-        {
-            "Action": "Load",
-            "Target": "characters/redglow",
-            "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
-        },
-*/
-
         { //Lance 8 heart
             "LogName": "Heart Event - 8.1",
             "Action": "EditData",
@@ -134,11 +126,22 @@
             "Action": "EditData",
             "Target": "data/events/",
             "Entries": {
-                "LEFeelings/e LERealization/f Lance 2500/": "continue/-1000 -1000/farmer -1000 -1000 0 Lance -1000 -1000 0/pause 300/switchEvent LEFeelings{{10HeartChoice}}",
-                "LEFeelingsOKAY": "/question fork0 \"{{i18n:Lance.10Heart.pt2.q}}\"/fork LEFeelingsYes/pause 400/",
-                "LEFeelingsPEOPLE": "",
-                "LEFeelingsDOCTOR": "",
+                "LEFeelings/e LERealizationOKAY LERealisationPEOPLE LERealizationDOCTOR/f Lance 2500/": "continue/-1000 -1000/farmer -1000 -1000 0 Lance -1000 -1000 0/pause 300/switchEvent LEFeelings{{10HeartChoice}}",
+                "LEFeelingsOKAY": "/question fork0 \"{{i18n:Lance.10Heart.pt2.12}}\"/fork LEFeelingsYes/pause 400/addmailreceived {{ModId}}_BouquetOn/",
+                "LEFeelingsPEOPLE": "/question fork0 \"{{i18n:Lance.10Heart.pt2.12}}\"/fork LEFeelingsYes/pause 400/addmailreceived {{ModId}}_BouquetOn",
+                "LEFeelingsDOCTOR": "/question fork0 \"{{i18n:Lance.10Heart.pt2.12}}\"/fork LEFeelingsYes/pause 400/addmailreceived {{ModId}}_BouquetOn",
                 "LEFeelingsYes": "/quickQuestion {{i18n:Lance.10Heart.pt2.21}}(break)setEngaged Lance false 1\\switchEvent LEFeelingsSpiced(break)setEngaged Lance false 2\\switchEvent LEFeelingsSpiced(break)setEngaged Lance false 3\\switchEvent LEFeelingsSpiced(break)setEngaged Lance false 4\\switchEvent LEFeelingsSpiced(break)setEngaged Lance false 5\\switchEvent LEFeelingsSpiced"
+            }
+        },
+        {
+            "LogName": "10 heart you're a jackass",
+            "Action": "EditData",
+            "Target": "data/events/",
+            "When": {
+                "HasFlag": "{{ModId}}_10HeartJACKASS"
+            },
+            "Entries": {
+                "LEFeelingsJACKASS/": ""
             }
         },
         {
@@ -174,17 +177,7 @@
                 "LEFeelingsSpiced": ""
             }
         },
-        {
-            "LogName": "10 heart you're a jackass",
-            "Action": "EditData",
-            "Target": "data/events/",
-            "When": {
-                "HasFlag": "{{ModId}}_10HeartJACKASS"
-            },
-            "Entries": {
-                "LEFeelingsJACKASS/": ""
-            }
-        },
+
         ///////load entities
         { //Load fallen female
             "LogName": "Fallen Adv Female",
