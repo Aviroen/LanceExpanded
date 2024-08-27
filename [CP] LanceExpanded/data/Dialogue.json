@@ -67,10 +67,10 @@
                 "RejectMermaidPendant_Divorced": "{{i18n:PendantRejectDivorced}}",
                 "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:PendantRejectUpgrade}}",
 
-                "{{ModId}}_10Okay": "{{i110n:Lance.10Heart.Okay.Convo_{{Random:{{Range: 0, 4}}}}}}",
-                "{{ModId}}_10People": "{{i110n:Lance.10Heart.People.Convo_{{Random:{{Range: 0, 3}}}}}}",
-                "{{ModId}}_10Doctor": "{{i110n:Lance.10Heart.Doctor.Convo_{{Random:{{Range: 0, 4}}}}}}",
-                "{{ModId}}_10Jackass": "{{i110n:Lance.10Heart.Jackass.Convo_{{Random:{{Range: 0, 4}}}}}}",
+                "{{ModId}}_10Okay": "{{i18n:Lance.10Heart.Okay.Convo_{{Random:{{Range: 0, 4}}}}}}",
+                "{{ModId}}_10People": "{{i18n:Lance.10Heart.People.Convo_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_10Doctor": "{{i18n:Lance.10Heart.Doctor.Convo_{{Random:{{Range: 0, 4}}}}}}",
+                "{{ModId}}_10Jackass": "{{i18n:Lance.10Heart.Jackass.Convo_{{Random:{{Range: 0, 4}}}}}}",
 
                 ////////////other marriage
                 "MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_0}}",
