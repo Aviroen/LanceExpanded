@@ -1,5 +1,6 @@
 {
     "Changes": [
+        /*
         {
             "LogName": "Spacecore Triggers",
             "Action": "EditData",
@@ -16,7 +17,7 @@
                 }
             }
         }
-/*
+        
         Personal notes for spacecore:
         events: setDating npc [true/false]
         setEngaged npc asRoommate weddingOffset - npc = NPC internal ID, asRoommate = true if this is a roommate, false otherwise, weddingOffset = how many days away the wedding should be, minimum of one (pushed back for invalid wedding dates like festivals).

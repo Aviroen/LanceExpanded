@@ -1058,7 +1058,7 @@
     "Lance.7Heart.12": "New research?",
     "Lance.7Heart.13": "Yes, but no-",
     "Lance.7Heart.14": "DO YOU HAVE A CRUSH ON SOMEONE?!",
-    "Lance.7Heart.15": "OH!", //x 3
+    "Lance.7Heart.15": "WHO IS IT?", //x 3
     "Lance.7Heart.16": "SPRING HAS FINALLY SPRUNG FOR MY BOY!!",
     "Lance.7Heart.17": "OH I'M SO HAPPY!",
     "Lance.7Heart.18": "When's the wedding?!$6",
@@ -1083,13 +1083,13 @@
     "Lance.7Heart.37": "So who is it?$1",
     "Lance.7Heart.38": "W-well you remember the Old Lad yeah?$97",
     "Lance.7Heart.39": "The lil brat that used to ask me out on dates?$6#$b#I miss him.$2",
-    "Lance.7Heart.40": "Yeah, me too--But their grandchild took over his farm.$11",
+    "Lance.7Heart.40": "Yeah, me too...$6#$b#But their grandchild took over his farm.$11",
     "Lance.7Heart.41": "A grandchild?!$6#$b#And you have a crush on them?!$1#$b#Oh that little brat would be rubbing it in your face!$6#$b#You used to bicker like children!$6",
     "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that he tried so hard for...$2",
-    "Lance.7Heart.43": "Sort of? They still have a mundane lifespan though.$8",
+    "Lance.7Heart.43": "Sort of?$7#$b#They still have a mundane lifespan though.$8",
     "Lance.7Heart.44": "Oh you changed the subject!$7#$b#When are you going to ask them out??$6",
-    "Lance.7Heart.45": "Ah, I--I don't know...$72",
-    "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...I'll bring it up.$15",
+    "Lance.7Heart.45": "Ah, I--$100#$b#I don't know...$72",
+    "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...$12#$b#I'll bring it up.$15",
     "Lance.7Heart.47": "So what's got you so excited?$6",
     "Lance.7Heart.48": "They just remind me of the good old days with that 'little brat' you so lovingly call him.$8",
     "Lance.7Heart.49": "I should slip out quietly...#It was sweet to hear Lance knew my grandpa.#Grandpa, you sure did have grand adventures here!",
@@ -1361,18 +1361,46 @@
     //you said no, well that's okay too
     "Lance.10Heart.pt2.pepper.close": "Good night, my love.$11",
     //you said yeah, you're down to clown
-    "Lance.10Heart.pt2.pepper.11": "",
+    "Lance.10Heart.pt2.pepper.11": "What kind of fiancée would I be to deny you?$43",
     //BELL PEPPER END
+    "Lance.10Heart.pt2.pepper.12": "'My compliments to the chef consist of...'",
+    "Lance.10Heart.pt2.pepper.13": "I give him a kiss on the cheek.",
+    "Lance.10Heart.pt2.pepper.14": "Do go on, I'm listening.$8",
+    "Lance.10Heart.pt2.pepper.15": "I give him a kiss on the nose.",
+    "Lance.10Heart.pt2.pepper.16": "A lovely compliment, I'm flattered.$43",
+    "Lance.10Heart.pt2.pepper.17": "I grab his collar.",
+    "Lance.10Heart.pt2.pepper.18": "Yes? You have my full attention now.$43",
+    "Lance.10Heart.pt2.pepper.19": "'I should reward the chef with my own hand-crafted dessert.'",
+    "Lance.10Heart.pt2.pepper.20": "I pause right before our lips touch.",
+    "Lance.10Heart.pt2.pepper.21": "My love, you bake a wonderful flambé.$71",
+    "Lance.10Heart.pt2.pepper.22": "Lance slides his hand behind my back.",
+    "Lance.10Heart.pt2.pepper.23": "I'll definitely savor every last drop.$67",
+    //HABANERO END
+    "Lance.10Heart.pt2.pepper.24": "Our breaths are in sync, I can hear my heart beating in my ears.#There's a fire in Lance's eyes.",
+    "Lance.10Heart.pt2.pepper.25": "Are you sure about this?$65",
+    "Lance.10Heart.pt2.pepper.26": "I tug on his collar and kiss him.",
+    "Lance.10Heart.pt2.pepper.27": "The sound of the doorknob rattling perks my eyes open.",
+    "Lance.10Heart.pt2.pepper.28": "Unless you wish to have the crows be our audience, you best get this damn door open before I fuck you right here and now.$97",
+    "Lance.10Heart.pt2.pepper.29": "The door swings open and the sound of the lock interrupts our breathy kisses.",
+    "Lance.10Heart.pt2.pepper.30": "Between the clicking of buckles and shuffling of clothes, our breaths pierce the air.",
+    "Lance.10Heart.pt2.pepper.31": "My body feels weightless for a few seconds.#The soft sheets and my pillows surround me as I regain my bearings.",
+    "Lance.10Heart.pt2.pepper.32": "In the pitch black dark of my own home, the only thing I can see is the slight shimmer of Lance's eyes.",
+    "Lance.10Heart.pt2.pepper.33": "I can hear his heartbeat through his hands at the side of my head.#I lean my head against his hand and stare at him in anticipation.",
+    "Lance.10Heart.pt2.pepper.34": "Forgive me for being impatient.$43",
+    "Lance.10Heart.pt2.pepper.35": "His fingers rub against my cheek as I hear him breathe out a sigh.",
+    "Lance.10Heart.pt2.pepper.36": "The silence is penetrated by my own sounds.#I try to stifle my mouth.",
+    "Lance.10Heart.pt2.pepper.37": "Lance grabs my hand that's covering my mouth.",
+    "Lance.10Heart.pt2.pepper.38": "Please, @, don't deny me.$43",
+    "Lance.10Heart.pt2.pepper.39": "!!!",
+    "Lance.10Heart.pt2.pepper.40": "Ah... to finally be connected with you... it feels as if this blaze will engulf me.$8",
 
-    //BREAK FOR HABANERO
+    //PEPPER-X END "Lance.10Heart.pt2.pepper.": "",
+    "Lance.10Heart.pt2.spicecloser.1": "For a celebration night, we sure worked hard throughout the night.",
+    "Lance.10Heart.pt2.spicecloser.2": "I will never again underestimate a farmer's stamina.$65",
 
-    //BREAK FOR PEPPER-X
 
-    //PEPPER CLOSER     "Lance.10Heart.pt2.spicecloser.": "", MAKE THIS THE PILLOWTALK
-    "Lance.10Heart.pt2.spicecloser.": "",
-
-    ////lance 11 heart war recollections
-    "Lance.11Heart.1": "",
+    ////lance 11 heart war recollections "Lance.11Heart.": "",
+    "Lance.11Heart.1": "I hear the sounds of fighting.",
 
 
     ////Lance 12 Heart the honeymoon phase [farmhouse]

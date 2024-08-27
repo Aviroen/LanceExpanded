@@ -8,8 +8,8 @@
                 "HasSeenEvent": "6951319"
             },
             "Entries": {
-                "Lance0": "{{i18n:Engagement.Lance.1.1  $99}}",
-                "Lance2": "{{i18n:Engagement.Lance.1.2  $13}}"
+                "Lance0": "{{i18n:Engagement.Lance.1.1}}$99",
+                "Lance2": "{{i18n:Engagement.Lance.1.2}}$13"
             }
         },
         {
