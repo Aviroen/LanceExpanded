@@ -987,9 +987,36 @@
     "Lance.3Heart.03.tg.10": "马龙会处理接下来的事情，谢谢你陪我一起来，甜心。我需要向其他公会通报矮人的情况，因为这是一个新发现。$12#$b#希望这没什么大问题...我祈祷这就是结束了。$23",
 
     //// 兰斯 4 心 文物和导师
-    "Lance.4Heart.01": "",
+    //CHANGED DIALOGUE
+    ////Lance 4 Heart fable reef
+    "Lance.4Heart.01": "Well good morning, sweetheart. I was wondering if you wanted to accompany me to greet First Slash for your help in my research.$43",
+    "Lance.4Heart.02": "Everyone seems skeptical that those seeds would even bear fruit, we're going to show them the fruits of your labor.$8",
+    "Lance.4Heart.03": "Our island is in the center of the Gem Sea, too far to reach without warp runes.$43",
+    "Lance.4Heart.04": "I'll go first.$33",
+    "Lance.4Heart.05": "You have to admit, it's much faster than conventional travel.$29#$b#Come. I'll introduce you to the guild.$41",
+    "Lance.4Heart.06": "Everyone! Lance is back!$5",
+    "Lance.4Heart.07": "Hey!",
+    "Lance.4Heart.08": "Welcome back!",
+    "Lance.4Heart.09": "And who is this you've brought to the guild hall?$0",
+    "Lance.4Heart.10": "This is @, and they're the reason I was able to complete my mission.$43#$b#As you all know, I couldn't even raise a succulent!$8",
+    "Lance.4Heart.11": "Haha!",
+    "Lance.4Heart.12": "Heh...",
+    "Lance.4Heart.13": "Good to meet you, @. Name is Jolyne, leader of The First Slash.$4#$b#A friend of Lance is a friend of mine.$5",
+    "Lance.4Heart.14": "Well, Lance. It's not difficult to sense the strange arcane energies emitting from you.$0#$b#We're all waiting in anticipation.$5",
+    "Lance.4Heart.15": "*chuckle* Of course...$8",
+    "Lance.4Heart.16": "Make some room for me.$43",
+    "Lance.4Heart.17": "What the...,",
+    "Lance.4Heart.18": "Whoa!",
+    "Lance.4Heart.19": "Can I touch it!?",
+    "Lance.4Heart.20": "Behold... Monster crops from the Highlands!$29",
+    "Lance.4Heart.21": "It blinked!",
+    "Lance.4Heart.22": "Oh wow!",
+    "Lance.4Heart.23": "Can I eat it?",
+    "Lance.4Heart.24": "It was incredible meeting the guild Lance hails from. But now it's time to return home. Maybe I can visit again soon?",
+    "Lance.4Heart.25": "The Ministry and my guild master are excited for the new research. Thank you, @.$43#$e#These monster crops will help advance our understanding of wilderness golems, slimes, mushroom spirits, and the shadow people...$41#$e#There's still work to be done at the Highlands! We're just getting started.$8",
 
-    //// 兰斯 7 心 冒险者的信条
+
+    // now 5 heart
     "Lance.5Heart.01": "马龙，肯定没有你说的那么糟吧！", // surely you jest marlon
     "Lance.5Heart.02": "啊，你好，@，我和马龙正在聊过去的事情。$16", // oh hello @ talking w marlon about old times
     "Lance.5Heart.03": "是啊，孩子，你觉得兰斯现在很糟吗？你应该看看当初马格努斯第一次把他带到这里的时候。$h", // think lance is bad now he was worse -marlon
@@ -1001,7 +1028,30 @@
     "Lance.5Heart.09": "不过，不论如何，虽然我享受了这次的谈话，但姜岛的沙子可不会自己数着玩。$4#$b#我得走了，再见，马龙，再见，@。$5", // sand grains aren't going to count themselves and been feeling lacking in vitamin d
 
     //// 兰斯 6 心 元素战争的回忆
-    "Lance.6Heart.01": "",
+    //CHANGED DIALOGUE
+    ////Lance 6 Heart i'm tired of keeping up the facade
+    "Lance.6Heart.01": "...$2",
+    "Lance.6Heart.02": "...$6",
+    "Lance.6Heart.03": "...$8",
+    "Lance.6Heart.04": "Hey, Old Lad.$13",
+    "Lance.6Heart.05": "We haven't spoken in awhile, the valley has changed.$6",
+    "Lance.6Heart.06": "Your grandchild is doing well.$8#$b#The one that you kept on pestering me about to meet.$9",
+    "Lance.6Heart.07": "...$6",
+    "Lance.6Heart.08": "You'd be rolling around laughing at me because you were right.$8",
+    "Lance.6Heart.09": "...You were definitely right you bratty bastard.$9",
+    "Lance.6Heart.10": "You'd be proud, you know?$7",
+    "Lance.6Heart.11": "@ is absolutely wonderful.$8",
+    "Lance.6Heart.12": "...$7",
+    "Lance.6Heart.13": "...$6",
+    "Lance.6Heart.14": "...I miss our halcyon days.$12",
+    "Lance.6Heart.15": "The war has... well, I honestly don't know anymore...$6",
+    "Lance.6Heart.16": "I know you kept your nose out of it and tried to save me from it.$9",
+    "Lance.6Heart.17": "I hope you did well, I'm sorry I couldn't go to your eulogy.$6",
+    "Lance.6Heart.18": "From @'s attitude, I'd say you did pretty well.$8",
+    "Lance.6Heart.19": "...$6",
+    "Lance.6Heart.20": "...$7",
+    "Lance.6Heart.21": "Have a good rest, Old Lad. Sorry to disturb you with my nostalgia.$8",
+
 
     //CHANGED DIALOGUE
     ////Lance 7 Heart camilla's appearance
@@ -1019,7 +1069,7 @@
     "Lance.7Heart.12": "New research?",
     "Lance.7Heart.13": "Yes, but no-",
     "Lance.7Heart.14": "DO YOU HAVE A CRUSH ON SOMEONE?!",
-    "Lance.7Heart.15": "OH!", //x 3
+    "Lance.7Heart.15": "WHO IS IT?", //x 3
     "Lance.7Heart.16": "SPRING HAS FINALLY SPRUNG FOR MY BOY!!",
     "Lance.7Heart.17": "OH I'M SO HAPPY!",
     "Lance.7Heart.18": "When's the wedding?!$6",
@@ -1044,136 +1094,329 @@
     "Lance.7Heart.37": "So who is it?$1",
     "Lance.7Heart.38": "W-well you remember the Old Lad yeah?$97",
     "Lance.7Heart.39": "The lil brat that used to ask me out on dates?$6#$b#I miss him.$2",
-    "Lance.7Heart.40": "Yeah, me too--But their grandchild took over his farm.$11",
+    "Lance.7Heart.40": "Yeah, me too...$6#$b#But their grandchild took over his farm.$11",
     "Lance.7Heart.41": "A grandchild?!$6#$b#And you have a crush on them?!$1#$b#Oh that little brat would be rubbing it in your face!$6#$b#You used to bicker like children!$6",
-    "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that the little brat tried so hard for...$2",
-    "Lance.7Heart.43": "Sort of? They still have a mundane lifespan though.$8",
+    "Lance.7Heart.42": "A grandchild...$0#$b#I wonder if they inherited magic that he tried so hard for...$2",
+    "Lance.7Heart.43": "Sort of?$7#$b#They still have a mundane lifespan though.$8",
     "Lance.7Heart.44": "Oh you changed the subject!$7#$b#When are you going to ask them out??$6",
-    "Lance.7Heart.45": "Ah, I--I don't know...$72",
-    "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...I'll bring it up.$15",
+    "Lance.7Heart.45": "Ah, I--$100#$b#I don't know...$72",
+    "Lance.7Heart.46": "Maybe, maybe if they show more interest in me...$12#$b#I'll bring it up.$15",
     "Lance.7Heart.47": "So what's got you so excited?$6",
-    "Lance.7Heart.48": "They just remind me of the good old days with that little brat you so lovingly call him.$8",
+    "Lance.7Heart.48": "They just remind me of the good old days with that 'little brat' you so lovingly call him.$8",
     "Lance.7Heart.49": "I should slip out quietly...#It was sweet to hear Lance knew my grandpa.#Grandpa, you sure did have grand adventures here!",
 
+
+    //lance 8 heart a reason REMEMBER, CHIMKIN
+    "Lance.8Heart.1": "...What do you think came first, Vincent?$4", //jas
+    "Lance.8Heart.2": "The Chicken or the Egg?$3", //jas
+    "Lance.8Heart.3": "Personally, I think the chicken came first.$1", //jas
+    "Lance.8Heart.4": "Animals evolve and something had to evolve into a chicken.$4", //jas
+    "Lance.8Heart.5": "But did that first evolution come out of an egg?$3", //jas
+    "Lance.8Heart.6": "And then there's the broader meaning of 'the egg'--$3", //jas
+    "Lance.8Heart.7": "Oh Jas, I think that's--$h", //penny
+    "Lance.8Heart.8": "Wait, Jas, look!$1", //vincent
+    "Lance.8Heart.9": "LOOK AT ALL THESE CHIMKINS!!", //textabovehead vincent
+    "Lance.8Heart.10": "Vincent! You know those are ducks, silly!$3", //jas
+    "Lance.8Heart.11": "That's not the point, Jas!$2", //vincent
+    "Lance.8Heart.12": "...I don't get it...$3", //jas
+    "Lance.8Heart.13": "...I liked listening to Jas, though.$2", //leo
+    "Lance.8Heart.14": "Personally, I think the egg came before the chicken.$8", //lance
+    "Lance.8Heart.15": "Lance!!", //textabovehead all kids
+    "Lance.8Heart.16": "What makes you think that?$1", //jas
+    "Lance.8Heart.17": "Oh no, please no more eggs!$2", //vincent
+    "Lance.8Heart.18": "I'd much rather hear Lance's adventure stories!$1", //vincent
+    "Lance.8Heart.19": "But Lance is also a researcher, Vincent.$3", //jas
+    "Lance.8Heart.20": "Yeah! The parrots love Lance!$1", //leo
+    //begin montage "Lance.8Heart.": "",
+    "Lance.8Heart.21": "But, but you won!$3#$b#...Right?$2", //vincent
+    "Lance.8Heart.22": "Well if you want to go by record and research, Jas, 'shelled' eggs were leathery and malleable.$1", //lance
+    "Lance.8Heart.23": "Leathery?$3#$b#Oh! Like a lizard's egg!$1", //jas
+    "Lance.8Heart.24": "Lizards are so cool!$1", //vincent
+    "Lance.8Heart.25": "There's those things in the lava at the volcano... are those lizards?$3", //leo
+    //more montage
+    "Lance.8Heart.26": "Well, children! We can make it your homework to ask two people what they think.$1#$b#The Chicken or The Egg?$0#$b#But we've still got plenty of sunlight for the playground!$1", //penny
+    "Lance.8Heart.27": "Okay Penny!", //textabovehead all kids
+    "Lance.8Heart.28": "Hey, Lance?$3", //vincent
+    "Lance.8Heart.29": "Laaance!!$0", //vincent
+    "Lance.8Heart.30": "Huh?$12#$b#Sorry Vincent, what's up bud?$1", //lance
+    "Lance.8Heart.31": "Are you going to stay in town with us forever?$3", //vincent
+    "Lance.8Heart.32": "Forever?$9#$b#That's quite a long time to think about, but y'know? Maybe.$7", //lance
+    "Lance.8Heart.33": "You'll be sure to tell me all of your adventures right?!$1", //vincent
+    "Lance.8Heart.34": "Of course!$15#$b#You'd better start running though, the others have already left.$7", //lance
+    "Lance.8Heart.35": "Oh! Oh no, wait up guys!", //textabovehead vincent
+    "Lance.8Heart.36": "...Forever, huh?$12", //lance
+    "Lance.8Heart.37": "Shall we?$13#$b#I'll walk you back to your farm.$8",
+    //insert long gap of emote bubbles while walking, maybe some pauses in front of the fountain / talking in the middle of town and lance does a magic trick
+    "Lance.8Heart.38": "...So my question to you, @, what came first?$12",
+    "Lance.8Heart.39": "These feelings that have nowhere to run but to escape my lips?$41",
+    "Lance.8Heart.40": "To tell you that I've realized I can no longer hide it?$43",
+    "Lance.8Heart.41": "That I've found you so endearing, charming, and utterly loveable?$43",
+    "Lance.8Heart.42": "Or did you garner feelings for me before I even realized it?$41",
+    "Lance.8Heart.43": "What should I say?#'I didn't know Jolyne owned romance novels for you to read.'#'Obviously my feelings for you.'#'You have feelings for me?'",
+    "Lance.8Heart.43.1": "Jolyne?$38#$b#You don't trust that I can't think these things for myself?$8#$b#I have to have a fallback for my rose-tinted words?$43",
+    "Lance.8Heart.43.2": "...I was being whimsical with my words but, you feel the same?$42",
+    "Lance.8Heart.43.3": "Why, yes!$8#$b#Must I repeat myself?$43#$b#Your charm? Your cute remarks? Your attentiveness to me and my intense work schedule?$43",
+    "Lance.8Heart.44": "...But this all comes down to my main question.$43",
+    "Lance.8Heart.45": "Would you be mine?$43",
+    "Lance.8Heart.46": "How do I respond?#'Yes!'#'Sorry, I don't feel the same.'",
+    "Lance.8Heart.46.1": "Oh--I...$37#$b#I understand. I hope we can at least still be friends?$36",
+    "Lance.8Heart.46.2": "Have a good night, @.$0",
+    "Lance.8Heart.47": "Oh!$42#$b#I was honestly a little afraid you didn't feel the same...$43",
+    "Lance.8Heart.48": "I guess I was able to win out for your affections in the end.$39",
+    "Lance.8Heart.49": "It's getting late, I don't want to be the reason your farm stops running.$43",
+    "Lance.8Heart.50": "I'll see you, @.$43",
+    "Lance.8Heart.51": "Goodnight.$39",
+    "Lance.8Heart.52": "Lance and I spoke about the valley.#He seemed pensive on the walk, and a little distracted...",
+    "Lance.8Heart.53": "I'm so happy you feel the same, and I do have plans to celebrate this.$43#$b#I should get back to my rotation, and you, to your farm.$8",
+
+
+    ////Lance 9 Heart "i'll be loyal to you for the rest of YOUR life"
+    "Lance.9Heart.1": "...Why did you think releasing a new species into the ecosystem was a good idea?$8",
+    "Lance.9Heart.2": "Oh no no no~! Young man you're not getting out of this with a change in conversation topic!$7",
+    "Lance.9Heart.3": "!...$42#$b#I could never fool you.$43",
+    "Lance.9Heart.4": "Where do I start?$8",
+    "Lance.9Heart.5": "At the beginning!$6",
+    "Lance.9Heart.6": "Well obviously you remember the last time we talked about this--$43#$b#...!$42",
+    "Lance.9Heart.7": "@!$42#$b#I--uh, we were uh--$42",
+    "Lance.9Heart.8": "We were talking about you!$6",
+    "Lance.9Heart.9": "CAM!!",
+    "Lance.9Heart.10": "Oh get over it Lancey!$6#$b#I've been meaning to meet your acquaintance.$6",
+    "Lance.9Heart.11": "Oh, @?$6#$b#That little firecracker--I mean, your grandfather used to chirp and chime all the time about you when you were a baby!$1",
+    "Lance.9Heart.12": "What we were talking about, is about how Lancey here is following the current mage trends.$6",
+    "Lance.9Heart.13": "I--!$48#$b#Do not call my feelings a trend!$50",
+    "Lance.9Heart.14": "Oh look who's so high and mighty~$6#$b#I recall this boy making fun of his colleagues some fifty years ago about their marriage to a mundane!$1",
+    "Lance.9Heart.15": "Cam--!$50",
+    "Lance.9Heart.16": "Now tell me about YOU.$1#$b#I only heard of you from the brat in his spry years and hints from Lancey here.$6",
+    "Lance.9Heart.17": "We chatted for awhile about my life so far.",
+    "Lance.9Heart.18": "That's so sweet, we're truly sorry we couldn't come to his funeral.$2#$b#",
+    "Lance.9Heart.19": "Well Lancey, I say this one's a keeper, but I'm still going to give my concerns.$2",
+    "Lance.9Heart.20": "Concerns? About what?$42",
+    "Lance.9Heart.21": "Well you know~$2#$b#Mundane lifespans are... short, and well, ours aren't exactly relative.$2",
+    "Lance.9Heart.22": "I know very well what that entails.$37",
+    "Lance.9Heart.23": "Do you though? I remember how heartbroken you were when he passed--$2",
+    "Lance.9Heart.24": "Camilla, please...$36#$b#I feel I've matured enough to understand my own feelings, and I know I'll handle myself.$37",
+    "Lance.9Heart.25": "Well you know~$5#$b#If all else fails you could just do a soul bon--$6",
+    "Lance.9Heart.26": "A soul bond is much too dangerous!$50#$b#Beyond that, it's... invasive...$53",
+    "Lance.9Heart.27": "Well whatever comes may come, but just remember to tell me at least?$5",
+    "Lance.9Heart.28": "I'll be sure to keep you updated constantly.$8",
+    "Lance.9Heart.29": "Oooh I'm soo~ happy to have such an accomodating son~!$5",
+    "Lance.9Heart.29.1": "I swear, your sarcasm never ceases to amaze.$8",
+    "Lance.9Heart.30": "It's been good to finally meet you, @.$5#$b#I do hope you two enjoy your time together.$5",
+    "Lance.9Heart.31": "Cam...!",
+    "Lance.9Heart.32": "Adios!$5",
+    "Lance.9Heart.33": "Like a storm, she left...",
+    "Lance.9Heart.34": "I guess I'll always have interesting 'in-laws'!",
+
+
     //CHANGED DIALOGUE
-    //8 HEART, FORGOTTEN FRIENDS
-    "Lance.8Heart.01": "'Lance?'",
-    "Lance.8Heart.02": "I miss you, you bratty bastard.$93",
-    "Lance.8Heart.03": "Where is he going?",
-    "Lance.8Heart.04": "Paul, I told you rations aren't--$15#$b#...$83",
-    "Lance.8Heart.05": "If only I were stronger then...$81",
-    "Lance.8Heart.06": "I swear Nikki if I have to tell you the magic recipe one more time I'll--$8#$b#I'll...$83",
-    "Lance.8Heart.07": "I properly saw off your widower, I fulfilled my promise, Nikki.$81",
-    "Lance.8Heart.08": "Well, Luis, Avery told me that she wanted to ask YOU out on a--$15#$b#A da..date...$83",
-    "Lance.8Heart.09": "You'd be proud of them, your children are alive and well...$83",
-    "Lance.8Heart.10": "Mary, I swear to Yoba if I find another raunchy novel about me and July I'll--$8#$b#I'll...$83",
-    "Lance.8Heart.11": "They're doing well, you know?$83#$b#'The Tales of the Combat Mage'.$8#$b#If only you... if only you were here to see the vigil.$83", //An enemy broke into the healers tent and in a valiant effort Mary tried to protect the wounded with the minimal offense magics the Frontliners taught her, but was bested
-    "Lance.8Heart.11.1": "I have no need for the 'Nuances of Magicology', Perigee!$15#$b#What use would I have for such a--$83",
-    "Lance.8Heart.11.2": "I still have them, you know?$83#$b#Your books are being held safe within my chambers at home.$8#$b#And I kept our promise, Perigee, I burned that 'special book' you told me to.$9", //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
-    "Lance.8Heart.12": "Lance has finally stopped.",
-    "Lance.8Heart.13": "Was this war even NECESSARY?$77#$b#What purpose did it even SERVE!$78",
-    "Lance.8Heart.14": "All of those lights!$78#$b#Extinguised because of greed!$81",
-    "Lance.8Heart.15": "What was I...$81#$b#What was I even fighting for?$83",
-    "Lance.8Heart.16": "TELL ME!", //textabovehead
-    "Lance.8Heart.17": "The bloodshed, the misery, the vigils, all of the eulogies of empty graves!$78",
-    "Lance.8Heart.18": "FOR WHAT?!", //textabovehead
-    "Lance.8Heart.19": "A few shiny baubles on a coat, a pat on the back that I did well, that those who fought alongside me fought bravely?!$78",
-    "Lance.8Heart.20": "Mother...?$89#$b#Mother, don't leave me on this battlefield!$91#$b#I swear I'll do better!$91",
-    "Lance.8Heart.21": "Please don't abandon me here!$95#$b#I'm... scared!$85",
-    "Lance.8Heart.22": "Lance is shaking.#'Lance! It's me!'#'Lance, you're in Pelican Town.'#'Lance?'",
-    "Lance.8Heart.23": "Oh, you bratty bastard you didn't have to come out to see me all the way out here--$15",
-    "Lance.8Heart.24": "'Lance?'",
-    "Lance.8Heart.25": "No, you're not... you're not--$83",
-    "Lance.8Heart.26": "Yes, you're @, the dead cannot be... the dead cannot be brought back.$83",
-    "Lance.8Heart.27": "Lance is silent.#'Are you okay?'#'Who were those people you were talking about?'#'Let's go see Harvey.'#'You're acting like a psycho.'",
+    //10 HEART, FORGOTTEN FRIENDS
+    "Lance.10Heart.01": "'Lance?'",
+    "Lance.10Heart.02": "I miss you, you bratty bastard.$93",
+    "Lance.10Heart.03": "Where is he going?",
+    "Lance.10Heart.04": "Paul, I told you rations aren't--$15#$b#...$83",
+    "Lance.10Heart.05": "If only I were stronger then...$81",
+    "Lance.10Heart.06": "I swear Nikki if I have to tell you the magic recipe one more time I'll--$8#$b#I'll...$83",
+    "Lance.10Heart.07": "I properly saw off your widower, I fulfilled my promise, Nikki.$81",
+    "Lance.10Heart.08": "Well, Luis, Avery told me that she wanted to ask YOU out on a--$15#$b#A da..date...$83",
+    "Lance.10Heart.09": "You'd be proud of them, your children are alive and well...$83",
+    "Lance.10Heart.10": "Mary, I swear to Yoba if I find another raunchy novel about me and July I'll--$8#$b#I'll...$83",
+    "Lance.10Heart.11": "They're doing well, you know?$83#$b#'The Tales of the Combat Mage'.$8#$b#If only you... if only you were here to see the vigil.$83", //An enemy broke into the healers tent and in a valiant effort Mary tried to protect the wounded with the minimal offense magics the Frontliners taught her, but was bested
+    "Lance.10Heart.11.1": "I have no need for the 'Nuances of Magicology', Perigee!$15#$b#What use would I have for such a--$83",
+    "Lance.10Heart.11.2": "I still have them, you know?$83#$b#Your books are being held safe within my chambers at home.$8#$b#And I kept our promise, Perigee, I burned that 'special book' you told me to.$9", //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
+    "Lance.10Heart.12": "Lance has finally stopped.",
+    "Lance.10Heart.13": "Was this war even NECESSARY?$77#$b#What purpose did it even SERVE!$78",
+    "Lance.10Heart.14": "All of those lights!$78#$b#Extinguised because of greed!$81",
+    "Lance.10Heart.15": "What was I...$81#$b#What was I even fighting for?$83",
+    "Lance.10Heart.16": "TELL ME!", //textabovehead
+    "Lance.10Heart.17": "The bloodshed, the misery, the vigils, all of the eulogies of empty graves!$78",
+    "Lance.10Heart.18": "FOR WHAT?!", //textabovehead
+    "Lance.10Heart.19": "A few shiny baubles on a coat, a pat on the back that I did well, that those who fought alongside me fought bravely?!$78",
+    "Lance.10Heart.20": "Mother...?$89#$b#Mother, don't leave me on this battlefield!$91#$b#I swear I'll do better!$91",
+    "Lance.10Heart.21": "Please don't abandon me here!$95#$b#I'm... scared!$85",
+    "Lance.10Heart.22": "Lance is shaking.#'Lance! It's me!'#'Lance, you're in Pelican Town.'#'Lance?'",
+    "Lance.10Heart.23": "Oh, you bratty bastard you didn't have to come out to see me all the way out here--$15",
+    "Lance.10Heart.24": "'Lance?'",
+    "Lance.10Heart.25": "No, you're not... you're not--$83",
+    "Lance.10Heart.26": "Yes, you're @, the dead cannot be... the dead cannot be brought back.$83",
+    "Lance.10Heart.27": "Lance is silent.#'Are you okay?'#'Who were those people you were talking about?'#'Let's go see Harvey.'#'You're acting like a psycho.'",
     //beginging switches
     //okay switch
-    "Lance.8Heart.OKAY.1": "Yeah of course I'm fine you bratty bas--$15#$b#No I'm... @?$83",
-    "Lance.8Heart.OKAY.2": "Where am I?$81",
-    "Lance.8Heart.OKAY.3": "I tell him when I started following him.",
-    "Lance.8Heart.OKAY.4": "Your farm, the town, and now here?$83#$b#I see...$81",
-    "Lance.8Heart.OKAY.5": "I--I did not mean to cause such a fuss, you've caught me at a very... unopportune moment.$71",
-    "Lance.8Heart.OKAY.6": "What should I say?#'You don't have to put up a front.'#'I was worried about you.'#'I like seeing all sides of you.'",
+    "Lance.10Heart.OKAY.1": "Yeah of course I'm fine you old fuddy--$15#$b#No I'm... @?$83",
+    "Lance.10Heart.OKAY.2": "Where am I?$81",
+    "Lance.10Heart.OKAY.3": "I tell him when I started following him.",
+    "Lance.10Heart.OKAY.4": "Your farm, the town, and now here?$83#$b#I see...$81",
+    "Lance.10Heart.OKAY.5": "I--I did not mean to cause such a fuss, you've caught me at a very... unopportune moment.$71",
+    "Lance.10Heart.OKAY.6": "What should I say?#'You don't have to put up a front.'#'I was worried about you.'#'I like seeing all sides of you.'",
 
-    "Lance.8Heart.OKAY.FRONT": "A--A front?$71#$b#Have the cracks in my mask finally shown through?$8#$b#Are you disillusioned by me now?$71",
-    "Lance.8Heart.OKAY.WORRIED": "You?$70#$b#I--I've made you worry about me?$71#$b#I've broken my mask it seems...$8#$b#Are you disillusioned by me now?$71",
-    "Lance.8Heart.OKAY.SIDES": "A-all sides of--!$70#$b#Ahah!$15",
-    "Lance.8Heart.OKAY.SIDES.1": "I guess I haven't disillusioned you by these 'sides' of mine, yeah?$71",
+    "Lance.10Heart.OKAY.FRONT": "A--A front?$71#$b#Have the cracks in my mask finally shown through?$8#$b#Are you disillusioned by me now?$71",
+    "Lance.10Heart.OKAY.WORRIED": "You?$70#$b#I--I've made you worry about me?$71#$b#I've broken my mask it seems...$8#$b#Are you disillusioned by me now?$71",
+    "Lance.10Heart.OKAY.SIDES": "A-all sides of--!$70#$b#Ahah!$15",
+    "Lance.10Heart.OKAY.SIDES.1": "I guess I haven't disillusioned you by these 'sides' of mine, yeah?$71",
 
-    "Lance.8Heart.OKAY.7": "Ah I... I see.$71#$b#I guess I've lived for quite a long time with this mask on my face.$8#$b#If you don't mind, could I rest on your shoulder for a moment?$9",
-    "Lance.8Heart.OKAY.8": "I miss them, my comrades from the war, they were the most rambunctious lot.$8",
-    "Lance.8Heart.OKAY.9": "Maybe someday I'll tell you all about them and our escapades.$71",
-    "Lance.8Heart.OKAY.10": "But as it is right now, we're both soaked through, come, I'll warp you back home you bra--$71#$b#...$83#$b#Sorry, @, @, I'll warp you back home.$71",
-    "Lance.8Heart.OKAY.11": "Thank you, for chasing after me, for talking with me, for... for being you.$71#$b#I'll see you around, @.$71",
+    "Lance.10Heart.OKAY.7": "I... I see.$71#$b#I guess I've lived for quite a long time with this mask on my face.$8#$b#If you don't mind, could I rest on your shoulder for a moment?$9",
+    "Lance.10Heart.OKAY.8": "I miss them, my comrades from the war, they were the most rambunctious lot.$8",
+    "Lance.10Heart.OKAY.9": "Maybe someday I'll tell you all about them and our escapades.$71",
+    "Lance.10Heart.OKAY.10": "But as it is right now, we're both soaked through, come, I'll warp you back home you bra--$71#$b#...$83#$b#Sorry, @, @, I'll warp you back home.$71",
+    "Lance.10Heart.OKAY.11": "Thank you, for chasing after me, for talking with me, for... for being you.$71#$b#I'll see you around, @.$71",
+
+    //daily conversation topic
+    "Lance.10Heart.Okay.Convo_0": "I have a lot to think about, I'll be sure to let you know my progress soon, @.$43",
+    "Lance.10Heart.Okay.Convo_1": "M-my facade?$16#$b#Ha--I guess I can't hide it much longer from you, can I?$8",
+    "Lance.10Heart.Okay.Convo_2": "%Lance is humming to himself.#$b#Ride on time, sama yo omoi nara~$8",
+    "Lance.10Heart.Okay.Convo_3": "%Lance is mumbling to himself.#$b#Oh but those are out of season, is there a way to get the tint right with magic...?$20",
+    "Lance.10Heart.Okay.Convo_4": "%Lance is mumbling to himself.#$b#I can imagine how Marlon will react.$20#$b#...Camilla is definitely going to laugh at me.$25#$b#Jolyne... will most likely want to host it.$27",
 
     //people switch
-    "Lance.8Heart.PEOPLE.1": "Huh?$70#$b#What names were I saying?$70",
-    "Lance.8Heart.PEOPLE.2": "Those were my comrades when I first joined the Elemental War.$8#$b#Rambunctious bunch, the lot of them.$71#$b#All of us too young to be in a war, but me especially, since I think I was barely a teenager.$8",
-    "Lance.8Heart.PEOPLE.3": "I miss them, dearly, fondly.$9#$b#Sometimes the memories flood in like I'm brought back to that same battlefield.$58#$b#Most of the time I hear them, their boistrous calls for me.$9#$b#Some barely had a child of their own, using me as a placeholder for the life they dreamed of.$58",
-    "Lance.8Heart.PEOPLE.4": "Most times... I just remember their deaths.$83#$b#Brave. Each and every one of them. To a fault, even.$81#$b#Each one...$77",
-    "Lance.8Heart.PEOPLE.5": "Each one in their own right gave up their life to save mine or another's.$83#$b#...$81",
-    "Lance.8Heart.PEOPLE.6": "Sometimes the thoughts of persevering through strength loses to my doubts of surviving those who could not.$83",
-    "Lance.8Heart.PEOPLE.7": "'Even should you lose all that is dear to you.'$83#$b#'Even should it cost you your life.'$81#$b#'You bear the burden and fight on.'$80#$b#'Kicking and screaming until your last breath is spent...'$81",
-    "Lance.8Heart.PEOPLE.8": "A parting gift, from my best friend, to me.$65#$b#...$64",
-    "Lance.8Heart.PEOPLE.9": "His words have become my mantra.$83#$b#Sometimes it feels as burdensome as a curse.$81#$b#But he...$64#$b#He was a good man.$65",
-    "Lance.8Heart.PEOPLE.10": "Ah...!$70#$b#...#83#$b#'The rains have ceased, and we have been braced with another beautiful day.'$37#$b#...'But you are not here to see it.'...$86",
-    "Lance.8Heart.PEOPLE.11": "I--I apologize.$93#$b#We're both completely soaked through.$65#$b#But truly...it's the breaking of sun between the rain that really shakes my bravado.$64",
-    "Lance.8Heart.PEOPLE.12": "If you don't mind, could I have your hand? I'll warp you back to your farm.$65",
-    "Lance.8Heart.PEOPLE.13": "...Thank you, @.$64#$b#For chasing after me, for letting me reminisce in times long passed...$65#$b#For being you.$67#$b#I'll see you around, @.$71",
+    "Lance.10Heart.PEOPLE.1": "Huh?$70#$b#What names were I saying?$70",
+    "Lance.10Heart.PEOPLE.2": "Those were my comrades when I first joined the Elemental War.$8#$b#Rambunctious bunch, the lot of them.$71#$b#All of us too young to be in a war, but me especially, since I think I was barely a teenager.$8",
+    "Lance.10Heart.PEOPLE.3": "I miss them, dearly, fondly.$9#$b#Sometimes the memories flood in like I'm brought back to that same battlefield.$58#$b#Most of the time I hear them, their boistrous calls for me.$9#$b#Some barely had a child of their own, using me as a placeholder for the life they dreamed of.$58",
+    "Lance.10Heart.PEOPLE.4": "Most times... I just remember their deaths.$83#$b#Brave. Each and every one of them. To a fault, even.$81#$b#Each one...$77",
+    "Lance.10Heart.PEOPLE.5": "Each one in their own right gave up their life to save mine or another's.$83#$b#...$81",
+    "Lance.10Heart.PEOPLE.6": "Sometimes the thoughts of persevering through strength loses to my doubts of surviving those who could not.$83",
+    "Lance.10Heart.PEOPLE.7": "'Even should you lose all that is dear to you.'$83#$b#'Even should it cost you your life.'$81#$b#'You bear the burden and fight on.'$80#$b#'Kicking and screaming until your last breath is spent...'$81",
+    "Lance.10Heart.PEOPLE.8": "A parting gift, from my best friend, to me.$65#$b#...$64",
+    "Lance.10Heart.PEOPLE.9": "His words have become my mantra.$83#$b#Sometimes it feels as burdensome as a curse.$81#$b#But he...$64#$b#He was a good man.$65",
+    "Lance.10Heart.PEOPLE.10": "Ah...!$70#$b#...#83#$b#'The rains have ceased, and we have been braced with another beautiful day.'$37#$b#...'But you are not here to see it.'...$86",
+    "Lance.10Heart.PEOPLE.11": "I--I apologize.$93#$b#We're both completely soaked through.$65#$b#But truly...it's the breaking of sun between the rain that really shakes my bravado.$64",
+    "Lance.10Heart.PEOPLE.12": "If you don't mind, could I have your hand? I'll warp you back to your farm.$65",
+    "Lance.10Heart.PEOPLE.13": "...Thank you, @.$64#$b#For chasing after me, for letting me reminisce in times long passed...$65#$b#For being you.$67#$b#I'll see you around, @.$71",
+
+    //daily conversation topic
+    "Lance.10Heart.People.Convo_0": "Come to hear the stories of my comrades long passed?$8#$b#I jest, maybe some other time, @.$13#$b#I have some planning to do.$8",
+    "Lance.10Heart.People.Convo_1": "Mary?$12#$b#You wish to know of her?$8#$b#Well, there were no laws of war back then.$9#$b#An enemy broke into the healers tent during a night ambush.$25#$b#She held out til her last dying breath, protected the younger generation of us.$6#$b#Bested in the end, she left me with her last will and testament.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
+    //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
+    "Lance.10Heart.People.Convo_2": "Perigee?$26#$b#Oh! Peri!$14#$b#I said her formal name in that state...?$13#$b#She'd definitely kill me for that.$8#$b#Well, Peri was one of our bravest, we were almost encircled.$25#$b#Peri decided to cast a large area of damage since we were able to hole up underground.$27#$b#Burned through all of her mana circuits and channels at once.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
+    "Lance.10Heart.People.Convo_3": "I have something planned, I'll tell you about my comrades some other time, I promise.$8",
+    "Lance.10Heart.People.Convo_4": "Nikki?$26#$b#Oh! Nick!$12#$b#She was one of the smallest of our ranks... didn't stop her from taking down twenty fighters though.$8#$b#Turns out, having that small of a body meant espionage missions were her strongsuit.$9#$b#...Nick ended up getting caught during one of her missions though.$25#$b#We were only 'graciously' given her back in...$27#$b#...In pieces...$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
 
     //doctor, tenatively no idea how to write this one
-    "Lance.8Heart.DOCTOR.1": "Harvey?$81#$b#I don't know a 'Harv-'$79#$b#...$83",
-    "Lance.8Heart.DOCTOR.2": "...$58#$b#...Right...$58#$b#",
-    "Lance.8Heart.DOCTOR.3": "Yes...$81#$b#If you don't mind, could you help me up @?$65",
-    "Lance.8Heart.DOCTOR.4": "Thank you, I think I can walk on my own.$58",
-    "Lance.8Heart.DOCTOR.5": "What should I say...#'Do you want me to go with you?'#'I hope you feel better.'",
-    "Lance.8Heart.DOCTOR.5.1": "No that's...$59#$b#That's quite alright, I'll be fine on my own now, thank you again.$9",
-    "Lance.8Heart.DOCTOR.5.2": "Thank you, I'll see you around, thank you, @.$58",
+    "Lance.10Heart.DOCTOR.1": "Harvey?$81#$b#I don't know a 'Harv-'$79#$b#...$83",
+    "Lance.10Heart.DOCTOR.2": "...$58#$b#...Right...$58#$b#",
+    "Lance.10Heart.DOCTOR.3": "Yes...$81#$b#If you don't mind, could you help me up @?$65",
+    "Lance.10Heart.DOCTOR.4": "Thank you, I think I can walk on my own.$58",
+    "Lance.10Heart.DOCTOR.5": "What should I say...#'Do you want me to go with you?'#'I hope you feel better.'",
+    "Lance.10Heart.DOCTOR.5.1": "No that's...$59#$b#That's quite alright, I'll be fine on my own now, thank you again.$9",
+    "Lance.10Heart.DOCTOR.5.2": "Thank you, I'll see you around, thank you, @.$58",
+
+    //daily conversation topic
+    "Lance.10Heart.Doctor.Convo_0": "Oh, hello @.$6#$e#I'm doing better, thank you for asking.$8",
+    "Lance.10Heart.Doctor.Convo_1": "...How did my visit with Harvey go?$6#$e#I'll tell you in detail some other time.$8",
+    "Lance.10Heart.Doctor.Convo_2": "...How did my visit with Harvey go?$6#$e#Apparently medication doesn't work on me.$8",
+    "Lance.10Heart.Doctor.Convo_3": "...How did my visit with Harvey go?$6#$e#I guess I've never realized I've never let myself 'relax'.$8",
+    "Lance.10Heart.Doctor.Convo_4": "...How did my visit with Harvey go?$6#$e#Things are doing better, it'll be a longstanding effort suffice to say.$8",
 
     //'psycho' - read:jackass, you are a jackass for picking this one
-    "Lance.8Heart.JACKASS.1": "A psy--!$78#$b#Hah...$81",
-    "Lance.8Heart.JACKASS.2": "HAHAHAH!",
-    "Lance.8Heart.JACKASS.3": "Ahah...$97#$b#...$83",
-    "Lance.8Heart.JACKASS.4": "...$81",
-    "Lance.8Heart.JACKASS.5": "Have a good one, @.$55",
-    "Lance.8Heart.JACKASS.6": "...Maybe I shouldn't have said that...#Lance immediately left...",
+    "Lance.10Heart.JACKASS.1": "A psy--!$78#$b#Hah...$81",
+    "Lance.10Heart.JACKASS.2": "HAHAHAH!",
+    "Lance.10Heart.JACKASS.3": "Ahah...$97#$b#...$83",
+    "Lance.10Heart.JACKASS.4": "...$81",
+    "Lance.10Heart.JACKASS.5": "Have a good one, @.$55",
+    "Lance.10Heart.JACKASS.6": "...Maybe I shouldn't have said that...#Lance immediately left...",
 
+    //daily conversation topic
+    "Lance.10Heart.Jackass.Convo_0": "...$20",
+    "Lance.10Heart.Jackass.Convo_1": "...$23",
+    "Lance.10Heart.Jackass.Convo_2": "...$25",
+    "Lance.10Heart.Jackass.Convo_3": "...$27",
+    "Lance.10Heart.Jackass.Convo_4": "...*Scoff*$26",
 
-    //// Lance 9 心 乔琳的担忧
-    "Lance.9Heart.01": "",
+    //CHANGED DIALOGUE
+    //10 HEART PT2
+    "Lance.10Heart.pt2.1": "Oh! @! Fancy seeing you here--$15",
+    "Lance.10Heart.pt2.2": "Well no shit dumbass ${he lives^she lives^they live}$ here...",
+    "Lance.10Heart.pt2.3": "Let me fix that--I wanted to extend a greeting to the lovely, @.$13#$b#If you would be so kind, could I have some of your time today?$11",
+    "Lance.10Heart.pt2.4": "Oh! Great!$14#$b#Er--$16",
+    "Lance.10Heart.pt2.5": "How did I do this before...?",
+    "Lance.10Heart.pt2.6": "If you don't mind, could I have your hand? I plan to take us somewhere private.$43",
+    "Lance.10Heart.pt2.7": "'Ginger Island?'",
+    "Lance.10Heart.pt2.8": "Yes. First, I'd like to apologize to you for my actions the other day.$43",
+    "Lance.10Heart.pt2.9": "I took your actions to heart and this has actually been on my mind for quite awhile.$41",
+    "Lance.10Heart.pt2.10": "You are... incredibly special to me.$43",
+    "Lance.10Heart.pt2.11": "Come, there's something I must show you.$43",
+    "Lance.10Heart.pt2.11.1": "This... this doesn't come easy to someone like me.$30#$b#Mages are... quite long lived, I've already prepared myself mentally that I wish to spend the rest of your life with you.$31",
+    "Lance.10Heart.pt2.11.2": "You are the most kind, caring and tenacious person I've met. In my mental preparation and contemplation of this moment, I just have one question for you.$32",
+    "Lance.10Heart.pt2.11.3": "@, will you marry me?$43",
+    "Lance.10Heart.pt2.12": "What should I say?#'Yes!'#'Sorry, I don't feel the same.'",
+    //the no answer ???
+    "Lance.10Heart.pt2.no": "I--I understand...$37#$b#We can still be friends though, right?$36",
+    "Lance.10Heart.pt2.no.1": "Unless the thought of me... bothers you?$37#$b#I guess I'll keep my distance.$36",
+    //switchback to yes
+    "Lance.10Heart.pt2.13": "Oh!$42#$b#Oh I'm--I'm so happy you feel the same!$15",
+    "Lance.10Heart.pt2.14": "Despite being an active combat mage, my heart has never felt so overwhelmed!$15",
+    "Lance.10Heart.pt2.15": "I feel as if Mount Kohldur could erupt right now from my excitement!$43",
+    "Lance.10Heart.pt2.16": "Oh Camilla will definitely raise hell and make fun of me but who cares!$15",
+    "Lance.10Heart.pt2.17": "Maybe sometime we can visit your grandpa's shrine to tell him the good news?$43",
+    "Lance.10Heart.pt2.18": "I cannot await the adventures we'll have together, @.$43",
+    "Lance.10Heart.pt2.19": "Preparations!$42#$b#I have to begin the preparations!$43",
+    "Lance.10Heart.pt2.20": "When do you want to hold the wedding, my love?$43",
+    "Lance.10Heart.pt2.21": "How many days from now? (FESTIVALS WILL PUSH IT BACK A DAY)#'Tomorrow!'#'2 days from now!'#'3 days from now!'#'4 days from now!'#'5 days from now!'",
+    "Lance.10Heart.pt2.22": "Excited, are we?$43#$b#Don't worry, I am too.$40#$b#Alright, we'll have the wedding then.$43",
+    "Lance.10Heart.pt2.23": "As much excitement as it is, we must still tend to our duties, your hand?$43",
+    "Lance.10Heart.pt2.24": "Back at your farm...my love.$32",
+    "Lance.10Heart.pt2.25": "What should I say?#'Would you like to stay for dinner?'#'Have a good night, Lance.'",
+    //saying no to spicy, bad dog
+    "Lance.10Heart.pt2.25.no": "Have a good night, my love.$43",
+    //BEGIN THE SPICY BREAKS    "Lance.10Heart.pt2.pepper.": "",
+    "Lance.10Heart.pt2.pepper.1": "For being such an accomodating host, I shall offer my services for dinner.$5",
+    "Lance.10Heart.pt2.pepper.2": "Lance cooked up a good assortment of dishes.",
+    "Lance.10Heart.pt2.pepper.3": "'I didn't know you could cook.'",
+    "Lance.10Heart.pt2.pepper.4": "Well, you won't survive well on the battlefield without some semblance of how to handle a fire.$12",
+    "Lance.10Heart.pt2.pepper.5": "Now, unless you wish to sing some more of my praises, shall we?$$10",
+    "Lance.10Heart.pt2.pepper.6": "Dinner was really nice!",
+    //sitting in front of kitchen, animate lance moving a little to make it seem like he's doing dishes
+    "Lance.10Heart.pt2.pepper.7": "...Well, you remember that time with Penny and the kids?$8#$b#It really was fascinating how Penny has managed to tailor-make the lessons for each of them.",
+    //farmer scoots in for a kiss
+    "Lance.10Heart.pt2.pepper.8": "Yes?$11#$b#!!$14#$b#It would be in your best interest to not overexcite me while I'm doing dishes!$15",
+    //playful tug of war
+    //transition to farmhouse front door, lance's back to the camera, farmer at front door
+    "Lance.10Heart.pt2.pepper.9": "Well, the night has begun to tell me that I've overstayed my welcome.$8#$b#I wish you a good night, @.$13",
+    "Lance.10Heart.pt2.pepper.10": "Should I...?#'You could just... stay the night?'#'Don't go, I still have to give the chef my compliments...'#Tug at the end of his jacket. 'Can you stay with me just a little bit longer...?'#'Do you want to stay and talk for a bit longer?'#Goodnight! I'll see you soon!'",
+    //you said no, well that's okay too
+    "Lance.10Heart.pt2.pepper.close": "Good night, my love.$11",
+    //you said yeah, you're down to clown
+    "Lance.10Heart.pt2.pepper.11": "What kind of fiancée would I be to deny you?$43",
+    //BELL PEPPER END
+    "Lance.10Heart.pt2.pepper.12": "'My compliments to the chef consist of...'",
+    "Lance.10Heart.pt2.pepper.13": "I give him a kiss on the cheek.",
+    "Lance.10Heart.pt2.pepper.14": "Do go on, I'm listening.$8",
+    "Lance.10Heart.pt2.pepper.15": "I give him a kiss on the nose.",
+    "Lance.10Heart.pt2.pepper.16": "A lovely compliment, I'm flattered.$43",
+    "Lance.10Heart.pt2.pepper.17": "I grab his collar.",
+    "Lance.10Heart.pt2.pepper.18": "Yes? You have my full attention now.$43",
+    "Lance.10Heart.pt2.pepper.19": "'I should reward the chef with my own hand-crafted dessert.'",
+    "Lance.10Heart.pt2.pepper.20": "I pause right before our lips touch.",
+    "Lance.10Heart.pt2.pepper.21": "My love, you bake a wonderful flambé.$71",
+    "Lance.10Heart.pt2.pepper.22": "Lance slides his hand behind my back.",
+    "Lance.10Heart.pt2.pepper.23": "I'll definitely savor every last drop.$67",
+    //HABANERO END
+    "Lance.10Heart.pt2.pepper.24": "Our breaths are in sync, I can hear my heart beating in my ears.#There's a fire in Lance's eyes.",
+    "Lance.10Heart.pt2.pepper.25": "Are you sure about this?$65",
+    "Lance.10Heart.pt2.pepper.26": "I tug on his collar and kiss him.",
+    "Lance.10Heart.pt2.pepper.27": "The sound of the doorknob rattling perks my eyes open.",
+    "Lance.10Heart.pt2.pepper.28": "Unless you wish to have the crows be our audience, you best get this damn door open before I fuck you right here and now.$97",
+    "Lance.10Heart.pt2.pepper.29": "The door swings open and the sound of the lock interrupts our breathy kisses.",
+    "Lance.10Heart.pt2.pepper.30": "Between the clicking of buckles and shuffling of clothes, our breaths pierce the air.",
+    "Lance.10Heart.pt2.pepper.31": "My body feels weightless for a few seconds.#The soft sheets and my pillows surround me as I regain my bearings.",
+    "Lance.10Heart.pt2.pepper.32": "In the pitch black dark of my own home, the only thing I can see is the slight shimmer of Lance's eyes.",
+    "Lance.10Heart.pt2.pepper.33": "I can hear his heartbeat through his hands at the side of my head.#I lean my head against his hand and stare at him in anticipation.",
+    "Lance.10Heart.pt2.pepper.34": "Forgive me for being impatient.$43",
+    "Lance.10Heart.pt2.pepper.35": "His fingers rub against my cheek as I hear him breathe out a sigh.",
+    "Lance.10Heart.pt2.pepper.36": "The silence is penetrated by my own sounds.#I try to stifle my mouth.",
+    "Lance.10Heart.pt2.pepper.37": "Lance grabs my hand that's covering my mouth.",
+    "Lance.10Heart.pt2.pepper.38": "Please, @, don't deny me.$43",
+    "Lance.10Heart.pt2.pepper.39": "!!!",
+    "Lance.10Heart.pt2.pepper.40": "Ah... to finally be connected with you... it feels as if this blaze will engulf me.$8",
 
-    //// Lance 10 心 怪物的安慰
-    "Lance10hearts1.01": "",
+    //PEPPER-X END "Lance.10Heart.pt2.pepper.": "",
+    "Lance.10Heart.pt2.spicecloser.1": "For a celebration night, we sure worked hard throughout the night.",
+    "Lance.10Heart.pt2.spicecloser.2": "I will never again underestimate a farmer's stamina.$65",
 
     //// Lance 11 心 战争回忆
-    "Lance.11Hearts.pre": "@！我刚刚收到通知，说兰斯在城堡村被困住了，我们必须尽快赶去！",
-    "Lance.11Hearts.00": "我能听到远处传来的魔法轰鸣声和金属碰撞声。",
-    "Lance.11Hearts.01": "@！$100#$b#你在这里做什么？！快退后！这里不安全！$50",
-    "Lance.11Hearts.02": "兰斯向后退直到他站在我面前。",
-    "Lance.11Hearts.03": "兰斯气喘吁吁地看着我。",
-    "Lance.11Hearts.04": "已经击倒三个了……$50#$b#但还有更多……请小心，亲爱的！$52",
-    "Lance.11Hearts.05": "兰斯似乎无法喘过气来。",
-    "Lance.11Hearts.06": "当他看向我时，他的眼睛睁大了，看起来很生气。",
-    "Lance.11Hearts.07": "@...$100",
-    "Lance.11Hearts.08": "兰斯抬起手臂，准备朝我的方向施放一个法术。#我低下头。",
-    "Lance.11Hearts.08.5": "……",
-    "Lance.11Hearts.09": "……我看到你看着我的样子……$85#$b#你知道我永远不会伤害你，@……$92#$b#对吗？$94",
-    "Lance.11Hearts.10": "当我看到鬼魂在你身后偷偷靠近时，我的心几乎停止了……$93#$b#在我这一生中，我从未感到如此害怕。$92#$b#这让我想起了战争的许多回忆。$96",
-    "Lance.11Hearts.11": "我的噩梦已经非常糟糕，所以今晚也不会例外。我几乎每晚都会有战争的闪回梦。$84#$b#我学会了最好等到太阳升起，我可以沐浴在温暖的阳光中再睡觉。$88#$b#我对失去已经很熟悉。看到你视为家人的人在敌人的手中丧生，没有人能为此做好准备，时间也不会让事情变得更容易。$92#$b#对不起，让你看起来好像我会伤害你……$93#$b#我只是无法想象如果失去了我的另一半灵魂，我会怎么办……$96",
-    "Lance.11Hearts.12": "你看到他的表情发生了变化，仿佛他突然有所领悟。",
-    "Lance.11Hearts.13": "我必须走了……$77#$b#我有事要去魔法部处理……$81",
-    "Lance.11Hearts.14": "兰斯匆匆离开了……#我确实感到害怕，但我想知道他最后一刻是怎么了……？",
 
 
-    //// Lance 12 心 暗影人，见科罗布斯
-    "Lance12hearts1.01": "法力的激增让兰斯脊柱发凉。",
-    "Lance12hearts1.02": "@！$99#$b#我没想到你这么早就回来了。$13",
-    "Lance12hearts1.03": "！！?#兰斯意识到了引发法力激增的原因。#你的回程魔杖终于恢复到静止状态。",
-    "Lance12hearts1.04": "那是……回程魔杖吗？$14",
-    "Lance12hearts1.05": "一个‘友好’的暗影人！$99#$b#你……你不是在开玩笑吧？$3",
-    "Lance12hearts1.06": "你在下水道里交了个叫‘科罗布斯’的暗影人朋友？$3#$b#马龙知道吗？$6#$b#他知道？$14#$b#我感觉我总是最后一个知道这些事情的。$81#$b#对不起，亲爱的，这不是针对你，只是马龙和吉尔一直把我当小孩看待，我已经习惯了他们的调侃。$13",
-    "Lance12hearts1.07": "如果你不介意的话，我能见见科罗布斯吗？$14#$b#什么时候都可以。$7",
-    "Lance12hearts1.08": "如果我看起来有些……怀疑，请原谅。$6#$b#在前线战斗了一个世纪，确实会改变你的看法。$2#$b#今晚我们至少可以好好享受彼此的陪伴。$13",
+
+    //// Lance 12 heart meeting krobus
+    "Lance.12Heart.1": "",
     // 12 心 第二部分
     "Lance12hearts2.01": "就在这里？$14",
     "Lance12hearts2.02": "*嗅嗅* 哦，你一定是@的伴侣！你闻起来和他们一样。",
@@ -1189,6 +1432,9 @@
     "Lance12hearts2.12": "我有个东西要给你。$7",
     "Lance12hearts2.13": "……",
     "Lance12hearts2.14": "我想感谢你陪我一起，@。$8#$b#我知道我一开始的表现令人质疑，你也担心你朋友的安全。$9#$b#我深感抱歉，起初显得有些戒备。$7#$b#不过，我说科罗布斯身材矮小是真的。$6#$b#我不认为下水道和人类的垃圾对他们来说是良好的能量补充。$3#$b#科罗布斯允许我每月10号和24号在黑暗掩护下来拜访。$12#$b#我认为这是一个好机会，可以让我为魔法部准备好提前退休的文件。$13#$b#一箭三雕！$15#$b#我们将进一步了解暗影人，也许还能够想办法解放山谷。$10#$b#再次感谢你，@，我们回去的路上可以牵着手吗？$13",
+
+    //12 heart pt 2 honeymoon phase
+    "Lance.12Heart.pt2.1": "",
 
     //// Lance 13 心 灵魂契约之伤，卡米拉的教导，兰斯的教导，兰斯的礼物
     "Lance.13Heart.01": "@！$49#$b#我刚刚感觉到矿洞深处传来了一阵震动，我正准备去查看。$48",
@@ -1211,7 +1457,7 @@
     "Lance.13Heart.17": "你有很多事情需要解释！$3#$b#你怎么能在没有咨询@的情况下就向魔法部申请灵魂契约注册？！$7",
     "Lance.13Heart.18": "我正准备和@谈这件事……$6#$b#卡米拉，你是怎么知道的？$3",
     "Lance.13Heart.19": "当然，作为你的监护人，魔法部打电话‘祝贺’我这个成功的孩子！$7",
-    "Lance.13Heart.20": "对不起，我根本没想到要先和@商量，我只是被山谷的变化震惊了……$64",
+    "Lance.13Heart.20": "Actually--You had interrupted me about telling @ about the ritual.$51",
     "Lance.13Heart.21": "我本来想在你的日子里插一脚……$37#$b#卡米拉已经破坏了大部分惊喜，但这确实是真的。$36#$b#我今天想和你谈一谈灵魂契约仪式的事情。$37#$b#马格努斯比我解释得更好，你愿意听我说吗？$36",
     "Lance.13Heart.22": "我伸出手握住了兰斯的手。",
     "Lance.13Heart.23": "谢谢你，亲爱的。$40#$b#卡米拉？我们一起去好吗？$36",
@@ -1222,12 +1468,12 @@
     "Lance.13Heart.27": "拉斯，我们来寻求指导！",
     "Lance.13Heart.28": "……卡米拉？为什么你要这么大声说话……",
     "Lance.13Heart.29": "啊，兰斯！……@？……卡米拉？$5#$b#这是什么情况？$4",
-    "Lance.13Heart.30": "我们的兰斯没有征求自己的另一半同意，就决定了这么重大的事情，比如灵魂契约！$7#$b#但我想你已经知道了，因为你是上级。$3",
+    "Lance.13Heart.30": "Lancey here thought it unimportant to not even inform ME that he wanted to do a soul bonding ritual!$3",
     "Lance.13Heart.31": "*咳咳*",
-    "Lance.13Heart.32": "嗯，是的，兰斯想保持秘密，想给@一个惊喜。$3",
+    "Lance.13Heart.32": "Well, yes, Lance wanted to keep it a secret, something to surprise @.$3",
     "Lance.13Heart.33": "拉斯，这不是能保密的事！$7",
-    "Lance.13Heart.34": "既然我们都在这里，马格努斯，你能向@解释一下灵魂契约是什么吗……$37#$b#我把自己弄得很糟糕……$36",
-    "Lance.13Heart.35": "啊……我明白了……这事确实疏忽了，因为这是个大工程，我以为@会毫无疑问地同意……$5#$b#*咳咳* 我会简单明了，灵魂契约就是将你的魔力与他人交融，与所选的另一半共享你的生命。#$b#既然你们已经决定结婚，兰斯向我提出了这个提议，因为你，@，现在也具备了魔力。",
+    "Lance.13Heart.34": "Well now that we're all here, Magnus, can you give @ an explanation of a soul bond...$37",
+    "Lance.13Heart.35": "*Ahem* I'll be precise, a soul bond is to intertwine your magic with another's, to share your lifespan with one whom you choose.#$b#Since you've both decided to marry, Lance had come to me with this proposition since you, @, are now magically inclined.",
     "Lance.13Heart.36": "*笑*#$b#是的，事实上，你在山谷的成就引起了命运线的震动。#$b#从成功建立你的魔法传送阵，到破除暗影人的诅咒，说你没有感受到自己的魔力是羞耻的。#$b#自从来到鹈鹕镇后，你一直深深地与魔法交织在一起。",
     "Lance.13Heart.37": "由于你们俩的魔力都很强大，灵魂契约应该不会像我们最初担心的那样影响兰斯的寿命。#$b#至于他是否需要用自己的寿命来支持你，还未可知。#$b#但兰斯想和你建立这个灵魂契约，因为这代表了他对你的深厚感情。",
     "Lance.13Heart.38": "啊！马格！我——$42#$b#这么快就把我抛到车下……$37#$b#马格努斯说得对，了解了暗影人发生的事情后，我想和你永远在一起。$36#$b#我真的爱你，@，我想以更亲密的方式与你在一起。$43#$b#这个灵魂契约会让我们建立一种联系，无论你受伤、迷路还是生病。$37#$b#这显然是双向的，但我对自己的能力很有信心。$9#$b#进一步的研究表明，我们还能够互相补充魔力，无论是否需要。$37#$b#我知道我经常很忙，但我仍然希望帮助你做农活。$43#$b#那么，你怎么看，@？$36",

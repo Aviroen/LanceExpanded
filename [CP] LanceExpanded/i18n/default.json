@@ -858,6 +858,7 @@
     "Lance.Chuckle": "*Chuckles*",
     "Lance.Sigh": "*Sigh*",
     "Lance.Cough": "*Cough*",
+    "Lance.Huff": "*Huff*",
 
 
     ////Welwick comments
@@ -911,7 +912,7 @@
     "Mail.10Heart": "@!^^Remember! Come visit me at First Slash!^^The warp is near your Island Farmhouse or you can ask Mag!^^Sincerely,^Lance [#]An Invitation",
     "Mail.10Heart.pt1": "Dear @,^^I hope you got to see how First Slash works.^^(And myself, really)^^I guess I wanted to look professional, but I enjoyed your company!^^Sincerely,^Lance [#]A Workday",
     "Mail.10Heart.pt2": "Dear @,^^I sincerely enjoyed our night together...^^I hope to continue these small comforts of your presence.^^With love,^Lance [#]Creature Comforts",
-    "Mail.11Heart": "My love, @^^I... cannot apologize enough for scaring you the other day...^^I truly did not mean to give you such a fright.^^I just felt in the moment of losing a comrade and I acted before saying anything...^^If there's anything I can do for you to forgive me, please let me know...^^Only yours,^Lance [#]The Elemental Wars",
+    "Mail.11Heart": "Come to the Badlands. ^^Watch your husband meet his fate.",
     "Mail.12Heart": "My love, @^^I cannot thank you enough for introducing me to Krobus!^^They have such a diverse knowledge of their people, it's really going to aid me in my petition to the Ministry!^^I hope to continue this endeavor and see it bear fruit.^^With love,^Lance [#]Shadowpeople",
     "Mail.13Heart": "My love, @^^Soon I will have the artifact that compliments my own to complete our soul bond.^^I look forward to this future with you.^^You can expect the artifact to be done before the end of the next season.^^With love,^Lance [#]A Gift",
     "Mail.14Heart": "In Sickness And In Health^^Forsaking All Others^^To Love And To Cherish^^Until Death Do Us Part^^I hope the last part doesn't give you a fright, but it is truly how the bond between us is.^^This soul bond lets me feel your every movement if I focused hard enough.^^You can also feel where I am if you were to hone your magic.^^This is truly the greatest blessing of my life, and I am still in awe that it is with you, @.^^I hope we continue our days in this bliss as we chase the sunsets of our lives.^^Your soulmate,^Lance [#]A Bond",
@@ -1403,10 +1404,99 @@
 
     ////lance 11 heart war recollections "Lance.11Heart.": "",
     "Lance.11Heart.1": "I hear the sounds of fighting.",
+    "Lance.11Heart.2": "Alesia! On your left!$25",
+    "Lance.11Heart.3": "Lance! Behind you!$3",
+    "Lance.11Heart.4": "I'll cover the rear!",
+    "Lance.11Heart.5": "@! What are you--$100#$b#Please! Stay up there where it's safe!$27",
+    "Lance.11Heart.6": "The horde has finally been cleared.",
+    "Lance.11Heart.7": "Whew! That was a lot!",
+    "Lance.11Heart.8": "Why were you here?$55",
+    "Lance.11Heart.9": "I handed over the letter.",
+    "Lance.11Heart.10": "What? There's absolutely no postage on this--$53",
+    "Lance.11Heart.11": "!!!$52#$b#LOOK OUT!$50",
+    "Lance.11Heart.12": "@!$55@#b@Can you hear me?$51",
+    "Lance.11Heart.13": "I'm going to send @ back!$53",
+    "Lance.11Heart.14": "Aye!",
+    "Lance.11Heart.15": "Breathe slowly, I'm sorry, I had to use a bit more magic than you're used to.$55",
+    "Lance.11Heart.16": "Hang on to me.$55",
+    "Lance.11Heart.17": "It feels warm...",
+    "Lance.11Heart.18": "...ut it was strange, Cam!$53#$b#It came out of nowhere and I didn't sense it!$55",
+    "Lance.11Heart.19": "I have it in my hands right now, and it has traces of magic.$54",
+    "Lance.11Heart.20": "Yeah I'm back at my outpost, something pulled me from my directed warp.$53",
+    "Lance.11Heart.21": "I'll send it to you when I have the chance--$54#$b#@! You're up!$42",
+    "Lance.11Heart.22": "Don't sit up too fast, you're probably experiencing vertigo.$36",
+    "Lance.11Heart.23": "The words...#'What happened?'#'What is that?'",
+    "Lance.11Heart.23.1": "I--I accidentally used too much magic in protecting you.$72",
+    "Lance.11Heart.23.2": "It's some kind of iridium arrow.$51#$b#It's been embued with subtle magic.$53",
+    "Lance.11Heart.24": "Are you okay?$72",
+    "Lance.11Heart.25": "How do I--#'A little worse for wear, but doing alright.'#'...Honestly I'm kind of scared...'",
+    "Lance.11Heart.25.1": "Again, I apologize...$72#$b#The aftereffects should wear off in a few hours, I'll be here to make sure it hasn't harmed you.$64",
+    "Lance.11Heart.25.2": "Do you need me to comfort you?$72#$b#Nothing can hurt you here, I've asked Camilla to put up a barrier and I've reinforced my own.$64",
+    "Lance.11Heart.26": "...#'Is it alright if I rest for awhile?'#'Can you... keep me close?'",
+    //break for switchevents
+    //switch event rest
+    "Lance.11Heart.26.1": "Of course, rest as long as you wish, my love.$67#$b#I will be right here to watch over you.$71",
+    "Lance.11Heart.26.1.1": "Call out to me if you need, I'll be working on paperwork.$69",
+    //switch event snuggle
+    "Lance.11Heart.26.2": "If--if that's what you want.$67#$b#Pardon my manners...$65", //position offset farmer to simulate lance's chin on head
+    //BEGIN LOOPING QUESTION
+    "Lance.11Heart.26.2.1": "...#'Do you think someone's out to get me?'#'Why do you think I was sent that letter?'#'Is it alright if I rest for awhile?'",
+    //1st question picked loop back
+    "Lance.11Heart.27": "Who would want to harm you?$64#$b#It's not as if you had any enemies from Zuzu City, right?$65",
+    "Lance.11Heart.27.1": "I can hardly believe anyone would want to attempt to harm an ex-paper-pusher-turned-farmer.$64#$b#But then again...$81",
+    "Lance.11Heart.27.2": "I can hear Lance's heart beat quickening.",
+    "Lance.11Heart.27.3": "...Then again... it could be my enemies...$80",
+    "Lance.11Heart.27.4": "I don't have a long laundry list, thankfully, but I also don't think anyone would be that vengeful after a century.$8",
+    "Lance.11Heart.28": "...#'Why do you think I was sent that letter?'#'I would just like a distraction right now...'#'Is it alright if I rest for awhile?'",
+    //sent letter
+    "Lance.11Heart.28.1": "I don't know...$81#$b#It seems premeditated because just as you came around, the monsters started a frenzy.$83",
+    "Lance.11Heart.28.2": "'A frenzy?'",
+    "Lance.11Heart.28.3": "Hmm, now that I think about how they acted, they all focused their attention towards your direction as soon as you appeared.$79",
+    "Lance.11Heart.28.4": "...$81#$b#I'll need to talk to Camilla about this later...$81",
+    "Lance.11Heart.29": "...#'Do you think someone's out to get me?'#'I would just like a distraction right now...'#'Is it alright if I rest for awhile?'", //2 loops back to 26.1 dialogue
+    //break spicy "Lance.11Heart.pepper.": "",
+    "Lance.11Heart.pepper.1": "A dist--$68", //ahem closes eyes
+    "Lance.11Heart.pepper.2": "If a distraction is what you want, a distraction is what I will serve.$67", //globalfade move viewport
+    "Lance.11Heart.pepper.3": "My mind feels like it's racing at a thousand miles a minute.",
+    "Lance.11Heart.pepper.4": "Lance's warmth against me keeps my mind grounded.",
+    //BELL END
+    "Lance.11Heart.pepper.5": "Between the delicate touches and sighs I can see a shine in Lance's eyes.",
+    "Lance.11Heart.pepper.6": "Please do tell me when I'm being too much.$43",
+    "Lance.11Heart.pepper.7": "...#Grab the back of his head.#'I'm tired of talking.'",
+    "Lance.11Heart.pepper.8": "Oh--$38",
+    "Lance.11Heart.pepper.9": "Since you wish to be comforted, I shall treat you like the ${prince^princess^royalty}$ that you are.",
+    "Lance.11Heart.pepper.10": "Soft kisses.#Breathy sighs.",
+    "Lance.11Heart.pepper.11": "Lance's fingers tickle my hips.#'Hey!'",
+    "Lance.11Heart.pepper.12": "Hmm?$8",
+    "Lance.11Heart.pepper.13": "He tickles the spot again.#'That--that tickles!'",
+    "Lance.11Heart.pepper.14": "Oh, I'm sorry, what about this?$43",
+    //HABANERO END
+    "Lance.11Heart.pepper.15": "He stared up at me from my bellybutton, waiting.",
+    "Lance.11Heart.pepper.16": "'Lance...'",
+    "Lance.11Heart.pepper.17": "",
+
+    //spice closer
+    "Lance.11Heart.spicecloser.1": "My eyes feel heavy after basking in the warmth.#'Good... night... Lance...'",
+    "Lance.11Heart.spicecloser.2": "*Chuckles*$8#$b#Goodnight, my love.$67",
 
 
     ////Lance 12 Heart the honeymoon phase [farmhouse]
     "Lance.12Heart.1": "",
+
+    "Lance12hearts2.01": "In here?$14",
+    "Lance12hearts2.02": "*sniff* *sniff* Oh, you must be @'s life partner! You smell awful like them.",
+    "Lance12hearts2.03": "Your senses are sharp.$3#$b#It's a pleasure and honor to make your acquaintance. My name is Lance.$12",
+    "Lance12hearts2.04": "I'm Krobus, a merchant of unusual and intriguing goods.",
+    "Lance12hearts2.05": "I must say, I didn't fully believe @ when they spoke of you.$3#$b#I've encountered many shadow people throughout my time but none as welcoming such as yourself.$12",
+    "Lance12hearts2.06": "I'm sorry you've had bad run-ins with my kind...#$b#I assure you I'm nothing like them.",
+    "Lance12hearts2.07": "I've come across a vast amount of oddies in my time at war.$1#$b# You are by far the outlier.$4#$b# Pardon my jitteriness, I mentally preppared myself, but my body definitely doesn't want to listen.$3",
+    "Lance12hearts2.08": "But I have to say...$3#$b# You are one of the smallest I've come across so far.$14",
+    "Lance12hearts2.09": "Oh, yes! I get to feast on so many juicy flies!#$b#And humans leave treasure troves of tasty food in strange bins outside.",
+    "Lance12hearts2.10": "That's no meal for a shadow person of your stature.$3#$b#Let me get something for you.$1",
+    "Lance12hearts2.11": "He seems nice.",
+    "Lance12hearts2.12": "I have something for you.$7",
+    "Lance12hearts2.13": "...",
+    "Lance12hearts2.14": "I wanted to thank you for indulging me, @.$8#$b# I know my initial behaviour was questionable and you were worried for the security of your friend.$9#$b# I do deeply apologize for coming off as on guard at the beginning.$7#$b# I was telling the truth about Krobus' lack of height for their stature, however.$6#$b# I don't believe the sewers and human trash is a good supplement of energy for someone like them.$3#$b# Krobus allowed me to visit on the 10th and the 24th of every month under guise of darkness.$12#$b# I believe this will be a good chance for me to have ample evidence for the Ministry to rush my retirement paperwork.$13#$b# It's like, three birds with one stone!$15#$b# We'll learn more about the shadow people, maybe we'll also be closer to healing the valley.$10#$b# Thank you again, @, could we hold hands on the way home?$13",
 
     //lance 12 heart pt2 my friends in the valley [town]
     "Lance.12Heart.pt2.1": "",
