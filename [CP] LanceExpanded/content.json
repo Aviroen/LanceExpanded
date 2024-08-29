@@ -407,7 +407,7 @@
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "data/events/Qiroom, data/events/Custom_CastleVillageOutpost",
+            "Target": "data/events/Qiroom, data/events/Custom_CastleVillageOutpost, data/events/Custom_ShearwaterBridge",
             "FromFile": "data/Blank.json"
         },
         { //load my furniture

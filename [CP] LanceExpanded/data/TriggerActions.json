@@ -64,7 +64,7 @@
                 "{{ModId}}_SVEHDwarf": {
                     "Id": "{{ModId}}_SVEHDwarf",
                     "Trigger": "LocationChanged",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LEHighlandsPredicament_together",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LEHighlandsPredicament",
                     "Actions": [
                         "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
                     ]

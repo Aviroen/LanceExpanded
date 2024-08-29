@@ -1497,27 +1497,40 @@
     "Lance.13Heart.55": "最后的部分还没准备好，但我会告诉你什么时候准备好。$8#$b#……你身上的魔力波动让我……想要和你在一起。$64#$b#我们……回家吧？$69",
     "Lance.13Heart.56": "我握住兰斯的手，他把我们传送回家。",
     "Lance.13Heart.57": "我的誓言让我对你的存在格外敏感。$67#$b#请，让你的丈夫享受一会儿。$8",
-    // 辣度：哈瓦那辣椒
-    "Lance.13Heart.habanero.1": "你的肌肤让我的每一个细胞都像着火一样。$41#$b#我等不及想要尝尝了。$43",
-    "Lance.13Heart.habanero.2": "我和兰斯一起沉醉在我们的爱意中，真是一个神奇的夜晚！",
-    // 辣度：卡罗莱纳死神
-    "Lance.13Heart.carolina.1": "我迫不及待地想要把你整个吞下，@。$41#$b#你看我的眼神让我想把你完全吞下。$43#$b#也许先来舔一舔？$45",
-    "Lance.13Heart.carolina.2": "兰斯开始舔舐着我，像是着了魔，我尖叫着叫他的名字。",
-    "Lance.13Heart.carolina.3": "更多。$43#$b#尖叫我的名字，直到你的声音嘶哑。$41",
-    "Lance.13Heart.carolina.4": "当我抓住他的头发拉他过来吻我时，我能感觉到他的手指在挑逗我最深的地方。",
-    "Lance.13Heart.carolina.5": "！！$42#$b#我最好不要松懈工作。$43",
-    "Lance.13Heart.carolina.6": "当他轻抚我的身体时，我能感觉到他正准备进入我的身体。",
-    "Lance.13Heart.carolina.7": "这可能会……和我们之前的体验非常不同。$43#$b#别害怕，我就在这里。$39",
-    "Lance.13Heart.carolina.8": "！！#当他进入时，感觉像电流穿过了我的整个身体。我尖叫起来。#兰斯！",
-    "Lance.13Heart.carolina.9": "*笑*$9#$b#怎么了，@？$43",
-    "Lance.13Heart.carolina.10": "我无法控制自己，不停地喊着他的名字。#感觉时间仿佛过去了好几个小时，我们做了好几轮。#最后，兰斯在我额头上轻吻。",
-    "Lance.13Heart.carolina.11": "@，我的爱，我的灵魂，我的火焰。$41#$b#我能感受到你通过这个誓言对我的爱意，我也迫不及待想要让你感受到我的爱。$35",
-    "Lance.13Heart.carolina.12": "兰斯，我爱你胜过一切。",
-    "Lance.13Heart.carolina.13": "*笑*$9#$b#我知道。$41",
-    "Lance.13Heart.carolina.14": "我们在余韵中入睡，真是一个美妙的夜晚！",
-
-    //SPICY BREAKS PEPPER X
-    "Lance.13Heart.pepper.1": "",
+    //SPICY TIME    "Lance.13Heart.pepper.": "",
+    "Lance.13Heart.pepper.1": "It feels as if Lance's magic is radiating.",
+    "Lance.13Heart.pepper.2": "I will not be able to hold back...$36#$b#I am pre-emptively apologizing, my love.$43",
+    "Lance.13Heart.pepper.3": "...#'No need for apologies.'#'I'm a little scared.'",
+    "Lance.13Heart.pepper.3.1": "!!$43#$b#*Chuckles*$8#$b#What have I done in my love to be blessed by someone so wonderful as you?$43",
+    "Lance.13Heart.pepper.3.2": "I'll be sure to keep my mouth running lest I lose my sanity.$43",
+    "Lance.13Heart.pepper.4": "I was carefully lifted into a bridal carry.",
+    "Lance.13Heart.pepper.5": "Now, if you'll excuse me.$43#$b#The night is long, and I'm quite energized.$40",
+    //BELL PEPPER END
+    "Lance.13Heart.pepper.6": "As I was gingerly placed on the bed, silence came over the farmhouse.",
+    "Lance.13Heart.pepper.7": "I can tell it's not just my heart that's beating so violently.$43",
+    "Lance.13Heart.pepper.8": "Lance's hands lightly grazed my skin as I was disrobed.",
+    "Lance.13Heart.pepper.9": "Every touch felt like it was starting a fire.",
+    "Lance.13Heart.pepper.10": "You are lovely, my dear.$8#$b#Every part of you feels as if I should kneel in worship.$43",
+    "Lance.13Heart.pepper.11": "His lips kissed my fingertips.",
+    "Lance.13Heart.pepper.12": "From the tips of your fingers.$8",
+    "Lance.13Heart.pepper.13": "To the very last strand of your hair.$43",
+    "Lance.13Heart.pepper.14": "I am but a lunaloo, swept by your torrential tides.$67",
+    //HABANERO END
+    "Lance.13Heart.pepper.15": "Your skin makes every part of my body feel like it's on fire.$41#$b#I can't wait for a taste.$43",
+    "Lance.13Heart.pepper.16": "I can't wait to sink my teeth deep into you, @.$41#$b#The way that you're looking at me makes me want to devour you whole.$43#$b#Maybe a lick?$45",
+    "Lance.13Heart.pepper.17": "Lance starts to lick like he's possessed, I scream out his name.",
+    "Lance.13Heart.pepper.18": "More.$43#$b#Scream my name until your voice runs hoarse.$41",
+    "Lance.13Heart.pepper.19": "I can feel his fingers tickling my deepest parts as I grab his hair and pull him in for a kiss.",
+    "Lance.13Heart.pepper.20": "!!$42#$b#I best not let up on my work.$43",
+    "Lance.13Heart.pepper.21": "As he caresses my body, I can feel him lining himself up to enter me.",
+    "Lance.13Heart.pepper.22": "This might be... extremely different from our previous ministrations.$43#$b#Don't be afraid, I'm right here.$39",
+    "Lance.13Heart.pepper.23": "!!!#Right as he enters it feels like shockwaves rushing through my entire body.#I scream out.#'Lance!'",
+    "Lance.13Heart.pepper.24": "*Chuckles*$9#$b#Yes, @?$43",
+    "Lance.13Heart.pepper.25": "I can't help myself as I scream his name over and over again.#It feels like hours pass as we go for several rounds.#Lance places a kiss on my forehead at the end.",
+    "Lance.13Heart.spicecloser.1": "@, my love, my soul, my fire.$41#$b#I can feel how much you love me through this vow, and I can't wait to show you how it feels to love you back.$35",
+    "Lance.13Heart.spicecloser.2": "I love you more than anyone, Lance.",
+    "Lance.13Heart.spicecloser.3": "*Chuckles*$9#$b#I know.$41",
+    "Lance.13Heart.spicecloser.4": "Lance and I indulged in our love together, what a magical night!",
 
 
     //// Lance 14 心灵契约：无论健康或疾病，抛弃所有其他人，爱与珍惜，直到死亡将我们分开
@@ -1596,38 +1609,50 @@
     "Lance.14Hearts.Pt5.24": "*我抱住兰斯。*",
     "Lance.14Hearts.Pt5.25": "谢谢你，我的爱，我会把我们传送回家。$97",
     "Lance.14Hearts.Pt5.26": "*兰斯把我们传送到家门口。*#*我们走进屋子，迎接夜晚。*",
+    ///SPICYTIME "Lance.14Heart.pepper.1": "",
+    "Lance.14Heart.pepper.1": "By not holding out, I meant that you're intoxicating me.$97",
+    "Lance.14Heart.pepper.2": "I cannot hold myself back any longer.$97",
+    "Lance.14Heart.pepper.3": "'Lance...'",
+    "Lance.14Heart.pepper.4": "Yes, my love?$8",
+    "Lance.14Heart.pepper.5": "Right as he says that, he touches my skin with magic.#'Ah! That's not fair!'",
+    "Lance.14Heart.pepper.6": "*Chuckles*$8#$b#Are you ever fair to me?$97#$b#Come here, I'll indulge my wanton love.$43",
     //bell pepper end
-    ///SPICYTIME "Lance.14Hearts.pepper.1": "",
-    "Lance.14Hearts.pepper.1": "我不想再克制了，我的意思是你让我欲火焚身。$97",
-    "Lance.14Hearts.pepper.2": "我再也不想控制自己了。$97",
-    "Lance.14Hearts.pepper.3": "兰斯……",
-    "Lance.14Hearts.pepper.4": "是的，我的爱人？$8",
-    "Lance.14Hearts.pepper.5": "*就在他说完这话时，他用魔法触碰了我的肌肤。*#啊！这不公平！",
-    "Lance.14Hearts.pepper.6": "*轻笑*$8#$b#你对我何时公平过？$97#$b#过来，我会满足我放荡的爱意。$43",
-
-    //closer
-    "Lance.14Hearts.spicecloser.1": "*我们享受到了凌晨，这个灵魂契约确实让我感觉不同。*#我很高兴你在我身边。",
-    "Lance.14Hearts.spicecloser.2": "*轻笑*$8#$b#我感觉自己是世界上最幸福的人。$97#$b#我爱你，@。$43",
-    "Lance.14Hearts.spicecloser.3": "我也爱你，兰斯！",
-    //habanero break
-    "Lance.14Hearts.pepper.7": "*兰斯把我抱到床上，同时脱掉我的衣服，把我轻轻放在床上。*",
-    "Lance.14Hearts.pepper.8": "我不得不说，我看你从来不会厌倦。$97",
-    "Lance.14Hearts.pepper.9": "！！！#*兰斯开始亲吻我的肌肤，仿佛在崇拜我。*#*他的魔法让我头晕目眩。*",
-    "Lance.14Hearts.pepper.10": "你……$97#$b#真是……$41#$b#令人上瘾……$97",
-    "Lance.14Hearts.pepper.11": "*他每说一个字就猛烈抽插我一次，我疯狂喊出他的名字。*#兰斯……",
-    "Lance.14Hearts.pepper.12": "是的……我的……爱人……？$97",
-    "Lance.14Hearts.pepper.13": "*我们气喘吁吁地互相享受，达到高潮。*",
-    //carolina break
-    "Lance.14Hearts.pepper.14": "哦，我还没玩够呢。$97",
-    "Lance.14Hearts.pepper.15": "！！！#*当我试图躲开时，兰斯抓住了我的双腿。*",
-    "Lance.14Hearts.pepper.16": "我们还有整晚的时间，我美丽的灵魂伴侣。$97",
-    "Lance.14Hearts.pepper.17": "*他吻着我的腿，把它们举到他的肩膀上。*",
-    "Lance.14Hearts.pepper.18": "你能跟上吗？$97",
-    "Lance.14Hearts.pepper.19": "*我用我的大腿夹住他的头。*#我不知道，你能吗？",
-    "Lance.14Hearts.pepper.20": "你会后悔这么做的。$41",
-
-
-
+    "Lance.14Heart.pepper.7": "I was lifted up into Lance's lap while he walked to our bed.#He skillfully stripped me as he placed me gingerly on the bed.",
+    "Lance.14Heart.pepper.8": "I have to say, I never tire of looking at you.$97",
+    "Lance.14Heart.pepper.9": "!!!#Lance begins kissing my skin like he's worshipping me.#It makes my head swim as he drowns me in magic.",
+    "Lance.14Heart.pepper.10": "You...$97#$b#Are...$41#$b#Addicting...$97",
+    //habanero end
+    "Lance.14Heart.pepper.11": "Between each word he thrusts as I scream out his name.#Lance...",
+    "Lance.14Heart.pepper.12": "Yes... my... love...?$97",
+    "Lance.14Heart.pepper.13": "Our breathing is ragged as we indulge in each other and come to a crescendo.",
+    "Lance.14Heart.pepper.14": "Oh I'm not done with you yet.$97",
+    "Lance.14Heart.pepper.15": "!!!#Lance grabbed my legs as I was attempting to shuffle away.",
+    "Lance.14Heart.pepper.16": "We've got a whole night ahead of us, my beautiful soulmate.$97",
+    "Lance.14Heart.pepper.17": "He kissed my legs as he raised them to rest on his shoulders.",
+    "Lance.14Heart.pepper.18": "Can you keep up?$97",
+    "Lance.14Heart.pepper.19": "I squeezed his head inbetween my legs.#'I don't know, can you?'",
+    "Lance.14Heart.pepper.20": "You'll regret doing that.$41",
+    //closer    "Lance.14Heart.spicecloser.": "",
+    "Lance.14Heart.spicecloser.1": "We indulged into the early hours of the morning, this soul bond definitely makes me feel different.#'I'm glad you're here with me.'",
+    "Lance.14Heart.spicecloser.2": "*Chuckles*$8#$b#I feel like I'm the happiest man in the world.$97#$b#I love you, @.$43",
+    "Lance.14Heart.spicecloser.3": "'I love you too, Lance!'",
+    "Lance.14Heart.spicecloser.4": "This bond that we have...$67",
+    "Lance.14Heart.spicecloser.5": "'...?'",
+    "Lance.14Heart.spicecloser.6": "I will have to get used to it, over time.$8",
+    "Lance.14Heart.spicecloser.7": "...#'What do you mean by that?'#'Used to what?'",
+    "Lance.14Heart.spicecloser.8": "Well, first, I'll have to reduce the sensory sharing between us.$71#$b#It feels as if I can hear a waterfall roaring in my ears.$8",
+    "Lance.14Heart.spicecloser.9": "Second, well...$71",
+    "Lance.14Heart.spicecloser.10": "'...?'",
+    "Lance.14Heart.spicecloser.11": "*Ahem*$8#$b#You'll have to forgive me if I act more like a man possessed for the next few weeks.$71",
+    "Lance.14Heart.spicecloser.12": "...#'...What do you mean by that?'#'Should I be concerned?'",
+    "Lance.14Heart.spicecloser.13": "You will have no concern, consider it as me being so blindly in love with you that not else matters.$71",
+    "Lance.14Heart.spicecloser.14": "This bond of ours has...$67#$b#Has effectively shackled me to you.$71#$b#Not in a bad way, mind you.$68#$b#It is more akin to a wolf protecting his partner.$71",
+    "Lance.14Heart.spicecloser.15": "I will be... quite overwhelmingly protective.$69#$b#I apologize in advance for any problems this may cause.$67",
+    "Lance.14Heart.spicecloser.16": "The last thing!$8#$b#You should be very careful of pushing my buttons, my love.$71#$b#I am only warning you now, but I am also trying my best not to become a beast.$67",
+    "Lance.14Heart.spicecloser.17": "...#'I will keep that in mind...'#'A beast, huh?'",
+    "Lance.14Heart.spicecloser.18": "*Chuckles*$8#$b#Take that as you will, my love, I have already absolved myself of what may come.$71#$b#But we have a long time ahead of us now.$69#$b#You may not feel it, but I, am extremely exhausted.$8",
+    "Lance.14Heart.spicecloser.19": "Good night, my love.$71",
+    "Lance.14Heart.spicecloser.20": "'Good night, Lance!'",
 
 
     ////Post BDay Wear Earrings
@@ -1648,6 +1673,19 @@
 
     //////////////////////////////////////////////////////////////////////
     //DATES
+    //CHANGED DIALOGUE
+    //////////////////////////////////////////////////////////////////////
+    //DATES
+    //shave that beard
+    "Razor.intro": "Oh, @. Harvey said that I'm finally free to go back to my... *Ahem* 'Facial Maintenance'.$4#$b#Though after so long, I contemplated if I should just keep my face this way.$11",
+    "Razor.q": "'What do you think, love?'#'I do love a clean shaven man...'#'Honestly... the beard looks good.'",
+    "Razor.yes": "A clean shaven man, huh?$11#$b#You'll have to remind me every now and then if it gets too bothersome.$8",
+    "NoBeard": "I definitely feel refreshed, thank you, my love.$8",
+    "YesBeard": "I'll have to get used to the scratchiness.$11#$b#!!$42#$b#I can see you're really enjoying it, my love.$43",
+    "Razor.no": "Oh?$10#$b#I see you enjoy a rugged man?$15#$b#I jest, but I'll keep the beard going if you're enjoying it, my love.$$17",
+    "Razor.intro1": "Oh, @! Sorry, has my beard gotten out of hand?$9#$b#Should I shave it, or not?$11",
+    "Razor.yes1": "A clean shaven man, huh?$8#$b#You'll have to remind me if it gets too unweildy, work keeps my attention more as of late.$9#$b#I'll get right on going back to clean and sparkly.$11",
+    "Razor.no1": "Enjoying it to the fullest, are we?$8#$b#I jest, do let me know if you feel the need for change, though.$11",
     //do not bother to translate this yet
     //pelican mines
     "Pelican.intro": "doot doot",
