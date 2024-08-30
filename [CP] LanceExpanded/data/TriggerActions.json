@@ -13,32 +13,58 @@
                     "Actions": [
                         "MarkEventSeen Current 6951319 false", //caldera
                         "MarkEventSeen Current 6951321 false", //intro
+                        "MarkEventSeen Current LEPredicament false",
                         "MarkEventSeen Current 65360185 false", //2 heart highlands pt1
                         "MarkEventSeen Current 65360186 false", //2 heart highlands pt2
                         "MarkEventSeen Current 65360187 false", //2 heart fake trigger
                         "MarkEventSeen Current 65360188 false", //2 heart pt4
-                        "MarkEventSeen Current 65360191 false", //8 heart CHANGED INTO 4 HEART
-                        "MarkEventSeen Current 65360135 false", //8 heart alt farm CHANGED INTO 4 HEART
-                        "MarkEventSeen Current LEPredicament false",
                         "MarkEventSeen Current LEHighlandsPredicament false",
                         "MarkEventSeen Current LEHighlandsPredicament_handle false",
                         "MarkEventSeen Current LEHighlandsPredicament_offer false",
                         "MarkEventSeen Current LEHighlandsPredicament_together false",
-                        "MarkEventSeen Current LECamillaAppearance false",
+                        "MarkEventSeen Current 65360191 false", //8 heart CHANGED INTO 4 HEART
+                        "MarkEventSeen Current 65360135 false", //8 heart alt farm CHANGED INTO 4 HEART
                         "MarkEventSeen Current LECreed false",
                         "MarkEventSeen Current LECreed_wandering false",
                         "MarkEventSeen Current LECreed_gil false",
                         "MarkEventSeen Current LECreed_resupply false",
+                        "MarkEventSeen Current LERemembrance false",
+                        "MarkEventSeen Current LECamillaAppearance false",
+                        "MarkEventSeen Current LEFrivolity false",
+                        "MarkEventSeen Current LEFinally false",
+                        "MarkEventSeen Current LEFinallyYes false",
+                        "MarkEventSeen Current LELoyalty false",
+                        "MarkEventSeen Current LERealization false",
+                        "MarkEventSeen Current LERealizationOKAY false",
+                        "MarkEventSeen Current LERealizationPEOPLE false",
+                        "MarkEventSeen Current LERealizationDOCTOR false",
+                        "MarkEventSeen Current LERealizationJACKASS false",
+                        "MarkEventSeen Current LEFeelings false",
+                        "MarkEventSeen Current LEFeelingsGOOD false",
+                        "MarkEventSeen Current LEFeelingsYes false",
+                        "MarkEventSeen Current LEFeelingsTRANSITION false",
+                        "MarkEventSeen Current LEFeelingsSpiced false",
                         "MarkEventSeen Current LEBattleground false",
+                        "MarkEventSeen Current LEBattlegroundSTOP false",
+                        "MarkEventSeen Current LEBattlegroundSWITCH false",
+                        "MarkEventSeen Current LEBattlegroundFIRST false",
+                        "MarkEventSeen Current LEBattlegroundSECOND false",
+                        "MarkEventSeen Current LEBattlegroundSPICE false",
+                        "MarkEventSeen Current LE12Intro false",
+                        "MarkEventSeen Current 65360197 false",
+                        "MarkEventSeen Current 65360198 false",
+                        "MarkEventSeen Current LE12HeartSPICYONLY false",
+                        "MarkEventSeen Current LE12HeartSPICY false",
                         "MarkEventSeen Current LEShadowpeople false",
                         "MarkEventSeen Current LECamillaTutelage false",
                         "MarkEventSeen Current LEMagnusTutelage false",
                         "MarkEventSeen Current LELanceVow false",
                         "MarkEventSeen Current LESoulBonding false",
-                        "MarkEventSeen Current LESicknessnHealth false",
+                        "MarkEventSeen Current LESickness false",
                         "MarkEventSeen Current LEForsakingAllOthers false",
                         "MarkEventSeen Current LEToLovenCherish false",
                         "MarkEventSeen Current LEUntilDeath false",
+                        "MarkEventSeen Current LEDeathly false",
                         "MarkActionApplied Current {{ModId}}_EventExodus false"
                     ]
                 },
