@@ -8,12 +8,6 @@
             "Section": "Content",
             "Description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and summit dialogue. Please disable this if you aren't planning to date Lance. "
         },
-        "JojaBad": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            "Section": "Content",
-            "Description": "Toggles whether or not you want to have lore based around the SVE Joja or not, default lore on, means he'll be unromanceable if you go Joja."
-        },
         "Portrait": {
             "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), Use Custom",
             "Default": "Vanilla Compliant",
@@ -353,6 +347,29 @@
             "LogName": "Lance Edits",
             "Action": "EditData",
             "Target": "data/Characters",
+            "Fields": {
+                "Lance": {
+                    "CanBeRomanced": false
+                }
+            }
+        },
+        {
+            "LogName": "Lance Edits",
+            "Action": "EditData",
+            "When": {
+                "HasSeenEvent": "LEFrivolity"
+            },
+            "Target": "data/Characters",
+            "Fields": {
+                "Lance": {
+                    "CanBeRomanced": true
+                }
+            }
+        },
+        {
+            "LogName": "Lance Edits",
+            "Action": "EditData",
+            "Target": "data/Characters",
             "When": {
                 "Day 1 Toggle": true
             },
@@ -362,27 +379,12 @@
                 }
             }
         },
-        {
-            "LogName": "Joja Bad",
-            "Action": "EditData",
-            "Target": "data/Characters",
-            "When": {
-                "HasFlag": "jojaMember",
-                "JojaBad": true
-            },
-            "Fields": {
-                "Lance": {
-                    "CanBeRomanced": false
-                }
-            }
-        },
-
         //////// BEGIN THE INCLUDE WAVE
         {
             "Action": "Include",
             "FromFile": "data/BETAS.json, data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/Items.json, data/MarriageDialogue.json, data/Outfits.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
         },
-/*
+        /*
         {
             "Action": "Include",
             "FromFile": "data/{{Spice}}/dates.json"

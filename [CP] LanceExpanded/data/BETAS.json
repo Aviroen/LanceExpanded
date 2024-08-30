@@ -7,10 +7,29 @@
                 "{{ModId}}_RightInTheKisser": {
                     "Id": "{{ModId}}_RightInTheKisser",
                     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-                    "Condition": "ITEM_ID Target \"Lance\", {{Spice |contains=spicy}}",
+                    "Condition": "ITEM_ID Target \"Lance\", DAY_OF_MONTH {{Random:{{Range: 1, 28}}}}",
                     "Actions": [
-                        "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.Kissed_{{Random:{{Range: 1, 28}}}}}}\" true",
+                        "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" true",
                         "MarkActionApplied Current {{ModId}}_RightInTheKisser false"
+                    ]
+                },
+                "{{ModId}}_RightInTheKisser2": {
+                    "Id": "{{ModId}}_RightInTheKisser2",
+                    "Trigger": "Spiderbuttons.BETAS_NpcKissed",
+                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL {{ModId}}_SPICY12, DAY_OF_MONTH {{Random:{{Range: 1, 28}}}}",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.SPICY_{{Random:{{Range: 0, 5}}}}}}\" true",
+                        "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.MODERATE_{{Random:{{Range: 0, 5}}}}}}\" true",
+                        "MarkActionApplied Current {{ModId}}_RightInTheKisser2 false"
+                    ]
+                },
+                "{{ModId}}_RightInTheKisser3": {
+                    "Id": "{{ModId}}_RightInTheKisser3",
+                    "Trigger": "Spiderbuttons.BETAS_NpcKissed",
+                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL {{ModId}}_MODERATE12, DAY_OF_MONTH {{Random:{{Range: 1, 28}}}}",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.MODERATE_{{Random:{{Range: 0, 5}}}}}}\" true",
+                        "MarkActionApplied Current {{ModId}}_RightInTheKisser3 false"
                     ]
                 },
 
@@ -34,14 +53,6 @@
                         "MarkActionApplied Current {{ModId}}_BeardNo false"
                     ]
                 },
-                /*
-                this is my hidden list of what i need BETAS for:
-                read pepper-x chat for rei's message: https://discord.com/channels/342286434444640256/1253835431246827530/1276636249612091483
-                setnewdialogue on the condition that SPICE IS PEPPER-X, PLEASE FOR THE LOVE OF GOD DON'T FORGET THIS AMORE
-
-                BETAS changes to setnewdialogue and textabovehead commands in terms of syntax
-                */
-
                 "{{ModId}}_WipeCheck": {
                     "Id": "{{ModId}}_WipeCheck",
                     "Trigger": "Spiderbuttons.BETAS_RelationshipChanged",
@@ -52,16 +63,16 @@
                 },
                 "{{ModId}}_EarringConversation": {
                     "Id": "{{ModId}}_EarringConversation",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received",
+                    "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:wearEarrings}}\" true"
                     ]
                 },
                 "{{ModId}}_EarringConversation2": {
                     "Id": "{{ModId}}_EarringConversation2",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried}} > 1",
+                    "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried}} > 1",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:WearEarring.01}}\" true"
                     ]

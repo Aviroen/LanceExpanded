@@ -8,11 +8,6 @@
     "config.Override Generic Dialogue.name": "Override Generic Dialogue",
     "config.Override Generic Dialogue.description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and other similar fun dialogue. Please disable this if you aren't planning to date the Lance. ",
 
-    "config.JojaBad.name": "JojaBad",
-    "config.JojaBad.values.true": "true",
-    "config.JojaBad.values.false": "false",
-    "config.JojaBad.description": "Toggles whether or not you want to have lore based around the SVE Joja or not, default lore on, means he'll be unromanceable if you go Joja.",
-
     "config.Portrait": "Portrait",
     "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
     "config.Portrait.values.Aviroen Style": "Aviroen Style",
@@ -102,7 +97,24 @@
     /////////dialogue.json
 
     //CHANGED DIALOGUE
-
+    "Lance.Kissed_0": "Perfection.$67#$b#Every time.$71",
+    "Lance.Kissed_1": "Mmmm.$8#$b#Just one?$65",
+    "Lance.Kissed_2": "Ah...$67#$b#Your lessons with Magnus are paying off, I see.$71#$b#You have the innate ability to shake my meridians with your kisses.$67",
+    "Lance.Kissed_3": "%Your eyes connect after the kiss, and have a conversation of their own.",
+    "Lance.Kissed_4": "You leave me a man scorned!$8#$b#What ever shall I do with this wistfulness after just a single kiss?$67",
+    "Lance.Kissed_5": "Do stay safe on your travels, my love.$67#$b#You need but call out to me and I'll be able to find you.$71",
+    "Lance.SPICY_0": "I do enjoy your more aggressive kisses.$67#$b#You play with my restraint training.$71",
+    "Lance.SPICY_1": "Do that too many times and I might not let you leave the house today, my love.$71",
+    "Lance.SPICY_2": "You have me convinced!$8#$b#Leave tonight open, I have plans.$67",
+    "Lance.SPICY_3": "A kiss?$68#$b#After last night's activities?$8#$b#I must be doing something right, then.$71",
+    "Lance.SPICY_4": "I cannot help but feel that one lingered a little too long.$67#$b#I am quite open to a daylight rendezvous.$71",
+    "Lance.SPICY_5": "While your temptations gnaw at the door of my willpower, we have work to do.$67#$e#If you wish to push my buttons I will show you what happens.$71#$e#This is my final warning.$71#$e#Now, you're in trouble.$67#$v LE12HeartSPICY false false",
+    "Lance.MODERATE_0": "Your gentle kisses are competing for being my favorite against your more...$71#$b#Aggressive ones.$67",
+    "Lance.MODERATE_1": "!!!$70#$b#Did you just bite my lip?$71#$b#I'll show you a better way.$67",
+    "Lance.MODERATE_2": "Oh I know that look.$67#$b#What is it called? 'Core Memory Unlocked'?$71#$b#I feel like I finally understand what that means.$67",
+    "Lance.MODERATE_3": "I love the way you wake, disheveled and all.$67#$b#It tells me that I've sufficiently played my role as 'husband'.$73",
+    "Lance.MODERATE_4": "Your kisses make me finally understand why men start wars for their love.$67#$b#I promise I won't start a war.$8#$e#Not unless I have to.$73",
+    "Lance.MODERATE_5": "Oh but to leave me this early?$8#$b#Surely I can tempt you for just a few more minutes?$73",
     //Special Dialogue
     //"danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
     "Lance.danceRejectionCharacterDialogue_0": "Ah I'm... terribly sorry, I'm not quite used to the village and I don't remember how to dance.$8",
@@ -683,16 +695,8 @@
     //// G I F T R E L A T E D
     //CHANGED DIALOGUE
     "AcceptBouquet": "I'm--!$99#$b#I'm glad you changed your mind!$97#$b#I was worried you really didn't feel the same about me...$43",
-    "BouquetRejectDivorced": "",
-    "BouquetRejectUndatable": "",
-    "BouquetRejectMultiplayer": "",
     "BouquetReject": "Oh!$42#$b#This is...unexpected...$43#$b#I'm not sure I'm fully ready.$39#$b#I am honored, truly, and interested.$38#$b#I just need a tad more time. I hope you understand.$43",
     "PendantReject": "A...mermaid pendant?$42#$b#Oh my darling, I will accept yours in time, but I have a special plan.$41Will you wait for me to carry that plan out?$43",
-    "PendantRejectMultiplayer": "",
-    "PendantRejectAlreadyMarried": "",
-    "PendantReject10HeartDupe": "",
-    "PendantRejectDivorced": "",
-    "PendantRejectUpgrade": "",
 
 
     "Gifts.Lance.Loved": "This will serve me well. You have my gratitude.",
@@ -1351,7 +1355,7 @@
     "Lance.10Heart.pt2.pepper.2": "Lance cooked up a good assortment of dishes.",
     "Lance.10Heart.pt2.pepper.3": "'I didn't know you could cook.'",
     "Lance.10Heart.pt2.pepper.4": "Well, you won't survive well on the battlefield without some semblance of how to handle a fire.$12",
-    "Lance.10Heart.pt2.pepper.5": "Now, unless you wish to sing some more of my praises, shall we?$$10",
+    "Lance.10Heart.pt2.pepper.5": "Now, unless you wish to sing some more of my praises, shall we?$10",
     "Lance.10Heart.pt2.pepper.6": "Dinner was really nice!",
     //sitting in front of kitchen, animate lance moving a little to make it seem like he's doing dishes
     "Lance.10Heart.pt2.pepper.7": "...Well, you remember that time with Penny and the kids?$8#$b#It really was fascinating how Penny has managed to tailor-make the lessons for each of them.",
@@ -1588,7 +1592,15 @@
     "Lance.12Heart.pt2.46.3": "If that is what you wish, I will train myself better for you, my love.$43",
     "Lance.12Heart.pt2.47": "Now!$8#$b#I actually did cook us dinner, but my mind was addled.$71#$b#Shall we?$43",
     "Lance.12Heart.pt2.48": "We had a good dinner, and a relaxing evening.#That was definitely a spicy night!",
-
+    //YOU HAVE BITTEN OFF MORE THAN YOU CAN CHEW "Lance.12Heart.pt2.": "",
+    "Lance.12Heart.pt2.49": "Now!$8#$b#If you've had your fill, it's best if we actually do some work today, my love.$71",
+    "Lance.12Heart.pt2.7-2": "!!#'Hey! Clothes are expensive!'#'I'm enjoying the daylight ferocity.'#'I regret pushing that button!'",
+    "Lance.12Heart.pt2.8-2": "Mhm?$8#$b#Maybe I should invest in lingerie.$71",
+    "Lance.12Heart.pt2.9-2": "Well you've certainly turned me into a beast.$67",
+    "Lance.12Heart.pt2.10-2": "You're going to have plenty of time to regret it.$71",
+    "Lance.12Heart.pt2.12-2": "...#'I'm sorry!'#'I make no promises I won't do it again.'#'It must be my birthday.'",
+    "Lance.12Heart.pt2.22-2": "!!#Beg for more.#Scream his name.#Apologise profusely.",
+    "Lance.12Heart.pt2.28-2": "!!!#'W-Wait!'#Hold on for dear life.#'Goodbye my chores for the day.'",
 
     ////lance 13 heart elemental war scars, camilla's tutelage, Lance' tutelage, lance's gift
     "Lance.13Heart.01": "@!$49#$b#I just felt a shudder from deep within the mines, I was preparing myself to go.$48",
@@ -1673,7 +1685,7 @@
     //HABANERO END
     "Lance.13Heart.pepper.15": "Your skin makes every part of my body feel like it's on fire.$41#$b#I can't wait for a taste.$43",
     "Lance.13Heart.pepper.16": "I can't wait to sink my teeth deep into you, @.$41#$b#The way that you're looking at me makes me want to devour you whole.$43#$b#Maybe a lick?$45",
-    "Lance.13Heart.pepper.17": "Lance starts to lick like he's possessed, I scream out his name.",
+    "Lance.13Heart.pepper.17": "Lance starts to bite like he's possessed, I scream out his name.",
     "Lance.13Heart.pepper.18": "More.$43#$b#Scream my name until your voice runs hoarse.$41",
     "Lance.13Heart.pepper.19": "I can feel his fingers tickling my deepest parts as I grab his hair and pull him in for a kiss.",
     "Lance.13Heart.pepper.20": "!!$42#$b#I best not let up on my work.$43",
@@ -1775,7 +1787,7 @@
     "Lance.14Heart.pepper.9": "!!!#Lance begins kissing my skin like he's worshipping me.#It makes my head swim as he drowns me in magic.",
     "Lance.14Heart.pepper.10": "You...$97#$b#Are...$41#$b#Addicting...$97",
     //habanero end
-    "Lance.14Heart.pepper.11": "Between each word he thrusts as I scream out his name.#Lance...",
+    "Lance.14Heart.pepper.11": "Between each word he thrusts as I scream out his name.#'Lance...'",
     "Lance.14Heart.pepper.12": "Yes... my... love...?$97",
     "Lance.14Heart.pepper.13": "Our breathing is ragged as we indulge in each other and come to a crescendo.",
     "Lance.14Heart.pepper.14": "Oh I'm not done with you yet.$97",

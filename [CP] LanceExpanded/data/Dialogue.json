@@ -20,6 +20,7 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lance",
+            "Update": "OnLocationChange",
             "Entries": {
                 //Special Dialogue
                 "danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
@@ -54,18 +55,6 @@
                 "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
 
                 "AcceptBouquet": "{{i18n:AcceptBouquet}}",
-                "RejectBouquet_Divorced": "{{i18n:Lance.BouquetRejectDivorced}}",
-                "RejectBouquet_NotDatable": "{{i18n:Lance.BouquetRejectUndatable}}",
-                "RejectBouquet_NpcAlreadyMarried": "{{i18n:Lance.BouquetRejectMultiplayer}}",
-                "RejectBouquet_VeryLowHearts": "{{i18n:Lance.BouquetReject}}",
-                "RejectBouquet_LowHearts": "{{i18n:Lance.BouquetReject}}",
-                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:PendantRejectMultiplayer}}",
-                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:PendantRejectAlreadyMarried}}",
-                "RejectMermaidPendant_Under8Hearts": "{{i18n:PendantReject}}",
-                "RejectMermaidPendant_Under10Hearts": "{{i18n:PendantReject}}",
-                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:PendantReject10HeartDupe}}",
-                "RejectMermaidPendant_Divorced": "{{i18n:PendantRejectDivorced}}",
-                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:PendantRejectUpgrade}}",
 
                 "{{ModId}}_10Okay": "{{i18n:Lance.10Heart.Okay.Convo_{{Random:{{Range: 0, 4}}}}}}",
                 "{{ModId}}_10People": "{{i18n:Lance.10Heart.People.Convo_{{Random:{{Range: 0, 3}}}}}}",
