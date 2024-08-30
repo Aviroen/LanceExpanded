@@ -7,16 +7,17 @@
                 "{{ModId}}_RightInTheKisser": {
                     "Id": "{{ModId}}_RightInTheKisser",
                     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-                    "Condition": "ITEM_ID Target \"Lance\", DAY_OF_MONTH {{Random:{{Range: 1, 28}}}}",
+                    "Condition": "ITEM_ID Target Lance, RANDOM .5 @addDailyLuck",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" true",
                         "MarkActionApplied Current {{ModId}}_RightInTheKisser false"
                     ]
                 },
+                //mail flag {{ModId}}_LanceHit
                 "{{ModId}}_RightInTheKisser2": {
                     "Id": "{{ModId}}_RightInTheKisser2",
                     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL {{ModId}}_SPICY12, DAY_OF_MONTH {{Random:{{Range: 1, 28}}}}",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_SPICY12, RANDOM .5 @addDailyLuck",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.SPICY_{{Random:{{Range: 0, 5}}}}}}\" true",
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.MODERATE_{{Random:{{Range: 0, 5}}}}}}\" true",
@@ -26,7 +27,7 @@
                 "{{ModId}}_RightInTheKisser3": {
                     "Id": "{{ModId}}_RightInTheKisser3",
                     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL {{ModId}}_MODERATE12, DAY_OF_MONTH {{Random:{{Range: 1, 28}}}}",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_MODERATE12, RANDOM .5 @addDailyLuck",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.MODERATE_{{Random:{{Range: 0, 5}}}}}}\" true",
                         "MarkActionApplied Current {{ModId}}_RightInTheKisser3 false"
@@ -36,7 +37,7 @@
                 "{{ModId}}_BeardYes": {
                     "Id": "{{ModId}}_BeardYes",
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_YesBeard",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_YesBeard",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:YesBeard}}\" true",
                         "RemoveMail Current {{ModId}}_BeardYes all",
@@ -46,7 +47,7 @@
                 "{{ModId}}_BeardNo": {
                     "Id": "{{ModId}}_BeardNo",
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_NoBeard",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_NoBeard",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:NoBeard}}\" true",
                         "RemoveMail Current {{ModId}}_BeardNo all",
@@ -56,7 +57,7 @@
                 "{{ModId}}_WipeCheck": {
                     "Id": "{{ModId}}_WipeCheck",
                     "Trigger": "Spiderbuttons.BETAS_RelationshipChanged",
-                    "Condition": "ITEM_ID Target \"Lance\", Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/RelationshipChanged/WasMemoryWiped true",
+                    "Condition": "ITEM_ID Target Lance, Spiderbuttons.BETAS_ITEM_MOD_DATA_CONTAINS Target BETAS/RelationshipChanged/WasMemoryWiped true",
                     "Actions": [
                         "AddMail Current {{ModId}}_LanceWiped received"
                     ]
@@ -64,7 +65,7 @@
                 "{{ModId}}_EarringConversation": {
                     "Id": "{{ModId}}_EarringConversation",
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:wearEarrings}}\" true"
                     ]
@@ -72,7 +73,7 @@
                 "{{ModId}}_EarringConversation2": {
                     "Id": "{{ModId}}_EarringConversation2",
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-                    "Condition": "ITEM_ID Target \"Lance\", PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried}} > 1",
+                    "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried}} > 1",
                     "Actions": [
                         "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:WearEarring.01}}\" true"
                     ]
@@ -81,7 +82,7 @@
                 "{{ModId}}_LanceQiEvents": {
                     "Id": "{{ModId}}_LanceQiEvents",
                     "Trigger": "Spiderbuttons.BETAS_GiftGiven",
-                    "Condition": "ITEM_ID Target \"Lance\", ITEM_ID Target Aviroen.LanceExpanded_QiMomento",
+                    "Condition": "ITEM_ID Target Lance, ITEM_ID Target Aviroen.LanceExpanded_QiMomento",
                     "Actions": [
                         "MarkEventSeen Current LanceQi false",
                         "MarkEventSeen Current LEQiAdventurer false",
