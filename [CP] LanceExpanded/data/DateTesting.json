@@ -34,13 +34,13 @@
             "LogName": "Monster Hunting Pelican Mines",
             "Action": "EditData",
             "Target": "data/Events/Farm",
-            /*"When": { 
+            "When": { 
             "HasSeenEvent": "LEDeathly",
             "HasFlag |contains=QiChallengeComplete": true,
             "HasFlag |contains={{ModId}}_PelicanNo1": false
-        },*/
+        },
             "Entries": {
-                "LEDatePelican/O Lance/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/quickQuestion {{i18n:Pelican.q}}(break) speak Lance \"{{i18n:Pelican.yes}}\"\\globalFade\\viewport -10000 -10000\\changeToTemporaryMap Qiroom false\\bgColor 0 0 0\\ambientLight 0 0 0\\switchEvent PelicanYesAfter (break)switchEvent Pelican.no",
+                "LEDatePelican/O Lance/y 9000": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/quickQuestion {{i18n:Pelican.q}}(break) speak Lance \"{{i18n:Pelican.yes}}\"\\globalFade\\viewport -10000 -10000\\changeToTemporaryMap Qiroom false\\bgColor 0 0 0\\ambientLight 0 0 0\\switchEvent PelicanYesAfter (break)switchEvent Pelican.no",
                 "Pelican.no": "pause 300/speak Lance \"{{i18n:Pelican.no}}\"/addmailreceived {{ModId}}_PelicanNo1/end"
             }
         },
@@ -50,7 +50,7 @@
             "Target": "data/Events/Farm",
             "When": { "HasFlag": "{{ModId}}_PelicanNo1" },
             "Entries": {
-                "LEDatePelican/O Lance/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp Lance 64 15/pause 500/move Lance 0 2 2/playSound doorClose/warp farmer 64 15/pause 300/faceDirection Lance 1 true/pause 100/message \"{{i18n:PelicanYesAfter}}\"/faceDirection Lance 0/pause 300/speak Lance \"{{i18n:PelicanYesAfter.1}}\"/emote farmer 32/pause 100/emote Lance 32/pause 300/speak Lance \"{{i18n:PelicanYesAfter.2}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/viewport -1000 -1000/faceDirection farmer 0/faceDirection Lance 0/globalFade/viewport -1000 -1000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent PelicanYesAfter"
+                "LEDatePelican/O Lance/y 9000": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp Lance 64 15/pause 500/move Lance 0 2 2/playSound doorClose/warp farmer 64 15/pause 300/faceDirection Lance 1 true/pause 100/message \"{{i18n:PelicanYesAfter}}\"/faceDirection Lance 0/pause 300/speak Lance \"{{i18n:PelicanYesAfter.1}}\"/emote farmer 32/pause 100/emote Lance 32/pause 300/speak Lance \"{{i18n:PelicanYesAfter.2}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/viewport -1000 -1000/faceDirection farmer 0/faceDirection Lance 0/globalFade/viewport -1000 -1000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent PelicanYesAfter"
             }
         },
         {

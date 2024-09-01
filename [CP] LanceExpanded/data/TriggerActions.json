@@ -81,8 +81,6 @@
                         "MarkEventSeen Current 65360195 true", //10 heart main
                         "MarkEventSeen Current LEWorkday_cuddle true", //cuddle opt
                         "MarkEventSeen Current 65360196 true", //10 heart missed
-                        "MarkEventSeen Current 65360197 true", //12 heart return scepter
-                        "MarkEventSeen Current 65360198 true", //12 heart lancemeetskrobus flag req
                         "MarkActionApplied Current {{ModId}}_SVESilencer false"
                     ]
                 },
@@ -180,7 +178,8 @@
                     "Trigger": "LocationChanged",
                     "Condition": "{{Easy Savage Ring |contains=true}}",
                     "Actions": [
-                        "AddMail Current Gil_Shadows received"
+                        "AddMail Current Gil_Shadows received",
+                        "MarkActionApplied Current {{ModId}}_EZSavage false"
                     ]
                 }
             }

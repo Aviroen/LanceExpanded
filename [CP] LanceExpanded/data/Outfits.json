@@ -41,7 +41,7 @@
                 "HasFlag": "{{ModId}}_Scarred",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceScar.png"
         },
         {
@@ -53,7 +53,7 @@
                 "HasFlag": "{{ModId}}_FreshScar",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceFreshScar.png"
         },
         {
@@ -65,7 +65,7 @@
                 "HasFlag": "{{ModId}}_Beard",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceBeard.png"
         },
         {
@@ -76,7 +76,7 @@
                 "HasFlag": "{{ModId}}_wearEarrings",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceEarring.png"
         },
         {
@@ -89,7 +89,7 @@
                 "HasFlag": "{{ModId}}_Steri",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceSteri.png"
         },
         {
@@ -102,7 +102,7 @@
                 "HasFlag": "{{ModId}}_Eyepatch",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceEyepatch.png"
         },
         {
@@ -115,7 +115,7 @@
                 "HasFlag": "{{ModId}}_Blood",
                 "Portrait": "Vanilla Compliant"
             },
-            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_WinterIn, Portraits/Lance_WinterOut, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
+            "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter_Indoor, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Beach, Portraits/Lance_Flower, Portraits/Lance_Luau, Portraits/Lance_Spirit, Portraits/Lance_XMas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/Vanilla Compliant/LanceBlood.png"
         },
         {
