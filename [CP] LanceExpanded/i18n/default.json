@@ -255,16 +255,6 @@
 
     ////////////gift dialogue
     "AcceptGift_(O)StardropTea": "Oh?$10#$b#Is this a tea embued with a Stardrop?$43#$b#Delicious! And it even feels like my magic has recharged.$8#$b#Thank you, my love.$43",
-    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "Something from Sophia's?$10#$b#I'm not much of a wine drinker, but I do appreciate your care, thank you, my love.$43",
-    //"AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
-    //"AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
-    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
-    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
-    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
-    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_ShardLate": "{{i18n:Lance.GiftVoidShardlate}}",
-    //"AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
-    //"AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
-
 
     //////////////////////////////////////////////////////////////////////////////////////////////other marriage
 
@@ -340,89 +330,6 @@
     "Sun.Lance.CharacterDialogue_3": "I wonder if I should cook something warm tonight...$2#$e#%Lance is contemplating dinner.",
     "Sun.Lance.CharacterDialogue_4": "I do worry that sometimes I haven't integrated myself into the valley, but I guess upon your visits I'm doing just fine.$8",
     "Sun.Lance.CharacterDialogue_5": "...Would gemfish even be a decent meal...?$3#$e#%Lance is contemplating... dinner...?",
-
-    //"Mon1": "{{i18n:Mon1.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Mon8": "{{i18n:Mon8.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Mon15": "{{i18n:Mon15.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Mon22": "{{i18n:Mon22.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Tue2": "{{i18n:Tue2.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Tue9": "{{i18n:Tue9.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Tue16": "{{i18n:Tue16.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Tue23": "{{i18n:Tue23.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Wed3": "{{i18n:Wed3.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Wed10": "{{i18n:Wed10.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Wed17": "{{i18n:Wed17.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Wed24": "{{i18n:Wed24.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Thu4": "{{i18n:Thu4.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Thu11": "{{i18n:Thu11.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Thu18": "{{i18n:Thu18.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Thu25": "{{i18n:Thu25.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Fri5": "{{i18n:Fri5.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Fri12": "{{i18n:Fri12.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Fri19": "{{i18n:Fri19.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Fri26": "{{i18n:Fri26.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sat6": "{{i18n:Sat6.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sat13": "{{i18n:Sat13.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sat20": "{{i18n:Sat20.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sat27": "{{i18n:Sat27.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sun7": "{{i18n:Sun7.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sun14": "{{i18n:Sun14.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sun21": "{{i18n:Sun21.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-
-
-    //"Sun28": "{{i18n:Sun28.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
 
     ////////////////////////////////////////////////////////////////////////////////////marriagedialogue.json
 
@@ -532,12 +439,12 @@
 
     //leave for work
     //"funLeave_Lance": "{{i18n:LancefunLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
-    "LancefunLeaveMarriageDialogue_0": "Alas! Fair $sir^maiden^love$, this poor knave must toil away!$64#$e#Am I being overdramatic?$8#$e#I just miss you throughout my work day.$9#$e#Yes... yes... I'm heading out now, I'll see you later, my love.$8",
+    "LancefunLeaveMarriageDialogue_0": "Alas! Fair ${sir^maiden^love}$, this poor knave must toil away!$64#$e#Am I being overdramatic?$8#$e#I just miss you throughout my work day.$9#$e#Yes... yes... I'm heading out now, I'll see you later, my love.$8",
     "LancefunLeaveMarriageDialogue_1": "The Ministry becons my attention.$8#$e#As much as I want them to cut my working patrols even further, we're quite short staffed.$9#$e#I will see you tonight, my love.$8",
     "LancefunLeaveMarriageDialogue_2": "I pray that Jolyne doesn't poke fun at me today.$8#$e#As much as I enjoy her banter, I am quite tired of being called 'the man tied down'.$9",
-    "LancefunLeaveMarriageDialogue_3": "I don't quite enjoy leaving you to deal with Ministry business.$37#$e#Sometimes I wish they didn't put me in such high regard so that I could fool away my time.$36#$e#",
-    "LancefunLeaveMarriageDialogue_4": "%I ask Lance about apprentices.#$e#Hmm? Well Magnus was given responsibility over you.$14#$b#I'm a little bit different in that I can aid your magic progress.#{{e8}}#$b#Our roles are similar, but also different.$9#$b#It's more or less that he's the guardian of both of us rather than your sole magic teacher.$1#$b#I don't quite have enough experience under my belt according to the Ministry to have my own apprentice.$8#$b#Although I'm pretty sure something that would take even more time away from you would just make you miss me more, no?$15",
-    "LancefunLeaveMarriageDialogue_5": "%I ask Lance about magic lessons.#$e#Oh? Are you finally paying attention to Magnus' lessons now?$8#$b#I jest, was there something that you had a hard time with?$33#$e#Hmm, circuits and meridians? I guess if you're not inherently used to the terms, it's kind of hard to conceptualize.$8#$b#You can think of circuits as the veins of a leaf, they aid in circulating water, nutrients, et cetera.$2#$b#Meridians are like the nervous system of the human body. It's strange to combine the two, but that's how we are as magically inclined beings.$8#$b#When both are trained and stressed properly, you can see the fruits of it in Magnus, Camilla, and me.$12#$b#While Magnus' lessons are boring at times, he is aiding your 'magical vascular system' so to speak, so that you can have the capacity to cast magic.$3#$b#I'm not a healer, so I would be of aid to you there.$8#$b#The best I can give you is practical lessons, as well as helping your magical 'nervous system' capacity.$9#$b#They are different, and while Magnus is more akin to 'opening' your vascular system, I am 'stressing' your nervous system.$4#$e#When do I find the time to do such a thing?$14#$b#Well... you are one to take many breaks.$99#$e#You wound me! You believe your husband to be a second rate mage?$3#$b#I jest, but I do have enough stamina and awareness to stress your meridians when possible.$13",
+    "LancefunLeaveMarriageDialogue_3": "I don't quite enjoy leaving you to deal with Ministry business.$37#$e#Sometimes I wish they didn't put me in such high regard so that I could fool away my time.$36",
+    "LancefunLeaveMarriageDialogue_4": "%I ask Lance about apprentices.#$e#Hmm? Well Magnus was given responsibility over you.$14#$b#I'm a little bit different in that I can aid your magic progress.$8#$b#Our roles are similar, but also different.$9#$b#It's more or less that he's the guardian of both of us rather than your sole magic teacher.$1#$b#I don't quite have enough experience under my belt according to the Ministry to have my own apprentice.$8#$b#Although I'm pretty sure something that would take even more time away from you would just make you miss me more, no?$15",
+    "LancefunLeaveMarriageDialogue_5": "%I ask Lance about magic lessons.#$e#Oh? Are you finally paying attention to Magnus' lessons now?$8#$b#I jest, was there something that you had a hard time with?$33#$e#Hmm, circuits and meridians? I guess if you're not inherently used to the terms, it's kind of hard to conceptualize.$8#$b#You can think of circuits as the veins of a leaf, they aid in circulating water, nutrients, et cetera.$2#$b#Meridians are like the nervous system of the human body. It's strange to combine the two, but that's how we are as magically inclined beings.$8#$b#When both are trained and stressed properly, you can see the fruits of it in Magnus, Camilla, and me.$12#$b#While Magnus' lessons are boring at times, he is aiding your 'magical vascular system' so to speak, so that you can have the capacity to cast magic.$3#$b#I'm not a healer, so I would be of no aid to you there.$8#$b#The best I can give you is practical lessons, as well as helping your magical 'nervous system' capacity.$9#$b#They are different, and while Magnus is more akin to 'opening' your vascular system, I am 'stressing' your nervous system.$4#$e#When do I find the time to do such a thing?$14#$b#Well... you are one to take many breaks.$99#$e#You wound me! You believe your husband to be a second rate mage?$3#$b#I jest, but I do have enough stamina and awareness to stress your meridians when possible.$13",
 
     //ignored jobleave
     //"jobLeave_Lance": "{{i18n:LancejobLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
@@ -548,7 +455,7 @@
     "LancefunReturnMarriageDialogue_1": "My day was uneventful so I was left with thoughts of missing you, my love.$8#$b#I'm glad to be back home and in your comfort.$10",
     "LancefunReturnMarriageDialogue_2": "%*Lance is singing to himself*#$e#Give me tough love~$13#$e#Push me and choke me 'till I pass out~$9#$e#Lock me up and throw away the key~$8",
     "LancefunReturnMarriageDialogue_3": "%*Lance is singing to himself*#$e#I wanna feel the rush~$9#$e#I wanna taste the crush$11#$e#I wanna get you goin'$13#$e#I wanna lay you down~$13#$e#I wanna string you out~$7#$e#I wanna make you mine~$69",
-    "LancefunReturnMarriageDialogue_4": "",
+    "LancefunReturnMarriageDialogue_4": "%*Lance is singing to himself*#$e#Don't you notice how, I get quiet when there's no one else around~$8#$e#Me and you and awkward silence~$9#$e#Run to me, confess your love, at least just let me say~$8#$e#That when I talk to you, oh Cupid walks right through~$9#$e#And shoots an arrow through my heart~$8#$e#Confess, I loved you from the start.$67",
     "LancefunReturnMarriageDialogue_5": "",
 
     //ignored jobreturn
