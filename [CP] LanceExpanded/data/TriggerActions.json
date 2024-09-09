@@ -185,7 +185,25 @@
                         "AddMail Current Gil_Shadows received",
                         "MarkActionApplied Current {{ModId}}_EZSavage false"
                     ]
-                }
+                },
+                "{{ModId}}_HandHolder": {
+                    "Id": "{{ModId}}_HandHolder",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL Current LanceLifeElixirs, !PLAYER_HAS_MAIL Current lanceMonsterCrops received",
+                    "Actions": [
+                        "IncrementStat {{ModId}}_HandHolder 1",
+                        "MarkActionApplied Current LEHandHolder false"
+                    ]
+                },
+                "{{ModId}}_HandHolder1": {
+                    "Id": "{{ModId}}_HandHolder1",
+                    "Trigger": "LocationChanged",
+                    "Condition": "PLAYER_STAT Current LEHandHolder 20 20",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_HandHolder now",
+                        "MarkActionApplied Current LEHandHolder true"
+                    ]
+                },
             }
         }
     ]
