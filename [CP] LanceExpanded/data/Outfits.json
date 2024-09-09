@@ -1,18 +1,17 @@
 {
     "Changes": [
         {
-            "LogName": "Load Lance's Outfits Aviroen Style",
+            "LogName": "Load Lance's Outfits",
             "Action": "Load",
             "Priority": "High",
             "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Winter_Indoor, Portraits/Lance_Flower, Portraits/Lance_Spirit, Portraits/Lance_Beach, Portraits/Lance_Wedding, Portraits/Lance_Xmas, Characters/Lance_Spring, Characters/Lance_Summer, Characters/Lance_Fall, Characters/Lance_Winter, Characters/Lance_Winter_Outdoor, Characters/Lance_Winter_Indoor, Characters/Lance_Luau, Characters/Lance_Flower, Characters/Lance_Spirit, Characters/Lance_Beach, Characters/Lance_Xmas",
             "FromFile": "assets/{{TargetPathOnly}}/Lance/{{Portrait}}/{{TargetWithoutPath}}.png"
         },
-
         {
             "LogName": "Load Custom Other Npcs",
             "Action": "Load",
             "Priority": "High",
-            "When": { "Darker Plot Events(Y4)": true },
+            "When": { "Custom Wedding": true },
             "Target": "Portraits/Camilla",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
@@ -22,14 +21,6 @@
             "Priority": "High",
             "When": { "Darker Plot Events(Y4)": true },
             "Target": "Portraits/MrQi",
-            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
-        },
-        {
-            "LogName": "Load Custom Other Npcs",
-            "Action": "Load",
-            "Priority": "High",
-            "When": { "Aviroen Magnus": true },
-            "Target": "Portraits/Wizard, Characters/Wizard",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
         {

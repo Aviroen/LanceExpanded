@@ -22,8 +22,7 @@
                         "MarkEventSeen Current LEHighlandsPredicament_handle false",
                         "MarkEventSeen Current LEHighlandsPredicament_offer false",
                         "MarkEventSeen Current LEHighlandsPredicament_together false",
-                        "MarkEventSeen Current 65360191 false", //8 heart CHANGED INTO 4 HEART
-                        "MarkEventSeen Current 65360135 false", //8 heart alt farm CHANGED INTO 4 HEART
+                        "MarkEventSeen Current LETheFirstSlash false",
                         "MarkEventSeen Current LECreed false",
                         "MarkEventSeen Current LECreed_wandering false",
                         "MarkEventSeen Current LECreed_gil false",
@@ -76,6 +75,8 @@
                         "MarkEventSeen Current 6951320 true", //4 heart
                         "MarkEventSeen Current 65360190 true", //6 heart
                         "MarkEventSeen Current 65360192 true", //wizard warp 65360191 req
+                        "MarkEventSeen Current 65360191 true", //8 heart CHANGED INTO 4 HEART
+                        "MarkEventSeen Current 65360135 true", //8 heart alt farm CHANGED INTO 4 HEART
                         "MarkEventSeen Current 65360193 true", //jolyne, first slash guest room
                         "MarkEventSeen Current 65360194 true", //10 heart intro
                         "MarkEventSeen Current 65360195 true", //10 heart main
@@ -93,6 +94,7 @@
                         "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
                     ]
                 },
+                /*
                 "{{ModId}}_SVEQiEvents": {
                     "Id": "{{ModId}}_SVEQiEvents",
                     "Trigger": "DayStarted",
@@ -101,6 +103,7 @@
                         "MarkEventSeen Current 1925179 true"
                     ]
                 },
+    */
                 "{{ModId}}_QiLanceHealth": {
                     "Id": "{{ModId}}_QiLanceHealth",
                     "Trigger": "DayEnding",
@@ -149,6 +152,7 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_STAT Current DaysSince10HeartOKAY 5 5",
                     "Actions": [
+                        "AddMail Current {{ModId}}_10HeartContinue received",
                         "RemoveMail Current {{ModId}}_10HeartOKAY all",
                         "RemoveMail Current {{ModId}}_10HeartPEOPLE all",
                         "RemoveMail Current {{ModId}}_10HeartDOCTOR all",

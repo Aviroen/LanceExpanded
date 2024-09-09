@@ -9,7 +9,7 @@
             "Description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and summit dialogue. Please disable this if you aren't planning to date Lance. "
         },
         "Portrait": {
-            "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), Use Custom",
+            "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), SVE, Use Custom",
             "Default": "Vanilla Compliant",
             "Section": "Appearance",
             "Description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned."
@@ -61,12 +61,6 @@
             "Default": "false",
             "Section": "Content",
             "Description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early."
-        },
-        "Aviroen Magnus": {
-            "AllowValues": "true, false",
-            "Default": "false",
-            "Section": "Content",
-            "Description": "Changes Rasmodius' appearance to be in my style."
         }
     },
     "DynamicTokens": [
@@ -409,7 +403,7 @@
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "data/events/Qiroom, data/events/Custom_CastleVillageOutpost, data/events/Custom_ShearwaterBridge, data/events/Custom_HighlandsOutpost",
+            "Target": "data/events/Qiroom",
             "FromFile": "data/Blank.json"
         },
         { //load my furniture

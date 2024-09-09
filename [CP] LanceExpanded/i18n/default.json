@@ -11,6 +11,7 @@
     "config.Portrait": "Portrait",
     "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
     "config.Portrait.values.Aviroen Style": "Aviroen Style",
+    "config.Portrait.values.SVE": "SVE",
     "config.Portrait.values.GoodnightLou (Nyapu)": "GoodnightLou (Nyapu)",
     "config.Portrait.values.Use Custom": "Use Custom",
     "config.Portrait.description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned.",
@@ -51,11 +52,6 @@
     "config.Day 1 Toggle.description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early.",
     "config.Day 1 Toggle.values.true": "true",
     "config.Day 1 Toggle.values.false": "false",
-
-    "config.Aviroen Magnus": "Aviroen Magnus",
-    "config.Aviroen Magnus.values.true": "true",
-    "config.Aviroen Magnus.values.false": "false",
-    "config.Aviroen Magnus.description": "Changes Rasmodius' appearance to be in my style.",
 
 
     ////Misc stuff
@@ -808,27 +804,11 @@
     "SpouseRoom.9": "A 'contingency plan' he says, if he wants me to eat with him while he works, I have no problem with it.",
 
 
-    //// M A I L
-    "Mail.1Heart": "Hello @,^^I wanted to thank you again for helping me with those seeds. The Ministry decided that they were going to pass the baton off onto Magnus after all.^Don't tell him I'm a little irritated.^Feel free to keep the produce and the spoils for yourself.^They're definitely better off in your hands than mine.^^Sincerely,^Lance (: [#]Ministry Management",
-    "Mail.2Heart": "@!,^^Those monster crops you've brought me have give my research more funding!^^If you're ever in need of anything, do let me know.^^Sincerely,^Lance [#]Lance's Appreciation",
-    "Mail.3Heart": "@,^^I hope this letter finds you well, the Dwarf sends their regards, with a new shop open to boot!^^Feel free to stop by anytime.^^Sincerely,^Lance [#]Highlands Secured",
-    "Mail.3Heart.handle": "@!^^I've talked with the Dwarf about your triumphs and call me impressed!^^They've sung your praises left and right!^^Do let me know when you stop by, we can all chat together.^^Sincerely,^Lance [#]Highlands Secured",
-    "Mail.3Heart.offer": "@,^^While I do find your courage inspiring, I feel this excursion would have been too dangerous for you.^^I apologize if that seems boastful, but I care about everyone's safety.^^Sincerely,^Lance [#]Highlands Secured",
-    "Mail.4Heart": "@,^^I write this letter to let you know there are many bounds of magical items to be found.^^If you're ever curious about more, don't hesitate to ask me.^^Sincerely,^Lance [#]A Protégé's Problems",
-    "Mail.5Heart": "@!^^Don't be too bothered about Camilla.^^She's a handful even to me.^^I'll try to ask her to be less flirtatious if you dislike it.^^Sincerely,^Lance [#]Mentor, Camilla",
-    "Mail.6Heart": "@...^^I apologize for my behaviour that day...^^I hope you can forgive me for my change in demeanor.^^Sincerely,^Lance [#]Lance's Apology",
-    "Mail.7Heart": "@!^^Marlon sends his regards when you caught us talking like old folk.^^I've found enjoyment in your presence and wanted to let you know that.^^Sincerely,^Lance [#]The Adventurer's Creed",
-    "Mail.8Heart": "Dear @,^^Everyone at First Slash enjoyed having you, if you're ever in need of a mercenary entourage, feel free to ask!^^Sincerely,^Lance [#]First Slash",
-    "Mail.9Heart": "Dear @,^^I apologize if I came off as overbearing, but I have watched Lance as I grew up and he was quite flippant.^^If that man can find someone to settle down with, then we at First Slash are happy to indulge.^^Do not hesitate to ask for our services.^^Sincerely,^Jolyne [#]Jolyne's Concerns",
-    "Mail.10Heart": "@!^^Remember! Come visit me at First Slash!^^The warp is near your Island Farmhouse or you can ask Mag!^^Sincerely,^Lance [#]An Invitation",
-    "Mail.10Heart.pt1": "Dear @,^^I hope you got to see how First Slash works.^^(And myself, really)^^I guess I wanted to look professional, but I enjoyed your company!^^Sincerely,^Lance [#]A Workday",
-    "Mail.10Heart.pt2": "Dear @,^^I sincerely enjoyed our night together...^^I hope to continue these small comforts of your presence.^^With love,^Lance [#]Creature Comforts",
-    "Mail.11Heart": "Come to the Badlands. ^^Watch your husband meet his fate.",
-    "Mail.12Heart": "My love, @^^I cannot thank you enough for introducing me to Krobus!^^They have such a diverse knowledge of their people, it's really going to aid me in my petition to the Ministry!^^I hope to continue this endeavor and see it bear fruit.^^With love,^Lance [#]Shadowpeople",
-    "Mail.13Heart": "My love, @^^Soon I will have the artifact that compliments my own to complete our soul bond.^^I look forward to this future with you.^^You can expect the artifact to be done before the end of the next season.^^With love,^Lance [#]A Gift",
-    "Mail.14Heart": "In Sickness And In Health^^Forsaking All Others^^To Love And To Cherish^^Until Death Do Us Part^^I hope the last part doesn't give you a fright, but it is truly how the bond between us is.^^This soul bond lets me feel your every movement if I focused hard enough.^^You can also feel where I am if you were to hone your magic.^^This is truly the greatest blessing of my life, and I am still in awe that it is with you, @.^^I hope we continue our days in this bliss as we chase the sunsets of our lives.^^Your soulmate,^Lance [#]A Bond",
+    //// MAIL
+    "Mail.HandHolder": "Dear @,^^If you are having trouble with getting these seeds, I have procured a set. I unfortunately killed my last set of seeds which is why this letter is being sent so late. Whenever you're able to harvest what comes out of these, please feel free to stop by. ^^- Lance",
+    "Mail.HandHolder.Title": "Monster Crop Seeds",
 
-    ////E V E N T S
+
     ////HEART EVENTS
     ////Lance 0 Heart Volcano
     "Lance.0Heart.01": "A deep laughter echoes against the edges of the volcano. #A tall, fiery haired man stands in front of what looks to be a forge.",
@@ -1161,11 +1141,11 @@
     "Lance.10Heart.OKAY.11": "Thank you, for chasing after me, for talking with me, for... for being you.$71#$b#I'll see you around, @.$71",
 
     //daily conversation topic
-    "Lance.10Heart.Okay.Convo_0": "I have a lot to think about, I'll be sure to let you know my progress soon, @.$43",
-    "Lance.10Heart.Okay.Convo_1": "M-my facade?$16#$b#Ha--I guess I can't hide it much longer from you, can I?$8",
-    "Lance.10Heart.Okay.Convo_2": "%Lance is humming to himself.#$b#Ride on time, sama yo omoi nara~$8",
-    "Lance.10Heart.Okay.Convo_3": "%Lance is mumbling to himself.#$b#Oh but those are out of season, is there a way to get the tint right with magic...?$20",
-    "Lance.10Heart.Okay.Convo_4": "%Lance is mumbling to himself.#$b#I can imagine how Marlon will react.$20#$b#...Camilla is definitely going to laugh at me.$25#$b#Jolyne... will most likely want to host it.$27",
+    "Lance.10Heart.OKAY.Convo_0": "I have a lot to think about, I'll be sure to let you know my progress soon, @.$43",
+    "Lance.10Heart.OKAY.Convo_1": "M-my facade?$16#$b#Ha--I guess I can't hide it much longer from you, can I?$8",
+    "Lance.10Heart.OKAY.Convo_2": "%Lance is humming to himself.#$b#Ride on time, sama yo omoi nara~$8",
+    "Lance.10Heart.OKAY.Convo_3": "%Lance is mumbling to himself.#$b#Oh but those are out of season, is there a way to get the tint right with magic...?$20",
+    "Lance.10Heart.OKAY.Convo_4": "%Lance is mumbling to himself.#$b#I can imagine how Marlon will react.$20#$b#...Camilla is definitely going to laugh at me.$25#$b#Jolyne... will most likely want to host it.$27",
 
     //people switch
     "Lance.10Heart.PEOPLE.1": "Huh?$70#$b#What names were I saying?$70",
@@ -1174,21 +1154,21 @@
     "Lance.10Heart.PEOPLE.4": "Most times... I just remember their deaths.$83#$b#Brave. Each and every one of them. To a fault, even.$81#$b#Each one...$77",
     "Lance.10Heart.PEOPLE.5": "Each one in their own right gave up their life to save mine or another's.$83#$b#...$81",
     "Lance.10Heart.PEOPLE.6": "Sometimes the thoughts of persevering through strength loses to my doubts of surviving those who could not.$83",
-    "Lance.10Heart.PEOPLE.7": "'Even should you lose all that is dear to you.'$83#$b#'Even should it cost you your life.'$81#$b#'You bear the burden and fight on.'$80#$b#'Kicking and screaming until your last breath is spent...'$81",
+    "Lance.10Heart.PEOPLE.7": "'You bear the burden and fight on.'$80",
     "Lance.10Heart.PEOPLE.8": "A parting gift, from my best friend, to me.$65#$b#...$64",
     "Lance.10Heart.PEOPLE.9": "His words have become my mantra.$83#$b#Sometimes it feels as burdensome as a curse.$81#$b#But he...$64#$b#He was a good man.$65",
-    "Lance.10Heart.PEOPLE.10": "Ah...!$70#$b#...#83#$b#'The rains have ceased, and we have been braced with another beautiful day.'$37#$b#...'But you are not here to see it.'...$86",
+    "Lance.10Heart.PEOPLE.10": "Ah...!$70#$b#...$83#$b#'The rains have ceased, and we have been braced with another beautiful day.'$37#$b#...'But you are not here to see it.'...$86",
     "Lance.10Heart.PEOPLE.11": "I--I apologize.$93#$b#We're both completely soaked through.$65#$b#But truly...it's the breaking of sun between the rain that really shakes my bravado.$64",
     "Lance.10Heart.PEOPLE.12": "If you don't mind, could I have your hand? I'll warp you back to your farm.$65",
     "Lance.10Heart.PEOPLE.13": "...Thank you, @.$64#$b#For chasing after me, for letting me reminisce in times long passed...$65#$b#For being you.$67#$b#I'll see you around, @.$71",
 
     //daily conversation topic
-    "Lance.10Heart.People.Convo_0": "Come to hear the stories of my comrades long passed?$8#$b#I jest, maybe some other time, @.$13#$b#I have some planning to do.$8",
-    "Lance.10Heart.People.Convo_1": "Mary?$12#$b#You wish to know of her?$8#$b#Well, there were no laws of war back then.$9#$b#An enemy broke into the healers tent during a night ambush.$25#$b#She held out til her last dying breath, protected the younger generation of us.$6#$b#Bested in the end, she left me with her last will and testament.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
+    "Lance.10Heart.PEOPLE.Convo_0": "Come to hear the stories of my comrades long passed?$8#$b#I jest, maybe some other time, @.$13#$b#I have some planning to do.$8",
+    "Lance.10Heart.PEOPLE.Convo_1": "Mary?$12#$b#You wish to know of her?$8#$b#Well, there were no laws of war back then.$9#$b#An enemy broke into the healers tent during a night ambush.$25#$b#She held out til her last dying breath, protected the younger generation of us.$6#$b#Bested in the end, she left me with her last will and testament.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
     //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
-    "Lance.10Heart.People.Convo_2": "Perigee?$26#$b#Oh! Peri!$14#$b#I said her formal name in that state...?$13#$b#She'd definitely kill me for that.$8#$b#Well, Peri was one of our bravest, we were almost encircled.$25#$b#Peri decided to cast a large area of damage since we were able to hole up underground.$27#$b#Burned through all of her mana circuits and channels at once.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
-    "Lance.10Heart.People.Convo_3": "I have something planned, I'll tell you about my comrades some other time, I promise.$8",
-    "Lance.10Heart.People.Convo_4": "Nikki?$26#$b#Oh! Nick!$12#$b#She was one of the smallest of our ranks... didn't stop her from taking down twenty fighters though.$8#$b#Turns out, having that small of a body meant espionage missions were her strongsuit.$9#$b#...Nick ended up getting caught during one of her missions though.$25#$b#We were only 'graciously' given her back in...$27#$b#...In pieces...$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
+    "Lance.10Heart.PEOPLE.Convo_2": "Perigee?$26#$b#Oh! Peri!$14#$b#I said her formal name in that state...?$13#$b#She'd definitely kill me for that.$8#$b#Well, Peri was one of our bravest, we were almost encircled.$25#$b#Peri decided to cast a large area of damage since we were able to hole up underground.$27#$b#Burned through all of her mana circuits and channels at once.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
+    "Lance.10Heart.PEOPLE.Convo_3": "I have something planned, I'll tell you about my comrades some other time, I promise.$8",
+    "Lance.10Heart.PEOPLE.Convo_4": "Nikki?$26#$b#Oh! Nick!$12#$b#She was one of the smallest of our ranks... didn't stop her from taking down twenty fighters though.$8#$b#Turns out, having that small of a body meant espionage missions were her strongsuit.$9#$b#...Nick ended up getting caught during one of her missions though.$25#$b#We were only 'graciously' given her back in...$27#$b#...In pieces...$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
 
     //doctor, tenatively no idea how to write this one
     "Lance.10Heart.DOCTOR.1": "Harvey?$81#$b#I don't know a 'Harv-'$79#$b#...$83",
@@ -1200,11 +1180,11 @@
     "Lance.10Heart.DOCTOR.5.2": "Thank you, I'll see you around, thank you, @.$58",
 
     //daily conversation topic
-    "Lance.10Heart.Doctor.Convo_0": "Oh, hello @.$6#$e#I'm doing better, thank you for asking.$8",
-    "Lance.10Heart.Doctor.Convo_1": "...How did my visit with Harvey go?$6#$e#I'll tell you in detail some other time.$8",
-    "Lance.10Heart.Doctor.Convo_2": "...How did my visit with Harvey go?$6#$e#Apparently medication doesn't work on me.$8",
-    "Lance.10Heart.Doctor.Convo_3": "...How did my visit with Harvey go?$6#$e#I guess I've never realized I've never let myself 'relax'.$8",
-    "Lance.10Heart.Doctor.Convo_4": "...How did my visit with Harvey go?$6#$e#Things are doing better, it'll be a longstanding effort suffice to say.$8",
+    "Lance.10Heart.DOCTOR.Convo_0": "Oh, hello @.$6#$e#I'm doing better, thank you for asking.$8",
+    "Lance.10Heart.DOCTOR.Convo_1": "...How did my visit with Harvey go?$6#$e#I'll tell you in detail some other time.$8",
+    "Lance.10Heart.DOCTOR.Convo_2": "...How did my visit with Harvey go?$6#$e#Apparently medication doesn't work on me.$8",
+    "Lance.10Heart.DOCTOR.Convo_3": "...How did my visit with Harvey go?$6#$e#I guess I've never realized I've never let myself 'relax'.$8",
+    "Lance.10Heart.DOCTOR.Convo_4": "...How did my visit with Harvey go?$6#$e#Things are doing better, it'll be a longstanding effort suffice to say.$8",
 
     //'psycho' - read:jackass, you are a jackass for picking this one
     "Lance.10Heart.JACKASS.1": "A psy--!$78#$b#Hah...$81",
@@ -1215,11 +1195,11 @@
     "Lance.10Heart.JACKASS.6": "...Maybe I shouldn't have said that...#Lance immediately left...",
 
     //daily conversation topic
-    "Lance.10Heart.Jackass.Convo_0": "...$20",
-    "Lance.10Heart.Jackass.Convo_1": "...$23",
-    "Lance.10Heart.Jackass.Convo_2": "...$25",
-    "Lance.10Heart.Jackass.Convo_3": "...$27",
-    "Lance.10Heart.Jackass.Convo_4": "...*Scoff*$26",
+    "Lance.10Heart.JACKASS.Convo_0": "...$20",
+    "Lance.10Heart.JACKASS.Convo_1": "...$23",
+    "Lance.10Heart.JACKASS.Convo_2": "...$25",
+    "Lance.10Heart.JACKASS.Convo_3": "...$27",
+    "Lance.10Heart.JACKASS.Convo_4": "...*Scoff*$26",
 
     //CHANGED DIALOGUE
     //10 HEART PT2

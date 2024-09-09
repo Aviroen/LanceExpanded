@@ -15,7 +15,8 @@
             "LogName": "Gifts: Married No events Gift Reactions",
             "Action": "EditData",
             "When": {
-                "Relationship:Lance": "Married"
+                "Relationship:Lance": "Married",
+                "HasSeenEvent": "6951319"
             },
             "Target": "Characters/Dialogue/Lance",
             "Entries": {

@@ -5,24 +5,7 @@
             "Target": "Data/Mail",
             "Entries": {
                 //"AndyStrawberrySeeds": "{{i18n:Mail.AndyStrawberrySeeds}}", reference
-                "Mail.1Heart": "{{i18n:Mail.1Heart}}",
-                "Mail.2Heart": "{{i18n:Mail.2Heart}}",
-                "Mail.3Heart": "{{i18n:Mail.3Heart}}",
-                "Mail.3Heart.handle": "{{i18n:Mail.3Heart.handle}}",
-                "Mail.3Heart.offer": "{{i18n:Mail.3Heart.offer}}",
-                "Mail.4Heart": "{{i18n:Mail.4Heart}}",
-                "Mail.5Heart": "{{i18n:Mail.5Heart}}",
-                "Mail.6Heart": "{{i18n:Mail.6Heart}}",
-                "Mail.7Heart": "{{i18n:Mail.7Heart}}",
-                "Mail.8Heart": "{{i18n:Mail.8Heart}}",
-                "Mail.9Heart": "{{i18n:Mail.9Heart}}",
-                "Mail.10Heart": "{{i18n:Mail.10Heart}}",
-                "Mail.10Heart.pt1": "{{i18n:Mail.10Heart.pt2}}",
-                "Mail.10Heart.pt2": "{{i18n:Mail.10Heart.pt2}}",
-                "Mail.11Heart": "{{i18n:Mail.11Heart}}",
-                "Mail.12Heart": "{{i18n:Mail.12Heart}}",
-                "Mail.13Heart": "{{i18n:Mail.13Heart}}",
-                "Mail.14Heart": "{{i18n:Mail.14Heart}}"
+                "{{ModId}}_HandHolder": "{{i18n:Mail.HandHolder}}%item id (O)FlashShifter.StardewValleyExpandedCP_Fungus_Seed 1 + (O)FlashShifter.StardewValleyExpandedCP_Stalk_Seed 1 + (O)FlashShifter.StardewValleyExpandedCP_Void_Seed 1 + (O)FlashShifter.StardewValleyExpandedCP_Slime_Seed 1 %%[#]{{i18n:Mail.HandHolder.Title}}"
             }
         }
     ]
