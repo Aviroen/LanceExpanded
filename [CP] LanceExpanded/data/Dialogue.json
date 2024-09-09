@@ -55,12 +55,7 @@
                 "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
 
                 "AcceptBouquet": "{{i18n:AcceptBouquet}}",
-
-                "{{ModId}}_10Okay": "{{i18n:Lance.10Heart.Okay.Convo_{{Random:{{Range: 0, 4}}}}}}",
-                "{{ModId}}_10People": "{{i18n:Lance.10Heart.People.Convo_{{Random:{{Range: 0, 3}}}}}}",
-                "{{ModId}}_10Doctor": "{{i18n:Lance.10Heart.Doctor.Convo_{{Random:{{Range: 0, 4}}}}}}",
-                "{{ModId}}_10Jackass": "{{i18n:Lance.10Heart.Jackass.Convo_{{Random:{{Range: 0, 4}}}}}}",
-
+                
                 ////////////other marriage
                 "MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_0}}",
                 "RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_0}}",
