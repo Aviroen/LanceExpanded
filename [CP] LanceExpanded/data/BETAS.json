@@ -94,24 +94,7 @@
                         "MarkActionApplied Current {{ModId}}_LanceQiEvents false"
                     ]
                 },
-                "{{ModId}}_HandHolder": {
-                    "Id": "{{ModId}}_HandHolder",
-                    "Trigger": "Spiderbuttons.BETAS_LetterRead",
-                    "Condition": "ITEM_ID Target LanceLifeElixirs, !PLAYER_HAS_MAIL Current lanceMonsterCrops received",
-                    "Actions": [
-                        "IncrementStat {{ModId}}_HandHolder 1",
-                        "MarkActionApplied Current LEHandHolder false"
-                    ]
-                },
-                "{{ModId}}_HandHolder1": {
-                    "Id": "{{ModId}}_HandHolder1",
-                    "Trigger": "LocationChanged",
-                    "Condition": "PLAYER_STAT Current LEHandHolder 20 20",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_HandHolder now",
-                        "MarkActionApplied Current LEHandHolder true"
-                    ]
-                },
+                
                 "{{ModId}}_10HeartConversation": {
                     "Id": "{{ModId}}_10HeartConversation",
                     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
