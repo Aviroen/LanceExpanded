@@ -1,74 +1,74 @@
 {
-    "Changes": [
-        {
-            "LogName": "Load Marriage Dialogue",
-            "Action": "Load",
-            "Priority": "Low",
-            "Target": "Characters/Dialogue/Lance",
-            "FromFile": "data/Blank.json"
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Lance",
-            "When": {
-                "Darker Plot Events(Y4)": true
-            },
-            "Entries": {
-                "{{ModId}}_10People": "{{i18n:Lance.10Heart.People.Convo_4}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Lance",
-            "Update": "OnLocationChange",
-            "Entries": {
-                //Special Dialogue
-                "danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "MovieInvitation": "{{i18n:Lance.MovieInvitationCharacterDialogue_0}}",
-                "breakUp": "{{i18n:Lance.CharacterDialogue_breakup{{Random:{{Range: 0, 5}}}}}}",
-                "divorced": "{{i18n:Lance.CharacterDialogue_divorce{{Random:{{Range: 0, 5}}}}}}",
-                "dumped_Guys": "{{i18n:Lance.CharacterDialogue.dumped}}",
-                "secondChance_Guys": "{{i18n:Lance.CharacterDialogue.secondchance}}",
-                "highlandsDwarf": "{{i18n:Lance.CharacterDialogue_hDwarf}}",
-                "Resort": "{{i18n:Lance.ResortCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Resort_Bar": "{{i18n:Lance.Resort_BarCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Resort_Chair": "{{i18n:Lance.Resort_ChairCharacterDialogue_0}}",
-                "Resort_Dance": "{{i18n:Lance.Resort_DanceCharacterDialogue_0}}",
-                "Resort_Entering": "{{i18n:Lance.Resort_EnteringCharacterDialogue_0}}",
-                "Resort_Leaving": "{{i18n:Lance.Resort_LeavingCharacterDialogue_0}}",
-                "Resort_Shore": "{{i18n:Lance.Resort_ShoreCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Resort_Towel": "{{i18n:Lance.Resort_TowelCharacterDialogue_0}}",
-                "Resort_Umbrella": "{{i18n:Lance.Resort_UmbrellaCharacterDialogue_0}}",
-                "Resort_Wander": "{{i18n:Lance.Resort_WanderCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "GreenRain": "{{i18n:Lance.GreenRain{{Random:{{Range: 0, 5}}}}}}",
-                "GreenRainFinished": "{{i18n:Lance.GreenRainFinished{{Random:{{Range: 0, 5}}}}}}",
-                "{{ModId}}_Passout": "{{i18n:Lance.Passout.ConversationTopic}}",
+  "Changes": [
+    {
+      "LogName": "Load Marriage Dialogue",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Dialogue/Lance",
+      "FromFile": "data/Blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lance",
+      "When": {
+        "Darker Plot Events(Y4)": true
+      },
+      "Entries": {
+        "{{ModId}}_10People": "{{i18n:Lance.10Heart.People.Convo_4}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lance",
+      "Update": "OnLocationChange",
+      "Entries": {
+        //Special Dialogue
+        "danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "MovieInvitation": "{{i18n:Lance.MovieInvitationCharacterDialogue_0}}",
+        "breakUp": "{{i18n:Lance.CharacterDialogue_breakup{{Random:{{Range: 0, 5}}}}}}",
+        "divorced": "{{i18n:Lance.CharacterDialogue_divorce{{Random:{{Range: 0, 5}}}}}}",
+        "dumped_Guys": "{{i18n:Lance.CharacterDialogue.dumped}}",
+        "secondChance_Guys": "{{i18n:Lance.CharacterDialogue.secondchance}}",
+        "highlandsDwarf": "{{i18n:Lance.CharacterDialogue_hDwarf}}",
+        "Resort": "{{i18n:Lance.ResortCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Resort_Bar": "{{i18n:Lance.Resort_BarCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Resort_Chair": "{{i18n:Lance.Resort_ChairCharacterDialogue_0}}",
+        "Resort_Dance": "{{i18n:Lance.Resort_DanceCharacterDialogue_0}}",
+        "Resort_Entering": "{{i18n:Lance.Resort_EnteringCharacterDialogue_0}}",
+        "Resort_Leaving": "{{i18n:Lance.Resort_LeavingCharacterDialogue_0}}",
+        "Resort_Shore": "{{i18n:Lance.Resort_ShoreCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Resort_Towel": "{{i18n:Lance.Resort_TowelCharacterDialogue_0}}",
+        "Resort_Umbrella": "{{i18n:Lance.Resort_UmbrellaCharacterDialogue_0}}",
+        "Resort_Wander": "{{i18n:Lance.Resort_WanderCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "GreenRain": "{{i18n:Lance.GreenRain{{Random:{{Range: 0, 5}}}}}}",
+        "GreenRainFinished": "{{i18n:Lance.GreenRainFinished{{Random:{{Range: 0, 5}}}}}}",
+        "{{ModId}}_Passout": "{{i18n:Lance.Passout.ConversationTopic}}",
 
-                "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
-                "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "{{i18n:Lance.GiftAgedBlueMoonWine}}",
-                "AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
-                "AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
-                "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
-                "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
-                "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
-                "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
-                "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
+        "AcceptGift_(O)StardropTea": "{{i18n:Lance.GiftStardropTea}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": "{{i18n:Lance.GiftAgedBlueMoonWine}}",
+        "AcceptGift_(O)907": "{{i18n:Lance.Gift907}}",
+        "AcceptGift_(O)218": "{{i18n:Lance.Gift218}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Lance.GiftGemfish}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Lance.GiftTorpedoTrout}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Lance.GiftVoidShardpre}}",
+        "AcceptBirthdayGift_Positive": "{{i18n:Lance.GiftBDpos}}",
+        "AcceptBirthdayGift_Negative": "{{i18n:Lance.GiftBDneg}}",
 
-                "AcceptBouquet": "{{i18n:AcceptBouquet}}",
-                
-                ////////////other marriage
-                "MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_0}}",
-                "RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_0}}",
+        "AcceptBouquet": "{{i18n:AcceptBouquet}}",
 
-                ////daily dialogue
-                "Mon": "{{i18n:Mon.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Tue": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Wed": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-                "Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}"
-            }
-        }
-    ]
+        ////////////other marriage
+        "MarriedWizard": "{{i18n:Lance.MarriedWizardCharacterDialogue_0}}",
+        "RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_0}}",
+
+        ////daily dialogue
+        "Mon": "{{i18n:Mon.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Tue": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Wed": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}"
+      }
+    }
+  ]
 }

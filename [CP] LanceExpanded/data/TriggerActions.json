@@ -1,100 +1,103 @@
 {
-    "Changes": [
+  "Changes": [
 
-        {
-            "LogName": "Trigger Actions: Base",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{ModId}}_EventExodus": {
-                    "Id": "{{ModId}}_EventExodus",
-                    "Trigger": "LocationChanged",
-                    "Condition": "{{HeartEvents |contains=LanceExpanded}}",
-                    "Actions": [
-                        "MarkEventSeen Current 6951319 false", //caldera
-                        "MarkEventSeen Current 6951321 false", //intro
-                        "MarkEventSeen Current LEPredicament false",
-                        "MarkEventSeen Current 65360185 false", //2 heart highlands pt1
-                        "MarkEventSeen Current 65360186 false", //2 heart highlands pt2
-                        "MarkEventSeen Current 65360187 false", //2 heart fake trigger
-                        "MarkEventSeen Current 65360188 false", //2 heart pt4
-                        "MarkEventSeen Current LEHighlandsPredicament false",
-                        "MarkEventSeen Current LEHighlandsPredicament_handle false",
-                        "MarkEventSeen Current LEHighlandsPredicament_offer false",
-                        "MarkEventSeen Current LEHighlandsPredicament_together false",
-                        "MarkEventSeen Current LETheFirstSlash false",
-                        "MarkEventSeen Current LECreed false",
-                        "MarkEventSeen Current LECreed_wandering false",
-                        "MarkEventSeen Current LECreed_gil false",
-                        "MarkEventSeen Current LECreed_resupply false",
-                        "MarkEventSeen Current LERemembrance false",
-                        "MarkEventSeen Current LECamillaAppearance false",
-                        "MarkEventSeen Current LEFrivolity false",
-                        "MarkEventSeen Current LEFinally false",
-                        "MarkEventSeen Current LEFinallyYes false",
-                        "MarkEventSeen Current LELoyalty false",
-                        "MarkEventSeen Current LERealization false",
-                        "MarkEventSeen Current LERealizationOKAY false",
-                        "MarkEventSeen Current LERealizationPEOPLE false",
-                        "MarkEventSeen Current LERealizationDOCTOR false",
-                        "MarkEventSeen Current LERealizationJACKASS false",
-                        "MarkEventSeen Current LEFeelings false",
-                        "MarkEventSeen Current LEFeelingsGOOD false",
-                        "MarkEventSeen Current LEFeelingsYes false",
-                        "MarkEventSeen Current LEFeelingsTRANSITION false",
-                        "MarkEventSeen Current LEFeelingsSpiced false",
-                        "MarkEventSeen Current LEBattleground false",
-                        "MarkEventSeen Current LEBattlegroundSTOP false",
-                        "MarkEventSeen Current LEBattlegroundSWITCH false",
-                        "MarkEventSeen Current LEBattlegroundFIRST false",
-                        "MarkEventSeen Current LEBattlegroundSECOND false",
-                        "MarkEventSeen Current LEBattlegroundSPICE false",
-                        "MarkEventSeen Current LE12Intro false",
-                        "MarkEventSeen Current 65360197 false",
-                        "MarkEventSeen Current 65360198 false",
-                        "MarkEventSeen Current LE12HeartSPICYONLY false",
-                        "MarkEventSeen Current LE12HeartSPICY false",
-                        "MarkEventSeen Current LEShadowpeople false",
-                        "MarkEventSeen Current LECamillaTutelage false",
-                        "MarkEventSeen Current LEMagnusTutelage false",
-                        "MarkEventSeen Current LELanceVow false",
-                        "MarkEventSeen Current LESoulBonding false",
-                        "MarkEventSeen Current LESickness false",
-                        "MarkEventSeen Current LEForsakingAllOthers false",
-                        "MarkEventSeen Current LEToLovenCherish false",
-                        "MarkEventSeen Current LEUntilDeath false",
-                        "MarkEventSeen Current LEDeathly false",
-                        "MarkActionApplied Current {{ModId}}_EventExodus false"
-                    ]
-                },
-                "{{ModId}}_SVESilencer": {
-                    "Id": "{{ModId}}_SVESilencer",
-                    "Trigger": "LocationChanged",
-                    "Condition": null,
-                    "Actions": [
-                        "MarkEventSeen Current 6951320 true", //4 heart
-                        "MarkEventSeen Current 65360190 true", //6 heart
-                        "MarkEventSeen Current 65360192 true", //wizard warp 65360191 req
-                        "MarkEventSeen Current 65360191 true", //8 heart CHANGED INTO 4 HEART
-                        "MarkEventSeen Current 65360135 true", //8 heart alt farm CHANGED INTO 4 HEART
-                        "MarkEventSeen Current 65360193 true", //jolyne, first slash guest room
-                        "MarkEventSeen Current 65360194 true", //10 heart intro
-                        "MarkEventSeen Current 65360195 true", //10 heart main
-                        "MarkEventSeen Current LEWorkday_cuddle true", //cuddle opt
-                        "MarkEventSeen Current 65360196 true", //10 heart missed
-                        "MarkActionApplied Current {{ModId}}_SVESilencer false"
-                    ]
-                },
+    {
+      "LogName": "Trigger Actions: Base",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_EventExodus": {
+          "Id": "{{ModId}}_EventExodus",
+          "Trigger": "LocationChanged",
+          "Condition": "{{HeartEvents |contains=LanceExpanded}}",
+          "Actions": [
+            "MarkEventSeen Current 6951319 false", //caldera
+            "MarkEventSeen Current 6951321 false", //intro
+            "MarkEventSeen Current LEPredicament false",
+            "MarkEventSeen Current 65360185 false", //2 heart highlands pt1
+            "MarkEventSeen Current 65360186 false", //2 heart highlands pt2
+            "MarkEventSeen Current 65360187 false", //2 heart fake trigger
+            "MarkEventSeen Current 65360188 false", //2 heart pt4
+            "MarkEventSeen Current LEHighlandsPredicament false",
+            "MarkEventSeen Current LEHighlandsPredicament_handle false",
+            "MarkEventSeen Current LEHighlandsPredicament_offer false",
+            "MarkEventSeen Current LEHighlandsPredicament_together false",
+            "MarkEventSeen Current LETheFirstSlash false",
+            "MarkEventSeen Current LECreed false",
+            "MarkEventSeen Current LECreed_wandering false",
+            "MarkEventSeen Current LECreed_gil false",
+            "MarkEventSeen Current LECreed_resupply false",
+            "MarkEventSeen Current LERemembrance false",
+            "MarkEventSeen Current LECamillaAppearance false",
+            "MarkEventSeen Current LEFrivolity false",
+            "MarkEventSeen Current LEFinally false",
+            "MarkEventSeen Current LEFinallyYes false",
+            "MarkEventSeen Current LELoyalty false",
+            "MarkEventSeen Current LERealization false",
+            "MarkEventSeen Current LERealizationOKAY false",
+            "MarkEventSeen Current LERealizationPEOPLE false",
+            "MarkEventSeen Current LERealizationDOCTOR false",
+            "MarkEventSeen Current LERealizationJACKASS false",
+            "MarkEventSeen Current LEFeelings false",
+            "MarkEventSeen Current LEFeelingsGOOD false",
+            "MarkEventSeen Current LEFeelingsYes false",
+            "MarkEventSeen Current LEFeelingsTRANSITION false",
+            "MarkEventSeen Current LEFeelingsSpiced false",
+            "MarkEventSeen Current LEBattleground false",
+            "MarkEventSeen Current LEBattlegroundSTOP false",
+            "MarkEventSeen Current LEBattlegroundSWITCH false",
+            "MarkEventSeen Current LEBattlegroundFIRST false",
+            "MarkEventSeen Current LEBattlegroundSECOND false",
+            "MarkEventSeen Current LEBattlegroundSPICE false",
+            "MarkEventSeen Current LE12Intro false",
+            "MarkEventSeen Current LE12Second false",
+            "MarkEventSeen Current LE12Third false",
+            "MarkEventSeen Current LE12HeartSPICYONLY false",
+            "MarkEventSeen Current LE12HeartSPICY false",
+            "MarkEventSeen Current LEShadowpeople false",
+            "MarkEventSeen Current LECamillaTutelage false",
+            "MarkEventSeen Current LEMagnusTutelage false",
+            "MarkEventSeen Current LELanceVow false",
+            "MarkEventSeen Current LESoulBonding false",
+            "MarkEventSeen Current LESickness false",
+            "MarkEventSeen Current LEForsakingAllOthers false",
+            "MarkEventSeen Current LEToLovenCherish false",
+            "MarkEventSeen Current LEUntilDeath false",
+            "MarkEventSeen Current LEDeathly false",
+            "MarkActionApplied Current {{ModId}}_EventExodus false"
+          ]
+        },
+        "{{ModId}}_SVESilencer": {
+          "Id": "{{ModId}}_SVESilencer",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Actions": [
+            "MarkEventSeen Current 6951320 true", //4 heart
+            "MarkEventSeen Current 65360190 true", //6 heart
+            "MarkEventSeen Current 65360192 true", //wizard warp 65360191 req
+            "MarkEventSeen Current 65360191 true", //8 heart CHANGED INTO 4 HEART
+            "MarkEventSeen Current 65360193 true", //jolyne, first slash guest room
+            "MarkEventSeen Current 65360194 true", //10 heart intro
+            "MarkEventSeen Current 65360195 true", //10 heart main
+            "MarkEventSeen Current 65360197 true", //12 heart god dammit
+            "MarkEventSeen Current 65360198 true", //12 heart god dammit
+            "MarkEventSeen Current LEWorkday_cuddle true", //cuddle opt
+            "MarkEventSeen Current 65360196 true", //10 heart missed
+            "MarkActionApplied Current {{ModId}}_SVESilencer false"
+          ]
+        },
 
-                "{{ModId}}_SVEHDwarf": {
-                    "Id": "{{ModId}}_SVEHDwarf",
-                    "Trigger": "LocationChanged",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LEHighlandsPredicament",
-                    "Actions": [
-                        "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
-                    ]
-                },
-                /*
+        "{{ModId}}_SVEHDwarf": {
+          "Id": "{{ModId}}_SVEHDwarf",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current LEHighlandsPredicament",
+          "Actions": [
+            "Addmail Current {{ModId}}_4Heart tomorrow",
+            "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
+          ]
+        },
+
+        /*
                 "{{ModId}}_SVEQiEvents": {
                     "Id": "{{ModId}}_SVEQiEvents",
                     "Trigger": "DayStarted",
@@ -104,107 +107,214 @@
                     ]
                 },
     */
-                "{{ModId}}_QiLanceHealth": {
-                    "Id": "{{ModId}}_QiLanceHealth",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LanceQi",
-                    "Actions": [
-                        "IncrementStat DaysSinceQiEvent 1",
-                        "MarkActionApplied Current {{ModId}}_QiLanceHealth false"
-                    ]
-                },
-                "{{ModId}}_QiLanceHealthEyepatchRemover": {
-                    "Id": "{{ModId}}_QiLanceHealthEyepatchRemover",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSinceQiEvent 14 14",
-                    "Actions": [
-                        "RemoveMail Current {{ModId}}_Eyepatch all"
-                    ]
-                },
-                "{{ModId}}_QiLanceHealthSteriRemover": {
-                    "Id": "{{ModId}}_QiLanceHealthSteriRemover",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSinceQiEvent 28 28",
-                    "Actions": [
-                        "RemoveMail Current {{ModId}}_Steri all"
-                    ]
-                },
-                "{{ModId}}_TheBeardCounter": {
-                    "Id": "{{ModId}}_TheBeardCounter",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, {{Query: ({{DaysPlayed}} % {{Random:{{Range:24,28}}}} = 0)}}, {{Portrait |contains=Vanilla Compliant}}",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_Beard received",
-                        "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
-                    ]
-                },
-                "{{ModId}}_10HeartDaySpacerOKAY": {
-                    "Id": "{{ModId}}_10HeartDaySpacerOKAY",
-                    "Trigger": "DayEnding",
-                    "Condition": "ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR\"",
-                    "Actions": [
-                        "IncrementStat DaysSince10HeartOKAY 1",
-                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerOKAY false"
-                    ]
-                },
-                "{{ModId}}_10HeartDaySpacerOKAYSTOP": {
-                    "Id": "{{ModId}}_10HeartDaySpacerOKAYSTOP",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSince10HeartOKAY 5 5",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_10HeartContinue received",
-                        "RemoveMail Current {{ModId}}_10HeartOKAY all",
-                        "RemoveMail Current {{ModId}}_10HeartPEOPLE all",
-                        "RemoveMail Current {{ModId}}_10HeartDOCTOR all",
-                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerOKAY true"
-                    ]
-                },
-                "{{ModId}}_10HeartDaySpacerJACKASS": {
-                    "Id": "{{ModId}}_10HeartDaySpacerJACKASS",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current LERealization, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS",
-                    "Actions": [
-                        "IncrementStat DaysSince10HeartJACKASS 1",
-                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerJACKASS false"
-                    ]
-                },
-                "{{ModId}}_10HeartDaySpacerJACKASSSTOP": {
-                    "Id": "{{ModId}}_10HeartDaySpacerJACKASSSTOP",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_STAT Current DaysSince10HeartJACKASS 15 15",
-                    "Actions": [
-                        "RemoveMail Current {{ModId}}_10HeartJACKASS all",
-                        "MarkActionApplied Current {{ModId}}_10HeartDaySpacerJACKASS true"
-                    ]
-                },
-                "{{ModId}}_EZSavage": {
-                    "Id": "{{ModId}}_EZSavage",
-                    "Trigger": "LocationChanged",
-                    "Condition": "{{Easy Savage Ring |contains=true}}",
-                    "Actions": [
-                        "AddMail Current Gil_Shadows received",
-                        "MarkActionApplied Current {{ModId}}_EZSavage false"
-                    ]
-                },
-                "{{ModId}}_HandHolder": {
-                    "Id": "{{ModId}}_HandHolder",
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_MAIL Current LanceLifeElixirs, !PLAYER_HAS_MAIL Current lanceMonsterCrops received",
-                    "Actions": [
-                        "IncrementStat {{ModId}}_HandHolder 1",
-                        "MarkActionApplied Current LEHandHolder false"
-                    ]
-                },
-                "{{ModId}}_HandHolder1": {
-                    "Id": "{{ModId}}_HandHolder1",
-                    "Trigger": "LocationChanged",
-                    "Condition": "PLAYER_STAT Current LEHandHolder 20 20",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_HandHolder now",
-                        "MarkActionApplied Current LEHandHolder true"
-                    ]
-                },
-            }
+        "{{ModId}}_QiLanceHealth": {
+          "Id": "{{ModId}}_QiLanceHealth",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current LanceQi",
+          "Actions": [
+            "IncrementStat DaysSinceQiEvent 1"
+          ]
+        },
+        "{{ModId}}_QiLanceDays": {
+          "Id": "{{ModId}}_QiLanceDays",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_QiLanceHealth",
+          "Actions": [
+            "IncrementStat DaysSinceQiEvent 1",
+            "MarkActionApplied Current {{ModId}}_QiLanceDays false"
+          ]
+        },
+        "{{ModId}}_QiLanceHealthEyepatchRemover": {
+          "Id": "{{ModId}}_QiLanceHealthEyepatchRemover",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_STAT Current DaysSinceQiEvent 14 14",
+          "Actions": [
+            "RemoveMail Current {{ModId}}_Eyepatch all"
+          ]
+        },
+        "{{ModId}}_QiLanceHealthSteriRemover": {
+          "Id": "{{ModId}}_QiLanceHealthSteriRemover",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_STAT Current DaysSinceQiEvent 28 28",
+          "Actions": [
+            "RemoveMail Current {{ModId}}_Steri all",
+            "IncrementStat DaysSinceQiEvent -28",
+            "MarkActionApplied Current {{ModId}}_QiLanceDays true"
+          ]
+        },
+        "{{ModId}}_TheBeardCounter": {
+          "Id": "{{ModId}}_TheBeardCounter",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}",
+          "Actions": [
+            "AddMail Current {{ModId}}_Beard received",
+            "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
+          ]
+        },
+        "{{ModId}}_10HeartDaySpacerOKAY": {
+          "Id": "{{ModId}}_10HeartDaySpacerOKAY",
+          "Trigger": "DayEnding",
+          "Condition": "ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR\"",
+          "Actions": [
+            "IncrementStat DaysSince10HeartOKAY 1"
+          ]
+        },
+        "{{ModId}}_10HeartDay": {
+          "Id": "{{ModId}}_10HeartDay",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_10HeartDaySpacerOKAY",
+          "Actions": [
+            "IncrementStat DaysSince10HeartOKAY 1",
+            "MarkActionApplied Current {{ModId}}_10HeartDay false"
+          ]
+        },
+        "{{ModId}}_10HeartDaySpacerOKAYSTOP": {
+          "Id": "{{ModId}}_10HeartDaySpacerOKAYSTOP",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_STAT Current DaysSince10HeartOKAY 5 5",
+          "Actions": [
+            "AddMail Current {{ModId}}_10HeartContinue received",
+            "RemoveMail Current {{ModId}}_10HeartOKAY all",
+            "RemoveMail Current {{ModId}}_10HeartPEOPLE all",
+            "RemoveMail Current {{ModId}}_10HeartDOCTOR all",
+            "IncrementStat DaysSince10HeartOKAY -5",
+            "MarkActionApplied Current {{ModId}}_10HeartDay true"
+          ]
+        },
+        "{{ModId}}_10HeartDaySpacerJACKASS": {
+          "Id": "{{ModId}}_10HeartDaySpacerJACKASS",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current LERealization, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS",
+          "Actions": [
+            "IncrementStat DaysSince10HeartJACKASS 1"
+          ]
+        },
+        "{{ModId}}_10HeartDayBad": {
+          "Id": "{{ModId}}_10HeartDayBad",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_10HeartDaySpacerJACKASS",
+          "Actions": [
+            "IncrementStat DaysSince10HeartJACKASS 1",
+            "MarkActionApplied Current {{ModId}}_10HeartDayBad false"
+          ]
+        },
+        "{{ModId}}_10HeartDaySpacerJACKASSSTOP": {
+          "Id": "{{ModId}}_10HeartDaySpacerJACKASSSTOP",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_STAT Current DaysSince10HeartJACKASS 15 15",
+          "Actions": [
+            "RemoveMail Current {{ModId}}_10HeartJACKASS all",
+            "IncrementStat DaysSince10HeartJACKASS -15",
+            "MarkActionApplied Current {{ModId}}_10HeartDayBad true"
+          ]
+        },
+        "{{ModId}}_13Heart": {
+          "Id": "{{ModId}}_13Heart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current LEShadowpeople",
+          "Actions": [
+            "IncrementStat DaysSince13Heart 1"
+          ]
+        },
+        "{{ModId}}_13HeartDay": {
+          "Id": "{{ModId}}_13HeartDay",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_13Heart",
+          "Actions": [
+            "IncrementStat DaysSince13Heart 1",
+            "MarkActionApplied Current {{ModId}}_13HeartDay false"
+          ]
+        },
+        "{{ModId}}_13HeartDaySTOP": {
+          "Id": "{{ModId}}_13HeartDaySTOP",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_STAT Current DaysSince13Heart 5 5",
+          "Actions": [
+            "AddMail Current {{ModId}}_13HeartDayContinue all",
+            "IncrementStat DaysSince13Heart -5",
+            "MarkActionApplied Current {{ModId}}_13HeartDay true"
+          ]
+        },
+        "{{ModId}}_14Heart": {
+          "Id": "{{ModId}}_14Heart",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current LELanceVow",
+          "Actions": [
+            "IncrementStat DaysSince14Heart 1"
+          ]
+        },
+        "{{ModId}}_14HeartDay": {
+          "Id": "{{ModId}}_14HeartDay",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_14Heart",
+          "Actions": [
+            "IncrementStat DaysSince14Heart 1",
+            "MarkActionApplied Current {{ModId}}_14HeartDay false"
+          ]
+        },
+        "{{ModId}}_14HeartDaySTOP": {
+          "Id": "{{ModId}}_14HeartDaySTOP",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_STAT Current DaysSince14Heart 5 5",
+          "Actions": [
+            "AddMail Current {{ModId}}_14HeartDayContinue all",
+            "IncrementStat DaysSince14Heart -5",
+            "MarkActionApplied Current {{ModId}}_14HeartDay true"
+          ]
+        },
+        "{{ModId}}_EZSavage": {
+          "Id": "{{ModId}}_EZSavage",
+          "Trigger": "LocationChanged",
+          "Condition": "{{Easy Savage Ring |contains=true}}",
+          "Actions": [
+            "AddMail Current Gil_Shadows received",
+            "MarkActionApplied Current {{ModId}}_EZSavage false"
+          ]
+        },
+        "{{ModId}}_HandHolder": {
+          "Id": "{{ModId}}_HandHolder",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL Current LanceLifeElixirs, !PLAYER_HAS_MAIL Current lanceMonsterCrops",
+          "Actions": [
+            "IncrementStat LEHandHolder 1"
+          ]
+        },
+        "{{ModId}}_HandHolderDay": {
+          "Id": "{{ModId}}_HandHolderDay",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_HandHolder",
+          "Actions": [
+            "IncrementStat LEHandHolder 1",
+            "MarkActionApplied Current {{ModId}}_HandHolderDay false"
+          ]
+        },
+        "{{ModId}}_HandHolder1": {
+          "Id": "{{ModId}}_HandHolder1",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_STAT Current LEHandHolder 20 20",
+          "Actions": [
+            "AddMail Current {{ModId}}_HandHolder now",
+            "IncrementStat LEHandHolder -20",
+            "MarkActionApplied Current {{ModId}}_HandHolderDay true"
+          ]
+        },
+        "{{ModId}}_YaBroke": {
+          "Id": "{{ModId}}_YaBroke",
+          "Trigger": "DayStarted",
+          "Condition": "DAYS_PLAYED 220, PLAYER_NPC_RELATIONSHIP Current Lance Married, !PLAYER_HAS_ITEM Current ReturnScepter 1 1",
+          "Actions": [
+            "AddMail Current {{ModId}}_LanceRich now"
+          ]
+        },
+        "{{ModId}}_13HeartMailer": {
+          "Id": "{{ModId}}_13HeartMailer",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current LEMagnusTutelage",
+          "Actions": [
+            "AddMail Current {{ModId}}_Lance13 tomorrow"
+          ]
         }
-    ]
+      }
+    }
+  ]
 }

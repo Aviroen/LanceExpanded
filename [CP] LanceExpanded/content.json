@@ -1,416 +1,605 @@
 {
-    "Format": "2.3.0",
-    // C O N F I G
-    "ConfigSchema": {
-        "Override Generic Dialogue": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            "Section": "Content",
-            "Description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and summit dialogue. Please disable this if you aren't planning to date Lance. "
-        },
-        "Portrait": {
-            "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), SVE, Use Custom",
-            "Default": "Vanilla Compliant",
-            "Section": "Appearance",
-            "Description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned."
-        },
-        "Earring Colour": {
-            "AllowValues": "turquoise, red",
-            "Default": "turquoise",
-            "Section": "Appearance",
-            "Description": "Changes the colour of Lance' eventual earring gift in the event. Please pick which suit you better. To actually wear them in game, please install the Fashion sense pack."
-        },
-        "Darker Plot Events(Y4)": {
-            "AllowValues": "true, false",
-            "Default": "false",
-            "Section": "Content",
-            "Description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety."
-        },
-        "Spicier Content": {
-            "AllowValues": "Bell Pepper, Habanero, Pepper X",
-            "Default": "Bell Pepper",
-            "Section": "Content",
-            "Description": "Bell Pepper is rated-E for everyone. Habanero has IMPLICATIONS. Pepper-X is Rated-R."
-        },
-        "Easy Savage Ring": {
-            "AllowValues": "true, false",
-            "Default": "false",
-            "Section": "Content",
-            "Description": "This might screw with perfection. Haven't debugged it, but it lets you purchase the Savage Ring from Gil. (This is a requirement for the 13 Heart event because you'll need the Krobus Ritual to be done.)"
-        },
-        "HeartEvents": {
-            "AllowValues": "LanceExpanded, pause",
-            "Default": "pause",
-            "Section": "Content",
-            "Description": "Resets ALL of my mod's heart events, default 'pause', toggle and save to activate."
-        },
-        "LanceNewRoom": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            "Section": "Content",
-            "Description": "Changed Lance's room to be less morbid and actually useful for him lorewise."
-        },
-        "Custom Wedding": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            "Section": "Content",
-            "Description": "Changes and mutes the original wedding event, adds Camilla in, moves it to Fable Reef. Specific to Lance. Turn this off if you're not marrying Lance."
-        },
-        "Day 1 Toggle": {
-            "AllowValues": "true, false",
-            "Default": "false",
-            "Section": "Content",
-            "Description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early."
-        }
+  "Format": "2.3.0",
+  // C O N F I G
+  "ConfigSchema": {
+    "Override Generic Dialogue": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Content",
+      "Description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and summit dialogue. Please disable this if you aren't planning to date Lance. "
     },
-    "DynamicTokens": [
-        /////////////////////////////////////////////////////////////////////////
-        {
-            "Name": "Date",
-            "Value": "{{Season}} {{Day}}"
-        },
-        //Attempted MP patching.
-        {
-            "Name": "FarmHouse",
-            "Value": "FarmHouse"
-        },
-        {
-            "Name": "FarmHouse",
-            "Value": "Cabin",
-            "When": {
-                "IsMainPlayer": "false"
-            }
-        },
-        //Summit Patching
-        {
-            "Name": "Summit",
-            "Value": "Summit"
-        },
-        {
-            "Name": "Summit",
-            "Value": "Custom_SVESummit",
-            "When": {
-                "HasFlag |contains=Farm_Eternal": false
-            }
-        },
-        ///// D Y N A M I C  C A L L S/////
-        //Day of the Week shortened
-        {
-            "Name": "DayWeekShort",
-            "Value": "Sun"
+    "Portrait": {
+      "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), SVE, Use Custom",
+      "Default": "Vanilla Compliant",
+      "Section": "Appearance",
+      "Description": "This toggles the Portraits, if you toggle this to 'Use Custom', you will be missing out on 90+ emotes and the dialogue will act strange. You have been warned."
+    },
+    "Earring Colour": {
+      "AllowValues": "turquoise, red",
+      "Default": "turquoise",
+      "Section": "Appearance",
+      "Description": "Changes the colour of Lance' eventual earring gift in the event. Please pick which suit you better. To actually wear them in game, please install the Fashion sense pack."
+    },
+    "Darker Plot Events(Y4)": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Content",
+      "Description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety."
+    },
+    "Spicier Content": {
+      "AllowValues": "Bell Pepper, Habanero, Pepper X",
+      "Default": "Bell Pepper",
+      "Section": "Content",
+      "Description": "Bell Pepper is rated-E for everyone. Habanero has IMPLICATIONS. Pepper-X is Rated-R."
+    },
+    "Easy Savage Ring": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Content",
+      "Description": "This might screw with perfection. Haven't debugged it, but it lets you purchase the Savage Ring from Gil. (This is a requirement for the 13 Heart event because you'll need the Krobus Ritual to be done.)"
+    },
+    "HeartEvents": {
+      "AllowValues": "LanceExpanded, pause",
+      "Default": "pause",
+      "Section": "Content",
+      "Description": "Resets ALL of my mod's heart events, default 'pause', toggle and save to activate."
+    },
+    "LanceNewRoom": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Content",
+      "Description": "Changed Lance's room to be less morbid and actually useful for him lorewise."
+    },
+    "Custom Wedding": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Content",
+      "Description": "Changes and mutes the original wedding event, adds Camilla in, moves it to Fable Reef. Specific to Lance. Turn this off if you're not marrying Lance."
+    },
+    "Day 1 Toggle": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Content",
+      "Description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early."
+    },
+    "Death Insurance Toggle": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Content",
+      "Description": "Default on, after the 14 Heart he will effectively always be able to save you from item loss/money loss. Set to false if you want other mods with other passout/death features."
+    }
+  },
+  "DynamicTokens": [
+    /////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Date",
+      "Value": "{{Season}} {{Day}}"
+    },
+    //Attempted MP patching.
+    {
+      "Name": "FarmHouse",
+      "Value": "FarmHouse"
+    },
+    {
+      "Name": "FarmHouse",
+      "Value": "Cabin",
+      "When": {
+        "IsMainPlayer": "false"
+      }
+    },
+    //Summit Patching
+    {
+      "Name": "Summit",
+      "Value": "Summit"
+    },
+    {
+      "Name": "Summit",
+      "Value": "Custom_SVESummit",
+      "When": {
+        "HasFlag |contains=Farm_Eternal": false
+      }
+    },
+    ///// D Y N A M I C  C A L L S/////
+    //Day of the Week shortened
+    {
+      "Name": "DayWeekShort",
+      "Value": "Sun"
 
-        },
-        {
-            "Name": "DayWeekShort",
-            "Value": "Mon",
-            "When": {
-                "DayOfWeek": "Monday"
-            }
-        },
-        {
-            "Name": "DayWeekShort",
-            "Value": "Tue",
-            "When": {
-                "DayOfWeek": "Tuesday"
-            }
-        },
-        {
-            "Name": "DayWeekShort",
-            "Value": "Wed",
-            "When": {
-                "DayOfWeek": "Wednesday"
-            }
-        },
-        {
-            "Name": "DayWeekShort",
-            "Value": "Thu",
-            "When": {
-                "DayOfWeek": "Thursday"
-            }
-        },
-        {
-            "Name": "DayWeekShort",
-            "Value": "Fri",
-            "When": {
-                "DayOfWeek": "Friday"
-            }
-        },
-        {
-            "Name": "DayWeekShort",
-            "Value": "Sat",
-            "When": {
-                "DayOfWeek": "Saturday"
-            }
-        },
-        //SPICE FACTOR
-        {
-            "Name": "Spice",
-            "Value": "light",
-            "When": {
-                "Spicier Content": "Bell Pepper"
-            }
-        },
-        {
-            "Name": "Spice",
-            "Value": "moderate",
-            "When": {
-                "Spicier Content": "Habanero"
-            }
-        },
-        {
-            "Name": "Spice",
-            "Value": "spicy",
-            "When": {
-                "Spicier Content": "Pepper X"
-            }
-        },
-        /////////////////////////////DATE DYNAMIC TOKENS randomization between year 1 and year 2 and beyond maybe
-        {
-            "Name": "DatePelican",
-            "Value": "LEDatePelican"
-        },
-        {
-            "Name": "DatePelican",
-            "When": {
-                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
-            },
-            "Value": "LEDatePelican2"
-        },
-        {
-            "Name": "DateGrandpa",
-            "Value": "LEDateGrandpa"
-        },
-        {
-            "Name": "DateGrandpa",
-            "When": {
-                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
-            },
-            "Value": "LEDateGrandpa2"
-        },
-        {
-            "Name": "DateCamping",
-            "Value": "LEDateCamping"
-        },
-        {
-            "Name": "DateCamping",
-            "When": {
-                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
-            },
-            "Value": "LEDateCamping2"
-        },
-        {
-            "Name": "DateMishaps",
-            "Value": "LEDateMishaps"
-        },
-        {
-            "Name": "DateMishaps",
-            "When": {
-                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
-            },
-            "Value": "LEDateMishaps2"
-        },
-        {
-            "Name": "DateRope",
-            "Value": "LEDateRope"
-        },
-        {
-            "Name": "DateRope",
-            "When": {
-                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
-            },
-            "Value": "LEDateRope2"
-        },
-        {
-            "Name": "DateShenanigans",
-            "Value": "LEDateShenanigans"
-        },
-        {
-            "Name": "DateShenanigans",
-            "When": {
-                "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
-            },
-            "Value": "LEDateShenanigans2"
-        },
-        //pelican mines switchcase hell
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PMagnus"
-            },
-            "Value": "Magnus"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PCamilla"
-            },
-            "Value": "Camilla"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PShrine"
-            },
-            "Value": "Shrine"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PCastle"
-            },
-            "Value": "Castle"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PLike"
-            },
-            "Value": "Like"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PWar"
-            },
-            "Value": "War"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PFirstSlash"
-            },
-            "Value": "FirstSlash"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PApprentice"
-            },
-            "Value": "Apprentice"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PAge"
-            },
-            "Value": "Age"
-        },
-        {
-            "Name": "PelicanMines",
-            "When": {
-                "HasFlag": "{{ModId}}_PFamily"
-            },
-            "Value": "Family"
-        },
-        //8 heart dynamic tokens, just know if you pick THAT ONE LINE, YOU'RE A JACKASS.
-        {
-            "Name": "10HeartChoice",
-            "When": {
-                "HasFlag": "{{ModId}}_10HeartOKAY"
-            },
-            "Value": "OKAY"
-        },
-        {
-            "Name": "10HeartChoice",
-            "When": {
-                "HasFlag": "{{ModId}}_10HeartPEOPLE"
-            },
-            "Value": "PEOPLE"
-        },
-        {
-            "Name": "10HeartChoice",
-            "When": {
-                "HasFlag": "{{ModId}}_10HeartDOCTOR"
-            },
-            "Value": "DOCTOR"
-        },
-        {
-            "Name": "10HeartChoice",
-            "When": {
-                "HasFlag": "{{ModId}}_10HeartJACKASS"
-            },
-            "Value": "JACKASS"
+    },
+    {
+      "Name": "DayWeekShort",
+      "Value": "Mon",
+      "When": {
+        "DayOfWeek": "Monday"
+      }
+    },
+    {
+      "Name": "DayWeekShort",
+      "Value": "Tue",
+      "When": {
+        "DayOfWeek": "Tuesday"
+      }
+    },
+    {
+      "Name": "DayWeekShort",
+      "Value": "Wed",
+      "When": {
+        "DayOfWeek": "Wednesday"
+      }
+    },
+    {
+      "Name": "DayWeekShort",
+      "Value": "Thu",
+      "When": {
+        "DayOfWeek": "Thursday"
+      }
+    },
+    {
+      "Name": "DayWeekShort",
+      "Value": "Fri",
+      "When": {
+        "DayOfWeek": "Friday"
+      }
+    },
+    {
+      "Name": "DayWeekShort",
+      "Value": "Sat",
+      "When": {
+        "DayOfWeek": "Saturday"
+      }
+    },
+    //SPICE FACTOR
+    {
+      "Name": "Spice",
+      "Value": "light",
+      "When": {
+        "Spicier Content": "Bell Pepper"
+      }
+    },
+    {
+      "Name": "Spice",
+      "Value": "moderate",
+      "When": {
+        "Spicier Content": "Habanero"
+      }
+    },
+    {
+      "Name": "Spice",
+      "Value": "spicy",
+      "When": {
+        "Spicier Content": "Pepper X"
+      }
+    },
+    /////////////////////////////DATE DYNAMIC TOKENS randomization between year 1 and year 2 and beyond maybe
+    {
+      "Name": "DatePelican",
+      "Value": "LEDatePelican"
+    },
+    {
+      "Name": "DatePelican",
+      "When": {
+        "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+      },
+      "Value": "LEDatePelican2"
+    },
+    {
+      "Name": "DateGrandpa",
+      "Value": "LEDateGrandpa"
+    },
+    {
+      "Name": "DateGrandpa",
+      "When": {
+        "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+      },
+      "Value": "LEDateGrandpa2"
+    },
+    {
+      "Name": "DateCamping",
+      "Value": "LEDateCamping"
+    },
+    {
+      "Name": "DateCamping",
+      "When": {
+        "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+      },
+      "Value": "LEDateCamping2"
+    },
+    {
+      "Name": "DateMishaps",
+      "Value": "LEDateMishaps"
+    },
+    {
+      "Name": "DateMishaps",
+      "When": {
+        "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+      },
+      "Value": "LEDateMishaps2"
+    },
+    {
+      "Name": "DateRope",
+      "Value": "LEDateRope"
+    },
+    {
+      "Name": "DateRope",
+      "When": {
+        "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+      },
+      "Value": "LEDateRope2"
+    },
+    {
+      "Name": "DateShenanigans",
+      "Value": "LEDateShenanigans"
+    },
+    {
+      "Name": "DateShenanigans",
+      "When": {
+        "Query: {{TheMightyAmondee.CustomTokens/YearsMarried}} > 1": true
+      },
+      "Value": "LEDateShenanigans2"
+    },
+    //pelican mines switchcase hell
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PMagnus"
+      },
+      "Value": "Magnus"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PCamilla"
+      },
+      "Value": "Camilla"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PShrine"
+      },
+      "Value": "Shrine"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PCastle"
+      },
+      "Value": "Castle"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PLike"
+      },
+      "Value": "Like"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PWar"
+      },
+      "Value": "War"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PFirstSlash"
+      },
+      "Value": "FirstSlash"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PApprentice"
+      },
+      "Value": "Apprentice"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PAge"
+      },
+      "Value": "Age"
+    },
+    {
+      "Name": "PelicanMines",
+      "When": {
+        "HasFlag": "{{ModId}}_PFamily"
+      },
+      "Value": "Family"
+    },
+    //8 heart dynamic tokens, just know if you pick THAT ONE LINE, YOU'RE A JACKASS.
+    {
+      "Name": "10HeartChoice",
+      "When": {
+        "HasFlag": "{{ModId}}_10HeartOKAY"
+      },
+      "Value": "OKAY"
+    },
+    {
+      "Name": "10HeartChoice",
+      "When": {
+        "HasFlag": "{{ModId}}_10HeartPEOPLE"
+      },
+      "Value": "PEOPLE"
+    },
+    {
+      "Name": "10HeartChoice",
+      "When": {
+        "HasFlag": "{{ModId}}_10HeartDOCTOR"
+      },
+      "Value": "DOCTOR"
+    },
+    {
+      "Name": "10HeartChoice",
+      "When": {
+        "HasFlag": "{{ModId}}_10HeartJACKASS"
+      },
+      "Value": "JACKASS"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Abigail"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Alex"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Caroline"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Clint"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Demetrius"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Dwarf"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Elliott"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Emily"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Evelyn"
+    },
+    {
+      "Name": "NPC",
+      "Value": "George"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Gus"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Haley"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Harvey"
+    },
+    {
+      "Name": "CHILDNPC",
+      "Value": "Jas"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Jodi"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Kent"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Krobus"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Leah"
+    },
+    {
+      "Name": "CHILDNPC",
+      "Value": "Leo"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Lewis"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Linus"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Marnie"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Maru"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Pam"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Penny"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Pierre"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Robin"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Sam"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Sandy"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Sebastian"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Shane"
+    },
+    {
+      "Name": "CHILDNPC",
+      "Value": "Vincent"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Willy"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Wizard"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Andy"
+    },
+    {
+      "Name": "CHILDNPC",
+      "Value": "Apples"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Claire"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Gunther"
+    },
+    {
+      "Name": "NPC",
+      "Value": "MarlonFay"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Martin"
+    },
+    {
+      "Name": "CHILDNPC",
+      "Value": "Morgan"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Sophia"
+    },
+    {
+      "Name": "NPC",
+      "Value": "Susan"
+    },
+    {
+      "Name": "DATEABLENPC",
+      "Value": "Victor"
+    }
+
+  ],
+
+
+  ////////////////////////////////////////////////////////// START OF CHANGES
+  "Changes": [
+    {
+      "LogName": "Lance Edits",
+      "Action": "EditData",
+      "Target": "data/Characters",
+      "Fields": {
+        "Lance": {
+          "CanBeRomanced": false
         }
-
-    ],
-
-
-    ////////////////////////////////////////////////////////// START OF CHANGES
-    "Changes": [
-        {
-            "LogName": "Lance Edits",
-            "Action": "EditData",
-            "Target": "data/Characters",
-            "Fields": {
-                "Lance": {
-                    "CanBeRomanced": false
-                }
-            }
-        },
-        {
-            "LogName": "Lance Edits",
-            "Action": "EditData",
-            "When": {
-                "HasSeenEvent": "LEFrivolity"
-            },
-            "Target": "data/Characters",
-            "Fields": {
-                "Lance": {
-                    "CanBeRomanced": true
-                }
-            }
-        },
-        {
-            "LogName": "Lance Edits",
-            "Action": "EditData",
-            "Target": "data/Characters",
-            "When": {
-                "Day 1 Toggle": true
-            },
-            "Fields": {
-                "Lance": {
-                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT ANY 112"
-                }
-            }
-        },
-        //////// BEGIN THE INCLUDE WAVE
-        {
-            "Action": "Include",
-            "FromFile": "data/BETAS.json, data/DeathInsurance.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/Items.json, data/MarriageDialogue.json, data/Outfits.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json"
-        },
-        /*
+      }
+    },
+    {
+      "LogName": "Lance Edits",
+      "Action": "EditData",
+      "When": {
+        "HasSeenEvent": "LEFrivolity"
+      },
+      "Target": "data/Characters",
+      "Fields": {
+        "Lance": {
+          "CanBeRomanced": true
+        }
+      }
+    },
+    {
+      "LogName": "Lance Edits",
+      "Action": "EditData",
+      "Target": "data/Characters",
+      "When": {
+        "Day 1 Toggle": true
+      },
+      "Fields": {
+        "Lance": {
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT ANY 112"
+        }
+      }
+    },
+    //////// BEGIN THE INCLUDE WAVE
+    {
+      "Action": "Include",
+      "FromFile": "data/BETAS.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/Items.json, data/MarriageDialogue.json, data/Mail.json, data/Outfits.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json, data/TownComments.json, data/Schedule.json"
+    },
+    {
+      "Action": "Include",
+      "When": {
+        "Death Insurance Toggle": true
+      },
+      "FromFile": "data/DeathInsurance.json"
+    },
+    /*
         {
             "Action": "Include",
             "FromFile": "data/{{Spice}}/dates.json"
         },
     */
-        //spouse room edit
-        {
-            "Action": "Load",
-            "Priority": "High",
-            "Target": "Maps/Custom_LancesRoom",
-            "FromFile": "Assets/Maps/LancesRoom.tbin",
-            "When": {
-                "LanceNewRoom": "true"
-            }
-        },
-        {
-            "Action": "Load",
-            "Priority": "Low",
-            "Target": "Maps/Qiroom",
-            "FromFile": "Assets/Maps/Qiroom.tmx"
-        },
-        {
-            "Action": "Load",
-            "Priority": "Low",
-            "Target": "data/events/Qiroom",
-            "FromFile": "data/Blank.json"
-        },
-        { //load my furniture
-            "LogName": "Edel's Room Furniture",
-            "Action": "Load",
-            "Target": "Maps/PfffFurn",
-            "FromFile": "assets/Furniture/{{TargetWithoutPath}}.png"
-        }
-    ]
+    //spouse room edit
+    {
+      "Action": "Load",
+      "Priority": "High",
+      "Target": "Maps/Custom_LancesRoom",
+      "FromFile": "Assets/Maps/LancesRoom.tbin",
+      "When": {
+        "LanceNewRoom": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Maps/Qiroom",
+      "FromFile": "Assets/Maps/Qiroom.tmx"
+    },
+    {
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "data/events/Qiroom",
+      "FromFile": "data/Blank.json"
+    },
+    { //load my furniture
+      "LogName": "Edel's Room Furniture",
+      "Action": "Load",
+      "Target": "Maps/PfffFurn",
+      "FromFile": "assets/Furniture/{{TargetWithoutPath}}.png"
+    }
+  ]
 }

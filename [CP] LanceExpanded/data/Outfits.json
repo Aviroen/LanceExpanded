@@ -10,10 +10,8 @@
         {
             "LogName": "Load Custom Other Npcs",
             "Action": "Load",
-            "Priority": "High",
-            "When": { "Custom Wedding": true },
-            "Target": "Portraits/Camilla",
-            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/Camilla_LEWedding",
+            "FromFile": "assets/{{TargetPathOnly}}/Camilla.png"
         },
         {
             "LogName": "Load Custom Other Npcs",
