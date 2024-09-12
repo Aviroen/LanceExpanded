@@ -170,6 +170,35 @@
         "Spicier Content": "Pepper X"
       }
     },
+    //portrait calls
+    {
+      "Name": "Portraits",
+      "When": {
+        "Portrait": "Aviroen Style"
+      },
+      "Value": "Aviroen Style"
+    },
+    {
+      "Name": "Portraits",
+      "When": {
+        "Portrait": "GoodnightLou (Nyapu)"
+      },
+      "Value": "GoodnightLou (Nyapu)"
+    },
+    {
+      "Name": "Portraits",
+      "When": {
+        "Portrait": "SVE"
+      },
+      "Value": "SVE"
+    },
+    {
+      "Name": "Portraits",
+      "When": {
+        "Portrait": "Vanilla Compliant"
+      },
+      "Value": "Vanilla Compliant"
+    },
     /////////////////////////////DATE DYNAMIC TOKENS randomization between year 1 and year 2 and beyond maybe
     {
       "Name": "DatePelican",

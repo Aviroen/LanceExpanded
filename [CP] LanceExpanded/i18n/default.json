@@ -1,5 +1,4 @@
 {
-
   //// ***C O N F I G***////
   //CHANGED DIALOGUE
   "config.section.Content.name": "Content",
@@ -2268,7 +2267,29 @@
   "Pelican.3": "'Do you regularly go to the bottom of the mines?'",
   "Pelican.4": "You jest! I'm the one that deemed the mines explorable.$15",
   "Pelican.5": "Care to sit?$43#$b#Upkeeping my magic is wearying, but it's better safe than sorry.$41",
-  "Pelican.6": "This would be a great time to ask...#Why do you and Magnus have such a hard time?#Why does Camilla treat you like her son?#Have you ever seen a shrine here?#What's Castle Village like?#What made you like me?#What was the Elemental War like?#What made you join the First Slash?#Are you not allowed to take on an apprentice of your own?#How old are you... really?#What was your family like?#",
+  "Pelican.6": "This would be a great time to ask...#'Why do you and Magnus have such a hard time?'#'Why does Camilla treat you like her son?'#'Have you ever seen a shrine here?'#'What's Castle Village like?'#'What made you like me?'#'What was the Elemental War like?'#'What made you join the First Slash?'#'Are you not allowed to take on an apprentice of your own?'#'How old are you... really?'#'What was your family like?'#'I'm good for now.'",
+  //begin loops BROTHER
+  //magnus hard time
+  "Pelican.6.1.1": "",
+
+  //camilla son
+
+  //seen shrine
+
+  //castle village?
+
+  //whatchulikeaboutme
+
+  //elemental war?
+
+  //first slash?
+
+  //apprentice?
+
+  //how old--
+
+  //family?
+
   "Pelican.repeated": "Do you really wish to hear the story again?#Yes.#No.",
   "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [Aviroen.LanceExpanded_Khanjar]",
   "PelicanYesAfter": "'Wait, Lance!'",
