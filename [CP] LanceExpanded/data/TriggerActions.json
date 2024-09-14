@@ -155,6 +155,12 @@
           "Actions": [
             "AddMail Current {{ModId}}_HandHolder now"
           ]
+        },
+        "{{ModId}}_HardModeMines": {
+          "Id": "{{ModId}}_HardModeMines",
+          "Trigger": "LocationChanged",
+          "Condition": "WORLD_STATE_FIELD MinesDifficulty 1",
+          "Action": "AddMail Current {{ModId}}_HardModeActivated received"
         }
       }
     }

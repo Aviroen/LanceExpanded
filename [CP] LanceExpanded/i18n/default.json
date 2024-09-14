@@ -880,6 +880,8 @@
   "Mail.Broke.Title": "A Winter Star Gift",
   "Mail.13Heart": "Good morning, my love.^I write this letter, enamored with your sleeping form, utterly entranced by the way you breathe.^This seems quite out of proportion to my lovesick words on our daily paces, but I feel as if this is necessary to say.^The soulbond ritual should be complete by the 28th of the season.^We will first set my bond to you, so that you do not have to worry where my loyalties lie.^Please do not take this as a burden, I wish nothing but to live however many years I have to my own lifespan with you.^You are the shining light that has blinded me amongst the sea of darkness.^...I realize that this is getting extremely wordy...^Just know that I do not regret anything I have done so far, and that I truly, and deeply love you.^With love, Lance",
   "Mail.13Heart.Title": "A Bond of Magical Proportion",
+  "Mail.Pelican": "Good morning my love.^I have been tasked with delving into the mines today, if you would like to accompany me, you need only let me know with this khanjar.^With love, Lance",
+  "Mail.Pelican.Title": "Pelican Mines Date",
 
   ////HEART EVENTS
   ////Lance 0 Heart Volcano
@@ -2259,36 +2261,134 @@
   //pelican mines
   //Perigee was famously stubborn and durable. She didn't fight on the front lines, but rather defended those towards the back. Also loved to sleep, loved to eat. Her epithet was "The Bear of Belgara", though her friends jokingly called her "Mama Bear". Her favored weapon was a shillelagh, which she could use to clobber enemies or cast spells.
   //"Funnily enough Mary never had a taste for violence, but she certainly had the stomach for seeing it. She was often the first name on everyone's lips when healing was needed due to her vast knowledge of various natural and synthetic remedies. Though very focused when it came to her work, outside of the medical tent Mary found joy in relaxing under trees and was often found asleep under them with her journal. She had a quarterstaff on her at almost all times that would focus her healing magic, and was known to give rambunctious soldiers quite the bump on the head should they get out of line."
-  "Pelican.intro": "Before you leave, my love!$8#$b#Marlon was asking me to scout the bottom of the mines because there have been some strange monster activities.$6#$b#If you're free, would you like to come along?$7",
-  "Pelican.q": "Do I join Lance in the mines?#Sure!#Sorry, not today.",
-  "Pelican.yes": "Oh, good! Well, if you're ready, shall we head out?$11",
+  "Pelican.intro": "Apologies for the wait, my love. Are you ready for this mine delve?$43",
+  "Pelican.q": "'Ready as I'll ever be.'",
   "Pelican.1": "We've finally made it, it doesn't look like anything's around though.$31",
   "Pelican.2": "We can take this chance to take a breath.$43",
   "Pelican.3": "'Do you regularly go to the bottom of the mines?'",
   "Pelican.4": "You jest! I'm the one that deemed the mines explorable.$15",
   "Pelican.5": "Care to sit?$43#$b#Upkeeping my magic is wearying, but it's better safe than sorry.$41",
-  "Pelican.6": "This would be a great time to ask...#'Why do you and Magnus have such a hard time?'#'Why does Camilla treat you like her son?'#'Have you ever seen a shrine here?'#'What's Castle Village like?'#'What made you like me?'#'What was the Elemental War like?'#'What made you join the First Slash?'#'Are you not allowed to take on an apprentice of your own?'#'How old are you... really?'#'What was your family like?'#'I'm good for now.'",
+  "Pelican.6": "This would be a great time to ask...#'Why do you and Magnus have such a hard time?'#'Why does Camilla treat you like her son?'#'What's Castle Village like?'#'What made you like me?'#'What was the Elemental War like?'#'What made you join the First Slash?'#'Are you not allowed to take on an apprentice of your own?'#'How old are you... really?'#'What was your family like?'#'Have you ever seen a shrine here?'#'I'm good for now.'",
   //begin loops BROTHER
-  //magnus hard time
-  "Pelican.6.1.1": "",
+  //magnus hard time #'Why do you and Magnus have such a hard time?' 6.1 "Pelican.6.1.": "", 
+  "Pelican.6.1.1": "You'd like to know the backstory of my upbringing?$8#$b#It's a long one, so I hope you'll forgive me.$43",
+  "Pelican.6.1.2": "I'll start at the very beginning.$41",
+  "Pelican.6.1.3": "As you know, I was enlisted in the Elemental War, the end of it, but it wasn't through any respectable conscription.$37#$b#I wasn't even a teen at the time - my voice hadn't lowered like I had been told to expect.$40#$b#My position was in the cavalry, it sounds like an incredibly brusque way of naming me, but that's what my mother decided when she saw how I rode horses. 'Lance'.$37#$b#After the war, she fled because her actions were inhumane towards the Magic Ministry.$34",
+  "Pelican.6.1.4": "Once everything was done and over with, I was placed in a Ministry orphanage once my age was discovered. I wasn't too thrilled with the decision, even given what my mother had done, so I gave them trouble.$8#$b#I wasn't allowed to stay for long. That's when Magnus came into the picture.$41#$b#He had a choice.... take me in to raise me, or suffer the consequences of his prior actions.$8#$b#Obviously he took the former, it was much easier in his opinion at the time, to take in a brat that only listened to power.$43",
+  "Pelican.6.1.5": "Little did he know...$43#$b#Tomes, his beard, some magical plants that looked at me strangely, all burnt to a crisp because I felt there was something to prove.$8#$b#To someone, anyone who would bother to listen to a snot covered brat with no home.$37",
+  "Pelican.6.1.6": "He did try his best to be a good surrogate father up until the Ministry said I was able to be set free.$40#$b#Magnus didn't waste any time once he got the message, and on my own I was again.$43",
+  "Pelican.6.1.7": "Afterwards, I went nomadic, eventually Camilla found me and employed me at Castle Village to help her barriers.$35#$b#Camilla's tone had struck me differently whenever she met with Magnus.$8#$b#Someone on equal footing, with the one who raised me, gave him silly nicknames like 'Razzy'.$41#$b#Camilla's poking fun at Magnus only increased.$8#$b#Her wonderful, sarcastic nature rubbed off on me then, I guess. It was nice - the dynamic between the three of us. It felt like a family, as weird and messed up the circumstances were that we formed under. I am beyond gracious that it happened, though.$43",
+  "Pelican.6.1.8": "Essentially, we're like a father and son, some sparks fly here and there, but I know he means well.$8#$b#We're just far too stubborn for our own good to treat each other 'nicely'.$43",
+  "Pelican.6.1.9": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //camilla son
+  //camilla son #'Why does Camilla treat you like her son?' 6.2 "Pelican.6.2.": "",
+  "Pelican.6.2.1": "Is that what it feels like to you?$43#$b#That's good, I do revere my relationship with her, she is my second guarantor after all.$8",
+  "Pelican.6.2.2": "Being employed at Castle Village wasn't something I had expected to be so... gruelling, to say the least.$8#$b#If it's all the same to you, my love, don't let Camilla know about my complaints. She'll force even more of her paperwork onto me.$98",
+  "Pelican.6.2.3": "She had taken a liking to me as soon as she saw me under Magnus' care the first time.$43#$b#There was an urgency with the desert and Magnus begrudgingly requested her help.$8#$b#Serpents in the area had begun swarming for their nesting season, and my 'bright minded' idea was to simply torch them.$41#$b#Just a... slightly oversized fireball, lobbed straight into the lot of them.$8#$b#The fireball caused a frenzy, Magnus started yelling of my 'punishment' when they were finished, and I was sent out of the cave with Camilla's magic to be chastised later.$9#$b#Suffice to say... Magnus doesn't appreciate any eel looking dishes since it was our dinner for at least a month.$8",
+  "Pelican.6.2.4": "After she found out how much of a nuisance I was to Magnus during my upbringing, she had deemed it the utmost importance that she also raised me like a son.$43#$b#Even though I was old enough to fend for myself, she still thought I needed some guidance. I'm very grateful to this day she made that decision, and the ministry granted her status as my guarantor as soon as she finished the paperwork.$38#$b#In the entire time that I've known her, I've never seen her finish paperwork with such speed and accuracy.$43",
+  "Pelican.6.2.5": "From there, it's just as you've seen, since she's been around the mundane more than Magnus and I could even dare to imagine, she has a better semblance of what 'mundanity' is.$8#$b#Her tactics in magic contrast greatly against Magnus, being so close to the mundane had granted her a wider view of the world and it helped understand what my magic actually was.$41#$b#Camilla was actually the one that deduced that my magic doesn't originate from the land, but more that I 'borrow' from myself.$40#$b#A funny story, that one, apparently I had started spouting nonsense of living on a pirate ship and that I was actually well over three hundred years old.$8",
+  "Pelican.6.2.6": "I just hope she doesn't come off too strongly.$43",
+  "Pelican.6.2.7": "Oh, that's good then.$43#$b#Think of her like a mother-in-law, without the television drama.$8",
+  "Pelican.6.2.8": "Talking about this reminded me of something.$34#$b#Magnus had started reaching out to me whenever I was in Castle Village.$31#$b#Some of the questions he asked were ordinary, some were requesting detail of my whereabouts.$30#$b#Maybe he was concerned with Camilla's influence, or maybe he missed having a lively home.$8",
+  "Pelican.6.2.9": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //seen shrine
+  //castle village? #'What's Castle Village like?' 6.4 "Pelican.6.3.": "",
+  "Pelican.6.3.1": "Hmmm...$8#$b#Bustling streets, food stalls you can smell from the front gate.$9",
+  "Pelican.6.3.2": "We talked for quite awhile about Castle Village's decorum.",
+  "Pelican.6.3.3": "Maybe someday Camilla will let me invite you in.$43",
+  "Pelican.6.3.4": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //castle village?
+  //whatchulikeaboutme #'What made you like me?' 6.5 "Pelican.6.4.": "",
+  "Pelican.6.4.1": "Ah!$42#$b#To catch me off guard like that is reminiscent of your grandfather.$8#$b#While at first, it was interesting to know that you're his grandchild, your ardent displays of affection towards me were something that won me over in the end.$43",
+  "Pelican.6.4.2": "There are a few similarities between you two.$43#$b#The fact that you both enjoy listening to me ramble about nothing hasn't changed.$8",
+  "Pelican.6.4.3": "I did say this when I proposed dating, but your cute charms are what make me realize that my world had felt quite dull prior to your arrival.$43",
+  "Pelican.6.4.4": "The way the sunlight hits your sleeping form right before we wake, and it makes me feel this overwhelming awe as I gaze upon you.$43",
+  "Pelican.6.4.5": "While you may have wanted to be my strength, I, too, wanted to be a force for you to rely upon.$8#$b#I hope my actions thus far have shown that while my duties take me away from our home, it does not mean I think of you any less.$43",
+  "Pelican.6.4.6": "In actuality, the days that I am forced to work away from you only make my thoughts completely filled with your mannerisms.$43",
+  "Pelican.6.4.7": "Oh don't be so shy!$8#$b#You asked a most pointed question, you should at least brave the barrage of embarrassment.$43",
+  "Pelican.6.4.8": "The way that the townspeople speak of you so fondly, your delicate care to someone such as Leo.$43#$b#Every action, every word you speak makes me fall in love with you more and more.$43",
+  "Pelican.6.4.9": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //whatchulikeaboutme
+  //elemental war? #'What was the Elemental War like?' 6.6 "Pelican.6.5.": "",
+  "Pelican.6.5.1": "The war, huh?$37#$b#I feel as if the smell of blood hasn't left my skin, even now, some odd better half of a century gone.$36#$b#It was a brutal war, as you know, my conscription into the war wasn't an honorable one.$37",
+  "Pelican.6.5.2": "My mother had infiltrated a military camp and forged paperwork that I was of age.$8#$b#Obviously no one believed that a child was some eighteen or so year old punk.$40#$b#There wasn't really a reason to deny me entry, however.$37#$b#Magic was like breathing to me, born of my mother's desperate search for power, even though she was a mundane.$36#$b#I was young and naive, she praised me with words of affection I had never heard before.$37#$b#In the beginning, all I wanted to do was please her. To chase after that high of her affections.$36#$b#The realization set in when she disappeared.$37#$b#War was filled with the scent of iron, sadness, and pain.$31",
+  "Pelican.6.5.3": "She had quite the lofty dream, y'know?$39#$b#The ability to harness power of her own, rather than having to depend on the son she found a sire for.$8#$b#I can't remember the younger part of my days, just a dark room and the inevitable magic experiment.$37",
+  "Pelican.6.5.4": "During my time amist the war, several people offered to be my 'battle buddy', so to speak.$8", //CUT THIS FROM LSSE
+  "Pelican.6.5.5": "Due to my overwhelming magic, I was instead enlisted in a squad. They had all assumed responsibility of me as a team.$39",
+  "Pelican.6.5.6": "The war was nearly over by the time I had enlisted. I want to say I was there for a decade, but I'm not quite sure.$8#$b#As you might have assumed, all of the names I spoke of during my...*Ahem*$8#$b#'Outburst'.$9#$b#They were the names of everyone in that squad.$37",
+  "Pelican.6.5.7": "All of them... lost in one way or another, until I was the last one to see the end of the war.$37",
+  "Pelican.6.5.8": "Since we have the time, would you want me to talk about all of them?$39",
+  "Pelican.6.5.9": "#'Yes.'#'No.'",
+  "Pelican.6.5.9.1.1": "As you wish, my love.$8#$b#It's another long winded story.$40",
+  "Pelican.6.5.9.1.2": "Let's start with Nikki, she was so small that we were considered the 'sibling pair'.$8#$b#Even though she was well in her thirties at the time, she would angrily throw about magic to anyone who called her a kid.$38#$b#Her main job was reconnaissance, and she was damn good at it.$8#$b#Unfortunately we had a spy in our platoon, they knew where and when she would be scouting.$37#$B#Everything was good up until... we found her lifeless form posted as a 'warning' in front of our encampment.$51",
+  "Pelican.6.5.9.1.3": "On a more lighthearted note, Paul comes to mind next.$8#$b#Paul was a vanguard through and through, charged forward, never asked questions.$43#$b#His death was something unprecedented.$37#$b#'Magic feedback' as the Ministry has so dubbed it.$36#$b#We were but moments away from seeing the horizon of the end when his circuits were overwhelmed by a residual curse.$36#$b#I still keep in touch with his grandchildren, they love to hear my stories of his triumphs.$8",
+  "Pelican.6.5.9.1.4": "Mary was one of the sweetest but also one of the most harshest.$8#$b#She would swat my arms if my elbows touched the tables during dinner.$39#$b#Taught me etiquette befitting a normal person, rather than a wolf from the woods.$8#$b#If I'm so eloquent, it's simply because she wanted me to be able to speak, rather than screaming grunts here and there.$43#$b#The ambush of the healer encampment was correlated to the spy that gave away Nikki's position.$37#$b#All at once, I lost two of my best friends within a night's horrors.$36#$b#I'm not allowed to read the book that Mary and Perigee wrote together, though.$8#$b#Maybe someday you'll be able to crack the code on it.$43",
+  "Pelican.6.5.9.1.5": "On that note, Perigee was one of the most ecstatic to have me among the ranks.$8#$b#Loved to baby me, loved to tell me magic research to put me to sleep.$9#$b#Her loss was extremely honorable, we were being rerouted after being on the run for days, and she deemed it her 'Last Stand'.$37#$b#Others had managed to dig a hole deep enough for our platoon to fit, according to Peri's orders.$8#$b#Much like Camilla, her pert attitude as she finalized the spell, with a wink and a goodbye wave... She forced all of her magic circuits to overload at once.$37#$b#Those of us in the entrenchment were saved, and the only thing left of Peri was her pendant.$36",
+  "Pelican.6.5.9.1.6": "I truly do miss them, every now and then I attend to empty gravestones in their memory.$37#$b#Now...$8",
+  "Pelican.6.5.9.1.7": "Were you interested in me waxing and waning poetic any longer?$43",
+  "Pelican.6.5.9.2.1": "Another time then.$8",
+  "Pelican.6.5.9.2.2": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //elemental war?
+  //first slash? #'What made you join the First Slash?' 6.7 "Pelican.6.6.": "",
+  "Pelican.6.6.1": "My position in the First Slash is a recent one, Jolyne was looking for an experienced combat mage, and I was looking for a way out of Camilla's paperwork.$8#$b#The First Slash was like reliving my days with my squad, their enthusiastic laughter, Jolyne's barking orders.$8#$b#Pleased to find out that Jolyne and I work well together.$9",
+  "Pelican.6.6.2": "It was also something that helped take my mind off of recent losses.$34#$b#Someone to give me a purpose in this endless wandering.$8#$b#I'll have Jolyne to thank for our meeting.$43",
+  "Pelican.6.6.3": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //first slash?
+  //apprentice? #'Are you not allowed to take on an apprentice of your own?' 6.8 "Pelican.6.7.": "",
+  "Pelican.6.7.1": "My own apprentice, huh?$37#$b#I'm not exactly one to be a 'teacher'.$8#$b#It hasn't actually crossed my mind to take an apprentice since my magic isn't grounded in the standards curriculum.$35#$b#Were you interested in becoming my apprentice? Or were you concerned about children?$43",
+  "Pelican.6.7.2": "Suffice it to say...$43#$b#You have no worries about the future in that respect, Magnus is an excellent teacher even if his lectures may put one to sleep.$8",
+  "Pelican.6.7.3": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //apprentice?
+  //how old-- #'How old are you... really?' 6.9 "Pelican.6.8.": "",
+  "Pelican.6.8.1": "A most pointed question, my love.$43#$b#Isn't the saying, 'not to ask a mage their real age'?$8#$b#I jest, I jest, but I honestly don't have an exact year for you, my love.$43#$b#The possibility of me being somewhere around a hundred and fifty to two hundred is probably the ballpark, though.$40#$b#Why, are you now put off on having such an 'old man' as your husband?$43",
+  "Pelican.6.8.2.1": "Yes, your grandfather and Magnus really had a bout about the farmland.$8#$b#Magnus almost won out in the end, but your grandfather was wily and submitted the paperwork while Magnus was distracted by 'someone'.$43#$b#Very obviously we had come to a deal, I was allowed to dump my plant-related research materials onto him, and I was to distract Magnus.$43",
+  "Pelican.6.8.2.2": "Camilla called us 'the thieves', my most chaotic years were spent with your grandfather.$43#$b#I was there for his wedding and audibly laughed at him as he saw your grandmother in her full glory.$8",
+  //pikashock
+  "Pelican.6.8.3": "Is it that surprising? I know that there aren't actual records of the year that the Elemental War concluded, but you should've expected as such when I said I was conscripted to it.$43",
+  //old man chaser
+  "Pelican.6.8.4": "I take offense to that, my love!$43#$b#I don't look nearly as old as Magnus or Marlon!$38#$b#I would say, in fact, that I'm still quite young looking and handsome!$43",
+  "Pelican.6.8.Switch": "Old man?",
+  "Pelican.6.8.Switch.1": "#'So that's how you knew my grandpa.'",
+  "Pelican.6.8.Switch.2": "#'I'm honestly shocked.'",
+  "Pelican.6.8.Switch.3": "#'I guess I just like chasing old men'.",
+  "Pelican.6.8.5": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //how old--
+  //family? #'What was your family like?' 6.10 "Pelican.6.9.": "",
+  "Pelican.6.9.1": "My family?$44#4b#Well, my mother was a mundane, and I don't actually know who my father was.$37",
+  "Pelican.6.9.2": "She was a strong nomad, searched lands just for a strong sire in her pursuit for power.$36#$b#Eventually she found someone she deemed 'powerful' enough.$8#$b#Apparently it was a prince of some land, but I don't actually know if that's true or not.$43#$b#All I know is that she snuck out as soon as the poor sap was asleep, stowed away on a cargo ship, and the rest is history.$8",
+  "Pelican.6.9.3": "My mother knew magic was bestowed in a myriad of ways, but one of those was through genetic inheritance. Since my magic isn't really in the realm of normal, I'm assuming that's what happened to me.$34#$b#I wasn't exactly taught how to speak from her, I only understood her commands and what to do.$30",
+  "Pelican.6.9.4": "After she conscripted me into the Elemental War, she was imprisoned on false documentation, bribery, a few others that I cannot remember at this moment.$34#$b#I found out on a later note that a guard had helped her escape, but she never reached out to me.$37",
+  "Pelican.6.9.5": "My memories of my younger years are vague and spotty, the only things I remember were magic experimentation from her wanting to grasp my 'inheritance'.$36#$b#Obviously all of them had failed in some form or another, but they were part of my darkest years.$37",
+  "Pelican.6.9.6": "I did not mean to sour your emotions with my sad story, my love.$37#$b#You have given me more than I could've ever imagined in this short time that we've been together.$43#$b#I just hope that you'll pardon my fumbling with children.$43",
+  "Pelican.6.9.7": "Were you interested in me waxing and waning poetic any longer?$43",
 
-  //family?
+  //seen shrine #'Have you ever seen a shrine here?' 6.10 "Pelican.6.10.": "", hasflag {{ModId}}_HardModeActivated
+  "Pelican.6.10.1": "A shrine, my love?$30#$b#Since coming to the valley, I've been the one to monitor monster population.$31",
+  "Pelican.6.10.2": "Why, what's wrong?$30",
+  "Pelican.6.10.3": "What should I say?",
+  "Pelican.6.10.Switch.1": "'There was a chest in here that held the key to the desert mines.'",
+  "Pelican.6.10.Switch.2": "'There's usually a shrine here that causes stronger monsters to spawn.'",
+  "Pelican.6.10.3.1": "Oh that old thing?$8#$b#Originally, it was open to the public, but due to the nature of the desert, Marlon and I had ended up attending to hospital visits rather than celebrations.$37#$b#We deemed it appropriate to close off the mines to only those who could unlock the door.$34",
+  "Pelican.6.10.3.2": "Stronger monsters?$31#$b#Marlon would have given me notice if monsters suddenly gained strength and ferocity.$31",
+  "Pelican.6.10.3.3": "You say it looked like a shrine, do you recall why it appeared?$31",
+  "Pelican.6.10.3.4": "I tell Lance about Mr Qi.",
+  "Pelican.6.10.3.5": "Well I know Sandy enjoys the risk versus reward aspect of a casino, but I don't know this 'Mr Qi' you're talking about, my love.$30",
+  //farmer question mark, shaking, disgruntled emote
+  "Pelican.6.10.3.6": "'What about the desert, have you ever met him during your expeditions?'",
+  "Pelican.6.10.3.7": "Pardon?$34#$b#I don't delve that often into the desert mines, but I have at least gotten around floor 680 or so.$34#$b#I have never encountered any strange floors, though.$30",
+  "Pelican.6.10.3.8": "'What about the island? Do you know of the door on the west beach?'",
+  "Pelican.6.10.3.9": "A... door?$31#$b#I have been patrolling the area for a good amount of time, but I have only ever encountered Leo and Birdie, my love.$31",
+  //farmer stands up, starts shaking lance gets up to console
+  "Pelican.6.10.3.10": "My love, please calm down, what's wrong?$36",
+  "Pelican.6.10.3.11": "'Not once have you ever seen a door on that west beach?'",
+  "Pelican.6.10.3.12": "I assure you, my love, I do my duty with utmost care.$36#$b#There have been no signs of magic or of this door that you're so afraid of.$36",
+  "Pelican.6.10.3.13": "'...'",
+  "Pelican.6.10.3.14": "Listen, my love, it is late and there hasn't been anything strange during this expedition, I will report to Marlon, but you should head home.$36",
+
+  //i'm good for now "Pelican.11.": "",
+  "Pelican.11.1": "Have I finally talked your ear off?$43#$b#We've spent a lot of time in here with no reaction.$40#$b#I'll cook us something warm since it was quite cold down here.$43#$b#Your hand, my ${good sir^lady^love}$?$43",
+  "Pelican.11.2": "I never tire of the time we spend together.$8#$b#If you're ever feeling the urge to go with me again, simply say the word and we can go again.$11",
+
 
   "Pelican.repeated": "Do you really wish to hear the story again?#Yes.#No.",
   "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [Aviroen.LanceExpanded_Khanjar]",

@@ -10,6 +10,7 @@
           "Condition": "ITEM_ID Target Lance, RANDOM .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" true",
+            "AddMail Current {{ModId}}_PelicanMinesMail tomorrow",
             "MarkActionApplied Current {{ModId}}_RightInTheKisser false"
           ]
         },

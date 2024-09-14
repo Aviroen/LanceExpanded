@@ -596,12 +596,10 @@
       },
       "FromFile": "data/DeathInsurance.json"
     },
-    /*
-        {
-            "Action": "Include",
-            "FromFile": "data/{{Spice}}/dates.json"
-        },
-    */
+    {
+      "Action": "Include",
+      "FromFile": "data/{{Spice}}/HeartEvents.json" //data/{{Spice}}/dates.json, 
+    },
     //spouse room edit
     {
       "Action": "Load",
