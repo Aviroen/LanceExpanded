@@ -1,0 +1,12 @@
+{
+   "Changes": [
+   		{      
+			"LogName": "Load Emily's son as firstborn when firstborn internal gender is male.",
+			"Action": "Include",
+			"FromFile": "ChildFiles/Emily/valid_firstborn_Emily.json", 
+			"When": {
+				"FirstbornGenderInternal": "Male"
+			}
+		},
+   ]
+}

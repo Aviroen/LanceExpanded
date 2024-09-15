@@ -1,0 +1,876 @@
+{
+   "Changes": [
+        {
+			"LogName": "Trigger action to add mail flag for tracking Emily's son as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Add_EmilySon_Firstborn": {
+                    "Id": "{{ModId}}_Add_EmilySon_Firstborn",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current {{ModId}}_EmilySon_Firstborn Received",
+					"MarkActionApplied": false,
+                },
+                "{{ModId}}_Add_GrowingValley_Custom_Firstborn": {
+                    "Id": "{{ModId}}_Add_GrowingValley_Custom_Firstborn",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current GrowingValley_Custom_Firstborn Received",
+					"MarkActionApplied": false,
+                },
+                "{{ModId}}_Add_GrowingValley_Firstborn_Male": {
+                    "Id": "{{ModId}}_Add_GrowingValley_Firstborn_Male",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current GrowingValley_Firstborn_Male Received",
+					"MarkActionApplied": false,
+                },
+			}
+		},
+		
+   		{      
+			"LogName": "Load Emily's son's default portraits on firstborn.",
+			"Action": "Load",
+			"Target": "Portraits/{{FirstbornName}}", 
+			"FromFile": "assets/Portraits/Elias_{{FirstbornSkinTone}}.png",
+		},
+   		{      
+			"LogName": "Load Emily's son's sprites on firstborn.",
+			"Action": "Load",
+			"Target": "Characters/{{FirstbornName}}", 
+			"FromFile": "assets/Characters/Elias_{{FirstbornSkinTone}}.png",
+		},
+		
+		
+   		{      
+			"LogName": "Load Emily's son's default portraits on firstborn (target locale).",
+			"Action": "Load",
+			"TargetLocale": "{{LocaleCode}}",
+			"Target": "Portraits/{{FirstbornName}}", 
+			"FromFile": "assets/Portraits/Elias_{{FirstbornSkinTone}}.png",
+			"When": {
+				"Language|contains=en": false,
+			},
+		},
+   		{      
+			"LogName": "Load Emily's son's sprites on firstborn (target locale).",
+			"Action": "Load",
+			"TargetLocale": "{{LocaleCode}}",
+			"Target": "Characters/{{FirstbornName}}", 
+			"FromFile": "assets/Characters/Elias_{{FirstbornSkinTone}}.png",
+			"When": {
+				"Language|contains=en": false,
+			},
+		},
+		
+		
+		{
+			"LogName": "Add gift tastes for Emily's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{FirstbornName}}": "Thanks {{Random: {{FarmerRefFirstborn}} }}! This makes me soo happy. I'm de-light-ed!$1/637 710 721 fish_crab_pot Book_Crabbing/I like this! It's my favourite.$5/category_fish 142 forage_item_beach/Umm... I don't like this. Do I have to take it...?$6/197 206 215 424 426 cheese_item/Yuck... I hate this... It's the worst...$2/248 649 772 729 alcohol_item/Thank you for the present. Was I polite?/18 152 153 157 RiverJelly CaveJelly SeaJelly 614 coffee_item/",
+			}
+		},
+		{
+			"LogName": "Fill firstborn's empty schedule with that of Emily's son.",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{FirstbornName}}",
+			"Entries": {
+				"rain": "800 FishShop 6 6 0/1400 FishShop 9 5 0/1700 bed",
+				"GreenRain": "GOTO rain",
+				"Mon": "820 Beach 47 11 2 \"Strings\\schedules\\{{FirstbornName}}:Mon.000\"/1700 bed",
+				"Thu": "820 Beach 47 11 2/1200 ArchaeologyHouse 10 10 3/1700 bed",
+				"Sat": "800 Forest 90 40 2 \"Strings\\schedules\\{{FirstbornName}}:Sat.000\"/1400 Town 60 100 2 \"Strings\\schedules\\{{FirstbornName}}:Sat.000\"/1900 bed",
+				"SquidFest": "730 FishShop 6 6 0/1200 Beach 26 36 2 \"Strings\\schedules\\{{FirstbornName}}:SquidFest.000\"/1800 bed",
+				"winter": "GOTO rain",
+				"fall": "830 Town 88 24 1 square_1_5_1/1500 Town 91 5 1/1800 bed",
+				"TroutDerby": "730 FishShop 6 6 0/1000 Forest 90 40 2 \"Strings\\schedules\\{{FirstbornName}}:TroutDerby.000\"/1800 bed",
+				"summer": "MAIL beachBridgeFixed/GOTO summer_noBridge/830 Beach 71 24 2 square_9_1_2/1400 Beach 84 39 2 square_3_3/1800 bed",
+				"summer_noBridge": "830 Beach 56 16 1 square_1_5_1/1800 bed",
+				"spring": "830 Beach 13 32 1 square_1_5_1/1500 Forest 33 25 2/1800 bed",
+				"DesertFestival_1": "820 Desert 9 39 2 \"Strings\\schedules\\{{FirstbornName}}:DesertFestival.000\"/2430 bed",
+			}
+		},
+		
+		{
+			"LogName": "Add Little Red School House schedule for Emily's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{FirstbornName}}",
+			"Entries": {
+				"Tue": "a1000 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.000\"/1130 Town 69 51 1 \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.001\"/1300 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read/1550 Beach 13 32 1 square_1_5_1/1850 bed",
+				"Wed": "GOTO Tue",
+				"Fri": "GOTO Tue",
+			},
+			"When": {
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+				"LRSH_NoSchoolDay": false,
+			},
+		},
+		{
+			"LogName": "Add Little Red School House schedule for Emily's son as firstborn (rain).",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{FirstbornName}}",
+			"Entries": {
+				"rain": "a1000 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.002\"/a1250 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read/1550 FishShop 9 5 0/1730 bed",
+			},
+			"When": {
+				"DayOfWeek": "Tuesday, Wednesday, Friday",
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+				"LRSH_NoSchoolDay": false,
+			},
+		},
+		
+		{
+            "LogName": "Add animations for Emily's son as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries":
+            {
+                "{{FirstbornName}}_sit": "16/16/16",
+                "{{FirstbornName}}_read": "17/17/17",
+			}
+		},
+		
+		{
+			"LogName": "Fill firstborn's empty schedule dialogue with that of Elliott's son.",
+			"Action": "EditData",
+			"Target": "Strings/schedules/{{FirstbornName}}",
+			"Entries": {
+				"Mon.000": "{{Random: {{CompanionRefFirstborn}} }} lived in this house on the beach before... It looks like a good place to live.$5#$e#I want to live close to the ocean when I grow up, too.$5",
+				"Sat.000": "I'm watching Mister Willy fish today.",
+				"SquidFest.000": "Catching a squid sounds hard. Um, good luck, {{Random: {{FarmerRefFirstborn}} }}.$5",
+				"TroutDerby.000": "Why do the fish have tags? Did they eat them?$7#$b#That doesn't sound good.$6",
+				"DesertFestival.000": "{{Random: {{CompanionRefFirstborn}} }} said I can take off my shoes to feel the sand on my feet.#$b#It's really hot! The sand at home isn't this hot!$3",
+				"Schoolhouse.000": "Hi, {{Random: {{FarmerRefFirstborn}} }}! This book is fun!$1",
+				"Schoolhouse.001": "The river's so nice. I want to watch it forever...$5#$b#Huh? I'm late to class? Oops!$3",
+				"Schoolhouse.002": "It's raining today, so I'm reading inside.",
+			},
+		},
+		
+		{
+			"LogName": "Fill firstborn's empty dialogue with that of Elliott's son.",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{FirstbornName}}",
+			"Entries": {
+				"AcceptBirthdayGift_Positive": "It's a birthday present! Thanks, {{Random: {{FarmerRefFirstborn}} }}!$1",
+				"AcceptBirthdayGift_Negative": "Oh... is this for my birthday? I don't want it...$2",
+				"AcceptGift_(O)StardropTea": "Is this tea? Oh... it's a yummy tea?$7#$b#Mmm! This is sweet. It's really good!$1",
+				"AcceptGift_fish_crab_pot": "Did you catch this with a crab pot? It's so cute.$5",
+				"AcceptGift_(O)717": "A crab! It's pokey and pointy. I wonder if it's faster than this other one...$5",
+				"AcceptGift_(O)710": "A crab pot! Thank you! I'll use it to catch crabs and other things.$1",
+				"AcceptGift_(O)Book_Crabbing": "Oh! I like this book! It's about crabs!$1",
+				"AcceptGift_category_fish": "Did you catch this fish? Wow...$3#$b#I'll go show it to Mister Willy.$5",
+				"AcceptGift_coffee_item": "Oh, it's coffee!$1#$b#I'm not allowed to drink it, but it has a good smell. It smells like morning.$5",
+				"AcceptGift_(O)197": "Eugh. I don't like cheese. It smells really terrible.$2",
+				"AcceptGift_(O)206": "Eugh. I don't like cheese. It smells really terrible.$2",
+				"AcceptGift_(O)215": "Eugh. I don't like cheese. It smells really terrible.$2",
+				"AcceptGift_(O)424": "Eugh. I don't like cheese. It smells really terrible.$2",
+				"AcceptGift_(O)426": "Eugh. I don't like cheese. It smells really terrible.$2",
+				"AcceptGift_cheese_item": "Eugh. I don't like cheese. It smells really terrible.$2",
+				"AcceptGift_alcohol_item": "This smells weird... is it safe?$6",
+				"AcceptGift_(O)248": "Gross... Garlic smells disgusting.$2",
+				"AcceptGift_(O)649": "Gross... Garlic smells disgusting.$2",
+				"AcceptGift_(O)772": "Gross... Garlic smells disgusting.$2",
+				"AcceptGift_(O)729": "Gross... Garlic smells disgusting.$2",
+				"Resort_Entering": "I want to see the island fish!$1",
+				"Resort_Leaving": "All, um... all good things come to an end... But I wanted to play more.$2",
+				"Resort": "I met a crab. It ran away like the wind.#$b#Now I'm looking for island fish. There's a blue one I want to see.$5",
+				"GreenRain": "The rain's green!$3#$b#If a lot of green rain falls, will the ocean turn green too?$4",
+				"Mon": "I like going to the beach with {{Random: {{CompanionRefFirstborn}} }}. We look for shells and watch the ocean together.$1",
+				"Tue": "Crabs come in so many colours. My favourite is orange.$1#$e#I wonder how many different crab colours there are? I bet there's a million.$0",
+				"Thu": "I read a library book about fishing.#$b#Fishing is cool, but it looks difficult.$4",
+				"Fri": "Shrimp are so silly. They have so many legs!$1#$e#When I hold them, they curl up. It's so cute.$5",
+				"Sat": "Mister Willy knows the best places for fishing.$5#$b#Sometimes he shows me how to set up a good crab pot.$0",
+				"Sun": "I want to catch a fish with my hands, but they're scared of me.$4#$e#A fish must think I'm really big. But to an adult, I'm small.$0#$b#It's, um, a matter of per...perception. That's what {{Random: {{CompanionRefFirstborn}} }} says.$7",
+				"summer_Mon": "Sometimes {{Random: {{CompanionRefFirstborn}} }} brings crabs home from the beach on accident.$1#$e#I wish we could keep them, but the beach is their home.$0",
+				"summer_Tue": "The ocean smells good. It's lovely.$5#$b#But cheese smells weird.$4#$e#Garlic smells the worst. Yuck.$6#$e#Some people don't like the smell of the ocean. {{Random: {{CompanionRefFirstborn}} }} told me. Why?$6",
+				"summer_Wed": "Are crabs friends or food...?$4#$b#{{Random: {{CompanionRefFirstborn}} }} eats crabs. I eat them sometimes too. Actually, {{Random: {{CompanionRefFirstborn}} }} makes food with a lot of different fish.$4#$b#It makes me think a lot. I'm pondering. Crabs and fish are fun to look at and play with. Should I eat them?$6#$e#This is hard. Maybe I'll think more about it when I'm a grown-up.$4",
+				"summer_Thu": "I wonder if I'll write a book when I'm older? Like {{Random: {{CompanionRefFirstborn}} }}.#$b#Maybe it'd be fun!$1#$e#I want to write a story with crabs in it.$5",
+				"summer_Fri": "Summer's great for looking for crabs on the beach. I can find lots of little ones that are easy to pick up.$5#$e#Do all the little crabs grow up into big crabs?",
+				"summer_Sat": "I showed Mister Willy a crab I caught. He said she looked big and sprightly.$1#$e#How does Mister Willy know which crabs are girls? They all look the same to me.$7#$e#Wait... Mister Willy calls all the crabs girls!$3#$b#But aren't some of them boys like me? I don't get it.$6",
+				"summer_Sun": "I don't want summer to ever end. But... I guess it has to end when it's over.$7#$e#I'll, um, make the most of my summer.$7",
+				"fall_Mon": "The beach in fall has sand and leaves and shells...#$b#What happens to the leaves on the beach when fall's over? Where do they go?$4#$e#I asked {{Random: {{CompanionRefFirstborn}} }} and {{lowercase:{{Random: {{CoSub1}} }} }} said that it'd be a good story idea... {{lowercase:{{Random: {{CoSub1}} }} }} didn't answer my question.$7",
+				"fall_Tue": "Crab pots catch different things when you put them in different places. It's because different things live in salty water and fresh water.#$e#Mister Willy says you shouldn't put a crab pot in the mines.$7#$b#He said they get washed away... and sometimes, they get eaten by something.$3#$b#Is that really true?$4",
+				"fall_Wed": "Maybe I'll try to catch a snail in a crab pot.#$e#Why is it called a crab pot if it catches things that aren't crabs?$7",
+				"fall_Thu": "Visiting the library is nice. I like reading different books.#$b#But... what happens when I read all the books in the library? Does that mean there's no more books to read...?$2#$e#Mister Gunther says he can buy more books if I run out of new books to read. So... I shouldn't be sad.$4#$b#But where do the books come from? Who writes them?$7",
+				"fall_Fri": "I found a spider. I'm keeping it in my jacket.$0#$b#It's very charming. It waves its legs around when I hold it.$1#$e#Don't worry, I'll let it go free! Just after we play together for a while...$5",
+				"fall_Sat": "Mister Willy showed me a pearl. He said I can have it if I take care of lots of crabs.#$e#Did Mister Willy give you a pearl before, {{Random: {{FarmerRefFirstborn}} }}?",
+				"fall_Sun": "{{Random: {{CompanionRefFirstborn}} }} almost killed the plant at home today. {{Random: {{CoSub1}} }} tried to use the adult drink to water it.$4#$b#I told {{lowercase:{{Random: {{CoObj1}} }} }} the water smelled weird and {{lowercase:{{Random: {{CoSub1}} }} }} stopped before watering it. I'm glad I saved the plant.$5",
+				"winter_Mon": "Sometimes {{Random: {{CompanionRefFirstborn}} }} teaches me piano. It's cool, but I like fish more.",
+				"winter_Tue": "I wish winter wasn't so cold. I can't see the crabs on the beach anymore.$6",
+				"winter_Wed": "{{Random: {{CompanionRefFirstborn}} }} said I learned to talk really quick. Am I smart?$7#$e#I'm really good at reading, too. I think I'm smart.$1",
+				"winter_Thu": "Do you like books, {{Random: {{FarmerRefFirstborn}} }}? I think reading books is fun.$5#$e#Sometimes book authors use different words for the same things.$4#$b#I saw a book that made a cat go \"miaow\" and a different one where the cat said \"meow\".$7#$b#Do cats say different things like that, or is it the writing person making them say different things?$7",
+				"winter_Fri": "There's lots of smelly stuff in Mister Willy's store. But I don't hate it.#$e#It smells like worms and bait and fish.",
+				"winter_Sat": "Mister Willy fishes in the snow, too.$7#$b#But it's so cold out. It's freezing!$3#$e#Why don't fish freeze in the water? The water's so, so cold...$7",
+				"winter_Sun": "There's nautilus shells on the beach in winter.#$e#Nautilus... naut-il-lus.. It's hard to say.$4",
+			}
+		},
+		{
+			"LogName": "Fill firstborn's empty dialogue with that of Elliott's son (singular pronouns).",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{FirstbornName}}",
+			"Entries": {
+				"Wed": "{{Random: {{CompanionRefFirstborn}} }} always reads me a bedtime story to sleep. {{Random: {{CoSub1}} }} says my vo-ca-bul-dary's very good because of it.#$e#A voca-buldary is the words that you know. That means I know a lot of words.$5",
+			},
+			"When": {
+				"CoPlu1": false,
+			},
+		},
+		{
+			"LogName": "Fill firstborn's empty dialogue with that of Elliott's son (plural pronouns).",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{FirstbornName}}",
+			"Entries": {
+				"Wed": "{{Random: {{CompanionRefFirstborn}} }} always reads me a bedtime story to sleep. {{Random: {{CoSub1}} }} say my vo-ca-bul-dary's very good because of it.#$e#A voca-buldary is the words that you know. That means I know a lot of words.$5",
+			},
+			"When": {
+				"CoPlu1": true,
+			},
+		},
+		
+		{
+            "LogName": "Add rain dialogue for Elliott's son as firstborn.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+				"{{FirstbornName}}": "Mister Willy says that fish like rain.#$b#How do fish know when it's raining? Can they feel it through the water?$7",
+			}
+		},
+		
+        {
+            "LogName": "Add Emily's son to Egg Festival as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 25 69 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 31 57 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 34 63 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 33 72 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Egg Festival dialogue for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+				 "{{FirstbornName}}": "Eggs are yummy. Why do chickens lay them?",
+				 "{{FirstbornName}}_y2": "Do you think hunting for eggs is like catching fish?#$e#Eggs don't swim, so I guess it's not the same.$7",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Flower Dance as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 20 41 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 11 20 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 6 23 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 19 21 2",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Flower Dance dialogue for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				 "{{FirstbornName}}": "There's little fish in the water here. Hi little fish!$5",
+				 "{{FirstbornName}}_y2": "{{Random: {{CompanionRefFirstborn}} }} said Auntie Leah's going to teach me to dance. But dancing seems hard...$4",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Luau as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 45 12 1",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 37 20 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 27 9 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up_y2", 5],
+                    "Value": "/positionOffset {{FirstbornName}} 0 -13",
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 26 18 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Luau dialogue for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+				 "{{FirstbornName}}": "Yay! We're on the beach today.$1#$e#I wonder what food I'll eat. I don't want anything smelly.$7",
+				 "{{FirstbornName}}_y2": "Crab cakes! Yummy...$1#$e#I hope the crabs had a long and happy life before they were cooked into food.$0",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Moonlight Jellies as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 43 36 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 26 36 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 50 24 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 24 33 3",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Moonlight Jellies dialogue for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+				 "{{FirstbornName}}": "I hope the jellies don't die out. They're so nice.$4",
+				 "{{FirstbornName}}_y2": "Summer's ending... It's sad. But I'll say goodbye to summer.$2",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Fair as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 46 59 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 37 69 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Fair dialogue for Elliott's son as firstborn (singular pronouns).",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{FirstbornName}}": "I like these mussels. They're really cute. They're adorable.$5",
+				 "{{FirstbornName}}_y2": "{{Random: {{CompanionRefFirstborn}} }} said {{lowercase:{{Random: {{CoSub1}} }} }}'s going to purchase a hat for me. {{Random: {{CoSub1}} }} said it's going to make me look dapper.",
+			},
+			"When": {
+				"CoPlu1": false,
+			},
+		},
+        {
+			"LogName": "Add Fair dialogue for Elliott's son as firstborn (plural pronouns).",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{FirstbornName}}": "I like these mussels. They're really cute. They're adorable.$5",
+				 "{{FirstbornName}}_y2": "{{Random: {{CompanionRefFirstborn}} }} said {{lowercase:{{Random: {{CoSub1}} }} }}'re going to purchase a hat for me. {{Random: {{CoSub1}} }} said it's going to make me look dapper.",
+			},
+			"When": {
+				"CoPlu1": true,
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Spirit's Eve as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 36 70 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 14 62 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Spirit's Eve dialogue for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				 "{{FirstbornName}}": "I want more pie. Can you cut a slice for me, {{Random: {{FarmerRefFirstborn}} }}?",
+				 "{{FirstbornName}}_y2": "The monsters won't escape, right? {{Random: {{CompanionRefFirstborn}} }}'s just saying funny things...$4",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Festival of Ice as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 64 12 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 74 42 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 85 40 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 63 34 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Festival of Ice dialogue for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				 "{{FirstbornName}}": "Who do I cheer for in the ice fishing competition? Hmm... This is hard.$6",
+				 "{{FirstbornName}}_y2": "I want to enter the ice fishing competition too! But maybe after I get better at fishing.$5",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's son to Winter Star as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 23 74 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 30 60 3",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Winter Star dialogue for Elliott's son as firstborn (singular pronouns).",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{FirstbornName}}": "The Feast of the Winter Star smells like mint and pine.#$b#And lots of yummy food, too!$1",
+				 "{{FirstbornName}}_y2": "Auntie Leah says {{Random: {{CompanionRefFirstborn}} }} drank too much. Does that mean {{lowercase:{{Random: {{CoSub1}} }} }} needs to go to the washroom?$7",
+			},
+			"When": {
+				"CoPlu1": false,
+			},
+		},
+        {
+			"LogName": "Add Winter Star dialogue for Elliott's son as firstborn (plural pronouns).",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{FirstbornName}}": "The Feast of the Winter Star smells like mint and pine.#$b#And lots of yummy food, too!$1",
+				 "{{FirstbornName}}_y2": "Auntie Leah says {{Random: {{CompanionRefFirstborn}} }} drank too much. Does that mean {{lowercase:{{Random: {{CoSub1}} }} }} need to go to the washroom?$7",
+			},
+			"When": {
+				"CoPlu1": true,
+			},
+		},
+		
+		{
+			"LogName": "Add movie concession tastes for Emily's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				2:{
+					"Name": "{{FirstbornName}}",
+					"LovedTags": [
+					  "Truffle Popcorn",
+					  "Salmon Burger"
+					],
+					"LikedTags": [
+					  "Salty"
+					],
+					"DislikedTags": [
+					  "Cold",
+					  "Sour",
+					  "Jasmine Tea",
+					  "Jawbreaker"
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Add movie reactions for Emily's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				2:{
+					"NPCName": "{{FirstbornName}}",
+					"Reactions": [
+					  {
+						"Tag": "*",
+						"Response": "love",
+						"Whitelist": [
+						  "{{PlayerCompanion}}",
+						],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{Random: {{CompanionRefFirstborn}} }}'s here to watch the movie with us!$1"
+						  },
+						  "DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "/message \"{{CompanionName}} shoots you and {{FirstbornDisplayName}} a smile.\"",
+							"Text": null
+						  },
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "That was awesome. I like watching movies together.$5"
+						  }
+						},
+						"Id": "reaction_3"
+					  },
+					  {
+						"Tag": "spring_movie_0",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "I like the story in this movie! The end is so cute.$1"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "The sapling grew into a tree! I want to grow up like the sapling.$5"
+						  }
+						},
+						"Id": "reaction_4"
+					  },
+					  {
+						"Tag": "family",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_0"
+					  },
+					  {
+						"Tag": "horror",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_1"
+					  },
+					  {
+						"Tag": "*",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_2"
+					  },
+					  {
+						"Tag": "love",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "I know this movie! It's great.$1"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "That was so much fun. It was awesome.$1"
+						  }
+						},
+						"Id": "reaction_5"
+					  },
+					  {
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "Do you think {{Random: {{CompanionRefFirstborn}} }} would like this movie?"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "That was fun!$5"
+						  }
+						},
+						"Id": "reaction_6"
+					  },
+					  {
+						"Tag": "dislike",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "What's this movie? It looks weird.$7"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "I don't get it...$4"
+						  }
+						},
+						"Id": "reaction_7"
+					  }
+					]
+				}
+			}
+		},
+		
+		
+		{
+			"LogName": "Edit Little Red School House map string for Growing Valley; Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+            "Entries": {
+				"Desk.18": "{{FirstbornDisplayName}}'s desk. The drawing has a doodle of a crab on the other side.",
+			},
+			"When": {
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+			},
+		},
+		
+		//Conditional dialogue (schedules)
+		{
+            "LogName": "Edit schedule dialogue for Elliott's son as firstborn to use genericized versions.",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{FirstbornName}}",
+            "Entries": {
+				"Mon.000": "This house on the beach looks like a good place to live...$5#$e#I want to live close to the ocean when I grow up, too.$5",
+				"Sat.000": "I'm trying to learn to fish today.",
+				"DesertFestival.000": "I'm taking off my shoes to feel the sand on my feet.#$b#It's really hot! The sand at home isn't this hot!$3",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		
+		
+		//Conditional dialogue (regular)
+		{
+            "LogName": "Edit dialogue for Elliott's son as firstborn to use genericized versions.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{FirstbornName}}",
+            "Entries": {
+				"AcceptGift_category_fish": "Did you catch this fish? Wow...$3#$b#That's so cool. I wanna catch a fish like this one day.$5",
+				"Mon": "I like going to the beach. My favourite things are looking for shells and watching the ocean waves.$1",
+				"Wed": "Someone said my vo-ca-bul-dary's very good because I read all the time.#$e#A voca-buldary is the words that you know. That means I know a lot of words.$5",
+				"Sat": "I want to set up a good crab pot. Is there a secret way to do it well?",
+				"Sun": "I want to catch a fish with my hands, but they're scared of me.$4#$e#A fish must think I'm really big. But to an adult, I'm small.$0#$b#It's, um, a matter of per...perception.$7",
+				"summer_Mon": "Sometimes I bring crabs home from the beach on accident.$1#$e#I wish we could keep them, but I know the beach is their home.$0",
+				"summer_Tue": "The ocean smells good. It's lovely.$5#$b#But cheese smells weird.$4#$e#Garlic smells the worst. Yuck.$6#$e#Some people don't like the smell of the ocean. Why?$6",
+				"summer_Wed": "Are crabs friends or food...?$4#$b#I eat crabs sometimes. Actually, I eat a lot of different fish.$4#$b#It makes me think a lot. I'm pondering. Crabs and fish are fun to look at and play with. Should I eat them?$6#$e#This is hard. Maybe I'll think more about it when I'm a grown-up.$4",
+				"summer_Thu": "I wonder if I'll write a book when I'm older? Books are fun to read.#$b#Maybe it'd be fun to write!$1#$e#I want to write a story with crabs in it.$5",
+				"summer_Sat": "Is there a difference between boy crabs and girl crabs? Because baby crabs come from, um...$6#$e#Um... anyway, how do boy crabs know which crabs are girl crabs? Do they know?$7",
+				"fall_Mon": "The beach in fall has sand and leaves and shells...#$b#What happens to the leaves on the beach when fall's over? Where do they go?$4",
+				"fall_Tue": "Crab pots catch different things when you put them in different places. It's because different things live in salty water and fresh water.#$e#I heard you shouldn't put a crab pot in the mines.$7#$b#They get washed away... and sometimes, they get eaten by something.$3#$b#Is that really true?$4",
+				"fall_Thu": "Visiting the library is nice. I like reading different books.#$b#But... what happens when I read all the books in the library? Does that mean there's no more books to read...?$2#$e#I guess... the library has new books sometimes, so I don't have to worry about reading everything.$4#$b#But where do the new books come from? Who writes them?$7",
+				"fall_Sat": "I saw a pearl today. It was so shiny...#$e#Have you ever found a pearl, {{Random: {{FarmerRefFirstborn}} }}?",
+				"fall_Sun": "Why is there a drink that kids can't drink?$4#$b#It smells gross... so I don't know why adults like it.$7",
+				"winter_Mon": "Sometimes I read books that aren't about fish. They're cool, but I like fish more.",
+				"winter_Fri": "There's lots of smelly stuff at the fish store. But I don't hate it.#$e#It smells like worms and bait and fish.",
+				"winter_Sat": "It's possible to fish in the winter.$7#$b#But it's so cold out. It's freezing!$3#$e#Why don't fish freeze in the water? The water's so, so cold...$7",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		{
+            "LogName": "Edit rain dialogue for Elliott's son as firstborn to use genericized version.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+				"{{FirstbornName}}": "I heard that some fish like rain.#$b#How do fish know when it's raining? Can they feel it through the water?$7",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		{
+            "LogName": "Edit dialogue for Elliott's son as firstborn to use single parenting versions.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{FirstbornName}}",
+            "Entries": {
+				"winter_Wed": "I learned to talk really quick, right? Am I smart?$7#$e#I'm really good at reading, too. I think I'm smart.$1",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Single": true,
+			},
+		},
+		
+		//Conditional dialogue (festivals)
+        {
+			"LogName": "Edit Flower Dance dialogue for Elliott's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "I'm trying to learn to dance by watching, but it seems hard...$4",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Fair dialogue for Elliott's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "I want to buy a hat from the stand, and I want to do it by myself.#$e#Maybe one year, I'll be good enough to fish for enough tokens.$5",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Spirit's Eve dialogue for Elliott's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "The monsters won't escape, right? I'm just a little scared...$4",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Winter Star dialogue for Elliott's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "I'm drinking apple cider. The one I have is good for kids to drink, and it smells really delicious.",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		
+		//Conditional dialogue (movies)
+		{
+			"LogName": "Add dialogue for liked movies for Elliott's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+            "TargetField": ["{{FirstbornName}}", "Reactions", "reaction_6", "SpecialResponses"],
+            "Entries": {
+				"BeforeMovie": {
+					"ResponsePoint": null,
+					"Script": null,
+					"Text": "Do you like this movie, {{Random: {{FarmerRefFirstborn}} }}?"
+				},
+				"DuringMovie": null,
+				"AfterMovie": {
+					"ResponsePoint": null,
+					"Script": null,
+					"Text": "That was fun!$5"
+				}
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		
+   ]
+}

@@ -1,0 +1,41 @@
+{
+  "Name": "Lance SUPER SWEET Expanded",
+  "Author": "Aviroen",
+  "Version": "1.0.2",
+  "Description": "Super sweet safe for work version of Lance Expanded",
+  "UniqueID": "Aviroen.LSSE",
+  "UpdateKeys": [ "Nexus:27718" ],
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "TheMightyAmondee.CustomTokens",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Aviroen.LanceExpanded",
+      "IsRequired": false
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

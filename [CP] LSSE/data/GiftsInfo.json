@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    //Gift taste changes over time
+    {
+      //Lance's gift tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "When": { "HasSeenEvent": "6951319" },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Fields", "Lance", "1" ],
+          "Value": "218 {{ModId}}_Khanjar {{ModId}}_Book {{ModId}}_Razor",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

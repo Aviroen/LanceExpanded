@@ -1,0 +1,128 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Khanjar": {
+                    "Name": "Lance's Spare Khanjar",
+                    "DisplayName": "{{i18n:Lance.MonsterHunting}}",
+                    "Description": "{{i18n:Lance.MonsterHunting.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods/{{ModId}}/items",
+                    "SpriteIndex": 8,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Book": {
+                    "Name": "Grandpa's Diary",
+                    "DisplayName": "{{i18n:Lance.GDiary}}",
+                    "Description": "{{i18n:Lance.GDiary.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods/{{ModId}}/items",
+                    "SpriteIndex": 4,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_blue",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Razor": {
+                    "Name": "Lance's Razor",
+                    "DisplayName": "{{i18n:Lance.Razor}}",
+                    "Description": "{{i18n:Lance.Razor.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods/{{ModId}}/items",
+                    "SpriteIndex": 5,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_black",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_QiMomento": {
+                    "Name": "A Momento From Qi",
+                    "DisplayName": "{{i18n:Lance.QiMomento}}",
+                    "Description": "{{i18n:Lance.QiMomento.Description}}",
+                    "Type": "Crafting",
+                    "Category": 8,
+                    "Price": 20,
+                    "Texture": "Mods/{{ModId}}/items",
+                    "SpriteIndex": 5,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/items",
+            "FromFile": "assets/Misc/items.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Grandpa's Diary": "428 1 771 20//{{ModId}}_Book/false/none/{{i18n:Lance.GDiary}}",
+                "Lance's Razor": "335 5//{{ModId}}_Razor/false/none/{{i18n:Lance.Razor}}",
+                "A Momento From Qi": "88 15 832 5 245 5 829 5 348 2 335 5//{{ModId}}_QiMomento/false/none/{{i18n:Lance.QiMomento}}"
+            }
+        }
+    ]
+}

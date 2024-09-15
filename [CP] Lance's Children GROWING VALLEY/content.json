@@ -1,0 +1,444 @@
+{
+  "Format": "2.3.0",
+  "AliasTokenNames": {
+    "FirstbornName": "Candidus42.LittleNPCs/FirstLittleNPCName",
+    "SecondbornName": "Candidus42.LittleNPCs/SecondLittleNPCName",
+  },
+
+  "DynamicTokens": [
+
+    ////////////////////
+    //DIALOGUE PRESETS//
+    ////////////////////
+    {
+      "Name": "FirstbornDialogue",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/FirstbornDialogue}}",
+    },
+    {
+      "Name": "SecondbornDialogue",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/SecondbornDialogue}}",
+    },
+
+
+    ///////////////////
+    //PARENTAL TITLES//
+    ///////////////////
+    {
+      "Name": "FarmerRefFirstborn",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/FarmerRefFirstborn}}",
+    },
+    //GNM Tokens override if no values are set in config
+    {
+      "Name": "FarmerRefFirstborn",
+      "Value": "{{Hana.GNMTokens/ParentalNoun}}",
+      "When": {
+        "HasMod": "Hana.GNMTokens",
+        "HasValue:{{siliconmodding.GVChildrenSMAPI/FarmerRefFirstbornSet}}": false,
+      }
+    },
+    {
+      "Name": "CompanionRefFirstborn",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CompanionRefFirstborn}}",
+    },
+
+
+    {
+      "Name": "FarmerRefSecondborn",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/FarmerRefSecondborn}}",
+    },
+    //GNM Tokens override if no values are set in config
+    {
+      "Name": "FarmerRefSecondborn",
+      "Value": "{{Hana.GNMTokens/ParentalNoun}}",
+      "When": {
+        "HasMod": "Hana.GNMTokens",
+        "HasValue:{{siliconmodding.GVChildrenSMAPI/FarmerRefSecondbornSet}}": false,
+      }
+    },
+    {
+      "Name": "CompanionRefSecondborn",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CompanionRefSecondborn}}",
+    },
+
+    ////////////
+    //PRONOUNS//
+    ////////////
+    {
+      "Name": "CoSub1",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoSubFirst}}",
+    },
+    {
+      "Name": "CoSub2",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoSubSecond}}",
+    },
+
+    {
+      "Name": "CoObj1",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoObjFirst}}",
+    },
+    {
+      "Name": "CoObj2",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoObjSecond}}",
+    },
+
+    {
+      "Name": "CoPD1",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoPDFirst}}",
+    },
+    {
+      "Name": "CoPD2",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoPDSecond}}",
+    },
+
+    {
+      "Name": "CoPos1",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoPosFirst}}",
+    },
+    {
+      "Name": "CoPos2",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoPosSecond}}",
+    },
+
+    {
+      "Name": "CoRef1",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoRefFirst}}",
+    },
+    {
+      "Name": "CoRef2",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoRefSecond}}",
+    },
+
+    {
+      "Name": "CoPlu1",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoPluFirst}}",
+    },
+    {
+      "Name": "CoPlu2",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/CoPluSecond}}",
+    },
+
+    ///////////////////////////////////////
+    //STOPGAP SOLUTION FOR LITTLENPCS BUG//
+    ///////////////////////////////////////
+    {
+      "Name": "LocaleCode",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/LocaleCode}}",
+    },
+
+
+    /////////////////
+    //GENDER CODING// //values can be hardcoded if you want  ///////////ADD COMMENTED OUT EXAMPLE//////////////
+    /////////////////
+
+    {
+      "Name": "FirstbornGenderInternal",
+      "Value": "{{ChildGenders|valueAt=0}}",
+      "When": {
+        "HasValue:{{ChildGenders|valueAt=0}}": true,
+      }
+    },
+    //default firstborn gender
+    {
+      "Name": "FirstbornGender",
+      "Value": "{{ChildGenders|valueAt=0}}",
+      "When": {
+        "HasValue:{{ChildGenders|valueAt=0}}": true,
+      }
+    },
+    {
+      "Name": "FirstbornGender",
+      "Value": "Male",
+      "When": {
+        "HasFlag": "GrowingValley_Firstborn_Male",
+      }
+    },
+    {
+      "Name": "FirstbornGender",
+      "Value": "Female",
+      "When": {
+        "HasFlag": "GrowingValley_Firstborn_Female",
+      }
+    },
+    {
+      "Name": "FirstbornGender",
+      "Value": "Other",
+      "When": {
+        "HasFlag": "GrowingValley_Firstborn_Other",
+      }
+    },
+
+    {
+      "Name": "SecondbornGenderInternal",
+      "Value": "{{ChildGenders|valueAt=1}}",
+      "When": {
+        "HasValue:{{ChildGenders|valueAt=1}}": true,
+      }
+    },
+    //default secondborn gender
+    {
+      "Name": "SecondbornGender",
+      "Value": "{{ChildGenders|valueAt=1}}",
+      "When": {
+        "HasValue:{{ChildGenders|valueAt=1}}": true,
+      }
+    },
+    {
+      "Name": "SecondbornGender",
+      "Value": "Male",
+      "When": {
+        "HasFlag": "GrowingValley_Secondborn_Male",
+      }
+    },
+    {
+      "Name": "SecondbornGender",
+      "Value": "Female",
+      "When": {
+        "HasFlag": "GrowingValley_Secondborn_Female",
+      }
+    },
+    {
+      "Name": "SecondbornGender",
+      "Value": "Other",
+      "When": {
+        "HasFlag": "GrowingValley_Secondborn_Other",
+      }
+    },
+
+    ///////////////
+    //NAME CODING//
+    ///////////////
+
+    //firstborn name
+    {
+      "Name": "FirstbornDisplayName",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/FirstbornNameErrorMessage}}",
+      "When": {
+        "HasValue: {{ChildGenders|valueAt=0}}": false,
+      }
+    },
+    {
+      "Name": "FirstbornDisplayName",
+      "Value": "{{ChildNames|valueAt=0}}",
+      "When": {
+        "HasValue: {{ChildGenders|valueAt=0}}": true,
+      }
+    },
+    {
+      "Name": "FirstbornDisplayName",
+      "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCDisplayName}}",
+      "When": {
+        "HasValue: {{Candidus42.LittleNPCs/FirstLittleNPCDisplayName}}": true,
+      }
+    },
+
+    //secondborn name
+    {
+      "Name": "SecondbornDisplayName",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/SecondbornNameErrorMessage}}",
+      "When": {
+        "HasValue: {{ChildGenders|valueAt=1}}": false,
+      }
+    },
+    {
+      "Name": "SecondbornDisplayName",
+      "Value": "{{ChildNames|valueAt=1}}",
+      "When": {
+        "HasValue: {{ChildGenders|valueAt=1}}": true,
+      }
+    },
+    {
+      "Name": "SecondbornDisplayName",
+      "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCDisplayName}}",
+      "When": {
+        "HasValue: {{Candidus42.LittleNPCs/SecondLittleNPCDisplayName}}": true,
+      }
+    },
+
+    ////////////////////
+    //SKIN TONE CODING//
+    ////////////////////
+
+    //firstborn skin tone
+    {
+      "Name": "FirstbornSkinTone",
+      "Value": "pale",
+      "When": {
+        "siliconmodding.GVChildrenSMAPI/Child:0+isdarkskinned": false,
+      }
+    },
+    {
+      "Name": "FirstbornSkinTone",
+      "Value": "dark",
+      "When": {
+        "siliconmodding.GVChildrenSMAPI/Child:0+isdarkskinned": true,
+      }
+    },
+
+
+    //secondborn skin tone
+    {
+      "Name": "SecondbornSkinTone",
+      "Value": "pale",
+      "When": {
+        "siliconmodding.GVChildrenSMAPI/Child:1+isdarkskinned": false,
+      }
+    },
+    {
+      "Name": "SecondbornSkinTone",
+      "Value": "dark",
+      "When": {
+        "siliconmodding.GVChildrenSMAPI/Child:1+isdarkskinned": true,
+      }
+    },
+
+    ///////////////
+    //GAME STATUS//
+    ///////////////
+
+    //firstborn sibling status
+    {
+      "Name": "SiblingStatus",
+      "Value": "only",
+      "When": {
+        "HasValue: {{ChildGenders|valueAt=1}}": false,
+      }
+    },
+    {
+      "Name": "SiblingStatus",
+      "Value": "newborn",
+      "When": {
+        "HasValue: {{ChildGenders|valueAt=1}}": true,
+      }
+    },
+    {
+      "Name": "SiblingStatus",
+      "Value": "sibling",
+      "When": {
+        "HasValue: {{Candidus42.LittleNPCs/SecondLittleNPCDisplayName}}": true,
+      }
+    },
+
+    //Used for spouse/roommate checks to eliminate the edge case of players with roommates and spouses. The spouse will take priority
+    {
+      "Name": "PlayerCompanion",
+      "Value": "{{Roommate}}",
+      "When": {
+        "HasValue:{{Roommate}}": "true",
+      }
+    },
+    {
+      "Name": "PlayerCompanion",
+      "Value": "{{Spouse}}",
+      "When": {
+        "HasValue:{{Spouse}}": "true",
+      }
+    },
+
+    //Spouse/roommate name
+    {
+      "Name": "CompanionName",
+      "Value": "{{siliconmodding.GVChildrenSMAPI/NPC:{{PlayerCompanion}}+displayName}}",
+    },
+
+
+    ///////////////////////////
+    //COMPRESSED TOKEN PASSES//
+    ///////////////////////////
+    {
+      "Name": "FirstbornTokenPass",
+      "Value": "|ParentFarmer={{Random: {{FarmerRefFirstborn}} }} |CompanionRef={{Random: {{CompanionRefFirstborn}} }} |CoSub={{Random: {{CoSub1}} }} |LCoSub={{lowercase:{{Random: {{CoSub1}} }} }} |CoObj={{Random: {{CoObj1}} }} |LCoObj={{lowercase:{{Random: {{CoObj1}} }} }} |CoPD={{Random: {{CoPD1}} }} |LCoPD={{lowercase:{{Random: {{CoPD1}} }} }} |CoPos={{Random: {{CoPos1}} }} |LCoPos={{lowercase:{{Random: {{CoPos1}} }} }} |CoRef={{Random: {{CoRef1}} }} |LCoRef={{lowercase:{{Random: {{CoRef1}} }} }} |DisplayName={{FirstbornDisplayName}} |SiblingDisplayName={{SecondbornDisplayName}} |CompanionName={{CompanionName}}",
+    },
+    {
+      "Name": "SecondbornTokenPass",
+      "Value": "|ParentFarmer={{Random: {{FarmerRefSecondborn}} }} |CompanionRef={{Random: {{CompanionRefSecondborn}} }} |CoSub={{Random: {{CoSub2}} }} |LCoSub={{lowercase:{{Random: {{CoSub2}} }} }} |CoObj={{Random: {{CoObj2}} }} |LCoObj={{lowercase:{{Random: {{CoObj2}} }} }} |CoPD={{Random: {{CoPD2}} }} |LCoPD={{lowercase:{{Random: {{CoPD2}} }} }} |CoPos={{Random: {{CoPos2}} }} |LCoPos={{lowercase:{{Random: {{CoPos2}} }} }} |CoRef={{Random: {{CoRef2}} }} |LCoRef={{lowercase:{{Random: {{CoRef2}} }} }} |DisplayName={{SecondbornDisplayName}} |SiblingDisplayName={{FirstbornDisplayName}} |CompanionName={{CompanionName}}",
+    },
+
+    /////////////////
+    //COMPATIBILITY//
+    /////////////////
+
+    {
+      "Name": "LRSH_NoSchoolDay",
+      "Value": false,
+    },
+    {
+      "Name": "LRSH_NoSchoolDay",
+      "Value": true,
+      "When": {
+        "day": "9, 23"
+      }
+    },
+
+  ],
+
+
+  "Changes": [
+    ////empty placeholders are loaded by the main Growing Valley mod
+
+    {
+      "LogName": "Trigger actions to clear mail flags for tracking any custom child loads.",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_Remove_AlexDaughter_Firstborn": {
+          "Id": "{{ModId}}_Remove_AlexDaughter_Firstborn",
+          "Trigger": "DayEnding siliconmodding.GVChildrenSMAPI_OnConfigChangedEarly",
+          "Action": "RemoveMail Current {{ModId}}_AlexDaughter_Firstborn",
+          "MarkActionApplied": false,
+        },
+        "{{ModId}}_Remove_AlexSon_Firstborn": {
+          "Id": "{{ModId}}_Remove_AlexSon_Firstborn",
+          "Trigger": "DayEnding siliconmodding.GVChildrenSMAPI_OnConfigChangedEarly",
+          "Action": "RemoveMail Current {{ModId}}_AlexSon_Firstborn",
+          "MarkActionApplied": false,
+        },
+        "{{ModId}}_Remove_EmilySon_Firstborn": {
+          "Id": "{{ModId}}_Remove_EmilySon_Firstborn",
+          "Trigger": "DayEnding siliconmodding.GVChildrenSMAPI_OnConfigChangedEarly",
+          "Action": "RemoveMail Current {{ModId}}_EmilySon_Firstborn",
+          "MarkActionApplied": false,
+        },
+        "{{ModId}}_Remove_EmilyDaughter_Secondborn": {
+          "Id": "{{ModId}}_Remove_EmilyDaughter_Secondborn",
+          "Trigger": "DayEnding siliconmodding.GVChildrenSMAPI_OnConfigChangedEarly",
+          "Action": "RemoveMail Current {{ModId}}_EmilyDaughter_Secondborn",
+          "MarkActionApplied": false,
+        },
+      }
+    },
+
+    ///// RECOMMEND MAKING SPECIFIC MAILFLAGS SO OTHER MODS CAN CHECK YOU/YOU CAN CHECK YOURSELF
+    ///// CONSIDER SPLITTING INTO A SEPARATE INCLUDE SO THAT THIS CONTENT.JSON IS GENERALLY NOT TOUCHED AT ALL
+    ///// ADD MAILFLAGS FOR CHILD GENDER, CLEAN UP GENDER IN MAIN MOD
+    ///// CHANGE PENNY LINE TO USING LOCALIZED TEXT STRINGS......?
+
+
+
+    ///////////////////////////
+    //CHILD FROM PARENT CHECK// /////// No edits recommended
+    ///////////////////////////
+    {
+      "LogName": "Get firstborn by checking the player's spouse/roommate (spouse takes priority), then including their gender_check file. Only runs when a gender_check_firstborn file for the given spouse/roommate is found.",
+      "Action": "Include",
+      "FromFile": "ChildFiles/{{PlayerCompanion}}/gender_check_firstborn.json",
+      "When": {
+        "siliconmodding.GVChildrenSMAPI/FirstbornSelect|contains=DefaultParentCheck": true,
+        "HasFile:{{FromFile}}": true
+      },
+    },
+
+    {
+      "LogName": "Get secondborn by checking the player's spouse/roommate (spouse takes priority), then including their gender_check file. Only runs when a gender_check_secondborn file for the given spouse/roommate is found.",
+      "Action": "Include",
+      "FromFile": "ChildFiles/{{PlayerCompanion}}/gender_check_secondborn.json",
+      "When": {
+        "siliconmodding.GVChildrenSMAPI/SecondbornSelect|contains=DefaultParentCheck": true,
+        "HasFile:{{FromFile}}": true
+      },
+    },
+    //If no child is specified, the default Growing Valley children will apply
+
+    /// SPLIT HARDCODED GENDER BIRTH LINES AND PENNY DIALOGUE INTO SEPARATE INCLUDED TEMPLATE FILES
+
+  ]
+}

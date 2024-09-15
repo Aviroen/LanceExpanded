@@ -1,0 +1,835 @@
+{
+   "Changes": [
+        {
+			"LogName": "Trigger action to add mail flags for tracking a custom child, Alex's son, and a male child as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Add_AlexSon_Firstborn": {
+                    "Id": "{{ModId}}_Add_AlexSon_Firstborn",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current {{ModId}}_AlexSon_Firstborn Received",
+					"MarkActionApplied": false,
+                },
+                "{{ModId}}_Add_GrowingValley_Custom_Firstborn": {
+                    "Id": "{{ModId}}_Add_GrowingValley_Custom_Firstborn",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current GrowingValley_Custom_Firstborn Received",
+					"MarkActionApplied": false,
+                },
+                "{{ModId}}_Add_GrowingValley_Firstborn_Male": {
+                    "Id": "{{ModId}}_Add_GrowingValley_Firstborn_Male",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current GrowingValley_Firstborn_Male Received",
+					"MarkActionApplied": false,
+                },
+			}
+		},
+		
+   		{      
+			"LogName": "Load Alex's son's portraits on firstborn.",
+			"Action": "Load",
+			"Target": "Portraits/{{FirstbornName}}", 
+			"FromFile": "assets/Portraits/David_{{FirstbornSkinTone}}.png",
+		},
+   		{      
+			"LogName": "Load Alex's son's sprites on firstborn.",
+			"Action": "Load",
+			"Target": "Characters/{{FirstbornName}}", 
+			"FromFile": "assets/Characters/David_{{FirstbornSkinTone}}.png",
+		},
+		
+   		{      
+			"LogName": "Load Alex's son's portraits on firstborn (target locale).",
+			"Action": "Load",
+			"TargetLocale": "{{LocaleCode}}",
+			"Target": "Portraits/{{FirstbornName}}", 
+			"FromFile": "assets/Portraits/David_{{FirstbornSkinTone}}.png",
+			"When": {
+				"Language|contains=en": false,
+			},
+		},
+   		{      
+			"LogName": "Load Alex's son's sprites on firstborn (target locale).",
+			"Action": "Load",
+			"TargetLocale": "{{LocaleCode}}",
+			"Target": "Characters/{{FirstbornName}}", 
+			"FromFile": "assets/Characters/David_{{FirstbornSkinTone}}.png",
+			"When": {
+				"Language|contains=en": false,
+			},
+		},
+		
+		{
+			"LogName": "Add gift tastes for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{FirstbornName}}": "{{i18n:LeahChild.GiftTastes.Love {{FirstbornTokenPass}} }}/196 200 606 426 MysticTreeSeed Broccoli/{{i18n:LeahChild.GiftTastes.Like {{FirstbornTokenPass}} }}/-2 -5 -6 -79 -81 18 169 430 69 251 628 629 630 631 632 633/{{i18n:LeahChild.GiftTastes.Dislike {{FirstbornTokenPass}} }}/16 248 829 260 food_spicy chili_item/{{i18n:LeahChild.GiftTastes.Hate {{FirstbornTokenPass}} }}/alcohol_item 300 212/{{i18n:LeahChild.GiftTastes.Neutral {{FirstbornTokenPass}} }}/tree_seed_item 805 coffee_item 397 721 388 709/",
+			}
+		},
+		{
+			"LogName": "Fill firstborn's empty schedule with that of Alex's son.",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{FirstbornName}}",
+			"Entries": {
+				"rain": "830 Forest 64 50 2/1300 Forest 38 10 2/1730 bed",
+				"GreenRain": "830 Forest 105 33 3/1500 Forest 38 10 2/1730 bed",
+				"Mon": "830 Forest 64 50 2 \"Strings\\schedules\\{{FirstbornName}}:Mon.000\"/1500 Forest 105 34 2/1730 bed",
+				"Tue": "MAIL beenToWoods/GOTO Tue_normal/730 Woods 12 18 2 \"Strings\\schedules\\{{FirstbornName}}:Tue.000\"/1700 bed",
+				"Tue_normal": "GOTO season",
+				"winter": "900 Forest 41 9 2/1400 Forest 21 29 1/1630 bed",
+				"fall": "900 Forest 41 9 2/1400 Town 94 26 3 square_1_5_3/1800 bed",
+				"summer": "MAIL beachBridgeFixed/GOTO summer_noBridge/830 Beach 81 17 2/1800 bed",
+				"summer_noBridge": "830 Beach 41 24 2/1800 bed",
+				"spring": "830 Forest 105 34 2/1500 Forest 35 25 2/1800 bed",
+				"DesertFestival_1": "900 Desert 3 16 1 \"Strings\\schedules\\{{FirstbornName}}:DesertFestival.000\"/2520 bed",
+			}
+		},
+		
+		//David will visit the woods on Thursdays instead with LRSH installed
+		{
+			"LogName": "Add Little Red School House schedule for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{FirstbornName}}",
+			"Entries": {
+				"Tue": "a1000 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.000\"/1130 Town 58 38 1 \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.001\"/1210 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read/1550 Town 94 26 3 square_1_5_3/1820 bed",
+				"Wed": "GOTO Tue",
+				"Thu": "MAIL beenToWoods/GOTO Tue_normal/730 Woods 12 18 2 \"Strings\\schedules\\{{FirstbornName}}:Tue.000\"/1700 bed",
+				"Fri": "GOTO Tue",
+			},
+			"When": {
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+				"LRSH_NoSchoolDay": false,
+			},
+		},
+		{
+			"LogName": "Add Little Red School House schedule for Alex's son as firstborn (rain).",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{FirstbornName}}",
+			"Entries": {
+				"rain": "a1000 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.000\"/1130 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_sit \"Strings\\schedules\\{{FirstbornName}}:Schoolhouse.002\"/a1250 Custom_SchoolHouse 8 16 1 {{FirstbornName}}_read/1550 Town 46 32 2/1730 bed",
+			},
+			"When": {
+				"DayOfWeek": "Tuesday, Wednesday, Friday",
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+				"LRSH_NoSchoolDay": false,
+			},
+		},
+		{
+			"LogName": "Fill firstborn's empty schedule dialogue with that of Alex's son.",
+			"Action": "EditData",
+			"Target": "Strings/schedules/{{FirstbornName}}",
+			"Entries": {
+				"Mon.000": "{{i18n:LeahChild.Schedule.Mon.000_plural_{{CoPlu1}} {{FirstbornTokenPass}} }}",
+				"Tue.000": "{{i18n:LeahChild.Schedule.Tue.000 {{FirstbornTokenPass}} }}",
+				"DesertFestival.000": "{{i18n:LeahChild.Schedule.DesertFestival.000 {{FirstbornTokenPass}} }}",
+				"Schoolhouse.000": "{{i18n:LeahChild.Schedule.Schoolhouse.000 {{FirstbornTokenPass}} }}",
+				"Schoolhouse.001": "{{i18n:LeahChild.Schedule.Schoolhouse.001 {{FirstbornTokenPass}} }}",
+				"Schoolhouse.002": "{{i18n:LeahChild.Schedule.Schoolhouse.002 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+		{
+			"LogName": "Fill firstborn's empty dialogue with that of Alex's son.",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{FirstbornName}}",
+			"Entries": {
+				"AcceptBirthdayGift_Positive": "{{i18n:LeahChild.Dialogue.BirthdayGift_Positive {{FirstbornTokenPass}} }}",
+				"AcceptBirthdayGift_Negative": "{{i18n:LeahChild.Dialogue.BirthdayGift_Negative {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)StardropTea": "{{i18n:LeahChild.Dialogue.Gift_StardropTea {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)MysticTreeSeed": "{{i18n:LeahChild.Dialogue.Gift_MysticTreeSeed {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)891": "{{i18n:LeahChild.Dialogue.Gift_MysticTreeSeed {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)74": "{{i18n:LeahChild.Dialogue.Gift_PrismaticShard {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)196": "{{i18n:LeahChild.Dialogue.Gift_Salad {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)69": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)251": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)628": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)629": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)630": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)631": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)632": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)633": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)835": "{{i18n:LeahChild.Dialogue.Gift_sapling_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_category_gem": "{{i18n:LeahChild.Dialogue.Gift_category_gem {{FirstbornTokenPass}} }}",
+				"AcceptGift_coffee_item": "{{i18n:LeahChild.Dialogue.Gift_coffee_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_tree_seed_item": "{{i18n:LeahChild.Dialogue.Gift_tree_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)805": "{{i18n:LeahChild.Dialogue.Gift_tree_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)MossySeed": "{{i18n:LeahChild.Dialogue.Gift_tree_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)16": "{{i18n:LeahChild.Dialogue.Gift_spicy_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)248": "{{i18n:LeahChild.Dialogue.Gift_spicy_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)260": "{{i18n:LeahChild.Dialogue.Gift_spicy_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)829": "{{i18n:LeahChild.Dialogue.Gift_spicy_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_food_spicy": "{{i18n:LeahChild.Dialogue.Gift_spicy_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_chili_item": "{{i18n:LeahChild.Dialogue.Gift_spicy_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_alcohol_item": "{{i18n:LeahChild.Dialogue.Gift_alcohol_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)212": "{{i18n:LeahChild.Dialogue.Gift_amaranth_item {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)300": "{{i18n:LeahChild.Dialogue.Gift_amaranth_item {{FirstbornTokenPass}} }}",
+				"Resort_Entering": "{{i18n:LeahChild.Dialogue.Resort_Entering {{FirstbornTokenPass}} }}",
+				"Resort_Leaving": "{{i18n:LeahChild.Dialogue.Resort_Leaving {{FirstbornTokenPass}} }}",
+				"Resort": "{{i18n:LeahChild.Dialogue.Resort {{FirstbornTokenPass}} }}",
+				"GreenRain": "{{i18n:LeahChild.Dialogue.GreenRain {{FirstbornTokenPass}} }}",
+				"Mon": "{{i18n:LeahChild.Dialogue.Mon {{FirstbornTokenPass}} }}",
+				"Tue": "{{i18n:LeahChild.Dialogue.Tue {{FirstbornTokenPass}} }}",
+				"Wed": "{{i18n:LeahChild.Dialogue.Wed {{FirstbornTokenPass}} }}",
+				"Thu": "{{i18n:LeahChild.Dialogue.Thu {{FirstbornTokenPass}} }}",
+				"Fri": "{{i18n:LeahChild.Dialogue.Fri {{FirstbornTokenPass}} }}",
+				"Sat": "{{i18n:LeahChild.Dialogue.Sat {{FirstbornTokenPass}} }}",
+				"Sun": "{{i18n:LeahChild.Dialogue.Sun {{FirstbornTokenPass}} }}",
+				"summer_Mon": "{{i18n:LeahChild.Dialogue.summer_Mon {{FirstbornTokenPass}} }}",
+				"summer_Tue": "{{i18n:LeahChild.Dialogue.summer_Tue {{FirstbornTokenPass}} }}",
+				"summer_Wed": "{{i18n:LeahChild.Dialogue.summer_Wed {{FirstbornTokenPass}} }}",
+				"summer_Thu": "{{i18n:LeahChild.Dialogue.summer_Thu {{FirstbornTokenPass}} }}",
+				"summer_Fri": "{{i18n:LeahChild.Dialogue.summer_Fri {{FirstbornTokenPass}} }}",
+				"summer_Sat": "{{i18n:LeahChild.Dialogue.summer_Sat {{FirstbornTokenPass}} }}",
+				"summer_Sun": "{{i18n:LeahChild.Dialogue.summer_Sun {{FirstbornTokenPass}} }}",
+				"fall_Mon": "{{i18n:LeahChild.Dialogue.fall_Mon {{FirstbornTokenPass}} }}",
+				"fall_Tue": "{{i18n:LeahChild.Dialogue.fall_Tue {{FirstbornTokenPass}} }}",
+				"fall_Wed": "{{i18n:LeahChild.Dialogue.fall_Wed {{FirstbornTokenPass}} }}",
+				"fall_Thu": "{{i18n:LeahChild.Dialogue.fall_Thu {{FirstbornTokenPass}} }}",
+				"fall_Fri": "{{i18n:LeahChild.Dialogue.fall_Fri {{FirstbornTokenPass}} }}",
+				"fall_Sat": "{{i18n:LeahChild.Dialogue.fall_Sat {{FirstbornTokenPass}} }}",
+				"fall_Sun": "{{i18n:LeahChild.Dialogue.fall_Sun {{FirstbornTokenPass}} }}",
+				"winter_Mon": "{{i18n:LeahChild.Dialogue.winter_Mon {{FirstbornTokenPass}} }}",
+				"winter_Tue": "{{i18n:LeahChild.Dialogue.winter_Tue {{FirstbornTokenPass}} }}",
+				"winter_Wed": "{{i18n:LeahChild.Dialogue.winter_Wed {{FirstbornTokenPass}} }}",
+				"winter_Thu": "{{i18n:LeahChild.Dialogue.winter_Thu {{FirstbornTokenPass}} }}",
+				"winter_Fri": "{{i18n:LeahChild.Dialogue.winter_Fri {{FirstbornTokenPass}} }}",
+				"winter_Sat": "{{i18n:LeahChild.Dialogue.winter_Sat {{FirstbornTokenPass}} }}",
+				"winter_Sun": "{{i18n:LeahChild.Dialogue.winter_Sun {{FirstbornTokenPass}} }}",
+			}
+		},
+		{
+            "LogName": "Add rain dialogue for Alex's son as firstborn.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+				"{{FirstbornName}}": "{{i18n:LeahChild.Dialogue.Rain {{FirstbornTokenPass}} }}",
+			}
+		},
+		
+		{
+            "LogName": "Add animations for Alex's son as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries":
+            {
+                "{{FirstbornName}}_sit": "16/16/16",
+                "{{FirstbornName}}_read": "17/17/17",
+			}
+		},
+		
+		
+        {
+            "LogName": "Add Alex's son to Egg Festival as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 26 67 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 31 60 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 28 69 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 24 64 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Egg Festival dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.spring13_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.spring13_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Flower Dance as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 19 41 3",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 14 31 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 6 21 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 6 30 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Flower Dance dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.spring24_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.spring24_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Luau as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 47 13 3",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 34 20 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 22 15 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up_y2", 5],
+                    "Value": "/positionOffset {{FirstbornName}} 0 -13",
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 23 18 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Luau dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.summer11_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.summer11_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Moonlight Jellies as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 85 40 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 26 36 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 53 24 2",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 24 33 3",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Moonlight Jellies dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.summer28_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.summer28_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Fair as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 34 79 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 52 77 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Fair dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.fall16_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.fall16_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Spirit's Eve as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 28 66 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 14 61 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Spirit's Eve dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.fall27_y1_plural_{{CoPlu1}} {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.fall27_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Festival of Ice as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 68 15 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 69 27 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 73 18 1",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 63 35 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Festival of Ice dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.winter8_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.winter8_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+        {
+            "LogName": "Add Alex's son to Winter Star as firstborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{FirstbornName}} 25 74 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{FirstbornName}} 28 60 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Winter Star dialogue for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.winter25_y1 {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.winter25_y2 {{FirstbornTokenPass}} }}",
+			},
+		},
+		
+		{
+			"LogName": "Add movie concession tastes for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				2:{
+					"Name": "{{FirstbornName}}",
+					"LovedTags": [
+					  "Truffle Popcorn",
+					  "Panzanella Salad",
+					],
+					"LikedTags": [
+					  "Sweet",
+					  "Healthy",
+					],
+					"DislikedTags": [
+					  "Fatty",
+					  "Jawbreaker",
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Add movie reactions for Alex's son as firstborn.",
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				2:{
+					"NPCName": "{{FirstbornName}}",
+					"Reactions": [
+					  {
+						"Tag": "*",
+						"Response": "love",
+						"Whitelist": [
+						  "{{PlayerCompanion}}",
+						],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.With_Parent_Before {{FirstbornTokenPass}} }}"
+						  },
+						  "DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "/message \"{{i18n:GeneralChildren.Movie.With_Parent_Script {{FirstbornTokenPass}} }}\"",
+							"Text": null
+						  },
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.With_Parent_After {{FirstbornTokenPass}} }}"
+						  }
+						},
+						"Id": "reaction_3"
+					  },
+					  {
+						"Tag": "spring_movie_0",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.spring_0_Before {{FirstbornTokenPass}} }}"
+						  },
+						  "DuringMovie":  {
+							"ResponsePoint": "sprout_leave",
+							"Script": "/message \"{{i18n:LeahChild.Movie.spring_0_Script {{FirstbornTokenPass}} }}\"",
+							"Text": "{{i18n:LeahChild.Movie.spring_0_During {{FirstbornTokenPass}} }}"
+						  },
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.spring_0_After {{FirstbornTokenPass}} }}"
+						  }
+						},
+						"Id": "reaction_4"
+					  },
+					  {
+						"Tag": "family",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_0"
+					  },
+					  {
+						"Tag": "horror",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_1"
+					  },
+					  {
+						"Tag": "*",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_2"
+					  },
+					  {
+						"Tag": "love",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.love_Before {{FirstbornTokenPass}} }}"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.love_After {{FirstbornTokenPass}} }}"
+						  }
+						},
+						"Id": "reaction_5"
+					  },
+					  {
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.like_Before {{FirstbornTokenPass}} }}"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.like_After {{FirstbornTokenPass}} }}"
+						  }
+						},
+						"Id": "reaction_6"
+					  },
+					  {
+						"Tag": "dislike",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.dislike_Before {{FirstbornTokenPass}} }}"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "{{i18n:LeahChild.Movie.dislike_After {{FirstbornTokenPass}} }}"
+						  }
+						},
+						"Id": "reaction_7"
+					  }
+					]
+				}
+			}
+		},
+		
+		
+		{
+			"LogName": "Edit Little Red School House map string for Growing Valley; Alex's son as firstborn..",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+            "Entries": {
+				"Desk.18": "{{i18n:Schoolhouse.Desk18.LeahChild {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+			},
+		},
+		
+		//Conditional dialogue (schedules)
+		{
+            "LogName": "Edit schedule dialogue for Alex's son as firstborn to use genericized versions.",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{FirstbornName}}",
+            "Entries": {
+				"Mon.000": "{{i18n:LeahChild.Schedule.Mon.000.noncanon {{FirstbornTokenPass}} }}",
+				"Schoolhouse.000": "{{i18n:LeahChild.Schedule.Schoolhouse.000.noncanon {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		{
+            "LogName": "Edit schedule dialogue for Alex's son as firstborn to use single parenting versions.",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{FirstbornName}}",
+            "Entries": {
+				"Tue.000": "{{i18n:LeahChild.Schedule.Tue.000.single {{FirstbornTokenPass}} }}",
+				"DesertFestival.000": "{{i18n:LeahChild.Schedule.DesertFestival.000.single {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Single": true,
+			},
+		},
+		
+		//Conditional dialogue (regular)
+		{
+            "LogName": "Edit dialogue for Alex's son as firstborn to use genericized versions.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{FirstbornName}}",
+            "Entries": {
+				"AcceptGift_(O)StardropTea": "{{i18n:LeahChild.Dialogue.Gift_StardropTea.noncanon {{FirstbornTokenPass}} }}",
+				"AcceptGift_(O)196": "{{i18n:LeahChild.Dialogue.Gift_Salad.noncanon {{FirstbornTokenPass}} }}",
+				"Thu": "{{i18n:LeahChild.Dialogue.Thu.noncanon {{FirstbornTokenPass}} }}",
+				"summer_Thu": "{{i18n:LeahChild.Dialogue.summer_Thu.noncanon {{FirstbornTokenPass}} }}",
+				"summer_Sat": "{{i18n:LeahChild.Dialogue.summer_Sat.noncanon {{FirstbornTokenPass}} }}",
+				"fall_Wed": "{{i18n:LeahChild.Dialogue.fall_Wed.noncanon {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		{
+            "LogName": "Edit dialogue for Alex's son as firstborn to use single parenting versions.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{FirstbornName}}",
+            "Entries": {
+				"AcceptGift_(O)196": "{{i18n:LeahChild.Dialogue.Gift_Salad.single {{FirstbornTokenPass}} }}",
+				"Mon": "{{i18n:LeahChild.Dialogue.Mon.single {{FirstbornTokenPass}} }}",
+				"Wed": "{{i18n:LeahChild.Dialogue.Wed.single {{FirstbornTokenPass}} }}",
+				"summer_Fri": "{{i18n:LeahChild.Dialogue.summer_Fri.single_{{SiblingStatus}} {{FirstbornTokenPass}} }}",
+				"winter_Sun": "{{i18n:LeahChild.Dialogue.winter_Sun.single {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Single": true,
+			},
+		},
+		
+		//Conditional dialogue (festivals)
+        {
+			"LogName": "Edit Flower Dance dialogue for Alex's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.spring24_y1.noncanon {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Spirit's Eve dialogue for Alex's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.fall27_y1.noncanon {{FirstbornTokenPass}} }}",
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.fall27_y2.noncanon {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Add Festival of Ice dialogue for Alex's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.winter8_y2.noncanon {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Add Winter Star dialogue for Alex's son as firstborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.winter25_y2.noncanon {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		
+        {
+			"LogName": "Edit Flower Dance dialogue for Alex's son as firstborn to use single parenting versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				 "{{FirstbornName}}": "{{i18n:LeahChild.Festivals.spring24_y1.single {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Fair dialogue for Alex's son as firstborn to use single parenting versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.fall16_y2.single {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Single": true,
+			},
+		},
+        {
+			"LogName": "Add Festival of Ice dialogue for Alex's son as firstborn to use single parenting versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				 "{{FirstbornName}}_y2": "{{i18n:LeahChild.Festivals.winter8_y2.single {{FirstbornTokenPass}} }}",
+			},
+			"When": {
+				"FirstbornDialogue|contains=Single": true,
+			},
+		},
+		
+   ]
+}

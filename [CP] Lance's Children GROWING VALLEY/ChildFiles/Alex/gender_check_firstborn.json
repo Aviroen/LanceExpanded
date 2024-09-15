@@ -1,0 +1,20 @@
+{
+   "Changes": [
+   		{      
+			"LogName": "Load Alex's daughter as firstborn when firstborn internal gender is female.",
+			"Action": "Include",
+			"FromFile": "ChildFiles/Alex/female_firstborn_Alex.json", 
+			"When": {
+				"FirstbornGenderInternal": "Female"
+			}
+		},
+   		{      
+			"LogName": "Load Alex's son as firstborn when firstborn internal gender is male.",
+			"Action": "Include",
+			"FromFile": "ChildFiles/Alex/male_firstborn_Alex.json", 
+			"When": {
+				"FirstbornGenderInternal": "Male"
+			}
+		},
+   ]
+}

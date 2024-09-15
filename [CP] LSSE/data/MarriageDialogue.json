@@ -1,0 +1,140 @@
+{
+  "Changes": [
+    {
+      //Lance's Engagement Dialogue
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "When": {
+        "HasSeenEvent": "6951319"
+      },
+      "Entries": {
+        "Lance0": "{{i18n:Engagement.Lance.1.1}}$99",
+        "Lance1": "{{i18n:Engagement.Lance.1.2}}$13"
+      }
+    },
+    {
+      "LogName": "Load Marriage Dialogue",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Dialogue/MarriageDialogueLance",
+      "FromFile": "data/Blank.json"
+    },
+    {
+      "LogName": "Marriage Dialogue - Base",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueLance",
+      "Entries": {
+        //SPECIAL DIALOGUE
+        "patio_Lance": "{{i18n:LancepatioMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        //weather_Day_<random> 0-4
+        "Indoor_Day_0": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Indoor_Day_1": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Indoor_Day_2": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Indoor_Day_3": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Indoor_Day_4": "{{i18n:LanceindoorMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+
+        "Rainy_Day_0": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Rainy_Day_1": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Rainy_Day_2": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Rainy_Day_3": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+        "Rainy_Day_4": "{{i18n:LancerainyMarriageDialogue_{{Random:{{Range: 0, 4}}}}}}",
+
+        "Indoor_Night_Lance": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Indoor_Night_0": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Indoor_Night_1": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Indoor_Night_2": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Indoor_Night_3": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Indoor_Night_4": "{{i18n:LanceIndoor_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        "Rainy_Night_Lance": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Rainy_Night_0": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Rainy_Night_1": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Rainy_Night_2": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Rainy_Night_3": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Rainy_Night_4": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Rainy_Night_5": "{{i18n:LanceRainy_NightMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        //<weather>_Day_<random>
+
+        "funLeave_Lance": "{{i18n:LancefunLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        //"jobLeave_Lance": "{{i18n:LancejobLeaveMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        "funReturn_Lance": "{{i18n:LancefunReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        //"jobReturn_Lance": "{{i18n:LancejobReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        "Outdoor_Lance": "{{i18n:LanceOutdoorMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Outdoor_0": "{{i18n:LanceOutdoorMarriageDialogue_0}}",
+        "Outdoor_1": "{{i18n:LanceOutdoorMarriageDialogue_1}}",
+        "Outdoor_2": "{{i18n:LanceOutdoorMarriageDialogue_2}}",
+        "Outdoor_3": "{{i18n:LanceOutdoorMarriageDialogue_3}}",
+        "Outdoor_4": "{{i18n:LanceOutdoorMarriageDialogue_4}}",
+
+        "spouseRoom_Lance": "{{i18n:LancespouseRoomMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+
+        "OneKid_0": "{{i18n:LanceOneKidMarriageDialogue_0}}",
+        "OneKid_1": "{{i18n:LanceOneKidMarriageDialogue_1}}",
+        "OneKid_2": "{{i18n:LanceOneKidMarriageDialogue_2}}",
+        "OneKid_3": "{{i18n:LanceOneKidMarriageDialogue_3}}",
+        "OneKid_4": "{{i18n:LanceOneKidMarriageDialogue_4}}",
+
+        "TwoKids_0": "{{i18n:LanceTwoKidsMarriageDialogue_0}}",
+        "TwoKids_1": "{{i18n:LanceTwoKidsMarriageDialogue_1}}",
+        "TwoKids_2": "{{i18n:LanceTwoKidsMarriageDialogue_2}}",
+        "TwoKids_3": "{{i18n:LanceTwoKidsMarriageDialogue_3}}",
+        "TwoKids_4": "{{i18n:LanceTwoKidsMarriageDialogue_4}}",
+
+        "Good_0": "{{i18n:LancegoodMarriageDialogue_0}}",
+        "Good_1": "{{i18n:LancegoodMarriageDialogue_1}}",
+        "Good_2": "{{i18n:LancegoodMarriageDialogue_2}}",
+        "Good_3": "{{i18n:LancegoodMarriageDialogue_3}}",
+        "Good_4": "{{i18n:LancegoodMarriageDialogue_4}}",
+        "Good_5": "{{i18n:LancegoodMarriageDialogue_5}}",
+        "Good_6": "{{i18n:LancegoodMarriageDialogue_6}}",
+        "Good_7": "{{i18n:LancegoodMarriageDialogue_7}}",
+
+        "Neutral_0": "{{i18n:LanceneutMarriageDialogue_0}}",
+        "Neutral_1": "{{i18n:LanceneutMarriageDialogue_1}}",
+        "Neutral_2": "{{i18n:LanceneutMarriageDialogue_2}}",
+        "Neutral_3": "{{i18n:LanceneutMarriageDialogue_3}}",
+        "Neutral_4": "{{i18n:LanceneutMarriageDialogue_4}}",
+        "Neutral_5": "{{i18n:LanceneutMarriageDialogue_5}}",
+        "Neutral_6": "{{i18n:LanceneutMarriageDialogue_6}}",
+        "Neutral_7": "{{i18n:LanceneutMarriageDialogue_7}}",
+
+        "Bad_0": "{{i18n:LancebadMarriageDialogue_0}}",
+        "Bad_1": "{{i18n:LancebadMarriageDialogue_1}}",
+        "Bad_2": "{{i18n:LancebadMarriageDialogue_2}}",
+        "Bad_3": "{{i18n:LancebadMarriageDialogue_3}}",
+        "Bad_4": "{{i18n:LancebadMarriageDialogue_4}}",
+        "Bad_5": "{{i18n:LancebadMarriageDialogue_5}}",
+        "Bad_6": "{{i18n:LancebadMarriageDialogue_6}}",
+        "Bad_7": "{{i18n:LancebadMarriageDialogue_7}}",
+        //"Indoor_Day_Lance": "{{i18n:LanceIndoor_DayMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "SpouseFarmhouseClutter_Lance": "{{i18n:LanceSpouseFarmhouseClutterMarriageDialogue_0}}",
+        "SpouseGiftJealous_Lance": "{{i18n:LanceSpouseGiftJealousMarriageDialogue_0}}",
+        "Spouse_MonstersInHouse_Lance": "{{i18n:LanceSpouse_MonstersInHouseMarriageDialogue_0}}",
+        "SpouseStardrop_Lance": "{{i18n:LanceSpouseStardropMarriageDialogue_0}}",
+        "DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}",
+
+        //SEASONAL DIALOGUE
+        "spring_1": "{{i18n:Lance.MarriageDialogue.016}}",
+        "spring_13": "{{i18n:Lance.MarriageDialogue.017}}",
+        "spring_24": "{{i18n:Lance.MarriageDialogue.018}}",
+        "summer_1": "{{i18n:Lance.MarriageDialogue.020}}",
+        "summer_11": "{{i18n:Lance.MarriageDialogue.021}}",
+        "summer_28": "{{i18n:Lance.MarriageDialogue.022}}",
+        "fall_1": "{{i18n:Lance.MarriageDialogue.024}}",
+        "fall_6": "{{i18n:Lance.MarriageDialogue.025}}",
+        "fall_16": "{{i18n:Lance.MarriageDialogue.026}}",
+        "fall_27": "{{i18n:Lance.MarriageDialogue.spirit.{{Random:{{Range: 0, 5}}}}}}",
+        //DAY DIALOGUE
+        "spring_Lance": "{{i18n:Lance.MarriageDialogue_Spring{{Random:{{Range: 0, 13}}}}}}",
+        "summer_Lance": "{{i18n:Lance.MarriageDialogue_Summer{{Random:{{Range: 0, 13}}}}}}",
+        "fall_Lance": "{{i18n:Lance.MarriageDialogue_Fall{{Random:{{Range: 0, 13}}}}}}",
+        "winter_Lance": "{{i18n:Lance.MarriageDialogue_Winter{{Random:{{Range: 0, 13}}}}}}"
+      }
+    }
+  ]
+}

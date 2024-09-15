@@ -1,0 +1,37 @@
+{
+    "Name": "Growing Valley: Aviroen's Lance Expanded",
+    "Author": "Aviroen",
+    "Version": "1.0.0",
+    "Description": "Aviroen breaking Silicon's custom children mods",
+    "UniqueID": "Aviroen.LEGV",
+    "UpdateKeys": [""],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher" 
+		},
+	"Dependencies": [
+		{
+			"UniqueID": "Pathoschild.ContentPatcher",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Candidus42.LittleNPCs",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "siliconmodding.GVChildrenSMAPI",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Xiddav.LittleRedSchoolHouse",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Aviroen.LanceExpanded",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Aviroen.LanceSuperSweetExpanded",
+			"IsRequired": false
+		}
+	]
+}

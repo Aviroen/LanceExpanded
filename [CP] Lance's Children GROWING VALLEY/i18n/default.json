@@ -1,0 +1,298 @@
+{
+	//Anything after two slashes ("//") is a comment. I like to leave comments for translators to add context.
+	//Only Clara and David's dialogue is included with i18n in this sample. Lizzie and Elias's dialogue are included directly in their files so that they can be visualized more easily.
+	
+	///////////////////////////
+	//CLARA (ALEX'S DAUGHTER)//
+	///////////////////////////
+	
+	//Notes: "Gridball" is the English name of the sport Alex likes, and is a fictional sport (the name is probably to avoid confusion between the American and European meanings of "football"). In most languages, this was probably changed to the translation of American football.
+	
+	"AlexChild.Dialogue.BirthdayGift_Positive": "I got a birthday gift from {{ParentFarmer}}! Yay!$1",
+	"AlexChild.Dialogue.BirthdayGift_Negative": "Oh... is this for my birthday? I don't want it...$3",
+	
+	"AlexChild.GiftTastes.Love": "This's the best! Thanks, {{ParentFarmer}}!$1",
+	"AlexChild.Dialogue.Gift_StardropTea": "Yummy! It's like syrup and fluffy eggs.$1",
+	"AlexChild.Dialogue.Gift_Omelet": "An omelet! It's yummy... You made it fluffy and yummy like {{CompanionRef}} does!$1",
+	"AlexChild.Dialogue.Gift_Pancakes": "Mmm! I love pancakes! These are sooo syrupy.$1",
+	"AlexChild.Dialogue.Gift_GoldenSpur": "This makes me faster? Really? Okay, I'll wear it!$7",
+	
+	"AlexChild.GiftTastes.Like": "I like this! This's great.$7",
+	"AlexChild.Dialogue.Gift_CompleteBreakfast": "Oh... I think I can't eat all of this.$3#$b#I know! I'll share some with {{CompanionRef}}!$7",
+	"AlexChild.Dialogue.Gift_category_vegetable": "Vegetables'll make me grow strong!$5#$b#Pffptht!!$6#$b#...I'm okay!$1", //She gags/spits out the vegetable
+	
+	"AlexChild.GiftTastes.Neutral": "What's this for? It's for me? Okay.",
+	
+	"AlexChild.GiftTastes.Dislike": "That's a bad gift. I don't like it.$4",
+	"AlexChild.Dialogue.Gift_category_flowers": "Can I eat this plant? ...Oh. Then, I don't really want it.$3",
+	"AlexChild.Dialogue.Gift_coffee_item": "What's that? I think I can't drink it.$3",
+	
+	"AlexChild.GiftTastes.Hate": "This's yucky bad garbage.$4",
+	"AlexChild.Dialogue.Gift_alcohol_item": "Yuck. I don't like that smell.$4",
+	"AlexChild.Dialogue.Gift_nuts_item": "Um... I'm allergic to that, {{ParentFarmer}}. That means I can't eat it.$3",
+	
+	"AlexChild.Dialogue.Rain": "Rain sucks. I wanna run outside without wet shoes and socks.$4",
+	"AlexChild.Dialogue.GreenRain": "So many plants everywhere... It's like a jungle gym!$3",
+	"AlexChild.Dialogue.Resort_Entering": "There's so much sun and sand!$1",
+	"AlexChild.Dialogue.Resort_Leaving": "I don't wanna go back yet...$2",
+	"AlexChild.Dialogue.Resort": "I can't swim yet...$3#$b#But once I learn, I'll swim all the way home from here.$5",
+	
+	"AlexChild.Schedule.Sun.000": "I can run faster than that!%noturn$7", //What she says when watching sports at the Stardrop Saloon
+	"AlexChild.Schedule.Sun.001": "I wish we could bring Dusty home. But {{CompanionRef}} says he gets scared when things change.$3#$b#I wonder why's that?$3",
+	"AlexChild.Schedule.Mon.000": "I'm here with {{CompanionRef}} to see great Gramma and Grampa.",
+	"AlexChild.Schedule.DesertFestival.000": "Why can't there be a people race too...?$2", //She's talking about the race at the Desert Festival, where players can bet on an animal. She's phrased what she wants as a "people race", but she means "a racing competition for humans".
+	
+	"AlexChild.Dialogue.Mon": "I like going into town with {{CompanionRef}}!$1#$e#Great Gramma and Grampa are so old their hair's all white and gone. They must be a bajillion years old.$0",
+	"AlexChild.Dialogue.Tue": "The forest has a door in the wall. I wonder what it's for?$3#$e#Do you know what I'm talking about, {{ParentFarmer}}? It's got words on it.$3#$b#I can read! I just didn't try to read it.$4", //she's talking about the Mastery Cave, which has a door in a cliff in the Forest
+	"AlexChild.Dialogue.Wed": "Vincent tried to give me a granola bar...$3#$b#I was careful and I checked the ingredients like {{CompanionRef}} told me to do.$5#$e#It said tree nuts on it, so I didn't eat it.#$b#I did good, right?$1",
+	"AlexChild.Dialogue.Thu": "There's onions in the forest. They taste okay, but they're better without all the dirt.", //she's talking about the Spring Onions that can be found in the forest
+	"AlexChild.Dialogue.Fri": "Why can't people fly like birds? Flying would be even better than running.$3#$e#Since I can't fly, I should get really good at running. Then I don't need to fly!$5",
+	"AlexChild.Dialogue.Sat": "Aah... Aaah...$3#$b#Achoo!$6#$b#Buh... my nose's all stuffy... But I wanna run...$2",
+	"AlexChild.Dialogue.Sun": "Sundays are when the gridball games are!$1#$b#Sundays are the best.$7",
+	
+	"AlexChild.Dialogue.summer_Mon": "I like visiting great Gramma and Grampa 'cause great Gramma makes good cookies.$1#$e#Maybe I can learn to make her cookies?",
+	"AlexChild.Dialogue.summer_Tue": "Running on sand's different from running on dirt or stone. My feet move around in the sand so much.$3",
+	"AlexChild.Dialogue.summer_Wed": "{{CompanionRef}} told me to clean my shirt 'cause I got mud on it. But I don't feel the mud at all.$3#$e#I'm gonna keep wearing this shirt until it gets muddy everywhere.#$b#Then I save water. And I don't have to change!$5",
+	"AlexChild.Dialogue.summer_Thu": "There's sand in my shoe. It won't come out.$3#$e#When I turn it upside down and look inside, I can't even see it...$3#$b#Phthpfft!!$6#$e#The sand got in my mouth!!$4#$e#It's gone from my shoe now. That's good.$0",
+	"AlexChild.Dialogue.summer_Fri": "Miss Haley gave me this... thing. It's a necklace, or a bracelet... or something.$3#$b#I don't wanna wear it. Do you want it, {{ParentFarmer}}?$3",
+	"AlexChild.Dialogue.summer_Sat": "Summer's the best because of all the sun. It feels good and warm on my face and my skin.$1#$e#The problem's that I get super hot from running.$3",
+	"AlexChild.Dialogue.summer_Sun": "I like watching gridball with {{CompanionRef}} on Sundays. Gridball's awesome.$7",
+	
+	"AlexChild.Dialogue.fall_Mon": "Summer's over and fall's colder... I miss summer.$3#$e#Summer comes back next year. But that's too long to wait...$3",
+	"AlexChild.Dialogue.fall_Tue": "Um, {{ParentFarmer}}? When I was running, a hazelnut fell on my head...$3#$b#That's not gonna make the allergy happen, right?$2#$e#It's not? That's good.$3", //she calls her allergic reaction to tree nuts "the allergy happening"
+	"AlexChild.Dialogue.fall_Wed": "I'm gonna be the fastest runner ever! Even faster than {{CompanionRef}}!$5",
+	"AlexChild.Dialogue.fall_Thu": "Fall has tasty fruits. Sometimes I eat a plum.#$e#I wonder what a hazelnut tastes like... but if I eat one, I might die.$3", //She's talking about Wild Plums here (and Hazelnuts, but she matched the game's item name for that ahaha)
+	"AlexChild.Dialogue.fall_Fri": "Are we growing wheat? I know wheat's good for making flour.#$b#I want flour to make pancakes with.$1",
+	"AlexChild.Dialogue.fall_Sat": "Leaves are slippery... I almost fell when I was running.$3#$b#It's like an obstacle course. But I'm better than the leaves!$5",
+	"AlexChild.Dialogue.fall_Sun": "Dusty's a good listener. When I wanna stop running and talk, Dusty listens to me.$7#$e#{{CompanionRef}} says he's an old dog now. I wonder how old he is?", //Dusty is Alex's dog
+	
+	"AlexChild.Dialogue.winter_Mon": "It's nice to stay warm inside when it's winter...$3#$b#But I can't run around when I'm inside.$4",
+	"AlexChild.Dialogue.winter_Tue": "When I'm outside, I can see my breath in the air!$3#$b#It's like a weird cloud.$3",
+	"AlexChild.Dialogue.winter_Wed": "Brrr... It's cold out... Gotta run more...$3#$e#If I run lots, I don't get cold. It's like magic.$5",
+	"AlexChild.Dialogue.winter_Thu": "Oh no... I'm gonna sneeze...$3#$b#ACHOO!$6#$e#That sneeze was so loud! Wasn't that cool?!$1",
+	"AlexChild.Dialogue.winter_Fri": "I tripped on a thingy in the ground when I was running. I think it was a root or something.$3#$e#Winter's the worst season.$4", //She's talking about a Winter Root or a Snow Yam
+	"AlexChild.Dialogue.winter_Sat": "I'm not catching a cold... *sniff*... I'm really not...$2#$e#Even if I had a cold, I can still run... *sniff*$2", 
+	"AlexChild.Dialogue.winter_Sun": "Even though it's winter, there's still gridball to watch. I'm glad!$1#$e#{{CompanionRef}} tells me all about gridball when we watch the game together.$7",
+	
+	"AlexChild.Festivals.spring13_y1": "Eggs are tasty. But I can't eat them when they're not cooked like {{CompanionRef}} does.$3#$e#Why does {{CompanionRef}} eat them without cooking?$0",
+	"AlexChild.Festivals.spring13_y2": "Mister Sam's allergic to flowers like me. He's telling me tricks he uses for allergies.",
+	"AlexChild.Festivals.spring24_y1": "Is Miss Haley okay? She keeps spinning.$3#$e#Spinning's not in the Flower Dance, is it?$0",
+	"AlexChild.Festivals.spring24_y2": "Aah...$3#$b#Achoo!$6#$b#The flower dance's the worst.$4#$e#Maybe if I eat some food I'll feel better.$3",
+	"AlexChild.Festivals.summer11_y1": "The beach's great! Summer's the best!$1",
+	"AlexChild.Festivals.summer11_y2": "{{CompanionRef}} says I shouldn't eat the soup in case someone adds something with tree nuts.$3#$b#But there's lots of other food, so I don't mind.$7",
+	"AlexChild.Festivals.summer28_y1": "Summer's almost gone...$2#$e#I can still run in fall. But the sun's not as nice...$3",
+	"AlexChild.Festivals.summer28_y2": "I'm splashing in the water for the last time this summer.#$e#It's sad summer has to go away, but I had fun this year.",
+	"AlexChild.Festivals.fall16_y1": "I wanna try the \"Strength\" game.#$b#I bet I can get the top score.$5", //You can check Alex's unmarried dialogue for this event to find the name of the minigame in your language (in the game files, it's Data/Festivals/fall16). If it isn't there, feel free to make it up!
+	"AlexChild.Festivals.fall16_y2": "We checked with Mister Gus to make sure I could eat these sandwiches.#$e#They're so yummy!$1",
+	"AlexChild.Festivals.fall27_y1": "I'm asking Mister Gus which foods I can eat.#$e#Since it's fall, some of these foods have hazelnuts. I can't eat those.$3",
+	"AlexChild.Festivals.fall27_y2": "Pumpkin seeds are tasty!$7#$e#Mister Gus says they're like nuts.$0#$b#So if I could eat nuts, would I like them?$3#$e#Well, Mister Gus says there's no point thinking about that. He's right!$1",
+	"AlexChild.Festivals.winter8_y1": "Snowmen can't run 'cause they have no legs. That's funny.$7",
+	"AlexChild.Festivals.winter8_y2": "You're gonna win the fishing competition, {{ParentFarmer}}!",
+	"AlexChild.Festivals.winter25_y1": "I'm glad I have you and {{CompanionRef}}.$1#$e#I know I don't have a gramma or grampa on {{CompanionRef}}'s family side 'cause Gramma died and Grampa was a bad man.$3#$b#So I'm happy I have a good family.$0",
+	"AlexChild.Festivals.winter25_y2": "It's cold out. {{CompanionRef}} said to wear more clothes for the cold, but I'm fine! I don't need more clothes.$5#$b#...ACHOO!$6#$e#*sniff* ...I'm okay!$1",
+	
+	//the movie summer_1 is called "Wumbus" in English
+	"AlexChild.Movie.summer_1_Before": "The Wumbus movie looks funny! I'm excited!$7",
+	"AlexChild.Movie.summer_1_After": "Hahaha! That movie made me laugh! I like the funny food in it.$1",
+	"AlexChild.Movie.With_Parent_Before": "{{CompanionRef}}'s gonna watch the movie too!$1",
+	"AlexChild.Movie.With_Parent_After": "That was fun! I like going to movies together.$1",
+	"AlexChild.Movie.love_Before": "I'm excited! This movie's gonna be good!$1",
+	"AlexChild.Movie.love_After": "That movie was so, so fun!$7",
+	"AlexChild.Movie.like_Before": "I'm glad we can go to the movies togeter, {{ParentFarmer}}!$7",
+	"AlexChild.Movie.like_After": "I don't really get it, but I liked it.$7",
+	"AlexChild.Movie.dislike_Before": "Is this movie okay to watch?$3",
+	"AlexChild.Movie.dislike_After": "I didn't like that movie...$3",
+	
+	//Variations of normal lines, used when a different NPC is the parent  //added in 1.4.0
+	"AlexChild.Dialogue.Gift_Omelet.noncanon": "An omelet! It's yummy... You made it fluffy and yummy and the best thing ever!$1",
+	"AlexChild.Dialogue.Gift_CompleteBreakfast.noncanon": "Oh... I think I can't eat all of this.$3#$b#I know! We can share it!$7",
+	
+	"AlexChild.Schedule.Sun.001.noncanon": "Dusty's such a nice dog. I wonder why he stays here all day?$3#$e#I heard he's scared of new places.$3",
+	"AlexChild.Schedule.Mon.000.noncanon": "I'm visiting. I think it's nice to visit.",
+	
+	"AlexChild.Dialogue.Mon.noncanon": "I like going into town and visiting people.$1#$e#Why do old people have white hair? And why does their hair disappear?$3",
+	"AlexChild.Dialogue.summer_Mon.noncanon": "Cookies are yummy... I wanna learn to make cookies.",
+	"AlexChild.Dialogue.summer_Wed.noncanon": "{{CompanionRef}} said I should change my shirt. But I don't wanna.$3#$e#I'm gonna keep wearing this shirt until it gets muddy everywhere.#$b#Then I save water. And I don't have to change!$5",
+	"AlexChild.Dialogue.summer_Fri.noncanon": "I got this... thing... It's a gift.$3#$b#It's a necklace, or a bracelet... or something.$3#$b#I don't wanna wear it. Do you want it, {{ParentFarmer}}?$3",
+	"AlexChild.Dialogue.summer_Sun.noncanon": "I like watching gridball on Sundays. Gridball's awesome.$7",
+	"AlexChild.Dialogue.fall_Wed.noncanon": "I'm gonna be the fastest runner ever! I'll be way faster than {{CompanionRef}}!$5",
+	"AlexChild.Dialogue.fall_Sun.noncanon": "I like talking to Dusty. When I wanna stop running and talk, Dusty listens to me.$7#$e#Dusty's an old dog. I wonder how old he is?", //Dusty is Alex's dog
+	"AlexChild.Dialogue.winter_Sun.noncanon": "Even though it's winter, there's still gridball to watch. I'm glad!$1#$e#I like watching gridball. And I read all the rules for it all by myself.$5",
+	
+	"AlexChild.Festivals.spring13_y1.noncanon": "Eggs are tasty. But I need people to help me cook them before I can eat them.#$e#Are the eggs for the egg hunt cooked?$3",
+	"AlexChild.Festivals.spring13_y2.noncanon": "I'm allergic to flowers too... It's so annoying.$4",
+	"AlexChild.Festivals.spring24_y1.noncanon": "Spinning's not in the Flower Dance, is it?$3",
+	"AlexChild.Festivals.fall16_y2.noncanon": "I asked what's in the sandwiches to make sure I can eat them.#$e#They're so yummy!$1",
+	"AlexChild.Festivals.fall27_y1.noncanon": "I'm asking which foods I can eat.#$e#Since it's fall, some of these foods have hazelnuts. I can't eat those.$3",
+	"AlexChild.Festivals.fall27_y2.noncanon": "Pumpkin seeds are tasty!$7#$e#I heard they're like nuts.$0#$b#So if I could eat nuts, would I like them?$3#$e#Umm, I won't think about that anymore because I can't eat nuts.$5",
+	"AlexChild.Festivals.winter25_y1.noncanon": "I'm glad I have you and {{CompanionRef}}.$1#$b#I think I'm lucky I have a good family.$0",
+	
+	//Single parenting versions of lines that reference the player's spouse/roommate  //added in 1.4.0
+	"AlexChild.Dialogue.Wed.single": "Vincent tried to give me a granola bar...$3#$b#I was careful and I checked the ingredients like you said I should do.$5#$e#It said tree nuts on it, so I didn't eat it.#$b#I did good, right?$1",
+	"AlexChild.Dialogue.summer_Wed.single": "I got mud on my shirt, but I don't feel the mud at all. I don't wanna change my shirt.$3#$e#I'm gonna keep wearing this shirt until it gets muddy everywhere.#$b#Then I save water. And I don't have to change!$5",
+	"AlexChild.Dialogue.fall_Wed.single": "I'm gonna be the fastest runner ever! Even faster than you, {{ParentFarmer}}!$5",
+	"AlexChild.Festivals.summer11_y2.single": "I shouldn't eat the soup in case someone adds something with tree nuts, right?$3#$b#Well, there's lots of other food, so I don't mind.$7",
+	"AlexChild.Festivals.winter25_y1.single_only": "I'm glad I have you, {{ParentFarmer}}.$1",
+	"AlexChild.Festivals.winter25_y1.single_newborn": "I'm glad I have you, {{ParentFarmer}}. And {{SiblingDisplayName}} too!$1",
+	"AlexChild.Festivals.winter25_y1.single_sibling": "I'm glad I have you, {{ParentFarmer}}. And {{SiblingDisplayName}} too!$1",
+	"AlexChild.Festivals.winter25_y2.single": "It's cold out, but I'm fine! I don't need to wear more clothes.$5#$b#...ACHOO!$6#$e#*sniff* ...I'm okay!$1",
+	
+	//Mod compatibility lines  //added in 1.4.0
+	"AlexChild.Schedule.Schoolhouse.000": "That word's too big... It shouldn't be allowed to be in a book.$4#$b#Oh, hi {{ParentFarmer}}. Why're you here?$3",
+	"AlexChild.Schedule.Schoolhouse.001": "I wish I could go for a longer run. School's boring.$4",
+	"AlexChild.Schedule.Schoolhouse.002": "This basketball's sad... It's all floppy...$2#$e#I wanna play basketball with a good basketball.$7",
+	"Schoolhouse.Desk18.AlexChild": "{{DisplayName}}'s desk. The drawing's messily coloured.",
+	
+	
+	
+	//////////////////////
+	//DAVID (LEAH'S SON)//
+	//////////////////////
+	
+	//Notes: Some line names end with _plural_false or _plural_true. This has to do with some English grammar which is probably not important in your translation (which one is chosen depends on if the config "config.SpousePronounsPlurality.name" is enabled or not). Both lines will likely be identical in your translation.
+	
+	"LeahChild.Dialogue.BirthdayGift_Positive": "Yay! A birthday gift! Thanks, {{ParentFarmer}}!$1",
+	"LeahChild.Dialogue.BirthdayGift_Negative": "A birthday gift? Oh... I don't like that.$2",
+	
+	"LeahChild.GiftTastes.Love": "This is the best thing ever! Thank you, {{ParentFarmer}}!$1",
+	"LeahChild.Dialogue.Gift_StardropTea": "Mmm... it smells fresh like {{CompanionRef}}'s salads. Thank you, {{ParentFarmer}}!$1",
+	"LeahChild.Dialogue.Gift_MysticTreeSeed": "A magic tree seed? That's so cool...! I wanna grow it!$1", //when he gets the Mystic Tree Seed item or the Mushroom Tree Seed item
+	"LeahChild.Dialogue.Gift_PrismaticShard": "It's a sparkly rainbow rock! Thanks for giving me such a pretty colourful thing, {{ParentFarmer}}!$1",
+	"LeahChild.Dialogue.Gift_Salad": "This salad is tasty like {{CompanionRef}}'s! I wanna learn how to make it too!$1",
+	
+	"LeahChild.GiftTastes.Like": "Thank you! I like this.$5",
+	"LeahChild.Dialogue.Gift_sapling_item": "A sapling! I'll take good care of it. Thanks, {{ParentFarmer}}!$1",
+	"LeahChild.Dialogue.Gift_category_gem": "Oooh... this is sparkly! Thank you!$1",
+	
+	"LeahChild.GiftTastes.Neutral": "Thank you {{ParentFarmer}}. See, I remembered my manners!$4",
+	"LeahChild.Dialogue.Gift_coffee_item": "This smells good! It smells like morning. But it tastes bad, so I'll just smell it.",
+	"LeahChild.Dialogue.Gift_tree_item": "I'll use this to grow a tree!$4", //when he gets a tree seed or Tree Fertilizer
+	
+	"LeahChild.GiftTastes.Dislike": "I don't want that...$2",
+	"LeahChild.Dialogue.Gift_spicy_item": "Oh... I don't like this 'cause it tastes funny. It burns my mouth.$2",
+	
+	"LeahChild.GiftTastes.Hate": "Yuck. I hate that.$3",
+	"LeahChild.Dialogue.Gift_alcohol_item": "Um... this is a grownup drink, right? Yuck...$3",
+	"LeahChild.Dialogue.Gift_amaranth_item": "Yuck. I don't like amaranth. It's yucky.$3", //when he gets amaranth, or something containing amaranth
+	
+	"LeahChild.Schedule.Mon.000_plural_false": "{{CompanionRef}} said {{LCoSub}}'s gonna watch me today... I can't go into the woods...$2",
+	"LeahChild.Schedule.Mon.000_plural_true": "{{CompanionRef}} said {{LCoSub}}'re gonna watch me today... I can't go into the woods...$2",
+	"LeahChild.Schedule.Tue.000": "Oh! {{ParentFarmer}}!$3#$b#Can you keep a secret from {{CompanionRef}}?$3#$b#I don't want {{LCoObj}} to know I'm in the woods again...$2#$e#The slimes here are sticky. They're all different colours!$1#$b#They feel kinda tingly.$0", //What he says when he's in the Secret Woods
+	"LeahChild.Schedule.DesertFestival.000": "Should I catch a fish or climb a desert tree...#$e#{{CompanionRef}}'ll get mad again if I climb a tree and fall out, so I should catch a fish.$3",
+	
+	"LeahChild.Dialogue.Rain": "Rain, rain, go away...#$b#Ummm, never mind. I like rain.$1#$e#I wonder if I can paint with the mud?$3", //"Rain, rain, go away..." is part of a nursery rhyme (https://en.wikipedia.org/wiki/Rain_Rain_Go_Away). He starts to sing it without thinking, then realizes he likes rain.
+	"LeahChild.Dialogue.GreenRain": "The trees are so big!$3#$b#But they're slippery, so I shouldn't climb them.$0#$e#I need to draw the trees inside 'cause it's too wet outside.$4",
+	"LeahChild.Dialogue.Resort_Entering": "Wow, it's so bright!$1",
+	"LeahChild.Dialogue.Resort_Leaving": "Bye beach! Bye sand! Bye ocean!$4",
+	"LeahChild.Dialogue.Resort": "The trees here are so green! But there aren't any near here that I can climb...",
+	
+	"LeahChild.Dialogue.Mon": "I like going outside. My favourite part is climbing trees!$1#$e#{{CompanionRef}} says I should be careful climbing trees, but I'm not worried.",
+	"LeahChild.Dialogue.Tue": "The forest is sooooo cool.$1#$b#It's fun to draw, and fun to play in, and has so many trees to climb!$4",
+	"LeahChild.Dialogue.Wed": "I drew a yellow flower yesterday. I showed it to {{CompanionRef}} and {{LCoSub}} guessed the flower right.$4#$b#It was a daffodil!$1#$e#I love daffodils.$5", 
+	"LeahChild.Dialogue.Thu": "Horseradish tastes funny. But {{CompanionRef}} likes it.$3#$e#People are different from each other and that's okay! That's what {{CompanionRef}} told me.$4", //he's talking about Wild Horseradish
+	"LeahChild.Dialogue.Fri": "Some trees have pink petals in spring! It's my favourite thing.$1#$e#Spring is so pretty.$1",
+	"LeahChild.Dialogue.Sat": "Huh?! I'm not hurt at all, {{ParentFarmer}}!$3#$b#I don't have a scrape on my knee from falling out of a tree!$3#$e#You don't believe me, do you...$2#$e#...Um, thanks for the bandage... I'm sorry for falling again...$2", //He's lying in the first half. The farmer is implied to have given him an adhesive bandage just before the last line.
+	"LeahChild.Dialogue.Sun": "Dandelions are pretty and yummy.#$e#Lotsa kids don't like veggies, right?$4#$b#But not me! Veggies are tasty!$1#$e#Umm, actually... I don't like amaranth.$3#$b#Even though it's a pretty purple, it's a yucky veggie.$3",
+	
+	"LeahChild.Dialogue.summer_Mon": "Summer is good for tree climbing 'cause it's sunny. But the bugs get in the way.#$e#Bugs live in trees, right? That's weird... I'm climbing their home.$3",
+	"LeahChild.Dialogue.summer_Tue": "Trees are fluffy like clouds. But they're also sharp like grass.#$e#I like the way that trees give shade. It's fun to sit under a tree!$1",
+	"LeahChild.Dialogue.summer_Wed": "Summer is good 'cause of the fuzzy yellow beach and the sparkly blue ocean.$4#$b#And the bright white sun and the fluffy blue sky, and the super green leaves, and the yummy fruits, and all the colours...$1#$e#...Oh! I think there's a bug in my pocket! I gotta let it go free!$3",
+	"LeahChild.Dialogue.summer_Thu": "Summer is so hot. Even {{CompanionRef}} says it's too hot.$3#$e#Aren't you too hot too, {{ParentFarmer}}?$3",
+	"LeahChild.Dialogue.summer_Fri": "The beach is pretty. Shells are super duper pretty. Do you think {{CompanionRef}} would like a shell?",
+	"LeahChild.Dialogue.summer_Sat": "I wanna eat a yummy fruit.#$e#{{CompanionRef}} says {{LCoSub}}'ll find me a fruit to eat.#$b#Maybe if I'm fast, I'll find one first!$1",
+	"LeahChild.Dialogue.summer_Sun": "Sometimes when the wind is super strong, it sounds like the trees are laughing.#$b#\"Chee-hee-chee-hee, chee-hee-chee-hee.\" ...Like that.$1", //he's talking about the leaves rustling in the wind
+	
+	"LeahChild.Dialogue.fall_Mon": "I like the river. In fall, leaves float down the river like boats.#$e#I wanna ride on a boat to a place with lots and lots of colours.$4",
+	"LeahChild.Dialogue.fall_Tue": "There's lots of mushrooms in the forest in fall. Mushrooms are funny 'cause they aren't plants or animals.#$e#I wanna eat a cooked mushroom...$3",
+	"LeahChild.Dialogue.fall_Wed": "I have a secret in my pockets. Look, look!$1#$b#I've got lotsa hazelnuts! I bet {{CompanionRef}}'s gonna like them!$1#$e#Hazelnuts are good for hiding in my pockets. They don't smush around like plums or blackberries.$4", //The plums he mentions are Wild Plums
+	"LeahChild.Dialogue.fall_Thu": "I wanna collect leaves to make a fancy fan with.$1#$e#After I'm done, I'll throw the leaves in the air so they can fly away with the wind.",
+	"LeahChild.Dialogue.fall_Fri": "Fall is orange and red and yellow.$1#$b#The colours are warm and cuddly like a sheep!$1#$e#Have you cuddled a sheep before, {{ParentFarmer}}?",
+	"LeahChild.Dialogue.fall_Sat": "Do the trees get lonely when they drop their leaves?$3#$b#They look lonely... I'd be lonely if all the pretty colours I like went away.$2",
+	"LeahChild.Dialogue.fall_Sun": "Pelican Town has gray and stone colours. Gray and stone are good colours too.#$e#Some stones are scritchy scratchy and some are smooth...#$b#And when I hit a stone with another stone, sometimes one of them breaks.$3", //though in English "stone" isn't usually a colour name, he uses it like one in this line
+	
+	"LeahChild.Dialogue.winter_Mon": "Winter is so bright. Maybe it's the brightest season?$3#$e#I wanna find a snow yam.$0",
+	"LeahChild.Dialogue.winter_Tue": "The snow on the trees looks so fluffy. I wanna grab it...#$b#Sometimes it falls off the tree when I kick it. It's really funny!$1#$e#Um, the tree isn't hurt if I kick it, is it?$2",
+	"LeahChild.Dialogue.winter_Wed": "Climbing trees in winter is cold. Ummm... everything's cold in winter.$3#$e#But it's warm at home. That's good!$1",
+	"LeahChild.Dialogue.winter_Thu": "Why do some plants grow in winter, {{ParentFarmer}}?$3#$b#I know some trees have needles in winter because they're evergreen. I read about it in a book. Is it like that?$0",
+	"LeahChild.Dialogue.winter_Fri": "I'm thinking about how to colour something the colour white.$3#$e#Do I have to leave the white paper with no colour? Or do I use a white crayon?$3#$e#There's lotsa funny things to think about like that.$0",
+	"LeahChild.Dialogue.winter_Sat": "Look, {{ParentFarmer}}! I drew a crocus! See how purple it is?$1#$b#Crocuses are so pretty. They look so purple in the white snow.$5",
+	"LeahChild.Dialogue.winter_Sun": "{{CompanionRef}} gave me a crystal fruit. It's so shiny...$3#$e#How can I do good at drawing shiny things? Whenever I add too much colour, my pictures look less shiny.$3#$b#But I can't erase the crayon to fix it, so it's stuck like that...$2",
+	
+	"LeahChild.Festivals.spring13_y1": "Uncle Elliott says I shouldn't drink the punch. I wonder why?$3",
+	"LeahChild.Festivals.spring13_y2": "I wanna try the punch this year!$4#$e#It's red and sparkly.",
+	"LeahChild.Festivals.spring24_y1": "You're gonna dance with {{CompanionRef}}, right, {{ParentFarmer}}?#$e#{{CompanionRef}} said Uncle Elliott's gonna teach me to dance. I'm so excited!$1",
+	"LeahChild.Festivals.spring24_y2": "I wanna find mushrooms in the woods! Can we do that after the dance?$4",
+	"LeahChild.Festivals.summer11_y1": "The soup is a funny colour. I wonder what's inside?$3",
+	"LeahChild.Festivals.summer11_y2": "Brown and green and yellow and red... Food has so many colours.#$e#I'll eat the green stuff first!$1",
+	"LeahChild.Festivals.summer28_y1": "Summer's going away... Bye bye, summer...$3#$e#After summer is fall. That means the trees will be lots of pretty warm colours.",
+	"LeahChild.Festivals.summer28_y2": "I wanna draw a picture of the jellies this year!$1",
+	"LeahChild.Festivals.fall16_y1": "Carving wood is so cool!$1#$e#Um, so wood comes from cutting down trees, right?#$b#So when you get wood from a tree, the tree...$3#$b#Um, never mind!$3#$e#I like wood. Even old trees or sick trees or dead trees can be made into a cool wood thing.$5",
+	"LeahChild.Festivals.fall16_y2": "I'm not allowed to use the tools... {{CompanionRef}} says I'm not big enough yet...$2#$e#Someday I'll be big enough to use the chisel and the hammer.$4#$b#Then I'll make something pretty for you and {{CompanionRef}}!$4",
+	"LeahChild.Festivals.fall27_y1_plural_false": "{{CompanionRef}} got a bowl full of blackberries, but {{LCoSub}} isn't eating them anymore.$3#$e#Maybe I can help {{LCoObj}} eat it!$4",
+	"LeahChild.Festivals.fall27_y1_plural_true": "{{CompanionRef}} got a bowl full of blackberries, but {{LCoSub}} aren't eating them anymore.$3#$e#Maybe I can help {{LCoObj}} eat it!$4",
+	"LeahChild.Festivals.fall27_y2": "{{CompanionRef}}'s doing the maze right now, so {{LCoSub}} asked Uncle Elliott to watch me. But now he's talking funny.$3", //Elliott speaks in poem in his year 2 dialogue for this event (in the English version, at least. You may want to change it if that isn't true for your language's translation)
+	"LeahChild.Festivals.winter8_y1": "Ice melts away... Water is clear when it's ice, and clear when it's water.$3#$b#And then, when it becomes clouds, it turns white. That's funny.$4#$e#How can I draw something that's clear?$3",
+	"LeahChild.Festivals.winter8_y2": "{{CompanionRef}} says I should just watch this year.#$b#But once I'm bigger, I can make ice sculptures too!$1#$e#Hey, {{ParentFarmer}}? Let's make a snowman after the fishing contest!$4",
+	"LeahChild.Festivals.winter25_y1": "Red, yellow, and blue are the three primary colours.$5#$b#Don't you see the Tree of the Winter Star, {{ParentFarmer}}?$0#$e#I wanna draw something as sparkly and pretty as the Tree of the Winter Star.$4", //He's talking about the ornaments on the tree being red, yellow, and blue. However, he starts talking out of nowhere without any context (ahaha), so the second line is meant to be after the farmer gives him a confused look because it's unclear why he's talking about primary colours
+	"LeahChild.Festivals.winter25_y2": "Look, {{ParentFarmer}}! I have apple cider too!$1#$b#But it smells different from what {{CompanionRef}} and Uncle Elliott have.$3#$e#I'm not allowed to drink that cider, but my cider smells really good. So I don't mind!$4",
+	
+	//the movie spring_0 is called "The Brave Little Sapling" in English
+	"LeahChild.Movie.spring_0_Before": "I can't wait to see the little sapling! It's my favourite.$1",
+	"LeahChild.Movie.spring_0_Script": "{{DisplayName}} is waving at the screen.",
+	"LeahChild.Movie.spring_0_During": "Bye bye little sapling!$4",
+	"LeahChild.Movie.spring_0_After": "That was the best ever!$1#$b#I like when the sapling started to grow into a tree.$4",
+	"LeahChild.Movie.With_Parent_Before": "{{CompanionRef}} came too. I'm happy!",
+	"LeahChild.Movie.With_Parent_After": "I like going to movies together.",
+	"LeahChild.Movie.love_Before": "I'm so excited to see the movie!$5",
+	"LeahChild.Movie.love_After": "That was so fun! I wanna watch it again sometime.$1",
+	"LeahChild.Movie.like_Before": "{{ParentFarmer}}, where're you gonna sit?$4",
+	"LeahChild.Movie.like_After": "I like that movie. It had lotsa colours.$4",
+	"LeahChild.Movie.dislike_Before": "Ummm... what movie is this?",
+	"LeahChild.Movie.dislike_After": "That was weird... I don't get it.$3",
+	
+	//Variations of normal lines, used when a different NPC is the parent  //added in 1.4.0
+	"LeahChild.Dialogue.Gift_StardropTea.noncanon": "Mmm... it smells fresh like a yummy salad. Thank you, {{ParentFarmer}}!$1",
+	"LeahChild.Dialogue.Gift_Salad.noncanon": "Mmm, a yummy salad!$1 It reminds me of {{CompanionRef}}.",
+	
+	"LeahChild.Schedule.Mon.000.noncanon": "I'm watching the river... but actually, I wanna go into the woods.$3", 
+	
+	"LeahChild.Dialogue.Thu.noncanon": "Horseradish tastes funny. But some people like it.$3#$e#People are different from each other and that's okay! I read that from a book$4", //he's talking about Wild Horseradish 
+	"LeahChild.Dialogue.summer_Thu.noncanon": "Summer is so hot. It's way too hot.$3#$e#Aren't you too hot too, {{ParentFarmer}}?$3", 
+	"LeahChild.Dialogue.summer_Sat.noncanon": "I wanna eat a yummy fruit.#$e#Can you find a fruit for me, {{ParentFarmer}}? Or...#$b#Maybe if I'm fast, I'll find one first!$1", 
+	"LeahChild.Dialogue.fall_Wed.noncanon": "I have a secret in my pockets. Look, look!$1#$b#I've got lotsa hazelnuts! You want some, {{ParentFarmer}}?$1#$e#Hazelnuts are good for hiding in my pockets. They don't smush around like plums or blackberries.$4", //The plums he mentions are Wild Plums 
+	
+	"LeahChild.Festivals.spring24_y1.noncanon": "You're gonna dance with {{CompanionRef}}, right, {{ParentFarmer}}?#$e#I wanna learn to dance too! I'll watch carefully.$1", 
+	"LeahChild.Festivals.fall27_y1.noncanon": "I wanna eat some blackberries!$4#$e#Do you think they'd be good for painting?$4", 
+	"LeahChild.Festivals.fall27_y2.noncanon": "These monsters are funny... and scary.$3", 
+	"LeahChild.Festivals.winter8_y2.noncanon": "Ice sculptures are so cool! I wanna make one someday!$1#$e#Hey, {{ParentFarmer}}? Let's make a snowman with {{CompanionRef}} after the fishing contest!$4", 
+	"LeahChild.Festivals.winter25_y2.noncanon": "I'm drinking apple cider. It's warm and yummy.$5#$e#Some apple cider is for adults, but a different one is good for kids to drink. I wonder why?$1",
+	
+	//Single parenting versions of lines that reference the player's spouse/roommate  //added in 1.4.0
+	"LeahChild.Dialogue.Gift_Salad.single": "This salad is tasty! I wanna learn how to make it too!$1",
+	
+	"LeahChild.Schedule.Tue.000.single": "Oh! {{ParentFarmer}}! You found me!$3#$b#Um, am I in trouble for visiting the woods...? I like it here lots...$2#$e#The slimes here are sticky. They're all different colours!$1#$b#They feel kinda tingly.$0", //What he says when he's in the Secret Woods
+	"LeahChild.Schedule.DesertFestival.000.single": "Should I catch a fish or climb a desert tree...%noturn#$e#Oh, {{ParentFarmer}}! Um, don't worry. I won't get into any trouble.$3",
+	
+	"LeahChild.Dialogue.Mon.single": "I like going outside. My favourite part is climbing trees!$1#$e#Don't worry, I'm careful when I climb trees.",
+	"LeahChild.Dialogue.Wed.single": "I drew a yellow flower yesterday. Do you wanna see it? I'll show you later!$5#$b#It was a daffodil!$1#$e#I love daffodils.$5", 
+	"LeahChild.Dialogue.summer_Fri.single_only": "The beach is pretty. Shells are super duper pretty. I like bringing shells home from the beach.",
+	"LeahChild.Dialogue.summer_Fri.single_newborn": "The beach is pretty. Shells are super duper pretty. Maybe I'll get a shell to share with {{SiblingDisplayName}}.",
+	"LeahChild.Dialogue.summer_Fri.single_sibling": "The beach is pretty. Shells are super duper pretty. Do you think {{SiblingDisplayName}} would like a shell?",
+	"LeahChild.Dialogue.winter_Sun.single": "I found a crystal fruit. It's so shiny...$3#$e#How can I do good at drawing shiny things? Whenever I add too much colour, my pictures look less shiny.$3#$b#But I can't erase the crayon to fix it, so it's stuck like that...$2",
+	"LeahChild.Festivals.spring24_y1.single": "Are you gonna dance with anyone, {{ParentFarmer}}?#$e#If you don't dance, you can watch the dance with me.$1", 
+	"LeahChild.Festivals.fall16_y2.single": "I'm not allowed to use the tools... I'm not big enough yet...$2#$e#Someday I'll be big enough to use the chisel and the hammer.$4#$b#Then I'll make something pretty for you, {{ParentFarmer}}!$4",
+	"LeahChild.Festivals.winter8_y2.single": "Ice sculptures are so cool! I wanna make one someday!$1#$e#Hey, {{ParentFarmer}}? Let's make a snowman together after the fishing contest!$4", 
+	
+	//Mod compatibility lines  //added in 1.4.0
+	"LeahChild.Schedule.Schoolhouse.000": "Oh, hi {{ParentFarmer}}!$4#$b#Um, don't tell Miss Penny that I'm drawing in the book.$3",
+	"LeahChild.Schedule.Schoolhouse.000.noncanon": "Oh, hi {{ParentFarmer}}!$4#$b#Um, don't tell anyone that I'm drawing in the book.$3",
+	"LeahChild.Schedule.Schoolhouse.001": "I'm visiting the plants here.",
+	"LeahChild.Schedule.Schoolhouse.002": "This is a good drawing, right, {{ParentFarmer}}?$1#$e#I'm gonna draw something really nice to show you later.$5", //ambiguously written, since this dialogue is shown both when sitting at his desk with his own drawing, and also when he looks at his older sibling's drawing at their desk
+	"Schoolhouse.Desk18.LeahChild": "{{DisplayName}}'s desk. The drawing already shows hints of understanding light and shadow.",
+	
+	//////////////////
+	//OTHER MESSAGES//
+	//////////////////
+	"GeneralChildren.Movie.With_Parent_Script": "{{CompanionName}} shoots you and {{DisplayName}} a smile.", //added in 1.4.0, replaces the individual repeated versions of this line
+	
+}

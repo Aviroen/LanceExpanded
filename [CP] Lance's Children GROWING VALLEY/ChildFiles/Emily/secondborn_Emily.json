@@ -1,0 +1,903 @@
+{
+   "Changes": [
+        {
+			"LogName": "Trigger action to add mail flag for tracking Emily's daughter as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Add_EmilyDaughter_Secondborn": {
+                    "Id": "{{ModId}}_Add_EmilyDaughter_Secondborn",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current {{ModId}}_EmilyDaughter_Secondborn Received",
+					"MarkActionApplied": false,
+                },
+                "{{ModId}}_Add_GrowingValley_Custom_Secondborn": {
+                    "Id": "{{ModId}}_Add_GrowingValley_Custom_Secondborn",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current GrowingValley_Custom_Secondborn Received",
+					"MarkActionApplied": false,
+                },
+                "{{ModId}}_Add_GrowingValley_Secondborn_Female": {
+                    "Id": "{{ModId}}_Add_GrowingValley_Secondborn_Female",
+                    "Trigger": "DayStarted siliconmodding.GVChildrenSMAPI_OnConfigChangedLate",
+                    "Action": "AddMail Current GrowingValley_Secondborn_Female Received",
+					"MarkActionApplied": false,
+                },
+			}
+		},
+		
+   		{      
+			"LogName": "Load Emily's daughter's default portraits on secondborn.",
+			"Action": "Load",
+			"Target": "Portraits/{{SecondbornName}}", 
+			"FromFile": "assets/Portraits/Lizzie_{{SecondbornSkinTone}}.png",
+		},
+   		{      
+			"LogName": "Load Emily's daughter's sprites on secondborn.",
+			"Action": "Load",
+			"Target": "Characters/{{SecondbornName}}", 
+			"FromFile": "assets/Characters/Lizzie_{{SecondbornSkinTone}}.png",
+		},
+		
+		
+   		{      
+			"LogName": "Load Emily's daughter's default portraits on secondborn (target locale).",
+			"Action": "Load",
+			"TargetLocale": "{{LocaleCode}}",
+			"Target": "Portraits/{{SecondbornName}}", 
+			"FromFile": "assets/Portraits/Lizzie_{{SecondbornSkinTone}}.png",
+			"When": {
+				"Language|contains=en": false,
+			},
+		},
+   		{      
+			"LogName": "Load Emily's daughter's sprites on secondborn (target locale).",
+			"Action": "Load",
+			"TargetLocale": "{{LocaleCode}}",
+			"Target": "Characters/{{SecondbornName}}", 
+			"FromFile": "assets/Characters/Lizzie_{{SecondbornSkinTone}}.png",
+			"When": {
+				"Language|contains=en": false,
+			},
+		},
+		
+		{
+			"LogName": "Add gift tastes for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{SecondbornName}}": "This's the best! Thanks lots and lots!$1/-2 91 299 food_salad ParrotEgg MagicHairDye Book_Trash/I like this! Thanks, {{Random: {{FarmerRefSecondborn}} }}!$1/-5 -6 -12 -79 78 18 402 418 109/I don't like this.$3/241 food_seafood/Ew. I don't want this.$6/305 308 769 795 alcohol_item/Thank you.$4/category_junk 233 -81 coffee_item/",
+			}
+		},
+		
+		{
+			"LogName": "Fill secondborn's empty schedule with that of Emily's daughter.",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{SecondbornName}}",
+			"Entries": {
+				"fall_15": "MAIL ccVault/GOTO Mon/a1200 SandyHouse 4 6 0/1300 Desert 1 52 1/1500 Desert 9 19 0/1700 Desert 4 33 2/1800 Desert 26 32 0/1900 34 25/2000 Desert 5 55 2/a2330 Desert 28 25 3/2400 bed",
+				"Mon": "810 HaleyHouse 13 16 2 \"Strings\\schedules\\{{SecondbornName}}:Mon.000\"/1040 Town 82 16 1 \"Strings\\schedules\\{{SecondbornName}}:Mon.001\"/1500 bed",
+				"Fri": "830 Beach 10 39 3 \"Strings\\schedules\\{{SecondbornName}}:Fri.000\"/1300 SeedShop 3 26 3 \"Strings\\schedules\\{{SecondbornName}}:Fri.001\"/1500 bed",
+				"Tue": "800 Town 12 86 1/1200 Town 18 89 1 \"Strings\\schedules\\{{SecondbornName}}:trash.000\"/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000\"/1730 bed",
+				"Wed": "800 Town 47 71 0/1200 Town 51 63 1 \"Strings\\schedules\\{{SecondbornName}}:trash.001\"/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000\"/1730 bed",
+				"Thu": "800 Town 109 91 3/1300 Town 97 81 0 \"Strings\\schedules\\{{SecondbornName}}:trash.002\"/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000\"/1730 bed",
+				"Sat": "800 Town 110 52 0/1300 Town 109 56 0 \"Strings\\schedules\\{{SecondbornName}}:trash.003\"/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000\"/1730 bed",
+				"spring": "800 Town 55 85 1/1200 Town 33 96 0 \"Strings\\schedules\\{{SecondbornName}}:spring.000\"/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000\"/1730 bed",
+				"DesertFestival_1": "750 Desert 24 52 2 \"Strings\\schedules\\{{SecondbornName}}:DesertFestival.000\"/2410 bed",
+				"DesertFestival_2": "750 Desert 24 52 2 \"Strings\\schedules\\{{SecondbornName}}:DesertFestival.001\"/2410 bed",
+				"DesertFestival_3": "750 Desert 24 52 2 \"Strings\\schedules\\{{SecondbornName}}:DesertFestival.002\"/2410 bed",
+			}
+		},
+		
+		//Lizzie doesn't go back to class after her lunch break. this is intentional behaviour
+		{
+			"LogName": "Add Little Red School House schedule for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{SecondbornName}}",
+			"Entries": {
+				"Tue": "a1000 Custom_SchoolHouse 1 6 1 {{SecondbornName}}_read \"Strings\\schedules\\{{SecondbornName}}:Schoolhouse.000\"/1130 Town 18 89 1 \"Strings\\schedules\\{{SecondbornName}}:trash.000/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000/1730 bed",
+				"Wed": "a1000 Custom_SchoolHouse 1 6 1 {{SecondbornName}}_read \"Strings\\schedules\\{{SecondbornName}}:Schoolhouse.000\"/1130 Town 51 63 1 \"Strings\\schedules\\{{SecondbornName}}:trash.001/1600 Town 38 78 2 {{SecondbornName}}_spin \"Strings\\schedules\\{{SecondbornName}}:spin.000/1730 bed",
+			},
+			"When": {
+				"HasMod": "Xiddav.LittleRedSchoolHouse",
+				"LRSH_NoSchoolDay": false,
+			},
+		},
+		
+		{
+            "LogName": "Add animations for Emily's daughter as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries":
+            {
+                "{{SecondbornName}}_sit": "16/16/16",
+                "{{SecondbornName}}_read": "17/17/17",
+                "{{SecondbornName}}_spin": "0/0 0 0 0 4 4 4 4 8 8 8 8 12 12 12 12 0 0 0 0 4 4 4 4 8 8 8 8 12 12 12 12 0 0 0 0 4 4 4 4 8 8 8 8 12 12 12 12 0 0 0 0 0 0 0 0 12 12 12 12 8 8 8 8 4 4 4 4 0 0 0 0 12 12 12 12 8 8 8 8 4 4 4 4 0 0 0 0 12 12 12 12 8 8 8 8 4 4 4 4 0 0 0 0/0",
+			}
+		},
+		
+		
+		{
+			"LogName": "Fill secondborn's empty schedule dialogue with that of Emily's daughter.",
+			"Action": "EditData",
+			"Target": "Strings/schedules/{{SecondbornName}}",
+			"Entries": {
+				"Mon.000": "There's funny juice in the pots over there.$3#$b#{{Random: {{CompanionRefSecondborn}} }} says it's not for drinking, but... I wanna try it.$6",
+				"Mon.001": "Haha, {{Random: {{CompanionRefSecondborn}} }} walks slow.$4",
+				"Fri.000": "I wonder if we'll find a mermaid today.$4",
+				"Fri.001": "{{Random: {{CompanionRefSecondborn}} }} said I can pick which fruit to buy. But I can't choose...$3",
+				"spring.000": "This place has a dark aura. But also friendly. That's funny.$3",
+				"spin.000": "I'm dancing.$4",
+				"trash.000": "I'm, um, I'm not doing anything bad... I'm just checking the trash can.$7#$e#Don't tell {{Random: {{CompanionRefSecondborn}} }}... I don't wanna get in trouble...$6",
+				"trash.001": "Why does Granny Evelyn throw away her cookies? These still taste good.$3",
+				"trash.002": "I found a sparkly gem!$1#$b#...Ow! I poked my finger.$3",
+				"trash.003": "I'm looking for something good. Right now all I've found is old veggies.$3",
+				"DesertFestival.000": "{{Random: {{CompanionRefSecondborn}} }}'s letting me help pick the clothes!$1",
+				"DesertFestival.001": "I got a cold drink from the chef man. He's funny.$3",
+				"DesertFestival.002": "Don't worry, I fed the parrot.$4",
+				"Schoolhouse.000": "School's so weird. I don't get it. I'm just looking at this book.$3#$e#There's so many words in this book... And it's a pretty green colour... and the pages feel nice.$3",
+			}
+		},
+		
+		{
+			"LogName": "Fill secondborn's empty dialogue with that of Emily's daughter.",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{SecondbornName}}",
+			"Entries": {
+				"AcceptBirthdayGift_Positive": "Yay, a birthday present! I love it!$1",
+				"AcceptBirthdayGift_Negative": "Oh... I don't want this for my birthday...$2",
+				"AcceptGift_(O)StardropTea": "I hope I have a good dream after drinking this. It's yummy!$5",
+				"AcceptGift_(O)74": "Ooh... It's a rainbow. So pretty...$3#$b#Can I eat it?$0",
+				"AcceptGift_(O)279": "Ooh... It's a rainbow. So pretty...$3#$b#Can I eat it?$0",
+				"AcceptGift_(TR)MagicHairDye": "Ooh... It's a rainbow. So pretty...$3#$b#Can I eat it?$0",
+				"AcceptGift_food_salad": "A salad! I love salads. They're yummy yummy.$5",
+				"AcceptGift_(O)60": "A shiny green gem! This is an emerald, right?$1#$b#Emeralds make me think of spring and yummy salads.",
+				"AcceptGift_(O)62": "This is an aquamarine. I know 'cause it's blue, and aqua means blue.$4#$b#I like it lots!$1",
+				"AcceptGift_(O)64": "Rubies are red. They're so pretty.$1#$b#They make me think of {{Random: {{CompanionRefSecondborn}} }}'s favourite dress.$4",
+				"AcceptGift_(O)66": "Didja know amethyst is a quartz? I learned it from a book. This one looks yummy.$5",
+				"AcceptGift_(O)68": "Ooh, a yellow topaz! It's sparkly. It makes me think of honey.$5",
+				"AcceptGift_(O)70": "Jade is so pretty! I want a jade bracelet. I saw one once and it was the prettiest.$5",
+				"AcceptGift_category_vegetable": "Is this organic? Non-GMO? Does it taste good?$3#$b#Okaaay! Mmm, yummy!$5",
+				"AcceptGift_category_fruit": "Is this organic? Non-GMO? Does it taste good?$3#$b#Okaaay! Mmm, yummy!$5",
+				"AcceptGift_category_egg": "Is this free-range? Cage-free? Is it yummy?$3#$b#Okaaay! I'll ask {{Random: {{CompanionRefSecondborn}} }} to cook it for me.$5",
+				"AcceptGift_category_milk": "Is this pasture-raised? No added hormones? Is it tasty?$3#$b#Okaaay! Mmm, this is good!$1",
+				"AcceptGift_(O)109": "I'll use this to cut my hair!$0",
+				"AcceptGift_category_junk": "Oh, trash! Trash is fun. I'll look at it really carefully to see if it's good.$4",
+				"AcceptGift_coffee_item": "Hmmmgh.$2#$b#It's bitter. See how it makes my face scrunch up when I drink it?$4",
+				"AcceptGift_alcohol_item": "Yuck. This smells weird.$2",
+				"AcceptGift_(O)305": "AHHH!$6#$b#I-I d-don't like that... It's scary...$2",
+				"AcceptGift_(O)308": "AHHH!$6#$b#I-I d-don't like that... It's scary...$2",
+				"AcceptGift_(O)769": "AHHH!$6#$b#I-I d-don't like that... It's scary...$2",
+				"AcceptGift_(O)795": "AHHH!$6#$b#I-I d-don't like that... It's scary...$2",
+				"AcceptGift_color_blue": "This's the same colour as my hair!$0",
+				"Resort_Entering": "I love visiting the island!",
+				"Resort_Leaving": "I said bye bye to all my parrot friends before going home.$4",
+				"Resort": "A parrot bit my finger, but that's okay.$4#$e#My hand's all red now. Is {{Random: {{CompanionRefSecondborn}} }} gonna be mad?$6",
+				"GreenRain": "Will my hair turn green if I play in the green rain?$4",
+				"DumpsterDiveComment": "Hey... I got here first...$2",
+				"Mon": "I made a kale smoothie with {{Random: {{CompanionRefSecondborn}} }}!$1#$e#Don't tell {{Random: {{CompanionRefSecondborn}} }}, but it tasted so bad. I drank all of it anyway 'cause I'm a good girl.$7",
+				"Wed": "I found food in the trash. Do you like trash food, {{Random: {{FarmerRefSecondborn}} }}?$3#$e#{{Random: {{CompanionRefSecondborn}} }} says I shouldn't eat food from the trash. But {{lowercase:{{Random: {{CoSub2}} }} }} wouldn't know if I don't tell {{lowercase:{{Random: {{CoObj2}} }} }}.$7",
+				"Thu": "Didja know? Dust bunnies don't taste like cotton candy.$4#$b#I was sad when I found out, but now I know they're not good for eating.$3",
+				"Fri": "I know mermaids are real. I saw one once.$3#$e#I wanna become friends with a mermaid.$0",
+				"Sat": "I'm trying to think of a name for the parrot. {{Random: {{CompanionRefSecondborn}} }} never named it.$3#$e#Oh, I know! We can name it {{SecondbornDisplayName}}!$1#$b#Huh? That name's already taken?$3",
+				"Sun": "I wanna make dirt I can eat. I saw a recipe for yummy dirt that uses crushed cookies.$4#$e#Maybe I'll use the cookies I found in the trash.$1",
+				"summer_Mon": "{{Random: {{CompanionRefSecondborn}} }} said {{lowercase:{{Random: {{CoSub2}} }} }}'d teach me how to, um, die today. I said I don't wanna.$6#$e#Huh? \"Die\" with a \"y\"? I don't get it.$3",
+				"summer_Tue": "Auntie Haley gave me a sparkly necklace! I licked it and it didn't taste like anything.",
+				"summer_Wed": "I'm dizzy... it's too hot today.$2#$b#Or it's 'cause I was spinning earlier. Maybe it's 'cause of that.$6",
+				"summer_Thu": "Mmm... I ate an ice cube. It's the yummiest.$5#$e#Ice cubes are the best thing ever for summer.",
+				"summer_Fri": "Summer's good for visiting the beach. The sun and the ocean are so warm.$5#$e#{{Random: {{CompanionRefSecondborn}} }} tells me I shouldn't walk into the water with all my clothes on. But the water feels so nice...$3",
+				"summer_Sat": "I found a fruit that smells weird. I think it's \"fur-men-edd\".$3#$e#Fur-men-edd fruit's in the adult drinks at the Saloon, right? Why do adults drink trash fruits?$3",
+				"summer_Sun": "Hmmm... I wanna banana. Do you have a banana, {{Random: {{FarmerRefSecondborn}} }}?$4#$e#I wanna put bananas into a food processor 'cause ice cream's too sweet.$4",
+				"fall_Mon": "I don't know why {{Random: {{CompanionRefSecondborn}} }} likes to just go for walks. Walking without going anywhere is weird.$3#$e#When I walk, it's so I can go to the beach or look for trash.$4",
+				"fall_Tue": "I found a worm!#$b#One time I found a worm and I thought it was a gummy candy.$4",
+				"fall_Wed": "I'm gonna make a leaf salad.$1#$b#I'll collect the leaves on the ground and toss them with dirt and ocean water.$4#$b#Then I pretend to eat it.$4#$e#Why can't we eat tree leaves? They look like they'd be yummy.$3",
+				"fall_Thu": "Do gems really have magic powers? And do they taste good? My teeth aren't strong enough to eat them.$3#$e#{{Random: {{CompanionRefSecondborn}} }} talks about eating enough minerals. I wanna eat minerals too...$2",
+				"fall_Fri": "I tried to make a sandwich with sand, but it broke. Then I tried to make a sand witch with sand. That broke too.$6#$e#Why is it called a sandwich if there's no sand? It's just bread and stuff.$3",
+				"fall_Sat": "I want quinoa. Amaranth is good too.#$e#Why do you only pick the amaranth leaves, {{Random: {{FarmerRefSecondborn}} }}? The seeds are the best part.$3",
+				"fall_Sun": "Shhhh. I'm sleeping.$5#$e#...Okay. I'm awake.$4",
+				"winter_Mon": "{{Random: {{CompanionRefSecondborn}} }}'s old house is warm. Our house is warm too.#$e#What makes houses warm? I know there's the heating, but why's the heating warm?$3",
+				"winter_Tue": "I poured water on the snow and it froze. I'm gonna make my own ice rink.#$e#Miss Penny says I shouldn't 'cause someone could slip. But my ice rink is there! Nobody should walk on it and slip on it.$6",
+				"winter_Thu": "I'm thinking of something tasty to eat the snow with.$4#$e#{{Random: {{CompanionRefSecondborn}} }} says I shouldn't eat snow if it's yellow-coloured.$3",
+				"winter_Fri": "I'm glad we can buy fruits even in the winter. They're so yummy.$5",
+				"winter_Sat": "Um, did I tell you I was trying to make an ice rink this week? Well, Mister Alex got rid of it...$3#$e#I'll try again next time.$3",
+				"winter_Sun": "I put my face in the snow and now it's all cold.$6#$b#Feel it, {{Random: {{FarmerRefSecondborn}} }}! My face is all cold!$3",
+			}
+		},
+		
+		{
+			"LogName": "Fill secondborn's empty dialogue with that of Emily's daughter (singular pronouns).",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{SecondbornName}}",
+			"Entries": {
+				"Tue": "{{Random: {{CompanionRefSecondborn}} }} says plants are {{lowercase:{{Random: {{CoPD2}} }} }} friends, but {{lowercase:{{Random: {{CoSub2}} }} }} also eats plants.$3#$b#Does that mean... {{Random: {{CompanionRefSecondborn}} }} eats {{lowercase:{{Random: {{CoPD2}} }} }} friends?$3#$e#It's okay. Trash is my friend, but I eat trash sometimes. So we're the same.$4",
+				"winter_Wed": "{{Random: {{CompanionRefSecondborn}} }} says my immune system is amazing. {{Random: {{CoSub2}} }} says it's why I don't get sick.",
+			},
+			"When": {
+				"CoPlu2": false,
+			},
+		},
+		{
+			"LogName": "Fill secondborn's empty dialogue with that of Emily's daughter (plural pronouns).",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{SecondbornName}}",
+			"Entries": {
+				"Tue": "{{Random: {{CompanionRefSecondborn}} }} says plants are {{lowercase:{{Random: {{CoPD2}} }} }} friends, but {{lowercase:{{Random: {{CoSub2}} }} }} also eat plants.$3#$b#Does that mean... {{Random: {{CompanionRefSecondborn}} }} eats {{lowercase:{{Random: {{CoPD2}} }} }} friends?$3#$e#It's okay. Trash is my friend, but I eat trash sometimes. So we're the same.$4",
+				"winter_Wed": "{{Random: {{CompanionRefSecondborn}} }} says my immune system is amazing. {{Random: {{CoSub2}} }} say it's why I don't get sick.",
+			},
+			"When": {
+				"CoPlu2": true,
+			},
+		},
+		{
+			"LogName": "Add Emily's daughter's dialogue for Sandy's birthday on secondborn.",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{SecondbornName}}",
+			"Entries": {
+				"fall_15_1": "It's Sandy's birthday today. I like visiting Sandy with {{Random: {{CompanionRefSecondborn}} }}!$1#$e#This year, I wanna eat a cactus.$4",
+				"fall_15_2": "It's Sandy's birthday today. I like visiting Sandy with {{Random: {{CompanionRefSecondborn}} }}!$1#$e#This year, I wanna eat a cactus.$4",
+			},
+			"When": {
+				"HasFlag:hostPlayer": "ccVault"
+			},
+		},
+		{
+            "LogName": "Add rain dialogue for Emily's daughter as secondborn.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+				"{{SecondbornName}}": "Rain makes me wanna dance. I'll do a rain dance.",
+			}
+		},
+		
+		
+        {
+            "LogName": "Add Emily's daughter to Egg Festival as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 27 66 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 28 62 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 51 63 1",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 35 66 3",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Egg Festival dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+				 "{{SecondbornName}}": "I coloured an egg using the yolk from an egg I broke. See how yellow it is?",
+				 "{{SecondbornName}}_y2": "Umm... I'm looking for eggs here. Not trash.$6",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Flower Dance as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 25 37 3",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 6 33 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 9 26 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up_y2", 5],
+                    "Value": "/advancedMove {{SecondbornName}} true 2 650 3 600 4 500 1 675",
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 7 21 2",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Flower Dance dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				 "{{SecondbornName}}": "My hands are covered in jelly. It's so sticky and wiggly.$4",
+				 "{{SecondbornName}}_y2": "Wheeeeee! Wheeeeee!$5#$b#Oooh, I'm getting dizzy...$3",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Luau as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 17 9 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up", 5],
+                    "Value": "/advancedMove {{SecondbornName}} true 2 650 3 600 4 500 1 675",
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 30 12 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 41 15 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up_y2", 5],
+                    "Value": "/advancedMove {{SecondbornName}} true 2 650 3 600 4 500 1 675",
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 33 11 3",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Luau dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+				 "{{SecondbornName}}": "I'm spiiinniiinnnnng...$1#$b#Woah! I almost fell!$3",
+				 "{{SecondbornName}}_y2": "{{Random: {{CompanionRefSecondborn}} }}'s so tired already. I can keep dancing forever!$1",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Moonlight Jellies as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 44 11 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 27 35 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 24 32 3",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 24 34 3",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Moonlight Jellies dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+				 "{{SecondbornName}}": "I like this boat. Can I use it?",
+				 "{{SecondbornName}}_y2": "I wanna touch a jelly. Mister Willy says they prickle a little.$3",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Fair as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 26 78 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 36 81 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Fair dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{SecondbornName}}": "...I don't like the clown.$2",
+				 "{{SecondbornName}}_y2": "I'm hiding behind Sandy. From the clown.$6",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Spirit's Eve as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 23 67 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 16 21 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up_y2", 5],
+                    "Value": "/positionOffset {{SecondbornName}} 0 -32",
+                },
+            ],
+        },
+        {
+			"LogName": "Add Spirit's Eve dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				 "{{SecondbornName}}": "I tried to help carve the jack-o-lanterns, but I cut myself really quick.$3#$b#Then {{Random: {{CompanionRefSecondborn}} }} didn't let me touch any of the carving tools.$6#$e#{{Random: {{CoSub2}} }} let me scrape out some of the pumpkin guts. That was fun, and it was tasty!$1",
+				 "{{SecondbornName}}_y2": "Haha, you found us!$1",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Festival of Ice as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 90 36 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 65 40 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 83 27 0",
+                    "Delimiter": "/"
+                },
+                {   
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 77 40 0",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Festival of Ice dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				 "{{SecondbornName}}": "Mister Clint is weird. And his snowman is ugly.$3#$b#I'm helping fix it to make it pretty!$1",
+				 "{{SecondbornName}}_y2": "I didn't know until {{Random: {{CompanionRefSecondborn}} }} said so that we were making a snow-{{Random: {{FarmerRefSecondborn}} }}.$3#$e#It doesn't look like you.$3",
+			},
+		},
+		
+        {
+            "LogName": "Add Emily's daughter to Winter Star as secondborn.",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{SecondbornName}} 28 72 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "secretSanta", 4],
+                    "Value": "/warp {{SecondbornName}} 36 59",
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "secretSanta", 56],
+                    "Value": "/warp {{SecondbornName}} 28 72",
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{SecondbornName}} 26 51 1",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+			"LogName": "Add Winter Star dialogue for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{SecondbornName}}": "Under the spirit tree, I wanna find... Um, I don't know what I want.$3#$b#{{Random: {{CompanionRefSecondborn}} }} told me to stop asking for trash.$6#$e#I guess I don't want trash that much anyway. I just think it's funny to say.$4",
+				 "{{SecondbornName}}_y2": "{{Random: {{CompanionRefSecondborn}} }} forgot to prepare cookies before the festival, so {{lowercase:{{Random: {{CoSub2}} }} }} said we can decorate them after.$4",
+			},
+		},
+		
+		
+		
+		{
+			"LogName": "Add movie concession tastes for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				2:{
+					"Name": "{{SecondbornName}}",
+					"LovedTags": [
+					  "Hummus Snack Pack",
+					  "Star Cookie"
+					],
+					"LikedTags": [
+					  "Healthy",
+					],
+					"DislikedTags": [
+					  "Kale Smoothie",
+					  "Fatty",
+					  "Candy"
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Add movie reactions for Emily's daughter as secondborn.",
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				2:{
+					"NPCName": "{{SecondbornName}}",
+					"Reactions": [
+					  {
+						"Tag": "*",
+						"Response": "love",
+						"Whitelist": [
+						  "{{PlayerCompanion}}",
+						],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "Look! {{CompanionRef}}'s here too!$1"
+						  },
+						  "DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "/message \"{{CompanionName}} shoots you and {{SecondbornDisplayName}} a smile.\"",
+							"Text": null
+						  },
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "We watched the movie as a family. That's the best.$5"
+						  }
+						},
+						"Id": "reaction_3"
+					  },
+					  {
+						"Tag": "summer_movie_1",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "Oh, I wanna see this movie.$5"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "That was fun! The food was so silly.$1"
+						  }
+						},
+						"Id": "reaction_4"
+					  },
+					  {
+						"Tag": "family",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_0"
+					  },
+					  {
+						"Tag": "horror",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_1"
+					  },
+					  {
+						"Tag": "*",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"Id": "reaction_2"
+					  },
+					  {
+						"Tag": "love",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "Oh, this movie's good. I've seen it!$1"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "That was great. I wanna see it again and again.$5"
+						  }
+						},
+						"Id": "reaction_5"
+					  },
+					  {
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "Do you like this movie, {{Random: {{FarmerRefSecondborn}} }}?$4"
+						  },
+						  "DuringMovie": null,
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "I'm hungry. Do you have any food?$3"
+						  }
+						},
+						"Id": "reaction_6"
+					  },
+					  {
+						"Tag": "dislike",
+						"Response": "dislike",
+						"Whitelist": [],
+						"SpecialResponses": {
+						  "BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "This movie seems scary...$6"
+						  },
+						  "DuringMovie":   {
+							"ResponsePoint": null,
+							"Script": "/shake {{SecondbornName}} 250/pause 500/shake {{SecondbornName}} 250/pause 500/emote {{SecondbornName}} 28/message \"{{SecondbornDisplayName}} is covering her eyes.\"",
+							"Text": null
+						  },
+						  "AfterMovie": {
+							"ResponsePoint": null,
+							"Script": null,
+							"Text": "I didn't like that...$2"
+						  }
+						},
+						"Id": "reaction_7"
+					  }
+					]
+				}
+			}
+		},
+		
+		
+		//Conditional dialogue (schedules)
+		{
+            "LogName": "Edit schedule dialogue for Emily's daughter as secondborn to use genericized versions.",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{SecondbornName}}",
+            "Entries": {
+				"Mon.000": "There's funny juice in the pots over there.$3#$b#I had a sip and it tasted really weird.$3",
+				"Mon.001": "I walked here... I dunno why. The, um, universe said I should.$4",
+				"Fri.000": "I wonder if I'll find a mermaid today.$4",
+				"Fri.001": "Which fruit should I buy...? I can't choose...$3",
+				"DesertFestival.000": "So many clothes!$1",
+				"DesertFestival.001": "I wanna make a pretty outfit.$4",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+	
+		{
+            "LogName": "Edit schedule dialogue for Emily's daughter as secondborn to use single parenting versions.",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{SecondbornName}}",
+            "Entries": {
+				"trash.000": "I'm, um, I'm not doing anything bad... I'm just checking the trash can.$7#$e#Um, am I in trouble...?$6",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Single": true,
+			},
+		},
+		
+		//Conditional dialogue (regular)
+		{
+            "LogName": "Edit dialogue for Emily's daughter as secondborn to use genericized versions.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{SecondbornName}}",
+            "Entries": {
+				"AcceptGift_(O)64": "Rubies are red. They're so pretty.$1#$b#I want a dress that's red like a ruby.$4",
+				"Mon": "I made a fruit smoothie!$1#$e#It was really yummy. I wanna make another one.$4",
+				"Tue": "Trash is my friend, but I eat trash sometimes.$4#$b#Hmm... is that bad? Maybe I shouldn't eat my friend.$3",
+				"Sat": "I'm trying to think of a name for the my bird friend.$4#$e#Oh, I know! I'll name it {{SecondbornDisplayName}}!$1#$b#Huh? That name's already taken?$3",
+				"summer_Mon": "Um, last time I visited the house, I got told I could learn how to, um, die. I said I don't wanna.$6#$e#Huh? \"Die\" with a \"y\"? I don't get it.$3",
+				"summer_Tue": "I got a gift! It's a sparkly necklace. I licked it and it didn't taste like anything.",
+				"fall_Mon": "I don't know why people like to just go for walks. Walking without going anywhere is weird.$3#$e#When I walk, it's so I can go to the beach or look for trash.$4#$b#And sometimes, it's because the universe says so.$7",
+				"fall_Thu": "Do gems really have magic powers? And do they taste good? My teeth aren't strong enough to eat them.$3#$e#I heard it's important to eat enough minerals, but I can't. I wanna eat minerals too...$2",
+				"winter_Mon": "Houses are warm.#$b#What makes houses warm? I know there's the heating, but why's the heating warm?$3",
+				"winter_Tue": "I poured water on the snow and it froze. I'm gonna make my own ice rink.#$e#I was told I shouldn't 'cause someone could slip. But my ice rink is there! Nobody should walk on it and slip on it.$6",
+				"winter_Thu": "I'm thinking of something tasty to eat the snow with.$4#$e#Do you like eating snow, {{Random: {{FarmerRefSecondborn}} }}?$4",
+				"winter_Fri": "I'm glad I can buy fruits even in the winter. They're so yummy.$5",
+				"winter_Sat": "Um, did I tell you I was trying to make an ice rink this week? Well, someone got rid of it...$3#$e#I'll try again next time.$3",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		{
+			"LogName": "Edit Emily's daughter's dialogue for Sandy's birthday on secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{SecondbornName}}",
+			"Entries": {
+				"fall_15_1": "I like going to the desert to visit. Today's an important birthday.$1#$e#This year, I wanna eat a cactus.$4",
+				"fall_15_2": "I like going to the desert to visit. Today's an important birthday.$1#$e#This year, I wanna eat a cactus.$4",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+				"HasFlag:hostPlayer": "ccVault"
+			},
+		},
+		{
+            "LogName": "Edit dialogue for Emily's daughter as secondborn to use single parenting versions.",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{SecondbornName}}",
+            "Entries": {
+				"AcceptGift_category_egg": "Is this free-range? Cage-free? Is it yummy?$3#$b#Okaaay! I'll keep it for cooking later.$5",
+				"Resort": "A parrot bit my finger, but that's okay.$4#$e#My hand's all red now. Is that really bad?$6",
+				"Wed": "I found food in the trash. Do you like trash food, {{Random: {{FarmerRefSecondborn}} }}?$3",
+				"summer_Fri": "Summer's good for visiting the beach. The sun and the ocean are so warm.$5#$e#Sometimes I walk into the water with all my clothes on. The water feels so nice...$3",
+				"winter_Wed": "My immune system is amazing, right? Someone said it is, and it's why I don't get sick.",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Single": true,
+			},
+		},
+		
+		//Conditional dialogue (festivals)
+        {
+			"LogName": "Edit Luau dialogue for Emily's daughter as secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+				 "{{SecondbornName}}_y2": "Why do adults get tired so fast? I can keep dancing forever!$1",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Moonlight Jellies dialogue for Emily's daughter as secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+				 "{{SecondbornName}}_y2": "I wanna touch a jelly. I heard that they prickle a little.$3",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Fair dialogue for Emily's daughter as secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				 "{{SecondbornName}}_y2": "I'm hiding. From the clown.$6",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Spirit's Eve dialogue for Emily's daughter as secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				 "{{SecondbornName}}": "I tried to help carve the jack-o-lanterns, but I cut myself really quick.$3#$b#Then I wasn't allowed to touch any of the carving tools.$6#$e#I still got to scrape out some of the pumpkin guts. That was fun, and it was tasty!$1",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Festival of Ice dialogue for Emily's daughter as secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				 "{{SecondbornName}}": "This snowman is ugly.$3#$b#I'm helping fix it to make it pretty!$1",
+				 "{{SecondbornName}}_y2": "Making people out of snow is fun!$1",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+        {
+			"LogName": "Edit Winter Star dialogue for Emily's daughter as secondborn to use genericized versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{SecondbornName}}_y2": "I wanna decorate cookies for the Feast. Can we do that after?$4",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Generic, Single": true,
+			},
+		},
+		
+        {
+			"LogName": "Edit Winter Star dialogue for Emily's daughter as secondborn to use single parenting versions.",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				 "{{SecondbornName}}": "Under the spirit tree, I wanna find... Um, I don't know what I want.$3#$b#I decided to stop asking for trash since I don't want trash that much anyway. I just think it's funny to say.$4",
+			},
+			"When": {
+				"SecondbornDialogue|contains=Single": true,
+			},
+		},
+		
+   ]
+}

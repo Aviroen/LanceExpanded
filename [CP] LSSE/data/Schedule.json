@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      //Lance meets with Krobus Schedule
+      "Action": "EditData",
+      "Target": "characters/schedules/Lance",
+      "When": {
+        "HasSeenEvent": "LSSE12Third"
+      },
+      "Entries": {
+        "marriage_Spring_10": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.001\"/2550 Forest 96 91 1",
+        "marriage_Spring_24": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.002\"/2550 Forest 96 91 1",
+        "marriage_Summer_10": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.003\"/2550 Forest 96 91 1",
+        "marriage_Summer_24": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.004\"/2550 Forest 96 91 1",
+        "marriage_Fall_10": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.005\"/2550 Forest 96 91 1",
+        "marriage_Fall_24": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.006\"/2550 Forest 96 91 1",
+        "marriage_Winter_10": "1700 Forest 96 91 1 \"Strings\\schedules\\Lance:KrobusDialogue.007\"/2550 Forest 96 91 1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedules/Lance",
+      "Entries": {
+        "KrobusDialogue.001": "{{i18n:Lance.KrobusDialogue.001}}",
+        "KrobusDialogue.002": "{{i18n:Lance.KrobusDialogue.002}}",
+        "KrobusDialogue.003": "{{i18n:Lance.KrobusDialogue.003}}",
+        "KrobusDialogue.004": "{{i18n:Lance.KrobusDialogue.004}}",
+        "KrobusDialogue.005": "{{i18n:Lance.KrobusDialogue.005}}",
+        "KrobusDialogue.006": "{{i18n:Lance.KrobusDialogue.006}}",
+        "KrobusDialogue.007": "{{i18n:Lance.KrobusDialogue.007}}"
+      }
+    }
+  ]
+}

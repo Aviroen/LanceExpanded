@@ -1,0 +1,9 @@
+{
+   "Changes": [
+   		{      
+			"LogName": "Always load Emily's daughter as secondborn.",
+			"Action": "Include",
+			"FromFile": "ChildFiles/Emily/secondborn_Emily.json", 
+		},
+   ]
+}
