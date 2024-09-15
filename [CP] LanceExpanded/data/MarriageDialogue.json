@@ -130,17 +130,10 @@
         "fall_16": "{{i18n:Lance.MarriageDialogue.026}}",
         "fall_27": "{{i18n:Lance.MarriageDialogue.spirit.{{Random:{{Range: 0, 5}}}}}}",
         //DAY DIALOGUE
-        "spring_Lance": "{{i18n:Lance.MarriageDialogue_Spring{{Random:{{Range: 0, 5}}}}}}",
-        "summer_Lance": "{{i18n:Lance.MarriageDialogue_Summer{{Random:{{Range: 0, 5}}}}}}",
-        "fall_Lance": "{{i18n:Lance.MarriageDialogue_Fall{{Random:{{Range: 0, 5}}}}}}",
-        "winter_Lance": "{{i18n:Lance.MarriageDialogue_Winter{{Random:{{Range: 0, 5}}}}}}",
-        "Sun": "{{i18n:Lance.MarriageDialogue_sun{{Random:{{Range: 0, 5}}}}}}",
-        "Mon": "{{i18n:Lance.MarriageDialogue_mon{{Random:{{Range: 0, 5}}}}}}",
-        "Tue": "{{i18n:Lance.MarriageDialogue_tue{{Random:{{Range: 0, 5}}}}}}",
-        "Wed": "{{i18n:Lance.MarriageDialogue_wed{{Random:{{Range: 0, 5}}}}}}",
-        "Thu": "{{i18n:Lance.MarriageDialogue_thu{{Random:{{Range: 0, 5}}}}}}",
-        "Fri": "{{i18n:Lance.MarriageDialogue_fri{{Random:{{Range: 0, 5}}}}}}",
-        "Sat": "{{i18n:Lance.MarriageDialogue_sat{{Random:{{Range: 0, 5}}}}}}"
+        "spring_Lance": "{{i18n:Lance.MarriageDialogue_Spring{{Random:{{Range: 0, 13}}}}}}",
+        "summer_Lance": "{{i18n:Lance.MarriageDialogue_Summer{{Random:{{Range: 0, 13}}}}}}",
+        "fall_Lance": "{{i18n:Lance.MarriageDialogue_Fall{{Random:{{Range: 0, 13}}}}}}",
+        "winter_Lance": "{{i18n:Lance.MarriageDialogue_Winter{{Random:{{Range: 0, 13}}}}}}"
       }
     }
   ]

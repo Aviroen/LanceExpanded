@@ -21,7 +21,7 @@
       ],
 
       "Entries": {
-        "Lance": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changePortrait Camilla LEWedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.FCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried"
+        "Lance": "sweet/-100000 -100000/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changePortrait Camilla LEWedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.FCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried"
       }
     },
     { //well here we go male spotted
@@ -37,7 +37,7 @@
       ],
 
       "Entries": {
-        "Lance": "sweet/-1000 -100/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/globalFade/pause 1000/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changePortrait Camilla LEWedding/changeLocation Custom_FableReef/playMusic wedding/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.MCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried"
+        "Lance": "sweet/-100000 -100000/farmer 43 41 2 Lance 44 55 48 Lewis 43 57 0 Camilla 44 57 0 otherFarmers 40 55 0[SetupContextualWeddingAttendees]/specificTemporarySprite wedding/addTemporaryActor FirstSlashATTEND 94 47 46 49 2/changePortrait Lance Wedding/changePortrait Camilla LEWedding/changeLocation Custom_FableReef/playMusic wedding/globalfadetoclear .007 true/viewport 44 52 clamp/showFrame Lance 53/beginSimultaneousCommand/move farmer 0 14 1/showFrame Lance 49/endSimultaneousCommand/beginSimultaneousCommand/showFrame farmer 89/endSimultaneousCommand/pause 500/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/pause 300/speak Lewis \"{{i18n:Wedding.01}}\"/pause 200/speak Lewis \"{{i18n:Wedding.02}}\"/shake Camilla 1000/speak Camilla \"{{i18n:Wedding.03}}\"/emote Camilla 28/jump Lewis 3/shake Lewis 50/speak Lewis \"{{i18n:Wedding.04}}\"/pause 400/message \"{{i18n:Wedding.05}}\"/pause 300/speak Lance \"{{i18n:Wedding.MCall.02}}\"/pause 200/beginSimultaneousCommand/emote farmer 20/emote Lance 20/endSimultaneousCommand/pause 300/speak Lewis \"{{i18n:Wedding.07}}\"/pause 300/speak Lewis \"{{i18n:Wedding.08}}\"/beginSimultaneousCommand/[ContextualWeddingCelebrations]/playsound dwoop/showFrame Lance 50/showFrame farmer 101/endSimultaneouscommand/pause 1000/beginSimultaneousCommand/showFrame Lance 49/showFrame farmer 89/endSimultaneousCommand/pause 300/message \"{{i18n:Wedding.09}}\"/message \"{{i18n:Wedding.10}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap custom_FableReef false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LE.JustMarried"
       }
     },
 
@@ -70,35 +70,35 @@
         "Andy": {
           "Id": "Andy",
           "Condition": null,
-          "Setup": "Andy 36 48 2",
+          "Setup": "Andy 41 42 2",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Claire": {
           "Id": "Claire",
           "Condition": null,
-          "Setup": "Claire 49 45 2",
-          "Celebration": null,
+          "Setup": "Claire 45 45 3",
+          "Celebration": "facedirection Claire 2 true",
           "IgnoreUnlockConditions": false
         },
         "Martin": {
           "Id": "Martin",
           "Condition": null,
-          "Setup": "Martin 38 45 2",
-          "Celebration": null,
+          "Setup": "Martin 42 45 1",
+          "Celebration": "facedirection Martin 2 true",
           "IgnoreUnlockConditions": false
         },
         "MarlonFay": {
           "Id": "MarlonFay",
           "Condition": null,
-          "Setup": "MarlonFay 51 42 2",
+          "Setup": "MarlonFay 46 42 2",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Alesia": {
           "Id": "Alesia",
           "Condition": null,
-          "Setup": "Alesia 53 42 2",
+          "Setup": "Alesia 52 49 2",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
@@ -112,15 +112,15 @@
         "Krobus": {
           "Id": "Krobus",
           "Condition": null,
-          "Setup": "Krobus 54 41 2",
+          "Setup": "Krobus 47 42 2",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Leo": {
           "Id": "Leo",
           "Condition": null,
-          "Setup": "Leo 55 41 2",
-          "Celebration": null,
+          "Setup": "Leo 42 50 1",
+          "Celebration": "facedirection Leo 2",
           "IgnoreUnlockConditions": false
         },
         "Wizard": {
@@ -133,42 +133,42 @@
         "Olivia": {
           "Id": "Olivia",
           "Condition": null,
-          "Setup": "Olivia 56 38 1",
-          "Celebration": "faceDirection Olivia 1 true",
+          "Setup": "Olivia 45 46 3",
+          "Celebration": "faceDirection Olivia 2 true",
           "IgnoreUnlockConditions": false
         },
         "Victor": {
           "Id": "Victor",
           "Condition": null,
-          "Setup": "Victor 56 37 1",
+          "Setup": "Victor 42 46 1",
           "Celebration": "faceDirection Victor 1 true",
           "IgnoreUnlockConditions": false
         },
         "Willy": {
           "Id": "Willy",
           "Condition": null,
-          "Setup": "Willy 36 39 2",
-          "Celebration": "faceDirection Willy 1 true",
+          "Setup": "Willy 40 55 1",
+          "Celebration": "faceDirection Willy 0 true",
           "IgnoreUnlockConditions": false
         },
         "Sophia": {
           "Id": "Sophia",
           "Condition": null,
-          "Setup": "Sophia 34 46 2",
-          "Celebration": "faceDirection Sophia 1 true",
+          "Setup": "Sophia 45 47 3",
+          "Celebration": "faceDirection Sophia 2 true",
           "IgnoreUnlockConditions": false
         },
         "Scarlett": {
           "Id": "Scarlett",
           "Condition": null,
-          "Setup": "Scarlett 35 46 2",
-          "Celebration": "faceDirection Scarlett 1 true",
+          "Setup": "Scarlett 45 48 3",
+          "Celebration": "faceDirection Scarlett 2 true",
           "IgnoreUnlockConditions": false
         },
         "Susan": {
           "Id": "Susan",
           "Condition": null,
-          "Setup": "Susan 34 45 2",
+          "Setup": "Susan 31 50 2",
           "Celebration": "faceDirection Susan 1 true",
           "IgnoreUnlockConditions": false
         },
@@ -273,84 +273,84 @@
         "Sam": {
           "Id": "Sam",
           "Condition": null,
-          "Setup": "Sam 33 50 2",
+          "Setup": "Sam 42 46 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Sebastian": {
           "Id": "Sebastian",
           "Condition": null,
-          "Setup": "Sebastian 38 46 2",
+          "Setup": "Sebastian 42 47 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Alex": {
           "Id": "Alex",
           "Condition": null,
-          "Setup": "Alex 38 50 2",
+          "Setup": "Alex 42 48 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Harvey": {
           "Id": "Harvey",
           "Condition": null,
-          "Setup": "Harvey 37 41 2",
+          "Setup": "Harvey 42 49 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Elliott": {
           "Id": "Elliott",
           "Condition": null,
-          "Setup": "Elliott 39 42 2",
+          "Setup": "Elliott 42 50 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Haley": {
           "Id": "Haley",
           "Condition": null,
-          "Setup": "Haley 36 49 2",
+          "Setup": "Haley 45 49 3",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Penny": {
           "Id": "Penny",
           "Condition": null,
-          "Setup": "Penny 41 49 2",
+          "Setup": "Penny 45 50 3",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Maru": {
           "Id": "Maru",
           "Condition": null,
-          "Setup": "Maru 24 68 0",
+          "Setup": "Maru 45 44 3",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Leah": {
           "Id": "Leah",
           "Condition": null,
-          "Setup": "Leah 38 42 2",
+          "Setup": "Leah 45 43 3",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Abigail": {
           "Id": "Abigail",
           "Condition": null,
-          "Setup": "Abigail 41 50 2",
+          "Setup": "Abigail 46 51 2",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Emily": {
           "Id": "Emily",
           "Condition": null,
-          "Setup": "Emily 37 49 2",
+          "Setup": "Emily 40 54 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
         "Shane": {
           "Id": "Shane",
           "Condition": null,
-          "Setup": "Shane 39 45 2",
+          "Setup": "Shane 57 47 1",
           "Celebration": null,
           "IgnoreUnlockConditions": false
         },
