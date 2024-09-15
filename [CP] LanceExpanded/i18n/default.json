@@ -5,7 +5,7 @@
   "config.section.Content.description": "Alters the content active in the mod. Please make sure these are configured properly!",
 
   "config.Override Generic Dialogue.name": "Override Generic Dialogue",
-  "config.Override Generic Dialogue.description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and other similar fun dialogue. Please disable this if you aren't planning to date the Lance. ",
+  "config.Override Generic Dialogue.description": "Alters Welwick's dialogue during the fair, turn this off if you're not dating Lance.",
 
   "config.Portrait": "Portrait",
   "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
@@ -23,10 +23,10 @@
   "config.Darker Plot Events(Y4)": "Darker Plot Events(Y4)",
   "config.Darker Plot Events(Y4).values.true": "true",
   "config.Darker Plot Events(Y4).values.false": "false",
-  "config.Darker Plot Events(Y4).description": "Enables the somewhat darker string of critical plot events where Lance' trauma response is on full display. If you would prefer a more light-hearted experience I suggest you turn this off. TW: Overt self-destructive tendencies and vague suicidal tendency implications. Potentially may possess triggering scenarios. (The farmer is briefly kidnapped and sealed into silence about the event.) Toggling this off in the middle of said events will stop them from continuing so you may test it out to see if it's for you.",
+  "config.Darker Plot Events(Y4).description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety.",
 
   "config.Spicier Content": "Spicier Content",
-  "config.Spicier Content.description": "You are warned that Pepper X is [Aviroen] letting the muzzle off my writer who is a thirsty dog. Carolina Reaper is more explicit than Habanero, Habanero is akin to RRRR's 'wine event' spice. Bell Pepper is rated-E for everyone.",
+  "config.Spicier Content.description": "Bell Pepper is rated-E for everyone. Habanero has IMPLICATIONS. Pepper-X is Rated-R.",
   "config.Spicier Content.values.Bell Pepper": "Bell Pepper",
   "config.Spicier Content.values.Habanero": "Habanero",
   "config.Spicier Content.values.Carolina Reaper": "Carolina Reaper",
@@ -51,6 +51,11 @@
   "config.Day 1 Toggle.description": "Default, you will meet Lance after the volcano event, change to true if you want to meet Lance after the Wizard junimo note. If you turn on the day 1 toggle you will still need to get to the volcano for his heart events, but you can at least gift and marry him early.",
   "config.Day 1 Toggle.values.true": "true",
   "config.Day 1 Toggle.values.false": "false",
+
+  "config.Easy Savage Ring": "Easy Savage Ring",
+  "config.Easy Savage Ring.description": "This might screw with perfection. Lets you purchase the Savage Ring from Gil. (This is a requirement for the 13 Heart event because you'll need the Krobus Ritual to be done.)",
+  "config.Easy Savage Ring.values.true": "true",
+  "config.Easy Savage Ring.values.false": "false",
 
   "config.Death Insurance Toggle": "Death Insurance Toggle",
   "config.Death Insurance Toggle.description": "Default on, after the 14 Heart he will effectively always be able to save you from item loss/money loss. Set to false if you want other mods with other passout/death features.",

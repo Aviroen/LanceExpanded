@@ -6,7 +6,7 @@
       "AllowValues": "true, false",
       "Default": "true",
       "Section": "Content",
-      "Description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and summit dialogue. Please disable this if you aren't planning to date Lance. "
+      "Description": "Alters Welwick's dialogue during the fair, turn this off if you're not dating Lance."
     },
     "Portrait": {
       "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), SVE, Use Custom",
