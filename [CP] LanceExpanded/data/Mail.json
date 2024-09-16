@@ -9,7 +9,8 @@
         "{{ModId}}_4Heart": "{{i18n:Mail.4Heart}}[#]{{i18n:Mail.4Heart.Title}}",
         "{{ModId}}_LanceRich": "{{i18n:Mail.Broke}}%item id (O)ReturnScepter 1[#]{{i18n:Mail.Broke.Title}}",
         "{{ModId}}_Lance13": "{{i18n:Mail.13Heart}}[#]{{i18n:Mail.13Heart.Title}}",
-        "{{ModId}}_PelicanMinesMail": "{{i18n:Mail.Pelican}} %item id (O)Aviroen.LanceExpanded_Khanjar 1 %%[#]{{i18n:Mail.Pelican.Title}}"
+        "{{ModId}}_PelicanMinesMail": "{{i18n:Mail.Pelican}} %item id (O){{ModId}}_Khanjar 1 %%[#]{{i18n:Mail.Pelican.Title}}",
+        "{{ModId}}_BeardCustom": "{{i18n:Mail.Beard}} %item id (O){{ModId}}_Razor 1[#]{{i18n:Mail.Beard.Title}}"
       }
     }
   ]

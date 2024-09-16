@@ -62,12 +62,18 @@
   "config.Death Insurance Toggle.values.true": "true",
   "config.Death Insurance Toggle.values.false": "false",
 
+  "config.Custom Farmhouse": "Custom Farmhouse",
+  "config.Custom Farmhouse.description": "Default on, this marks it so that there is only the 12 heart pt2 event in the farmhouse, all other farmhouse events will simply give you a mail or be triggered some other way.",
+  "config.Custom Farmhouse.values.true": "true",
+  "config.Custom Farmhouse.values.false": "false",
+
 
   ////Misc stuff
   "Friend": "Friend",
   "Colleague": "Colleague",
   "LancePortrait": "Lance's Portrait",
   "Name.Lance": "Lance",
+  "Lance.Ahem": "*Ahem*",
 
   //CHANGED DIALOGUE
   ////Items
@@ -316,7 +322,7 @@
   "Fri.Lance.CharacterDialogue_0": "The shipwreck has been there for quite a while, I mostly tended to the volcano since it was active at the time.$8",
   "Fri.Lance.CharacterDialogue_1": "Leo is a good kid, even if he thinks that my hair is made out of candy.$8",
   "Fri.Lance.CharacterDialogue_2": "The parrots sometimes bring me random fruits for my labour, I appreciate their hard work.$9",
-  "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...$e3",
+  "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...$3",
   "Fri.Lance.CharacterDialogue_4": "Pardon?$99#$b#I guess I must've dozed off for a second.$8",
   "Fri.Lance.CharacterDialogue_5": "Just here to entertain me?$13",
 
@@ -442,7 +448,7 @@
   "LancepatioMarriageDialogue_1": "%*Lance is humming*#$b#A hopeless romantic all my life~$8#$b#Surrounded by couples all the time.$9#$b#I guess I should take it as a sign~$8",
   "LancepatioMarriageDialogue_2": "Oh don't mind me, I'm admiring the view.$13#$e#What view? Well, you, of course.$7",
   "LancepatioMarriageDialogue_3": "%Lance is singing to himself.#$e#You can turn away from the light.$37#$e#You even outburn my sun, my star.$35#$e#You're the perfect subject with the whole world in your sad eyes.$28#$e#My saviour, my beautiful soul, I don't believe you're a liar.$37#$e#When our darknesses overlap, let me take it all away.$41#$e#Ruler of my heart~$44#$e#Ruler of my heart, ruler of my heart.$8You are forever beautiful~$35",
-  "LancepatioMarriageDialogue_4": "%Lance is singing to himself.#$e#Never thought I'd try this hard.$8Never thought I'd be hooked this much.$13Never thought it would get this much worse.$9I shouldn't give a flying damn about it.$7I have absolutely nothing to do with it.$8Never thought I'd care this much about it.$7Me, the one who is getting dumber by the day, what should I do, what should I do~$8",
+  "LancepatioMarriageDialogue_4": "%Lance is singing to himself.#$e#Never thought I'd try this hard.$8#$b#Never thought I'd be hooked this much.$13#$b#Never thought it would get this much worse.$9#$b#I shouldn't give a flying damn about it.$7#$b#I have absolutely nothing to do with it.$8#$b#Never thought I'd care this much about it.$7Me, the one who is getting dumber by the day, what should I do, what should I do~$8",
   "LancepatioMarriageDialogue_5": "My singing?$14#$b#I... I heard somewhere that conversing with plants help them grow...$99#$b#Was my singing too distracting?$14#$b#No? I sing well?$99#$b#Thank you, my love, I guess I'll continue my endeavors.$15",
 
   //indoors
@@ -863,6 +869,8 @@
   "Mail.13Heart.Title": "A Bond of Magical Proportion",
   "Mail.Pelican": "Good morning my love.^I have been tasked with delving into the mines today, if you would like to accompany me, you need only let me know with this khanjar.^With love, Lance",
   "Mail.Pelican.Title": "Pelican Mines Date",
+  "Mail.Beard": "Thank you for purchasing the Deluxe Joja Razor! ^Disclaimer, this razor is a single use razor and may cause serious afteraffects.^Afteraffects included, but not limited to: increased sensitivity towards magic, headaches, insomnia, nausea---",
+  "Mail.Beard.Title": "Questionably Deluxe Joja Razor",
 
   ////HEART EVENTS
   ////Lance 0 Heart Volcano

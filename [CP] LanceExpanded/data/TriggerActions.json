@@ -109,10 +109,18 @@
         "{{ModId}}_TheBeardCounter": {
           "Id": "{{ModId}}_TheBeardCounter",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}",
+          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}, {{Custom Farmhouse |contains=false}}",
           "Actions": [
-            "AddMail Current {{ModId}}_Beard received",
-            "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
+            "AddMail Current {{ModId}}_Beard received"
+          ]
+        },
+        "{{ModId}}_TheBeardCounterCustom": {
+          "Id": "{{ModId}}_TheBeardCounterCustom",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}, {{Custom Farmhouse |contains=true}}",
+          "Actions": [
+            "AddMail Current {{ModId}}_BeardCustom tomorrow",
+            "MarkActionApplied Current {{ModId}}_TheBeardCounterCustom false"
           ]
         },
         "{{ModId}}_EZSavage": {
