@@ -40,12 +40,18 @@
   "config.Death Insurance Toggle.values.true": "true",
   "config.Death Insurance Toggle.values.false": "false",
 
+  "config.Custom Farmhouse": "Custom Farmhouse",
+  "config.Custom Farmhouse.description": "Default on, this marks it so that there is only the 12 heart pt2 event in the farmhouse, all other farmhouse events will simply give you a mail or be triggered some other way.",
+  "config.Custom Farmhouse.values.true": "true",
+  "config.Custom Farmhouse.values.false": "false",
+
 
   ////Misc stuff
   "Friend": "Friend",
   "Colleague": "Colleague",
   "LancePortrait": "Lance's Portrait",
   "Name.Lance": "Lance",
+
 
 
   ////Items
@@ -135,15 +141,15 @@
   "Lance.Resort_BarCharacterDialogue_4": "I couldn't possibly be *hic* ...$15#$b#Okay maybe I'm a little drunk.$99",
   "Lance.Resort_BarCharacterDialogue_5": "I'm not as think as you drunk I am...$14",
 
-  //"Resort_Chair": "{{i18n:"Lance.Resort_ChairCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+  //"Resort_Chair": "{{i18n:Lance.Resort_ChairCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.Resort_ChairCharacterDialogue_0": "Ministry affairs are not my concern today, I'm finally relaxing.$8",
-  "Lance.Resort_ChairCharacterDialogue_1": "",
-  "Lance.Resort_ChairCharacterDialogue_2": "",
-  "Lance.Resort_ChairCharacterDialogue_3": "",
+  "Lance.Resort_ChairCharacterDialogue_1": "Care to join me, my love?$43",
+  "Lance.Resort_ChairCharacterDialogue_2": "As much as I patrol the area for work, it's always nice to just have time for myself.$8",
+  "Lance.Resort_ChairCharacterDialogue_3": "%Lance is snoring.",
   "Lance.Resort_ChairCharacterDialogue_4": "",
   "Lance.Resort_ChairCharacterDialogue_5": "",
 
-  //"Resort_Dance": "{{i18n:"Lance.Resort_DanceCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+  //"Resort_Dance": "{{i18n:Lance.Resort_DanceCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.Resort_DanceCharacterDialogue_0": "To bask in the warm sun is one of my favorite things to do. Does that make me a feline?$8",
   "Lance.Resort_DanceCharacterDialogue_1": "",
   "Lance.Resort_DanceCharacterDialogue_2": "",
@@ -151,7 +157,7 @@
   "Lance.Resort_DanceCharacterDialogue_4": "",
   "Lance.Resort_DanceCharacterDialogue_5": "",
 
-  //"Resort_Entering": "{{i18n:"Lance.Resort_EnteringCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+  //"Resort_Entering": "{{i18n:Lance.Resort_EnteringCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.Resort_EnteringCharacterDialogue_0": "I can't wait to enjoy myself!$15",
   "Lance.Resort_EnteringCharacterDialogue_1": "",
   "Lance.Resort_EnteringCharacterDialogue_2": "",
@@ -159,7 +165,7 @@
   "Lance.Resort_EnteringCharacterDialogue_4": "",
   "Lance.Resort_EnteringCharacterDialogue_5": "",
 
-  //"Resort_Leaving": "{{i18n:"Lance.Resort_LeavingCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+  //"Resort_Leaving": "{{i18n:Lance.Resort_LeavingCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.Resort_LeavingCharacterDialogue_0": "It's a shame... but work calls.$65",
   "Lance.Resort_LeavingCharacterDialogue_1": "",
   "Lance.Resort_LeavingCharacterDialogue_2": "",
@@ -175,7 +181,7 @@
   "Lance.Resort_ShoreCharacterDialogue_4": "If you listen closely, you can hear the sounds of the world.$8",
   "Lance.Resort_ShoreCharacterDialogue_5": "It's nice to just relax and feel the sand between your toes every now and then.$8",
 
-  //"Resort_Towel": "{{i18n:"Lance.Resort_TowelCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+  //"Resort_Towel": "{{i18n:Lance.Resort_TowelCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.Resort_TowelCharacterDialogue_0": "%Lance is snoring.",
   "Lance.Resort_TowelCharacterDialogue_1": "",
   "Lance.Resort_TowelCharacterDialogue_2": "",
@@ -183,7 +189,7 @@
   "Lance.Resort_TowelCharacterDialogue_4": "",
   "Lance.Resort_TowelCharacterDialogue_5": "",
 
-  //"Resort_Umbrella": "{{i18n:"Lance.Resort_UmbrellaCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+  //"Resort_Umbrella": "{{i18n:Lance.Resort_UmbrellaCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.Resort_UmbrellaCharacterDialogue_0": "%Lance is talking through communication magic.",
   "Lance.Resort_UmbrellaCharacterDialogue_1": "",
   "Lance.Resort_UmbrellaCharacterDialogue_2": "",
@@ -273,7 +279,7 @@
   "Fri.Lance.CharacterDialogue_0": "The shipwreck has been there for quite a while, I mostly tended to the volcano since it was active at the time.$8",
   "Fri.Lance.CharacterDialogue_1": "Leo is a good kid, even if he thinks that my hair is made out of candy.$8",
   "Fri.Lance.CharacterDialogue_2": "The parrots sometimes bring me random fruits for my labour, I appreciate their hard work.$9",
-  "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...$e3",
+  "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...$3",
   "Fri.Lance.CharacterDialogue_4": "Pardon?$99#$b#I guess I must've dozed off for a second.$8",
   "Fri.Lance.CharacterDialogue_5": "Just here to entertain me?$13",
 
@@ -399,8 +405,8 @@
   "LancepatioMarriageDialogue_0": "The monster crops are in good health.$12",
   "LancepatioMarriageDialogue_1": "%*Lance is humming*#$b#A hopeless romantic all my life~$8#$b#Surrounded by couples all the time.$9#$b#I guess I should take it as a sign~$8",
   "LancepatioMarriageDialogue_2": "Oh don't mind me, I'm admiring the view.$13#$e#What view? Well, you, of course.$7",
-  "LancepatioMarriageDialogue_3": "%Lance is singing to himself.#$e#You can turn away from the light.$37#$e#You even outburn my sun, my star.$35#$e#You're the perfect subject with the whole world in your sad eyes.$28#$e#My saviour, my beautiful soul, I don't believe you're a liar.$37#$e#When our darknesses overlap, let me take it all away.$41#$e#Ruler of my heart~$44#$e#Ruler of my heart, ruler of my heart.$8You are forever beautiful~$35",
-  "LancepatioMarriageDialogue_4": "%Lance is singing to himself.#$e#Never thought I'd try this hard.$8Never thought I'd be hooked this much.$13Never thought it would get this much worse.$9I shouldn't give a flying damn about it.$7I have absolutely nothing to do with it.$8Never thought I'd care this much about it.$7Me, the one who is getting dumber by the day, what should I do, what should I do~$8",
+  "LancepatioMarriageDialogue_3": "%Lance is singing to himself.#$e#You can turn away from the light.$37#$e#You even outburn my sun, my star.$35#$e#You're the perfect subject with the whole world in your sad eyes.$28#$e#My saviour, my beautiful soul, I don't believe you're a liar.$37#$e#When our darknesses overlap, let me take it all away.$41#$e#Ruler of my heart~$44#$e#Ruler of my heart, ruler of my heart.$8#$e#You are forever beautiful~$35",
+  "LancepatioMarriageDialogue_4": "%Lance is singing to himself.#$e#Never thought I'd try this hard.$8#$e#Never thought I'd be hooked this much.$13Never thought it would get this much worse.$9I shouldn't give a flying damn about it.$7I have absolutely nothing to do with it.$8#$e#Never thought I'd care this much about it.$7#$e#Me, the one who is getting dumber by the day, what should I do, what should I do~$8",
   "LancepatioMarriageDialogue_5": "My singing?$14#$b#I... I heard somewhere that conversing with plants help them grow...$99#$b#Was my singing too distracting?$14#$b#No? I sing well?$99#$b#Thank you, my love, I guess I'll continue my endeavors.$15",
 
   //indoors
@@ -643,8 +649,6 @@
   "Lance.GiftBDPos": "Ah, a gift for yet another rotation around our star? I appreciate this!$99",
   "Lance.GiftBDNeg": "A gift for my birthday? I'm afraid I can't except this. I hope you understand.$8",
 
-
-
   //married gift dialogue
   "Married.GiftReaction_Dwarf_Scroll_I": "Ah, have you happened upon a scroll from the mines?$14#$b#I hear they're scattered around everywhere.$15#$b#Hmm? Would you like help translating it? Don't worry, I'm well versed in dwarvish.$8",
   "Married.GiftReaction_Dwarf_Scroll_II": "Oh, ready for round two?$15#$b#Do you remember anything from our last session?$14#$b#No?$8#$b#What am I to do with you?$9",
@@ -745,8 +749,46 @@
   "Married.GiftReaction_Snow_Yam": "Ah, more yams? Would you want to just roast these over an open fire?$14#$b#I have no qualms if you'd like to enjoy a snack with me.$9#$e#Here, my love, I've toasted it.$8[208]",
   "Married.GiftReaction_Sweet_Gem_Berry": "A... what is that?$14#$b#A sweet gem berry?$3#$b#Rare seed?$2#$b#Oh! From my seed pouch!$14#$b#I see you've managed to properly flourish it.$8#$b#I have no actual use for it, the Ministry simply wanted to know how Magnus was doing at the time and thought that I would beg for his mercy about seeds.$9#$b#I will give this back to you, you have a much better use for it than I will, my love.$8[417]",
   "Married.GiftReaction_Rice": "Ah tried and true, I cannot escape my heritage.$8#$b#I hope you don't mind my incessant need to have rice with all of my meals.$9#$b#Thank you for thinking of me, my love.$8",
+  //"Married.GiftReaction_TomYueaPhai": "Oh! A traditional Thai dish, my love?$14#$b#Something feels off about this one though--$14#$b#!!!$42#$b#Did you just feed me a love potion instead of a soup?$43",
+  "Married.GiftReaction_Void_Soul": "Oh, were you interested in how these work?$14#$b#My new research delves into how they're interconnected with the Shadowpeople.$13",
+  "Married.GiftReaction_Swirl_Stone": "Fascinating, aren't they?$8#$b#It's like the seashells of the Castle Village outskirts.$13#$b#They're deeply rooted in magic, and Camilla tends to ask me to fetch them for her experiments.$8#$b#Thank you for supplying more for me, my love.$11",
+  "Married.GiftReaction_Dewdrop_Berry": "The product of your nexus?$14#$b#It's quite fascinating that something like this can grow out of your grove.$12#$b#Is it possibly a byproduct of your inherent magic? I wonder if it can be distilled--$6#$e#%Lance is pondering.#$b#I apologize, my love, I'll hand it back to you--$11#$b#Oh, was it for me?$14#$b#Thank you, my love, I will take care to bring back the results of my research for you.$12",
+  "Married.GiftReaction_Frog": "This one is... quite big eyed, no?$8#$b#I know of one dish but I'm unsure if you'll be interested in it.$12#$b#It was Magnus' favorite dish once I finally figured out how to handle it.$8#$e#Here you go, my love.$12[FlashShifter.StardewValleyExpandedCP_Frog_Legs]#$b#It is... an acquired taste of a dish.$8",
+  "Married.GiftReaction_Kittyfish": "Ah, Camilla's experiment.$7#$b#She wanted to know if the 'fish' would interact just like normal cats and dogs.$8#$b#I've been forced to watch the ecosystem as punishment for not reporting a past mission.$7#$e#Do they actually interact like cats and dogs?$2#$b#Well, no, they interact much like two predators in a wide ocean.$8",
+  "Married.GiftReaction_Blue_Moon_Wine": "A product from Sophia?$12#$b#I'm not too fond of alcohol ",
+  "Married.GiftReaction_Void_Shard": "Thats--!$49#$b#%Before I was able to say a word, Lance magically warped it out of my hands.#$b#That was an extremely volatile object my love.$55#$b#While I appreciate your support for my research, I would love it more if you took care of yourself better.$36",
+  "Married.GiftReaction_Baby_Lunaloo": "Lunaloos don't manifest a polyp as a regular jellyfish, interesting, no?$12#$b#Their seasonal migration brings them to our shores with their luminescence and brings about a lovely view.$11",
+  "Married.GiftReaction_Undeadfish": "Camilla and I have been researching the onset of how the Crimson Badlands are affecting the wildlife.$6#$b#These undead fish are the product of the land bleeding into the rest of the environment.$3",
+  "Married.GiftReaction_Gemfish": "*Ahem*$1#$b#I did contemplate at one time whether these were actually edible, but Edmund had already told me that they were in fact, not.$8",
+  "Married.GiftReaction_Goldenfish": "Oh--Have you been interested in the Sprite Spring?$10#$b#Magnus enjoys the boons from being inclined with the actual sprites there, they don't quite see eye-to-eye with me, however.$8#$b#They don't quite like how my magic tastes, apparently.$12",
+  "Married.GiftReaction_Monster_Fruit": "Another monster fruit, my love?$12#$b#Thanks to your efforts, I've been able to dive further into my research of these.$8#$e#You'd like to know of them?$14#$b#Well--the monster fruit has such a tenacious appearance due to the fact that it's nectar is quite sweet.$12#$b#We have an aversion to eating things with an appearance close to our own, but Edmund, the ever curious, said it tasted like one of the sweetest fruits he's ever had.$8",
+  "Married.GiftReaction_Void_Eel": "Where did you get this kind of eel, my love? The witch swamp...? Interesting, I guess the corruption of her magic has spread to the outerlying area. I will have to report this to Magnus, thank you, my love.$4",
+  "Married.GiftReaction_Void_Eel2": "Thank you again for the void eel, my love.$8#$b#Magnus wasn't too happy about the resurgence of his perpetual duty, but it's better than a rampant witch on the loose.$9",
+  "Married.GiftReaction_Torpedo_Trout": "There's a researcher that's attempting to entertain the idea of using these fish as a mode of transportation.$12#$b#Unfortunately they have no semblance of being able to be trained.$8",
+  "Married.GiftReaction_Lunaloo": "Were you interested in the fact that lunaloos don't follow strobilation?$12#$b#The magic of the valley is what is theorized in why they choose this location for migration.$8",
+  "Married.GiftReaction_Shiny_Lunaloo": "Continuing the aquatic lesson, are we?$8#$b#Shiny lunaloos are the most matured form as well as the form they take for their migration.$12#$b#The main theory behind their bioluminescence is to threaten, their venom isn't toxic to us, but it's helpful in their hunts.$11#$b#The other theory is that they use their bioluminescence to blind predators.$8",
+  "Married.GiftReaction_Radioactive_Bass": "A mutation from the sewers?$3",
+  "Married.GiftReaction_Radioactive_Bass2": "I hope this doesn't affect Krobus.$6",
+  "Married.GiftReaction_Slime_Berry": "The slime berry!$8#$b#We've finally figured out we can use it for explosives if necessary.$1#$b#It's useful for sticking things together, but it's not advised on open wounds.$3",
+  "Married.GiftReaction_Void_Root": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#Thank you, my love, the research is going quite well on these crops.$8|For my trips to Krobus?$8#$b#I haven't been able to make a dish with this as it tends to... become extremely volatile when handled.$11#$b#Thankfully Krobus doesn't seem to mind and eats them as is, thank you, my love.$8",
+  "Married.GiftReaction_Void_Root2": "For my trips to Krobus?$8#$b#I haven't been able to make a dish with this as it tends to... become extremely volatile when handled.$11#$b#Thankfully Krobus doesn't seem to mind and eats them as is, thank you, my love.$8",
+  "Married.GiftReaction_Monster_Mushroom": "The tamest looking of the monster crops.$8#$b#It's quite useful as a survival meal, but you'll definitely feel the pangs of wanting something more.$11",
+  //Cooking
+  "Married.GiftReaction_Frog_Legs": "These... aren't exactly my favorite, but you do suffer me and my spicy taste buds.$8#$e#It was quite good, my love. You're truly a wonder.$11",
+  "Married.GiftReaction_Void_Delight": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#Interesting... to be able to finesse that void eel and the void energies themselves into a dish is quite something!$10|You learned this from Krobus?$14#$b#Maybe that's what I can feed to Krobus...$3#$e#%Lance is contemplating.",
+  "Married.GiftReaction_Void_Salmon_Sushi": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#Ah, another void dish, my love?$14#$b#I'm not well versed in the void energies like Magnus so you'll have to excuse me for not actually eating these.$8|You learned this from Krobus?$14#$b#Maybe that's what I can feed to Krobus...$3#$e#%Lance is contemplating.",
+  "Married.GiftReaction_Grampleton_Orange_Chicken": "!!$3#$b#...$2#$b#...Hmm..$6#$b#I'm not quite sure how I feel about this dish, my love.$8#$b#Are you trying to tell me that whenever I make dinner, it's too spicy for you?$11", //Not made by player
+  "Married.GiftReaction_Baked_Berry_Oatmeal": "",
+  "Married.GiftReaction_Big_Bark_Burger": "",
+  "Married.GiftReaction_Flower_Cookie": "",
+  "Married.GiftReaction_Glazed_Butterfish": "",
+  "Married.GiftReaction_Mixed_Berry_Pie": "",
+  "Married.GiftReaction_Mushroom_Berry_Rice": "",
+  "Married.GiftReaction_Seaweed_Salad": "",
 
+  //HeyKatu.CulinaryDelight
 
+  //,
   //LANCE FESTIVAL
   "eggfestival.lance.1": "Have you tried the fruit punch? It's apparently a family recipe from Gus.$14#$e#That purple haired girl has determination in her eyes.$3#$b#There's something about her. I can't quite put my nose on it...$6",
   "flowerdance.lance.1": "Perhaps I'll join Magnus on the cliffside after the dancing ceremony.$8",
@@ -821,6 +863,8 @@
   "Mail.13Heart.Title": "A Bond of Magical Proportion",
   "Mail.Pelican": "Good morning my love.^I have been tasked with delving into the mines today, if you would like to accompany me, you need only let me know with this khanjar.^With love, Lance",
   "Mail.Pelican.Title": "Pelican Mines Date",
+  "Mail.Beard": "Thank you for purchasing the Deluxe Joja Razor! ^Disclaimer, this razor is a single use razor and may cause serious afteraffects.^Afteraffects included, but not limited to: increased sensitivity towards magic, headaches, insomnia, nausea---",
+  "Mail.Beard.Title": "Questionably Deluxe Joja Razor",
 
   ////HEART EVENTS
   ////Lance 0 Heart Volcano
@@ -1181,6 +1225,7 @@
   //Nah Perigee met a tragic end, burned through her entire magical systems and life force casting a spell too great for her body to handle
   "Lance.10Heart.PEOPLE.Convo_2": "Perigee?$26#$b#Oh! Peri!$14#$b#I said her formal name in that state...?$13#$b#She'd definitely kill me for that.$8#$b#Well, Peri was one of our bravest, we were almost encircled.$25#$b#Peri decided to cast a large area of damage since we were able to hole up underground.$27#$b#Burned through all of her mana circuits and channels at once.$25#$e#...$25#$e#Sorry, I'm feeling a bit off right now.$27",
   "Lance.10Heart.PEOPLE.Convo_3": "I have something planned, I'll tell you about my comrades some other time, I promise.$8",
+  "Lance.10Heart.PEOPLE.Convo_4": "You wish to know of Nikki?$16#$b#I'll let you know of her accomplishments, a great reconnaissance leader, far too loud for her own good in any other context.$8#$b#It would always surprise the other squadrons whenever she was around because she would be right next to someone insulting her, and in the same breath, blow their ears out with her voice.$9",
 
   //doctor, tenatively no idea how to write this one
   "Lance.10Heart.DOCTOR.1": "Harvey?$81#$b#I don't know a 'Harv-'$79#$b#...$83",
@@ -1611,10 +1656,6 @@
   "Lance.14Heart.spicecloser.20": "'Good night, Lance!'",
 
 
-  ////Post BDay Wear Earrings
-  "wearEarrings": "Oh those look... absolutely stunning on you...$43",
-  "WearEarring.01": "I see you're enjoying those earrings, do let me know if they run out of magic.$43",
-
   ////PLAYER DEATH SCOLDING
   "LanceRelationship.Deathq": "Lance looks visibly distraught...#....Are you angry? #...Sorry... #....Thanks for saving me.... #It won't happen again.",
   "LanceRelationship.Death1": "I'm...$81#$b#I'm not angry.$64#$b#Uncomfortable, worried, anxious, a few other words that escape me right now... That is how I feel.$77",
@@ -1772,7 +1813,7 @@
 
 
   "Pelican.repeated": "Do you really wish to hear the story again?#Yes.#No.",
-  "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [Aviroen.LSSE_Khanjar]",
+  "Pelican.no": "Oh that's fine. I understand the farm takes a lot of upkeep.$11#$b#Here, let me know if you'd still like to join me later. [{{ModId}}_Khanjar]",
   "PelicanYesAfter": "'Wait, Lance!'",
   "PelicanYesAfter.1": "Oh? My khanjar?$11#$b#Did you want to go with me?",
   "PelicanYesAfter.2": "Well then, no time like the present! Let's head out.$11",

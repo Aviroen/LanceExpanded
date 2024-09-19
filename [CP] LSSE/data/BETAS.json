@@ -7,9 +7,9 @@
         "{{ModId}}_RightInTheKisser": {
           "Id": "{{ModId}}_RightInTheKisser",
           "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-          "Condition": "ITEM_ID Target Lance, RANDOM .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Condition": "ITEM_ID Target Lance, ITEM_STACK Target 1 10, SYNCED_RANDOM day cart_rare_seed .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" true",
+            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.Kissed_{{Random:{{Range: 0, 5}}}}}}\" false",
             "AddMail Current {{ModId}}_PelicanMinesMail tomorrow",
             "MarkActionApplied Current {{ModId}}_RightInTheKisser false"
           ]
@@ -18,9 +18,9 @@
         "{{ModId}}_BeardYes": {
           "Id": "{{ModId}}_BeardYes",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_YesBeard, PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Condition": "ITEM_ID Target Lance, ITEM_STACK Target 1 10, PLAYER_HAS_MAIL Current {{ModId}}_YesBeard, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:YesBeard}}\" true",
+            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:YesBeard}}\" false",
             "RemoveMail Current {{ModId}}_BeardYes all",
             "MarkActionApplied Current {{ModId}}_BeardYes false"
           ]
@@ -28,9 +28,9 @@
         "{{ModId}}_BeardNo": {
           "Id": "{{ModId}}_BeardNo",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_NoBeard, PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Condition": "ITEM_ID Target Lance, ITEM_STACK Target 1 10, PLAYER_HAS_MAIL Current {{ModId}}_NoBeard, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:NoBeard}}\" true",
+            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:NoBeard}}\" false",
             "RemoveMail Current {{ModId}}_BeardNo all",
             "MarkActionApplied Current {{ModId}}_BeardNo false"
           ]
@@ -42,40 +42,29 @@
           "Actions": [
             "AddMail Current {{ModId}}_LanceWiped received"
           ]
-        },
-        "{{ModId}}_EarringConversation": {
-          "Id": "{{ModId}}_EarringConversation",
-          "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, PLAYER_HAS_SEEN_EVENT any 6951319",
-          "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:wearEarrings}}\" true"
-          ]
-        },
-        "{{ModId}}_EarringConversation2": {
-          "Id": "{{ModId}}_EarringConversation2",
-          "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_wearEarrings Received, {{Query:TheMightyAmondee.CustomTokens/YearsMarried > 1}}, PLAYER_HAS_SEEN_EVENT any 6951319",
-          "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:WearEarring.01}}\" true"
-          ]
-        },
+        }
         // change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
-
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
         "{{ModId}}_10HeartConversation": {
           "Id": "{{ModId}}_10HeartConversation",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR received\", PLAYER_HAS_SEEN_EVENT Current LSSERealization",
+          "Condition": "ITEM_ID Target Lance, ITEM_STACK Target 1 10, ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR received\", PLAYER_HAS_SEEN_EVENT Current LSSERealization",
           "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.10Heart.{{10HeartChoice}}.Convo_{{Random:{{Range: 0, 4}}}}}}\" true",
+            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.10Heart.{{10HeartChoice}}.Convo_{{Random:{{Range: 0, 4}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_10HeartConversation false"
           ]
         },
         "{{ModId}}_10HeartConversationJackass": {
           "Id": "{{ModId}}_10HeartConversationJackass",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS received, PLAYER_HAS_SEEN_EVENT Current LSSERealization",
+          "Condition": "ITEM_ID Target Lance, ITEM_STACK Target 1 10, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS received, PLAYER_HAS_SEEN_EVENT Current LSSERealization",
           "Actions": [
-            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.10Heart.JACKASS.Convo_{{Random:{{Range: 0, 4}}}}}}\" true",
+            "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.10Heart.JACKASS.Convo_{{Random:{{Range: 0, 4}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_10HeartConversationJackass false"
           ]
         }

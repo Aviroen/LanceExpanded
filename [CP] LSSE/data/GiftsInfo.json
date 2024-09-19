@@ -10,7 +10,7 @@
         {
           "Operation": "Append",
           "Target": [ "Fields", "Lance", "1" ],
-          "Value": "218 {{ModId}}_Khanjar {{ModId}}_Book {{ModId}}_Razor",
+          "Value": "218 {{ModId}}_Khanjar {{ModId}}_Book {{ModId}}_Razor Aviroen.Mycology_TomYueaPhai",
           "Delimiter": " "
         }
       ]
