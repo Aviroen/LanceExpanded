@@ -793,6 +793,46 @@
   "Married.GiftReaction_Snow_Yam": "Ah, more yams? Would you want to just roast these over an open fire?$14#$b#I have no qualms if you'd like to enjoy a snack with me.$9#$e#Here, my love, I've toasted it.$8[208]",
   "Married.GiftReaction_Sweet_Gem_Berry": "A... what is that?$14#$b#A sweet gem berry?$3#$b#Rare seed?$2#$b#Oh! From my seed pouch!$14#$b#I see you've managed to properly flourish it.$8#$b#I have no actual use for it, the Ministry simply wanted to know how Magnus was doing at the time and thought that I would beg for his mercy about seeds.$9#$b#I will give this back to you, you have a much better use for it than I will, my love.$8[417]",
   "Married.GiftReaction_Rice": "Ah tried and true, I cannot escape my heritage.$8#$b#I hope you don't mind my incessant need to have rice with all of my meals.$9#$b#Thank you for thinking of me, my love.$8",
+  "Married.GiftReaction_TomYueaPhai": "Oh! A traditional Thai dish, my love?$14#$b#Something feels off about this one though--$14#$b#!!!$42#$b#Did you just feed me an aphrodesiac?$43#$b#Oh you're in trouble!$43",
+  "Married.GiftReaction_Void_Soul": "Oh, were you interested in how these work?$14#$b#My new research delves into how they're interconnected with the Shadowpeople.$13",
+  "Married.GiftReaction_Swirl_Stone": "Fascinating, aren't they?$8#$b#It's like the seashells of the Castle Village outskirts.$13#$b#They're deeply rooted in magic, and Camilla tends to ask me to fetch them for her experiments.$8#$b#Thank you for supplying more for me, my love.$11",
+  "Married.GiftReaction_Dewdrop_Berry": "The product of your nexus?$14#$b#It's quite fascinating that something like this can grow out of your grove.$12#$b#Is it possibly a byproduct of your inherent magic? I wonder if it can be distilled--$6#$e#%Lance is pondering.#$b#I apologize, my love, I'll hand it back to you--$11#$b#Oh, was it for me?$14#$b#Thank you, my love, I will take care to bring back the results of my research for you.$12",
+  "Married.GiftReaction_Frog": "This one is... quite big eyed, no?$8#$b#I know of one dish but I'm unsure if you'll be interested in it.$12#$b#It was Magnus' favorite dish once I finally figured out how to handle it.$8#$e#Here you go, my love.$12[FlashShifter.StardewValleyExpandedCP_Frog_Legs]#$b#It is... an acquired taste of a dish.$8",
+  "Married.GiftReaction_Kittyfish": "Ah, Camilla's experiment.$7#$b#She wanted to know if the 'fish' would interact just like normal cats and dogs.$8#$b#I've been forced to watch the ecosystem as punishment for not reporting a past mission.$7#$e#Do they actually interact like cats and dogs?$2#$b#Well, no, they interact much like two predators in a wide ocean.$8",
+  "Married.GiftReaction_Blue_Moon_Wine": "",
+  "Married.GiftReaction_Void_Shard": "Thats--!$49#$b#%Before I was able to say a word, Lance magically warped it out of my hands.#$b#That was an extremely volatile object my love.$55#$b#While I appreciate your support for my research, I would love it more if you took care of yourself better.$36",
+  "Married.GiftReaction_Baby_Lunaloo": "Lunaloos don't manifest a polyp as a regular jellyfish, interesting, no?$12#$b#Their seasonal migration brings them to our shores with their luminescence and brings about a lovely view.$11",
+  "Married.GiftReaction_Undeadfish": "Camilla and I have been researching the onset of how the Crimson Badlands are affecting the wildlife.$6#$b#These undead fish are the product of the land bleeding into the rest of the environment.$3",
+  "Married.GiftReaction_Gemfish": "Ahem*$1#$b#I did contemplate at one time whether these were actually edible, but Edmund had already told me that they were in fact, not.$8",
+  "Married.GiftReaction_Goldenfish": "Oh--Have you been interested in the Sprite Spring?$10#$b#Magnus enjoys the boons from being inclined with the actual sprites there, they don't quite see eye-to-eye with me, however.$8#$b#They don't quite like how my magic tastes, apparently.$12",
+  "Married.GiftReaction_Monster_Fruit": "Another monster fruit, my love?$12#$b#Thanks to your efforts, I've been able to dive further into my research of these.$8#$e#You'd like to know of them?$14#$b#Well--the monster fruit has such a tenacious appearance due to the fact that it's nectar is quite sweet.$12#$b#We have an aversion to eating things with an appearance close to our own, but Edmund, the ever curious, said it tasted like one of the sweetest fruits he's ever had.$8",
+  "Married.GiftReaction_Void_Eel": "Where did you get this kind of eel, my love? The witch swamp...? Interesting, I guess the corruption of her magic has spread to the outerlying area. I will have to report this to Magnus, thank you, my love.$4",
+  "Married.GiftReaction_Void_Eel2": "Thank you again for the void eel, my love.$8#$b#Magnus wasn't too happy about the resurgence of his perpetual duty, but it's better than a rampant witch on the loose.$9",
+  "Married.GiftReaction_Torpedo_Trout": "There's a researcher that's attempting to entertain the idea of using these fish as a mode of transportation.$12#$b#Unfortunately they have no semblance of being able to be trained.$8",
+  "Married.GiftReaction_Lunaloo": "Were you interested in the fact that lunaloos don't follow strobilation?$12#$b#The magic of the valley is what is theorized in why they choose this location for migration.$8",
+  "Married.GiftReaction_Shiny_Lunaloo": "Continuing the aquatic lesson, are we?$8#$b#Shiny lunaloos are the most matured form as well as the form they take for their migration.$12#$b#The main theory behind their bioluminescence is to threaten, their venom isn't toxic to us, but it's helpful in their hunts.$11#$b#The other theory is that they use their bioluminescence to blind predators.$8",
+  "Married.GiftReaction_Radioactive_Bass": "A mutation from the sewers?$3",
+  "Married.GiftReaction_Radioactive_Bass2": "I hope this doesn't affect Krobus.$6",
+  "Married.GiftReaction_Slime_Berry": "The slime berry!$8#$b#We've finally figured out we can use it for explosives if necessary.$1#$b#It's useful for sticking things together, but it's not advised on open wounds.$3",
+  "Married.GiftReaction_Void_Root": "Thank you, my love, the research is going quite well on these crops.$8",
+  "Married.GiftReaction_Void_Root2": "For my trips to Krobus?$8#$b#I haven't been able to make a dish with this as it tends to... become extremely volatile when handled.$11#$b#Thankfully Krobus doesn't seem to mind and eats them as is, thank you, my love.$8",
+  "Married.GiftReaction_Monster_Mushroom": "The tamest looking of the monster crops.$8#$b#It's quite useful as a survival meal, but you'll definitely feel the pangs of wanting something more.$11",
+  //Cooking
+  "Married.GiftReaction_Frog_Legs": "These... aren't exactly my favorite, but you do suffer me and my spicy taste buds.$8#$e#It was quite good, my love. You're truly a wonder.$11",
+  "Married.GiftReaction_Void_Delight": "Interesting... to be able to finesse that void eel and the void energies themselves into a dish is quite something!$10",
+  "Married.GiftReaction_Void_Delight2": "You learned this from Krobus?$14#$b#Maybe that's what I can feed to Krobus...$3#$e#%Lance is contemplating.",
+  "Married.GiftReaction_Void_Salmon_Sushi": "Ah, another void dish, my love?$14#$b#I'm not well versed in the void energies like Magnus so you'll have to excuse me for not actually eating these.$8",
+  "Married.GiftReaction_Void_Salmon_Sushi2": "You learned this from Krobus?$14#$b#Maybe that's what I can feed to Krobus...$3#$e#%Lance is contemplating.",
+  "Married.GiftReaction_Grampleton_Orange_Chicken": "!!$3#$b#...$2#$b#...Hmm..$6#$b#I'm not quite sure how I feel about this dish, my love.$8#$b#Are you trying to tell me that whenever I make dinner, it's too spicy for you?$11", //Not made by player
+  "Married.GiftReaction_Baked_Berry_Oatmeal": "",
+  "Married.GiftReaction_Big_Bark_Burger": "",
+  "Married.GiftReaction_Flower_Cookie": "",
+  "Married.GiftReaction_Glazed_Butterfish": "",
+  "Married.GiftReaction_Mixed_Berry_Pie": "",
+  "Married.GiftReaction_Mushroom_Berry_Rice": "",
+  "Married.GiftReaction_Seaweed_Salad": "",
+
+  //HeyKatu.CulinaryDelight
 
 
   //LANCE FESTIVAL
@@ -813,7 +853,6 @@
 
   ////Common DIALOGUE
   "Lance.Eplise": "...",
-  "Lance.Ahem": "*Ahem*",
   "Lance.AhName": "Ah, @.",
   "Lance.NameI": "@, I...",
   "Lance.Chuckle": "*Chuckles*",

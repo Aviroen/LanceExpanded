@@ -10,40 +10,6 @@
     {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lance",
-      "When": {
-        "Darker Plot Events(Y4)": true
-      },
-      "Entries": {
-        "{{ModId}}_10People": "{{i18n:Lance.10Heart.People.Convo_4}}"
-      }
-    },
-    {
-      "LogName": "Compensating for Custom Farms",
-      "Action": "EditData",
-      "When": {
-        "Relationship:Lance": "Married",
-        "Custom Farmhouse": false
-      },
-      "Target": "Characters/Dialogue/Lance",
-      "Entries": {
-        "AcceptGift_(O){{ModId}}_Razor": "$v LELanceRazor true false"
-      }
-    },
-    {
-      "LogName": "Compensating for Custom Farms",
-      "Action": "EditData",
-      "When": {
-        "Relationship:Lance": "Married",
-        "Custom Farmhouse": true
-      },
-      "Target": "Characters/Dialogue/Lance",
-      "Entries": {
-        "AcceptGift_(O){{ModId}}_Razor": "$action AddMail Current {{ModId}}_BeardNo Received"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Lance",
       "Entries": {
         //Special Dialogue
         "danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
@@ -94,13 +60,36 @@
       }
     },
     {
+      "LogName": "Compensating for Custom Farms",
+      "Action": "EditData",
+      "When": {
+        "Relationship:Lance": "Married",
+        "Custom Farmhouse": false
+      },
+      "Target": "Characters/Dialogue/Lance",
+      "Entries": {
+        "AcceptGift_(O){{ModId}}_Razor": "$v LSSELanceRazor true false"
+      }
+    },
+    {
+      "LogName": "Compensating for Custom Farms",
+      "Action": "EditData",
+      "When": {
+        "Relationship:Lance": "Married",
+        "Custom Farmhouse": true
+      },
+      "Target": "Characters/Dialogue/Lance",
+      "Entries": {
+        "AcceptGift_(O){{ModId}}_Razor": "$action AddMail Current {{ModId}}_BeardNo Received"
+      }
+    },
+    {
       "LogName": "Gifts: Married No events Gift Reactions",
       "Action": "EditData",
       "Priority": "Late",
       "When": {
         "Relationship:Lance": "Married"
       },
-
       "Target": "Characters/Dialogue/Lance",
       "Entries": {
         "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_(O)StardropTea}}",
@@ -205,17 +194,13 @@
         "AcceptGift_(O)416": "{{i18n:Married.GiftReaction_Snow_Yam}}",
         "AcceptGift_(O)417": "{{i18n:Married.GiftReaction_Sweet_Gem_Berry}}",
         "AcceptGift_(O)423": "{{i18n:Married.GiftReaction_Rice}}",
-        "AcceptGift_(O)Aviroen.LanceExpanded_Khanjar": "$v {{DatePelican}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_Book": "$v {{DateGrandpa}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_camping": "$v {{DateCamping}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_mishaps": "$v {{DateMishaps}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_Rope": "$v {{DateRope}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_shenanigans": "$v {{DateShenanigans}} true false",
-        "AcceptGift_(O)Aviroen.Mycology_TomYueaPhai": "{{i18n:Married.GiftReaction_TomYueaPhai}}",
-        "AcceptGift_category_cooking": "{{i18n:Married.GiftReactionCategory_-7}}",
-        "AcceptGift_category_artisan_goods": "{{i18n:Married.GiftReactionPreserved_Any}}",
-        ///sve related
+        "AcceptGift_(O)Aviroen.LSSE_Khanjar": "$v {{DatePelican}} true false",
+        "AcceptGift_(O)Aviroen.LSSE_Book": "$v {{DateGrandpa}} true false",
+        
+        "AcceptGift_category_cooking": "{{i18n:Married.GiftReactionCategory_-7}}"
 
+        ///sve related
+        /*
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Soul": "{{i18n:Married.GiftReaction_Void_Soul}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Swirl_Stone": "{{i18n:Married.GiftReaction_Swirl_Stone}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": "{{i18n:Married.GiftReaction_Dewdrop_Berry}}",
@@ -224,24 +209,24 @@
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine": "{{i18n:Married.GiftReaction_Blue_Moon_Wine}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Age_Blue_Moon_Wine": "{{i18n:Married.GiftReaction_Blue_Moon_Wine}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Married.GiftReaction_Void_Shard}}",
-
+        "AcceptGift_category_artisan_goods": "{{i18n:Married.GiftReactionPreserved_Any}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": "{{i18n:Married.GiftReaction_Baby_Lunaloo}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Undeadfish": "{{i18n:Married.GiftReaction_Undeadfish}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Married.GiftReaction_Gemfish}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Goldenfish": "{{i18n:Married.GiftReaction_Goldenfish}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit": "{{i18n:Married.GiftReaction_Monster_Fruit}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Eel": "$1 {{ModId}}_VoidEel#{{i18n:Married.GiftReaction_Void_Eel}}#$e#{{i18n:Married.GiftReaction_Void_Eel2}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Married.GiftReaction_Torpedo_Trout}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": "{{i18n:Married.GiftReaction_Lunaloo}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": "{{i18n:Married.GiftReaction_Shiny_Lunaloo}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#{{i18n:Married.GiftReaction_Radioactive_Bass}}|{{i18n:Married.GiftReaction_Radioactive_Bass2}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry": "{{i18n:Married.GiftReaction_Slime_Berry}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Root": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#{{i18n:Married.GiftReaction_Void_Root}}|{{i18n:Married.GiftReaction_Void_Root2}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": "{{i18n:Married.GiftReaction_Monster_Mushroom}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Eel": "{{i18n:Dating.GiftReaction_Void_Eel}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": "{{i18n:Dating.GiftReaction_Torpedo_Trout}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": "{{i18n:Dating.GiftReaction_Lunaloo}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": "{{i18n:Dating.GiftReaction_Shiny_Lunaloo}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": "{{i18n:Dating.GiftReaction_Radioactive_Bass}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Slime_Berry": "{{i18n:Dating.GiftReaction_Slime_Berry}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Root": "{{i18n:Dating.GiftReaction_Void_Root}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": "{{i18n:Dating.GiftReaction_Monster_Mushroom}}",
         //Cooking
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Frog_Legs": "{{i18n:Married.GiftReaction_Frog_Legs}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Delight": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#{{i18n:Married.GiftReaction_Void_Delight}}|{{i18n:Married.GiftReaction_Void_Delight2}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#{{i18n:Married.GiftReaction_Void_Salmon_Sushi}}|{{i18n:Married.GiftReaction_Void_Salmon_Sushi2}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Delight": "{{i18n:Married.GiftReaction_Void_Delight}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": "{{i18n:Married.GiftReaction_Void_Salmon_Sushi}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": "{{i18n:Married.GiftReaction_Grampleton_Orange_Chicken}}", //Not made by player
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": "{{i18n:Married.GiftReaction_Baked_Berry_Oatmeal}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{i18n:Married.GiftReaction_Big_Bark_Burger}}",
@@ -249,9 +234,9 @@
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": "{{i18n:Married.GiftReaction_Glazed_Butterfish}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": "{{i18n:Married.GiftReaction_Mixed_Berry_Pie}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": "{{i18n:Married.GiftReaction_Mushroom_Berry_Rice}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": "{{i18n:Married.GiftReaction_Seaweed_Salad}}"
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": "{{i18n:Married.GiftReaction_Seaweed_Salad}}",
         //Fall back
-
+		*/
 
       }
     }
