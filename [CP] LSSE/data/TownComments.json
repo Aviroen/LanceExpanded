@@ -1,6 +1,6 @@
 {
   "Changes": [
-    {
+    {//HEY, YOU, AMORE, ADD IN DIALOGUE LINES TO LEO ABOUT HOW HE IS IMPRINTED ONTO LANCE
       "Action": "EditData",
       "Target": "Characters/Dialogue/Clint",
       "When": {
