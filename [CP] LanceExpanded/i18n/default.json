@@ -293,6 +293,13 @@
   "Mon.Lance.CharacterDialogue_3": "There isn't a such thing as overpacking when it comes to the wastes, do be careful.$3",
   "Mon.Lance.CharacterDialogue_4": "I'm usually here to make sure nothing goes wrong with the barriers.$2",
   "Mon.Lance.CharacterDialogue_5": "Camilla really does like to work me to the bone.$8",
+  "Mon.Lance.CharacterDialogue_6": "Well hello, sweetheart.$12#$e#Hmm? Were you interested in my monster crop research so far?$7#$b#I've theorized quite a few things, but since I haven't actually been able to get the seeds to grow, I've had no luck.$8",
+  "Mon.Lance.CharacterDialogue_7": "A surprising reprieve to see your face out here in the wastes.$4",
+  "Mon.Lance.CharacterDialogue_8": "%Lance is grumbling to himself.#$e#Mondays are truly my worst days, I should ask Camilla to reconsider my post.$3",
+  "Mon.Lance.CharacterDialogue_9": "...$81#$b#Ah, pardon me, my love.$42#$b#I didn't notice you sneaking up on me.$43#$e#What was I thinking of? I was contemplating what other paperwork I had left to finish before I was free.$8",
+  "Mon.Lance.CharacterDialogue_10": "%Lance is silent.#$e#Apologies, something about the smell of the lands puts me in an overly contemplative mood.$3",
+  "Mon.Lance.CharacterDialogue_11": "Do be careful out there, my love.$2",
+  "Mon.Lance.CharacterDialogue_12": "I... worry about you more than before.$2#$b#Please take care of yourself, I know that you're a capable adventurer, but I've lost comrades with decades of experience due to negligence.$2",
 
   //"Tue": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Tue.Lance.CharacterDialogue_0": "Marlon was telling me stories of his adventuring days with his wife.$8",
@@ -301,6 +308,13 @@
   "Tue.Lance.CharacterDialogue_3": "Maybe I'll take a more relaxing day today, Marlon has nothing for me.$8",
   "Tue.Lance.CharacterDialogue_4": "Hello @, did you want to join in the conversation of monster dichotomy with Marlon and me?$8",
   "Tue.Lance.CharacterDialogue_5": "Interested in magic swords?$8#$b#There's a bit of a finicky beast, I wouldn't mind teaching you sometime.$9",
+  "Tue.Lance.CharacterDialogue_6": "The valley is truly one of the only places where I feel like I can relax.$8#$b#Even though Marlon and Gil poke fun at me, they're like my brothers.$11",
+  "Tue.Lance.CharacterDialogue_7": "Why did I decide to take the mercenary contract from Marlon?$2#$b#Well, I was quite interested in the one who took over the old lad's farm.$8#$b#There was also a need for an active fighting mage rather than a barrier wizard as well.$9",
+  "Tue.Lance.CharacterDialogue_8": "Everyone at the First Slash didn't believe me when I said the monster crops were growable.$8#$b#Thank you for proving me right.$11",
+  "Tue.Lance.CharacterDialogue_9": "Camilla is now invested in everything I do in the valley.$3#$b#It's hard to have an overbearing mother.$11",
+  "Tue.Lance.CharacterDialogue_10": "My patrols might be extended out towards Magnus' tower, he said the winter months are his worst times.$12",
+  "Tue.Lance.CharacterDialogue_11": "What do I do in my spare time?$12#$b#Hmm...$9#$b#Daydream about a fulfilling life, I suppose.$11",
+  "Tue.Lance.CharacterDialogue_12": "Had a good weekend?$12#$b#You are my oasis in the desert from my work duties.$11",
 
   //"Wed": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Wed.Lance.CharacterDialogue_0": "Another day another... well I'm quite unsure of monetary values nowadays.$8",
@@ -309,6 +323,13 @@
   "Wed.Lance.CharacterDialogue_3": "Do be careful if you plan to explore the mines, being overprepared is better than underprepared.$8",
   "Wed.Lance.CharacterDialogue_4": "If you're ever interested in how the First Slash works, feel free to stop by sometime.$8",
   "Wed.Lance.CharacterDialogue_5": "Jolyne is asking for the next time that you'll come by, I'll have to let her know when I go back.$8",
+  "Wed.Lance.CharacterDialogue_6": "My duties here are...$3#$e#%Lance is muttering to himself.#$b#I'll have to check with Magnus about supplies.$6#$b#Maybe I can convince him to lower the rate if I help out.$3#$e#I'll have to check the mines for Marlon.$3#$e#...When should I eat...?$3",
+  "Wed.Lance.CharacterDialogue_7": "I consider my days in the valley to be my 'days off'.$8#$b#That sounds awful, considering I work the full week, but Marlon and Magnus aren't too hard on me for my duties here.$9",
+  "Wed.Lance.CharacterDialogue_8": "I still have a few things to do for the day...$3#$e#%Lance is mumbling to himself.#$e#...Did I check that spot...$3#$e#%Seems like Lance is lost in thought.",
+  "Wed.Lance.CharacterDialogue_9": "Unfortunately today marks my 'away time' from the valley.$12#$b#I will be back on my patrol at Ginger Island come tomorrow.$11",
+  "Wed.Lance.CharacterDialogue_10": "Would you let me visit your farm sometimes?$4#$b#I'd just like to pay my respects to an old friend.$8",
+  "Wed.Lance.CharacterDialogue_11": "If you're ever feeling weary, you can rest at my outpost in the Highlands.$8#$b#My doors are always open to you.$12",
+  "Wed.Lance.CharacterDialogue_12": "",
 
   //"Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Thu.Lance.CharacterDialogue_0": "Care for an adventure into the volcano?$8",
@@ -317,6 +338,13 @@
   "Thu.Lance.CharacterDialogue_3": "Be sure to take breaks every now and then, it is the most painful thing to try and work through burnout.$8",
   "Thu.Lance.CharacterDialogue_4": "I'll be around if you want to chatter, it gets quite boring just talking to parrots.$8",
   "Thu.Lance.CharacterDialogue_5": "Leo is intrigued by me, I would say.$8#$b#At least I think he is, he likes to hang off my clothes every now and then like I'm a tree.$9",
+  "Thu.Lance.CharacterDialogue_6": "The parrots actually enjoy the random assortment of seeds that I come across.$1#$b#They bring back souvenirs for me.$8",
+  "Thu.Lance.CharacterDialogue_7": "My magic has been fluxuating lately, though that's because I'm attempting some experiments.$8",
+  "Thu.Lance.CharacterDialogue_8": "Leo and I are quite close, I had been monitoring these islands for quite awhile, so when the shipwreck happened...$2#$e#Pardon me, I was just reminiscing about the first time I came across Leo.$8#$b#He bit my arm thinking I was some kind of monster.$9#$b#At first he was only attached to Jolyne, but when he realized that we were friends, he started to open up to me.$8",
+  "Thu.Lance.CharacterDialogue_9": "...I should think of other ways to integrate into the town...$3#$e#%Seems like Lance is lost in thought.",
+  "Thu.Lance.CharacterDialogue_10": "There isn't really much for me to do on Ginger Island, monitoring monster activity is the extent of it.$8",
+  "Thu.Lance.CharacterDialogue_11": "Dtoxutol, the dwarf that runs the shop inside of the volcano, is actually quite curious about what goes on in the valley.$8#$b#It's a different dialect, but Dtoxutol means 'Bravery'.$12",
+  "Thu.Lance.CharacterDialogue_12": "If the sun is too much for you, feel free to ask, I don't mind lending out my magic to stave off the heat for you.$11",
 
   //"Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Fri.Lance.CharacterDialogue_0": "The shipwreck has been there for quite a while, I mostly tended to the volcano since it was active at the time.$8",
@@ -325,6 +353,13 @@
   "Fri.Lance.CharacterDialogue_3": "I wonder when I'll get my next day off...$3",
   "Fri.Lance.CharacterDialogue_4": "Pardon?$99#$b#I guess I must've dozed off for a second.$8",
   "Fri.Lance.CharacterDialogue_5": "Just here to entertain me?$13",
+  "Fri.Lance.CharacterDialogue_6": "Have you chatted with Leo?$11#$b#He's a very inquisitive child, even if it took several months and bandages to get him to trust me.$8#$b#Wounds inflicted upon me, mind you, he's quick to act.$15",
+  "Fri.Lance.CharacterDialogue_7": "Birdie likes to be left alone.$2#$b#I don't really blame her, I actually understand wanting that isolation from the world.$2",
+  "Fri.Lance.CharacterDialogue_8": "...I really hope Jolyne isn't cooking a random fish assortment tonight.$3",
+  "Fri.Lance.CharacterDialogue_9": "E nemus nemu doosu, yhu yot hos ossup is dol, yu otu onnayup na tuhnutn op huon.$3#$e#Din huonel nomus nemu, op os samuau yenh sith o nal nulnh ah nemu a mol hops, es doo dnaap E shup uxu yatnh en?$3#$e#Om E onnayup uotu? Uxu yenh doosu dnaapeup hops...$3#$e#...!$14#$b#Apologies, I was lost in my own thoughts.$9#$b#What was I saying?$14#$b#Just... reflecting on the war and my own actions.$64#$b#Actions I'm not all too proud of...$37",
+  "Fri.Lance.CharacterDialogue_10": "The rains on these islands come and go.$8#$b#There has been a time where I've wondered if a hotspring was possible, just for the sake of relieving my own stress.$9",
+  "Fri.Lance.CharacterDialogue_11": "A mage's lifespan?$14#$b#Well, it ultimately depends on what kind of magic that they specialize in.$13#$b#Some that 'borrow' from the lands have a stronger inclination towards a mundane lifespan.$13#$b#My magic is somewhere between 'borrowing' and 'sending', while I can use regular spells, it's much easier for me to do day-to-day tasks by concentration.$8#$b#It's why I'm well suited to be a 'combat mage' rather than a barrier mage like Magnus or Camilla.$9",
+  "Fri.Lance.CharacterDialogue_12": "I heard talk of the customs of these lands, mermaids are somewhat of a rarity.$8#$b#I was told of a 'mermaid pendant' from Marlon in passing.$9#$b#It's quite quaint.$12",
 
   //"Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Sat.Lance.CharacterDialogue_0": "The barrier is intact, I'm just taking a rest for a mo...ment...$8#$e#%Lance is dozing off.",
@@ -333,6 +368,13 @@
   "Sat.Lance.CharacterDialogue_3": "Do be careful if you plan to venture out, the monsters here have been highly agitated as of late.$3",
   "Sat.Lance.CharacterDialogue_4": "Interested in the recluse in the Highlands?$8",
   "Sat.Lance.CharacterDialogue_5": "I wonder if Magnus would be willing to take these seeds from me...$2",
+  "Sat.Lance.CharacterDialogue_6": "Here to visit me out in the wilderness?$8#$b#You're quite the hard worker.$9",
+  "Sat.Lance.CharacterDialogue_7": "The boat requirements that Marlon had was something that I had suggested.$2#$b#These lands aren't exactly 'forgiving' to the common adventurer.$3",
+  "Sat.Lance.CharacterDialogue_8": "Htuupam likes to talk about the times before the war...$2#$b#It kind of hits a sore spot for me.$2#$e#Pardon, Htuupam is the name of the dwarf who set up shop.$8",
+  "Sat.Lance.CharacterDialogue_9": "...Yet another calling from the Ministry.$3#$e#%Lance seems irritated.",
+  "Sat.Lance.CharacterDialogue_10": "The serene moments of the Highlands lets me calm my nerves.$8",
+  "Sat.Lance.CharacterDialogue_11": "...Regarding our last interaction, it is in your best regard that Camilla's words be taken at face value...$3#$b#%Lance is writing a letter with a furrowed brow.#$e#Oh, hello sweetheart.$11#$b#--Heavy handed letter?$8#$b#Yes, something like that.$9",
+  "Sat.Lance.CharacterDialogue_12": "While it has been quite awhile since I've last... dated anyone, you're free to ask anything of me.$12",
 
   //"Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Sun.Lance.CharacterDialogue_0": "I don't really understand the concept of the 'weekend' I guess.$8",
@@ -341,6 +383,13 @@
   "Sun.Lance.CharacterDialogue_3": "I wonder if I should cook something warm tonight...$2#$e#%Lance is contemplating dinner.",
   "Sun.Lance.CharacterDialogue_4": "I do worry that sometimes I haven't integrated myself into the valley, but I guess upon your visits I'm doing just fine.$8",
   "Sun.Lance.CharacterDialogue_5": "...Would gemfish even be a decent meal...?$3#$e#%Lance is contemplating... dinner...?",
+  "Sun.Lance.CharacterDialogue_6": "You are a reprieve from my endless paperwork.$8#$b#Feel free to relax.$9",
+  "Sun.Lance.CharacterDialogue_7": "...It feels as if the paperwork is neverending. Sometimes I wish I could just burn--$3#$b#!!!$14#$e#%Lance is shuffling paperwork around.#$b#Hello, sweetheart.$15#$b#You've caught me at a bad time. But it is always nice to see you.$4",
+  "Sun.Lance.CharacterDialogue_8": "E tulotps na doo sineus yu nonmup odain nhu anhut pool, E'xu haip o sihheteun donotu nhon yainp sien danh ah ait uups.$8#$b#E'xu untisnup sienu o huy ntemuns ah unxesh nuthanalol, E yesh na tatitu olait pyotxesh munons e tunit.$3#$b#...Does that sound too forward...?$3#$e#%Lance is writing a letter in dwarvish...",
+  "Sun.Lance.CharacterDialogue_9": "Well hello, sweetheart.$8#$b#I don't have much in terms of refreshments, but this should help some.$9[279]",
+  "Sun.Lance.CharacterDialogue_10": "I have to remember to ask Camilla for some new barrier trinkets...$3#$e#%Lance has audibly groaned.#$e#Apologies, you've caught me on one of my lower points.$9",
+  "Sun.Lance.CharacterDialogue_11": "As much as I've contemplated having land in the valley, it's actually quite comfortable out here.$8#$b#Maybe it can be used as a vacation spot...$12",
+  "Sun.Lance.CharacterDialogue_12": "I've finished off patrolling the further lands and found that ...Rex?$3#$b#Quite a strange creature.$3",
 
   ////////////////////////////////////////////////////////////////////////////////////marriagedialogue.json
 
@@ -604,9 +653,9 @@
 
   //desert festival
   //"DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}",
-  "DesertFestival_Lance_marriage0": "Are you enjoying the festival? Tell me if you find any rare artifacts.$8#$e#The cactus man... I recognize him from somewhere. But from where?...$3",
-  "DesertFestival_Lance_marriage1": "Do let me know if you wish to purchase anything, I have set aside funds for the household should you need it.$8",
-  "DesertFestival_Lance_marriage2": "Oh, before I forget!$99[CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg]#$e#I have no need for it, but they happen upon me when I'm working for Marlon.$8",
+  "DesertFestival_Lance_marriage0": "Are you enjoying the festival? Tell me if you find any rare artifacts.$8#$e#The cactus man... I recognize him from somewhere. But from where?...$3#$b#Here you go, my love. Don't tell Marlon I gave you my spoils.$43",
+  "DesertFestival_Lance_marriage1": "Do let me know if you wish to purchase anything, I have set aside funds for the household should you need it.$8#$b#Here you go, my love. Don't tell Marlon I gave you my spoils.$43",
+  "DesertFestival_Lance_marriage2": "Oh, before I forget!$99#$e#I have no need for it, but they happen upon me when I'm working for Marlon.$8#$b#Here you go, my love. Don't tell Marlon I gave you my spoils.$43",
 
   //stringsfromcsfiles
 
@@ -824,8 +873,8 @@
   "Married.GiftReaction_Void_Salmon_Sushi": "Ah, another void dish, my love?$14#$b#I'm not well versed in the void energies like Magnus so you'll have to excuse me for not actually eating these.$8",
   "Married.GiftReaction_Void_Salmon_Sushi2": "You learned this from Krobus?$14#$b#Maybe that's what I can feed to Krobus...$3#$e#%Lance is contemplating.",
   "Married.GiftReaction_Grampleton_Orange_Chicken": "!!$3#$b#...$2#$b#...Hmm..$6#$b#I'm not quite sure how I feel about this dish, my love.$8#$b#Are you trying to tell me that whenever I make dinner, it's too spicy for you?$11", //Not made by player
-  "Married.GiftReaction_Baked_Berry_Oatmeal": "",
-  "Married.GiftReaction_Big_Bark_Burger": "",
+  "Married.GiftReaction_Baked_Berry_Oatmeal": "A hearty breakfast dish?$8#$b#I will savor it on my errands, thank you, my love.$11",
+  "Married.GiftReaction_Big_Bark_Burger": "I--$2#$b#Hmm...$3#$b#I'm sorry my love, but I'm not all too pleased with this dish.$3#$b#Being around them for my research purposes has made me quite fond of them.$3#$b#I will give this back to you, as you can stomach it better than I.$3",
   "Married.GiftReaction_Flower_Cookie": "",
   "Married.GiftReaction_Glazed_Butterfish": "",
   "Married.GiftReaction_Mixed_Berry_Pie": "",

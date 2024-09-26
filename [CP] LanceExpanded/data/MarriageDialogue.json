@@ -116,7 +116,7 @@
         "SpouseGiftJealous_Lance": "{{i18n:LanceSpouseGiftJealousMarriageDialogue_0}}",
         "Spouse_MonstersInHouse_Lance": "{{i18n:LanceSpouse_MonstersInHouseMarriageDialogue_0}}",
         "SpouseStardrop_Lance": "{{i18n:LanceSpouseStardropMarriageDialogue_0}}",
-        "DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}",
+        "DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}[CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg]",
 
         //SEASONAL DIALOGUE
         "spring_1": "{{i18n:Lance.MarriageDialogue.016}}",

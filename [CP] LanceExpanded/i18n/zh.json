@@ -614,9 +614,9 @@
 
   //沙漠节日
   //"DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage{{Random:{{Range: 0, 2}}}}}}",
-  "DesertFestival_Lance_marriage0": "你喜欢这个节日吗？如果找到任何稀有的文物，告诉我。$8#$e#那个仙人掌商人...我从哪里认识他。但从哪里呢？...$3",
-  "DesertFestival_Lance_marriage1": "如果你想买什么东西，告诉我，我已经为家里准备了资金，以防你需要。$8",
-  "DesertFestival_Lance_marriage2": "哦，在我忘记之前！$99[CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg][CalicoEgg]#$e#我不需要它，但在为马龙工作时它们会偶然出现在我面前。$8",
+  "DesertFestival_Lance_marriage0": "你喜欢这个节日吗？如果找到任何稀有的文物，告诉我。$8#$e#那个仙人掌商人...我从哪里认识他。但从哪里呢？...$3#$b#Here you go, my love. Don't tell Marlon I gave you my spoils.$43",
+  "DesertFestival_Lance_marriage1": "如果你想买什么东西，告诉我，我已经为家里准备了资金，以防你需要。$8#$b#Here you go, my love. Don't tell Marlon I gave you my spoils.$43",
+  "DesertFestival_Lance_marriage2": "哦，在我忘记之前！$99#$e#我不需要它，但在为马龙工作时它们会偶然出现在我面前。$8#$b#Here you go, my love. Don't tell Marlon I gave you my spoils.$43",
   //stringsfromcsfiles
 
   //兰斯 订婚

@@ -1,9 +1,8 @@
 {
   "Changes": [
     {
-      "LogName": "Load Marriage Dialogue",
+      "LogName": "Load Dialogue",
       "Action": "Load",
-      "Priority": "High",
       "Target": "Characters/Dialogue/Lance",
       "FromFile": "data/Blank.json"
     },
@@ -84,13 +83,75 @@
         "RoommatesKrobus": "{{i18n:Lance.RoommatesKrobusCharacterDialogue_0}}",
 
         ////daily dialogue
+        //castle village
         "Mon": "{{i18n:Mon.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Mon2": "{{i18n:Mon.Lance.CharacterDialogue_6}}",
+        "Mon4": "{{i18n:Mon.Lance.CharacterDialogue_8}}",
+        "Mon6": "{{i18n:Mon.Lance.CharacterDialogue_10}}",
+        "summer_Mon8": "{{i18n:Mon.Lance.CharacterDialogue_12}}",
+        "fall_Mon8": "{{i18n:Mon.Lance.CharacterDialogue_12}}",
+        "winter_Mon8": "{{i18n:Mon.Lance.CharacterDialogue_12}}",
+        "Mon10": "{{i18n:Mon.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}",
+
+        //stardew
         "Tue": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Tue2": "{{i18n:Tue.Lance.CharacterDialogue_6}}",
+        "Tue4": "{{i18n:Tue.Lance.CharacterDialogue_8}}",
+        "Tue6": "{{i18n:Tue.Lance.CharacterDialogue_10}}",
+        "summer_Tue8": "{{i18n:Tue.Lance.CharacterDialogue_12}}",
+        "fall_Tue8": "{{i18n:Tue.Lance.CharacterDialogue_12}}",
+        "winter_Tue8": "{{i18n:Tue.Lance.CharacterDialogue_12}}",
+        "Tue10": "{{i18n:Tue.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}",
+
+        //stardew
         "Wed": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Wed2": "{{i18n:Wed.Lance.CharacterDialogue_6}}",
+        "Wed4": "{{i18n:Wed.Lance.CharacterDialogue_8}}",
+        "Wed6": "{{i18n:Wed.Lance.CharacterDialogue_10}}",
+        "summer_Wed8": "{{i18n:Wed.Lance.CharacterDialogue_12}}",
+        "fall_Wed8": "{{i18n:Wed.Lance.CharacterDialogue_12}}",
+        "winter_Wed8": "{{i18n:Wed.Lance.CharacterDialogue_12}}",
+        "Wed10": "{{i18n:Wed.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}",
+
+        //ginger island
         "Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Thu2": "{{i18n:Thu.Lance.CharacterDialogue_6}}",
+        "Thu4": "{{i18n:Thu.Lance.CharacterDialogue_8}}",
+        "Thu6": "{{i18n:Thu.Lance.CharacterDialogue_10}}",
+        "summer_Thu8": "{{i18n:Thu.Lance.CharacterDialogue_12}}",
+        "fall_Thu8": "{{i18n:Thu.Lance.CharacterDialogue_12}}",
+        "winter_Thu8": "{{i18n:Thu.Lance.CharacterDialogue_12}}",
+        "Thu10": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}",
+
+        //ginger island
         "Fri": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Fri2": "{{i18n:Fri.Lance.CharacterDialogue_6}}",
+        "Fri4": "{{i18n:Fri.Lance.CharacterDialogue_8}}",
+        "Fri6": "{{i18n:Fri.Lance.CharacterDialogue_10}}",
+        "summer_Fri8": "{{i18n:Fri.Lance.CharacterDialogue_12}}",
+        "fall_Fri8": "{{i18n:Fri.Lance.CharacterDialogue_12}}",
+        "winter_Fri8": "{{i18n:Fri.Lance.CharacterDialogue_12}}",
+        "Fri10": "{{i18n:Fri.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}",
+
+        //highlands
         "Sat": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
-        "Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}"
+        "Sat2": "{{i18n:Sat.Lance.CharacterDialogue_6}}",
+        "Sat4": "{{i18n:Sat.Lance.CharacterDialogue_8}}",
+        "Sat6": "{{i18n:Sat.Lance.CharacterDialogue_10}}",
+        "summer_Sat8": "{{i18n:Sat.Lance.CharacterDialogue_12}}",
+        "fall_Sat8": "{{i18n:Sat.Lance.CharacterDialogue_12}}",
+        "winter_Sat8": "{{i18n:Sat.Lance.CharacterDialogue_12}}",
+        "Sat10": "{{i18n:Sat.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}",
+
+        //highlands
+        "Sun": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
+        "Sun2": "{{i18n:Sun.Lance.CharacterDialogue_6}}",
+        "Sun4": "{{i18n:Sun.Lance.CharacterDialogue_8}}",
+        "Sun6": "{{i18n:Sun.Lance.CharacterDialogue_10}}",
+        "summer_Sun8": "{{i18n:Sun.Lance.CharacterDialogue_12}}",
+        "fall_Sun8": "{{i18n:Sun.Lance.CharacterDialogue_12}}",
+        "winter_Sun8": "{{i18n:Sun.Lance.CharacterDialogue_12}}",
+        "Sun10": "{{i18n:Sun.Lance.CharacterDialogue_{{Random:{{Range: 6, 11}}}}}}"
       }
     },
     {
@@ -205,13 +266,16 @@
         "AcceptGift_(O)416": "{{i18n:Married.GiftReaction_Snow_Yam}}",
         "AcceptGift_(O)417": "{{i18n:Married.GiftReaction_Sweet_Gem_Berry}}",
         "AcceptGift_(O)423": "{{i18n:Married.GiftReaction_Rice}}",
+
         "AcceptGift_(O)Aviroen.LanceExpanded_Khanjar": "$v {{DatePelican}} true false",
         "AcceptGift_(O)Aviroen.LanceExpanded_Book": "$v {{DateGrandpa}} true false",
         "AcceptGift_(O)Aviroen.LanceExpanded_camping": "$v {{DateCamping}} true false",
         "AcceptGift_(O)Aviroen.LanceExpanded_mishaps": "$v {{DateMishaps}} true false",
         "AcceptGift_(O)Aviroen.LanceExpanded_Rope": "$v {{DateRope}} true false",
         "AcceptGift_(O)Aviroen.LanceExpanded_shenanigans": "$v {{DateShenanigans}} true false",
+
         "AcceptGift_(O)Aviroen.Mycology_TomYueaPhai": "{{i18n:Married.GiftReaction_TomYueaPhai}}",
+
         "AcceptGift_category_cooking": "{{i18n:Married.GiftReactionCategory_-7}}",
         "AcceptGift_category_artisan_goods": "{{i18n:Married.GiftReactionPreserved_Any}}",
         ///sve related
@@ -244,7 +308,7 @@
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": "$query !PLAYER_HAS_MAIL LanceMeetsKrobus#{{i18n:Married.GiftReaction_Void_Salmon_Sushi}}|{{i18n:Married.GiftReaction_Void_Salmon_Sushi2}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": "{{i18n:Married.GiftReaction_Grampleton_Orange_Chicken}}", //Not made by player
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": "{{i18n:Married.GiftReaction_Baked_Berry_Oatmeal}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{i18n:Married.GiftReaction_Big_Bark_Burger}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{i18n:Married.GiftReaction_Big_Bark_Burger}}[FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger]",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Flower_Cookie": "{{i18n:Married.GiftReaction_Flower_Cookie}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": "{{i18n:Married.GiftReaction_Glazed_Butterfish}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": "{{i18n:Married.GiftReaction_Mixed_Berry_Pie}}",
