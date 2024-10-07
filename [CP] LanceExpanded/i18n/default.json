@@ -126,6 +126,8 @@
   "Lance.MODERATE_3": "I love the way you wake, disheveled and all.$67#$b#It tells me that I've sufficiently played my role as 'husband'.$73",
   "Lance.MODERATE_4": "Your kisses make me finally understand why men start wars for their love.$67#$b#I promise I won't start a war.$8#$e#Not unless I have to.$73",
   "Lance.MODERATE_5": "Oh but to leave me this early?$8#$b#Surely I can tempt you for just a few more minutes?$73",
+  "Lance.Razor.Dialogue": "Sorry, my love.$8#$b#Was my beard getting too out of hand?$12#$b#I will be sure to clean myself up for you.$9",
+  "Lance.Razor.Dialogue.1": "Apologies, my love.$8#$b#I'm quite unsure what you wish for me to do with this.$9",
   //Special Dialogue
   //"danceRejection": "{{i18n:Lance.danceRejectionCharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Lance.danceRejectionCharacterDialogue_0": "Ah I'm... terribly sorry, I'm not quite used to the village and I don't remember how to dance.$8",

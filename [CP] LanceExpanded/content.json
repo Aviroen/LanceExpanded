@@ -523,14 +523,14 @@
     {
       "Action": "Include",
       "FromFile": "data/BETAS.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/Items.json, data/MarriageDialogue.json, data/Mail.json, data/Outfits.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json, data/TownComments.json, data/Schedule.json"
-    },
+    },/*
     {
       "Action": "Include",
       "When": {
         "Death Insurance Toggle": true
       },
       "FromFile": "data/DeathInsurance.json"
-    },
+    },*/
     {
       "Action": "Include",
       "FromFile": "data/{{Spice}}/HeartEvents.json" //data/{{Spice}}/dates.json, 

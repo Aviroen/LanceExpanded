@@ -267,12 +267,13 @@
         "AcceptGift_(O)417": "{{i18n:Married.GiftReaction_Sweet_Gem_Berry}}",
         "AcceptGift_(O)423": "{{i18n:Married.GiftReaction_Rice}}",
 
-        "AcceptGift_(O)Aviroen.LanceExpanded_Khanjar": "$v {{DatePelican}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_Book": "$v {{DateGrandpa}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_camping": "$v {{DateCamping}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_mishaps": "$v {{DateMishaps}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_Rope": "$v {{DateRope}} true false",
-        "AcceptGift_(O)Aviroen.LanceExpanded_shenanigans": "$v {{DateShenanigans}} true false",
+        "AcceptGift_(O){{ModId}}_Khanjar": "$v LEDatePelican false false",
+        "AcceptGift_(O){{ModId}}_Book": "$v {{DateGrandpa}} false false",
+        "AcceptGift_(O){{ModId}}_Camping": "$v {{DateCamping}} false false",
+        "AcceptGift_(O){{ModId}}_Mishaps": "$v {{DateMishaps}} false false",
+        "AcceptGift_(O){{ModId}}_Rope": "$v {{DateRope}} false false",
+        "AcceptGift_(O){{ModId}}_Shenanigans": "$v {{DateShenanigans}} false false",
+        "AcceptGift_(O){{ModId}}_Razor": "{{i18n:Lance.Razor.Dialogue}}#$action RemoveMail Current {{ModId}}_BeardCustom all#$action RemoveMail Current {{ModId}}_Beard all",
 
         "AcceptGift_(O)Aviroen.Mycology_TomYueaPhai": "{{i18n:Married.GiftReaction_TomYueaPhai}}",
 
