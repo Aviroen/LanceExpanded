@@ -450,7 +450,7 @@
         "HasMod |contains=Aviroen.LanceExpanded": false
       },
       "FromFile": "data/BETAS.json, data/DateTesting.json, data/Dialogue.json, data/GiftsInfo.json, data/HeartEvents.json, data/Items.json, data/MarriageDialogue.json, data/Mail.json, data/Outfits.json, data/StringsFromCSFiles.json, data/TriggerActions.json, data/Weddings.json, data/TownComments.json, data/Schedule.json"
-    },
+    },/*
     {
       "Action": "Include",
       "When": {
@@ -458,7 +458,7 @@
         "HasMod |contains=Aviroen.LanceExpanded": false
       },
       "FromFile": "data/DeathInsurance.json"
-    },
+    },*/
     //spouse room edit
     {
       "Action": "Load",

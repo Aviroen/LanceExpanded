@@ -52,8 +52,6 @@
             "MarkEventSeen Current LSSE12Intro false",
             "MarkEventSeen Current LSSE12Second false",
             "MarkEventSeen Current LSSE12Third false",
-            "MarkEventSeen Current LE12HeartSPICYONLY false",
-            "MarkEventSeen Current LE12HeartSPICY false",
             "MarkEventSeen Current LSSEShadowpeople false",
             "MarkEventSeen Current LSSECamillaTutelage false",
             "MarkEventSeen Current LSSEMagnusTutelage false",
@@ -72,16 +70,10 @@
           "Trigger": "LocationChanged",
           "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
-            "MarkEventSeen Current 6951320 true", //4 heart
-            "MarkEventSeen Current 65360190 true", //6 heart
             "MarkEventSeen Current 65360192 true", //wizard warp 65360191 req
             "MarkEventSeen Current 65360191 true", //8 heart CHANGED INTO 4 HEART
-            "MarkEventSeen Current 65360193 true", //jolyne, first slash guest room
-            "MarkEventSeen Current 65360194 true", //10 heart intro
-            "MarkEventSeen Current 65360195 true", //10 heart main
             "MarkEventSeen Current 65360197 true", //12 heart god dammit
             "MarkEventSeen Current 65360198 true", //12 heart god dammit
-            "MarkEventSeen Current 65360196 true", //10 heart missed
             "MarkActionApplied Current {{ModId}}_SVESilencer false"
           ]
         },
@@ -95,31 +87,14 @@
             "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
           ]
         },
-        /*
-        "{{ModId}}_SVEQiEvents": {
-          "Id": "{{ModId}}_SVEQiEvents",
-          "Trigger": "DayStarted",
-          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 1925178, {{Darker Plot Events(Y4) |contains=true}}",
-          "Actions": [
-            "MarkEventSeen Current 1925179 true"
-          ]
-        },
-        */
         "{{ModId}}_TheBeardCounter": {
           "Id": "{{ModId}}_TheBeardCounter",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}, {{Custom Farmhouse |contains=false}}",
+          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}",
           "Actions": [
-            "AddMail Current {{ModId}}_Beard received"
-          ]
-        },
-        "{{ModId}}_TheBeardCounterCustom": {
-          "Id": "{{ModId}}_TheBeardCounterCustom",
-          "Trigger": "DayEnding",
-          "Condition": "PLAYER_NPC_RELATIONSHIP Current Lance Married, PLAYER_HAS_SEEN_EVENT Current 6951319, DAY_OF_MONTH {{Random:{{Range:1, 28}}}}, {{Portrait |contains=Vanilla Compliant}}, {{Custom Farmhouse |contains=true}}",
-          "Actions": [
+            "AddMail Current {{ModId}}_Beard received",
             "AddMail Current {{ModId}}_BeardCustom tomorrow",
-            "MarkActionApplied Current {{ModId}}_TheBeardCounterCustom false"
+            "MarkActionApplied Current {{ModId}}_TheBeardCounter false"
           ]
         },
         "{{ModId}}_EZSavage": {

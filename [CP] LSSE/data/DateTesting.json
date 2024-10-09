@@ -1,13 +1,11 @@
 {
   "Changes": [
     ///////////////////////////////////////////////////////////////yes i coded the beard event before everything else don't judge me
-    {
+
+    /*
+        {
       "LogName": "To Shave Or Not To Shave",
       "Action": "EditData",
-      "When": {
-        "Portrait": "Vanilla Compliant",
-        "HasFlag": "{{ModId}}_Beard"
-      },
       "Target": "data/Events/{{FarmHouse}}",
       "Entries": {
         "LSSELanceRazor/O Lance/e LanceQi/y 9000": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 3/skippable/ignoreCollisions farmer/ignoreCollisions Lance/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes(break)switchEvent Razor.no",
@@ -18,10 +16,6 @@
     {
       "LogName": "To Shave Or Not To Shave That Is The Question",
       "Action": "EditData",
-      "When": {
-        "Portrait": "Vanilla Compliant",
-        "HasFlag": "{{ModId}}_Beard"
-      },
       "Target": "data/Events/{{FarmHouse}}",
       "Entries": {
         "LSSELanceRazor2/O Lance/y 9000": "continue/-1000 -1000/farmer 47 25 1 Lance 52 25 3/skippable/ignoreCollisions farmer/ignoreCollisions Lance/viewport 52 25/move farmer 4 0 1/pause 300/speak Lance \"{{i18n:Razor.intro1}}\"/quickQuestion {{i18n:Razor.q}}(break)switchEvent Razor.yes1(break)switchEvent Razor.no1", //add secondary beard for repeated
@@ -29,16 +23,15 @@
         "Razor.no1": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.no1}}\"/addMailReceived {{ModId}}_YesBeard/addcraftingrecipe Lance's Razor/end"
       }
     },
+    */
+
     ///////////////////////////////////////////////////////////////PELICAN MINES
     {
       "LogName": "Monster Hunting Pelican Mines",
       "Action": "EditData",
       "Target": "data/Events/Farm",
-      "When": {
-        "Year": 9000
-      },
       "Entries": {
-        "LSSEDatePelican/O Lance/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/question null {{i18n:Pelican.q}}/pause 500/emote farmer 20/pause 100/emote Lance 100/globalFade/viewport -10000 -10000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LSSEPelicanYesAfter"
+        "LSSEDatePelican/O Lance/y 9000": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/question null {{i18n:Pelican.q}}/pause 500/emote farmer 20/pause 100/emote Lance 100/globalFade/viewport -10000 -10000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent LSSEPelicanYesAfter"
       }
     },
     {
@@ -108,12 +101,9 @@
     {
       "LogName": "Grandpa's Rememberance",
       "Action": "EditData",
-      "When": {
-        "Year": 9000
-      },
       "Target": "data/Events/Farm",
       "Entries": {
-        "LSSEDateGrandpaR/O Lance/": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:GrandpaR.intro}}\"/quickQuestion {{i18n:GrandpaR.q}}(break)switchEvent GrandpaR.yes(break)switchEvent GrandpaR.no",
+        "LSSEDateGrandpaR/O Lance/y 9000": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:GrandpaR.intro}}\"/quickQuestion {{i18n:GrandpaR.q}}(break)switchEvent GrandpaR.yes(break)switchEvent GrandpaR.no",
         "GrandpaR.yes": "/addMailReceived {{ModId}}_GrandpaROnce/end",
         "GrandpaR.no": "end"
       }
@@ -140,5 +130,4 @@
         "GrandpaR.no2": "end"
       }
     }
-  ]
-}
+  ] }
