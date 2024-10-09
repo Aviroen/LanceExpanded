@@ -22,7 +22,6 @@
             "AddMail Current {{ModId}}_LanceWiped received"
           ]
         }
-        // change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
       }
     },
     {
