@@ -49,12 +49,6 @@
       "Default": "true",
       "Section": "Content",
       "Description": "Default on, after the 14 Heart he will effectively always be able to save you from item loss/money loss. Set to false if you want other mods with other passout/death features."
-    },
-    "Custom Farmhouse": {
-      "AllowValues": "true, false",
-      "Default": "true",
-      "Section": "Content",
-      "Description": "Default on, this marks it so that there is only the 12 heart pt2 event in the farmhouse, all other farmhouse events will simply give you a mail or be triggered some other way."
     }
   },
   "DynamicTokens": [

@@ -115,30 +115,6 @@
       }
     },
     {
-      "LogName": "Compensating for Custom Farms",
-      "Action": "EditData",
-      "When": {
-        "Relationship:Lance": "Married",
-        "Custom Farmhouse": false
-      },
-      "Target": "Characters/Dialogue/Lance",
-      "Entries": {
-        "AcceptGift_(O){{ModId}}_Razor": "$v LSSELanceRazor true false"
-      }
-    },
-    {
-      "LogName": "Compensating for Custom Farms",
-      "Action": "EditData",
-      "When": {
-        "Relationship:Lance": "Married",
-        "Custom Farmhouse": true
-      },
-      "Target": "Characters/Dialogue/Lance",
-      "Entries": {
-        "AcceptGift_(O){{ModId}}_Razor": "$action AddMail Current {{ModId}}_BeardNo Received"
-      }
-    },
-    {
       "LogName": "Gifts: Married No events Gift Reactions",
       "Action": "EditData",
       "Priority": "Late",
