@@ -18,7 +18,7 @@
         "{{ModId}}_RightInTheKisser2": {
           "Id": "{{ModId}}_RightInTheKisser2",
           "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_SPICY12, SYNCED_RANDOM day kisser_spice .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_SPICY12, SYNCED_RANDOM day cart_rare_seed .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.SPICY_{{Random:{{Range: 0, 5}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_RightInTheKisser2 false"
@@ -27,7 +27,7 @@
         "{{ModId}}_RightInTheKisser2.5": {
           "Id": "{{ModId}}_RightInTheKisser2.5",
           "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_SPICY12, SYNCED_RANDOM day kisser_spice_moderate .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_SPICY12, SYNCED_RANDOM day cart_rare_seed .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.MODERATE_{{Random:{{Range: 0, 5}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_RightInTheKisser2.5 false"
@@ -36,7 +36,7 @@
         "{{ModId}}_RightInTheKisser3": {
           "Id": "{{ModId}}_RightInTheKisser3",
           "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_MODERATE12, SYNCED_RANDOM day kisser_moderate .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
+          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_MODERATE12, SYNCED_RANDOM day cart_rare_seed .5 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.MODERATE_{{Random:{{Range: 0, 5}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_RightInTheKisser3 false"
