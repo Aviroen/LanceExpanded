@@ -18,7 +18,7 @@
         "Spice": "light"
       },
       "Entries": {
-        "LEBattlegroundSPICE": "pause 400/emote Lance 16/speak Lance \"{{i18n:Lance.11Heart.pepper.1}}\"/pause 200/textabovehead \"{{i18n:Lance.Ahem}}\"/showframe Lance 19/pause 200/facedirection Lance 3/shake Lance 100/speak Lance \"{{i18n:Lance.11Heart.pepper.2}}\"/globalfade/viewport -5000 -5000/pause 400/message \"{{i18n:Lance.11Heart.pepper.3}}\"/playsound leafrustle/playsound dwoop/pause 400/message \"{{i18n:Lance.11Heart.pepper.4}}\"/pause 400/playsound dwoop/message \"{{i18n:Lance.11Heart.spicecloser.1}}\"/pause 400/playsound dwoop/speak Lance \"{{i18n:Lance.11Heart.spicecloser.2}}\"/end newDay"
+        "LEBattlegroundSPICE": "pause 400/emote Lance 16/speak Lance \"{{i18n:Lance.11Heart.pepper.1}}\"/pause 200/textabovehead Lance \"{{i18n:Lance.Ahem}}\"/showframe Lance 19/pause 200/facedirection Lance 3/shake Lance 100/speak Lance \"{{i18n:Lance.11Heart.pepper.2}}\"/globalfade/viewport -5000 -5000/pause 400/message \"{{i18n:Lance.11Heart.pepper.3}}\"/playsound leafrustle/playsound dwoop/pause 400/message \"{{i18n:Lance.11Heart.pepper.4}}\"/pause 400/playsound dwoop/message \"{{i18n:Lance.11Heart.spicecloser.1}}\"/pause 400/playsound dwoop/speak Lance \"{{i18n:Lance.11Heart.spicecloser.2}}\"/end newDay"
       }
     },
     { //Lance 13 pt 4 heart EVENT - Lance's Gift // help from marlon, clint, magnus, camilla, and alesia, lance created the defensive artifact for himself for first part of ritual // gets farmer to imbue magic into it as the farmer pierces his other ear // once ritual is done, lance tells farmer next part will come soon
