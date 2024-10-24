@@ -1735,7 +1735,7 @@
   //Perigee was famously stubborn and durable. She didn't fight on the front lines, but rather defended those towards the back. Also loved to sleep, loved to eat. Her epithet was "The Bear of Belgara", though her friends jokingly called her "Mama Bear". Her favored weapon was a shillelagh, which she could use to clobber enemies or cast spells.
   //"Funnily enough Mary never had a taste for violence, but she certainly had the stomach for seeing it. She was often the first name on everyone's lips when healing was needed due to her vast knowledge of various natural and synthetic remedies. Though very focused when it came to her work, outside of the medical tent Mary found joy in relaxing under trees and was often found asleep under them with her journal. She had a quarterstaff on her at almost all times that would focus her healing magic, and was known to give rambunctious soldiers quite the bump on the head should they get out of line."
   "Pelican.intro": "Apologies for the wait, my love. Are you ready for this mine delve?$43",
-  "Pelican.q": "'Ready as I'll ever be.'",
+  "Pelican.q": "...#'Ready as I'll ever be.'",
   "Pelican.1": "We've finally made it, it doesn't look like anything's around though.$31",
   "Pelican.2": "We can take this chance to take a breath.$43",
   "Pelican.3": "'Do you regularly go to the bottom of the mines?'",
