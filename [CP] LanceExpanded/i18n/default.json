@@ -2465,8 +2465,8 @@
   "Pelican.6.10.3.14": "Listen, my love, it is late and there hasn't been anything strange during this expedition, I will report to Marlon, but you should head home.$36",
 
   //i'm good for now "Pelican.11.": "",
-  "Pelican.11.1": "Have I finally talked your ear off?$43#$b#We've spent a lot of time in here with no reaction.$40#$b#I'll cook us something warm since it was quite cold down here.$43#$b#Your hand, my ${good sir^lady^love}$?$43",
-  "Pelican.11.2": "I never tire of the time we spend together.$8#$b#If you're ever feeling the urge to go with me again, simply say the word and we can go again.$11",
+  "Pelican.6.11.1": "Have I finally talked your ear off?$43#$b#We've spent a lot of time in here with no reaction.$40#$b#I'll cook us something warm since it was quite cold down here.$43#$b#Your hand, my ${good sir^lady^love}$?$43",
+  "Pelican.6.11.2": "I never tire of the time we spend together.$8#$b#If you're ever feeling the urge to go with me again, simply say the word and we can go again.$11",
 
 
   "Pelican.repeated": "Do you really wish to hear the story again?#Yes.#No.",
