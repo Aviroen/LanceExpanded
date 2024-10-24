@@ -5,7 +5,7 @@
   "config.section.Content.description": "Alters the content active in the mod. Please make sure these are configured properly!",
 
   "config.Override Generic Dialogue.name": "Override Generic Dialogue",
-  "config.Override Generic Dialogue.description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and other similar fun dialogue. Please disable this if you aren't planning to date the Lance. ",
+  "config.Override Generic Dialogue.description": "Overrides generic universal dialogue. Still alters certain dialogue like Welwick's predictions and other similar fun dialogue. Please disable this if you aren't planning to date Lance. ",
 
   "config.Portrait": "Portrait",
   "config.Portrait.values.Vanilla Compliant": "Vanilla Compliant",
@@ -1027,7 +1027,7 @@
   "Lance.6Heart.06": "Your grandchild is doing well.$8#$b#The one that you kept on pestering me about to meet.$9",
   "Lance.6Heart.07": "...$6",
   "Lance.6Heart.08": "You'd be rolling around laughing at me because you were right.$8",
-  "Lance.6Heart.09": "...You were definitely right you bratty bastard.$9",
+  "Lance.6Heart.09": "...You were definitely right you brat.$9",
   "Lance.6Heart.10": "You'd be proud, you know?$7",
   "Lance.6Heart.11": "@ is absolutely wonderful.$8",
   "Lance.6Heart.12": "...$7",
@@ -1200,7 +1200,7 @@
 
   //10 HEART, FORGOTTEN FRIENDS
   "Lance.10Heart.01": "'Lance?'",
-  "Lance.10Heart.02": "I miss you, you bratty bastard.$93",
+  "Lance.10Heart.02": "I miss you, you brat.$93",
   "Lance.10Heart.03": "Where is he going?",
   "Lance.10Heart.04": "Paul, I told you rations aren't--$15#$b#...$83",
   "Lance.10Heart.05": "If only I were stronger then...$81",
@@ -1223,7 +1223,7 @@
   "Lance.10Heart.20": "Mother...?$89#$b#Mother, don't leave me on this battlefield!$91#$b#I swear I'll do better!$91",
   "Lance.10Heart.21": "Please don't abandon me here!$95#$b#I'm... scared!$85",
   "Lance.10Heart.22": "Lance is shaking.#'Lance! It's me!'#'Lance, you're in Pelican Town.'#'Lance?'",
-  "Lance.10Heart.23": "Oh, you bratty bastard you didn't have to come out to see me all the way out here--$15",
+  "Lance.10Heart.23": "Oh, you brat you didn't have to come out to see me all the way out here--$15",
   "Lance.10Heart.24": "'Lance?'",
   "Lance.10Heart.25": "No, you're not... you're not--$83",
   "Lance.10Heart.26": "Yes, you're @, the dead cannot be... the dead cannot be brought back.$83",
