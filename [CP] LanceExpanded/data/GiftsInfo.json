@@ -18,7 +18,10 @@
     {
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
-      "When": { "Relationship:Lance": "Married" },
+      "When": {
+        "Relationship:Lance": "Married",
+        "HasSeenEvent": "6951319"
+      },
       "TextOperations": [
         {
           "Operation": "Append",
