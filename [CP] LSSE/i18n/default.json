@@ -918,6 +918,11 @@
   "Mail.Beard.Title": "Questionably Deluxe Joja Razor",
 
   ////HEART EVENTS
+  //alt 0 heart
+  "Lance.0Heart.01a": "Ah come off it, Marlon!",
+  "Lance.0Heart.02a": "Oh, hello there.$14",
+  "Lance.0Heart.03a": "Ah, @, meet Lance, he'll be here for the foreseeable future since we needed an active mage 'round these parts.",
+  "Lance.0Heart.04a": "My apologies, yes, I will be able to give you more details, but we will probably end up being well acquainted once I'm more settled in tomorrow.$8#$b#I'll be off, Marlon.#$b#See you, @.$8",
   ////Lance 0 Heart Volcano
   "Lance.0Heart.01": "A deep laughter echoes against the edges of the volcano. #A tall, fiery haired man stands in front of what looks to be a forge.",
   "Lance.0Heart.02": "My my... it's been quite a while since anyone's braved the top of Caldera!$1#$b#I thought it'd just be me and the dwarves for the next few centuries.$9#$b#Kohldur wasn't known for its hospitality.$13",

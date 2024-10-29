@@ -9,7 +9,15 @@
       "FromFile": "assets/{{TargetPathOnly}}/EventActors/{{TargetWithoutPath}}.png"
     },
     ////////////////CHANGED HEART EVENTS STARTING HERE
-
+    {
+      "LogName": "Alt 0 heart blah blah",
+      "Action": "EditData",
+      "Target": "Data/Events/AdventureGuild",
+      "When": { "Day 1 Toggle": true },
+      "Entries": {
+        "{{ModId}}_0/": "continue/-1000 -1000/farmer -100 -100 0 Lance -100 -100 0 MarlonFay 4 11 2/eventSeen 6951319 true/skippable/viewport 6 20 clamp/warp Lance 6 13/shake Lance 300/textAboveHead Lance \"{{i18n:Lance.0Heart.01a}}\"/pause 500/playSound doorClose/warp farmer 6 19/speak Lance \"{{i18n:Lance.0Heart.02a}}\"/pause 400/speak Marlon \"{{i18n:Lance.0Heart.03a}}\"/pause 300/shake Lance 200/faceDirection Lance 2/speak Lance \"{{i18n:Lance.0Heart.04a}}\"/end"
+      }
+    },
     { //Lance introduction EVENT - The Caldera
       "LogName": "Heart Event - 0",
       "Action": "EditData",
