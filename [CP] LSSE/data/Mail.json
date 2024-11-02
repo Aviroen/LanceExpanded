@@ -7,7 +7,7 @@
         //"AndyStrawberrySeeds": "{{i18n:Mail.AndyStrawberrySeeds}}", reference
         "{{ModId}}_HandHolder": "{{i18n:Mail.HandHolder}} %item id (O)FlashShifter.StardewValleyExpandedCP_Fungus_Seed 1 %% %item id (O)FlashShifter.StardewValleyExpandedCP_Stalk_Seed 1 %% %item id (O)FlashShifter.StardewValleyExpandedCP_Void_Seed 1 %% %item id (O)FlashShifter.StardewValleyExpandedCP_Slime_Seed 1 %%[#]{{i18n:Mail.HandHolder.Title}}",
         "{{ModId}}_4Heart": "{{i18n:Mail.4Heart}}[#]{{i18n:Mail.4Heart.Title}}",
-        "{{ModId}}_LanceRich": "{{i18n:Mail.Broke}}%item id (O)ReturnScepter 1[#]{{i18n:Mail.Broke.Title}}",
+        "{{ModId}}_LanceRich": "{{i18n:Mail.Broke}} %item id (O)ReturnScepter 1 %%[#]{{i18n:Mail.Broke.Title}}",
         "{{ModId}}_Lance13": "{{i18n:Mail.13Heart}}[#]{{i18n:Mail.13Heart.Title}}",
         "{{ModId}}_PelicanMinesMail": "{{i18n:Mail.Pelican}} %item id (O){{ModId}}_Khanjar 1 %%[#]{{i18n:Mail.Pelican.Title}}",
         "{{ModId}}_BeardCustom": "{{i18n:Mail.Beard}}%item id (O){{ModId}}_Razor 1 %%[#]{{i18n:Mail.Beard.Title}}"
