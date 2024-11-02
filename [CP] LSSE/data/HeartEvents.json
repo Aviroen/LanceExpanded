@@ -32,7 +32,7 @@
       "Action": "EditData",
       "Target": "data/events/Farm",
       "Entries": {
-        "6951321/e 6951319/": "continue/-500 -500/farmer -50 -50 2 Lance -100 -100 0/skippable/pause 1250/emote farmer 16/pause 100/speak Lance \"{{i18n:Lance.0heart.05}}\"/pause 750/faceDirection Lance 3 true/pause 900/faceDirection Lance 0 true/pause 275/faceDirection Lance 1 true/pause 825/faceDirection Lance 0 true/pause 500/speak Lance \"{{i18n:Lance.0heart.06}}\"/pause 750/emote farmer 8/pause 250/speak Lance \"{{i18n:Lance.0heart.07}}\"/pause 900/speak Lance \"{{i18n:Lance.0heart.08}}[FlashShifter.StardewValleyExpandedCP_Lance's_Schedule]\"/pause 350/emote farmer 32/pause 250/speak Lance \"{{i18n:Lance.0Heart.09}}\"/pause 400/speak Lance \"{{i18n:Lance.0heart.011}}\"/end"
+        "LSSEAnIntroduction/e 6951319/": "continue/-500 -500/farmer -50 -50 2 Lance -100 -100 0/setSkipActions addItem (O)FlashShifter.StardewValleyExpandedCP_Lance's_Schedule/skippable/pause 1250/emote farmer 16/pause 100/speak Lance \"{{i18n:Lance.0heart.05}}\"/pause 750/faceDirection Lance 3 true/pause 900/faceDirection Lance 0 true/pause 275/faceDirection Lance 1 true/pause 825/faceDirection Lance 0 true/pause 500/speak Lance \"{{i18n:Lance.0heart.06}}\"/pause 750/emote farmer 8/pause 250/speak Lance \"{{i18n:Lance.0heart.07}}\"/pause 900/speak Lance \"{{i18n:Lance.0heart.08}}[FlashShifter.StardewValleyExpandedCP_Lance's_Schedule]\"/pause 350/emote farmer 32/pause 250/speak Lance \"{{i18n:Lance.0Heart.09}}\"/pause 400/speak Lance \"{{i18n:Lance.0heart.011}}\"/setSkipActions/end"
       }
     },
 
