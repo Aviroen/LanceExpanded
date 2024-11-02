@@ -331,7 +331,7 @@
   "Wed.Lance.CharacterDialogue_9": "Unfortunately today marks my 'away time' from the valley.$12#$b#I will be back on my patrol at Ginger Island come tomorrow.$11",
   "Wed.Lance.CharacterDialogue_10": "Would you let me visit your farm sometimes?$4#$b#I'd just like to pay my respects to an old friend.$8",
   "Wed.Lance.CharacterDialogue_11": "If you're ever feeling weary, you can rest at my outpost in the Highlands.$8#$b#My doors are always open to you.$12",
-  "Wed.Lance.CharacterDialogue_12": "",
+  "Wed.Lance.CharacterDialogue_12": "Sometimes I do wish I could skip out on a duty or two, just for a week.$8#$b#Marlon wouldn't be too happy about it, but maybe my requests for a new mage will come through.$9",
 
   //"Thu": "{{i18n:Thu.Lance.CharacterDialogue_{{Random:{{Range: 0, 5}}}}}}",
   "Thu.Lance.CharacterDialogue_0": "Care for an adventure into the volcano?$8",
@@ -475,9 +475,9 @@
   "Lance.MarriageDialogue_Winter8": "Nothing beats a cold winter day, some spicy hot pot, and the love of my life.$43",
   "Lance.MarriageDialogue_Winter9": "The winter chill makes your cheeks flush as you go about your daily routine, it's quite charming.$43#$b#Come here, let me warm you up.$43",
   "Lance.MarriageDialogue_Winter10": "%Lance is singing.#$e#I remember when, you used to be the talk of the town.$8#$b#Turn your love around, don't you turn me down.$43#$b#I can show you how~$8#$b#Turn your love around~$43",
-  "Lance.MarriageDialogue_Winter11": "",
+  "Lance.MarriageDialogue_Winter11": "I would say I prefer Winter over all other seasons, the quietness of the valley and the ability to bundle up gives me a sense of comfort.$8",
   "Lance.MarriageDialogue_Winter12": "Hello, my love.$12#$b#How goes your training with Magnus?$7#$b#If I were to ask you a question about circuits, would you know?$8#$e#Don't worry, my love. I'm not cruel, I used to fall sleep during his lectures as well.$11",
-  "Lance.MarriageDialogue_Winter13": "",
+  "Lance.MarriageDialogue_Winter13": "Leo asked if we could make snowmen together, so that's on the itinerary today.$15",
 
   //specific days
   "Lance.MarriageDialogue.029": "The valley was blanketed in snow last night.$14",
@@ -557,7 +557,7 @@
   "LancefunReturnMarriageDialogue_2": "%*Lance is singing to himself*#$e#Give me tough love~$13#$e#Push me and choke me 'till I pass out~$9#$e#Lock me up and throw away the key~$8",
   "LancefunReturnMarriageDialogue_3": "%*Lance is singing to himself*#$e#I wanna feel the rush~$9#$e#I wanna taste the crush$11#$e#I wanna get you goin'$13#$e#I wanna lay you down~$13#$e#I wanna string you out~$7#$e#I wanna make you mine~$69",
   "LancefunReturnMarriageDialogue_4": "%*Lance is singing to himself*#$e#Don't you notice how, I get quiet when there's no one else around~$8#$e#Me and you and awkward silence~$9#$e#Run to me, confess your love, at least just let me say~$8#$e#That when I talk to you, oh Cupid walks right through~$9#$e#And shoots an arrow through my heart~$8#$e#Confess, I loved you from the start.$67",
-  "LancefunReturnMarriageDialogue_5": "",
+  "LancefunReturnMarriageDialogue_5": "Today was probably one of the most gruelling, if you don't mind, could we snuggle for awhile? I need a recharge.$55",
 
   //ignored jobreturn
   //"jobReturn_Lance": "{{i18n:LancejobReturnMarriageDialogue_{{Random:{{Range: 0, 5}}}}}}",
@@ -2431,10 +2431,7 @@
   "Pelican.6.8.3": "Is it that surprising? I know that there aren't actual records of the year that the Elemental War concluded, but you should've expected as such when I said I was conscripted to it.$43",
   //old man chaser
   "Pelican.6.8.4": "I take offense to that, my love!$43#$b#I don't look nearly as old as Magnus or Marlon!$38#$b#I would say, in fact, that I'm still quite young looking and handsome!$43",
-  "Pelican.6.8.Switch": "Old man?",
-  "Pelican.6.8.Switch.1": "#'So that's how you knew my grandpa.'",
-  "Pelican.6.8.Switch.2": "#'I'm honestly shocked.'",
-  "Pelican.6.8.Switch.3": "#'I guess I just like chasing old men'.",
+  "Pelican.6.8.Switch": "Old man?#'So that's how you knew my grandpa.'#'I'm honestly shocked.'#'I guess I just like chasing old men'.",
   "Pelican.6.8.5": "Were you interested in me waxing and waning poetic any longer?$43",
 
   //family? #'What was your family like?' 6.10 "Pelican.6.9.": "",
