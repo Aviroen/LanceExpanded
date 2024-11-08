@@ -12,7 +12,7 @@
           "Condition": "{{HeartEvents |contains=LanceExpanded}}",
           "Actions": [
             "MarkEventSeen Current 6951319 false", //caldera
-            "MarkEventSeen Current 6951321 false", //intro
+            "MarkEventSeen Current LEAnIntroduction false", //caldera
             "MarkEventSeen Current LEPredicament false",
             "MarkEventSeen Current 65360185 false", //2 heart highlands pt1
             "MarkEventSeen Current 65360186 false", //2 heart highlands pt2
@@ -72,6 +72,7 @@
           "Trigger": "LocationChanged",
           "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
+            "MarkEventSeen Current 6951321 true", //intro
             "MarkEventSeen Current 65360192 true", //wizard warp 65360191 req
             "MarkEventSeen Current 65360191 true", //8 heart CHANGED INTO 4 HEART
             "MarkEventSeen Current 65360197 true", //12 heart god dammit

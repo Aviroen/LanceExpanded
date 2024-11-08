@@ -30,7 +30,7 @@
       "Action": "EditData",
       "Target": "data/Events/Farm",
       "Entries": {
-        "LEDatePelican/O Lance/y 9000": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/question null \"{{i18n:Pelican.q}}\"/pause 500/emote farmer 20/pause 100/emote Lance 20/globalFade/viewport -10000 -10000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent PelicanYesAfter"
+        "LEDatePelican/O Lance/y 9000": "continue/-10000 -1000/farmer -100 -100 2 Lance -100 -100 2/addmailreceived {{ModId}}_PelicanOnce/skippable/warp Lance -100 -100/warp farmer -100 -100/faceDirection Lance 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Lance 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Lance \"{{i18n:Pelican.intro}}\"/question null \"{{i18n:Pelican.q}}\"/pause 500/emote farmer 20/pause 100/emote Lance 20/globalFade/viewport -10000 -10000/changeToTemporaryMap Qiroom false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent PelicanYesAfter"
       }
     },
     {
@@ -56,7 +56,7 @@
         "LEDateFirstSlash": "pause 500/speak Lance \"{{i18n:Pelican.6.6.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.6.2}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.6.3}}\"/switchEvent LEDateTransition",
         "LEDateApprentice": "pause 500/speak Lance \"{{i18n:Pelican.6.7.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.7.2}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.7.3}}\"/switchEvent LEDateTransition",
         "LEDateAge": "pause 500/speak Lance \"{{i18n:Pelican.6.8.1}}\"/quickquestion {{i18n:Pelican.6.8.Switch}}(break)switchEvent LEDateAgeGrandpa(break)switchEvent LEDateAgeShock(break)switchEvent LEDateAgeOldMan",
-        "LEDateAgeGrandpa": "pause 500\\speak Lance \"{{i18n:Pelican.6.8.2.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.8.2.2}}\"/pause 300/speak Lance \"{{i18n:Pelican.6.8.5}}\"/switchEvent LEDateTransition",
+        "LEDateAgeGrandpa": "pause 500/speak Lance \"{{i18n:Pelican.6.8.2.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.8.2.2}}\"/pause 300/speak Lance \"{{i18n:Pelican.6.8.5}}\"/switchEvent LEDateTransition",
         "LEDateAgeShock": "pause 500/speak Lance \"{{i18n:Pelican.6.8.3}}\"/pause 300/speak Lance \"{{i18n:Pelican.6.8.5}}\"/switchEvent LEDateTransition",
         "LEDateAgeOldMan": "pause 500/speak Lance \"{{i18n:Pelican.6.8.4}}\"/pause 300/speak Lance \"{{i18n:Pelican.6.8.5}}\"/switchEvent LEDateTransition",
         "LEDateFamily": "pause 500/speak Lance \"{{i18n:Pelican.6.9.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.2}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.3}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.4}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.5}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.6}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.7}}\"/switchEvent LEDateTransition",
