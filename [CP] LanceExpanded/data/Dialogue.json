@@ -1,12 +1,6 @@
 {
   "Changes": [
     {
-      "LogName": "Load Dialogue",
-      "Action": "Load",
-      "Target": "Characters/Dialogue/Lance",
-      "FromFile": "data/Blank.json"
-    },
-    {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lance",
       "When": {

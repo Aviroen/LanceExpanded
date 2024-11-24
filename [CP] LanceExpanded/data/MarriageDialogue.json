@@ -13,13 +13,6 @@
       }
     },
     {
-      "LogName": "Load Marriage Dialogue",
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Characters/Dialogue/MarriageDialogueLance",
-      "FromFile": "data/Blank.json"
-    },
-    {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueLance",
