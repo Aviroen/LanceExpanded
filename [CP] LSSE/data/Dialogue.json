@@ -1,13 +1,6 @@
 {
   "Changes": [
     {
-      "LogName": "Load Marriage Dialogue",
-      "Action": "Load",
-      "Priority": "High",
-      "Target": "Characters/Dialogue/Lance",
-      "FromFile": "data/Blank.json"
-    },
-    {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lance",
       "Entries": {

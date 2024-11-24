@@ -11,7 +11,6 @@
           "Trigger": "LocationChanged",
           "Condition": "{{HeartEvents |contains=LanceExpanded}}",
           "Actions": [
-            "MarkEventSeen Current 6951319 false", //caldera
             "MarkEventSeen Current LSSEAnIntroduction false", //intro
             "MarkEventSeen Current LSSEPredicament false",
             "MarkEventSeen Current 65360185 false", //2 heart highlands pt1
