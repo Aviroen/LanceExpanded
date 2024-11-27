@@ -219,7 +219,7 @@
         "AcceptGift_(O)417": "{{i18n:Married.GiftReaction_Sweet_Gem_Berry}}",
         "AcceptGift_(O)423": "{{i18n:Married.GiftReaction_Rice}}",
 
-        "AcceptGift_(O){{ModId}}_Khanjar": "$v LSSEDatePelican false false",
+        "AcceptGift_(O){{ModId}}_Khanjar": "$v {{ModId}}_Pelican false false",
         "AcceptGift_(O){{ModId}}_Book": "$v {{DateGrandpa}} false false",
         "AcceptGift_(O){{ModId}}_Razor": "{{i18n:Lance.Razor.Dialogue}}#$action RemoveMail Current {{ModId}}_BeardCustom all#$action RemoveMail Current {{ModId}}_Beard all",
 

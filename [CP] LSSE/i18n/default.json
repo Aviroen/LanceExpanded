@@ -1449,7 +1449,7 @@
   //BELL END
   "Lance.11Heart.pepper.5": "Between the delicate touches and sighs I can see a shine in Lance's eyes.",
   "Lance.11Heart.pepper.6": "Please do tell me when I'm being too much.$43",
-  "Lance.11Heart.pepper.7": "'Thank you.'",
+  "Lance.11Heart.pepper.7": "#'Thank you.'",
   "Lance.11Heart.pepper.8": "Oh--$38",
   "Lance.11Heart.pepper.9": "Since you wish to be comforted, I shall treat you like the ${prince^princess^royalty}$ that you are.",
   "Lance.11Heart.pepper.10": "Soft kisses.#Breathy sighs.",
@@ -1825,10 +1825,7 @@
   "Pelican.6.8.3": "Is it that surprising? I know that there aren't actual records of the year that the Elemental War concluded, but you should've expected as such when I said I was conscripted to it.$43",
   //old man chaser
   "Pelican.6.8.4": "I take offense to that, my love!$43#$b#I don't look nearly as old as Magnus or Marlon!$38#$b#I would say, in fact, that I'm still quite young looking and handsome!$43",
-  "Pelican.6.8.Switch": "Old man?",
-  "Pelican.6.8.Switch.1": "#'So that's how you knew my grandpa.'",
-  "Pelican.6.8.Switch.2": "#'I'm honestly shocked.'",
-  "Pelican.6.8.Switch.3": "#'I guess I just like chasing old men'.",
+  "Pelican.6.8.Switch": "Old man?#'So that's how you knew my grandpa.'#'I'm honestly shocked.'#'I guess I just like chasing old men'.",
   "Pelican.6.8.5": "Were you interested in me waxing and waning poetic any longer?$43",
 
   //family? #'What was your family like?' 6.10 "Pelican.6.9.": "",
