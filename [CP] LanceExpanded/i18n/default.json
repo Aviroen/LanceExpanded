@@ -1905,357 +1905,355 @@
   "Qiroom.1": "There is no escape.",
 
   //////// qi event??????????
-  "Qievent.1": "The Stardew Valley Hero.$1", //qi
-  "Qievent.2": "...?", //farmer
-  "Qievent.3": "To have bested the Galdoran Wastes.$1", //qi
-  "Qievent.3.1": "I thought my warning to you in the Skull Caverns would have sufficed, but I have underestimated your fate it seems.$0", //qi
-  "Qievent.3.2": "How is it, to know that only you can perceive me?$0#$b#They have only seen my kind in history books, stories of legend.#$b#I am one of the first.$3#$b#And you, will be molded to be my successor.$2", //qi
-  "Qievent.3.3": "Bah! What is that smell!? Last I checked on you, you were untainted, *pure*. You smell of the war fiend.$3", //qi
-  "Qievent.3.4": "No matter.$3#$b#A few days of my restructuring and you’ll be fit to be my perfect successor.$2", //qi
-  "Qievent.4": "My..my arms are bound… #Struggle. #Try to get a hold of your surroundings.", //farmer
-  "Qievent.4.1": "You are bound by rope and magic.",
-  "Qievent.4.2": "It’s a pitch black room.",
-  "Qievent.5": "You, you are the chosen one I've been looking for!$0", //qi
-  "Qievent.6": "Chosen one?#What does he mean?#What's going on?", //farmer
-  "Qievent.7": "Oh my little mouse, we're secluded here, try as you might, there's no escaping.#$b#Now if you'll just hold still..$2", //qi
-  "Qievent.7.1": "What... is he?#Is he even human?#A mage?#A... god...?", //farmer
-  "Qievent.7.2": "Whatever thoughts you have of me... they are unnecessary.$1#$b#I am as they would call it, a 'wizard', but none that you've seen.$0", //qi
-  "Qievent.7.3": "That old tome that lives secluded in his tower abandoned the power of the endless void.$3#$b#Were he to truly embrace the planes he would have no concern.$2", //qi
-  "Qievent.8": "There's chills running down my back...", //farmer
-  "Qievent.8.1": "M...my leg feels like it's on fire...!", //farmer
-  "Qievent.8.1.1": "'You...! You sold your soul to the void...!'", //farmer
-  "Qievent.8.1.2": "Hah!$0#$b#Is that what the little fire hellion said this power was?!$0", //qi
-  "Qievent.8.2": "Qi has an iron brand.", //farmer
-  "Qievent.8.3": "The sound of metal against bone is heard before the pain comes through.", //farmer
-  "Qievent.8.3.1": "Resilient!$0#$b#You never cease to amaze!$0", //qi
-  "Qievent.8.3.2": "How perfect a specimen you are!$0#$b#Truly no one else would be fit to be my successor but you!$0", //qi
-  "Qievent.8.3.3": "Your infinite timelines!$3", //qi
-  "Qievent.8.3.4": "The ripples that your existence creates in the fabric of time!$0", //qi
-  "Qievent.8.3.5": "The room reverberates with the sound of crackles.", //farmer
-  "Qievent.8.3.6": "I don't know what broke, I feel my consciousness slipping.", //farmer
+  "Qievent.1.1": "The Stardew Valley Hero.$1", //qi
+  "Qievent.1.2": "...?", //farmer
+  "Qievent.1.3": "To have bested the Galdoran Wastes.$1", //qi
+  "Qievent.1.4": "I thought my warning to you in the Skull Caverns would have sufficed, but I have underestimated your fate it seems.$0", //qi
+  "Qievent.1.5": "How is it, to know that only you can perceive me?$0#$b#They have only seen my kind in history books, stories of legend.#$b#I am one of the first.$3#$b#And you, will be molded to be my successor.$2", //qi
+  "Qievent.1.6": "Bah! What is that smell!? Last I checked on you, you were untainted, *pure*. You smell of the war fiend.$3", //qi
+  "Qievent.1.7": "No matter.$3#$b#A few days of my restructuring and you’ll be fit to be my perfect successor.$2", //qi
+  "Qievent.1.8.q": "My..my arms are bound… #Struggle. #Try to get a hold of your surroundings.", //farmer
+  "Qievent.1.8.1": "You are bound by rope and magic.",
+  "Qievent.1.8.2": "It’s a pitch black room.",
+  "Qievent.1.9": "It's no use struggling.#$b#My magic is beyond your comprehension.", //qi
+  "Qievent.1.10": "'What do you mean by being your successor?'", //farmer
+  "Qievent.1.11": "I guess a little explanation would do.$2#$b#You have an immeasurable amount of potential.#$b#There is nothing better for a magus of my power than a conduit such as yourself.#$b#...#$b#Now if you'll just hold still..$2", //qi
+  "Qievent.1.12.q": "A magus?#'You're telling me you're just like Lance and Magnus?'#'Why would you need a successor?'#'What do you plan on doing to me?'", //farmer
+  "Qievent.1.13": "All of these questions, while you prattle on to yourself, it only sours the mood, my dear.$2#$b#You are beyond those 'mages' you so lovingly call your own family.", //qi
+  "Qievent.1.14": "That old tome in the tower, that bratty little girl in her fortress, and that war fiend.$3#$b#All of them have squandered their potential in pursuit of some lofty dream.#$b#But you, my dear, are unfettered.$2#$b#You can harness the power I've been wanting to pass down for milennia.$2", //qi
+  "Qievent.1.15": "There's chills running down my back...", //farmer
+  "Qievent.1.16": "M...my leg feels like it's on fire...!", //farmer
+  "Qievent.1.17": "'You...! You sold your soul to the void...!'", //farmer
+  "Qievent.1.18": "Hah!$0#$b#Is that what the little fire hellion said this power was?!$0", //qi
+  "Qievent.1.19": "Qi has an iron brand.", //farmer
+  "Qievent.1.20": "The sound of metal against bone is heard before the pain comes through.", //farmer
+  "Qievent.1.21": "Resilient!$0#$b#You never cease to amaze!$0", //qi
+  "Qievent.1.22": "How perfect a specimen you are!$0#$b#Truly no one else would be fit to be my successor but you!$0", //qi
+  "Qievent.1.23": "Your infinite timelines!$3", //qi
+  "Qievent.1.24": "The ripples that your existence creates in the fabric of time!$0", //qi
+  "Qievent.1.25": "The room reverberates with the sound of crackles.", //farmer
+  "Qievent.1.26": "I don't know what broke, I feel my consciousness slipping.", //farmer
   //fade
-  "Qievent.8.3.7": "Wake.$3", //qi
+  "Qievent.1.27": "Wake.$3", //qi
   //unfade
-  "Qievent.8.3.8": "That one word awakens me and the burning heat of my leg is renewed.", //farmer
-  "Qievent.8.3.9": "It feels like fire can come out of my mouth with my scream.", //farmer
-  "Qievent.8.4": "Good. Good. The brand has successfully been placed.", //qi
-  "Qievent.8.5": "I feel like I'm going to pass out...#Lance...#Magnus...#Camilla...#...Anyone...!", //farmer
-  "Qievent.8.6": "Qi is... shaking...? #Why...?", //farmer
-  "Qievent.9": "...!$3#$b#IMPOSSIBLE!!$3", //qi
-  "Qievent.9.1": "I found you.$49", //lance
-  "Qievent.9.2": "NO!$3#$b#THE HELLION?! OF ALL PEOPLE?!$3", //qi
-  "Qievent.9.3": "The light is... blinding...!", //farmer
-  "Qievent.10": "I feel my consciousness fading... #but the... #sound of a warp...?", //farmer
-  "Qievent.10.1": "@!$50#$b#@!$50#$b#@!$50", //lance
-  "Qievent.10.2": "My bindings... were cut loose...", //farmer
-  "Qievent.10.3": "'Lance...'#I weakly outstretched my hand to him.", //farmer
-  "Qievent.11": "@!!$49#$b#@, stay with me!$50", //lance
-  "Qievent.12": "'Lance...'", //farmer
-  "Qievent.13": "Yes, @, I'm here, don't worry.$43", //lance
-  "Qievent.14": "Hah! The Hellion? The weakest of the mages, you think you can best me?", //qi
-  "Qievent.15": "So you're the thing that @ was so afraid of in the mines...!$52", //lance
-  "Qievent.15.1": "HAH?!$3#$b#The strongest soul bond I've ever seen!$0#$b#To think the Ministry let you become intertwined with THE War Fiend!$3", //qi
-  "Qievent.15.2": "War Fiend. I haven't heard that title in ages.$52#$b#Call me whatever you like, but you'll pay for what you've done to @!$50", //lance
-  "Qievent.15.3": "And what could YOU of all people, do to me?$0#$b#One word and you would be wiped from this existence!$3#$b#Hell! Most timelines you don't even EXIST!$3", //qi
-  "Qievent.15.4": "Even if I don't exist in those timelines, I exist in this one!$50#$b#I've finally found my place where I belong!$55", //lance
-  "Qievent.15.5": "Lance and Qi are fighting with magic...#The pain from the brand and my broken leg...", //farmer
+  "Qievent.1.28": "That one word awakens me and the burning heat of my leg is renewed.", //farmer
+  "Qievent.1.29": "It feels like fire can come out of my mouth with my scream.", //farmer
+  "Qievent.1.30": "Good. Good. The brand has successfully been placed.", //qi
+  "Qievent.1.31.q": "I feel like I'm going to pass out...#Lance...#Magnus...#Camilla...#...Anyone...!", //farmer
+  "Qievent.1.32": "Qi is... shaking...? #Why...?", //farmer
+  "Qievent.1.33": "...!$3#$b#IMPOSSIBLE!!$3", //qi
+  "Qievent.1.34": "I found you.$49", //lance
+  "Qievent.1.35": "NO!$3#$b#THE HELLION?! OF ALL PEOPLE?!$3", //qi
+  "Qievent.1.36": "The light is... blinding...!", //farmer
+  "Qievent.1.37": "I feel my consciousness fading... #but the... #sound of a warp...?", //farmer
+  "Qievent.1.38": "@!$50#$b#@!$50#$b#@!$50", //lance
+  "Qievent.1.39": "My bindings... were cut loose...", //farmer
+  "Qievent.1.40": "'Lance...'#I weakly outstretched my hand to him.", //farmer
+  "Qievent.1.41": "@!!$49#$b#@, stay with me!$50", //lance
+  "Qievent.1.42": "'Lance...'", //farmer
+  "Qievent.1.43": "Yes, @, I'm here, don't worry.$43", //lance
+  "Qievent.1.44": "Hah! Even with that soul bond, you think you can best me?$2#$b#You haven't even experienced a tenth of the power you could wield with that bond.$2", //qi
+  "Qievent.1.45": "A... mage?$52#$b#This kind of arcane language is hard for me to...$54#$b#Argh...$51", //lance
+  "Qievent.1.46": "As I suspected, you can't even comprehend me.$2#$b#Pitiable.$2#$b#This bond is wasted on something like you.$2", //qi
+  "Qievent.1.47": "This... garbled language...$52#$b#It sounds like thousands of needles piercing me, I'll get you out of here, @, I swear.$51", //lance
+  "Qievent.1.48": "Hahaa..Ha...$2#$b#What could a measly little rat like this do to someone like me?$3#$b#He can't even understand me, but you can, @.$0", //qi
+  "Qievent.1.49": "I need you to stay behind me, @.$52", //lance
+  "Qievent.1.50": "Lance and Qi are fighting with magic...#The pain from the brand and my broken leg...", //farmer
   //change event to add blood add fighting animations / addmailreceived {{ModId}}_Blood
-  "Qievent.16": "The... sound... of... a... warp...?", //farmer
-  "Qievent.17": "MAG! I LEAVE @ TO YOU!$50", //lance
-  "Qievent.18": "...Mag..? #Magnus? #'Wait, Lance, no...!'", //farmer
-  "Qievent.18.1": "I'll be back, I promise.$43",
-  "Qievent.19": "Listen, just remember. I love you.$43", //lance
-  "Qievent.20": "'Lance...!' #'You!!'", //farmer
-  "Qievent.21": "I was thrown into the warp.", //farmer
+  "Qievent.1.51": "The... sound... of... a... warp...?", //farmer
+  "Qievent.1.52": "MAG! I LEAVE @ TO YOU!$50", //lance
+  "Qievent.1.53": "...Mag..? #Magnus? #'Wait, Lance, no...!'", //farmer
+  "Qievent.1.54": "I'll be back, I promise.$43",
+  "Qievent.1.55": "Listen, just remember. I love you.$43", //lance
+  "Qievent.1.56": "'Lance...!' #'You!!'", //farmer
+  "Qievent.1.57": "I was thrown into the warp.", //farmer
   //darkness
-  "Qievent.21.1": "Darkness consumes me as I'm cast asunder through the warp.", //farmer
-  "Qievent.21.2": "You can't... leave me...!",
+  "Qievent.1.58": "Darkness consumes me as I'm cast asunder through the warp.", //farmer
+  "Qievent.1.59": "You can't... leave me...!",
   //change to wizardhouse
-  "Qievent.22": "Young @! Stay with me!$5", //magnus
+  "Qievent.2.1": "Young @! Stay with me!$5", //magnus
   //globalfadetoclear
-  "Qievent.23": "'Magnus...! Lance is still...!!!'", //farmer
-  "Qievent.24": "I cannot help him, he was only able to warp to you through your bond...$5", //magnus
+  "Qievent.2.2": "'Magnus...! Lance is still...!!!'", //farmer
+  "Qievent.2.3": "I cannot help him, he was only able to warp to you through your bond...$5", //magnus
   //globalfadetoclear
-  "Qievent.25": "@! You have to go to the hospital right now!$7#$b#Magnus, I'll ready the warp!$3", //camilla
-  //hospitaldeath?
-  "Qievent.26": "'Magnus...'#Camilla...'", //farmer
+  "Qievent.2.4": "@! You have to go to the hospital right now!$7#$b#Magnus, I'll ready the warp!$3", //camilla
+  "Qievent.2.5": "'Magnus...'#Camilla...'", //farmer
   //total darkness farmer sequence of seeing other timeliness
-  "Qievent.26.1": "You can save him.",
-  "Qievent.26.2": "We can help you.",
-  "Qievent.26.3": "You need but only ask.",
-  "Qievent.26.4": "Concentrate and channel your magic to him.",
-  "Qievent.26.5": "We believe in you.",
+  "Qievent.3.1": "You can save him.",
+  "Qievent.3.2": "We can help you.",
+  "Qievent.3.3": "You need but only ask.",
+  "Qievent.3.4": "Concentrate and channel your magic to him.",
+  "Qievent.3.5": "We believe in you.",
   //change to hospital
-  "Qievent.27": "@ is in stable condition.", //harvey
-  "Qievent.27.1": "I see. Their magic seems unstable though...", //magnus
-  "Qievent.27.2": "That dream...#Who were they?", //farmer
-  "Qievent.28": "Harvey, can we leave @ to you for a little while?$2#$b#Magnus and I have to continue the ritual to find Lance.", //camilla
-  "Qievent.29": "Of course, Maru and I will stand watch until everything is settled.", //harvey
-  "Qievent.30": "'Harvey...?'#'Camilla...?'#'Magnus...?'#'Is Lance...?'", //farmer
-  "Qievent.31": "@!$7", //camilla
-  "Qievent.31.1": "Don't get up! Please, you have to recover for Lance's sake...$9", //camilla
-  "Qievent.32": "'For Lance's sake...?'", //farmer
-  "Qievent.33": "Yes.#$b#Even as we speak, Camilla and I are channeling magic into you to sustain Lance.", //magnus
-  "Qievent.34": "The brand… it’s… burning!", //farmer
+  "Qievent.4.1": "@ is in stable condition.", //harvey
+  "Qievent.4.2": "I see. Their magic seems unstable though...", //magnus
+  "Qievent.4.3": "That dream...#Who were they?", //farmer
+  "Qievent.4.4": "Harvey, can we leave @ to you for a little while?$2#$b#Magnus and I have to continue the ritual to find Lance.", //camilla
+  "Qievent.4.5": "Of course, Maru and I will stand watch until everything is settled.", //harvey
+  "Qievent.4.6": "'Harvey...?'#'Camilla...?'#'Magnus...?'#'Is Lance...?'", //farmer
+  "Qievent.4.7": "@!$7", //camilla
+  "Qievent.4.8": "Don't get up! Please, you have to recover for Lance's sake...$9", //camilla
+  "Qievent.4.9": "'For Lance's sake...?'", //farmer
+  "Qievent.4.10": "Yes.#$b#Even as we speak, Camilla and I are channeling magic into you to sustain Lance.", //magnus
+  "Qievent.4.11": "The brand… it’s… burning!", //farmer
   //shake farmer, sweatdrop, disgruntled emote
-  "Qievent.35": "We need you to concentrate. As much as Camilla and I are keeping your souls bound together, Lance is still fighting.", //magnus
-  "Qievent.36": "You just have to concentrate on Lance, we'll be back soon.$3", //farmer
-  "Qievent.37": "I started to calm my mind and chant the mantras that Lance taught me.", //farmer
-  "Qievent.38": "Good. Now, Camilla, let's return to my tower to progress with the ritual. We leave @ to you, Harvey.", //magnus
-  "Qievent.39": "I'll keep you updated, Rasmodius.", //harvey
-  "Qievent.40": "Lance...#I hope you're still okay...", //farmer
-  "Qievent.40.1": "You're good to walk around the town, @. Please do not overexert yourself, for all our sakes.", //harvey
+  "Qievent.4.12": "We need you to concentrate. As much as Camilla and I are keeping your souls bound together, Lance is still fighting.", //magnus
+  "Qievent.4.13": "You just have to concentrate on Lance, we'll be back soon.$3", //farmer
+  "Qievent.4.14": "I started to calm my mind and chant the mantras that Lance taught me.", //farmer
+  "Qievent.4.15": "Good. Now, Camilla, let's return to my tower to progress with the ritual. We leave @ to you, Harvey.", //magnus
+  "Qievent.4.16": "I'll keep you updated, Rasmodius.", //harvey
+  "Qievent.4.17": "Lance...#I hope you're still okay...", //farmer
+  "Qievent.4.18": "You're good to walk around the town, @. Please do not overexert yourself, for all our sakes.", //harvey
   //end event
   //day ending next morning event
-  "Qievent.41": "I must be losing my touch.", //qi
-  "Qievent.42": "Augh!", //lance
+  "Qievent.5.1": "I must be losing my touch.", //qi
+  "Qievent.5.2": "Augh!", //lance
   //daystart
-  "Qievent.43": "@, I believe in you.", //lance
-  "Qievent.44": "Hah! Useless!", //qi
+  "Qievent.6.1": "@, I believe in you.", //lance
+  "Qievent.6.2": "Hah! Useless!", //qi
   //daystart
-  "Qievent.45": "*Huff*", //lance
-  "Qievent.46": "*Huff* Not bad... Hellion!", //qi
+  "Qievent.7.1": "*Huff*", //lance
+  "Qievent.7.2": "*Huff* Not bad... Hellion!", //qi
   //daystart
-  "Qievent.47": "To think--you could best me...!", //qi
-  "Qievent.48": "I have to get out of here!", //lance
+  "Qievent.8.1": "To think--you could best me...!", //qi
+  "Qievent.8.2": "I have to get out of here!", //lance
   //daystart
-  "Qievent.49": "You're not escaping me!", //qi
-  "Qievent.50": "What?!", //lance
+  "Qievent.9.1": "You're not escaping me!", //qi
+  "Qievent.9.2": "What?!", //lance
   //daystart
-  "Qievent.51": "A chance!", //lance
-  "Qievent.52": "What?! NO!", //qi
+  "Qievent.10.1": "A chance!", //lance
+  "Qievent.10.2": "What?! NO!", //qi
   //daystart
-  "Qievent.53": "*Huff*", //lance
-  "Qievent.54": "@...", //lance
+  "Qievent.11.1": "*Huff*", //lance
+  "Qievent.11.2": "@...", //lance
   //daystart
-  "Qievent.55": "Lance!#Where could you have gone?!",
-  "Qievent.56": "Am I still dreaming?",
-  "Qievent.57": "I can't see anything...",
+  "Qievent.12.1": "Lance!#Where could you have gone?!",
+  "Qievent.12.2": "Am I still dreaming?",
+  "Qievent.12.3": "I can't see anything...",
   //small light shining, farmer walks towards it, pitch black but a road forward
-  "Qievent.58": "A road?",
+  "Qievent.12.4": "A road?",
   //farmer exclaimation
   //change caldera
-  "Qievent.58.1": "The first time we met on Kohldur.",
+  "Qievent.12.5": "The first time we met on Kohldur.",
   //change adventurer summit
-  "Qievent.58.2": "The time I caught him failing to plant monster crops.",
+  "Qievent.12.6": "The time I caught him failing to plant monster crops.",
   //change highlands
-  "Qievent.58.3": "Our trip around the Highlands",
+  "Qievent.12.7": "Our trip around the Highlands",
   //change highlands cavern
-  "Qievent.58.4": "The Dwarf in a cage.",
+  "Qievent.12.8": "The Dwarf in a cage.",
   //change ginger island
-  "Qievent.58.5": "Lance teaching me magic artifacts.",
+  "Qievent.12.9": "Lance teaching me magic artifacts.",
   //change camilla
-  "Qievent.58.6": "Camilla being introduced to me by Magnus.",
+  "Qievent.12.10": "Camilla being introduced to me by Magnus.",
   //change adventure guild
-  "Qievent.58.7": "Lance and Marlon talking.",
+  "Qievent.12.11": "Lance and Marlon talking.",
   //change first slash
-  "Qievent.58.8": "The First Slash welcoming me.",
+  "Qievent.12.12": "The First Slash welcoming me.",
   //change first slash guest room
-  "Qievent.58.9": "Jolyne asking me to take care of Lance.",
+  "Qievent.12.13": "Jolyne asking me to take care of Lance.",
   //change first slash 10 heart
-  "Qievent.58.10": "Watching Lance work.",
+  "Qievent.12.14": "Watching Lance work.",
   //change first slash cuddle
-  "Qievent.58.11": "Our first night together.",
+  "Qievent.12.15": "Our first night together.",
   //change first slash beach wedding
-  "Qievent.58.12": "Our wedding.",
+  "Qievent.12.16": "Our wedding.",
   //change castle village outpost
-  "Qievent.58.13": "The first time I saw him rattled thinking that he could harm me.",
+  "Qievent.12.17": "That strange arrow.",
   //change 13 heart
-  "Qievent.58.14": "His frantic search to bind us.",
+  "Qievent.12.18": "His frantic search to bind us.",
   //change 14 heart
-  "Qievent.58.15": "Our soul bond.",
+  "Qievent.12.19": "Our soul bond.",
   //change backwoods
-  "Qievent.58.16": "We're steadily approaching my nexus.",
-  "Qievent.59": "...$43",
-  "Qievent.60": "'How can I help you?'",
+  "Qievent.12.20": "We're steadily approaching my nexus.",
+  "Qievent.12.21": "...$43",
+  "Qievent.12.22": "'How can I help you?'",
   //lance pats ground and sits in front of tree / farmer mimics
-  "Qievent.61": "My ears are ringing, the sound of water rushing all around me is deafening.",
-  "Qievent.62": "It sounds like thousands of heartbeats at once.",
-  "Qievent.63": "My soulmate.",
-  "Qievent.64": "My husband.",
-  "Qievent.65": "Lance.",
-  "Qievent.66": "I can feel his energy, as faint as it is.#Reach out for him.#Call his name.#Tear open the portal.", //quickquestion
+  "Qievent.12.23": "My ears are ringing, the sound of water rushing all around me is deafening.",
+  "Qievent.12.24": "It sounds like thousands of heartbeats at once.",
+  "Qievent.12.25": "My soulmate.",
+  "Qievent.12.26": "My husband.",
+  "Qievent.12.27": "Lance.",
+  "Qievent.12.28.q": "I can feel his energy, as faint as it is.#Reach out for him.#Call his name.#Tear open the portal.", //questionnull
   //portal appears / farmer reaches out / actual lance falls out / addmailreceived {{ModId}}_Beard {{ModId}}_FreshScar
-  "Qievent.67": "It... wasn't a dream? I'm in my nexus...!",
-  "Qievent.68": "'Lance!'",
-  "Qievent.69": "Lance is in my lap, beaten, bruised, bloody, but alive.",
-  "Qievent.70": "Alive.",
-  "Qievent.71": "I bent down to listen for his breathing, it's ragged but it's stable.",
-  "Qievent.72": "I'm... home... my love...$71", //lance
-  "Qievent.73": "The sound of a warp?",
-  "Qievent.74": "YOU ABSOLUTE FOOLS!$5", //magnus
-  "Qievent.75": "I have never heard Magnus raise his voice, and apparently neither has Lance.",
-  "Qievent.76": "NOT ONLY DID YOU THROW YOURSELF INTO SUCH A DANGEROUS SITUATION...!$5#$b#BUT TO NOT EVEN LET YOURSELF HEAL!$5#$b#TO DRAG YOUR SOULS TO THE BRINK THAT YOU BOTH LOOK SHATTERED!$5", //magnus
-  "Qievent.77": "YOUR SOULS ARE ON THE VERGE OF COLLAPSE!$5", //magnus
-  "Qievent.78": "Razzy", //textabovehead camilla
-  "Qievent.79": "HOW COULD YOU BE SO RECKLESS?!$5", //magnus
-  "Qievent.80": "Raz.", //textabovehead camilla
-  "Qievent.81": "DID YOU EVEN THINK ABOUT HOW CAMILLA AND I WOULD FEEL IF--$5", //magnus
-  "Qievent.82": "RASMODIUS.$7", //camilla
-  "Qievent.83": "Magnus has finally stopped, he's panting heavily through tears.",
-  "Qievent.84": "I cannot lose any more family.$28", //magnus
-  "Qievent.85": "I know Razzy.$2", //camilla
-  "Qievent.86": "Camilla has started healing magic on both of us.",
-  "Qievent.87": "Whatever gods be out there, let these two rest now, I pray to whoever will listen.$28", //magnus
+  "Qievent.13.1": "It... wasn't a dream? I'm in my nexus...!",
+  "Qievent.13.2": "'Lance!'",
+  "Qievent.13.3": "Lance is in my lap, beaten, bruised, bloody, but alive.",
+  "Qievent.13.4": "Alive.",
+  "Qievent.13.5": "I bent down to listen for his breathing, it's ragged but it's stable.",
+  "Qievent.13.6": "I'm... home... my love...$71", //lance
+  "Qievent.13.7": "Another warp?",
+  "Qievent.13.8": "YOU ABSOLUTE FOOLS!$5", //magnus
+  "Qievent.13.9": "I have never heard Magnus raise his voice, and apparently neither has Lance.",
+  "Qievent.13.10": "NOT ONLY DID YOU THROW YOURSELF INTO SUCH A DANGEROUS SITUATION...!$5#$b#BUT TO NOT EVEN LET YOURSELF HEAL!$5#$b#TO DRAG YOUR SOULS TO THE BRINK THAT YOU BOTH LOOK SHATTERED!$5", //magnus
+  "Qievent.13.11": "YOUR SOULS ARE ON THE VERGE OF COLLAPSE!$5", //magnus
+  "Qievent.13.12": "Razzy", //textabovehead camilla
+  "Qievent.13.13": "HOW COULD YOU BE SO RECKLESS?!$5", //magnus
+  "Qievent.13.14": "Raz.", //textabovehead camilla
+  "Qievent.13.15": "DID YOU EVEN THINK ABOUT HOW CAMILLA AND I WOULD FEEL IF--$5", //magnus
+  "Qievent.13.16": "RASMODIUS.$7", //camilla
+  "Qievent.13.17": "Magnus has finally stopped, he's panting heavily through tears.",
+  "Qievent.13.18": "I cannot lose any more family.$2", //magnus
+  "Qievent.13.19": "I know Razzy.$2", //camilla
+  "Qievent.13.20": "Camilla has started healing magic on both of us.",
+  "Qievent.13.21": "Whatever gods be out there, let these two rest now, I pray to whoever will listen.$2", //magnus
   // addmailreceived {{ModId}}_Eyepatch / addmailreceived {{ModId}}_Steri/ addmailreceived {{ModId}}_Blood false
   //change hospital 
-  "Qievent.88": "It's good that they're both recovering at such a pace. The brand is a little concerning, however.", //harvey
-  "Qievent.89": "...Right.#I was branded.",
-  "Qievent.90": "I wonder if I was magically branded.",
-  "Qievent.91": "It's glowing.",
-  "Qievent.92": "Yep.",
-  "Qievent.93": "Well, shit.",
-  "Qievent.94": "The heart monitors help calm my mind.#90 over 60.#Scary low.",
-  "Qievent.95": "I guess I'm calm even though I've been magically branded.",
-  "Qievent.96": "'Lance?'",
-  "Qievent.97": "Yes my love?$71", //lance
-  "Qievent.98": "'Have you heard anything?'",
-  "Qievent.99": "Hmm.$9#$b#Something about us being branded, Magnus and Camilla are researching it with the entirety of the Ferngill Ministry.$8", //lance
-  "Qievent.100": "'T-T-The entirety?!'",
-  "Qievent.101": "Well, yes, their worst fear, you, and their sword, me, were branded.$8", //lance
-  "Qievent.102": "I don't feel anything from the brand.$9#$b#At first I thought it was just a regular cow branding, but then it started glowing.$8", //lance
-  "Qievent.103": "'Mine glowed as soon as I touched it too.'",
-  "Qievent.104": "Maybe it has something to do with our souls being on the brink of shattering at that time?$2", //lance
-  "Qievent.105": "'Magnus was... really mad about that...'",
-  "Qievent.106": "Yeah, I've never actually seen him that angry.$8", //lance
-  "Qievent.107": "We softly laugh to each other as I shuffled into his bed.",
-  "Qievent.108": "Harvey is gonna get mad at us.$8", //lance
-  "Qievent.109": "'It's mana charging.'",
-  "Qievent.110": "Yes, yes, I need my recharge.$8", //lance
-  "Qievent.111": "We slowly breathe in sync as we circulate our mana together.#I can feel the lacerations of his meridians as I try to heal them.",
-  "Qievent.112": "Don't.$3", //lance
-  "Qievent.113": "'Why not?'",
-  "Qievent.114": "You're far worse off than I am right now.$9", //lance
-  "Qievent.115": "'What do you mean by that?'",
-  "Qievent.116": "If you could see how your soul looks, you look as if you're being held together with string and hopes.$8", //lance
-  "Qievent.117": "Close your eyes and feel the mana circulating between our meridians and consider that as training.$9", //lance
-  "Qievent.117.1": "I finished helping circulate mana and left Lance to rest.",
-  "Qievent.117.2": "Ah, @. It'd be in your best interest to take a rest like Lance. We'll see you in the morning.", //harvey
+  "Qievent.14.1": "It's good that they're both recovering at such a pace. The brand is a little concerning, however.", //harvey
+  "Qievent.14.2": "...Right.#I was branded.",
+  "Qievent.14.3": "I wonder if I was magically branded.",
+  "Qievent.14.4": "It's glowing.",
+  "Qievent.14.5": "Yep.",
+  "Qievent.14.6": "Well, shit.",
+  "Qievent.14.7": "The heart monitors help calm my mind.#90 over 60.#Scary low.",
+  "Qievent.14.8": "I guess I'm calm even though I've been magically branded.",
+  "Qievent.14.9": "'Lance?'",
+  "Qievent.14.10": "...Yes my love?$71", //lance
+  "Qievent.14.11": "'Have you heard anything?'",
+  "Qievent.14.12": "...Hmm.$9#$b#Something about us being branded, Magnus and Camilla are researching it with the entirety of the Ferngill Ministry.$8", //lance
+  "Qievent.14.13": "'T-T-The entirety?!'",
+  "Qievent.14.14": "Well, yes, their worst fear, you, and their sword, me, were branded.$8", //lance
+  "Qievent.14.15": "I don't feel anything from the brand.$9#$b#At first I thought it was just a regular cow branding, but then it started glowing.$8", //lance
+  "Qievent.14.16": "'Mine glowed as soon as I touched it too.'",
+  "Qievent.14.17": "Maybe it has something to do with our souls being on the brink of shattering at that time?$2", //lance
+  "Qievent.14.18": "'Magnus was... really mad about that...'",
+  "Qievent.14.19": "Yeah, I've never actually seen him that angry.$8", //lance
+  "Qievent.14.20": "We softly laugh to each other as I shuffled into his bed.",
+  "Qievent.14.21": "Harvey is gonna get mad at us.$8", //lance
+  "Qievent.14.22": "'It's mana charging.'",
+  "Qievent.14.23": "Yes, yes, I need my recharge.$8", //lance
+  "Qievent.14.24": "We slowly breathe in sync as we circulate our mana together.#I can feel the lacerations of his meridians as I try to heal them.",
+  "Qievent.14.25": "Don't.$3", //lance
+  "Qievent.14.26": "'Why not?'",
+  "Qievent.14.27": "You're far worse off than I am right now.$9", //lance
+  "Qievent.14.28": "'What do you mean by that?'",
+  "Qievent.14.29": "If you could see how your soul looks, you look as if you're being held together with string and hopes.$8", //lance
+  "Qievent.14.30": "Close your eyes and feel the mana circulating between our meridians and consider that as training.$9", //lance
+  "Qievent.14.31": "I finished helping circulate mana and left Lance to rest.",
+  "Qievent.14.32": "Ah, @. It'd be in your best interest to take a rest like Lance. We'll see you in the morning.", //harvey
   //end event
   //wait for lance? A day of recovery? Do we want it to be immediate upon the next triggered dialogue?
-  "Qievent.118": "'Lance?'",
-  "Qievent.119": "Yes my love?$43", //lance
-  "Qievent.120": "'Uh... how long have we been out?'",
-  "Qievent.121": "Well, you were gone for an entire week before I could find you.$53", //lance
-  "Qievent.122": "'A WEEK?!'",
-  "Qievent.123": "You see why I was so desperate to find you.$43", //lance
-  "Qievent.124": "When you didn't come back that night, I immediately rushed to Magnus.$53#$b#Our soulbond was almost severed.$51#$b#Camilla and Magnus decided to amplify my magic with a ritual.$37",
-  "Qievent.125": "I couldn't stop.$53#$b#I could feel your soul screaming for me from a far away place.$55#$b#Every fiber of my being screamed back.$53", //lance
-  "Qievent.126": "'How did you manage to find me?'",
-  "Qievent.127": "Magnus would have a better explanation for you, I don't exactly have the energy to be 'eloquent' right now.$8", //lance
+  "Qievent.15.1": "'Lance?'",
+  "Qievent.15.2": "Yes my love?$43", //lance
+  "Qievent.15.3": "'Uh... how long have we been out?'",
+  "Qievent.15.4": "Well, you were gone for an entire week before I could find you.$53", //lance
+  "Qievent.15.5": "'A WEEK?!'",
+  "Qievent.15.6": "You see why I was so desperate to find you.$43", //lance
+  "Qievent.15.7": "When you didn't come back that night, I immediately rushed to Magnus.$53#$b#Our soulbond was almost severed.$51#$b#Camilla and Magnus decided to amplify my magic with a ritual.$37",
+  "Qievent.15.8": "I couldn't stop.$53#$b#I could feel your soul screaming for me from a far away place.$55#$b#Every fiber of my being screamed back.$53", //lance
+  "Qievent.15.9": "'How did you manage to find me?'",
+  "Qievent.15.10": "Magnus would have a better explanation for you, I don't exactly have the energy to be 'eloquent' right now.$8", //lance
 
   //children check
-  "Qievent.128": "'What about our children?'",
-  "Qievent.129": "The Ministry is currently taking care of them with a few colleagues that I trust.$43#$b#We prepared for the worst. If something targeted you, they could easily snatch the children away.$51#$b#I wouldn't have that.$53", //lance
-  "Qievent.130": "'I hope they're alright.'",
-  "Qievent.131": "Don't worry, I get updates from Morgan via communication magic on an almost hourly basis.$8", //lance
+  "Qievent.15.10.a.1": "'What about our children?'",
+  "Qievent.15.10.a.2": "The Ministry is currently taking care of them with a few colleagues that I trust.$43#$b#We prepared for the worst. If something targeted you, they could easily snatch the children away.$51#$b#I wouldn't have that.$53", //lance
+  "Qievent.15.10.a.3": "'I hope they're alright.'",
+  "Qievent.15.10.a.4": "Don't worry, I get updates from Morgan via communication magic on an almost hourly basis.$8", //lance
 
   //break back
-  "Qievent.132": "I think to myself.#To think my contingency plan would've been put into action within the year...#It scares me.",
-  "Qievent.133": "You were right to tell me to keep my alarm up on you. If it weren't for our strengthened connection, I don't think I would have ever found you.$53", //lance
-  "Qievent.134": "I think I would've lost my mind if I didn't have this tether to you.$8", //lance
-  "Qievent.135": "'I can't imagine it.'",
-  "Qievent.136": "You can't?$42", //lance
-  "Qievent.137": "'You're like a lighthouse through the maelstrom.'",
-  "Qievent.138": "So you're saying I wouldn't have gone completely insane because my ${husband^wife^love}$ was missing?$43", //lance
-  "Qievent.139": "'No... I'm just saying I can't imagine it. You seem so level headed and grounded.'",
-  "Qievent.140": "Hmmm...$8#$b#Maybe you're blinded by your love for me that you can't see my flaws?$43", //lance
+  "Qievent.15.11": "I think to myself.#To think my contingency plan would've been put into action within the year...#It scares me.",
+  "Qievent.15.12": "You were right to tell me to keep my alarm up on you. If it weren't for our strengthened connection, I don't think I would have ever found you.$53", //lance
+  "Qievent.15.13": "I think I would've lost my mind if I didn't have this tether to you.$8", //lance
+  "Qievent.15.14": "'I can't imagine it.'",
+  "Qievent.15.15": "You can't?$42", //lance
+  "Qievent.15.16": "'You're like a lighthouse through the maelstrom.'",
+  "Qievent.15.17": "So you're saying I wouldn't have gone completely insane because my ${husband^wife^love}$ was missing?$43", //lance
+  "Qievent.15.18": "'No... I'm just saying I can't imagine it. You seem so level headed and grounded.'",
+  "Qievent.15.19": "Hmmm...$8#$b#Maybe you're blinded by your love for me that you can't see my flaws?$43", //lance
   //farmer exclaimation, then disgruntled emote
-  "Qievent.141": "I'll take that as a compliment, I see myself with many flaws.$8", //lance
+  "Qievent.15.20": "I'll take that as a compliment, I see myself with many flaws.$8", //lance
   //farmer disgruntled emote, smack animation
-  "Qievent.142": "Ow!$8#$b#I'm a patient!$15#$b#Have mercy!$8", //lance
+  "Qievent.15.21": "Ow!$8#$b#I'm a patient!$15#$b#Have mercy!$8", //lance
   //farmer :3c face
   //lance and farmer laugh
-  "Qievent.143": "I'm... glad to be back home, my love.$8",
+  "Qievent.15.22": "I'm... glad to be back home, my love.$8",
   //pause for a decent amount of time, animate lance falling asleep
   //lance exclaimation, showframe eyes open
-  "Qievent.144": "S-sorry, my love.$42#$b#I guess I dozed off.$9", //lance
+  "Qievent.15.23": "S-sorry, my love.$42#$b#I guess I dozed off.$9", //lance
   //farmer heart emoji
-  "Qievent.145": "'I'll let you rest then.'#'Would you like dinner?'",
-  "Qievent.146": "Oh?$42#$b#Oh dinner sounds... really good.$43#$b#Don't tell Harvey, but I definitely don't enjoy the food here.$8",
+  "Qievent.15.24": "'I'll let you rest then.'#'Would you like dinner?'",
+  "Qievent.15.25": "Oh?$42#$b#Oh dinner sounds... really good.$43#$b#Don't tell Harvey, but I definitely don't enjoy the food here.$8",
   //farmer :3 face
-  "Qievent.147": "'I'll be back for dinner then!'",
-  "Qievent.147.1": "I count the minutes with baited breath, my love.$43", //lance
+  "Qievent.15.26": "'I'll be back for dinner then!'",
+  "Qievent.15.27": "I count the minutes with baited breath, my love.$43", //lance
   //end event spacechase0.SpaceCore_ShowHudMessage "It's almost dinnertime, I should get back to Lance."
-  "Qievent.147.2": "It's almost dinnertime, I should get back to Lance.",
-  "Qievent.148": "I start to swirl my finger in a circle on his chest as I collect my thoughts.",
-  "Qievent.148.2": "I was abducted.#Lance fought his way back to me.",
-  "Qievent.149": "Who... is Qi?",
-  "Qievent.150": "'Were you able to see him?'",
-  "Qievent.151": "That thing consumed by the void?$42", //lance
-  "Qievent.152": "Yes, Magnus warned that if I were to tap into your magic, you would be effectively drained.",
-  "Qievent.152.1": "Against his wishes, I took a loan on your magic.$8",
+  "Qievent.16.1": "It's almost dinnertime, I should get back to Lance.",
+  "Qievent.16.2": "I start to swirl my finger in a circle on his chest as I collect my thoughts.",
+  "Qievent.16.3": "I was abducted.#Lance fought his way back to me.",
+  "Qievent.16.4": "Who... is Qi?",
+  "Qievent.16.5": "'Were you able to see him?'",
+  "Qievent.16.6": "That thing consumed by the void?$42", //lance
+  "Qievent.16.7": "Yes, Magnus warned that if I were to tap into your magic, you would be effectively drained.",
+  "Qievent.16.8": "Against his wishes, I took a loan on your magic.$8",
   //farmer jump questionmark
   //lance chuckle
-  "Qievent.152.2": "Don’t worry! I’ll pay it back with installments over the next 100 business years.$43",
+  "Qievent.16.9": "Don’t worry! I’ll pay it back with installments over the next 100 business years.$43",
   //pause, farmer laugh / lance laugh
-  "Qievent.152.3": "‘I… I’m, so glad you’re back…’",
+  "Qievent.16.10": "‘I… I’m, so glad you’re back…’",
   //farmer shake sweatdrop
   //emote lance exclamation
-  "Qievent.152.4": "I’m sorry! I didn’t mean to make you cry…$36",
+  "Qievent.16.11": "I’m sorry! I didn’t mean to make you cry…$36",
   //positionoffset closer together, dwoop noise for kiss effect >:3c
   //pause for brevity and breathing room, lance closes eyes to breathe
   //farmer emote ellipses
 
-  "Qievent.153": "'What did he look like to you?'",
-  "Qievent.153.1": "Hmm?$8#$b#Must I relive the battle right at this moment? I was thoroughly enjoying myself in your embrace.$9",
+  "Qievent.16.12": "'What did he look like to you?'",
+  "Qievent.16.13": "Hmm?$8#$b#Must I relive the battle right at this moment? I was thoroughly enjoying myself in your embrace.$9",
   //farmer ellipses
-  "Qievent.153.2": "Alright, alright, if you’re so enthralled with my story, I might as well continue.$8",
-  "Qievent.154": "It was something bathed in void, much like Apophis.$55#$b#It was almost unintelligible, I'm surprised you even had humane conversations with that thing.$53", //lance
-  "Qievent.155": "'He had a human form to me.'",
-  "Qievent.156": "Interesting. He seemed like a warped Apophis with a human head to me.$54", //lance
-  "Qievent.157": "'Did Magnus ever figure out what the void shard was about?'",
+  "Qievent.16.14": "Alright, alright, if you’re so enthralled with my story, I might as well continue.$8",
+  "Qievent.16.15": "It was something bathed in void, much like Apophis.$55#$b#It was almost unintelligible, I'm surprised you even had humane conversations with that thing.$53", //lance
+  "Qievent.16.16": "'He had a human form to me.'",
+  "Qievent.16.17": "Interesting. He seemed like a warped Apophis with a human head to me.$54", //lance
+  "Qievent.16.18": "'Did Magnus ever figure out what the void shard was about?'",
   //break switch to check for RRRR
 
-  //RRRR not installed
-  "Qievent.158": "Yeah, apparently we were covered in them, they're apparently a type of chitin.$55", //RRRR not installed
-  "Qievent.159": "'What do you mean we were covered in them?'",
-  "Qievent.160": "It was as if it was trying to feed off our mana to burn our meridians.$55", //lance
-  "Qievent.161": "'I wonder what he needed all of this mana for.'",
-
   //RRRR installed
-  "Qievent.158.1": "Unfortunately, even your husband couldn't get the information for that. The Ministry has it under top secret..$55", //RRRR installed
-  "Qievent.158.2": "What I could decipher, it felt as if the entire room was made of those void shards.$51",
+  "Qievent.16.18.a.1": "Unfortunately, even your husband couldn't get the information for that. The Ministry has it under top secret..$55", //RRRR installed
+  "Qievent.16.18.a.2": "What I could decipher, it felt as if the entire room was made of those void shards.$51",
+  //RRRR not installed
+  "Qievent.16.18.b.1": "Yeah, apparently we were covered in them, they're apparently a type of chitin.$55", //RRRR not installed
+  "Qievent.16.18.b.2": "'What do you mean we were covered in them?'",
+  "Qievent.16.18.b.3": "It was as if it was trying to feed off our mana to burn our meridians.$55", //lance
+  "Qievent.16.18.b.4": "'I wonder what he needed all of this mana for.'",
 
   //switch and change back
-  "Qievent.161.1": "'Could you also speak to him?'",
-  "Qievent.162": "I couldn't exactly talk with 'him' as you keep on calling it.#$b#As soon as I threw you into the warp, his speech was incoherent.$53", //lance
-  "Qievent.163": "You don't have to be afraid anymore, my love.$8#$b#I think 'he' won't bother us for awhile.$9", //lance
-  "Qievent.164": "'Why?'",
-  "Qievent.165": "I seem to have left a mortal wound.$43", //lance
-  "Qievent.166": "'How strong are you now, exactly?'",
-  "Qievent.167": "Hmmm...$8#$b#I could probably cast a barrier just like Camilla.$9", //lance
+  "Qievent.16.19": "'Could you also speak to him?'",
+  "Qievent.16.20": "I couldn't exactly talk with 'him' as you keep on calling it.#$b#As soon as I threw you into the warp, his speech was incoherent.$53", //lance
+  "Qievent.16.21": "You don't have to be afraid anymore, my love.$8#$b#I think 'he' won't bother us for awhile.$9", //lance
+  "Qievent.16.22": "'Why?'",
+  "Qievent.16.23": "I seem to have left a mortal wound.$43", //lance
+  "Qievent.16.24": "'How strong are you now, exactly?'",
+  "Qievent.16.25": "Hmmm...$8#$b#I could probably cast a barrier just like Camilla.$9", //lance
   //farmer exclaimation
-  "Qievent.168": "'Is it... permanent...?'",
-  "Qievent.169": "Considering Magnus and Camilla can't place the inhibitor back on our soul bond, I think so.$8", //lance
+  "Qievent.16.26": "'Is it... permanent...?'",
+  "Qievent.16.27": "Considering Magnus and Camilla can't place the inhibitor back on our soul bond, I think so.$8", //lance
   //farmer ellipses
-  "Qievent.170": "You remember how my magic works, yes?$43#$b#How I can 'borrow' power from my other 'selves'?$41",
+  "Qievent.16.28": "You remember how my magic works, yes?$43#$b#How I can 'borrow' power from my other 'selves'?$41",
   //farmer :3c face
-  "Qievent.171": "Because our souls were on the brink of collapse, I was able to grasp several of them at once.$43", //lance
+  "Qievent.16.29": "Because our souls were on the brink of collapse, I was able to grasp several of them at once.$43", //lance
   //farmer exclaimation mark
-  "Qievent.171.1": "You and I are more alike than you could ever imagine.$22", //lance",
+  "Qievent.16.30": "You and I are more alike than you could ever imagine.$22", //lance",
   //lance coughs
-  "Qievent.171.2": "’You need to rest, I can’t imagine the fight you just came back from…’",
-  "Qievent.171.3": "Yes, I'll... I'll take this moment to rest, feel free to ask Magnus more about it.$9", //lance",
+  "Qievent.16.31": "’You need to rest, I can’t imagine the fight you just came back from…’",
+  "Qievent.16.32": "Yes, I'll... I'll take this moment to rest, feel free to ask Magnus more about it.$9", //lance",
   //end event
 
   //end event spacechase0.SpaceCore_ShowHudMessage "I should talk to Magnus."
   //next event at wizardhouse
-  "Qievent.171.4": "@? Should you really be up and running about–no, I apologize, your mental health is also something that needs to be mended.",
-  "Qievent.171.5": "I asked Magnus about my fate.",
-  "Qievent.171.6": "I cannot tell you the exact details, but this surely wasn’t something foreseen.#$b#Your fate is… complicated, to say the least.", //magnus",
+  "Qievent.17.1": "@? Should you really be up and running about–no, I apologize, your mental health is also something that needs to be mended.",
+  "Qievent.17.2": "I asked Magnus about my fate.",
+  "Qievent.17.3": "I cannot tell you the exact details, but this surely wasn’t something foreseen.#$b#Your fate is… complicated, to say the least.", //magnus",
   //farmer questionmark
-  "Qievent.171.7": "Can you tell me about the visions you had after Camilla and I received you through the warp?", //magnus
-  "Qievent.171.8": "I told Magnus about my experiences.#Several people appeared in my dreams.#I walked a path of memories I had with Lance.#I could see Lance and the one who kidnapped me fighting.#I could feel Lance using my magic to bolster his strength.",
-  "Qievent.171.9": "Interesting.#$b#Camilla and I had placed a throttle on your soul bond so that your souls wouldn't interfere.#$b#It seems as if removing the inhibitor caused the clash between your timelines.",
+  "Qievent.17.4": "Can you tell me about the visions you had after Camilla and I received you through the warp?", //magnus
+  "Qievent.17.5": "I told Magnus about my experiences.#Several people appeared in my dreams.#I walked a path of memories I had with Lance.#I could see Lance and the one who kidnapped me fighting.#I could feel Lance using my magic to bolster his strength.",
+  "Qievent.17.6": "Interesting.#$b#Camilla and I had placed a throttle on your soul bond so that your souls wouldn't interfere.#$b#It seems as if removing the inhibitor caused the clash between your timelines.",
   //farmer questionmark
-  "Qievent.171.10": "You merely caught a glimpse of your infinite timelines.", //magnus
+  "Qievent.17.7": "You merely caught a glimpse of your infinite timelines.", //magnus
   //farmer exclaimationpoint, starts shaking, sweatdrop
-  "Qievent.171.11": "Lance will get his... lecture... at another time.#$b#For now, since you have stabilized somewhat, it would be best to maintain your health.",
+  "Qievent.17.8": "Lance will get his... lecture... at another time.#$b#For now, since you have stabilized somewhat, it would be best to maintain your health.",
   //farmer ellipses
-  "Qievent.171.12": "You'd like a lesson for magic?#$b#Right at this moment?",
+  "Qievent.17.9": "You'd like a lesson for magic?#$b#Right at this moment?",
   //farmer :3 face
-  "Qievent.171.13": "Hah, well, I presume you won't fall asleep this time around?#$b#I'll try to keep this lesson interesting.",
+  "Qievent.17.10": "Hah, well, I presume you won't fall asleep this time around?#$b#I'll try to keep this lesson interesting.",
   //farmer :3 face
   //globalfade
   //new positions inside wizardhouse
@@ -2263,54 +2261,54 @@
   //global fade
   //new positions
   //morgan sleep animation, farmer sweatdrop emoji
-  "Qievent.171.14": "Since our most resilient one, Morgan, has fallen asleep, I believe this is our time to end.",
+  "Qievent.17.11": "Since our most resilient one, Morgan, has fallen asleep, I believe this is our time to end.",
   //magnus walks towards left bookcase, pause, turns back to look at the farmer
-  "Qievent.171.15": "We're all... very glad that the two of you are back safe and sound.#$b#Now go.#$b#I believe Lance would like to know of your accomplishment today.",
+  "Qievent.17.12": "We're all... very glad that the two of you are back safe and sound.#$b#Now go.#$b#I believe Lance would like to know of your accomplishment today.",
   //farmer disgruntled emoji
   //end event spacechase0.SpaceCore_ShowHudMessage "I wonder if Lance is awake."
 
   //harvey and camilla talking
-  "Qievent.171.16": "Lance's condition is stabilized, you'd have to check for his magic stability though.", //harvey
-  "Qievent.171.17": "That's good to hear.#$b#Oh! @!",
-  "Qievent.171.18": "Lance is stable?#Can I see him?#Is his magic unstable?#Hello!", // quickquestion
-  "Qievent.171.18.1": "Of course, just try not to stress him out.", // harvey
-  "Qievent.171.18.2": "A little bit, but nothing a little rest and relaxation can't fix.$1", //camilla
-  "Qievent.171.18.3": "Well hello!$1#$b#Lance has been waiting for you.$5", //camilla
-  "Qievent.171.18.4": "Lance is staring at the door.#'Up so soon?'#'The famous War Fiend is already making a swift recovery?'#'How are you doing?'", // quickquestion
-  "Qievent.171.18.4.1": "Watching the clock and awaiting your visit, my love.$43",
-  "Qievent.171.18.4.2": "How coy! I'm only doing so well because of my powerful ${husband^wife^partner}$!$43",
-  "Qievent.171.18.4.3": "Aside from the perpetual boredom? The bad hospital food? Missing you? Just peachy.$43",
-  "Qievent.172": "There is a reason why Magnus was so mad.$8#$b#I was using your connection to your simultaneously endless timelines to find you.$43",
-  "Qievent.173": "'Is that why Magnus said it looked as if we were about to be shattered?'",
-  "Qievent.174": "Well, I vastly underestimated just how many timelines exist within you.$8#$b#I simply took it at face value, but the vastness of 'eternity' isn't something any one person can understand.$9", //lance
-  "Qievent.175": "'An... eternity of timelines...?'",
-  "Qievent.176": "You would definitely go insane were you to read every timeline, every action, every thought, of all of your selves at the same time.$43#$b#Your body and your mind actively protect you.$8", //lance
-  "Qievent.177": "It'd be best to forget and live in the moment, like I said.$8#$b#I had but a glimpse but I feel my reality shaking.$43", //lance
-  "Qievent.178": "Lance looks visibly shaken.#'Are you going to be alright?'#Hold his hand.#'We're both safe now.'",
-  "Qievent.179": "Yes, I've stabilized since getting back to you through your dreamlike state.$43", //lance
-  "Qievent.180": "'So it really was you!'",
-  "Qievent.181": "Of course, it was the only real way I could escape that monster's wordless magic.$53", //lance
-  "Qievent.182": "'Is that what his magic was? He would issue out commands to me and I couldn't do anything about it.'",
-  "Qievent.183": "Yes, the most ancient form of magic are words.$8#$b#You can think of our chanting as limiters so that we do not become something akin to him.$43", //lance
-  "Qievent.184": "'Limiters...'",
-  "Qievent.185": "Maybe if someone paid attention to Magnus' lessons, they would know how the ancients could even command the seas.$43", //lance
-  "Qievent.186": "I nuzzled into his chest and take a jab at his abs.",
-  "Qievent.187": "AH!$42#$b#OW!$43#$b#I'm still bruised my love!$43#$b#Have mercy!$8", //lance
-  "Qievent.188": "Oh... it is... so good to see you both awake and well...$9", //camilla
-  "Qievent.189": "Razzy and I are, well, the entire Ministry is currently researching.$10#$b#The only thing we know of that brand is that it has severed something.$3", //camilla
-  "Qievent.190": "Interesting, I can still reach out to my other existences, but they cannot reach out to me anymore, could that be the case?$51", //lance
-  "Qievent.191": "You'll have to tell me more later, Lancey. Right now we're just on high alert to make sure that you both are protected. The monsters in Galdora have become frenzied.$3", //camilla
-  "Qievent.192": "What of Ferngill?$51", //lance
+  "Qievent.18.1": "Lance's condition is stabilized, you'd have to check for his magic stability though.", //harvey
+  "Qievent.18.2": "That's good to hear.#$b#Oh! @!",
+  "Qievent.18.3": "Lance is stable?#Can I see him?#Is his magic unstable?#Hello!", // quickquestion
+  "Qievent.18.4": "Of course, just try not to stress him out.", // harvey
+  "Qievent.18.5": "A little bit, but nothing a little rest and relaxation can't fix.$1", //camilla
+  "Qievent.18.6": "Well hello!$1#$b#Lance has been waiting for you.$5", //camilla
+  "Qievent.18.7": "Lance is staring at the door.#'Up so soon?'#'The famous War Fiend is already making a swift recovery?'#'How are you doing?'", // quickquestion
+  "Qievent.18.8": "Watching the clock and awaiting your visit, my love.$43",
+  "Qievent.18.9": "How coy! I'm only doing so well because of my powerful ${husband^wife^partner}$!$43",
+  "Qievent.18.10": "Aside from the perpetual boredom? The bad hospital food? Missing you? Just peachy.$43",
+  "Qievent.18.11": "There is a reason why Magnus was so mad.$8#$b#I was using your connection to your simultaneously endless timelines to find you.$43",
+  "Qievent.18.12": "'Is that why Magnus said it looked as if we were about to be shattered?'",
+  "Qievent.18.13": "Well, I vastly underestimated just how many timelines exist within you.$8#$b#I simply took it at face value, but the vastness of 'eternity' isn't something any one person can understand.$9", //lance
+  "Qievent.18.14": "'An... eternity of timelines...?'",
+  "Qievent.18.15": "You would definitely go insane were you to read every timeline, every action, every thought, of all of your selves at the same time.$43#$b#Your body and your mind actively protect you.$8", //lance
+  "Qievent.18.16": "It'd be best to forget and live in the moment, like I said.$8#$b#I had but a glimpse but I feel my reality shaking.$43", //lance
+  "Qievent.18.17": "Lance looks visibly shaken.#'Are you going to be alright?'#Hold his hand.#'We're both safe now.'",
+  "Qievent.18.18": "Yes, I've stabilized since getting back to you through your dreamlike state.$43", //lance
+  "Qievent.18.19": "'So it really was you!'",
+  "Qievent.18.20": "Of course, it was the only real way I could escape that monster's wordless magic.$53", //lance
+  "Qievent.18.21": "'Is that what his magic was? He would issue out commands to me and I couldn't do anything about it.'",
+  "Qievent.18.22": "Yes, the most ancient form of magic are words.$8#$b#You can think of our chanting as limiters so that we do not become something akin to him.$43", //lance
+  "Qievent.18.23": "'Limiters...'",
+  "Qievent.18.24": "Maybe if someone paid attention to Magnus' lessons, they would know how the ancients could even command the seas.$43", //lance
+  "Qievent.18.25": "I nuzzled into his chest and take a jab at his abs.",
+  "Qievent.18.26": "AH!$42#$b#OW!$43#$b#I'm still bruised my love!$43#$b#Have mercy!$8", //lance
+  "Qievent.18.27": "Oh... it is... so good to see you both awake and well...$9", //camilla
+  "Qievent.18.28": "Razzy and I are, well, the entire Ministry is currently researching.$10#$b#The only thing we know of that brand is that it has severed something.$3", //camilla
+  "Qievent.18.29": "Interesting, I can still reach out to my other existences, but they cannot reach out to me anymore, could that be the case?$51", //lance
+  "Qievent.18.30": "You'll have to tell me more later, Lancey. Right now we're just on high alert to make sure that you both are protected. The monsters in Galdora have become frenzied.$3", //camilla
+  "Qievent.18.31": "What of Ferngill?$51", //lance
 
   //no children
-  "Qievent.192.1": "Razzy deployed himself to aid Ferngill, they've pushed research on that Void Shard.",
+  "Qievent.18.31.a.1": "Razzy deployed himself to aid Ferngill, they've pushed research on that Void Shard.",
   //yes children
-  "Qievent.193": "They're fine, Razzy has deployed himself to aid Ferngill, saying that his 'newfound grandchildren' must stay safe of all things!$8", //camilla
-  "Qievent.194": "That...$44#$b#That old fool.$43", //lance
+  "Qievent.18.31.b.1": "They're fine, Razzy has deployed himself to aid Ferngill, saying that his 'newfound grandchildren' must stay safe of all things!$8", //camilla
+  "Qievent.18.31.b.2": "That...$44#$b#That old fool.$43", //lance
 
   //breakback
-  "Qievent.195": "We all sigh as it feels like this chapter comes to a close.",
-  "Qievent.196": "I still wonder what Qi even was.",
+  "Qievent.18.32": "We all sigh as it feels like this chapter comes to a close.",
+  "Qievent.18.33": "I still wonder what Qi even was.",
 
 
   //CHANGED DIALOGUE

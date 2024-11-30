@@ -23,7 +23,9 @@
         "Razor.no1": "pause 300/shake Lance 100/textabovehead Lance \"{{i18n:Lance.Chuckle}}\"/pause 300/speak Lance \"{{i18n:Razor.no1}}\"/addMailReceived {{ModId}}_YesBeard/addcraftingrecipe Lance's Razor/end"
       }
     },
-  */
+
+    WRITE OUT GHOST HOLOGRAMS AFTER FIGURING OUT THE BOOK'S SECRETS
+    */
     ///////////////////////////////////////////////////////////////PELICAN MINES
     {
       "LogName": "Monster Hunting Pelican Mines",
