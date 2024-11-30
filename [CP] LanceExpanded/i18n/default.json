@@ -1998,7 +1998,7 @@
   "Qievent.4.11": "The brand… it’s… burning!", //farmer
   //shake farmer, sweatdrop, disgruntled emote
   "Qievent.4.12": "We need you to concentrate. As much as Camilla and I are keeping your souls bound together, Lance is still fighting.", //magnus
-  "Qievent.4.13": "You just have to concentrate on Lance, we'll be back soon.$3", //farmer
+  "Qievent.4.13": "You just have to concentrate on Lance, we'll be back soon.$3", //magnus
   "Qievent.4.14": "I started to calm my mind and chant the mantras that Lance taught me.", //farmer
   "Qievent.4.15": "Good. Now, Camilla, let's return to my tower to progress with the ritual. We leave @ to you, Harvey.", //magnus
   "Qievent.4.16": "I'll keep you updated, Rasmodius.", //harvey
@@ -2148,6 +2148,11 @@
   "Qievent.15.10.a.2": "The Ministry is currently taking care of them with a few colleagues that I trust.$43#$b#We prepared for the worst. If something targeted you, they could easily snatch the children away.$51#$b#I wouldn't have that.$53", //lance
   "Qievent.15.10.a.3": "'I hope they're alright.'",
   "Qievent.15.10.a.4": "Don't worry, I get updates from Morgan via communication magic on an almost hourly basis.$8", //lance
+  //children check one child
+  "Qievent.15.10.b.1": "'What about our child?'",
+  "Qievent.15.10.b.2": "The Ministry is currently taking care of them with a few colleagues that I trust.$43#$b#We prepared for the worst. If something targeted you, they could easily snatch %kid1 away.$51#$b#I wouldn't have that.$53", //lance
+  "Qievent.15.10.b.3": "'I hope they're alright.'",
+  "Qievent.15.10.b.4": "Don't worry, I get updates from Morgan via communication magic on an almost hourly basis.$8", //lance
 
   //break back
   "Qievent.15.11": "I think to myself.#To think my contingency plan would've been put into action within the year...#It scares me.",
@@ -2239,12 +2244,13 @@
 
   //end event spacechase0.SpaceCore_ShowHudMessage "I should talk to Magnus."
   //next event at wizardhouse
+  "Qievent.17.0": "I should talk to Magnus.",
   "Qievent.17.1": "@? Should you really be up and running about–no, I apologize, your mental health is also something that needs to be mended.",
   "Qievent.17.2": "I asked Magnus about my fate.",
   "Qievent.17.3": "I cannot tell you the exact details, but this surely wasn’t something foreseen.#$b#Your fate is… complicated, to say the least.", //magnus",
   //farmer questionmark
   "Qievent.17.4": "Can you tell me about the visions you had after Camilla and I received you through the warp?", //magnus
-  "Qievent.17.5": "I told Magnus about my experiences.#Several people appeared in my dreams.#I walked a path of memories I had with Lance.#I could see Lance and the one who kidnapped me fighting.#I could feel Lance using my magic to bolster his strength.",
+  "Qievent.17.5.q": "I told Magnus about my experiences.#Several people appeared in my dreams.#I walked a path of memories I had with Lance.#I could see Lance and the one who kidnapped me fighting.#I could feel Lance using my magic to bolster his strength.",
   "Qievent.17.6": "Interesting.#$b#Camilla and I had placed a throttle on your soul bond so that your souls wouldn't interfere.#$b#It seems as if removing the inhibitor caused the clash between your timelines.",
   //farmer questionmark
   "Qievent.17.7": "You merely caught a glimpse of your infinite timelines.", //magnus
@@ -2270,11 +2276,11 @@
   //harvey and camilla talking
   "Qievent.18.1": "Lance's condition is stabilized, you'd have to check for his magic stability though.", //harvey
   "Qievent.18.2": "That's good to hear.#$b#Oh! @!",
-  "Qievent.18.3": "Lance is stable?#Can I see him?#Is his magic unstable?#Hello!", // quickquestion
+  "Qievent.18.3.q": "Lance is stable?#Can I see him?#Is his magic unstable?#Hello!", // quickquestion
   "Qievent.18.4": "Of course, just try not to stress him out.", // harvey
   "Qievent.18.5": "A little bit, but nothing a little rest and relaxation can't fix.$1", //camilla
   "Qievent.18.6": "Well hello!$1#$b#Lance has been waiting for you.$5", //camilla
-  "Qievent.18.7": "Lance is staring at the door.#'Up so soon?'#'The famous War Fiend is already making a swift recovery?'#'How are you doing?'", // quickquestion
+  "Qievent.18.7.q": "Lance looks jaded.#'Up so soon?'#'The famous War Fiend is already making a swift recovery?'#'How are you doing?'", // quickquestion
   "Qievent.18.8": "Watching the clock and awaiting your visit, my love.$43",
   "Qievent.18.9": "How coy! I'm only doing so well because of my powerful ${husband^wife^partner}$!$43",
   "Qievent.18.10": "Aside from the perpetual boredom? The bad hospital food? Missing you? Just peachy.$43",
@@ -2284,7 +2290,7 @@
   "Qievent.18.14": "'An... eternity of timelines...?'",
   "Qievent.18.15": "You would definitely go insane were you to read every timeline, every action, every thought, of all of your selves at the same time.$43#$b#Your body and your mind actively protect you.$8", //lance
   "Qievent.18.16": "It'd be best to forget and live in the moment, like I said.$8#$b#I had but a glimpse but I feel my reality shaking.$43", //lance
-  "Qievent.18.17": "Lance looks visibly shaken.#'Are you going to be alright?'#Hold his hand.#'We're both safe now.'",
+  "Qievent.18.17.q": "Lance looks visibly shaken.#'Are you going to be alright?'#Hold his hand.#'We're both safe now.'",
   "Qievent.18.18": "Yes, I've stabilized since getting back to you through your dreamlike state.$43", //lance
   "Qievent.18.19": "'So it really was you!'",
   "Qievent.18.20": "Of course, it was the only real way I could escape that monster's wordless magic.$53", //lance

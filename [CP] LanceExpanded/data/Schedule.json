@@ -29,6 +29,33 @@
         "KrobusDialogue.006": "{{i18n:Lance.KrobusDialogue.006}}",
         "KrobusDialogue.007": "{{i18n:Lance.KrobusDialogue.007}}"
       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "lance_down": "41/41/41"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lance",
+      "Priority": "High",
+      "When": {
+        "HasFlag": "{{ModId}}_Lancepital"
+      },
+      "Entries": {
+        "spring": "0 Hospital 20 4 2 lance_down",
+        "Mon": "GOTO spring",
+        "Tue": "GOTO spring",
+        "Wed": "GOTO spring",
+        "Thu": "GOTO spring",
+        "Fri": "GOTO spring",
+        "Sat": "GOTO spring",
+        "Sun": "GOTO spring",
+        "GreenRain": "GOTO spring",
+        "KrobusMeet": "GOTO spring"
+      }
     }
   ]
 }
