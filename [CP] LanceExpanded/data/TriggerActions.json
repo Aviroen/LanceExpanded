@@ -89,7 +89,6 @@
             "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
           ]
         },
-        /*
         "{{ModId}}_SVEQiEvents": {
           "Id": "{{ModId}}_SVEQiEvents",
           "Trigger": "DayStarted",
@@ -98,7 +97,6 @@
             "MarkEventSeen Current 1925179 true"
           ]
         },
-        */
         "{{ModId}}_TheBeardCounter": {
           "Id": "{{ModId}}_TheBeardCounter",
           "Trigger": "DayEnding",
@@ -155,6 +153,36 @@
           "Trigger": "LocationChanged",
           "Condition": "WORLD_STATE_FIELD MinesDifficulty 1",
           "Action": "AddMail Current {{ModId}}_HardModeActivated received"
+        },
+        "{{ModId}}_QiForgetter": {
+          "Id": "{{ModId}}_QiForgetter",
+          "Trigger": "LocationChanged",
+          "Condition": "{{QiForgetter |contains=true}}",
+          "Actions": [
+            "RemoveMail Current {{ModId}}_Cave All",
+            "RemoveMail Current {{ModId}}_Cave2 All",
+            "RemoveMail Current {{ModId}}_Cave3 All",
+            "RemoveMail Current {{ModId}}_Cave4 All",
+            "RemoveMail Current {{ModId}}_Cave5 All",
+            "RemoveMail Current {{ModId}}_Cave6 All",
+            "RemoveMail Current {{ModId}}_Blood All",
+            "RemoveMail Current {{ModId}}_Beard All",
+            "RemoveMail Current {{ModId}}_Lancepital All",
+            "RemoveMail Current {{ModId}}_FreshScar All",
+            "RemoveMail Current {{ModId}}_Steri All",
+            "RemoveMail Current {{ModId}}_Blood All",
+            "RemoveMail Current {{ModId}}_Eyepatch All",
+            "RemoveMail Current {{ModId}}_AnEndeavor All",
+            "RemoveConversationTopic {{ModId}}_QiSpacer1",
+            "RemoveConversationTopic {{ModId}}_QiSpacer2",
+            "RemoveConversationTopic {{ModId}}_QiSpacer3",
+            "RemoveConversationTopic {{ModId}}_QiSpacer4",
+            "RemoveConversationTopic {{ModId}}_QiSpacer5",
+            "RemoveConversationTopic {{ModId}}_QiSpacer6",
+            "RemoveConversationTopic {{ModId}}_QiSpacer7",
+            "RemoveConversationTopic {{ModId}}_QiSpacer8",
+            "MarkActionApplied Current {{ModId}}_QiForgetter false"
+          ]
         }
       }
     }

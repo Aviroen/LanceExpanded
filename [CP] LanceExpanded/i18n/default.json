@@ -25,6 +25,11 @@
   "config.Darker Plot Events(Y4).values.false": "false",
   "config.Darker Plot Events(Y4).description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety.",
 
+  "config.QiForgetter": "Qi Event Forgetter",
+  "config.QiForgetter.values.true": "true",
+  "config.QiForgetter.values.false": "false",
+  "config.QiForgetter.description": "Forgets all of the Mature Year 4 flags for testing and replaying purposes. Change Location after setting config to true, remember to turn it back to false or else you'll be in a permanent loop.",
+
   "config.Spicier Content": "Spicier Content",
   "config.Spicier Content.description": "Bell Pepper is rated-E for everyone. Habanero has IMPLICATIONS. Pepper-X is Rated-R.",
   "config.Spicier Content.values.Bell Pepper": "Bell Pepper",
@@ -2450,7 +2455,8 @@
   //seen shrine #'Have you ever seen a shrine here?' 6.10 "Pelican.6.10.": "", hasflag {{ModId}}_HardModeActivated
   "Pelican.6.10.1": "A shrine, my love?$30#$b#Since coming to the valley, I've been the one to monitor monster population.$31",
   "Pelican.6.10.2": "Why, what's wrong?$30",
-  "Pelican.6.10.3": "What should I say?",
+  "Pelican.6.10.3": "What should I say?#'There was a chest in here that held the key to the desert mines.'",
+  "Pelican.6.10.3.Alt": "What should I say?#'There was a chest in here that held the key to the desert mines.'#'There's usually a shrine here that causes stronger monsters to spawn.'",
   "Pelican.6.10.Switch.1": "'There was a chest in here that held the key to the desert mines.'",
   "Pelican.6.10.Switch.2": "'There's usually a shrine here that causes stronger monsters to spawn.'",
   "Pelican.6.10.3.1": "Oh that old thing?$8#$b#Originally, it was open to the public, but due to the nature of the desert, Marlon and I had ended up attending to hospital visits rather than celebrations.$37#$b#We deemed it appropriate to close off the mines to only those who could unlock the door.$34",

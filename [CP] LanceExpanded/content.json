@@ -26,6 +26,12 @@
       "Section": "Content",
       "Description": "TRIGGER WARNING: Kidnapping, beating, branding, blood. This is an event that takes well over 10 minutes of REAL TIME to watch even the first part. Be warned and be aware that you should set aside ample time to watch this cutscene in its entirety."
     },
+    "QiForgetter": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Content",
+      "Description": "Forgets all of the Mature Year 4 flags for testing and replaying purposes. Change Location after setting config to true, remember to turn it back to false or else you'll be in a permanent loop."
+    },
     "Spicier Content": {
       "AllowValues": "Bell Pepper, Habanero, Pepper X",
       "Default": "Bell Pepper",

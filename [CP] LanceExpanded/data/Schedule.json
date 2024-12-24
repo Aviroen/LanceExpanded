@@ -40,7 +40,7 @@
     {
       "Action": "EditData",
       "Target": "Characters/schedules/Lance",
-      "Priority": "High",
+      "Priority": "Late",
       "When": {
         "HasFlag": "{{ModId}}_Lancepital"
       },
