@@ -44,12 +44,6 @@
       "Section": "Content",
       "Description": "This might screw with perfection. Haven't debugged it, but it lets you purchase the Savage Ring from Gil. (This is a requirement for the 13 Heart event because you'll need the Krobus Ritual to be done.)"
     },
-    "HeartEvents": {
-      "AllowValues": "LanceExpanded, pause",
-      "Default": "pause",
-      "Section": "Content",
-      "Description": "Resets ALL of my mod's heart events, default 'pause', toggle and save to activate."
-    },
     "LanceNewRoom": {
       "AllowValues": "true, false",
       "Default": "true",

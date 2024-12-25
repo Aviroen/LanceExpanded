@@ -124,7 +124,7 @@
   "Lance.SPICY_2": "You have me convinced!$8#$b#Leave tonight open, I have plans.$67",
   "Lance.SPICY_3": "A kiss?$68#$b#After last night's activities?$8#$b#I must be doing something right, then.$71",
   "Lance.SPICY_4": "I cannot help but feel that one lingered a little too long.$67#$b#I am quite open to a daylight rendezvous.$71",
-  "Lance.SPICY_5": "While your temptations gnaw at the door of my willpower, we have work to do.$67#$e#If you wish to push my buttons I will show you what happens.$71#$e#This is my final warning.$71#$e#Now, you're in trouble.$67#$v LE12HeartSPICY false false",
+  "Lance.SPICY_5": "While your temptations gnaw at the door of my willpower, we have work to do.$67#$e#If you wish to push my buttons I will show you what happens.$71#$e#This is my final warning.$71#$e#Now, you're in trouble.$67#$v {{ModId}}_12HeartSPICY false false",
   "Lance.MODERATE_0": "Your gentle kisses are competing for being my favorite against your more...$71#$b#Aggressive ones.$67",
   "Lance.MODERATE_1": "!!!$70#$b#Did you just bite my lip?$71#$b#I'll show you a better way.$67",
   "Lance.MODERATE_2": "Oh I know that look.$67#$b#What is it called? 'Core Memory Unlocked'?$71#$b#I feel like I finally understand what that means.$67",
@@ -2036,7 +2036,7 @@
   "Qievent.12.2": "Am I still dreaming?",
   "Qievent.12.3": "I can't see anything...",
   //small light shining, farmer walks towards it, pitch black but a road forward
-  "Qievent.12.4": "A road?",
+  "Qievent.12.4": "The Caldera?",
   //farmer exclaimation
   //change caldera
   "Qievent.12.5": "The first time we met on Kohldur.",
