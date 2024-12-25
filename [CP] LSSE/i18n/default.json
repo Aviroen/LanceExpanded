@@ -1840,7 +1840,8 @@
   //seen shrine #'Have you ever seen a shrine here?' 6.10 "Pelican.6.10.": "", hasflag {{ModId}}_HardModeActivated
   "Pelican.6.10.1": "A shrine, my love?$30#$b#Since coming to the valley, I've been the one to monitor monster population.$31",
   "Pelican.6.10.2": "Why, what's wrong?$30",
-  "Pelican.6.10.3": "What should I say?",
+  "Pelican.6.10.3": "What should I say?#'There was a chest in here that held the key to the desert mines.'",
+  "Pelican.6.10.3.Alt": "What should I say?#'There was a chest in here that held the key to the desert mines.'#'There's usually a shrine here that causes stronger monsters to spawn.'",
   "Pelican.6.10.Switch.1": "'There was a chest in here that held the key to the desert mines.'",
   "Pelican.6.10.Switch.2": "'There's usually a shrine here that causes stronger monsters to spawn.'",
   "Pelican.6.10.3.1": "Oh that old thing?$8#$b#Originally, it was open to the public, but due to the nature of the desert, Marlon and I had ended up attending to hospital visits rather than celebrations.$37#$b#We deemed it appropriate to close off the mines to only those who could unlock the door.$34",
