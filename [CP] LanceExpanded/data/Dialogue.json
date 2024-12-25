@@ -289,32 +289,17 @@
 
 
       }
-    }
-    /*
+    },
     {
       "LogName": "Gifts: Pregnant",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lance",
       "When": {
-        "HasSeenEvent": "64780030",
-        "HavingChild": "@{{playerName}}",
-        "Relationship:Lance": "Married"
-   },
+        "HasFlag": "{{ModId}}_Lancepital"
+      },
       "Entries": {
-
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Soul": "{{i18n:Preg.GiftReaction_Void_Soul}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Swirl_Stone": "{{i18n:Preg.GiftReaction_Void_Soul}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Preg.GiftReaction_Void_Shard}}",
-        "AcceptGift_category_cooking": "{{i18n:Preg.GiftReactionCategory_-7}} ",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine": "{{i18n:Preg.GiftReaction_Blue_Moon_Wine}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Age_Blue_Moon_Wine": "{{i18n:Preg.GiftReaction_Blue_Moon_Wine}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": "{{i18n:Preg.GiftReaction_Radiation}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Eel": "{{i18n:Preg.GiftReaction_Void_Eel}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Undeadfish": "{{i18n:Preg.GiftReaction_Undeadfish}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Gemfish": "{{i18n:Preg.GiftReaction_Gemfish}}",
- 
-   },
- },
-*/
+        "Hospital_20_4": "{{i18n:Lancepital_{{Random:{{Range: 0, 5}}}}}}"
+      }
+    }
   ]
 }

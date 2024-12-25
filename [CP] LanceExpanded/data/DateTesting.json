@@ -73,7 +73,7 @@
         "HasFlag |contains={{ModId}}_HardModeActivated": false
       },
       "Entries": {
-        "{{ModId}}_Shrine": "pause 500/speak Lance \"{{i18n:Pelican.6.10.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.10.2}}\"/pause 700/question null {{i18n:Pelican.6.10.3}}/speak Lance \"{{i18n:Pelican.6.10.3.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.7}}\"/switchEvent {{ModId}}_Transition"
+        "{{ModId}}_Shrine": "pause 500/speak Lance \"{{i18n:Pelican.6.10.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.10.2}}\"/pause 700/question null \"{{i18n:Pelican.6.10.3}}\"/speak Lance \"{{i18n:Pelican.6.10.3.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.9.7}}\"/switchEvent {{ModId}}_Transition"
       }
     },
     {
@@ -86,7 +86,7 @@
       "Entries": {
         "{{ModId}}_Shrine": "pause 500/speak Lance \"{{i18n:Pelican.6.10.1}}\"/pause 700/speak Lance \"{{i18n:Pelican.6.10.2}}\"/pause 700/quickquestion {{i18n:Pelican.6.10.3.Alt}}(break)switchEvent {{ModId}}_ShrineKey(break)switchEvent {{ModId}}_ShrineHard",
         "{{ModId}}_ShrineKey": "pause 500/speak Lance \"{{i18n:Pelican.6.10.3.1}}\"/pause 700/question null {{i18n:Pelican.6.10.3}}#{{i18n:Pelican.6.10.Switch.2}}/switchEvent {{ModId}}_ShrineHard",
-        "{{ModId}}_ShrineHard": "pause 500/speak Lance \"{{i18n:Pelican.6.10.3.2}}\"/pause 700/facedirection Lance 3/pause 100/facedirection farmer 1/pause 100/speak Lance \"{{i18n:Pelican.6.10.3.3}}\"/pause 700/message \"{{i18n:Pelican.6.10.3.4}}\"/speak Lance \"{{i18n:Pelican.6.10.3.5}}\"/pause 700/emote farmer 40/pause 100/emote farmer 8/pause 100/startJittering/emote farmer 12/pause 500/stopJittering/question null {{i18n:Pelican.6.10.3.6}}/speak Lance \"{{i18n:Pelican.6.10.3.7}}\"/pause 700/emote farmer 12/pause 500/question null {{i18n:Pelican.6.10.3.8}}/speak Lance \"{{i18n:Pelican.6.10.3.9}}\"/pause 200/startJittering/pause 500/stopJittering/speak Lance \"{{i18n:Pelican.6.10.3.10}}\"/pause 700/question null {{i18n:Pelican.6.10.3.11}}/speak Lance \"{{i18n:Pelican.6.10.3.12}}\"/pause 700/question null {{i18n:Pelican.6.10.3.13}}/speak Lance \"{{i18n:Pelican.6.10.3.12}}\"/pause 300/emote farmer 40/pause 100/emote farmer 28/pause 100/emote Lance 28/end"
+        "{{ModId}}_ShrineHard": "pause 500/speak Lance \"{{i18n:Pelican.6.10.3.2}}\"/pause 700/facedirection Lance 3/pause 100/facedirection farmer 1/pause 100/speak Lance \"{{i18n:Pelican.6.10.3.3}}\"/pause 700/message \"{{i18n:Pelican.6.10.3.4}}\"/speak Lance \"{{i18n:Pelican.6.10.3.5}}\"/pause 700/emote farmer 40/pause 100/emote farmer 8/pause 100/startJittering/emote farmer 12/pause 500/stopJittering/question null \"{{i18n:Pelican.6.10.3.6}}\"/speak Lance \"{{i18n:Pelican.6.10.3.7}}\"/pause 700/emote farmer 12/pause 500/question null \"{{i18n:Pelican.6.10.3.8}}\"/speak Lance \"{{i18n:Pelican.6.10.3.9}}\"/pause 200/startJittering/pause 500/stopJittering/speak Lance \"{{i18n:Pelican.6.10.3.10}}\"/pause 700/question null \"{{i18n:Pelican.6.10.3.11}}\"/speak Lance \"{{i18n:Pelican.6.10.3.12}}\"/pause 700/question null \"{{i18n:Pelican.6.10.3.13}}\"/speak Lance \"{{i18n:Pelican.6.10.3.12}}\"/pause 300/emote farmer 40/pause 100/emote farmer 28/pause 100/emote Lance 28/end"
       }
     }
   ]
