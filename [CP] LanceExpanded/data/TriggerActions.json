@@ -6,8 +6,8 @@
       "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "{{ModId}}_SVESilencer": {
-          "Id": "{{ModId}}_SVESilencer",
+        "{{ModId}}_SVESilencer1": {
+          "Id": "{{ModId}}_SVESilencer1",
           "Trigger": "LocationChanged",
           "Condition": "PLAYER_HAS_SEEN_EVENT Current 6951319",
           "Actions": [
@@ -16,14 +16,13 @@
             "MarkEventSeen Current 65360191 true", //8 heart CHANGED INTO 4 HEART
             "MarkEventSeen Current 65360197 true", //12 heart god dammit
             "MarkEventSeen Current 65360198 true", //12 heart god dammit
-            "MarkActionApplied Current {{ModId}}_SVESilencer false"
           ]
         },
 
         "{{ModId}}_SVEHDwarf": {
           "Id": "{{ModId}}_SVEHDwarf",
           "Trigger": "LocationChanged",
-          "Condition": "PLAYER_HAS_SEEN_EVENT Current LEHighlandsPredicament",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_HighlandsPredicament",
           "Actions": [
             "Addmail Current {{ModId}}_4Heart tomorrow",
             "MarkEventSeen Current 55134259 true" //flags highland dwarf event as watched
@@ -67,7 +66,7 @@
         "{{ModId}}_13HeartMailer": {
           "Id": "{{ModId}}_13HeartMailer",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_HAS_SEEN_EVENT Current LEMagnusTutelage",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_MagnusTutelage",
           "Actions": [
             "AddMail Current {{ModId}}_Lance13 tomorrow"
           ]
@@ -99,12 +98,7 @@
           "Trigger": "LocationChanged",
           "Condition": "{{QiForgetter |contains=true}}",
           "Actions": [
-            "RemoveMail Current {{ModId}}_Cave All",
-            "RemoveMail Current {{ModId}}_Cave2 All",
-            "RemoveMail Current {{ModId}}_Cave3 All",
-            "RemoveMail Current {{ModId}}_Cave4 All",
-            "RemoveMail Current {{ModId}}_Cave5 All",
-            "RemoveMail Current {{ModId}}_Cave6 All",
+            "RemoveMail Current {{ModId}}_QiStart All",
             "RemoveMail Current {{ModId}}_Blood All",
             "RemoveMail Current {{ModId}}_Beard All",
             "RemoveMail Current {{ModId}}_Lancepital All",
@@ -121,6 +115,14 @@
             "RemoveConversationTopic {{ModId}}_QiSpacer6",
             "RemoveConversationTopic {{ModId}}_QiSpacer7",
             "RemoveConversationTopic {{ModId}}_QiSpacer8",
+            "MarkEventSeen Current {{ModId}}_Wake1 false",
+            "MarkEventSeen Current {{ModId}}_Wake2 false",
+            "MarkEventSeen Current {{ModId}}_Wake3 false",
+            "MarkEventSeen Current {{ModId}}_Wake4 false",
+            "MarkEventSeen Current {{ModId}}_Wake5 false",
+            "MarkEventSeen Current {{ModId}}_Wake6 false",
+            "MarkEventSeen Current {{ModId}}_Wake7 false",
+            "MarkEventSeen Current {{ModId}}_Wake8 false",
             "MarkActionApplied Current {{ModId}}_QiForgetter false"
           ]
         }

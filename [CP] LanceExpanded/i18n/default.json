@@ -2011,26 +2011,26 @@
   "Qievent.4.18": "You're good to walk around the town, @. Please do not overexert yourself, for all our sakes.", //harvey
   //end event
   //day ending next morning event
-  "Qievent.5.1": "I must be losing my touch.", //qi
-  "Qievent.5.2": "Augh!", //lance
+  "Qievent.5.1": "I must be losing my touch.$3", //qi
+  "Qievent.5.2": "Augh!$52", //lance
   //daystart
-  "Qievent.6.1": "@, I believe in you.", //lance
-  "Qievent.6.2": "Hah! Useless!", //qi
+  "Qievent.6.1": "@, I believe in you.$52", //lance
+  "Qievent.6.2": "Hah! Useless!$3", //qi
   //daystart
-  "Qievent.7.1": "*Huff*", //lance
-  "Qievent.7.2": "*Huff* Not bad... Hellion!", //qi
+  "Qievent.7.1": "*Huff*$54", //lance
+  "Qievent.7.2": "*Huff* Not bad... Hellion!$3", //qi
   //daystart
-  "Qievent.8.1": "To think--you could best me...!", //qi
-  "Qievent.8.2": "I have to get out of here!", //lance
+  "Qievent.8.1": "To think--you could best me...!$3", //qi
+  "Qievent.8.2": "I have to get out of here!$53", //lance
   //daystart
-  "Qievent.9.1": "You're not escaping me!", //qi
-  "Qievent.9.2": "What?!", //lance
+  "Qievent.9.1": "You're not escaping me!$3", //qi
+  "Qievent.9.2": "What?!$100", //lance
   //daystart
-  "Qievent.10.1": "A chance!", //lance
-  "Qievent.10.2": "What?! NO!", //qi
+  "Qievent.10.1": "A chance!$78", //lance
+  "Qievent.10.2": "What?! NO!$3", //qi
   //daystart
-  "Qievent.11.1": "*Huff*", //lance
-  "Qievent.11.2": "@...", //lance
+  "Qievent.11.1": "*Huff*$79", //lance
+  "Qievent.11.2": "@...$83", //lance
   //daystart
   "Qievent.12.1": "Lance!#Where could you have gone?!",
   "Qievent.12.2": "Am I still dreaming?",
