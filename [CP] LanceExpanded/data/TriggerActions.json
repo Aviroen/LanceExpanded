@@ -125,6 +125,20 @@
             "MarkEventSeen Current {{ModId}}_Wake8 false",
             "MarkActionApplied Current {{ModId}}_QiForgetter false"
           ]
+        },
+        "{{ModId}}_YobaInHeaven": {
+          "Id": "{{ModId}}_YobaInHeaven",
+          "Trigger": "DayStarted",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_WeMadeIt",
+          "Actions": [
+            "RemoveMail Current {{ModId}}_Beard All",
+            "RemoveMail Current {{ModId}}_Lancepital All",
+            "RemoveMail Current {{ModId}}_FreshScar All",
+            "RemoveMail Current {{ModId}}_Steri All",
+            "RemoveMail Current {{ModId}}_Blood All",
+            "RemoveMail Current {{ModId}}_Eyepatch All",
+            "AddMail Current {{ModId}}_Scarred received"
+          ]
         }
       }
     }

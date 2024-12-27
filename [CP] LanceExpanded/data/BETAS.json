@@ -65,22 +65,6 @@
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:WearEarring.01}}\" false"
           ]
-        },
-        // change this one to remove all of the qi flags as soon as the player gifts the replay qi event item
-        "{{ModId}}_LanceQiEvents": {
-          "Id": "{{ModId}}_LanceQiEvents",
-          "Trigger": "Spiderbuttons.BETAS_GiftGiven",
-          "Condition": "ITEM_ID Target Lance, ITEM_ID Target Aviroen.LanceExpanded_QiMomento, PLAYER_HAS_SEEN_EVENT Current 6951319",
-          "Actions": [
-            "MarkEventSeen Current LanceQi false",
-            "MarkEventSeen Current LEQiAdventurer false",
-            "MarkEventSeen Current LEQiPost false",
-            "MarkEventSeen Current LEQiPost1 false",
-            "MarkEventSeen Current LEQiPost2 false",
-            "MarkEventSeen Current LEQiPost3 false",
-            "MarkEventSeen Current LEQiPost4 false",
-            "MarkActionApplied Current {{ModId}}_LanceQiEvents false"
-          ]
         }
       }
     },
@@ -91,7 +75,7 @@
         "{{ModId}}_10HeartConversation": {
           "Id": "{{ModId}}_10HeartConversation",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR received\", PLAYER_HAS_SEEN_EVENT Current LERealization",
+          "Condition": "ITEM_ID Target Lance, ANY \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartOKAY received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartPEOPLE received\" \"PLAYER_HAS_MAIL Current {{ModId}}_10HeartDOCTOR received\", PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Realization",
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.10Heart.{{10HeartChoice}}.Convo_{{Random:{{Range: 0, 4}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_10HeartConversation false"
@@ -100,7 +84,7 @@
         "{{ModId}}_10HeartConversationJackass": {
           "Id": "{{ModId}}_10HeartConversationJackass",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS received, PLAYER_HAS_SEEN_EVENT Current LERealization",
+          "Condition": "ITEM_ID Target Lance, PLAYER_HAS_MAIL Current {{ModId}}_10HeartJACKASS received, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Realization",
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue \"Lance\" \"{{i18n:Lance.10Heart.JACKASS.Convo_{{Random:{{Range: 0, 4}}}}}}\" false",
             "MarkActionApplied Current {{ModId}}_10HeartConversationJackass false"

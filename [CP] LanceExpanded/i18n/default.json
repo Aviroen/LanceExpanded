@@ -2281,7 +2281,7 @@
   //harvey and camilla talking
   "Qievent.18.1": "Lance's condition is stabilized, you'd have to check for his magic stability though.", //harvey
   "Qievent.18.2": "That's good to hear.#$b#Oh! @!",
-  "Qievent.18.3.q": "Lance is stable?#Can I see him?#Is his magic unstable?#Hello!", // quickquestion
+  "Qievent.18.3.q": "'Lance is stable?'#'Can I see him?'#'Is his magic unstable?'#'Hello!'", // quickquestion
   "Qievent.18.4": "Of course, just try not to stress him out.", // harvey
   "Qievent.18.5": "A little bit, but nothing a little rest and relaxation can't fix.$1", //camilla
   "Qievent.18.6": "Well hello!$1#$b#Lance has been waiting for you.$5", //camilla

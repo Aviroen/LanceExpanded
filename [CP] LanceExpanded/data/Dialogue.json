@@ -129,9 +129,9 @@
       "Action": "EditData",
       "Priority": "Late",
       "When": {
-        "Relationship:Lance": "Married"
+        "Relationship:Lance": "Married",
+        "HasSeenEvent": "6951319"
       },
-
       "Target": "Characters/Dialogue/Lance",
       "Entries": {
         "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_(O)StardropTea}}",

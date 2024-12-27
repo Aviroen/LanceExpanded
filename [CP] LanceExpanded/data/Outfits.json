@@ -6,8 +6,7 @@
       "When": {
         "Portraits": "Aviroen Style, GoodnightLou (Nyapu), SVE, Vanilla Compliant"
       },
-      "Priority": "Low",
-      "Target": "Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Winter_Indoor, Portraits/Lance_Flower, Portraits/Lance_Spirit, Portraits/Lance_Beach, Portraits/Lance_Wedding, Portraits/Lance_Xmas, Characters/Lance_Spring, Characters/Lance_Summer, Characters/Lance_Fall, Characters/Lance_Winter, Characters/Lance_Winter_Outdoor, Characters/Lance_Winter_Indoor, Characters/Lance_Luau, Characters/Lance_Flower, Characters/Lance_Spirit, Characters/Lance_Beach, Characters/Lance_Xmas",
+      "Target": "Portraits/Lance, Portraits/Lance_Spring, Portraits/Lance_Summer, Portraits/Lance_Fall, Portraits/Lance_Winter, Portraits/Lance_Winter_Outdoor, Portraits/Lance_Winter_Indoor, Portraits/Lance_Flower, Portraits/Lance_Spirit, Portraits/Lance_Beach, Portraits/Lance_Wedding, Portraits/Lance_Xmas, Characters/Lance, Characters/Lance_Spring, Characters/Lance_Summer, Characters/Lance_Fall, Characters/Lance_Winter, Characters/Lance_Winter_Outdoor, Characters/Lance_Winter_Indoor, Characters/Lance_Luau, Characters/Lance_Flower, Characters/Lance_Spirit, Characters/Lance_Beach, Characters/Lance_Xmas",
       "FromFile": "assets/{{TargetPathOnly}}/Lance/{{Portraits}}/{{TargetWithoutPath}}.png"
     },
     {
