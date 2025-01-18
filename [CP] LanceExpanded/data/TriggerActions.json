@@ -126,10 +126,10 @@
             "MarkActionApplied Current {{ModId}}_QiForgetter false"
           ]
         },
-        "{{ModId}}_YobaInHeaven": {
-          "Id": "{{ModId}}_YobaInHeaven",
+        "{{ModId}}_YobaHelpMe": {
+          "Id": "{{ModId}}_YobaHelpMe",
           "Trigger": "DayStarted",
-          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_WeMadeIt",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_WeMadeIt, PLAYER_HAS_MAIL current {{ModId}}_QiStart, !PLAYER_HAS_CONVERSATION_TOPIC current {{ModId}}_QiStagger",
           "Actions": [
             "RemoveMail Current {{ModId}}_Beard All",
             "RemoveMail Current {{ModId}}_Lancepital All",
