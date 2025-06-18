@@ -487,29 +487,6 @@
       "LogName": "Lance Edits",
       "Action": "EditData",
       "Target": "data/Characters",
-      "Fields": {
-        "Lance": {
-          "CanBeRomanced": false
-        }
-      }
-    },
-    {
-      "LogName": "Lance Edits",
-      "Action": "EditData",
-      "When": {
-        "HasSeenEvent": "LEFrivolity"
-      },
-      "Target": "data/Characters",
-      "Fields": {
-        "Lance": {
-          "CanBeRomanced": true
-        }
-      }
-    },
-    {
-      "LogName": "Lance Edits",
-      "Action": "EditData",
-      "Target": "data/Characters",
       "When": {
         "Day 1 Toggle": true
       },
