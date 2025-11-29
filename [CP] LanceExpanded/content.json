@@ -1,4 +1,4 @@
-{
+{ //https://stardewvalleywiki.com/Modding:Migrate_to_Stardew_Valley_1.6.16
  "Format": "2.7.0",
  "ConfigSchema": {
   "Spicier Content": {
@@ -15,7 +15,7 @@
   },
   "Appearance": {
    "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), Use Custom",
-   "Default": "Vanilla Compliant",
+   "Default": "Aviroen Style",
    "Section": "Appearance",
    "Description": "This toggles between the portrait art. 'Use Custom' will turn off all portrait changes."
   }
@@ -111,12 +111,26 @@
    "Value": "[LocalizedText {{ModId}}/Dialogue/Lance:"
   },
   {
-   "Name": "CleanLoc2",
+   "Name": "GenLoc",
    "Value": "[LocalizedText {{ModId}}/Dialogue/Lance/General:"
   },
   {
+   "Name": "SVETog",
+   "Value": "SVE.",
+   "When": {
+    "HasMod |contains={{SVEToken}}": true
+   }
+  },
+  {
+   "Name": "SVETog",
+   "Value": "",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false
+   }
+  },
+  {
    "Name": "BETASLoc",
-   "Value": "Spiderbuttons.BETAS_SetNewDialogue {{Lance}} [LocalizedText {{CleanLoc2}}:BETAS."
+   "Value": "Spiderbuttons.BETAS_SetNewDialogue {{Lance}} [LocalizedText {{CleanLoc}}:BETAS.{{SVETog}}"
   },
   {
    "Name": "UnlockConditions",
@@ -145,7 +159,7 @@
    "When": {
     "Relationship:{{Lance}}": "Married",
     "Hearts:{{Lance}}": "11",
-    "Query: {{Random: {{Range:0,5}} }} > 3": true
+    "Query: {{Random: {{Range:0,5}} }} > 4": true
    }
   },
   {
@@ -154,7 +168,7 @@
    "When": {
     "Relationship:{{Lance}}": "Married",
     "Hearts:{{Lance}}": "12",
-    "Query: {{Random: {{Range:0,5}} }} < 3": true
+    "Query: {{Random: {{Range:0,5}} }} < 4": true
    }
   }
  ],
@@ -234,17 +248,12 @@
    },
    "FromFile": "data/TalkingHeads.json"
   },
-
-  //talkingheads
   {
-   "Action": "Load",
-   "Target": "{{iroTH}}Leaning/Lance_base, {{iroTH}}Leaning/Lance_baseBlink, {{iroTH}}Leaning/Lance_baseBlinkOpen, {{iroTH}}Leaning/Lance_ee, {{iroTH}}Leaning/Lance_mm, {{iroTH}}Leaning/Lance_oo, {{iroTH}}Leaning/Lance_uu, {{iroTH}}Leaning/Lance_yy",
-   "FromFile": "assets/TalkingHeads/Leaning/{{TargetWithoutPath}}.png"
-  },
-  {
-   "Action": "Load",
-   "Target": "{{iroTH}}Forward/Forward, {{iroTH}}Forward/Forward_Blink, {{iroTH}}Forward/Forward_Open, {{iroTH}}Forward/Forward_f1, {{iroTH}}Forward/Forward_f2, {{iroTH}}Forward/Forward_f3, {{iroTH}}Forward/Forward_f4, {{iroTH}}Forward/Forward_f5",
-   "FromFile": "assets/TalkingHeads/Forward/{{TargetWithoutPath}}.png"
+   "Action": "Include",
+   "When": {
+    "Portraits": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu)"
+   },
+   "FromFile": "data/Outfits.json"
   }
  ]
 }

@@ -10,7 +10,7 @@
      "Condition": "ITEM_ID Target {{Lance}}",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}]\" \"{{BETASLoc}}Kissed_1 {{LocToken}}]\" \"{{BETASLoc}}Kissed_2 {{LocToken}}]\" \"{{BETASLoc}}Kissed_3 {{LocToken}}]\" \"{{BETASLoc}}Kissed_4 {{LocToken}}]\" \"{{BETASLoc}}Kissed_5 {{LocToken}}]\""
+      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}\" \"{{BETASLoc}}Kissed_1 {{LocToken}}\" \"{{BETASLoc}}Kissed_2 {{LocToken}}\" \"{{BETASLoc}}Kissed_3 {{LocToken}}\" \"{{BETASLoc}}Kissed_4 {{LocToken}}\" \"{{BETASLoc}}Kissed_5 {{LocToken}}\""
      ]
     },
     "{{ModId}}_RightInTheKisserMedium": {
@@ -19,7 +19,7 @@
      "Condition": "ITEM_ID Target {{Lance}}, {{Spicier Content|contains=Medium}}",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}]\" \"{{BETASLoc}}Kissed_1 {{LocToken}}]\" \"{{BETASLoc}}Kissed_2 {{LocToken}}]\" \"{{BETASLoc}}Kissed_3 {{LocToken}}]\" \"{{BETASLoc}}Kissed_4 {{LocToken}}]\" \"{{BETASLoc}}Kissed_5 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_0 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_1 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_2 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_3 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_4 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_5 {{LocToken}}]\"",
+      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}\" \"{{BETASLoc}}Kissed_1 {{LocToken}}\" \"{{BETASLoc}}Kissed_2 {{LocToken}}\" \"{{BETASLoc}}Kissed_3 {{LocToken}}\" \"{{BETASLoc}}Kissed_4 {{LocToken}}\" \"{{BETASLoc}}Kissed_5 {{LocToken}}\" \"{{BETASLoc}}MODERATE_0 {{LocToken}}\" \"{{BETASLoc}}MODERATE_1 {{LocToken}}\" \"{{BETASLoc}}MODERATE_2 {{LocToken}}\" \"{{BETASLoc}}MODERATE_3 {{LocToken}}\" \"{{BETASLoc}}MODERATE_4 {{LocToken}}\" \"{{BETASLoc}}MODERATE_5 {{LocToken}}\"",
       "MarkActionApplied Current {{ModId}}_RightInTheKisser true"
      ]
     },
@@ -29,7 +29,7 @@
      "Condition": "ITEM_ID Target {{Lance}}, {{Spicier Content|contains=Hot}}",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}]\" \"{{BETASLoc}}Kissed_1 {{LocToken}}]\" \"{{BETASLoc}}Kissed_2 {{LocToken}}]\" \"{{BETASLoc}}Kissed_3 {{LocToken}}]\" \"{{BETASLoc}}Kissed_4 {{LocToken}}]\" \"{{BETASLoc}}Kissed_5 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_0 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_1 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_2 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_3 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_4 {{LocToken}}]\" \"{{BETASLoc}}MODERATE_5 {{LocToken}}]\" \"{{BETASLoc}}SPICY_0 {{LocToken}}]\" \"{{BETASLoc}}SPICY_1 {{LocToken}}]\" \"{{BETASLoc}}SPICY_2 {{LocToken}}]\" \"{{BETASLoc}}SPICY_3 {{LocToken}}]\" \"{{BETASLoc}}SPICY_4 {{LocToken}}]\" \"{{BETASLoc}}SPICY_5 {{LocToken}}]\"",
+      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}\" \"{{BETASLoc}}Kissed_1 {{LocToken}}\" \"{{BETASLoc}}Kissed_2 {{LocToken}}\" \"{{BETASLoc}}Kissed_3 {{LocToken}}\" \"{{BETASLoc}}Kissed_4 {{LocToken}}\" \"{{BETASLoc}}Kissed_5 {{LocToken}}\" \"{{BETASLoc}}MODERATE_0 {{LocToken}}\" \"{{BETASLoc}}MODERATE_1 {{LocToken}}\" \"{{BETASLoc}}MODERATE_2 {{LocToken}}\" \"{{BETASLoc}}MODERATE_3 {{LocToken}}\" \"{{BETASLoc}}MODERATE_4 {{LocToken}}\" \"{{BETASLoc}}MODERATE_5 {{LocToken}}\" \"{{BETASLoc}}SPICY_0 {{LocToken}}\" \"{{BETASLoc}}SPICY_1 {{LocToken}}\" \"{{BETASLoc}}SPICY_2 {{LocToken}}\" \"{{BETASLoc}}SPICY_3 {{LocToken}}\" \"{{BETASLoc}}SPICY_4 {{LocToken}}\" \"{{BETASLoc}}SPICY_5 {{LocToken}}\"",
       "MarkActionApplied Current {{ModId}}_RightInTheKisser true"
      ]
     },
@@ -39,7 +39,7 @@
      "Condition": "ITEM_ID Target {{Lance}}, {{Query:{{Hearts:{{Lance}}}} < 2}}, ITEM_STACK Target 1",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}{{Weekday}}_0 {{LocToken}}]\" \"{{BETASLoc}}{{Weekday}}_1 {{LocToken}}]\" \"{{BETASLoc}}{{Weekday}}_2 {{LocToken}}]\" \"{{BETASLoc}}{{Weekday}}_3 {{LocToken}}]\""
+      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}{{Weekday}}_0 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}_1 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}_2 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}_3 {{LocToken}}\""
      ]
     },
     "{{ModId}}_YappingHearts": {
@@ -48,7 +48,7 @@
      "Condition": "ITEM_ID Target {{Lance}}, {{Query:{{Hearts:{{Lance}}}} >= 2}}, ITEM_STACK Target 1",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_0 {{LocToken}}]\" \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_1 {{LocToken}}]\" \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_2 {{LocToken}}]\" \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_3 {{LocToken}}]\"",
+      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_0 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_1 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_2 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}{{Hearts:{{Lance}}}}_3 {{LocToken}}\"",
       "MarkActionApplied Current {{ModId}}_Yapping true"
      ]
     }

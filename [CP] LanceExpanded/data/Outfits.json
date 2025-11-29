@@ -1,0 +1,160 @@
+{
+ "Changes": [
+  {
+   "LogName": "Lance Appearance Data",
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "TargetField": [ "{{Lance}}", "Appearance" ],
+   "Entries": {
+
+    //Regular Outfits
+    "{{ModId}}_Spring": {
+     "Id": "{{ModId}}_Spring",
+     "Condition": "SEASON Spring",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    //TALKINGHEADS TESTING
+    "{{ModId}}_SpringHand": {
+     "Id": "{{ModId}}_SpringHand",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_SpringBlue": {
+     "Id": "{{ModId}}_SpringBlue",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_SpringBlueHand": {
+     "Id": "{{ModId}}_SpringBlueHand",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_SpringBlack": {
+     "Id": "{{ModId}}_SpringBlack",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_SpringBlackHand": {
+     "Id": "{{ModId}}_SpringBlackHand",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_SpringYellow": {
+     "Id": "{{ModId}}_SpringYellow",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_SpringYellowHand": {
+     "Id": "{{ModId}}_SpringYellowHand",
+     "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+     "Precedence": -120
+    }, /* 
+    Chaos testing and some notes for above
+    trigger the alt portraits using BETAS:
+    Spiderbuttons.BETAS_UpdateAppearance {{Lance}} {{ModId}}_AppearanceEntry
+    i don't know if this works mid-dialogue but since it stops the dialogue and acts as if it's #$e# then it doesn't matter
+    but the npc visibly changed char sprites, unsure about the portrait since i have talkingheads on and it wasn't toggling
+    once talkingheads can toggle then ensue chaos
+    main problems with internalassetkey: unsure of how i'm going to toggle mid-event if it still works
+    if it still works then we're bing chilling
+    if it doesn't then i'll have to manually load all of these to their own assets and that sounds like hell
+
+    what this changes:
+    all of the blood/scars/bandages should be appearance-based rather than overlays because it'll be easier for me
+    i have to cut all of the previous portraits apart and shove them into the 13/14? amount of emote calls
+       */
+    "{{ModId}}_Summer": {
+     "Id": "{{ModId}}_Summer",
+     "Condition": "SEASON Summer",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Summer.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Summer.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_Fall": {
+     "Id": "{{ModId}}_Fall",
+     "Condition": "SEASON Fall",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Fall.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Fall.png}}",
+     "Precedence": -120
+    },
+    "{{ModId}}_WinterIndoor": {
+     "Id": "{{ModId}}_WinterIndoor",
+     "Condition": "SEASON Winter",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Winter_Indoor.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Winter_Indoor.png}}",
+     "Outdoors": false,
+     "Precedence": -120
+    },
+    "{{ModId}}_WinterOutdoor": {
+     "Id": "{{ModId}}_WinterOutdoor",
+     "Condition": "SEASON Winter",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Winter_Outdoor.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Winter_Outdoor.png}}",
+     "Indoors": false,
+     "Precedence": -120
+    },
+
+    //festivals
+    "{{ModId}}_Spirit": {
+     "Id": "{{ModId}}_Spirit",
+     "Condition": "IS_EVENT festival_fall27",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Spirit.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Spirit.png}}",
+     "Precedence": -1000
+    },
+    "{{ModId}}_Flower": {
+     "Id": "{{ModId}}_Flower",
+     "Condition": "IS_EVENT festival_spring24",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Flower.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Flower.png}}",
+     "Precedence": -1000
+    },
+    "{{ModId}}_Luau": {
+     "Id": "{{ModId}}_Luau",
+     "Condition": "IS_EVENT festival_summer11",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Luau.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Luau.png}}",
+     "Precedence": -1000
+    },
+    "{{ModId}}_Xmas": {
+     "Id": "{{ModId}}_Xmas",
+     "Condition": "IS_EVENT festival_winter25",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Xmas.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Xmas.png}}",
+     "Precedence": -1000
+    },
+    "{{ModId}}_Wedding": {
+     "Id": "{{ModId}}_Wedding",
+     "Condition": "IS_EVENT wedding",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Wedding.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Wedding.png}}",
+     "Precedence": -1000
+    },
+    //beach
+    "{{ModId}}_Beach": {
+     "Id": "{{ModId}}_Beach",
+     "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Beach.png}}",
+     "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Beach.png}}",
+     "IsIslandAttire": true,
+     "Precedence": -10000
+    }
+   }
+  }
+ ]
+}

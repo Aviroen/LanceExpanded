@@ -1,5 +1,15 @@
 {
  "Changes": [
+  {
+   "Action": "Load",
+   "Target": "{{iroTH}}Leaning/Lance_base, {{iroTH}}Leaning/Lance_baseBlink, {{iroTH}}Leaning/Lance_baseBlinkOpen, {{iroTH}}Leaning/Lance_ee, {{iroTH}}Leaning/Lance_mm, {{iroTH}}Leaning/Lance_oo, {{iroTH}}Leaning/Lance_uu, {{iroTH}}Leaning/Lance_yy",
+   "FromFile": "assets/TalkingHeads/Leaning/{{TargetWithoutPath}}.png"
+  },
+  {
+   "Action": "Load",
+   "Target": "{{iroTH}}Forward/Forward, {{iroTH}}Forward/Forward_Blink, {{iroTH}}Forward/Forward_Open, {{iroTH}}Forward/Forward_f1, {{iroTH}}Forward/Forward_f2, {{iroTH}}Forward/Forward_f3, {{iroTH}}Forward/Forward_f4, {{iroTH}}Forward/Forward_f5",
+   "FromFile": "assets/TalkingHeads/Forward/{{TargetWithoutPath}}.png"
+  },
   /*
   {
    "LogName": "Talking Heads",

@@ -30,6 +30,26 @@
   {
    "UniqueID": "irocendar.TalkingHeads",
    "IsRequired": true
+  },
+  {
+   "UniqueID": "Spiderbuttons.CustomScheduleKeys",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "Spiderbuttons.CMF",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "mushymato.TrinketTinker",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "mushymato.MMAP",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "rokugin.extramapactions",
+   "IsRequired": true
   }
  ],
  "ContentPackFor": {
