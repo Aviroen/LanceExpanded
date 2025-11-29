@@ -239,7 +239,7 @@
   },
   {
    "Action": "Include",
-   "FromFile": "data/Char.json, data/Dialogue.json"
+   "FromFile": "data/Char.json, data/Dialogue.json, data/Spiderbuttons.json"
   },
   {
    "Action": "Include",
