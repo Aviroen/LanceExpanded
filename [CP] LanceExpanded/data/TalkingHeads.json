@@ -1,0 +1,214 @@
+{
+ "Changes": [
+  /*
+  {
+   "LogName": "Talking Heads",
+   "Action": "Include",
+   "FromFile": "data/TalkingHeadsTemplate.json",
+   "LocalTokens": {
+    "NAME": "Lean",
+    "APPEARANCE": "{{ModId}}_Spring",
+    "ANGLE@BASE": "Lance-Leaning/Lance_base",
+    "ANGLE@BLINK": "Lance-Leaning/Lance_baseBlink",
+    "ANGLE@BLINKOPEN": "Lance-Leaning/Lance_baseBlinkOpen",
+    "ANGLE@BLINKCLOSE": "Lance-Leaning/Lance_baseBlink",
+    "ANGLE@FR1": "Lance-Leaning/Lance_mm",
+    "ANGLE@FR2": "Lance-Leaning/Lance_ee",
+    "ANGLE@FR3": "Lance-Leaning/Lance_oo",
+    "ANGLE@FR4": "Lance-Leaning/Lance_uu",
+    "ANGLE@FR5": "Lance-Leaning/Lance_yy"
+   }
+  },
+  {
+   "LogName": "Talking Heads",
+   "Action": "Include",
+   "FromFile": "data/TalkingHeadsTemplate.json",
+   "LocalTokens": {
+    "NAME": "Forward",
+    "APPEARANCE": "{{ModId}}_Spring2",
+    "ANGLE@BASE": "Lance-Forward/Forward",
+    "ANGLE@BLINK": "Lance-Forward/Forward_Blink",
+    "ANGLE@BLINKOPEN": "Lance-Forward/Forward_Open",
+    "ANGLE@BLINKCLOSE": "Lance-Forward/Forward_Blink",
+    "ANGLE@FR1": "Lance-Forward/Forward_f1",
+    "ANGLE@FR2": "Lance-Forward/Forward_f2",
+    "ANGLE@FR3": "Lance-Forward/Forward_f3",
+    "ANGLE@FR4": "Lance-Forward/Forward_f4",
+    "ANGLE@FR5": "Lance-Forward/Forward_f5"
+   }
+  }
+ */
+  {
+   "LogName": "Lance Portrait",
+   "Action": "EditData",
+   "Target": "TalkingHeads/Portraits",
+   "Entries": {
+    "{{ModId}}_Lance": {
+     "ID": "{{ModId}}_Lance",
+     "Target": "{{Lance}}",
+     "Width": "128",
+     "Height": "128",
+     "Portraits": [
+      { //blinking with layer depth eyes only
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 2,
+       "FallbackFrame": 0,
+       "Frames": [
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_baseBlinkOpen",
+         "Duration": 3060
+        },
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_baseBlink",
+         "Duration": 80
+        }
+       ],
+       "Appearances": {
+        "{{ModId}}_Spring": {
+         "Frames": [
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_baseBlinkOpen",
+           "Duration": 3060
+          },
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_baseBlink",
+           "Duration": 80
+          }
+         ]
+        },
+        "{{ModId}}_Spring2": {
+         "Frames": [
+          {
+           "Texture": "{{iroTH}}Forward/Forward_Open",
+           "Duration": 3060
+          },
+          {
+           "Texture": "{{iroTH}}Forward/Forward_Blink",
+           "Duration": 80
+          }
+         ]
+        }
+       }
+      },
+      { //typing
+       "TargetContexts": [ "Typing" ],
+       "LayerDepth": 1,
+       "FallbackFrame": 0,
+       "Frames": [
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_ee",
+         "Duration": 170
+        },
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_mm",
+         "Duration": 170
+        },
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_oo",
+         "Duration": 170
+        },
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_uu",
+         "Duration": 170
+        },
+        {
+         "Texture": "{{iroTH}}Leaning/Lance_yy",
+         "Duration": 170
+        }
+       ],
+       "Appearances": {
+        "{{ModId}}_Spring": {
+         "Frames": [
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_ee",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_mm",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_oo",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_uu",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Leaning/Lance_yy",
+           "Duration": 170
+          }
+         ]
+        },
+        "{{ModId}}_Spring2": {
+         "Frames": [
+          {
+           "Texture": "{{iroTH}}Forward/Forward_f1",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Forward/Forward_f2",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Forward/Forward_f3",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Forward/Forward_f4",
+           "Duration": 170
+          },
+          {
+           "Texture": "{{iroTH}}Forward/Forward_f5",
+           "Duration": 170
+          }
+         ]
+        }
+       }
+      },
+      {
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 0,
+       "Texture": "{{iroTH}}Leaning/Lance_base",
+       "Appearances": {
+        "{{ModId}}_Spring": {
+         "Texture": "{{iroTH}}Leaning/Lance_base"
+        },
+        "{{ModId}}_Spring2": {
+         "Texture": "{{iroTH}}Forward/Forward"
+        }
+       }
+      },
+      {
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 0,
+       "Texture": "{{iroTH}}Leaning/Lance_yy",
+       "Appearances": {
+        "{{ModId}}_Spring": {
+         "Texture": "{{iroTH}}Leaning/Lance_yy"
+        },
+        "{{ModId}}_Spring2": {
+         "Texture": "{{iroTH}}Forward/Forward_f5"
+        }
+       }
+      },
+      {
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 0,
+       "Texture": "{{iroTH}}Leaning/Lance_baseBlinkOpen",
+       "Appearances": {
+        "{{ModId}}_Spring": {
+         "Texture": "{{iroTH}}Leaning/Lance_baseBlinkOpen"
+        },
+        "{{ModId}}_Spring2": {
+         "Texture": "{{iroTH}}Forward/Forward_Open"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/NpcExtensionData",
+      "When": {
+        "HasFlag": "{{ModId}}_Lancepital"
+      },
+      "Entries": {
+        "Lance": {
+          "IgnoreMarriageSchedule": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_DinnerTime": {
+          "Id": "{{ModId}}_DinnerTime",
+          "Trigger": "LocationChanged",
+          "Condition": "TIME 1800 2600, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Fifteen",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Qievent.16.1}}\""
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_DinnerTime": {
+          "Id": "{{ModId}}_DinnerTime",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Dinner",
+          "Actions": [
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Qievent.17.0}}\""
+          ]
+        }
+      }
+    }
+  ]
+}

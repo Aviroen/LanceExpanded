@@ -1,0 +1,76 @@
+{
+ "Changes": [
+  {
+   "LogName": "Lance Portrait",
+   "Action": "EditData",
+   "Target": "TalkingHeads/Portraits",
+   "Entries": {
+    "{{ModId}}_{{NAME}}": {
+     "ID": "{{ModId}}_{{NAME}}",
+     "Target": "{{Lance}}",
+     "Width": "128",
+     "Height": "128",
+     "Portraits": [
+      { //blinking with layer depth eyes only
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 2,
+       "FallbackFrame": 0,
+       "Frames": [
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@BLINKOPEN}}",
+         "Duration": 3060
+        },
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@BLINKCLOSE}}",
+         "Duration": 80
+        }
+       ]
+      },
+      { //typing
+       "TargetContexts": [ "Typing" ],
+       "LayerDepth": 1,
+       "FallbackFrame": 0,
+       "Frames": [
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@FR1}}",
+         "Duration": 170
+        },
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@FR2}}",
+         "Duration": 170
+        },
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@FR3}}",
+         "Duration": 170
+        },
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@FR4}}",
+         "Duration": 170
+        },
+        {
+         "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@FR5}}",
+         "Duration": 170
+        }
+       ]
+      },
+      {
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 0,
+       "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@BASE}}"
+      },
+      {
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 0,
+       "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@FR5}}"
+      },
+      {
+       "TargetContexts": [ "Dialogue" ],
+       "LayerDepth": 0,
+       "Texture": "TalkingHeads/{{ModId}}/{{ANGLE@BLINKOPEN}}"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

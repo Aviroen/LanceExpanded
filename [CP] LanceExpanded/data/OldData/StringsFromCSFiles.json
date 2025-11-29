@@ -1,0 +1,69 @@
+{
+    "Changes": [
+        //Always active when married
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "When": {
+                "Relationship:Lance": "Married",
+                "Override Generic Dialogue": "true"
+            },
+            "Entries": {
+                "Event.cs.1691": "{{i18n:Welwick.Base}}",
+                "Event.cs.1695": "{{i18n:Welwick.Money}}",
+                "Event.cs.1831": "{{i18n:Welwick.Prediction.1}}",
+                "Event.cs.1832": "{{i18n:Welwick.Prediction.1}}",
+                "Event.cs.1852": "{{i18n:Welwick.Prediction.2}}",
+                "Event.cs.1827": "{{i18n:Welwick.Prediction.3}}",
+                "Event.cs.1829": "{{i18n:Welwick.Prediction.4}}",
+                "Event.cs.1694": "{{i18n:Welwick.End}}"
+            }
+        },
+        //Welwick predictions fourth year and beyond
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "When": {
+                "Relationship:Lance": "Married",
+                "Override Generic Dialogue": "true",
+                "Query: '{{TheMightyAmondee.CustomTokens/YearsMarried}}' >= 2": true
+            },
+            "Entries": {
+                "Event.cs.1831": "{{i18n:Welwick.Prediction.5}}",
+                "Event.cs.1832": "{{i18n:Welwick.Prediction.6}}",
+                "Event.cs.1827": "{{i18n:Welwick.Prediction.7}}",
+                "Event.cs.1829": "{{i18n:Welwick.Prediction.8}}"
+            }
+        },
+        // S T R I N G S   F R O M   M A P S
+        //Jello: I've fixed this with the correct strings locations from SVE. I let a few out because it doesn't really make sense to label an owl statue like this lol.
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "LanceSpouseRoom.1": "{{i18n:SpouseRoom.1}}",
+                "LanceSpouseRoom.2": "{{i18n:SpouseRoom.2}}",
+                "LanceSpouseRoom.3": "{{i18n:SpouseRoom.3}}",
+                "LanceSpouseRoom.4": "{{i18n:SpouseRoom.4}}",
+                "LanceSpouseRoom.5": "{{i18n:SpouseRoom.5}}",
+                "LanceSpouseRoom.6": "{{i18n:SpouseRoom.6}}",
+                "LanceSpouseRoom.7": "{{i18n:SpouseRoom.7}}",
+                "LanceSpouseRoom.8": "{{i18n:SpouseRoom.8}}",
+                "LanceSpouseRoom.9": "{{i18n:SpouseRoom.9}}",
+                "Qiroom.1": "{{i18n:Qiroom.1}}"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5367": "{{i18n:Wedding.MCall.01}}", //male farmer
+                "Utility.cs.5369": "{{i18n:Wedding.FCall.01}}", //female farmer
+                "Utility.cs.5371": "{{i18n:Wedding.MCall.02}}", //male farmer
+                "Utility.cs.5377": "{{i18n:Wedding.FCall.02}}" //female farmer
+            },
+            "When": { "Relationship:Lance": "Engaged" }
+        }
+    ]
+}

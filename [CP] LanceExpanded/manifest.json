@@ -1,37 +1,38 @@
 {
-  "Name": "Lance Expanded",
-  "Author": "Aviroen",
-  "Version": "1.8.1",
-  "Description": "RRRR inspired for expanded romance for Lance.",
-  "UniqueID": "Aviroen.LanceExpanded",
-  "UpdateKeys": [ "Nexus:25265" ],
-  "Dependencies": [
-    {
-      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "spacechase0.SpaceCore",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "TheMightyAmondee.CustomTokens",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "Poltergeister.SeasonalOutfitsSVE",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "Spiderbuttons.BETAS",
-      "IsRequired": true
-    }
-  ],
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
+ "$schema": "https://smapi.io/schemas/manifest.json",
+ "Name": "Lance Expanded",
+ "Author": "Aviroen",
+ "Version": "2.0.0",
+ "Description": "Standalone / SVE compatible Lance. Extended dialogue, events, immersive dialogue, and more!",
+ "UniqueID": "Aviroen.LanceExpanded",
+ "UpdateKeys": [ "Nexus:25265" ],
+ "Dependencies": [
+  {
+   "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+   "IsRequired": false
+  },
+  {
+   "UniqueID": "spacechase0.SpaceCore",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "Poltergeister.SeasonalOutfitsSVE",
+   "IsRequired": false
+  },
+  {
+   "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+   "IsRequired": false
+  },
+  {
+   "UniqueID": "Spiderbuttons.BETAS",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "irocendar.TalkingHeads",
+   "IsRequired": true
   }
+ ],
+ "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher"
+ }
 }

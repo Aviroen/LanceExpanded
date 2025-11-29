@@ -1,0 +1,255 @@
+{
+ "Changes": [
+  {
+   "LogName": "Base Loads",
+   "Action": "Load",
+   "Priority": "High",
+   "Target": "Portraits/{{Lance}}, Characters/{{Lance}}", //Portraits/{{Lance}}, Portraits/{{Lance}}_Spring, Portraits/{{Lance}}_Summer, Portraits/{{Lance}}_Fall, Portraits/{{Lance}}_Winter, Portraits/{{Lance}}_Winter_Outdoor, Portraits/{{Lance}}_Winter_Indoor, Portraits/{{Lance}}_Flower, Portraits/{{Lance}}_Spirit, Portraits/{{Lance}}_Beach, Portraits/{{Lance}}_Wedding, Portraits/{{Lance}}_Xmas, Characters/{{Lance}}, Characters/{{Lance}}_Spring, Characters/{{Lance}}_Summer, Characters/{{Lance}}_Fall, Characters/{{Lance}}_Winter, Characters/{{Lance}}_Winter_Outdoor, Characters/{{Lance}}_Winter_Indoor, Characters/{{Lance}}_Luau, Characters/{{Lance}}_Flower, Characters/{{Lance}}_Spirit, Characters/{{Lance}}_Beach, Characters/{{Lance}}_Xmas
+   "FromFile": "assets/{{TargetPathOnly}}/Lance/{{Portrait}}/{{TargetWithoutPath}}.png"
+  },
+  //data/char
+  {
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "{{Lance}}": {
+     "DisplayName": "{{i18n:Lance}}",
+     "BirthSeason": "Spring",
+     "BirthDay": 8,
+     "HomeRegion": "Town",
+     "Language": "Default",
+     "Gender": "Undefined",
+     "Age": "Adult",
+     "Manner": "Polite",
+     "SocialAnxiety": "Outgoing",
+     "Optimism": "Positive",
+     "IsDarkSkinned": true,
+     "CanBeRomanced": false, //check events later
+     "LoveInterest": null,
+     "Calendar": "HiddenUntilMet",
+     "SocialTab": "HiddenUntilMet",
+     "CanSocialize": true,
+     "CanReceiveGifts": true,
+     "CanGreetNearbyCharacters": true,
+     "CanCommentOnPurchasedShopItems": null,
+     "CanVisitIsland": true,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": null,
+     "PerfectionScore": false,
+     "EndSlideShow": "TrailingGroup",
+     "SpouseAdopts": "PLAYER_HAS_MAIL Current {{ModId}}_Adoption Any",
+     "SpouseWantsChildren": "PLAYER_HAS_MAIL Current {{ModId}}_Children Any",
+     "SpouseGiftJealousy": false,
+     "SpouseGiftJealousyFriendshipChange": -30,
+     "SpouseRoom": {
+      "MapAsset": "Maps/{{ModId}}_SpouseRoom",
+      "MapSourceRect": {
+       "X": 0,
+       "Y": 0,
+       "Width": 6,
+       "Height": 9
+      }
+     },
+     "SpousePatio": {
+      "MapAsset": "Maps/{{ModId}}_SpousePatio",
+      "MapSourceRect": {
+       "X": 0,
+       "Y": 0,
+       "Width": 4,
+       "Height": 4
+      },
+      "SpriteAnimationFrames": [
+       [ 0, 0 ]
+      ],
+      "SpriteAnimationPixelOffset": {
+       "X": 0,
+       "Y": 0
+      }
+     },
+     "SpouseFloors": [],
+     "SpouseWallpapers": [],
+     "DumpsterDiveFriendshipEffect": -5,
+     "DumpsterDiveEmote": null,
+     "FriendsAndFamily": {
+     },
+     "FlowerDanceCanDance": true,
+     "WinterStarGifts": [
+      /*
+      {
+       "Id": "",
+       "ItemId": "(O)"
+      }
+ */
+     ],
+     "WinterStarParticipant": true,
+     "UnlockConditions": "", //{{UnlockConditions}}
+     "SpawnIfMissing": true,
+     "Home": [ //possibly with marlon and gil/maybe with magnus
+      {
+       "Id": "Default",
+       "Condition": null,
+       "Location": "Town",
+       "Tile": {
+        "X": "32",
+        "Y": "61"
+       },
+       "Direction": "2"
+      }
+     ],
+     "TextureName": "{{Lance}}",
+     "Appearance": [
+      //Regular Outfits
+      {
+       "Id": "{{ModId}}_Spring",
+       "Condition": "SEASON Spring",
+       "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance.png}}",
+       "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance.png}}",
+       "Precedence": -120
+      },
+      {
+       "Id": "{{ModId}}_Spring2",
+       "Condition": "SEASON Spring",
+       "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Portrait}}/Lance_Flower.png}}",
+       "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Portrait}}/Lance_Flower.png}}",
+       "Precedence": -120
+      }
+/*
+      {
+       "Id": "{{ModId}}_Summer",
+       "Condition": "SEASON Summer",
+       "Portrait": "Portraits/{{Lance}}_Summer",
+       "Sprite": "Characters/{{Lance}}_Summer",
+       "Precedence": -120
+      },
+      {
+       "Id": "{{ModId}}_Fall",
+       "Condition": "SEASON Fall",
+       "Portrait": "Portraits/{{Lance}}_Fall",
+       "Sprite": "Characters/{{Lance}}_Fall",
+       "Precedence": -120
+      },
+      {
+       "Id": "{{ModId}}_WinterIndoor",
+       "Condition": "SEASON Winter",
+       "Portrait": "Portraits/{{Lance}}_Winter_Indoor",
+       "Sprite": "Characters/{{Lance}}_Winter_Indoor",
+       "Outdoors": false,
+       "Indoors": true,
+       "Precedence": -120
+      },
+
+      {
+       "Id": "{{ModId}}_WinterOutdoor",
+       "Condition": "SEASON Winter",
+       "Portrait": "Portraits/{{Lance}}_Winter_Outdoor",
+       "Sprite": "Characters/{{Lance}}_Winter_Outdoor",
+       "Outdoors": true,
+       "Indoors": false,
+       "Precedence": -120
+      },
+      //festivals
+      {
+       "Id": "{{ModId}}_Spirit",
+       "Condition": "IS_EVENT festival_fall27",
+       "Portrait": "Portraits/{{Lance}}_Spirit",
+       "Sprite": "Characters/{{Lance}}_Spirit",
+       "Precedence": -1000
+      },
+      {
+       "Id": "{{ModId}}_Flower",
+       "Condition": "IS_EVENT festival_spring24",
+       "Portrait": "Portraits/{{Lance}}_Flower",
+       "Sprite": "Characters/{{Lance}}_Flower",
+       "Precedence": -1000
+      },
+      {
+       "Id": "{{ModId}}_Luau",
+       "Condition": "IS_EVENT festival_summer11",
+       "Portrait": "Portraits/{{Lance}}_Luau",
+       "Sprite": "Characters/{{Lance}}_Luau",
+       "Precedence": -1000
+      },
+      {
+       "Id": "{{ModId}}_Xmas",
+       "Condition": "IS_EVENT festival_winter25",
+       "Portrait": "Portraits/{{Lance}}_Xmas",
+       "Sprite": "Characters/{{Lance}}_Xmas",
+       "Precedence": -1000
+      },
+      {
+       "Id": "{{ModId}}_Wedding",
+       "Condition": "IS_EVENT wedding",
+       "Portrait": "Portraits/{{Lance}}_Wedding",
+       "Sprite": "Characters/{{Lance}}_Wedding",
+       "Precedence": -1000
+      },
+      {
+       "Id": "{{ModId}}_Beach",
+       "Portrait": "Portraits/{{Lance}}_Beach",
+       "Sprite": "Characters/{{Lance}}_Beach",
+       "IsIslandAttire": true,
+       "Precedence": -10000
+      }
+ */
+     ],
+     "MugShotSourceRect": {},
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "BreathChestRect": null,
+     "BreathChestPosition": null,
+     "Shadow": null,
+     "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+     },
+     "ShakePortraits": [ 15 ],
+     "KissSpriteIndex": 28,
+     "KissSpriteFacingRight": false,
+     "HiddenProfileEmoteSound": "newRecipe",
+     "HiddenProfileEmoteDuration": 4000,
+     "HiddenProfileEmoteStartFrame": 32,
+     "HiddenProfileEmoteFrameCount": 2,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+     "FormerCharacterNames": [],
+     "CustomFields": {
+     }
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "Entries": {
+    "{{Lance}}": "{{i18n:Gifts.Loved}}/74/{{i18n:Gifts.Liked}}/74/{{i18n:Gifts.Disliked}}/74/{{i18n:Gifts.Hated}}/74/{{i18n:Gifts.Neutral}}/74 446 797 373 279 -2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459 873 394 166/"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "When": {
+    "Relationship:{{Lance}}": "Married"
+   },
+   "TextOperations": [
+    {
+     "Operation": "Append",
+     "Target": [ "Fields", "{{Lance}}", "1" ],
+     "Value": "218 {{ModId}}_Khanjar {{ModId}}_Book {{ModId}}_camping {{ModId}}_mishaps {{ModId}}_Rope {{ModId}}_shenanigans {{ModId}}_Razor 96 97 98 99 103 104 107 109 114 121 122 124 125 16 18 20 22 24 78 88 90 92 174 176 178 180 182 184 186 188 190 182 245 246 247 248 250 251 252 254 256 257 258 259 260 262 264 266 268 270 271 272 274 276 278 280 281 282 283 284 290 296 300 303 304 305 306 307 308 334 335 336 337 338 340 342 346 348 350 368 369 370 371 372 373 376 396 397 398 399 400 402 404 406 408 410 412 414 416 417 423 Aviroen.Mycology_TomYueaPhai {{SVEToken}}_Void_Soul {{SVEToken}}_Swirl_Stone {{SVEToken}}_Dewdrop_Berry {{SVEToken}}_Frog {{SVEToken}}_Kittyfish {{SVEToken}}_Blue_Moon_Wine {{SVEToken}}_Age_Blue_Moon_Wine {{SVEToken}}_Void_Shard {{SVEToken}}_Baby_Lunaloo {{SVEToken}}_Undeadfish {{SVEToken}}_Gemfish {{SVEToken}}_Goldenfish {{SVEToken}}_Monster_Fruit {{SVEToken}}_Void_Eel {{SVEToken}}_Torpedo_Trout {{SVEToken}}_Lunaloo {{SVEToken}}_Shiny_Lunaloo {{SVEToken}}_Radioactive_Bass {{SVEToken}}_Slime_Berry {{SVEToken}}_Void_Root {{SVEToken}}_Monster_Mushroom {{SVEToken}}_Frog_Legs {{SVEToken}}_Void_Delight {{SVEToken}}_Void_Salmon_Sushi {{SVEToken}}_Grampleton_Orange_Chicken {{SVEToken}}_Baked_Berry_Oatmeal {{SVEToken}}_Big_Bark_Burger {{SVEToken}}_Flower_Cookie {{SVEToken}}_Glazed_Butterfish {{SVEToken}}_Mixed_Berry_Pie {{SVEToken}}_Mushroom_Berry_Rice {{SVEToken}}_Seaweed_Salad",
+     "Delimiter": " "
+    }
+   ]
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/Schedules/{{Lance}}",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false
+   },
+   "Entries": {
+    "spring": "700 Town 32 61 2"
+   }
+  }
+ ]
+}
