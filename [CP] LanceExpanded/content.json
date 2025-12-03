@@ -130,21 +130,7 @@
   },
   {
    "Name": "BETASLoc",
-   "Value": "Spiderbuttons.BETAS_SetNewDialogue {{Lance}} [LocalizedText {{CleanLoc}}:BETAS.{{SVETog}}"
-  },
-  {
-   "Name": "UnlockConditions",
-   "Value": "PLAYER_HAS_SEEN_EVENT Current 6951319",
-   "When": {
-    "HasMod |contains={{SVEToken}}": true
-   }
-  },
-  {
-   "Name": "UnlockConditions",
-   "Value": "PLAYER_HAS_MAIL Current {{ModId}}_Magnus Any",
-   "When": {
-    "HasMod |contains={{SVEToken}}": false
-   }
+   "Value": "Spiderbuttons.BETAS_SetNewDialogue {{Lance}} {{CleanLoc}}BETAS.{{SVETog}}"
   },
   {
    "Name": "Affection",
@@ -177,7 +163,16 @@
   /*
   {
    "Action": "Include",
-   "FromFile": "data/Spiciness/{{Spicier Content}}/HeartEvents.json"
+  "When": {
+    "HasMod |contains={{SVEToken}}": true
+   },
+   "FromFile": "data/SVEData/Spiciness/{{Spicier Content}}/HeartEvents.json"
+  },{
+   "Action": "Include",
+  "When": {
+    "HasMod |contains={{SVEToken}}": true
+   },
+   "FromFile": "data/Standalone/Spiciness/{{Spicier Content}}/HeartEvents.json"
   },
   */
   {
@@ -228,18 +223,18 @@
    "When": {
     "HasMod |contains={{SVEToken}}": false
    },
-   "FromFile": "data/StandaloneEvents.json"
+   "FromFile": "data/Standalone/StandaloneEvents.json"
   },
   {
    "Action": "Include",
    "When": {
     "HasMod |contains={{SVEToken}}": true
    },
-   "FromFile": "data/SVEEvents.json"
+   "FromFile": "data/SVEData/SVEEvents.json, data/SVEData/SVETA.json, data/SVEData/DateTesting.json, data/SVEData/Schedule.json, data/SVEData/Weddings.json"
   },
   {
    "Action": "Include",
-   "FromFile": "data/Char.json, data/Dialogue.json, data/Spiderbuttons.json"
+   "FromFile": "data/Char.json, data/Dialogue.json, data/Items.json, data/Spiderbuttons.json, data/TriggerActions.json"
   },
   {
    "Action": "Include",
@@ -251,7 +246,7 @@
   {
    "Action": "Include",
    "When": {
-    "Portraits": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu)"
+    "Appearance": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu)"
    },
    "FromFile": "data/Outfits.json"
   }

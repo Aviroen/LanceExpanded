@@ -5,7 +5,7 @@
    "Action": "Load",
    "Priority": "High",
    "Target": "Portraits/{{Lance}}, Characters/{{Lance}}", //Portraits/{{Lance}}, Portraits/{{Lance}}_Spring, Portraits/{{Lance}}_Summer, Portraits/{{Lance}}_Fall, Portraits/{{Lance}}_Winter, Portraits/{{Lance}}_Winter_Outdoor, Portraits/{{Lance}}_Winter_Indoor, Portraits/{{Lance}}_Flower, Portraits/{{Lance}}_Spirit, Portraits/{{Lance}}_Beach, Portraits/{{Lance}}_Wedding, Portraits/{{Lance}}_Xmas, Characters/{{Lance}}, Characters/{{Lance}}_Spring, Characters/{{Lance}}_Summer, Characters/{{Lance}}_Fall, Characters/{{Lance}}_Winter, Characters/{{Lance}}_Winter_Outdoor, Characters/{{Lance}}_Winter_Indoor, Characters/{{Lance}}_Luau, Characters/{{Lance}}_Flower, Characters/{{Lance}}_Spirit, Characters/{{Lance}}_Beach, Characters/{{Lance}}_Xmas
-   "FromFile": "assets/{{TargetPathOnly}}/Lance/{{Portrait}}/{{TargetWithoutPath}}.png"
+   "FromFile": "assets/{{TargetPathOnly}}/Lance/{{Appearance}}/Lance.png"
   },
   //data/char
   {
@@ -86,14 +86,24 @@
      "SpawnIfMissing": true,
      "Home": [ //possibly with marlon and gil/maybe with magnus
       {
-       "Id": "Default",
-       "Condition": null,
+       "Id": "{{ModId}}",
+       "Condition": "!{{HasMod|contains={{SVETOKEN}}}}",
        "Location": "Town",
        "Tile": {
         "X": "32",
         "Y": "61"
        },
        "Direction": "2"
+      },
+      {
+       "Id": "{{SVETOKEN}}",
+       "Condition": "{{HasMod|contains={{SVETOKEN}}}}",
+       "Location": "Custom_Lance_WarpRoom",
+       "Tile": {
+        "X": 3,
+        "Y": 3
+       },
+       "Direction": "down"
       }
      ],
      "TextureName": "{{Lance}}",
@@ -142,7 +152,7 @@
     {
      "Operation": "Append",
      "Target": [ "Fields", "{{Lance}}", "1" ],
-     "Value": "218 {{ModId}}_Khanjar {{ModId}}_Book {{ModId}}_camping {{ModId}}_mishaps {{ModId}}_Rope {{ModId}}_shenanigans {{ModId}}_Razor 96 97 98 99 103 104 107 109 114 121 122 124 125 16 18 20 22 24 78 88 90 92 174 176 178 180 182 184 186 188 190 182 245 246 247 248 250 251 252 254 256 257 258 259 260 262 264 266 268 270 271 272 274 276 278 280 281 282 283 284 290 296 300 303 304 305 306 307 308 334 335 336 337 338 340 342 346 348 350 368 369 370 371 372 373 376 396 397 398 399 400 402 404 406 408 410 412 414 416 417 423 Aviroen.Mycology_TomYueaPhai {{SVEToken}}_Void_Soul {{SVEToken}}_Swirl_Stone {{SVEToken}}_Dewdrop_Berry {{SVEToken}}_Frog {{SVEToken}}_Kittyfish {{SVEToken}}_Blue_Moon_Wine {{SVEToken}}_Age_Blue_Moon_Wine {{SVEToken}}_Void_Shard {{SVEToken}}_Baby_Lunaloo {{SVEToken}}_Undeadfish {{SVEToken}}_Gemfish {{SVEToken}}_Goldenfish {{SVEToken}}_Monster_Fruit {{SVEToken}}_Void_Eel {{SVEToken}}_Torpedo_Trout {{SVEToken}}_Lunaloo {{SVEToken}}_Shiny_Lunaloo {{SVEToken}}_Radioactive_Bass {{SVEToken}}_Slime_Berry {{SVEToken}}_Void_Root {{SVEToken}}_Monster_Mushroom {{SVEToken}}_Frog_Legs {{SVEToken}}_Void_Delight {{SVEToken}}_Void_Salmon_Sushi {{SVEToken}}_Grampleton_Orange_Chicken {{SVEToken}}_Baked_Berry_Oatmeal {{SVEToken}}_Big_Bark_Burger {{SVEToken}}_Flower_Cookie {{SVEToken}}_Glazed_Butterfish {{SVEToken}}_Mixed_Berry_Pie {{SVEToken}}_Mushroom_Berry_Rice {{SVEToken}}_Seaweed_Salad",
+     "Value": "{{ModId}}_Khanjar {{ModId}}_Book {{ModId}}_camping {{ModId}}_mishaps {{ModId}}_Rope {{ModId}}_shenanigans {{ModId}}_Razor 96 97 98 99 103 104 107 109 114 121 122 124 125 16 18 20 22 24 78 88 90 92 174 176 178 180 182 184 186 188 190 182 218 245 246 247 248 250 251 252 254 256 257 258 259 260 262 264 266 268 270 271 272 274 276 278 280 281 282 283 284 290 296 300 303 304 305 306 307 308 334 335 336 337 338 340 342 346 348 350 368 369 370 371 372 373 376 396 397 398 399 400 402 404 406 408 410 412 414 416 417 423 Aviroen.Mycology_TomYueaPhai {{SVEToken}}_Void_Soul {{SVEToken}}_Swirl_Stone {{SVEToken}}_Dewdrop_Berry {{SVEToken}}_Frog {{SVEToken}}_Kittyfish {{SVEToken}}_Blue_Moon_Wine {{SVEToken}}_Age_Blue_Moon_Wine {{SVEToken}}_Void_Shard {{SVEToken}}_Baby_Lunaloo {{SVEToken}}_Undeadfish {{SVEToken}}_Gemfish {{SVEToken}}_Goldenfish {{SVEToken}}_Monster_Fruit {{SVEToken}}_Void_Eel {{SVEToken}}_Torpedo_Trout {{SVEToken}}_Lunaloo {{SVEToken}}_Shiny_Lunaloo {{SVEToken}}_Radioactive_Bass {{SVEToken}}_Slime_Berry {{SVEToken}}_Void_Root {{SVEToken}}_Monster_Mushroom {{SVEToken}}_Frog_Legs {{SVEToken}}_Void_Delight {{SVEToken}}_Void_Salmon_Sushi {{SVEToken}}_Grampleton_Orange_Chicken {{SVEToken}}_Baked_Berry_Oatmeal {{SVEToken}}_Big_Bark_Burger {{SVEToken}}_Flower_Cookie {{SVEToken}}_Glazed_Butterfish {{SVEToken}}_Mixed_Berry_Pie {{SVEToken}}_Mushroom_Berry_Rice {{SVEToken}}_Seaweed_Salad",
      "Delimiter": " "
     }
    ]
