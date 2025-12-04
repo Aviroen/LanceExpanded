@@ -88,10 +88,10 @@
       {
        "Id": "{{ModId}}",
        "Condition": "!{{HasMod|contains={{SVETOKEN}}}}",
-       "Location": "Town",
+       "Location": "{{Room}}",
        "Tile": {
-        "X": "32",
-        "Y": "61"
+        "X": "12",
+        "Y": "5"
        },
        "Direction": "2"
       },
@@ -123,7 +123,7 @@
      },
      "ShakePortraits": [ 15 ],
      "KissSpriteIndex": 28,
-     "KissSpriteFacingRight": false,
+     "KissSpriteFacingRight": true,
      "HiddenProfileEmoteSound": "newRecipe",
      "HiddenProfileEmoteDuration": 4000,
      "HiddenProfileEmoteStartFrame": 32,
@@ -139,7 +139,20 @@
    "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "Entries": {
-    "{{Lance}}": "{{i18n:Gifts.Loved}}/74/{{i18n:Gifts.Liked}}/74/{{i18n:Gifts.Disliked}}/74/{{i18n:Gifts.Hated}}/74/{{i18n:Gifts.Neutral}}/74 446 797 373 279 -2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459 873 394 166/"
+    "{{Lance}}": "{{i18n:Gifts.Loved}}/218 BasiliskPaw IceRod MagicQuiver 907 896 {{SVEToken}}_Golden_Goose_Egg {{SVEToken}}_Prismatic_Pop {{SVEToken}}_Pineapple_Custard_Crepe {{SVEToken}}_Void_Shard {{SVEToken}}_Torpedo_Trout {{SVEToken}}_Swirl_Stone {{SVEToken}}_Ornate_Treasure_Chest {{SVEToken}}_Monster_Mushroom {{SVEToken}}_Green_Mushroom {{SVEToken}}_Gemfish {{SVEToken}}_Daggerfish {{SVEToken}}_Aged_Blue_Moon_Wine/{{i18n:Gifts.Liked}}/257 {{SVEToken}}_Chocolate_Truffle_Bar {{SVEToken}}_Gold_Carrot 281 422 886 905 74 797 261 688 689 690 446 96 97 98 99 121 122 158 159 161 160 162 163 166 305 306 704 909 857 {{SVEToken}}_Void_Soul {{SVEToken}}_Void_Salmon_Sushi {{SVEToken}}_Void_Root {{SVEToken}}_Void_Pebble {{SVEToken}}_Void_Delight {{SVEToken}}_Undeadfish {{SVEToken}}_Smelly_Rafflesia {{SVEToken}}_Slime_Berry {{SVEToken}}_Shiny_Lunaloo {{SVEToken}}_Salal_Berry {{SVEToken}}_Rusty_Blade {{SVEToken}}_Razor_Trout {{SVEToken}}_Radioactive_Bass {{SVEToken}}_Puppyfish {{SVEToken}}_Mushroom_Berry_Rice {{SVEToken}}_Monster_Fruit {{SVEToken}}_Meteor_Carp {{SVEToken}}_Lunaloo {{SVEToken}}_Lightning_Elixir {{SVEToken}}_Kittyfish {{SVEToken}}_King_Salmon {{SVEToken}}_Hero_Elixir {{SVEToken}}_Haste_Elixir {{SVEToken}}_Gravity_Elixir {{SVEToken}}_Goldenfish {{SVEToken}}_Golden_Ocean_Flower {{SVEToken}}_Butterfish {{SVEToken}}_Bonefish {{SVEToken}}_Bearberrys {{SVEToken}}_Barbarian_Elixir {{SVEToken}}_Armor_Elixir {{SVEToken}}_Aegis_Elixir/{{i18n:Gifts.Disliked}}/-80 -74 338 80 82/{{i18n:Gifts.Hated}}/-81 330 283 206 211 216 233 234 245 220 221 222 223 224 279 612 611 608 604/{{i18n:Gifts.Neutral}}/-4 -28 286 287 288 829 396 393 397 392 394 {{SVEToken}}_Stamina_Capsule {{SVEToken}}_Sports_Drink {{SVEToken}}_Baby_Lunaloo 404 {{SVEToken}}_Mushroom_Colony 420/"
+   }
+  },
+  {
+   "LogName": "NPC animationDescriptions edit",
+   "Action": "EditData",
+   "Target": "Data/animationDescriptions",
+   "Entries": {
+    "{{Lance}}_stand": "0/0/0",
+    "{{Lowercase:{{Lance}}_sleep}}": "16/16/16",
+    "{{Lance}}_Sword": "17/17 17 17 17 17 17 18 18 18 18 18 18 18 18 17 17 17 17 17 17 18 18 18 18 18 18 17 17 17 17 17 18 18 18/18",
+    "{{Lance}}_NoddingKneel": "21/21 21 21 22 22 22 21 21 21 23 23 23 21 21 21 22 22 22 21 21 21 23 23 23 21 21 21/21",
+    "{{Lance}}_NoddingStand": "41/41 41 41 42 42 42 41 41 41 43 43 43 41 41 41 42 42 42 41 41 41 43 43 43 41 41 41/41",
+    "{{Lance}}_LeftWag": "12/12 12 12 31 31 31 12 12 12 31 31 31 12 12 12 31 31 31 12 12 12 31 31 31 12 12 12/12"
    }
   },
   {
@@ -164,8 +177,42 @@
     "HasMod |contains={{SVEToken}}": false
    },
    "Entries": {
-    "spring": "700 Town 32 61 2"
+    "spring": "610 {{Room}} 10 10 0",
+    "{{Lance}}_Mon": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Tue": "610 {{Room}} 10 10 0/1200 Forest 88 50 1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Wed": "610 {{Room}} 10 10 0/1200 Forest 100 73 1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Thu": "610 {{Room}} 10 10 0/1200 Forest 48 99 2 {{Lance}}_NoddingStand/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Fri": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingKneel/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Sat": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Sun": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep"
    }
+  },
+  {
+   "LogName": "Lance's Room Data/Location",
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "Entries": {
+    "{{Room}}": {
+     "DisplayName": "{{i18n:Room}}",
+     "DefaultArrivalTile": {
+      "X": 9,
+      "Y": 14
+     },
+     "CreateOnLoad": {
+      "MapPath": "Maps\\{{Room}}",
+      "AlwaysActive": false
+     },
+     "MusicDefault": "Plums"
+    }
+   }
+  },
+  {
+   "LogName": "{{Room}} EditMap",
+   "Action": "EditMap",
+   "Target": "Maps/{{Room}}",
+   "AddWarps": [
+    "9 19 Forest 10 35"
+   ]
   }
  ]
 }

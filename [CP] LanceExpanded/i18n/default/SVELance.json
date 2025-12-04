@@ -1,4 +1,40 @@
-{ //SVE BS
+{ //wizard
+ "BETAS.Wiz.SVE.Mon_0": "",
+ "BETAS.Wiz.SVE.Mon_1": "",
+ "BETAS.Wiz.SVE.Mon_2": "",
+ "BETAS.Wiz.SVE.Mon_3": "",
+
+ "BETAS.Wiz.SVE.Tue_0": "",
+ "BETAS.Wiz.SVE.Tue_1": "",
+ "BETAS.Wiz.SVE.Tue_2": "",
+ "BETAS.Wiz.SVE.Tue_3": "",
+
+ "BETAS.Wiz.SVE.Wed_0": "",
+ "BETAS.Wiz.SVE.Wed_1": "",
+ "BETAS.Wiz.SVE.Wed_2": "",
+ "BETAS.Wiz.SVE.Wed_3": "",
+
+ "BETAS.Wiz.SVE.Thu_0": "",
+ "BETAS.Wiz.SVE.Thu_1": "",
+ "BETAS.Wiz.SVE.Thu_2": "",
+ "BETAS.Wiz.SVE.Thu_3": "",
+
+ "BETAS.Wiz.SVE.Fri_0": "",
+ "BETAS.Wiz.SVE.Fri_1": "",
+ "BETAS.Wiz.SVE.Fri_2": "",
+ "BETAS.Wiz.SVE.Fri_3": "",
+
+ "BETAS.Wiz.SVE.Sat_0": "",
+ "BETAS.Wiz.SVE.Sat_1": "",
+ "BETAS.Wiz.SVE.Sat_2": "",
+ "BETAS.Wiz.SVE.Sat_3": "",
+
+ "BETAS.Wiz.SVE.Sun_0": "",
+ "BETAS.Wiz.SVE.Sun_1": "",
+ "BETAS.Wiz.SVE.Sun_2": "",
+ "BETAS.Wiz.SVE.Sun_3": "",
+ 
+ //SVE BS
  "SVE.Mon_0": "I do miss the sun of Ginger Island, the land screams here...",
  "SVE.Mon_1": "Camilla requested my aid on Mondays, something about wanting to bother Mag.",
  "SVE.Mon_2": "The afteraffects of the Elemental Wars still bleeds here, it's a shame, really.",

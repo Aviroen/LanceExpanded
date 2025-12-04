@@ -1,0 +1,40 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "rokugin.EMA/Messages",
+   "Entries": {
+    "{{ModId}}_Room": {
+     "Messages": [
+      "{{i18n: Room.0}}",
+      "{{i18n: Room.1}}",
+      "{{i18n: Room.2}}",
+      "{{i18n: Room.3}}",
+      "{{i18n: Room.4}}",
+      "{{i18n: Room.5}}",
+      "{{i18n: Room.6}}",
+      "{{i18n: Room.7}}",
+      "{{i18n: Room.8}}",
+      "{{i18n: Room.9}}",
+      "{{i18n: Room.10}}"
+     ]
+    },
+    "{{ModId}}_Books": {
+     "Messages": [
+      "{{i18n: Books.0}}",
+      "{{i18n: Books.1}}",
+      "{{i18n: Books.2}}",
+      "{{i18n: Books.3}}",
+      "{{i18n: Books.4}}",
+      "{{i18n: Books.5}}",
+      "{{i18n: Books.6}}",
+      "{{i18n: Books.7}}",
+      "{{i18n: Books.8}}",
+      "{{i18n: Books.9}}",
+      "{{i18n: Books.10}}"
+     ]
+    }
+   }
+  }
+ ]
+}

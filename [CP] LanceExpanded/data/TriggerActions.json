@@ -1,5 +1,10 @@
 {
  "Changes": [
-
+  {
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+   }
+  }
  ]
 }

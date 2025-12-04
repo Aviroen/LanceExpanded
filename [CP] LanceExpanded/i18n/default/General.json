@@ -990,5 +990,29 @@
  "BETAS.Marry.funReturn_Sun_0": "",
  "BETAS.Marry.funReturn_Sun_1": "",
  "BETAS.Marry.funReturn_Sun_2": "",
- "BETAS.Marry.funReturn_Sun_3": ""
+ "BETAS.Marry.funReturn_Sun_3": "",
+
+ "Room.0": "Smells like kimchi.",
+ "Room.1": "Smells like ginger.",
+ "Room.2": "Smells like strong oyster sauce.",
+ "Room.3": "Smells like shrimp paste.",
+ "Room.4": "Smells like freshly cooked rice.",
+ "Room.5": "Smells like crispy shrimp.",
+ "Room.6": "Smells like hot peppers.",
+ "Room.7": "Smells like teen spirit.",
+ "Room.8": "Smells like lemongrass.",
+ "Room.9": "Smells like limes.",
+ "Room.10": "Smells like fish sauce.",
+
+ "Books.0": "An interesting array of books talking about Voidketh.#What is a Voidketh?",
+ "Books.1": "'How to manage your emotions.'#A self help book.",
+ "Books.2": "A note was stashed in this book.#😐︎♋︎❒︎♓︎♏︎■︎ ♒︎♋︎⬧︎ ♐︎●︎♏︎♎︎📬︎ 💧︎♒︎♏︎ ♒︎♋︎⬧︎ ⧫︎♋︎🙵♏︎■︎ ⧫︎♒︎♏︎ ♍︎♒︎♓︎●︎♎︎ ⬥︎♓︎⧫︎♒︎ ♒︎♏︎❒︎📬︎ ❄︎♒︎♏︎ ❒︎□︎⍓︎♋︎●︎ ♐︎♋︎❍︎♓︎●︎⍓︎ ◆︎❒︎♑︎♏︎⬧︎ ♋︎●︎●︎ ♋︎❖︎♋︎♓︎●︎♋︎♌︎●︎♏︎ 🙵■︎♓︎♑︎♒︎⧫︎⬧︎ ⧫︎□︎ ⬧︎♏︎♋︎❒︎♍︎♒︎ ♐︎□︎❒︎ ♒︎♓︎❍︎📬︎#Seems unreadable.",
+ "Books.3": "'Whilst this newfound portal is interesting to research, it seems that it is linked to a far away land.'#'I haven't been able to stabilize the portal but all of the senses can be felt.'#'The Ministry is sending my son back to the valley...'#'...Begrudgingly, I have yet to find a place to house him.'#'Maybe something can be arranged with a connective warp.'#Seems like these are missives from the wizard.",
+ "Books.4": "'Mag requested me back to the valley for this new portal research.'#'With both of our magicks, we could possibly stabilize it at a faster rate than him throwing random sigils at it.'#'It's still quite funny to watch the old man grumble and groan whenever I use a new sigil.'#Seems like this is a part of Lance's diary.",
+ "Books.5": "",
+ "Books.6": "",
+ "Books.7": "",
+ "Books.8": "",
+ "Books.9": "",
+ "Books.10": ""
 }

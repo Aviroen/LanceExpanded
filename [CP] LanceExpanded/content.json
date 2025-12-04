@@ -133,6 +133,10 @@
    "Value": "Spiderbuttons.BETAS_SetNewDialogue {{Lance}} {{CleanLoc}}BETAS.{{SVETog}}"
   },
   {
+   "Name": "WizLoc",
+   "Value": "Spiderbuttons.BETAS_SetNewDialogue Wizard {{CleanLoc}}BETAS.Wiz.{{SVETog}}"
+  },
+  {
    "Name": "Affection",
    "Value": "Good",
    "When": {
@@ -156,42 +160,25 @@
     "Hearts:{{Lance}}": "12",
     "Query: {{Random: {{Range:0,5}} }} < 4": true
    }
+  },
+  {
+   "Name": "Room",
+   "Value": "{{ModId}}_Room"
   }
  ],
  ////////////////////////////////////////////////////////// START OF CHANGES
  "Changes": [
-  /*
-  {
-   "Action": "Include",
-  "When": {
-    "HasMod |contains={{SVEToken}}": true
-   },
-   "FromFile": "data/SVEData/Spiciness/{{Spicier Content}}/HeartEvents.json"
-  },{
-   "Action": "Include",
-  "When": {
-    "HasMod |contains={{SVEToken}}": true
-   },
-   "FromFile": "data/Standalone/Spiciness/{{Spicier Content}}/HeartEvents.json"
-  },
-  */
   {
    "Action": "Load",
    "Priority": "Low",
-   "Target": "Maps/{{ModId}}_Qiroom",
-   "FromFile": "Assets/Maps/Qiroom.tmx"
-  },
-  {
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "data/events/{{ModId}}_Qiroom, Data/Events/Caldera, Data/Events/AdventureGuild",
-   "FromFile": "Blank.json"
+   "Target": "Maps/{{ModId}}_Qiroom, Maps/{{ModId}}_Room",
+   "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
   },
   { //blank loads so that i can target edit
    "LogName": "BlankLoads",
    "Action": "Load",
    "Priority": "Low",
-   "Target": "Characters/Dialogue/{{Lance}}, Characters/Dialogue/MarriageDialogue{{Lance}}, Characters/schedules/{{Lance}}, Strings/Schedules/{{Lance}}",
+   "Target": "Characters/Dialogue/{{Lance}}, Characters/Dialogue/MarriageDialogue{{Lance}}, Characters/schedules/{{Lance}}, Strings/Schedules/{{Lance}}, data/events/{{ModId}}_Qiroom, data/events/{{ModId}}_Room, Data/Events/Caldera, Data/Events/AdventureGuild",
    "FromFile": "Blank.json"
   },
   {
@@ -223,18 +210,18 @@
    "When": {
     "HasMod |contains={{SVEToken}}": false
    },
-   "FromFile": "data/Standalone/StandaloneEvents.json"
+   "FromFile": "data/Standalone/StandaloneEvents.json" //data/Standalone/Spiciness/{{Spicier Content}}/HeartEvents.json
   },
   {
    "Action": "Include",
    "When": {
     "HasMod |contains={{SVEToken}}": true
    },
-   "FromFile": "data/SVEData/SVEEvents.json, data/SVEData/SVETA.json, data/SVEData/DateTesting.json, data/SVEData/Schedule.json, data/SVEData/Weddings.json"
+   "FromFile": "data/SVEData/SVEEvents.json, data/SVEData/SVETA.json, data/SVEData/DateTesting.json, data/SVEData/Schedule.json, data/SVEData/Weddings.json" //data/SVEData/Spiciness/{{Spicier Content}}/HeartEvents.json
   },
   {
    "Action": "Include",
-   "FromFile": "data/Char.json, data/Dialogue.json, data/Items.json, data/Spiderbuttons.json, data/TriggerActions.json"
+   "FromFile": "data/Char.json, data/Dialogue.json, data/Items.json, data/Spiderbuttons.json, data/TriggerActions.json, data/MMAP.json" //
   },
   {
    "Action": "Include",

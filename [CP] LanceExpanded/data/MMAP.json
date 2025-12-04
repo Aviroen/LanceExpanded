@@ -1,0 +1,59 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "mushymato.MMAP/TAS",
+   "Entries": {
+    "{{ModId}}_Crystal": {
+     "Id": "{{ModId}}_Crystal",
+     "Texture": "Maps/{{season}}_outdoorsTileSheet",
+     "SourceRect": {
+      "X": 272,
+      "Y": 1168,
+      "Width": 16,
+      "Height": 32
+     },
+     "Interval": 10000,
+     "Frames": 1,
+     "Loops": 999999,
+     "Scale": 1,
+     "RotationChange": 0,
+     "LayerDepth": 0.09,
+     "SpawnDelay": 0,
+     "LightRadius": 4
+    }
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Forest",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false
+   },
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 11,
+      "Y": 35
+     },
+     "Layer": "Buildings",
+     "SetTilesheet": "outdoors",
+     "SetIndex": "1867",
+     "SetProperties": {
+      "Action": "LockedDoorWarp 9 18 {{ModId}}_Room 900 2600 {{Lance}} 500"
+     }
+    },
+    {
+     "Position": {
+      "X": 11,
+      "Y": 34
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_Crystal"
+     }
+    }
+   ]
+  }
+ ]
+}
