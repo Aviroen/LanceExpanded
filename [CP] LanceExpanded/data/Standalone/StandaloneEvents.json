@@ -1,196 +1,110 @@
 {
  "Changes": [
   {
-   "LogName": "0/1 Heart",
+   "LogName": "Heart Events Wizardhouse",
    "Action": "EditData",
    "Target": "Data/Events/WizardHouse",
    "Entries": {
-    /*
-   0 heart
-   magnus is adoptive dad
-   intro after the green potion
-   still flirty dialogue
-   l-'i plan to help marlon and gil with mines upkeep'
-   l-maybe we'll see each other around
-   leaves behind a schedule
-   */
-    "{{ModId}}_Intro/": "",
-    /*
-   1heart
-   a black thumb
-   magnus chastizes lance about not watering his research plant and it has ended up withered
-   lance disgruntled, kicks around dirt
-   farmer shows up
-   embarassed, lance runs into the wizard's house to hide
-   wizard laughs about how his 'son' has many achievements but only a few flaws
-   f-"are you proud of him?"
-   m-'very, give me some time and i'll invite you in'
-   time passes, farmer checks on the plant themselves
-   it's not really withered, it can be redeemed
-   sneakily cuts the rotten leaves and sprays with fertilizer/water
-   wizard comes back out, sees how it has renewed its magic
-   m-'interesting, interesting! lance! look!'
-   lance begrudgingly comes outside to see that the plant has a renewed vigor
-   m-'from the ashes, like that legendary bird'
-   l--i can't thank you enough for covering for my mistake...-
-   "it's no problem / you didn't really kill it / are you really that bad with plants?"
-   1/ it's amazing, you must have some kind of magic
-   2/ i... didn't? but usually all the plants i cater to end up cindered...
-   3/ every plant i've ever touched if it isn't about cooking has become cinders...
-   -we should take lessons together, i could learn something from someone who doesn't blow hard and gets red in the face-
-   /laughs/
-   */
-    "{{ModId}}_1Heart/": "",
-    /*
-    4 heart
-    m-'ah, you've made it, come, come, these tests shouldn't be painful but i'm not exactly a mundane'
-    "that sounds terrifying"
-    magnus laughs
-    m-surely you'll be fine, what with your vitality and hearty nature
-    l-mag, don't scare /name/ too badly, you wanted to know if they had magic in the first place didn't you
-    m-yes, yes, i'd like to know the effects if it was /name/ or just the lands themselves that gives that farm the vitality that it has
-    farmer ???
-    m-well, it might be normal to you, but the farmland you call home has an abnormally high saturation of magic
-    m-so much so, that if it weren't for your grandfather, i'd have those lands under my study
-    m-but i'm not an old petty man
-    l-whispering/yeah sure you aren't
-    m-boy, you haven't seen petty
-    m-nevertheless, let's get on with these tests, shall we?
-    oh boy potions
-    oh boy tests
-    oh boy pain of scripting this
-    m-hmm, while i can't conduct any conclusive evidence as it is right now, you might have an inkling to it
-    farmer !!!
-    m-but don't put all of your eggs in this basket just yet, we'll know in a few days time
-    m-i'll have lance fetch you again once the ministry returns with the results
-    l-for now, are we done, mag?
-    m-yes, yes, my impatient son, we are done
-    l-good! /name/ i've got something to show you if you don't mind
-    lance holds out his hand
-    farmer takes it
-    l-right this way, right this way
-    -warps
-    fancy shmancy wibbly warbly area, maybe a glimpse of morabyr
-    l-that portal was showing these lands, the people there are quite distinctive from this little abode, aren't they?
-    l-the ministry is currently looking for scouts, and i've contacted a few people to check
-    l-i'm bound by this place for quite awhile, but they'll be able to give me updates
-    f-seems like you're excited
-    l-ex--well, yes. i guess! (smiles) new lands, new magics, new people! it's one of the most invigorating feelings arou-
-    suddenly lance drops to his knee
-    farmer ???
-    l-i... might've gotten a little too excited... haha... old... old scars.
-    l-pardon
-    lance gets up, shakily
-    l-thanks, usually it doesn't flare up like this but i guess... memories 
-    l-sorry, sorry to cut this fun time short
-    l-is it alright if i head out first?
-    farmer nod/acceptance/yeah
-    l-thank you, hopefully we'll see some good results in a few days
-    l-take care, /name/
-    */
-    "{{ModId}}_4Heart": ""
+    "{{ModId}}_Intro/n canReadJunimoText/": "continue/-500 -500/farmer -1000 -1000 0 {{Lance}} 7 17 1 Wizard 10 17 3/skippable/viewport 8 18 true/speak Wizard \"{{i18n:0.0h}}\"/pause 500/shake Wizard 250/textabovehead Wizard \"{{i18n:Sigh}}\"/speak {{Lance}} \"{{i18n:0.1h}}\"/pause 500/facedirection Wizard 0/pause 50/facedirection Wizard 1/pause 50/speak Wizard \"{{i18n:0.2h}}\"/pause 500/shake {{Lance}} 250/speak {{Lance}} \"{{i18n:0.3h}}\"/pause 300/textabovehead Wizard \"{{i18n:Sigh}}\"/pause 500/facedirection Wizard 1/pause 50/facedirection Wizard 0/pause 50/facedirection Wizard 3/pause 50/speak Wizard \"{{i18n:0.4h}}\"/playSound doorClose/warp farmer 8 24/move farmer 0 -5 0/pause 300/emote farmer 8/pause 200/facedirection {{Lance}} 2/pause 25/facedirection Wizard 2/pause 25/speak Wizard \"{{i18n:0.5h}}\"/pause 500/jump {{Lance}}/pause 25/facedirection {{Lance}} 1/pause 150/speak {{Lance}} \"{{i18n:0.6h}}\"/pause 600/shake Wizard 500/facedirection Wizard 3/pause 25/speak Wizard \"{{i18n:0.7h}}\"/shake {{Lance}} 250/pause 25/facedirection {{Lance}} 2/speak {{Lance}} \"{{i18n:0.8h}}\"/pause 400/emote farmer 32/pause 400/emote farmer 8/pause 400/speak {{Lance}} \"{{i18n:0.9h}}\"/pause 400/warp {{Lance}} -500 -500/playSound wand/pause 10/jump farmer/pause 500/shake Wizard 250/speak Wizard \"{{i18n:0.10h}}\"/end",
+
+    "{{ModId}}_1Heart/f {{Lance}} 250/": "",
+
+    "{{ModId}}_4Heart/f {{Lance}} 1000/": ""
    }
   },
   {
-   "LogName": "2 Heart",
+   "LogName": "Heart Events Town",
    "Action": "EditData",
    "Target": "Data/Events/Town",
    "Entries": {
-    /*
-   2 heart
-    lance's side job is ensuring the lanterns are affixed with monster-repellant magic
-    -it's not much of a job, just something to keep the mind from wandering amidst the blazing sun-
-    -if you don't mind, do you want the wander alongside me as i do this menial chore?-
-    1 sure!/2 not right now/3 would you teach me magic?
-    1/ your company is much appreciated, like respite from heavy downpour
-    2/ oh, well that's alright, feel free to ask for me whenever you do have the time. i know the farm takes quite a lot of vigor
-    3/ i'm not really a teacher, but i can ask magnus if you have the capability.
-    1 & 3/obviously since my hair isn't as vibrant as magnus', i'm not his real child, adoptive son.
-    stole me away from a battlefield while i was a magic soldier for an enemy.
-    can you guess just how old magnus really is?
-    1 like, hundreds?/2 like, thousands?
-    1a hundreds is close, but not quite/2a not a numerous amount of thousands but he's hit his millennium a few decades ago
-    1b try a millennia/2b he doesn't like me talking about his age though
-    "so then, how old are /you/?"
-    *laugh*
-    not anywhere close but i've still outpaced a normal human lifespan.
-    maybe around 150? 180?
-    "you forgot?"
-    time tends to slip away from you if you don't keep on your toes, and we're not exactly fighting for a war with everything at stake anymore
+    "{{ModId}}_2Heart/f {{Lance}} 500/": "",
 
-    finally reaching the last lamppost
-    thanks for coming along with me, it really made time fly, hopefully we'll... see each other again?
-    */
-    "{{ModId}}_2Heart/": ""
+    "{{ModId}}_12Heart/f {{Lance}} 3000/": "",
+
+    "{{ModId}}_12.1Heart/f {{Lance}} 3000/e {{ModId}}_12Heart/": ""
    }
   },
   {
-   "LogName": "3 Heart",
+   "LogName": "Heart Events Adventurer's Guild",
    "Action": "EditData",
    "Target": "Data/Events/AdventureGuild",
    "Entries": {
-    /*
-    3 heart
-    m-well if it isn't the hellion himself
-    l-we both know i haven't been called that in years
-    g-that doesn't mean you can escape the nick, kid
-    l-how much longer will i be a 'kid' to you?
-    m/g laugh
-    m/g probably when you finally figure out how to settle down
-    lance grumbles
-    what does it matter if i've settled down or not?
-    m-y'see, kid, no matter how many years you've got on me, you still have that spark of bewilderment when it comes to relationships
-    l-you're saying that /you/ have more experience?
-    g-folks used to call him the 'marvelous marlon'
-    m-ah we're going back to those stories
-    l-if we're talking of our love life, i've surely had more than my fair share of tastes
-    m/g-he doesn't get it
-    m/g laugh
-    lance grumbles again
-    m-look, kid, someday, someone will just grasp your soul and it'll feel like everything else prior was pointless
-    l-that sounds hellish
-    m-oh, it is
-    farmer enters
-    m-well hello, our adventurer of the hour, we've just been beating the bush with lance here
-    g-kid doesn't know what'll hit him
-    m/g laugh
-    farmer ???
-    l-don't... don't worry about them, shall we?
-    go outside
-    magnus said he'll check your aptitude in a few days, it'll be a few tests and he'll get back to you after the results come back
-    !!!
-    *chuckle* i'll be sure to pick you up from your farm when he's got all the instruments ready
-    walk around to the fountain in town
-    "so why have you come around to pelican town?"
-    oh? a pointed question
-    hmm
-    i'd have to say it's because work has finally slowed down in the capital for me
-    "capital?"
-    ah, mages, wizards, witches, we have our own regions for commerce and legislation
-    it's very boring, and while you wouldn't exactly have to deal with it... if you actually have magic, then if you want to work you'll have to register with the ministry
-    there have been some stories upon the wind that they might need mages for new lands
-    "new lands?"
-    *chuckle*
-    i don't have the exact details, but there's whispers of an unstable portal that's opened up around this area
-    technically, i've been reassigned here to ensure that the portal doesn't cause harm to the populace
-    but it was also nice to just be around my father again
-    a few colleagues are already setting up around the portal. unfortunately i can't get you to greet them just yet.
-    maybe if you have aptitude?
+    "{{ModId}}_3Heart/f {{Lance}} 750/": "",
 
-    it was nice, again, to speak like this with you
-    just, just don't mind what marlon and gil were saying, would you?
-    1 maybe/2 i don't know what they said
-    1a *blush* er, hah... haha, for my sake?/2a that's... good... that's good
-    */
-    "{{ModId}}_3Heart/": ""
+    "{{ModId}}_5Heart/f {{Lance}} 1250/": ""
    }
   },
   {
-   "LogName": "3 Heart",
+   "LogName": "Heart Events Temp",
    "Action": "EditData",
-   "Target": "Data/Events/AdventureGuild",
+   "Target": "Data/Events/Temp",
    "Entries": {
-    "{{ModId}}_5Heart/": ""
+    "{{ModId}}_6Heart/f {{Lance}} 1500/": "",
+
+    "{{ModId}}_7.1Heart/f {{Lance}} 1750/e {{ModId}}_7Heart/": "",
+
+    "{{ModId}}_11Heart/f {{Lance}} 2750/": "",
+
+    "{{ModId}}_13Heart/f {{Lance}} 3250/": "",
+    "{{ModId}}_13.1Heart/f {{Lance}} 3250/e {{ModId}}_13Heart/": "",
+
+    "{{ModId}}_14Heart/f {{Lance}} 3500/": "",
+    "{{ModId}}_14.1Heart/f {{Lance}} 3500/e {{ModId}}_14Heart/": "",
+    "{{ModId}}_14.2Heart/f {{Lance}} 3500/e {{ModId}}_14.1Heart/": "",
+    "{{ModId}}_14.3Heart/f {{Lance}} 3500/e {{ModId}}_14.2Heart/": "",
+    "{{ModId}}_14.5Heart/f {{Lance}} 3500/e {{ModId}}_14.4Heart/": ""
+   }
+  },
+  {
+   "LogName": "Heart Events Lance's Room",
+   "Action": "EditData",
+   "Target": "Data/Events/{{Room}}",
+   "Entries": {
+    "{{ModId}}_9.1Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.2Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.3Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.4Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.5Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.6Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.7Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.8Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.9Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
+    "{{ModId}}_9.10Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": ""
+   }
+  },
+  {
+   "LogName": "Heart Events Beach",
+   "Action": "EditData",
+   "Target": "Data/Events/Beach",
+   "Entries": {
+    "{{ModId}}_6.1Heart/f {{Lance}} 1500/e {{ModId}}_6Heart": "",
+
+    "{{ModId}}_7Heart/f {{Lance}} 1750/": "",
+
+    "{{ModId}}_8Heart/f {{Lance}} 2000/": "",
+
+    "{{ModId}}_11.1Heart/f {{Lance}} 2750/e {{ModId}}_11Heart/": ""
+   }
+  },
+  {
+   "LogName": "Heart Events Hospital",
+   "Action": "EditData",
+   "Target": "Data/Events/Hospital",
+   "Entries": {
+    "{{ModId}}_8.1Heart/f {{Lance}} 2000/e {{ModId}}_8Heart/": ""
+   }
+  },
+  {
+   "LogName": "Heart Events Farm",
+   "Action": "EditData",
+   "Target": "Data/Events/Farm",
+   "Entries": {
+    "{{ModId}}_9Heart/f {{Lance}} 2250/": "",
+
+    "{{ModId}}_10Heart/f {{Lance}} 2500/": "",
+    "{{ModId}}_10.1Heart/f {{Lance}} 2500/e {{ModId}}_10Heart/": "",
+
+    "{{ModId}}_14.4Heart/f {{Lance}} 3500/e {{ModId}}_14.3Heart/": ""
    }
   }
  ]

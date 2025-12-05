@@ -60,6 +60,15 @@
      "Actions": [
       "Spiderbuttons.BETAS_RandomAction \"{{WizLoc}}{{Weekday}}_0 {{LocToken}}\" \"{{WizLoc}}{{Weekday}}_1 {{LocToken}}\" \"{{WizLoc}}{{Weekday}}_2 {{LocToken}}\" \"{{WizLoc}}{{Weekday}}_3 {{LocToken}}\""
      ]
+    },
+    "{{ModId}}_WizYapNoLance": {
+     "Id": "{{ModId}}_WizYapNoLance",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target Wizard, !Spiderbuttons.BETAS_NPC_NEAR_NPC Wizard 20 {{Lance}}, ITEM_STACK Target 1",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_RandomAction \"{{WizLoc}}{{Weekday}}_0 {{LocToken}}\" \"{{WizLoc}}{{Weekday}}_1 {{LocToken}}\" \"{{WizLoc}}{{Weekday}}_2 {{LocToken}}\" \"{{WizLoc}}{{Weekday}}_3 {{LocToken}}\""
+     ]
     }
    }
   },

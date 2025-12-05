@@ -1121,6 +1121,21 @@
  "BETAS.Wiz.Mon_2": "",
  "BETAS.Wiz.Mon_3": "",
 
+ "BETAS.Wiz.Tue_0": "",
+ "BETAS.Wiz.Tue_1": "",
+ "BETAS.Wiz.Tue_2": "",
+ "BETAS.Wiz.Tue_3": "",
+
+ "BETAS.Wiz.Wed_0": "",
+ "BETAS.Wiz.Wed_1": "",
+ "BETAS.Wiz.Wed_2": "",
+ "BETAS.Wiz.Wed_3": "",
+
+ "BETAS.Wiz.Thu_0": "",
+ "BETAS.Wiz.Thu_1": "",
+ "BETAS.Wiz.Thu_2": "",
+ "BETAS.Wiz.Thu_3": "",
+
  "BETAS.Wiz.Fri_0": "",
  "BETAS.Wiz.Fri_1": "",
  "BETAS.Wiz.Fri_2": "",
@@ -1134,5 +1149,22 @@
  "BETAS.Wiz.Sun_0": "",
  "BETAS.Wiz.Sun_1": "",
  "BETAS.Wiz.Sun_2": "",
- "BETAS.Wiz.Sun_3": ""
+ "BETAS.Wiz.Sun_3": "",
+
+
+ //the fucking event dialogue
+ "0.0h": "Well, these portals are a problem.",
+ "0.1h": "I mean, that's why you asked the ministry for help, no?$1",
+ "0.2h": "Had I known they were going to send my own son back to me, I would've cleaned a room up for you.",
+ "0.3h": "What's the use in crying over spilt milk?$3#$b#It was simple enough to set up a warp outside.$1#$b#Did you miss me that much?$6",
+ "0.4h": "Yes, I missed you quite a lot, Lance.#$b#It's good to see you again after so long.",
+ "0.5h": "Hello @.#$b#Good to see the forest's potion didn't put you out for too long.",
+ "0.6h": "The FOREST potion?$8#$b#Really, Mag?$9#$b#You let a mundane drink that absurd potion?$8",
+ "0.7h": "Listen, boy, I had a... feeling, that @ here could read the whispers of the spirits.",
+ "0.8h": "@, you must be something special.$1#$b#That potion is some nasty stuff.$6#$b#Sorry for the interruption. Name's Lance.$7#$b#Pleased to meet you.$1",
+ "0.9h": "Ah, right.$1#$b#If you've seen those strange portals around, I've been called by Magnus here to research and inspect them.$1#$b#That little crystal out front is where I've set up my own little base.$7#$b#But don't let me take too much of Magnus' time.$1#$b#I'll see you later, Mag.$1",
+ "0.10h": "My... Adoptive son...#$b#Please do take care, @.#$b#He is a bit of a handful.",
+
+ //
+ "1.0h": ""
 }

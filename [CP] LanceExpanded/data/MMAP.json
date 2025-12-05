@@ -93,9 +93,10 @@
   },
   {
    "Action": "EditMap",
-   "Target": "Maps/{{Random:Forest,Beach,Mountain,Island_W}}",
+   "Target": "Maps/Forest",
    "When": {
-    "HasMod |contains={{SVEToken}}": false
+    "HasMod |contains={{SVEToken}}": false,
+    "Query: {{Random:{{Range:1,5}}}} = 1": true
    },
    "MapTiles": [
     {
@@ -106,6 +107,134 @@
      "Layer": "Back",
      "SetProperties": {
       "mushymato.MMAP_TAS": "{{ModId}}_PauPortal {{ModId}}_Portal"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Buildings",
+     "SetTilesheet": "outdoors",
+     "SetIndex": "0",
+     "SetProperties": {
+      "Action": "PlayEvent {{ModId}}_6Heart true true"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Beach",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false,
+    "Query: {{Random:{{Range:1,5}}}} = 2": true
+   },
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_PauPortal {{ModId}}_Portal"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Town",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false,
+    "Query: {{Random:{{Range:1,5}}}} = 3": true
+   },
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_PauPortal {{ModId}}_Portal"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Buildings",
+     "SetTilesheet": "Landscape",
+     "SetIndex": "0",
+     "SetProperties": {
+      "Action": "PlayEvent {{ModId}}_6Heart true true"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Mountain",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false,
+    "Query: {{Random:{{Range:1,5}}}} = 4": true
+   },
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_PauPortal {{ModId}}_Portal"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Buildings",
+     "SetTilesheet": "outdoors",
+     "SetIndex": "0",
+     "SetProperties": {
+      "Action": "PlayEvent {{ModId}}_6Heart true true"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/IslandWest",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false,
+    "Query: {{Random:{{Range:1,5}}}} = 5": true
+   },
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_PauPortal {{ModId}}_Portal"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Buildings",
+     "SetTilesheet": "outdoors",
+     "SetIndex": "0",
+     "SetProperties": {
+      "Action": "PlayEvent {{ModId}}_6Heart true true"
      }
     }
    ]
