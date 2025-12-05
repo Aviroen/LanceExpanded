@@ -96,7 +96,7 @@
  "DumpsterDiveComment_3": "",
 
  //HitBySlingshot_
- "HitBySlingshot_0": "",
+ "HitBySlingshot_0": "#$action {0}TextAboveHead {2} \"Tch.\"#$b#A test of YOUR reflexes!$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "HitBySlingshot_1": "",
  "HitBySlingshot_2": "",
  "HitBySlingshot_3": "",

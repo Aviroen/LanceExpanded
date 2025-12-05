@@ -174,6 +174,12 @@
    "Target": "Maps/{{ModId}}_Qiroom, Maps/{{ModId}}_Room",
    "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
   },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Maps/SuzukiPC_Portal, Maps/Aviroen_Portal",
+   "FromFile": "assets/Misc/{{TargetWithoutPath}}.png"
+  },
   { //blank loads so that i can target edit
    "LogName": "BlankLoads",
    "Action": "Load",
@@ -217,7 +223,7 @@
    "When": {
     "HasMod |contains={{SVEToken}}": true
    },
-   "FromFile": "data/SVEData/SVEEvents.json, data/SVEData/SVETA.json, data/SVEData/DateTesting.json, data/SVEData/Schedule.json, data/SVEData/Weddings.json" //data/SVEData/Spiciness/{{Spicier Content}}/HeartEvents.json
+   "FromFile": "data/SVEData/SVEData.json" //data/SVEData/Spiciness/{{Spicier Content}}/HeartEvents.json
   },
   {
    "Action": "Include",

@@ -21,6 +21,42 @@
      "LayerDepth": 0.09,
      "SpawnDelay": 0,
      "LightRadius": 4
+    },
+    "{{ModId}}_PauPortal": {
+     "Id": "{{ModId}}_PauPortal",
+     "Texture": "Maps/SuzukiPC_Portal",
+     "SourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 64,
+      "Height": 96
+     },
+     "Interval": 700,
+     "Frames": 4,
+     "Loops": 999999,
+     "Scale": 1,
+     "RotationChange": 0,
+     "LayerDepth": 0.244,
+     "SpawnDelay": 0,
+     "LightRadius": 4
+    },
+    "{{ModId}}_Portal": {
+     "Id": "{{ModId}}_Portal",
+     "Texture": "Maps/Aviroen_Portal",
+     "SourceRect": {
+      "X": "{{Random:0, 64, 128, 192}}",
+      "Y": 0,
+      "Width": 64,
+      "Height": 96
+     },
+     "Interval": 700,
+     "Frames": 1,
+     "Loops": 999999,
+     "Scale": 1,
+     "RotationChange": 0,
+     "LayerDepth": 0.243,
+     "SpawnDelay": 0,
+     "LightRadius": 4
     }
    }
   },
@@ -51,6 +87,25 @@
      "Layer": "Back",
      "SetProperties": {
       "mushymato.MMAP_TAS": "{{ModId}}_Crystal"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Random:Forest,Beach,Mountain,Island_W}}",
+   "When": {
+    "HasMod |contains={{SVEToken}}": false
+   },
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 19,
+      "Y": 34
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_PauPortal {{ModId}}_Portal"
      }
     }
    ]
