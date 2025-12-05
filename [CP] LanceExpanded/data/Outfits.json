@@ -16,6 +16,7 @@
      "Precedence": -120
     },
     //TALKINGHEADS TESTING
+    /*
     "{{ModId}}_SpringHand": {
      "Id": "{{ModId}}_SpringHand",
      "Condition": "SEASON Spring, PLAYER_HAS_MAIL Current {{ModId}}_DontTrigger Any",
@@ -64,7 +65,9 @@
      "Portrait": "{{InternalAssetKey:assets/Portraits/Lance/{{Appearance}}/Lance.png}}",
      "Sprite": "{{InternalAssetKey:assets/Characters/Lance/{{Appearance}}/Lance.png}}",
      "Precedence": -120
-    }, /* 
+    }, 
+    */
+    /* 
     Chaos testing and some notes for above
     trigger the alt portraits using BETAS:
     Spiderbuttons.BETAS_UpdateAppearance {{Lance}} {{ModId}}_AppearanceEntry
