@@ -7,7 +7,7 @@
     "{{ModId}}_RightInTheKisser": {
      "Id": "{{ModId}}_RightInTheKisser",
      "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-     "Condition": "ITEM_ID Target {{Lance}}",
+     "Condition": "ITEM_ID Target {{Lance}}, Spiderbuttons.BETAS_NPC_KISSED_TODAY {{Lance}}",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}\" \"{{BETASLoc}}Kissed_1 {{LocToken}}\" \"{{BETASLoc}}Kissed_2 {{LocToken}}\" \"{{BETASLoc}}Kissed_3 {{LocToken}}\" \"{{BETASLoc}}Kissed_4 {{LocToken}}\" \"{{BETASLoc}}Kissed_5 {{LocToken}}\""
@@ -16,7 +16,7 @@
     "{{ModId}}_RightInTheKisserMedium": {
      "Id": "{{ModId}}_RightInTheKisserMedium",
      "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-     "Condition": "ITEM_ID Target {{Lance}}, {{Spicier Content|contains=Medium}}",
+     "Condition": "ITEM_ID Target {{Lance}}, Spiderbuttons.BETAS_NPC_KISSED_TODAY {{Lance}}, {{Spicier Content|contains=Medium}}",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}\" \"{{BETASLoc}}Kissed_1 {{LocToken}}\" \"{{BETASLoc}}Kissed_2 {{LocToken}}\" \"{{BETASLoc}}Kissed_3 {{LocToken}}\" \"{{BETASLoc}}Kissed_4 {{LocToken}}\" \"{{BETASLoc}}Kissed_5 {{LocToken}}\" \"{{BETASLoc}}MODERATE_0 {{LocToken}}\" \"{{BETASLoc}}MODERATE_1 {{LocToken}}\" \"{{BETASLoc}}MODERATE_2 {{LocToken}}\" \"{{BETASLoc}}MODERATE_3 {{LocToken}}\" \"{{BETASLoc}}MODERATE_4 {{LocToken}}\" \"{{BETASLoc}}MODERATE_5 {{LocToken}}\"",
@@ -26,7 +26,7 @@
     "{{ModId}}_RightInTheKisserSPICY": {
      "Id": "{{ModId}}_RightInTheKisserSPICY",
      "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-     "Condition": "ITEM_ID Target {{Lance}}, {{Spicier Content|contains=Hot}}",
+     "Condition": "ITEM_ID Target {{Lance}}, Spiderbuttons.BETAS_NPC_KISSED_TODAY {{Lance}}, {{Spicier Content|contains=Hot}}",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}Kissed_0 {{LocToken}}\" \"{{BETASLoc}}Kissed_1 {{LocToken}}\" \"{{BETASLoc}}Kissed_2 {{LocToken}}\" \"{{BETASLoc}}Kissed_3 {{LocToken}}\" \"{{BETASLoc}}Kissed_4 {{LocToken}}\" \"{{BETASLoc}}Kissed_5 {{LocToken}}\" \"{{BETASLoc}}MODERATE_0 {{LocToken}}\" \"{{BETASLoc}}MODERATE_1 {{LocToken}}\" \"{{BETASLoc}}MODERATE_2 {{LocToken}}\" \"{{BETASLoc}}MODERATE_3 {{LocToken}}\" \"{{BETASLoc}}MODERATE_4 {{LocToken}}\" \"{{BETASLoc}}MODERATE_5 {{LocToken}}\" \"{{BETASLoc}}SPICY_0 {{LocToken}}\" \"{{BETASLoc}}SPICY_1 {{LocToken}}\" \"{{BETASLoc}}SPICY_2 {{LocToken}}\" \"{{BETASLoc}}SPICY_3 {{LocToken}}\" \"{{BETASLoc}}SPICY_4 {{LocToken}}\" \"{{BETASLoc}}SPICY_5 {{LocToken}}\"",

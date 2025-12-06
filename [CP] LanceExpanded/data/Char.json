@@ -7,6 +7,12 @@
    "Target": "Portraits/{{Lance}}, Characters/{{Lance}}", //Portraits/{{Lance}}, Portraits/{{Lance}}_Spring, Portraits/{{Lance}}_Summer, Portraits/{{Lance}}_Fall, Portraits/{{Lance}}_Winter, Portraits/{{Lance}}_Winter_Outdoor, Portraits/{{Lance}}_Winter_Indoor, Portraits/{{Lance}}_Flower, Portraits/{{Lance}}_Spirit, Portraits/{{Lance}}_Beach, Portraits/{{Lance}}_Wedding, Portraits/{{Lance}}_Xmas, Characters/{{Lance}}, Characters/{{Lance}}_Spring, Characters/{{Lance}}_Summer, Characters/{{Lance}}_Fall, Characters/{{Lance}}_Winter, Characters/{{Lance}}_Winter_Outdoor, Characters/{{Lance}}_Winter_Indoor, Characters/{{Lance}}_Luau, Characters/{{Lance}}_Flower, Characters/{{Lance}}_Spirit, Characters/{{Lance}}_Beach, Characters/{{Lance}}_Xmas
    "FromFile": "assets/{{TargetPathOnly}}/Lance/{{Appearance}}/Lance.png"
   },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Portraits/Wizard_Aviroen",
+   "FromFile": "assets/Portraits/Wizard.png"
+  },
   //data/char
   {
    "Action": "EditData",

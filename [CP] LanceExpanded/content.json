@@ -9,9 +9,9 @@
   },
   "TalkingHeads": {
    "AllowValues": "true, false",
-   "Default": true,
+   "Default": false,
    "Section": "Appearance",
-   "Description": "Don't know why you'd turn off the main appeal of version 2.0 but you're free to turn off animated higher definition portraits."
+   "Description": "Talking Heads is currently in Super Alpha(TM) and I haven't done much except the first portrait. Default off."
   },
   "Appearance": {
    "AllowValues": "Vanilla Compliant, Aviroen Style, GoodnightLou (Nyapu), Use Custom",
