@@ -30,7 +30,7 @@
    "Action": "EditData",
    "Target": "Data/Events/AdventureGuild",
    "Entries": {
-    "{{ModId}}_3Heart/f {{Lance}} 750/": "",
+    "{{ModId}}_3Heart/f {{Lance}} 750/": "continue/-500 -500/farmer -1000 -1000 0 {{Lance}} -1000 -1000 0 Marlon 5 11 2 Gil 11 12 0/skippable/viewport 6 20 clamp/warp {{Lance}} 6 19/playSound doorClose/move {{Lance}} 0 -6 0 true/pause 200/speak Marlon \"{{i18n:3.0}}\"/pause 500/speak {{Lance}} \"{{i18n:3.1}}\"/pause 500/speak Gil \"{{i18n:3.2}}\"/pause 500/speak {{Lance}} \"{{i18n:3.3}}\"/pause 300/emote Marlon 40/emote Gil 40/shake Marlon 250/textabovehead Marlon \"{{i18n:3.4}}\"/textabovehead Gil \"{{i18n:3.4}}\"/pause 500/speak {{Lance}} \"{{i18n:3.5}}\"/pause 500/speak Marlon \"{{i18n:3.6}}\"/pause 500/speak {{Lance}} \"{{i18n:3.7}}\"/pause 500/speak Gil \"{{i18n:3.8}}\"/pause 500/speak Marlon \"{{i18n:3.9}}\"/pause 500/emote {{Lance}} 40/shake {{Lance}} 250/pause 500/speak {{Lance}} \"{{i18n:3.10}}\"/pause 600/emote Marlon 40/emote Gil 40/pause 300/textabovehead Marlon \"{{i18n:3.11}}\"/textabovehead Gil \"{{i18n:3.11}}\"/pause 500/speak Marlon \"{{i18n:3.12}}\"/pause 500/speak {{Lance}} \"{{i18n:3.13}}\"/pause 600/textabovehead Marlon \"{{i18n:3.14}}\"/textabovehead Gil \"{{i18n:3.14}}\"/pause 1800/beginsimultaneouscommand/shake {{Lance}} 250/emote Marlon 40/pause 100/emote Marlon 32/emote Gil 40/pause 100/emote {{Lance}} 36/pause 250/jump {{Lance}} 3/emote {{Lance}} 12/endsimultaneouscommand/playsound doorClose/warp farmer 6 19/jump {{Lance}} 3/pause 100/facedirection {{Lance}} 1/pause 100/facedirection {{Lance}} 2/move farmer 0 -5 0 true/viewport move 0 1 1200/speak Marlon \"{{i18n:3.15}}\"/pause 500/speak Gil \"{{i18n:3.16}}\"/pause 300/jump {{Lance}} 3/emote {{Lance}} 60/pause 600/speak {{Lance}} \"{{i18n:3.17}}\"/pause 500/emote farmer 40/pause 100/emote farmer 32/pause 100/emote {{Lance}} 32/pause 300/globalfade/viewport -1000 -1000/changeToTemporaryMap Town false/bgColor 0 0 0/ambientLight 0 0 0/warp farmer 25 22/warp {{Lance}} 26 22/facedirection farmer 2/facedirection {{Lance}} 2/globalfadetoclear .007 true/viewport 26 23/pause 600/emote {{Lance}} 40/pause 300/speak {{Lance}} \"{{i18n:3.18}}\"/pause 300/jump farmer 3/emote farmer 32/pause 100/emote farmer 8/pause 300/speak {{Lance}} \"{{i18n:3.19}}\"/pause 300/emote farmer 28/message \"{{i18n:3.20}}\"/pause 300/emote {{Lance}} 40/pause 600/speak {{Lance}} \"{{i18n:3.21}}\"/pause 300/emote {{Lance}} 40/pause 600/speak {{Lance}} \"{{i18n:3.22}}\"/pause 300/jump farmer 3/emote farmer 8/pause 600/speak {{Lance}} \"{{i18n:3.23}}\"/pause 600/emote {{Lance}} 40/pause 600/speak {{Lance}} \"{{i18n:3.24}}\"/pause 600/emote {{Lance}} 28/speak {{Lance}} \"{{i18n:3.25}}\"/pause 600/speak {{Lance}} \"{{i18n:3.26}}\"/emote farmer 16/pause 600/speak {{Lance}} \"{{i18n:3.27}}\"/emote {{Lance}} 60/emote farmer 32/pause 600/speak {{Lance}} \"{{i18n:3.28}}\"/pause 600/speak {{Lance}} \"{{i18n:3.29}}\"/emote {{Lance}} 40/emote farmer 8/pause 600/speak {{Lance}} \"{{i18n:3.30}}\"/pause 600/speak {{Lance}} \"{{i18n:3.31}}\"/pause 200/emote farmer 40/emote farmer 32/quickquestion {{i18n:3.32}}(break)speak {{Lance}} \"{{i18n:3.32a}}\"(break)speak {{Lance}} \"{{i18n:3.32b}}\"/pause 600/speak {{Lance}} \"{{i18n:3.33}}\"/end",
 
     "{{ModId}}_5Heart/f {{Lance}} 1250/": ""
    }
@@ -61,16 +61,16 @@
    "Action": "EditData",
    "Target": "Data/Events/{{Room}}",
    "Entries": {
-    "{{ModId}}_9.1Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.2Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.3Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.4Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.5Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.6Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.7Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.8Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.9Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": "",
-    "{{ModId}}_9.10Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/": ""
+    "{{ModId}}_9.1Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.2Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.3Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.4Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.5Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.6Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.7Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.8Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.9Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": "",
+    "{{ModId}}_9.10Heart/f {{Lance}} 2250/e {{ModId}}_9Heart/D {{Lance}}/": ""
    }
   },
   {
