@@ -97,18 +97,18 @@
  //DumpsterDiveComment_
  "DumpsterDiveComment_0": "Well--$8#$b#Don't let me interrupt you.$8",
  "DumpsterDiveComment_1": "Oh, don't mind me.$8#$b#Just passing by...$9",
- "DumpsterDiveComment_2": "",
- "DumpsterDiveComment_3": "",
+ "DumpsterDiveComment_2": "Hmm?$8#$b#Hmm...$9",
+ "DumpsterDiveComment_3": "Ah.$9#$b#Hello... there... @...$8",
 
  //HitBySlingshot_
  "HitBySlingshot_0": "#$action {0}TextAboveHead {2} \"Tch.\"#$b#A test of YOUR reflexes!$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
- "HitBySlingshot_1": "",
- "HitBySlingshot_2": "",
- "HitBySlingshot_3": "",
+ "HitBySlingshot_1": "Excuse me?$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "HitBySlingshot_2": "To make light of a mage is a test of foolishness...$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "HitBySlingshot_3": "!!!$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
 
  //SpouseFarmhouseClutter_
- "SpouseFarmhouseClutter_0": "",
- "SpouseFarmhouseClutter_1": "",
+ "SpouseFarmhouseClutter_0": "Do you... need some help cleaning up, honey?$6",
+ "SpouseFarmhouseClutter_1": "Surely, I could conjure up another storage if need be, honey...$6",
  "SpouseFarmhouseClutter_2": "",
  "SpouseFarmhouseClutter_3": "",
 
