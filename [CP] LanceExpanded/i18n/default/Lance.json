@@ -27,7 +27,7 @@
  //standalone
  "Mon_0": "I'm not much of a morning person.$1#$b#But Mag needs me to be around for research.$6",
  "Mon_1": "Sometimes, I have dreams of red sand.#$b#Sounds weird, doesn't it?$8",
- "Mon_2": "$action {0}TextAboveHead {2} \"Hmmm...\"#$b#Changed something about your look today?$1",
+ "Mon_2": "Changed something about your look today?$1",
  "Mon_3": "Would 'Sweetheart' be too shocking to hear?#$b#I've gotten used to pet names and some people have called me callous for it.$4",
  "Mon2_0": "Shh...$8#$b#One of Mag's new spots to hide stuff is in that corner...$9",
  "Mon2_1": "$query PLAYER_HAS_SEEN_EVENT Current {1}_2Heart # If you're feeling impatient about when the test will be, apologies.$4#$b#There's a lot of annoying bureaucracy surrounding these tests.$4 | You okay, Sweetheart?$1#$b#You seemed a bit lost.",
@@ -1294,5 +1294,5 @@
  "4.31": "Take care, @.$4",
 
  //
- "5.0": "doot"
+ "5.0": "☹︎♏︎⧫︎ ♏︎⌧︎◻︎♋︎■︎⬧︎♏︎ ♍︎□︎■︎⧫︎❒︎♋︎♍︎⧫︎📪︎ ♏︎□︎■︎ ♌︎♏︎♍︎□︎❍︎♏︎ ♓︎■︎⬧︎⧫︎♋︎■︎⧫︎📬︎📬︎📬︎#$b#❄︎♒︎❒︎□︎⬥︎ ⬥︎♓︎♎︎♏︎ ⧫︎♒︎♏︎ ♑︎♋︎⧫︎♏︎⬧︎ ⬧︎□︎ ⬥︎♏︎ ❍︎♋︎⍓︎ ◻︎♋︎⬧︎⬧︎✏︎"
 }
