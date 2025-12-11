@@ -189,13 +189,18 @@
    },
    "Entries": {
     "spring": "610 {{Room}} 10 10 0",
-    "{{Lance}}_Mon": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    //annoying magnus
+    "{{Lance}}_Mon": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{LanceAnim}}/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    //forest portal
     "{{Lance}}_Tue": "610 {{Room}} 10 10 0/1200 Forest 20 34 3/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    //beach portal
     "{{Lance}}_Wed": "610 {{Room}} 10 10 0/1200 Beach 24 34 3/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    //town portal
     "{{Lance}}_Thu": "610 {{Room}} 10 10 0/1200 Town 20 34 3/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
-    "{{Lance}}_Fri": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingKneel/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
-    "{{Lance}}_Sat": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
-    "{{Lance}}_Sun": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{Lance}}_Special1/2600 {{Room}} 14 4 1 {{Lance}}_sleep"
+    //annoying magnus
+    "{{Lance}}_Fri": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingKneel/1900 {{Room}} 6 15 3 {{LanceAnim}}/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Sat": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{LanceAnim}}/2600 {{Room}} 14 4 1 {{Lance}}_sleep",
+    "{{Lance}}_Sun": "610 {{Room}} 10 10 0/1200 WizardHouse 5 14 2 {{Lance}}_NoddingStand/1900 {{Room}} 6 15 3 {{LanceAnim}}/2600 {{Room}} 14 4 1 {{Lance}}_sleep"
    }
   },
   {

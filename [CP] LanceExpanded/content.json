@@ -164,6 +164,34 @@
   {
    "Name": "Room",
    "Value": "{{ModId}}_Room"
+  },
+  {
+   "Name": "LanceAnim",
+   "Value": "{{Lance}}_Sword",
+   "When": {
+    "Query: {{Random:{{Range:1,4}} }} = 1": true
+   }
+  },
+  {
+   "Name": "LanceAnim",
+   "Value": "{{Lance}}_NoddingKneel",
+   "When": {
+    "Query: {{Random:{{Range:1,4}} }} = 2": true
+   }
+  },
+  {
+   "Name": "LanceAnim",
+   "Value": "{{Lance}}_NoddingStand",
+   "When": {
+    "Query: {{Random:{{Range:1,4}} }} = 3": true
+   }
+  },
+  {
+   "Name": "LanceAnim",
+   "Value": "{{Lance}}_LeftWag",
+   "When": {
+    "Query: {{Random:{{Range:1,4}} }} = 4": true
+   }
   }
  ],
  ////////////////////////////////////////////////////////// START OF CHANGES
