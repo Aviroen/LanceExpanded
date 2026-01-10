@@ -1,0 +1,78 @@
+{
+ "Changes": [
+  // Load texture
+  {
+   "LogName": "LanceTrinket",
+   "Action": "Load",
+   "Target": "Mods/{{ModId}}/Assets/Misc/LanceTrinket",
+   "FromFile": "{{Target}}.png"
+  },
+  // Edit Data/Trinkets
+  {
+   "LogName": "LanceTrinket Data/Trinkets",
+   "Action": "EditData",
+   "Target": "Data/Trinkets",
+   "Entries": {
+    "{{Lance}}Trinket": {
+     // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+     "Id": "{{Lance}}Trinket",
+     // Display name (with i18n)
+     "DisplayName": "{{i18n:LanceTrinket}}",
+     // Description, can include {0} token for the trinket level and {1} for ability descriptions
+     "Description": "{{i18n:LanceTrinket.Trinket.Description}}",
+     // Path to asset texture load target
+     "Texture": "Mods/{{ModId}}/Assets/Misc/LanceTrinket",
+     // Sheet index (with 16x16 sprite size)
+     "SheetIndex": 0,
+     // Type that controls behavior of trinket, changing this alters what the trinket does, but several effects are hardcoded.
+     "TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+     // Add trinket to random drop pool once player attains combat mastery
+     // Can still add other ways to acquire (e.g. shops, machine outputs)
+     "DropsNaturally": false,
+     // Allow trinket to reroll stats on the anvil (and reroll appearance on the colorizer, for trinkets with tinker data).
+     "CanBeReforged": false
+     // Mod specific data, not used by base game or TrinketTinker
+     // "CustomFields": null,
+     // "ModData": null
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "mushymato.TrinketTinker/Tinker",
+   "TargetField": ["{{Lance}}Trinket"],
+   "Entries": {
+    "Variants": [
+     // This block is the top level Variant
+     {
+      "Texture": "Characters/{{Lance}}",
+      //"TextureExtra": "<additional texture asset name>",
+      "Width": 16,
+      "Height": 32,
+      "TextureScale": 4,
+      "ShadowScale": 3,
+      "NPC": "{{Lance}}",
+      "Name": "{{GenLoc}}Lance]",
+      "Portrait": "Portrait/{{Lance}}",
+      "ShowBreathing": true,
+      "AltVariants": {
+       // These blocks are AltVariant
+       "SUMMER": {
+        "Texture": "{{InternalAssetKey:assets/Characters/Lance/{{Appearance}}/Lance_Summer.png}}",
+        "Condition": "SEASON summer"
+       },
+       "FALL": {
+        "Texture": "{{InternalAssetKey:assets/Characters/Lance/{{Appearance}}/Lance_Fall.png}}",
+        "Condition": "SEASON fall"
+       },
+       "WINTER": {
+        "Texture": "{{InternalAssetKey:assets/Characters/Lance/{{Appearance}}/Lance_Winter_Outdoor.png}}",
+        "Condition": "SEASON winter"
+       }
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

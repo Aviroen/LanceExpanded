@@ -28,10 +28,6 @@
    "IsRequired": true
   },
   {
-   "UniqueID": "irocendar.TalkingHeads",
-   "IsRequired": true
-  },
-  {
    "UniqueID": "Spiderbuttons.CustomScheduleKeys",
    "IsRequired": true
   },
@@ -49,6 +45,10 @@
   },
   {
    "UniqueID": "rokugin.extramapactions",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "irocendar.TalkingHeads",
    "IsRequired": true
   }
  ],

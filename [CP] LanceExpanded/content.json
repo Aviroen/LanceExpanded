@@ -130,11 +130,11 @@
   },
   {
    "Name": "BETASLoc",
-   "Value": "Spiderbuttons.BETAS_SetNewDialogue {{Lance}} {{CleanLoc}}BETAS.{{SVETog}}"
+   "Value": "Spiderbuttons.BETAS_DialogueBox {{Lance}} {{CleanLoc}}BETAS.{{SVETog}}{{Weekday}}"
   },
   {
    "Name": "WizLoc",
-   "Value": "Spiderbuttons.BETAS_SetNewDialogue Wizard {{CleanLoc}}BETAS.Wiz.{{SVETog}}"
+   "Value": "Spiderbuttons.BETAS_DialogueBox Wizard {{CleanLoc}}BETAS.Wiz.{{SVETog}}{{Weekday}}"
   },
   {
    "Name": "Affection",
@@ -244,14 +244,14 @@
    "When": {
     "HasMod |contains={{SVEToken}}": false
    },
-   "FromFile": "data/Standalone/StandaloneEvents.json" //data/Standalone/Spiciness/{{Spicier Content}}/HeartEvents.json
+   "FromFile": "data/Standalone/StandaloneEvents.json" //data/Standalone/Spiciness/{{Spicier Content}}.json
   },
   {
    "Action": "Include",
    "When": {
     "HasMod |contains={{SVEToken}}": true
    },
-   "FromFile": "data/SVEData/SVEData.json" //data/SVEData/Spiciness/{{Spicier Content}}/HeartEvents.json
+   "FromFile": "data/SVEData/SVEData.json, data/SVEData/Spiciness/{{Spicier Content}}.json" //
   },
   {
    "Action": "Include",
