@@ -1,0 +1,79 @@
+{
+ "ForageSpawnEnabled": false,
+ "LargeObjectSpawnEnabled": false,
+ "OreSpawnEnabled": false,
+ "MonsterSpawnEnabled": true,
+ "Monster_Spawn_Settings": {
+  "Areas": [
+   {
+    "MonsterTypes": [
+     {
+      "MonsterName": "royal serpent",
+      "Settings": {
+       "SpawnWeight": 5,
+       "HP": 1000,
+       "PersistentHP": true,
+       "Damage": 40,
+       "Defense": 10,
+       "DodgeChance": 0,
+       "EXP": 100,
+       "Loot": [
+        16,
+        "joja cola",
+        {
+         "category": "weapon",
+         "name": "galaxy sword"
+        }
+       ],
+       "ExtraLoot": true,
+       "SightRange": -1,
+       "SeesPlayersAtSpawn": true,
+       "RangedAttacks": false,
+       "InstantKillImmunity": true,
+       "StunImmunity": true,
+       "Segments": 8,
+       "Sprite": "Characters/Monsters/Royal Serpent",
+       "RelatedSkill": "Combat",
+       "MinimumSkillLevel": 5,
+       "PercentExtraHPPerSkillLevel": 2,
+       "PercentExtraDamagePerSkillLevel": 10
+      }
+     }
+    ],
+    "UniqueAreaID": "{{ModId}}_Spawn1",
+    "MapName": "Town",
+    "MinimumSpawnsPerDay": 1,
+    "MaximumSpawnsPerDay": 1,
+    "IncludeTerrainTypes": [],
+    "ExcludeTerrainTypes": [],
+    "IncludeCoordinates": [
+     "32,61/32,61"
+    ],
+    "ExcludeCoordinates": [],
+    "StrictTileChecking": "Maximum",
+    "SpawnTiming": {
+     "StartTime": 600,
+     "EndTime": 600,
+     "MinimumTimeBetweenSpawns": 10,
+     "MaximumSimultaneousSpawns": null,
+     "OnlySpawnIfAPlayerIsPresent": false,
+     "SpawnSound": ""
+    },
+    "ExtraConditions": {
+     "Years": [],
+     "Seasons": [],
+     "Days": [],
+     "WeatherYesterday": [],
+     "WeatherToday": [],
+     "WeatherTomorrow": [],
+     "GameStateQueries": [],
+     "CPConditions": {},
+     "EPUPreconditions": [],
+     "LimitedNumberOfSpawns": null
+    },
+    "DaysUntilSpawnsExpire": null
+   }
+  ],
+  "CustomTileIndex": []
+ }
+}

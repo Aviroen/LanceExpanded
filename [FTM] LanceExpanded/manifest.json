@@ -1,0 +1,13 @@
+{
+ "UniqueID": "Aviroen.LEFTM",
+ "Name": "Lance Expanded FTM",
+ "Author": "Aviroen",
+ "Version": "0.1.0",
+ "Description": "FTM Component of Lance Expanded",
+ "MinimumApiVersion": "4.0.0",
+ "ContentPackFor": {
+  "UniqueID": "Esca.FarmTypeManager",
+  "MinimumVersion": "1.23.0"
+ },
+ "UpdateKeys": ["Nexus:?????"]
+}

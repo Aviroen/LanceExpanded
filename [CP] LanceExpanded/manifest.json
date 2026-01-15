@@ -50,6 +50,10 @@
   {
    "UniqueID": "irocendar.TalkingHeads",
    "IsRequired": true
+  },
+  {
+   "UniqueID": "Aviroen.LEFTM",
+   "IsRequired": true
   }
  ],
  "ContentPackFor": {
