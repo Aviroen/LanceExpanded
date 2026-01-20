@@ -33,19 +33,27 @@
       "MarkActionApplied Current {{ModId}}_RightInTheKisser true"
      ]
     },
+/*
+    "{{ModId}}_Yap": {
+     "Id": "{{ModId}}_Yap",
+     "Trigger": "Spiderbuttons.BETAS_MorningStarted",
+     "Condition": "",
+     "MarkActionApplied": false,
+     "Action": "Spiderbuttons.BETAS_WritePlayerModData {{ModId}}_Yapper On"
+    },
     "{{ModId}}_Yapping": {
      "Id": "{{ModId}}_Yapping",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{Lance}}, {{Query:{{Hearts:{{Lance}}}} < 2}}, ITEM_STACK Target 1",
+     "Condition": "ITEM_ID Target {{Lance}}, {{Query:{{Hearts:{{Lance}}}} < 2}}, ITEM_STACK Target 1, Spiderbuttons.BETAS_PLAYER_MOD_DATA Current {{ModId}}_Yapper On",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}{{Weekday}}_0 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}_1 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}_2 {{LocToken}}\" \"{{BETASLoc}}{{Weekday}}_3 {{LocToken}}\""
+      "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}_0 {{LocToken}}\" \"{{BETASLoc}}_1 {{LocToken}}\" \"{{BETASLoc}}_2 {{LocToken}}\" \"{{BETASLoc}}_3 {{LocToken}}\""
      ]
     },
     "{{ModId}}_YappingHearts": {
      "Id": "{{ModId}}_YappingHearts",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{Lance}}, {{Query:{{Hearts:{{Lance}}}} >= 2}}, ITEM_STACK Target 1",
+     "Condition": "ITEM_ID Target {{Lance}}, {{Query:{{Hearts:{{Lance}}}} > 2}}, ITEM_STACK Target 1, Spiderbuttons.BETAS_PLAYER_MOD_DATA Current {{ModId}}_Yapper On",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_RandomAction \"{{BETASLoc}}{{Hearts:{{Lance}}}}_0 {{LocToken}}\" \"{{BETASLoc}}{{Hearts:{{Lance}}}}_1 {{LocToken}}\" \"{{BETASLoc}}{{Hearts:{{Lance}}}}_2 {{LocToken}}\" \"{{BETASLoc}}{{Hearts:{{Lance}}}}_3 {{LocToken}}\"",
@@ -55,21 +63,13 @@
     "{{ModId}}_WizYap": {
      "Id": "{{ModId}}_WizYap",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target Wizard, Spiderbuttons.BETAS_NPC_NEAR_NPC Wizard 20 {{Lance}}, ITEM_STACK Target 1",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"{{WizLoc}}_0 {{LocToken}}\" \"{{WizLoc}}_1 {{LocToken}}\" \"{{WizLoc}}_2 {{LocToken}}\" \"{{WizLoc}}_3 {{LocToken}}\""
-     ]
-    },
-    "{{ModId}}_WizYapNoLance": {
-     "Id": "{{ModId}}_WizYapNoLance",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target Wizard, !Spiderbuttons.BETAS_NPC_NEAR_NPC Wizard 20 {{Lance}}, ITEM_STACK Target 1",
+     "Condition": "ITEM_ID Target Wizard, ITEM_STACK Target 1, Spiderbuttons.BETAS_PLAYER_MOD_DATA Current {{ModId}}_Yapper On",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_RandomAction \"{{WizLoc}}_0 {{LocToken}}\" \"{{WizLoc}}_1 {{LocToken}}\" \"{{WizLoc}}_2 {{LocToken}}\" \"{{WizLoc}}_3 {{LocToken}}\""
      ]
     }
+ */
    }
   },
   {

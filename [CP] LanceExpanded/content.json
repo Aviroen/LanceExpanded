@@ -18,6 +18,12 @@
    "Default": "Aviroen Style",
    "Section": "Appearance",
    "Description": "This toggles between the portrait art. 'Use Custom' will turn off all portrait changes."
+  },
+  "Magnus Portrait": {
+   "AllowValues": "true, false",
+   "Default": false,
+   "Section": "Appearance",
+   "Description": "This toggles whether you want my art for Magnus."
   }
  },
  "DynamicTokens": [
@@ -91,12 +97,30 @@
    }
   },
   {
+   "Name": "WizPortrait",
+   "Value": "skippable",
+   "When": {
+    "Magnus Portrait": false
+   }
+  },
+  {
+   "Name": "WizPortrait",
+   "Value": "changePortrait Wizard {{ModId}}/skippable",
+   "When": {
+    "Magnus Portrait": true
+   }
+  },
+  {
    "Name": "VSToken",
    "Value": "Aviroen.VoidsentCP"
   },
   {
    "Name": "LocToken",
-   "Value": "Spiderbuttons.BETAS_ Aviroen.LanceExpanded {{Lance}}]"
+   "Value": "Spiderbuttons.BETAS_ Aviroen.LanceExpanded {{Lance}}]" //#$action Spiderbuttons.BETAS_TriggerAction {{ModId}}_Yapping Manual
+  },
+  {
+   "Name": "Yapper",
+   "Value": "action Spiderbuttons.BETAS_RemovePlayerModData {{ModId}}_Yapper On"
   },
   {
    "Name": "iroTH",
@@ -201,6 +225,12 @@
    "Priority": "Low",
    "Target": "Maps/{{ModId}}_Qiroom, Maps/{{ModId}}_Room",
    "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
+  },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Portraits/Wizard_{{ModId}}",
+   "FromFile": "assets/Portraits/Wizard.png"
   },
   {
    "Action": "Load",
